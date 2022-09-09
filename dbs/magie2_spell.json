@@ -1,0 +1,1704 @@
+{
+  "Affenarme": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klammeraffe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lange Arme",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Affenruf": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkere Ablenkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Arachnea": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spezieswahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Attributo (Gewandtheit)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Attributo (Intuition)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Attributo (Konstitution)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Attributo (Mut)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Avilea": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spezieswahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Basaltleib": [
+    {
+      "name": "Erzschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Brandungsleib": [
+    {
+      "name": "Wasserschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Brennender Hass": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufeinanderhetzen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Drachenleib": [
+    {
+      "name": "Feuerschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dämonisches Vergessen": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Berührungszeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eichenleib": [
+    {
+      "name": "Humusschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eigene Dummheit": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extreme Dummheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eigene Ängste": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extreme Angst",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eispfeil": [
+    {
+      "name": "Andere Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erzpfeil": [
+    {
+      "name": "Andere Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eulenruf": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Blitzschnell",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Scharfe Krallen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Federleib": [
+    {
+      "name": "Luftschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Feenstaub": [
+    {
+      "name": "Größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch viel größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Feuerpfeil": [
+    {
+      "name": "Andere Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Firnlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Flammenwand": [
+    {
+      "name": "Höhere Wand ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Fledermausruf": [
+    {
+      "name": "Aggressive Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geflatter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schwarmteilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Frostleib": [
+    {
+      "name": "Eisschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geisteressenz": [
+    {
+      "name": "Größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch viel größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Gifthaut": [
+    {
+      "name": "Starkes Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ablösbares Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexibles Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Glutlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hexenholz": [
+    {
+      "name": "Mehrere Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hexengeschoss",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Poltergeist",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hexenknoten": [
+    {
+      "name": "Ausgenommen Freunde 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kreisrund",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgenommen Freunde 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hexenspeichel": [
+    {
+      "name": "Erholung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gift- und Krankheitsheilung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eingespeichelter Gegenstand ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hilfreiche Pfote": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hilfreiche Schwinge": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hilfreiche Tatze": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einen Elfenfreund verteidigen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Himmelslauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hornissenruf": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starkes Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Allergische Reaktion",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Humuspfeil": [
+    {
+      "name": "Andere Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Katzenruf": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Neun Leben",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Scharfe Krallen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Krabbelnder Schrecken": [
+    {
+      "name": "Verwirrende Angst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Ekel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kraft des Tieres": [
+    {
+      "name": "Stärke des Tiers 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wirklich stark",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärke des Tiers 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Krähenruf": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Scharfe Schnäbel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielgenauigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kulminatio": [
+    {
+      "name": "Intensiver Blitz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zuckender Blitz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Levthans Feuer": [
+    {
+      "name": "Interesse bei anderer Person wecken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Regeneration schenken oder stehlen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Regenerationstausch",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Luftpfeil": [
+    {
+      "name": "Andere Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mal der Erschöpfung": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extreme Erschöpfung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mal der Schwäche": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extreme Schwäche",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Objectovoco": [
+    {
+      "name": "Mehr Fragen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Antworten mit Zahlen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wann-Fragen beantworten",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pandaemonium": [
+    {
+      "name": "Hexe verschonen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Dichtes Pandaemonium",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pestodem": [
+    {
+      "name": "Übles Gas",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Halbkreis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Reptilea": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spezieswahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sanfter Fall": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klippensturz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schlangenruf": [
+    {
+      "name": "Blitzschnell",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Giftig",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schlechte Ausstrahlung": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extrem schlechte Ausstrahlung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schleier der Unwissenheit": [
+    {
+      "name": "Verborgenes Geheimnis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Kulturschaffende und Objekte verschleiern",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Seelentier erkennen": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hervorragendes Überreden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erhöhte Willenskraft",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Seidenzunge": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Serpentialis": [
+    {
+      "name": "Vier Schlangen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lange Schlangen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sechs Schlangen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Spinnenruf": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starkes Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spinnenpanik",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Standfest": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Absolut standfest",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Steinwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Tiere besprechen": [
+    {
+      "name": "Größere Tiere heilen ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Tiere heilen ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tierkrankheit heilen ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Unentflammbarkeit": [
+    {
+      "name": "Feuerfestes Vertrautentier",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längeres Intervall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brennsichere Kleidung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ungeschickt": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremes Ungeschick",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Verunsicherung": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extreme Unsicherheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Vipernblick": [
+    {
+      "name": "Starrer Blick",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Erinnerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wasserpfeil": [
+    {
+      "name": "Andere Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Geschosse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Welle der Reinigung": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Schwarmtiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Welle des Schmerzes": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Halbkreis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wellenlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wipfellauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wüstenlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zauberpferd herbeirufen": [
+    {
+      "name": "Schnelleres Pferd",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gutes Pferd",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Treues Pferd",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zitterfinger": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremes Zittern",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

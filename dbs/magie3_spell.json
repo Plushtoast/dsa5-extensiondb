@@ -1,0 +1,899 @@
+{
+  "Aquafaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aquasphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Atemnot": [
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Acht Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aura der Erschöpfung": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Halbkreis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blitzball": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Böser Blick": [
+    {
+      "name": "Nicht näher kommen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dornenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eiswand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erschöpfungen lindern": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Fesselfeld": [
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schutz vor Geschossen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementare Zerstörung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Frigifaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Frigisphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Große Verwirrung": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Halluzination": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wahnvorstellungen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Herr über das Tierreich": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch mehr Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Humofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Humosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invinculo": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Festhalten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nebelform": [
+    {
+      "name": "Lange Nebelexistenz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windflug",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Oktagramma": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Feen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Feen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Panik überkomme euch": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Halbkreis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pestilenz erspüren": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Patienten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Heilungschancen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schimmernder Schild": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schuppenhaut": [
+    {
+      "name": "Feuerresistente Schuppen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Scharfe Schuppen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sensattacco": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere kritische Trefferchance",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Automatischer Erfolg beim Bestätigungswurf",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sinesigil": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "An und Aus",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sphärenbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Stillstand": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zähflüssig",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sturm der Verunsicherung": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Halbkreis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sturmwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sumus Elixiere": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Leichte Zubereitung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Temporalbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Tempus Stasis": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewegung im Stillstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wellenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Woge der Versteinerung": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Halbkreis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zorn der Elemente": [
+    {
+      "name": "Schweres Ausweichen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harter Aufprall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zunge betäuben": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zungentaubheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zweifel schüren": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Zweifel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zwingtanz": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erschöpfender Tanz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

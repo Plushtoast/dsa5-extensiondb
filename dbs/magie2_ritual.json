@@ -1,0 +1,853 @@
+{
+  "Adamantium": [
+    {
+      "name": "Größere Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Animatio": [
+    {
+      "name": "Wiederholung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schlauer Gegenstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Band der Freundschaft": [
+    {
+      "name": "Gelungene Beeinflussung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gelungene Beeinflussung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gelungene Beeinflussung 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blick in die Vergangenheit": [
+    {
+      "name": "Reichweite Berührung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verlangsamung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Brandform": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bärenruhe": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Halbschlaf",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Custodosigil": [
+    {
+      "name": "Vertrauenswürdige Personen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Internes Feuer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Gegenstände",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Destructibo": [
+    {
+      "name": "Entzauberung von selbst aufladenden Artefakten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufheben von Bindungsritualen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufheben von dauerhaft wirkenden Artefakten",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eins mit der Natur": [
+    {
+      "name": "Kälte und Wärme ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ergebenheit der Wogen": [
+    {
+      "name": "Bewusstsein",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erhabenheit des Marmors": [
+    {
+      "name": "Bewusstsein",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Felsenform": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Freiheit der Wolken": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewusstsein",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geisterbeschwörung": [
+    {
+      "name": "Mehr Dienste ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freundliche Einstellung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geisterruf": [
+    {
+      "name": "Mehr Dienste ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freundliche Einstellung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Gletscherform": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Klarheit des Eises": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewusstsein",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Körperlose Reise": [
+    {
+      "name": "Körpergefühl ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch Objekte ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Manifestation ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Madas Spiegel": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Umgebungsansicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nekropathia": [
+    {
+      "name": "Körpergefühl ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mitnahme ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wechsel des Totenreichs ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nihilogravo": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewegliche Zone",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pflanzenform": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Reinheit der Lohe": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewusstsein",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ruf der Feenwesen": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freundlichen Einstellung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Seelenwanderung": [
+    {
+      "name": "Längere Wirkungsdauer ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fremder Tausch ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Endgültiger Seelentausch ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Standhafter Wächter": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schmerzloser Wächter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Transmutare": [
+    {
+      "name": "Stimme und Geruch",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Traumgestalt": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mitnahme ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Traummeister ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Weisheit der Bäume": [
+    {
+      "name": "Reichweite Berührung ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewusstsein ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wirbelform": [
+    {
+      "name": "Größerer Radius ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1 ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2 ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zaubernahrung": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Elfenbrot",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geteiltes Elfenbrot",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zauberschnurren": [
+    {
+      "name": "Überträger",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsames Schnurren",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zauberwesen der Natur": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freundliche Einstellung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zauberzwang": [
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vergessen nach Erfüllung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Überlegener Krieger": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schmerzloser Wächter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wogenform": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": null,
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Weiches Erstarre": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harte Flüssigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

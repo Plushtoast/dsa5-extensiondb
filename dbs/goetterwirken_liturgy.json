@@ -1,0 +1,2716 @@
+{
+  "Angriffslust": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Angriffswelle": [
+    {
+      "name": "Harte Welle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Tosende Welle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Auge des Jägers": [
+    {
+      "name": "Spezielles Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch Feuer und Erz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klare Sicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bann der Dunkelheit": [
+    {
+      "name": "Lichtregulation",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lichtkegel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bann der Furcht": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bann der göttlichen Gaben": [
+    {
+      "name": "Liturgiedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bann des Lichts": [
+    {
+      "name": "Längeres Intervall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bann wider Untote": [
+    {
+      "name": "Verteilter Schaden 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilter Schaden 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bannstrahl": [
+    {
+      "name": "Verteilter Schaden 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilter Schaden 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Befreiung des Geistes": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Begnadeter Reiter": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bescheidenheit": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Prinzipientreue 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Prinzipientreue 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Beschwörung der gemeinen Diener des Rattenkindes": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Besänftigung": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blendstrahl": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blendung": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Liturgiedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blick des Heilers": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Genaue Erkenntnis",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blitzschlag": [
+    {
+      "name": "Verwirrender Blitz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Betäubender Blitz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brandblitz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blutiger Zorn": [
+    {
+      "name": "Wählbare Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wildes Wüten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blutzoll": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Bodenweihe": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Delphinruf": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Delphine",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Delphine",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Des Einen bezaubernder Sphärenklang": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geringer Widerstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lange und starke Hörigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dämonenwall": [
+    {
+      "name": "Schutzhaut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ehrenhaftigkeit": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ehrlicher Vertrag": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Guter Handel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Entfesselung": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versteinerung aufheben",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Entzifferung": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erdbeben": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweitenausdehnung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ermutigung": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ernüchterung": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Beseitigung von Verwirrung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Beseitigung von Schmerz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erzene Opfergabe": [
+    {
+      "name": "Stein und Metall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größeres Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rückruf",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Fall ins Nichts": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klippensturz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Feuerwall": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Intensive Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Friedfertigkeit": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anderes Intervall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Friedvolle Aura": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Friedvoller Rausch": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Froststurm": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extreme Kälte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Gebieter der Flammen": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Brandherde",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geisterblick": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Auch du siehst tote Menschen!",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Gesegneter Rausch": [
+    {
+      "name": "Größere Menge 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Menge 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Getreidewachstum": [
+    {
+      "name": "Widerstandsfähig gegen Schädlinge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wachstum auf kargem Boden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hoher Ertrag",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Giftbann": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tadelloser Entgifter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Goldene Hand": [
+    {
+      "name": "Höherer Wert 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Wert 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Wert 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Goldene Rüstung": [
+    {
+      "name": "Liturgiedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harte Schale",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Göttliche Klinge": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Göttliche Verständigung": [
+    {
+      "name": "Heimattempel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Persönlicher Bekannter",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Göttlicher Fingerzeig": [
+    {
+      "name": "Weiter entfernter Gegenstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Magischer Fingerzeig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Karmaler Fingerzeig",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Göttliches Zeichen": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Zeichen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heiliger Befehl": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heiliges Liebesspiel": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heilsame Quelle": [
+    {
+      "name": "Mächtige Heilsame Quelle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erfrischende Heilquelle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Trinkende",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heilsegen": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heldenkraft": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Helfende Hand": [
+    {
+      "name": "Gemeinsam sind wir stark",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Viele starke Hände 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Viele starke Hände 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Herbeirufung der Heerscharen des Rattenkindes (Schakale)": [
+    {
+      "name": "Angriffslust",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Meute",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Raserei",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Herbeirufung der Heerscharen des Rattenkindes (Vampirfledermäuse)": [
+    {
+      "name": "Angriffslust",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fledermausschwarm",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Loyal bis in den Tod",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Herbeirufung der Heerscharen des Rattenkindes (Wolfsspinnen)": [
+    {
+      "name": "Angriffslust",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starkes Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spinnenpanik",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Herr der Flammen": [
+    {
+      "name": "Auch Gegenstände",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weniger Feuerschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hilfreiche Seele": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Prinzipientreue 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Prinzipientreue 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Innere Ruhe": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Klarer Geist": [
+    {
+      "name": "Besonders klarer Geist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kleine Windhose": [
+    {
+      "name": "Erschwertes Ausweichen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kleiner Bann wider Untote": [
+    {
+      "name": "Verteilter Schaden 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilter Schaden 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kleiner Bannstrahl": [
+    {
+      "name": "Verteilter Schaden 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilter Schaden 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Krankheitsbann": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tadelloser Krankheitsheiler",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Lautlos": [
+    {
+      "name": "Verstecken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Lebensschutz": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erholsame Rettung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Liturgieschild": [
+    {
+      "name": "Stärkerer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Magiebann": [
+    {
+      "name": "Höhere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Liturgiedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Effekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Magieschutz": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schutz der Gefährten",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Magiesicht": [
+    {
+      "name": "Zwei Gegenstände",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kegelsicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rundumsicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Magiespiegel": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Maske": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mit Dummheit schlagen": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Dumm und verwirrt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mondsicht": [
+    {
+      "name": "Längeres Intervall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mondsilberzunge": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Motivation": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mächtiger Angriff": [
+    {
+      "name": "Drei Attacken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sechs Attacken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Neun Attacken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Namenlose Kälte": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nicht verfroren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stationäre Kälte",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Namenlose Raserei": [
+    {
+      "name": "Wüterich 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wüterich 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Namenlose Zweifel": [
+    {
+      "name": "Leicht zu beeinflussen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Namenloses Vergessen": [
+    {
+      "name": "Leichtgläubig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Objektsegen": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Objektsegen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Obsession": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Offenlegung des Geistes": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Heimlicher Gedankenforscher",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Opfergang": [
+    {
+      "name": "Verteidigungswall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Zäh",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Guter Kampf",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ort der Ruhe": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkere Stille 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkere Stille 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pech und Schwefel": [
+    {
+      "name": " Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pflanzenwuchs": [
+    {
+      "name": "Schnellerer Wuchs",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Beet",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Feld",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Rabenruf": [
+    {
+      "name": "Mehr Raben",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Transportreichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Rattenschwarm": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Mehr Ratten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Nur eine letzte Ratte",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ruf der Heimat": [
+    {
+      "name": " Entfernung bestimmen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Tempel der eigenen Kirche",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Erreichbarkeit feststellen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schlaf": [
+    {
+      "name": "Liturgiedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schlangenstab": [
+    {
+      "name": "Verwirrungsgift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kräftige Schlange",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelle Schlange",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schlangenzunge": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Schlangen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schleichende Fäulnis": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schmerzresistenz": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schmerzimmunität",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schutz der Wehrlosen": [
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schutzsegen": [
+    {
+      "name": "Wider Daimonide",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Liturgiedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Änderung des Intervalls",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schwindende Zauberkraft": [
+    {
+      "name": "Starker Zauberschwund 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Zauberschwund 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Seelenschatten": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schwer zu durchschauen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Seevogelsprache": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Vögel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sicherer Weg": [
+    {
+      "name": "Stärkere Sicherheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längeres Intervall 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längeres Intervall 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sternenglanz": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bessere Preise",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sturmruf": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Tiere beruhigen": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erhöhte Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Tierleid lindern": [
+    {
+      "name": " Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Starke Linderung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Tiersprache": [
+    {
+      "name": " Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Mehr Wildtiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Treuer Begleiter": [
+    {
+      "name": " Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Größere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Unterwasseratmung": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Versteinerung": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelle Versteinerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wahrheit": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Fragesteller",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wasserlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mitnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wieselflink": [
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Windhose": [
+    {
+      "name": "Erschwertes Ausweichen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wundersame Verständigung": [
+    {
+      "name": "Zeichensprache",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tadelloser Übersetzer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zähe Haut": [
+    {
+      "name": " Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harte Schale",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": " Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

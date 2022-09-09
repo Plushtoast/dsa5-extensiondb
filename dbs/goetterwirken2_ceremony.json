@@ -1,0 +1,1267 @@
+{
+  "Ackersegen": [
+    {
+      "name": "Größerer Acker",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größerer Acker",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Wachstumszyklen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Arcanum Interdictum": [
+    {
+      "name": "Größere Stadt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Stadt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Diener der Erde": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Diener der Flammen": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Diener der Kälte": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Diener der Wellen": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Diener der Wolken": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Diener des Erzes": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eidechsenregeneration": [
+    {
+      "name": "Schnelle Regeneration",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Regeneration",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Einflüsterung": [
+    {
+      "name": "Überzeugungsarbeit I",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Überzeugungsarbeit II",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Elsterngestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erfolgreiche Pflanzensuche": [
+    {
+      "name": "Auch Giftpflanzen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erschaffung von Nachtkindern": [
+    {
+      "name": "Weniger Schaden 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weniger Schaden 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vampirleben",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Exorzismus": [
+    {
+      "name": "Spezialisierter Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geister-Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Dämonen-Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Falkengestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geistersprache": [
+    {
+      "name": "Körpergefühl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mitnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wechsel des Totenreichs",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geistheilung": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurze Regenerationsphase",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerfristige Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geschlechterwechsel": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einsichten ins andere Geschlecht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wechselndes Geschlecht",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Gespräch mit den Toten": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kontakt ins Paradies",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Totenreiche",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geweihter Panzer": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Weihe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Göttliche Präzision": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Schützen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heilschlaf": [
+    {
+      "name": "Starke Heilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Karmale Heilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heilung von Seelenkranken": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Seelenqual verursachen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Himmlische Schatzkammer": [
+    {
+      "name": "Größerer Gegenstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Minimale Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rückrufbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hundegestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Jaguargestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kriegszustand": [
+    {
+      "name": "Bessere Boni",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Lebenstausch": [
+    {
+      "name": "Anderes Opfer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Tausch",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Leichtfüßig": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Traglast",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Liebestätowierung": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Tätowieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Machtvolle Tätowierung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Luchsgestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Löwengestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Machtvoller Exorzismus": [
+    {
+      "name": "Spezialisierter Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geister-Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Dämonen-Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Marbidenmacht": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkerer Bluttrunk",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Regeneration",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mungogestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nebelleib": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mitverwandelte Kleidung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Nebel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Objektweihe": [
+    {
+      "name": "Schwächere Weihe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Rat der Ahnen": [
+    {
+      "name": "Mehrere Ahnen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Ahn",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Ahn",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Regenkontrolle": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schlangenfluch": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schmetterlingsgestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Selbstopferung": [
+    {
+      "name": "Rettung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rettung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rettung 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sippenbann": [
+    {
+      "name": "Schamanenbann 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Für immer verbannt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schamanenbann 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Stärkung der Wildnis": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtige Stärkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Tabuzone": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großes Gebiet",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Talismanverankerung": [
+    {
+      "name": "Geweihter Ort",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Profaner Ort",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geweihter Träger",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Taubengestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Traumgesicht": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mitnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Traummeister",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Untote erschaffen": [
+    {
+      "name": "Zeremoniedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geweihter Körper",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Widdergestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wolfsfluch": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wolfsgestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zwergische Verbrüderung": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Bonus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nichtzwerge",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Große Waffenweihe": [
+    {
+      "name": "Mehr Waffen 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Acker",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schaffenskraft": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vielseitige Begabung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Virtuose Begabung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

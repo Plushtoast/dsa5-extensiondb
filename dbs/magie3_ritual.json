@@ -1,0 +1,347 @@
+{
+  "Applicatus": [
+    {
+      "name": "Zwei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blick durch fremde Augen": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Sinne",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Chimaeroform": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Chronoklassis": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Länger zurückreichender Zeitpunkt",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Chrononautos": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Länger zurückreichender Zeitpunkt",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dämonenpakt beenden": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Reue",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Gefäß der Jahre": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Personen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Immortalis Lebenszeit": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Infinitum Immerdar": [
+    {
+      "name": "Kürzere Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invocatio Maxima": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Lawinenfall und Trümmerfeld": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Erschütterung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Meister der Elemente": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Planastrale": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Globulentore",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Stein wandle": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Totes handle": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

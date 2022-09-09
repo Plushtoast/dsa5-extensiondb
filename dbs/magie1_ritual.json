@@ -1,0 +1,416 @@
+{
+  "Accuratum": [
+    {
+      "name": "Gaukelei-Vorteil",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Etikette-Vorteil",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gassenwissen-Vorteil",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Arcanovi": [
+    {
+      "name": "Geringere Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weniger Erschwernis 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weniger Erschwernis 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Caldofrigo": [
+    {
+      "name": "Höhere/Niedrigere Temperatur 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere/Niedrigere Temperatur 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere/Niedrigere Temperatur 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dschinnenruf": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Elementarer Diener": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hagelschlag und Sturmgebrüll": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hartes schmelze": [
+    {
+      "name": "Größere Objekte 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Objekte 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invocatio Maior": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invocatio Minor": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Leidensbund": [
+    {
+      "name": "Krankheitsübertragung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Giftübertragung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freiwilliger",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Magischer Raub": [
+    {
+      "name": "Sofortraub",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Opfer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Memorabia Falsifir": [
+    {
+      "name": "Ohne Erinnerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Phasen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Erinnerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Movimento": [
+    {
+      "name": "Mehr Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geänderte Zielkategorie 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geänderte Zielkategorie 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ruhe Körper": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurze Regenerationsphase",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerfristige Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Unberührt von Satinav": [
+    {
+      "name": "Höheres Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Widerwille": [
+    {
+      "name": "Nicht alle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wirbelform": [
+    {
+      "name": "Größerer Radius ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1 ",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2 ",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Xenographus": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Besseres Sprachverständnis",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}
