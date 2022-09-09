@@ -29,9 +29,10 @@ A proper entry looks like this:
         },
         {
             "name": "Windender Strahl",
-            "complete": false,
+            "complete": true,
             "changes": [
-                {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+                {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+                {"key": "defenseMalus", "mode": 2, "value": -2}
             ]
         },
         {
@@ -82,6 +83,8 @@ The following keys can be used to modify the spells:
 | system.effectFormula.value | Damage roll           | Schadenswurf            |             +2+1d6   |
 | system.range.value         | Range                 | Reichweite              |           32 Schritt |
 | system.duration.value      | Duration              | Dauer                   |                 5 KR |
+| defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   |
+
 
 See also existing extensions as example.
 
