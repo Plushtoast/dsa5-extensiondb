@@ -14,7 +14,7 @@ Steps involved:
 
 See chapter allowed keys for currently possible modifications.
 
-Set the key "complete" to true if the effect is automated to 100% (some effects might not be possible)
+Set the key "complete" to true if the effect is automated to 100% (some effects might not be possible, see when to "complete")
 
 A proper entry looks like this:
 ```json
@@ -80,11 +80,12 @@ The following keys can be used to modify the spells:
 | system.castingTime.value   | Casting time          | Zauberdauer             |                 5    |
 | system.AsPCost.value       | AE cost               | AsP cost                |                 2    |
 | system.maintainCost.value  | Maintain cost         | Aufrechterhalten kosten | 5 AsP pro 5 Minuten  |
-| system.effectFormula.value | Damage roll           | Schadenswurf            |             +2+1d6   |
+| system.effectFormula.value | Damage roll *         | Schadenswurf *         |             +2+1d6   |
 | system.range.value         | Range                 | Reichweite              |           32 Schritt |
 | system.duration.value      | Duration              | Dauer                   |                 5 KR |
 | defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   |
 
+* The damage roll is a string and has to be preceded with a "+" or "-" at all times.
 
 See also existing extensions as example.
 
@@ -96,3 +97,46 @@ See also existing extensions as example.
 | 3      | Downgrade|
 | 4      | Upgrade  |
 | 5      | Override |
+
+## When to "complete"
+Setting the key "completed" to true is a completely arbitrary decission. If the automation is working with all required modifiers, set it to true. If it's missing an aspect don't.
+See following examples: 
+![image](https://user-images.githubusercontent.com/44941845/189488332-7e3ae10a-d67f-459b-bc02-c38a56656b63.png)
+```json
+{
+    "name": "Intensiver Strahl",
+    "complete": false,
+    "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+    ]
+}
+```
+The automation is not finished because the extension can not add the status burning automatically.
+<hr/>
+
+![image](https://user-images.githubusercontent.com/44941845/189488419-9bf95826-4d49-47c6-8c6a-7b7dabd7e821.png)
+```json
+{
+    "name": "Windender Strahl",
+    "complete": true,
+    "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+    ]
+},
+```
+The automation adds all required modifiers (AsP & defenseMalus). Complete should be true
+<hr/>
+
+![image](https://user-images.githubusercontent.com/44941845/189488470-9578a08b-eb51-4535-9795-209e7340cf21.png)
+```json
+{
+    "name": "Unsichtbare Kleidung",
+    "complete": true,
+    "changes": [
+    ]
+}
+```
+The automation is barely possible or the effect is fluff. Complete should be true.
+
+
