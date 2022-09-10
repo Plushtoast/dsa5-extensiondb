@@ -157,4 +157,6 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |magie3_spell|0/117|0%|
 |nekromanthaeum_ritual|0/6|0%|
 |nekromanthaeum_spell|0/21|0%|
+|sum|8/1977|0|
+
 
