@@ -2333,14 +2333,14 @@
     },
     {
       "name": "Längere Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
           {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Minuten"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
           {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
