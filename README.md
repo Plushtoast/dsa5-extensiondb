@@ -143,7 +143,9 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 
 ## Type meaning
 **number**: value has to be a number
+
 **boolean**: value has to be "true" or "false" (with brackets)
+
 **string**: value can be any text enclosed in brackets
 
 # Status
