@@ -75,15 +75,16 @@ If you are more experienced you can use the tooling of your choice obviously.
 ## Allowed keys
 The following keys can be used to modify the spells:
 
-| Key                        | Effect(en)            | Effect(de)              | Example              |
-| -------------------------- |:---------------------:|:-----------------------:| -------------------- |
-| system.castingTime.value   | Casting time          | Zauberdauer             |                 5    |
-| system.AsPCost.value       | AE cost               | AsP cost                |                 2    |
-| system.maintainCost.value  | Maintain cost         | Aufrechterhalten kosten | 5 AsP pro 5 Minuten  |
-| system.effectFormula.value | Damage roll *         | Schadenswurf *         |             +2+1d6   |
-| system.range.value         | Range                 | Reichweite              |           32 Schritt |
-| system.duration.value      | Duration              | Dauer                   |                 5 KR |
-| defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   |
+| Key                        | Effect(en)            | Effect(de)              | Example              | type   |
+| -------------------------- |:---------------------:|:-----------------------:| -------------------- | ------ |
+| system.castingTime.value   | Casting time          | Zauberdauer             |                 5    | number |
+| system.AsPCost.value       | AE cost               | AsP cost                |                 2    | number |
+| system.maintainCost.value  | Maintain cost         | Aufrechterhalten kosten | "5 AsP pro 5 Minuten"| string |
+| system.effectFormula.value | Damage roll *         | Schadenswurf *         |             "+2+1d6"  | string |
+| system.range.value         | Range                 | Reichweite              |         "32 Schritt" | string |
+| system.duration.value      | Duration              | Dauer                   |               "5 KR" | string |
+| system.variableBaseCost    | variable AE cost      | Variable AsP kosten     |                "true"| boolean |
+| defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   | number |
 
 * The damage roll is a string and has to be preceded with a "+" or "-" at all times.
 
@@ -140,6 +141,10 @@ The automation adds all required modifiers (AsP & defenseMalus). Complete should
 ```
 The automation is barely possible or the effect is fluff. Complete should be true.
 
+## Type meaning
+**number**: value has to be a number
+**boolean**: value has to be "true" or "false" (with brackets)
+**string**: value can be any text enclosed in brackets
 
 # Status
 |name|status| % |

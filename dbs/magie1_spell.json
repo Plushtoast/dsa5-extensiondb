@@ -1520,16 +1520,16 @@
   "Hexengalle": [
     {
       "name": "Zerstäuber",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Höhere Spuckreichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "6 Schritt"}
       ]
     },
     {
