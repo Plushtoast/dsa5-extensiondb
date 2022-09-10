@@ -1612,9 +1612,10 @@
   "Ignifaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Ignifaxius-IntensiverStrahl"}
       ]
     },
     {
