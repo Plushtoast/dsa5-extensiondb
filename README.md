@@ -101,6 +101,7 @@ See also existing extensions as example.
 ## When to "complete"
 Setting the key "completed" to true is a completely arbitrary decission. If the automation is working with all required modifiers, set it to true. If it's missing an aspect don't.
 See following examples: 
+
 ![image](https://user-images.githubusercontent.com/44941845/189488332-7e3ae10a-d67f-459b-bc02-c38a56656b63.png)
 ```json
 {
