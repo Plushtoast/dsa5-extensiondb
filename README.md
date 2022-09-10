@@ -141,3 +141,20 @@ The automation adds all required modifiers (AsP & defenseMalus). Complete should
 The automation is barely possible or the effect is fluff. Complete should be true.
 
 
+# Status
+|name|status| % |
+| -- | ---- | - |
+|goetterwirken2_ceremony|0/165|0%|
+|goetterwirken2_liturgy|1/243|0%|
+|goetterwirken2_spell|0/3|0%|
+|goetterwirken_ceremony|0/222|0%|
+|goetterwirken_liturgy|0/354|0%|
+|magie1_ritual|0/54|0%|
+|magie1_spell|7/414|0%|
+|magie2_ritual|0/111|0%|
+|magie2_spell|0/222|0%|
+|magie3_ritual|0/45|0%|
+|magie3_spell|0/117|0%|
+|nekromanthaeum_ritual|0/6|0%|
+|nekromanthaeum_spell|0/21|0%|
+
