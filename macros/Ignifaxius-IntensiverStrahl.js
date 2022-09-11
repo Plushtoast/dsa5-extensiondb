@@ -17,5 +17,5 @@ const dict = {
     }
 }[lang]
 
-effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('burning')"`
+effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('burning')`
 source.effects.push(effect)

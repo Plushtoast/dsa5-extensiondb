@@ -158,13 +158,13 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken_ceremony|0/222|0.0|
 |goetterwirken_liturgy|0/354|0.0|
 |magie1_ritual|0/54|0.0|
-|magie1_spell|15/414|3.6|
+|magie1_spell|37/414|8.9|
 |magie2_ritual|2/111|1.8|
 |magie2_spell|4/222|1.8|
 |magie3_ritual|2/45|4.4|
 |magie3_spell|3/117|2.6|
 |nekromanthaeum_ritual|4/6|66.7|
 |nekromanthaeum_spell|12/21|57.1|
-|sum|43/1977|2.2|
+|sum|65/1977|3.3|
 
 
