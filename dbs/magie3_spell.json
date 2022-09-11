@@ -12,7 +12,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "defenseMalus", "mode": 2, "value": -2}
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
@@ -120,44 +120,44 @@
   "Böser Blick": [
     {
       "name": "Nicht näher kommen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 KR"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
   "Dornenwand": [
     {
       "name": "Höhere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Deckel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -166,21 +166,21 @@
   "Eiswand": [
     {
       "name": "Höhere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Deckel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -189,44 +189,44 @@
   "Erschöpfungen lindern": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"}
       ]
     },
     {
       "name": "Verteilte Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
   "Fesselfeld": [
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Schutz vor Geschossen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Elementare Zerstörung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -237,21 +237,22 @@
       "name": "Intensiver Strahl",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -260,21 +261,22 @@
       "name": "Intensive Explosion",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
