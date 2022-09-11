@@ -4,6 +4,9 @@ require 'json'
 
 targetCategories = ["Kulturschaffende", "Objekte", "Lebewesen"]
 
+directory_name = "./log"
+Dir.mkdir(directory_name) unless File.exists?(directory_name)
+
 Dir["../dbs/*.json"].each do |r|
     json = File.open(r) {|f| JSON.parse(f.read)}
 
