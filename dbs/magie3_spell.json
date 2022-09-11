@@ -82,7 +82,6 @@
       "name": "Halbkreis",
       "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -98,7 +97,6 @@
       "name": "Intensive Explosion",
       "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -145,21 +143,18 @@
       "name": "Höhere Wand",
       "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Zylinder",
       "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Deckel",
       "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -168,21 +163,18 @@
       "name": "Höhere Wand",
       "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Zylinder",
       "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Deckel",
       "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -191,12 +183,12 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"}
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Verteilte Wirkung",
-      "complete": true,
+      "complete": false,
       "changes": [
 
       ]
@@ -214,21 +206,18 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Schutz vor Geschossen",
       "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Elementare Zerstörung",
       "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -290,32 +279,32 @@
     },
     {
       "name": "Längere Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
   "Halluzination": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
       ]
     },
     {
@@ -329,23 +318,21 @@
   "Herr über das Tierreich": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
       ]
     },
     {
       "name": "Mehr Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Noch mehr Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -354,21 +341,22 @@
       "name": "Intensiver Strahl",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -377,30 +365,31 @@
       "name": "Intensive Explosion",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
   "Invinculo": [
     {
       "name": "Zielkategorie Objekt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
       ]
     },
     {
@@ -412,94 +401,88 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
       ]
     }
   ],
   "Nebelform": [
     {
       "name": "Lange Nebelexistenz",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 15 Minuten"}
       ]
     },
     {
       "name": "Windflug",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Oktagramma": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Zwei Feen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     },
     {
       "name": "Drei Feen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
   "Panik überkomme euch": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
   "Pestilenz erspüren": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Mehr Patienten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -513,23 +496,24 @@
   "Schimmernder Schild": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "0 Schritt"}
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -543,9 +527,12 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "0 Schritt"},
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 AsP pro KR"}
       ]
     },
     {
@@ -559,9 +546,9 @@
   "Sensattacco": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
       ]
     },
     {
@@ -582,23 +569,22 @@
   "Sinesigil": [
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
       ]
     },
     {
       "name": "An und Aus",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -628,16 +614,15 @@
   "Stillstand": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
       ]
     },
     {
@@ -651,23 +636,21 @@
   "Sturm der Verunsicherung": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
