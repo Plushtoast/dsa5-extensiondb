@@ -1,5 +1,5 @@
 # Extension DB for DSA5/TDE5 in Foundry VTT
-This is the database for spell and liturgy extensions and their active effects for Foundry VTT. As there are roughly 5000 extensions distributed among spells, liturgical chants, rituals and ceremonies a complete coverage or functionality is only possible through joined efforts by the community of TDE/DSA. Feel free to contribute, we'll add the effects in intervals to the official modules.
+This is the database for spell and liturgy extensions and their active effects for Foundry VTT. As there are roughly 3000 extensions distributed among spells, liturgical chants, rituals and ceremonies a complete coverage or functionality is only possible through joined efforts by the community of TDE/DSA. Feel free to contribute, we'll add the effects in intervals to the official modules.
 
 **This functionality requires at least Foundry DSA 4.1.0**
 **Please don't add Extensions from Rohal yet, we are not quite there...**
@@ -144,9 +144,9 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 ## Type meaning
 **number**: value has to be a number
 
-**boolean**: value has to be "true" or "false" (with brackets)
+**boolean**: value has to be "true" or "false" (with quotation marks)
 
-**string**: value can be any text enclosed in brackets
+**string**: value can be any text enclosed in quotation marks
 
 # Status
 |name|status| % |
@@ -157,13 +157,13 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken_ceremony|0/222|0|
 |goetterwirken_liturgy|0/354|0|
 |magie1_ritual|0/54|0|
-|magie1_spell|7/414|0|
+|magie1_spell|10/414|0|
 |magie2_ritual|0/111|0|
 |magie2_spell|0/222|0|
 |magie3_ritual|0/45|0|
 |magie3_spell|0/117|0|
 |nekromanthaeum_ritual|0/6|0|
 |nekromanthaeum_spell|0/21|0|
-|sum|8/1977|0|
+|sum|11/1977|
 
 
