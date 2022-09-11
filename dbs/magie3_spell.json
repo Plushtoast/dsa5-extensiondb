@@ -4,21 +4,22 @@
       "name": "Intensiver Strahl",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -27,44 +28,45 @@
       "name": "Intensive Explosion",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
   "Atemnot": [
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 6}
       ]
     },
     {
       "name": "Acht Ziele",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 14}
       ]
     }
   ],
