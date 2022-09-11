@@ -11,16 +11,17 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "5 Schritt"},
+        {"key": "system.target.value", "mode": 5, "value": "5"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 4}        
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": true,
+      "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
+        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"}
 
       ]
     }
@@ -28,17 +29,16 @@
   "Abvenenum": [
     {
       "name": "Ausnahme",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Größerer Umfang",
-      "complete": false,
+      "complete": true,
       "changes": [
-         {"key": "system.AsPCost.value", "mode": 2, "value": "2 AsP pro 5 Stein"} 
-
+         {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {

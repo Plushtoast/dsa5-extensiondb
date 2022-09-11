@@ -70,7 +70,17 @@ A proper entry looks like this:
 ```
 
 If you are more experienced you can use the tooling of your choice obviously.
+You can also add a "comment" key if you need to add information:
 
+```json
+{
+    "name": "Unsichtbare Kleidung",
+    "complete": true,
+    "comment": "what a wonderful day",
+    "changes": [
+    ]
+}
+```
 
 ## Allowed keys
 The following keys can be used to modify the spells:
@@ -80,14 +90,16 @@ The following keys can be used to modify the spells:
 | system.castingTime.value   | Casting time          | Zauberdauer             |                 5    | number |
 | system.AsPCost.value       | AE cost               | AsP cost                |                 2    | number |
 | system.maintainCost.value  | Maintain cost         | Aufrechterhalten kosten | "5 AsP pro 5 Minuten"| string |
-| system.effectFormula.value | Damage roll *         | Schadenswurf *         |             "+2+1d6"  | string |
+| system.effectFormula.value | Damage roll *1         | Schadenswurf *1         |             "+2+1d6"  | string |
 | system.range.value         | Range                 | Reichweite              |         "32 Schritt" | string |
 | system.duration.value      | Duration              | Dauer                   |               "5 KR" | string |
 | system.variableBaseCost    | variable AE cost      | Variable AsP kosten     |                "true"| boolean |
 | system.targetCategory.value| Target category       | Zielkategorie           | "Lebewesen"          | string |
+| system.target.value        | size of aoe \*2       | Größe des Flächeneffekts \*2 | "qs*2"               | string |
 | defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   | number |
 
-* The damage roll is a string and has to be preceded with a "+" or "-" at all times.
+*1 The damage roll is a string and has to be preceded with a "+" or "-" at all times.
+*2 This is not reflected in spell data yet
 
 See also existing extensions as example.
 
@@ -158,13 +170,13 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken_ceremony|0/222|0.0|
 |goetterwirken_liturgy|0/354|0.0|
 |magie1_ritual|0/54|0.0|
-|magie1_spell|37/414|8.9|
+|magie1_spell|40/414|9.7|
 |magie2_ritual|2/111|1.8|
 |magie2_spell|4/222|1.8|
 |magie3_ritual|2/45|4.4|
-|magie3_spell|3/117|2.6|
+|magie3_spell|67/117|57.3|
 |nekromanthaeum_ritual|4/6|66.7|
 |nekromanthaeum_spell|12/21|57.1|
-|sum|65/1977|3.3|
+|sum|132/1977|6.7|
 
 

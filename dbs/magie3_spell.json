@@ -44,7 +44,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
@@ -115,7 +115,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
@@ -213,7 +213,7 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 2 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
       ]
     },
     {
@@ -276,7 +276,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
@@ -392,7 +392,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
@@ -469,7 +469,7 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
       ]
     },
     {
@@ -632,7 +632,7 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
       ]
     },
     {
@@ -655,7 +655,7 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
       ]
     },
     {
@@ -745,7 +745,7 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
       ]
     },
     {
@@ -790,7 +790,7 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
+        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
       ]
     },
     {
