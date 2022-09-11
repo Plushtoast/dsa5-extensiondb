@@ -43,7 +43,8 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
       ]
     }
   ],
@@ -80,8 +81,9 @@
     },
     {
       "name": "Halbkreis",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
@@ -95,8 +97,9 @@
   "Blitzball": [
     {
       "name": "Intensive Explosion",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
@@ -111,14 +114,15 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
       ]
     }
   ],
   "Böser Blick": [
     {
       "name": "Nicht näher kommen",
-      "complete": true,
+      "complete": false,
       "changes": [
 
       ]
@@ -141,39 +145,42 @@
   "Dornenwand": [
     {
       "name": "Höhere Wand",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
       "name": "Zylinder",
-      "complete": true,
+      "complete": false,
       "changes": [
       ]
     },
     {
       "name": "Deckel",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     }
   ],
   "Eiswand": [
     {
       "name": "Höhere Wand",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
       "name": "Zylinder",
-      "complete": true,
+      "complete": false,
       "changes": [
       ]
     },
     {
       "name": "Deckel",
-      "complete": true,
+      "complete": false,
       "changes": [
       ]
     }
@@ -206,18 +213,21 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS x 2 Schritt"}
       ]
     },
     {
       "name": "Schutz vor Geschossen",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
       "name": "Elementare Zerstörung",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     }
   ],
@@ -265,7 +275,8 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
       ]
     }
   ],
@@ -380,7 +391,8 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7 Schritt"}
       ]
     }
   ],
@@ -423,16 +435,18 @@
     },
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     }
   ],
   "Oktagramma": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
@@ -455,12 +469,14 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
       ]
     },
     {
       "name": "Halbkreis",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
@@ -506,7 +522,7 @@
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "0 Schritt"}
+        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
       ]
     },
     {
@@ -530,7 +546,7 @@
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "0 Schritt"},
+        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
         {"key": "system.AsPCost.value", "mode": 5, "value": 4},
         {"key": "system.maintainCost.value", "mode": 5, "value": "2 AsP pro KR"}
       ]
@@ -616,6 +632,7 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
       ]
     },
     {
@@ -638,12 +655,14 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
       ]
     },
     {
       "name": "Halbkreis",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
@@ -657,19 +676,20 @@
   "Sturmwand": [
     {
       "name": "Höhere Wand",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
       "name": "Zylinder",
-      "complete": true,
+      "complete": false,
       "changes": [
       ]
     },
     {
       "name": "Deckel",
-      "complete": true,
+      "complete": false,
       "changes": [
       ]
     }
@@ -723,9 +743,9 @@
   "Tempus Stasis": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
       ]
     },
     {
@@ -739,27 +759,29 @@
       "name": "Bewegung im Stillstand",
       "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Wellenwand": [
     {
       "name": "Höhere Wand",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
       "name": "Zylinder",
-      "complete": true,
+      "complete": false,
       "changes": [
+        
       ]
     },
     {
       "name": "Deckel",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     }
   ],
@@ -768,12 +790,14 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS x 3 Schritt"}
       ]
     },
     {
       "name": "Halbkreis",
-      "complete": true,
+      "complete": false,
       "changes": [
+
       ]
     },
     {
@@ -824,7 +848,7 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
