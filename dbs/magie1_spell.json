@@ -9,15 +9,18 @@
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "5 Schritt"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}        
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
 
       ]
     }
@@ -34,6 +37,7 @@
       "name": "Größerer Umfang",
       "complete": false,
       "changes": [
+         {"key": "system.AsPCost.value", "mode": 2, "value": "2 AsP pro 5 Stein"} 
 
       ]
     },
