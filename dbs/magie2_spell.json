@@ -278,9 +278,9 @@
   "Dämonisches Vergessen": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
@@ -292,9 +292,9 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     }
   ],
@@ -1504,14 +1504,14 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
       ]
     },
     {
       "name": "Keine Erinnerung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]

@@ -807,23 +807,23 @@
   "Zorn der Elemente": [
     {
       "name": "Schweres Ausweichen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Harter Aufprall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.effectFormula.value", "mode": 5, "value": "1d6+6"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],

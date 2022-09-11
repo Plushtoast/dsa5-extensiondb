@@ -186,16 +186,16 @@
   "Angst auslösen": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
       ]
     },
     {
@@ -1706,9 +1706,9 @@
   "Imperavi": [
     {
       "name": "Ohne Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "1 Schritt"}
       ]
     },
     {
@@ -1720,7 +1720,7 @@
     },
     {
       "name": "Ohne Erinnerung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2794,9 +2794,9 @@
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
       ]
     },
     {

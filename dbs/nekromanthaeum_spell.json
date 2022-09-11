@@ -2,16 +2,16 @@
   "Angst auslösen": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
       ]
     },
     {
@@ -25,9 +25,9 @@
   "Dämonisches Vergessen": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
@@ -39,18 +39,18 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     }
   ],
   "Imperavi": [
     {
       "name": "Ohne Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "1 Schritt"}
       ]
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "name": "Ohne Erinnerung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -101,9 +101,9 @@
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
       ]
     },
     {
@@ -124,14 +124,14 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
       ]
     },
     {
       "name": "Keine Erinnerung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -140,23 +140,23 @@
   "Zorn der Elemente": [
     {
       "name": "Schweres Ausweichen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Harter Aufprall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.effectFormula.value", "mode": 5, "value": "1d6+6"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ]

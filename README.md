@@ -84,6 +84,7 @@ The following keys can be used to modify the spells:
 | system.range.value         | Range                 | Reichweite              |         "32 Schritt" | string |
 | system.duration.value      | Duration              | Dauer                   |               "5 KR" | string |
 | system.variableBaseCost    | variable AE cost      | Variable AsP kosten     |                "true"| boolean |
+| system.targetCategory.value| Target category       | Zielkategorie           | "Lebewesen"          | string |
 | defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   | number |
 
 * The damage roll is a string and has to be preceded with a "+" or "-" at all times.
@@ -151,19 +152,19 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 # Status
 |name|status| % |
 | -- | ---- | - |
-|goetterwirken2_ceremony|0/165|0|
-|goetterwirken2_liturgy|1/243|0|
-|goetterwirken2_spell|0/3|0|
-|goetterwirken_ceremony|0/222|0|
-|goetterwirken_liturgy|0/354|0|
-|magie1_ritual|0/54|0|
-|magie1_spell|10/414|0|
-|magie2_ritual|0/111|0|
-|magie2_spell|0/222|0|
-|magie3_ritual|0/45|0|
-|magie3_spell|0/117|0|
-|nekromanthaeum_ritual|0/6|0|
-|nekromanthaeum_spell|0/21|0|
-|sum|11/1977|
+|goetterwirken2_ceremony|0/165|0.0|
+|goetterwirken2_liturgy|1/243|0.4|
+|goetterwirken2_spell|0/3|0.0|
+|goetterwirken_ceremony|0/222|0.0|
+|goetterwirken_liturgy|0/354|0.0|
+|magie1_ritual|0/54|0.0|
+|magie1_spell|15/414|3.6|
+|magie2_ritual|2/111|1.8|
+|magie2_spell|4/222|1.8|
+|magie3_ritual|2/45|4.4|
+|magie3_spell|3/117|2.6|
+|nekromanthaeum_ritual|4/6|66.7|
+|nekromanthaeum_spell|12/21|57.1|
+|sum|43/1977|2.2|
 
 
