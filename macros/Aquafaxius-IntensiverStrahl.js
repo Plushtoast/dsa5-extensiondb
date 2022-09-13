@@ -10,12 +10,12 @@ source.effects = source.effects.filter(x => x.label != "Aquafaxius")
 const lang = game.i18n.lang == "de" ? "de" : "en"
 const dict = {
     de: {
-        msg: "wurde betäub"
+        msg: "wurde von den Wassermengen betäubt"
     },
     en: {
         msg: "was stunned"
     }
 }[lang]
 
-effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('stunned')`
+effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('stunned', 1, false)`
 source.effects.push(effect)
