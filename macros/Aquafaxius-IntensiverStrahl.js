@@ -13,7 +13,7 @@ const dict = {
         msg: "wurde von den Wassermengen betäubt"
     },
     en: {
-        msg: "was stunned"
+        msg: "was stunned by the gush of water"
     }
 }[lang]
 
