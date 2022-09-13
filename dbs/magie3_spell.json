@@ -2,9 +2,10 @@
   "Aquafaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Aquafaxius-IntensiverStrahl"}
       ]
     },
     {
@@ -234,9 +235,10 @@
   "Frigifaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Frigifaxius-IntensiverStrahl"}
       ]
     },
     {
@@ -350,9 +352,10 @@
   "Humofaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Humofaxius-IntensiverStrahl"}
       ]
     },
     {
