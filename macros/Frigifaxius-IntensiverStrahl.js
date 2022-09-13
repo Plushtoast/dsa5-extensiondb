@@ -10,12 +10,12 @@ source.effects = source.effects.filter(x => x.label != "Frigifaxius")
 const lang = game.i18n.lang == "de" ? "de" : "en"
 const dict = {
     de: {
-        msg: "wurde eingefrohren"
+        msg: "wurde eingefroren"
     },
     en: {
         msg: "was chilled"
     }
 }[lang]
 
-effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('paralysed')`
+effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('paralysed', 1, false)`
 source.effects.push(effect)
