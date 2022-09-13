@@ -10,7 +10,7 @@ source.effects = source.effects.filter(x => x.label != "Humofaxius")
 const lang = game.i18n.lang == "de" ? "de" : "en"
 const dict = {
     de: {
-        msg: "wird von Ranken festgehalten"
+        msg: "wird von Ranken umschlungen"
     },
     en: {
         msg: "is held in place by vines"
