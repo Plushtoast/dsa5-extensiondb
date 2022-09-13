@@ -174,9 +174,9 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |magie2_ritual|2/111|1.8|
 |magie2_spell|4/222|1.8|
 |magie3_ritual|2/45|4.4|
-|magie3_spell|67/117|57.3|
+|magie3_spell|70/117|59.8|
 |nekromanthaeum_ritual|4/6|66.7|
 |nekromanthaeum_spell|12/21|57.1|
-|sum|132/1977|6.7|
+|sum|135/1977|6.8|
 
 
