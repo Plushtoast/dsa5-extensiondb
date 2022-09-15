@@ -530,21 +530,21 @@
   ],
   "Flammenwand": [
     {
-      "name": "Höhere Wand ",
+      "name": "Höhere Wand",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Zylinder ",
+      "name": "Zylinder",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Deckel ",
+      "name": "Deckel",
       "complete": false,
       "changes": [
 
@@ -714,21 +714,21 @@
   ],
   "Hexenspeichel": [
     {
-      "name": "Erholung ",
+      "name": "Erholung",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Gift- und Krankheitsheilung ",
+      "name": "Gift- und Krankheitsheilung",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Eingespeichelter Gegenstand ",
+      "name": "Eingespeichelter Gegenstand",
       "complete": false,
       "changes": [
 
@@ -1404,21 +1404,21 @@
   ],
   "Tiere besprechen": [
     {
-      "name": "Größere Tiere heilen ",
+      "name": "Größere Tiere heilen",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Noch größere Tiere heilen ",
+      "name": "Noch größere Tiere heilen",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Tierkrankheit heilen ",
+      "name": "Tierkrankheit heilen",
       "complete": false,
       "changes": [
 

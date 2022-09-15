@@ -525,7 +525,7 @@
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -549,7 +549,7 @@
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.AsPCost.value", "mode": 5, "value": 4},
         {"key": "system.maintainCost.value", "mode": 5, "value": "2 AsP pro KR"}
       ]

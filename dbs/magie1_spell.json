@@ -20,7 +20,7 @@
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"}
 
       ]
@@ -306,7 +306,7 @@
   ],
   "Attributo (Charisma)": [
     {
-      "name": "Zielkategorie Lebewesen ",
+      "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
@@ -314,14 +314,14 @@
       ]
     },
     {
-      "name": "Schnellsteigerung ",
+      "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Keine Aufrechterhaltung ",
+      "name": "Keine Aufrechterhaltung",
       "complete": false,
       "changes": [
 
@@ -695,7 +695,7 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
@@ -2891,21 +2891,21 @@
   ],
   "Spurlos": [
     {
-      "name": "Reichweite Berührung ",
+      "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Andere Kosten ",
+      "name": "Andere Kosten",
       "complete": false,
       "changes": [
 
       ]
     },
     {
-      "name": "Keine Aufrechterhaltung ",
+      "name": "Keine Aufrechterhaltung",
       "complete": false,
       "changes": [
 
