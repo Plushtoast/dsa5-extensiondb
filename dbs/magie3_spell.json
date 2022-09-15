@@ -27,9 +27,10 @@
   "Aquasphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Aquasphaero-IntensiveExplosion"}
       ]
     },
     {
@@ -260,9 +261,10 @@
   "Frigisphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Frigisphaero-IntensiveExplosion"}
       ]
     },
     {
@@ -377,9 +379,10 @@
   "Humosphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Humosphaero-IntensiveExplosion"}
       ]
     },
     {
