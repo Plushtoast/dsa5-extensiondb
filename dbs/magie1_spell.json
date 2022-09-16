@@ -66,9 +66,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -82,9 +83,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -252,7 +254,7 @@
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
         {"key": "system.target.value", "mode": 5, "value": "7"}
@@ -262,23 +264,24 @@
   "Armatrutz": [
     {
       "name": "Zielkategorie Objekt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Wesen, Objekt"}
       ]
     },
     {
       "name": "Harte Schale",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -323,9 +326,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -347,9 +351,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -371,9 +376,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -395,9 +401,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -429,7 +436,6 @@
       "name": "Aus dem Limbus",
       "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -441,9 +447,9 @@
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 1, "value": "2"}
       ]
     }
   ],
@@ -625,9 +631,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -855,9 +862,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -1147,9 +1155,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -1170,9 +1179,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2161,9 +2171,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2424,9 +2435,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -2493,9 +2505,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -2516,9 +2529,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -2769,9 +2783,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -2792,9 +2807,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -2884,9 +2900,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -2907,9 +2924,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -3085,9 +3103,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -3108,9 +3127,10 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
