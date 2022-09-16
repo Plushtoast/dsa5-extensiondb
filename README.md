@@ -172,13 +172,13 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |magie1_ritual|0/54|0.0|
 |magie1_spell|40/414|9.7|
 |magie2_ritual|2/111|1.8|
-|magie2_spell|4/222|1.8|
+|magie2_spell|87/222|39.2|
 |magie3_ritual|2/45|4.4|
 |magie3_spell|73/117|62.4|
 |nekromanthaeum_ceremony|0/3|0.0|
 |nekromanthaeum_liturgy|0/3|0.0|
 |nekromanthaeum_ritual|4/6|66.7|
 |nekromanthaeum_spell|12/21|57.1|
-|sum|138/1983|7.0|
+|sum|221/1983|11.1|
 
 
