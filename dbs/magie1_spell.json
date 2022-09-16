@@ -1654,46 +1654,49 @@
   "Ignisphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Ignisphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
   "Ignorantia": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Höhere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Jemand anderen benennen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
@@ -1739,7 +1742,6 @@
       "name": "Ohne Erinnerung",
       "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -1769,9 +1771,9 @@
   "Incendio": [
     {
       "name": "Zielkategorie Objekt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
       ]
     },
     {
@@ -1852,32 +1854,33 @@
     },
     {
       "name": "Nur bestimmte Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Katzenaugen": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Mehrere Lebewesen",
       "complete": false,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Längere Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "1 AsP pro Stunde"}
       ]
     }
   ],
@@ -1914,25 +1917,25 @@
     },
     {
       "name": "Längere Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 2}
       ]
     }
   ],
   "Last des Alters": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
@@ -1944,18 +1947,19 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     }
   ],
   "Lunge des Leviatan": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -1967,9 +1971,9 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
       ]
     }
   ],
@@ -2045,23 +2049,23 @@
   "Memorans": [
     {
       "name": "Merk dir mehr",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 15 Minuten"}
       ]
     },
     {
       "name": "Merk dir noch mehr",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Stunde"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "5 Jahre"}
       ]
     }
   ],
@@ -2098,9 +2102,8 @@
     },
     {
       "name": "Mehrere Objekte",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -2121,9 +2124,9 @@
     },
     {
       "name": "Lange Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     },
     {
@@ -2160,9 +2163,9 @@
   "Objectobscuro": [
     {
       "name": "Längere Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minuten"}
       ]
     },
     {
@@ -2175,18 +2178,17 @@
     },
     {
       "name": "Unsichtbarer Inhalt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Objectofixo": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     },
     {
@@ -2198,9 +2200,8 @@
     },
     {
       "name": "Wände und Decken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -2230,23 +2231,23 @@
   "Oculus Astralis": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     }
   ],
@@ -2276,23 +2277,20 @@
   "Odem Arcanum": [
     {
       "name": "Zwei Gegenstände",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Kegelsicht",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Rundumsicht",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -2324,9 +2322,10 @@
   "Orcanosphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Orcanosphaero-IntensiveExplosion"}
       ]
     },
     {
@@ -2339,9 +2338,10 @@
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],

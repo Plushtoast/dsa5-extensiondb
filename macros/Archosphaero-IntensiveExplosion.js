@@ -10,33 +10,12 @@ source.effects = source.effects.filter(x => x.label != "Archosphaero")
 const lang = game.i18n.lang == "de" ? "de" : "en"
 const dict = {
     de: {
-        msg: "wird von Erzmassen beinträchtigt"
+        msg: "wurde schwer belastet"
     },
     en: {
-        msg: "is being encumbered by masses of ore"
+        msg: "has been encumbered"
     }
 }[lang]
 
-effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;`
+effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition(\"encumbered\", 1, false)`
 source.effects.push(effect)
-source.effects.push({
-  icon: "icons/svg/anchor.svg",
-  label: effect.name,
-  duration: {},
-  changes: [],
-  flags: {
-    dsa5: {
-      value: null,
-      editable: true,
-      custom: true,
-      auto: null,
-      manual: 0,
-      hideOnToken: false,
-      hidePlayers: false,
-      description: effect.name,
-      advancedFunction: 1,
-      args0: "encumbered",
-      args1: "1",
-    },
-  },
-});
