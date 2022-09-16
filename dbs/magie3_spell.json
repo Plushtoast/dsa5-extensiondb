@@ -323,10 +323,10 @@
       ]
     },
     {
-      "name": "Wahnvorstellungen",
-      "complete": false,
+      "name": "Halluzination",
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "Halluzination-Halluzination"}
       ]
     }
   ],
