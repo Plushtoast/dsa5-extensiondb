@@ -2401,16 +2401,16 @@
     },
     {
       "name": "Zwei Dämonen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     },
     {
       "name": "Drei Dämonen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 16}
       ]
     }
   ],
@@ -2448,16 +2448,16 @@
     },
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
@@ -2511,9 +2511,9 @@
   "Radau": [
     {
       "name": "Weitgefasster Radau",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
       ]
     },
     {
@@ -2565,39 +2565,36 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Reichweite 8 Schritt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
       ]
     }
   ],
   "Respondami": [
     {
       "name": "Mehr Fragen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Antworten mit Zahlen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Wann-Fragen beantworten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -2618,71 +2615,71 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     }
   ],
   "Sanftmut": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Erhöhte Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
       ]
     }
   ],
   "Sapefacta": [
     {
       "name": "Gerüche",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
       "complete": false,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": false,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
       ]
     }
   ],
   "Satuarias Herrlichkeit": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 4 Stunden"}
       ]
     },
     {
@@ -2698,7 +2695,7 @@
       "name": "Größere Reichweite",
       "complete": false,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "2 Schritt"}
       ]
     },
     {
@@ -2710,18 +2707,18 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
   "Schwarz und Rot": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"}
       ]
     },
     {
@@ -2742,16 +2739,15 @@
   "Schwarzer Schrecken": [
     {
       "name": "Andere Farbe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
       ]
     },
     {
@@ -2789,16 +2785,17 @@
   "Silentium": [
     {
       "name": "Andere Kosten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minute"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -2823,6 +2820,13 @@
       "complete": true,
       "changes": [
         {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
       ]
     },
     {
@@ -2866,32 +2870,32 @@
     },
     {
       "name": "Längere Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 4 Minuten"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
   "Spinnenlauf": [
     {
       "name": "Wirkt durch Kleidung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -2906,16 +2910,17 @@
   "Spurlos": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Andere Kosten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 AsP pro 30 Minuten"}
       ]
     },
     {
@@ -2930,9 +2935,9 @@
   "Taubheit": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
@@ -2944,9 +2949,9 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -2985,7 +2990,7 @@
       "name": "Höhere Reichweite",
       "complete": false,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
       ]
     },
     {
@@ -3015,7 +3020,7 @@
       "name": "Transport",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16}
       ]
     }
   ],
@@ -3062,7 +3067,6 @@
       "name": "Unsichtbare Kleidung",
       "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -3094,7 +3098,7 @@
       "name": "Andere Kosten",
       "complete": false,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minuten"}
       ]
     },
     {
@@ -3107,18 +3111,18 @@
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8}
       ]
     }
   ],
   "Wolfstatze": [
     {
       "name": "Mittlere Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 5}
       ]
     },
     {
@@ -3131,18 +3135,18 @@
     },
     {
       "name": "Große Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 6}
       ]
     }
   ],
   "Ängste lindern": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "2 Schritt"}
       ]
     },
     {
@@ -3154,18 +3158,17 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
   "Klarum Purum": [
     {
       "name": "Ausnahme",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -3177,32 +3180,9 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    }
-  ],
-  "Zauberklinge Geisterspeer": [
-    {
-      "name": "Verkürzte Ritualdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Trägerwahl",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Hass auf …",
-      "complete": false,
-      "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ]

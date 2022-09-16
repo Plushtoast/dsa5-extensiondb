@@ -412,5 +412,28 @@
 
       ]
     }
-  ]
+  ],
+  "Zauberklinge Geisterspeer": [
+  {
+    "name": "Verkürzte Ritualdauer",
+    "complete": false,
+    "changes": [
+
+    ]
+  },
+  {
+    "name": "Trägerwahl",
+    "complete": false,
+    "changes": [
+
+    ]
+  },
+  {
+    "name": "Hass auf …",
+    "complete": false,
+    "changes": [
+
+    ]
+  }
+]
 }
