@@ -98,9 +98,9 @@
   "Aeolito": [
     {
       "name": "Zielkategorie Objekt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
       ]
     },
     {
@@ -121,9 +121,9 @@
   "Alpgestalt": [
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
@@ -144,16 +144,17 @@
   "Altisonus": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Noch weiter",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     },
     {
@@ -167,23 +168,20 @@
   "Analys Arkanstruktur": [
     {
       "name": "Zwei Gegenstände",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Drei Gegenstände",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Vier Gegenstände",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -238,23 +236,26 @@
   "Archosphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Archosphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
