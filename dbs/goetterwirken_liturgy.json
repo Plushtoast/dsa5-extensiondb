@@ -2,15 +2,17 @@
   "Angriffslust": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
 
       ]
     },
@@ -124,8 +126,9 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
 
       ]
     },
@@ -133,6 +136,7 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
 
       ]
     }
@@ -209,15 +213,17 @@
   "Befreiung des Geistes": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
 
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
 
       ]
     },
@@ -232,22 +238,25 @@
   "Begnadeter Reiter": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "4 Stunden"}
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
 
       ]
     }
@@ -255,8 +264,9 @@
   "Bescheidenheit": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
 
       ]
     },
@@ -301,8 +311,9 @@
   "Besänftigung": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
 
       ]
     },
@@ -315,8 +326,9 @@
     },
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
 
       ]
     }
@@ -324,15 +336,17 @@
   "Blendstrahl": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 KR"}
 
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
 
       ]
     },
@@ -347,15 +361,17 @@
   "Blendung": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
 
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
 
       ]
     },
