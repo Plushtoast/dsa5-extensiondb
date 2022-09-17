@@ -1274,14 +1274,14 @@
       "name": "Zielkategorie magische Objekte",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Objekt (magische Objekte)"}
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Objekte (magische Objekte)"}
       ]
     },
     {
       "name": "Zielkategorie karmale Objekte",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Objekt (karmale Objekte)"}
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Objekte (karmale Objekte)"}
       ]
     }
   ],

@@ -4,6 +4,7 @@ require 'json'
 res = []
 all = 0.0
 alldone = 0.0
+halfdone = 0.0
 Dir["../dbs/*.json"].each do |r|
     json = File.open(r) {|f| JSON.parse(f.read)}
 
@@ -14,6 +15,7 @@ Dir["../dbs/*.json"].each do |r|
         json[sp].each do |ew|
             amount += 1
             done += 1 if ew["complete"]
+            halfdone += 1 if ew["complete"] || ew["changes"].any?
         end
     end
     res << "|#{name}|#{done.to_i}/#{amount.to_i}|#{(done/amount*100).round(1)}|"
@@ -23,4 +25,5 @@ end
 puts "|name|status| % |"
 puts "| -- | ---- | - |"
 puts res.join("\n")
-puts "|sum|#{alldone.to_i}/#{all.to_i}|#{(alldone/all*100).round(1)}|"
+puts "|partly done|#{halfdone.to_i}/#{all.to_i}|#{(halfdone/all*100).round(1)}|"
+puts "|progress|#{alldone.to_i}/#{all.to_i}|#{(alldone/all*100).round(1)}|"

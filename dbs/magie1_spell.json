@@ -266,7 +266,7 @@
       "name": "Zielkategorie Objekt",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Wesen, Objekt"}
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Wesen, Objekte"}
       ]
     },
     {
