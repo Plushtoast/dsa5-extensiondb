@@ -60,16 +60,16 @@
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "Atemnot-VierZiele"}
       ]
     },
     {
       "name": "Acht Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "Atemnot-AchtZiele"}
       ]
     }
   ],
