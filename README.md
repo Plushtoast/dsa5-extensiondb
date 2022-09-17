@@ -180,6 +180,6 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |nekromanthaeum_ritual|4/6|66.7|
 |nekromanthaeum_spell|15/22|68.2|
 |partly done|682/1985|34.4|
-|progress|634/1985|31.9
+|progress|634/1985|31.9|
 
 
