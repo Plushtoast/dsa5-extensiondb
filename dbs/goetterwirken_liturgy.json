@@ -248,7 +248,7 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     },
