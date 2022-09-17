@@ -593,69 +593,65 @@
   "Hilfe in der Not": [
     {
       "name": "Genaue Entfernung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     },
     {
       "name": "Genaue Erreichbarkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Häutung": [
     {
       "name": "Andere Augen, anderes Haar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Größer und kleiner",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Eigene Wahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Inspiration": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "16 Stunden"}
       ]
     }
   ],
@@ -669,9 +665,10 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -685,32 +682,34 @@
   "Jugendlichkeit": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 64},
+        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
       ]
     }
   ],
   "Kleine Moralstärkung": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Tage"}
       ]
     },
     {
@@ -731,16 +730,16 @@
   "Liturgieabsorption": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "13 Tage"}
       ]
     },
     {
@@ -754,101 +753,96 @@
   "Läuterung des Erzes": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS*5"}
       ]
     },
     {
       "name": "Edelmetallrausch",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Edelsteinrausch",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Löwengestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Makelloser Leib": [
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Stunden"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     }
   ],
   "Metallerhitzung": [
     {
       "name": "Größere Menge 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Stunden"}
       ]
     },
     {
       "name": "Größere Menge 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Moralstärkung": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Tage"}
       ]
     },
     {
@@ -869,39 +863,35 @@
   "Nahrungsreinigung": [
     {
       "name": "Größere Menge 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Größere Menge 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Größere Menge 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Nebelleib": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
       "name": "Mitverwandelte Kleidung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -915,23 +905,22 @@
   "Nebelschwaden": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Stunden"}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "64 Schritt"}
       ]
     },
     {
       "name": "Formbarer Nebel",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -940,14 +929,13 @@
       "name": "Schwächere Weihe",
       "complete": false,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     },
     {
       "name": "Mehr Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
