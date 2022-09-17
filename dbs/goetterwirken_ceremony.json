@@ -25,9 +25,9 @@
   "Aufnahme (Initiation)": [
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
@@ -48,23 +48,23 @@
   "Ausbrennen (Purgation)": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 16}
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -80,14 +80,13 @@
       "name": "Größere Reichweite",
       "complete": false,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "unbegrenzt"}
       ]
     },
     {
       "name": "Nicht-Initiaten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -163,9 +162,9 @@
   "Bild für die Ewigkeit": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Minuten"}
       ]
     },
     {
@@ -177,32 +176,28 @@
     },
     {
       "name": "Alle Sinneseindrücke",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Blick in die Flammen": [
     {
       "name": "Visionen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Erkenntnis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Klarheit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
