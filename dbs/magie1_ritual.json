@@ -117,46 +117,44 @@
   "Hagelschlag und Sturmgebrüll": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
       ]
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS*100"}
       ]
     },
     {
       "name": "Höhere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "512 Schritt"}
       ]
     }
   ],
   "Hartes schmelze": [
     {
       "name": "Größere Objekte 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Größere Objekte 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -239,9 +237,9 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     },
     {
@@ -255,23 +253,20 @@
   "Memorabia Falsifir": [
     {
       "name": "Ohne Erinnerung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Phasen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Andere Erinnerung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -301,16 +296,15 @@
   "Ruhe Körper": [
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Kurze Regenerationsphase",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -333,23 +327,22 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": false,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": false,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Jahre"}
       ]
     }
   ],
   "Widerwille": [
     {
       "name": "Nicht alle",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -363,53 +356,52 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     }
   ],
   "Wirbelform": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     }
   ],
   "Xenographus": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     },
     {
       "name": "Besseres Sprachverständnis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
