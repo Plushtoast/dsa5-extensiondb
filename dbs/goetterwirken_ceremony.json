@@ -204,92 +204,88 @@
   "Delphingestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Eidechsengestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Eisbärgestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Erinnern": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Weit zurückliegende Erinnerung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Gelöschte Erinnerungen reaktivieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -319,124 +315,125 @@
   "Fest der Freude": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS*10"}
       ]
     },
     {
       "name": "Später Beginn",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "24 Stunden"}
       ]
     }
   ],
   "Frostschutz": [
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     }
   ],
   "Fruchtbarkeit": [
     {
       "name": "Hohe Wahrscheinlichkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Einzelne Person",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     }
   ],
   "Fuchsgestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Geschwinder Schritt": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Geänderte Zielkategorie 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Geänderte Zielkategorie 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Geweihter Panzer": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
@@ -448,9 +445,10 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
@@ -464,16 +462,15 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     },
     {
       "name": "Karmaspende",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -503,21 +500,22 @@
   "Gänsegestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -533,9 +531,9 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minute"}
       ]
     },
     {
