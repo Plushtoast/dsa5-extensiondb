@@ -1606,9 +1606,9 @@
   "Höllenpein": [
     {
       "name": "Krämpfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "Hoellenpein-Kraempfe"}
       ]
     },
     {
@@ -1620,9 +1620,9 @@
     },
     {
       "name": "Geistige Umnachtung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "Hoellenpein-GeistigeUmnachtung"}
       ]
     }
   ],

@@ -170,7 +170,7 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken_ceremony|148/222|66.7|
 |goetterwirken_liturgy|15/354|4.2|
 |magie1_ritual|19/57|33.3|
-|magie1_spell|186/412|45.1|
+|magie1_spell|188/412|45.6|
 |magie2_ritual|70/111|63.1|
 |magie2_spell|87/222|39.2|
 |magie3_ritual|28/45|62.2|
@@ -179,7 +179,7 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |nekromanthaeum_liturgy|0/3|0.0|
 |nekromanthaeum_ritual|4/6|66.7|
 |nekromanthaeum_spell|15/22|68.2|
-|partly done|698/1985|35.2|
-|progress|649/1985|32.7|
+|partly done|700/1985|35.3|
+|progress|651/1985|32.8|
 
 
