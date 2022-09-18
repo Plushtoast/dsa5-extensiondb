@@ -8,7 +8,7 @@ source.effects.push({
             value: null,
             editable: true,
             customizable: true,
-            description: effect.name,
+            description: effect.system.description.value,
             hideOnToken: true,
             custom: true,
             onRemove: `await actor.addCondition(\"confused\", 1, false)`,
