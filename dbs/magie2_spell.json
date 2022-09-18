@@ -390,9 +390,8 @@
   "Eispfeil": [
     {
       "name": "Andere Geschosse",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -934,9 +933,9 @@
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
       ]
     }
   ],
@@ -1321,9 +1320,9 @@
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
       ]
     }
   ],
