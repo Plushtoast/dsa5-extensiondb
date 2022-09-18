@@ -55,21 +55,21 @@
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "Atemnot-VierZiele"}
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
       ]
     },
     {
       "name": "Acht Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "Atemnot-AchtZiele"}
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
       ]
     }
   ],
