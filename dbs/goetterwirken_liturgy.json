@@ -119,9 +119,9 @@
   "Bann der göttlichen Gaben": [
     {
       "name": "Liturgiedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -377,9 +377,9 @@
     },
     {
       "name": "Liturgiedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -1030,9 +1030,9 @@
   "Goldene Rüstung": [
     {
       "name": "Liturgiedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -1612,9 +1612,9 @@
     },
     {
       "name": "Liturgiedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2157,9 +2157,9 @@
   "Schlaf": [
     {
       "name": "Liturgiedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2302,9 +2302,9 @@
     },
     {
       "name": "Liturgiedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2486,7 +2486,6 @@
     },
     {
       "name": "Mehrere Ziele",
-      "complete": true,
       "complete": true,
       "changes": [
         {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}

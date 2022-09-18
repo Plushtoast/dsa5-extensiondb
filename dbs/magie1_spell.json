@@ -994,9 +994,9 @@
     },
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -1469,9 +1469,9 @@
   "Heptagramma": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -1515,9 +1515,9 @@
   "Hexagramma": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2394,9 +2394,9 @@
   "Pentagramma": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2558,9 +2558,9 @@
   "Regeneratio": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
