@@ -167,19 +167,19 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken2_ceremony|0/165|0.0|
 |goetterwirken2_liturgy|1/243|0.4|
 |goetterwirken2_spell|0/3|0.0|
-|goetterwirken_ceremony|148/222|66.7|
-|goetterwirken_liturgy|15/354|4.2|
-|magie1_ritual|19/57|33.3|
-|magie1_spell|188/412|45.6|
-|magie2_ritual|70/111|63.1|
-|magie2_spell|87/222|39.2|
+|goetterwirken_ceremony|149/222|67.1|
+|goetterwirken_liturgy|31/354|8.8|
+|magie1_ritual|20/57|35.1|
+|magie1_spell|197/412|47.8|
+|magie2_ritual|71/111|64.0|
+|magie2_spell|90/222|40.5|
 |magie3_ritual|28/45|62.2|
 |magie3_spell|76/117|65.0|
 |nekromanthaeum_ceremony|0/3|0.0|
 |nekromanthaeum_liturgy|0/3|0.0|
-|nekromanthaeum_ritual|4/6|66.7|
+|nekromanthaeum_ritual|5/6|83.3|
 |nekromanthaeum_spell|15/22|68.2|
-|partly done|700/1985|35.3|
-|progress|651/1985|32.8|
+|partly done|736/1985|37.1|
+|progress|683/1985|34.4|
 
 
