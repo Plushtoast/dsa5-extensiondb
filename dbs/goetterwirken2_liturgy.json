@@ -1,73 +1,5 @@
 {
-  "Bann der Dunkelheit": [
-    {
-      "name": "Lichtregulation",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Keine Aufrechterhaltung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Lichtkegel",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Bann der Furcht": [
-    {
-      "name": "Zielkategorie Lebewesen",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Bann des Lichts": [
-    {
-      "name": "Längeres Intervall",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größerer Radius",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Keine Aufrechterhaltung",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
+  
   "Bannzone": [
     {
       "name": "Wider Daimonide",
@@ -137,29 +69,7 @@
       ]
     }
   ],
-  "Blendstrahl": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
+  
   "Bärenhaut": [
     {
       "name": "Längere Wirkungsdauer 1",
@@ -229,29 +139,6 @@
       ]
     }
   ],
-  "Ehrenhaftigkeit": [
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Entstelltes Antlitz": [
     {
       "name": "Selbstzweifel",
@@ -269,52 +156,6 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Entzifferung": [
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Ermutigung": [
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Schnellsteigerung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
       "complete": false,
       "changes": [
 
@@ -367,29 +208,6 @@
       ]
     }
   ],
-  "Fall ins Nichts": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Klippensturz",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Fesselndes Band": [
     {
       "name": "Einengendes Band",
@@ -430,29 +248,6 @@
     },
     {
       "name": "Unglaublich freundlich",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Friedvolle Aura": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Aufrechterhaltend",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
 
@@ -528,29 +323,6 @@
       ]
     }
   ],
-  "Giftbann": [
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Tadelloser Entgifter",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Gnadenstoß": [
     {
       "name": "Längere Wirkungsdauer",
@@ -574,29 +346,6 @@
       ]
     }
   ],
-  "Göttlicher Fingerzeig": [
-    {
-      "name": "Weiter entfernter Gegenstand",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Magischer Fingerzeig",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Karmaler Fingerzeig",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Göttlicher Rausch": [
     {
       "name": "Längere Wirkungsdauer 1",
@@ -614,29 +363,6 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Göttliches Zeichen": [
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größerer Radius",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Mächtiges Zeichen",
       "complete": false,
       "changes": [
 
@@ -683,29 +409,6 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Heilsegen": [
-    {
-      "name": "Zielkategorie Lebewesen",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
       "complete": false,
       "changes": [
 
@@ -781,52 +484,6 @@
       ]
     }
   ],
-  "Kleiner Bann wider Untote": [
-    {
-      "name": "Verteilter Schaden 1",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Verteilter Schaden 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Zwei Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Kleiner Bannstrahl": [
-    {
-      "name": "Verteilter Schaden 1",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Verteilter Schaden 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Zwei Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Kraftvoller Körper": [
     {
       "name": "Längere Wirkungsdauer",
@@ -873,29 +530,6 @@
       ]
     }
   ],
-  "Krankheitsbann": [
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Tadelloser Krankheitsheiler",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Vier Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Kriegsfarben": [
     {
       "name": "Stärke des Tiers 1",
@@ -936,29 +570,6 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Lautlos": [
-    {
-      "name": "Verstecken",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Keine Aufrechterhaltung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
 
@@ -1034,52 +645,6 @@
       ]
     }
   ],
-  "Magieschutz": [
-    {
-      "name": "Keine Aufrechterhaltung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Schutz der Gefährten",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Magiesicht": [
-    {
-      "name": "Zwei Gegenstände",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Kegelsicht",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Rundumsicht",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Mammutruf": [
     {
       "name": "Längere Wirkungsdauer",
@@ -1149,121 +714,6 @@
       ]
     }
   ],
-  "Mondsicht": [
-    {
-      "name": "Längeres Intervall",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Keine Aufrechterhaltung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Mondsilberzunge": [
-    {
-      "name": "Längere Wirkungsdauer 1",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Objektsegen": [
-    {
-      "name": "Längere Wirkungsdauer 1",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Starker Objektsegen",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Ort der Ruhe": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Stärkere Stille 1",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Stärkere Stille 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Pflanzenwuchs": [
-    {
-      "name": "Schnellerer Wuchs",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Beet",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Feld",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Polarbärenruf": [
     {
       "name": "Längere Wirkungsdauer",
@@ -1281,29 +731,6 @@
     },
     {
       "name": "Mehr Wesen",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Rabenruf": [
-    {
-      "name": "Mehr Raben",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größerer Radius",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größere Transportreichweite",
       "complete": false,
       "changes": [
 
@@ -1402,29 +829,6 @@
       ]
     }
   ],
-  "Schlaf": [
-    {
-      "name": "Liturgiedauer modifizierbar",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Verteilte Wirkung",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Schlangenruf": [
     {
       "name": "Längere Wirkungsdauer",
@@ -1448,75 +852,6 @@
       ]
     }
   ],
-  "Schlangenstab": [
-    {
-      "name": "Verwirrungsgift",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Kräftige Schlange",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Schnelle Schlange",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Schlangenzunge": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Mehr Schlangen",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Schmerzresistenz": [
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Schmerzimmunität",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Schonfrist": [
     {
       "name": "Längere Wirkungsdauer",
@@ -1527,29 +862,6 @@
     },
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Zielkategorie Wesen",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Schutz der Wehrlosen": [
-    {
-      "name": "Vier Ziele",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Zielkategorie Lebewesen",
       "complete": false,
       "changes": [
 
@@ -1603,29 +915,6 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Sternenglanz": [
-    {
-      "name": "Längere Wirkungsdauer 1",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Bessere Preise",
       "complete": false,
       "changes": [
 
@@ -1701,29 +990,6 @@
       ]
     }
   ],
-  "Wahrheit": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größere Reichweite",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Andere Fragesteller",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Wand wider Dämonen": [
     {
       "name": "Schutzhaut",
@@ -1770,29 +1036,6 @@
       ]
     }
   ],
-  "Wieselflink": [
-    {
-      "name": "Schnellsteigerung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Wolfsruf": [
     {
       "name": "Längere Wirkungsdauer",
@@ -1811,29 +1054,6 @@
     },
     {
       "name": "Mehr Wesen",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Wundersame Verständigung": [
-    {
-      "name": "Zeichensprache",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Tadelloser Übersetzer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
 

@@ -1,27 +1,5 @@
 {
-  "Ackersegen": [
-    {
-      "name": "Größerer Acker",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Noch größerer Acker",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Mehrere Wachstumszyklen",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
+  
   "Arcanum Interdictum": [
     {
       "name": "Größere Stadt",
@@ -298,29 +276,7 @@
       ]
     }
   ],
-  "Exorzismus": [
-    {
-      "name": "Spezialisierter Exorzismus",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Geister-Exorzismus",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Dämonen-Exorzismus",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
+ 
   "Falkengestalt": [
     {
       "name": "Aufrechterhaltend",
@@ -436,29 +392,7 @@
       ]
     }
   ],
-  "Geweihter Panzer": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Starke Weihe",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
+  
   "Göttliche Präzision": [
     {
       "name": "Längere Wirkungsdauer 1",
@@ -712,29 +646,6 @@
       ]
     }
   ],
-  "Löwengestalt": [
-    {
-      "name": "Aufrechterhaltend",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Sprachfähigkeit",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Klerikales Tier",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
   "Machtvoller Exorzismus": [
     {
       "name": "Spezialisierter Exorzismus",
@@ -798,52 +709,6 @@
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Nebelleib": [
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Mitverwandelte Kleidung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Starker Nebel",
-      "complete": false,
-      "changes": [
-
-      ]
-    }
-  ],
-  "Objektweihe": [
-    {
-      "name": "Schwächere Weihe",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Mehr Gewicht",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Mehrere Ziele",
       "complete": false,
       "changes": [
 
