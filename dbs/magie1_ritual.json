@@ -25,8 +25,9 @@
   "Arcanovi": [
     {
       "name": "Geringere Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.castingTime.value", "mode": 5, "value": 240}
 
       ]
     },
@@ -408,9 +409,9 @@
   "Zauberklinge Geisterspeer": [
   {
     "name": "Verkürzte Ritualdauer",
-    "complete": false,
+    "complete": true,
     "changes": [
-
+      {"key": "system.castingTime.value", "mode": 5, "value": 240}
     ]
   },
   {
