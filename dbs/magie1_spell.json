@@ -740,7 +740,7 @@
       "name": "Längere Wirkung",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": " QS x 3 KR"}
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
       ]
     },
     {
@@ -2787,7 +2787,7 @@
       "name": "Andere Kosten",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minute"}
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minuten"}
       ]
     },
     {

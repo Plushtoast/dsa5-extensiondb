@@ -94,6 +94,7 @@ The following keys can be used to modify the spells:
 | system.range.value         | Range                 | Reichweite              |         "32 Schritt" | string |
 | system.duration.value      | Duration              | Dauer                   |               "5 KR" | string |
 | system.variableBaseCost    | variable AE cost      | Variable AsP kosten     |                "true"| boolean |
+| system.canChangeCastingTime| variable cast time    | Variable Zauberdauer    |                "true"| boolean |
 | system.targetCategory.value| Target category       | Zielkategorie           | "Lebewesen"          | string |
 | system.target.value        | size of aoe \*2       | Größe des Flächeneffekts \*2 | "qs*2"               | string |
 | defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   | number |
@@ -168,18 +169,18 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken2_liturgy|1/243|0.4|
 |goetterwirken2_spell|0/3|0.0|
 |goetterwirken_ceremony|149/222|67.1|
-|goetterwirken_liturgy|31/354|8.8|
+|goetterwirken_liturgy|37/354|10.5|
 |magie1_ritual|20/57|35.1|
-|magie1_spell|197/412|47.8|
+|magie1_spell|202/412|49.0|
 |magie2_ritual|71/111|64.0|
-|magie2_spell|90/222|40.5|
+|magie2_spell|91/222|41.0|
 |magie3_ritual|28/45|62.2|
-|magie3_spell|76/117|65.0|
+|magie3_spell|78/117|66.7|
 |nekromanthaeum_ceremony|0/3|0.0|
 |nekromanthaeum_liturgy|0/3|0.0|
 |nekromanthaeum_ritual|5/6|83.3|
 |nekromanthaeum_spell|15/22|68.2|
-|partly done|736/1985|37.1|
-|progress|683/1985|34.4|
+|partly done|750/1985|37.8|
+|progress|697/1985|35.1|
 
 
