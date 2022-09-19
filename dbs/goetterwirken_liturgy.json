@@ -73,16 +73,16 @@
   "Bann der Dunkelheit": [
     {
       "name": "Lichtregulation",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
       ]
     },
     {
@@ -96,16 +96,16 @@
   "Bann der Furcht": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
@@ -134,7 +134,7 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
         {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
 
@@ -144,23 +144,24 @@
   "Bann des Lichts": [
     {
       "name": "Längeres Intervall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "8 AsP pro 15 Minuten"}
       ]
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "QS x 5 Schritt"}
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -181,9 +182,9 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -204,9 +205,9 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -229,9 +230,9 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -319,9 +320,9 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
@@ -329,7 +330,6 @@
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
-
       ]
     }
   ],
@@ -386,23 +386,23 @@
   "Blick des Heilers": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro Minute"}
       ]
     },
     {
       "name": "Genaue Erkenntnis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
