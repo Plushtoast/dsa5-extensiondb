@@ -753,46 +753,45 @@
   "Fall ins Nichts": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Klippensturz",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Feuerwall": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "10 Minuten"}
       ]
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS"}
       ]
     },
     {
       "name": "Intensive Flammen",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 2}
       ]
     }
   ],
@@ -801,44 +800,47 @@
       "name": "Größerer Radius",
       "complete": false,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "8"}
       ]
     },
     {
       "name": "Anderes Intervall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 4 KR"}
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
       ]
     }
   ],
   "Friedvolle Aura": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
       ]
     },
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "8 KaP pro 5 Minuten"}
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
@@ -852,16 +854,16 @@
     },
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
       ]
     }
   ],
@@ -870,7 +872,7 @@
       "name": "Größerer Radius",
       "complete": false,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "8"}
       ]
     },
     {
@@ -882,9 +884,9 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
       ]
     }
   ],
