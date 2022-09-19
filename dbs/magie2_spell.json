@@ -248,9 +248,9 @@
   "Brennender Hass": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
       ]
     },
     {
