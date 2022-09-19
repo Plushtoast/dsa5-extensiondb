@@ -9,8 +9,9 @@
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
 
       ]
     },
