@@ -20,10 +20,12 @@ Dir["../dbs/*.json"].each do |r|
                 case key
                 when "system.maintainCost.value"
                     output << "#{name}: #{key} <#{change["value"]}>  does not match pattern" unless change["value"] =~ /(^0$|^\d{1,3} (AsP|AE|KaP|KE) (pro|per) (\d{1,3} )?(Kampfrunde(n)?|KR(s)?|Minute(n)?|Sekunde(n)?|second(s)?|min|Stunde(n)?|Tag(e)?|combat round(s)?|CR(s)?|minute(s)?|min|hour(s)?|day(s)?))/
+                
+
                 when "system.variableBaseCost"
                 when "system.canChangeCastingTime"
                     output << "#{name}: #{key} can only be true/false" unless change["value"] =~ /(true|false)/
-                when "system.AsPCost.value", "defenseMalus"
+                when "system.AsPCost.value", "defenseMalus", "system.castingTime.value"
                     output << "#{name}: #{key} needs to be a number" unless change["value"].is_a? Numeric
                 when "system.targetCategory.value"
                     cats = change["value"].split(",").map{|x| x.strip}.reject{|x| targetCategories.include?(x)}
