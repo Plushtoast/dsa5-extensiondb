@@ -210,7 +210,7 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     }
@@ -234,7 +234,7 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     }
@@ -276,7 +276,7 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS * 4"}
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 4 Stunden"}
 
       ]
     },
@@ -310,7 +310,7 @@
       "name": "Vampirleben",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Selbst"}
+        {"key": "system.range.value", "mode": 5, "value": "selbst"}
 
       ]
     }
@@ -369,7 +369,7 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode" 5, "value: "true"}
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
 
       ]
     },
@@ -666,7 +666,7 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS * Jahre"}
+        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
 
       ]
     },

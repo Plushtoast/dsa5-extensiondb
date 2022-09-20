@@ -2,7 +2,7 @@
 require 'json'
 
 
-targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)"]
+targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere"]
 
 directory_name = "./log"
 Dir.mkdir(directory_name) unless File.exists?(directory_name)
@@ -35,7 +35,7 @@ Dir["../dbs/*.json"].each do |r|
                 when "system.target.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(qs\*|ql\*)?\d{1,3}/
                 when "system.range.value"
-                    output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(berühren|\d{1,3} Schritt(e)?)/
+                    output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(selbst|berühren|\d{1,3} Schritt(e)?)/
                 when "system.duration.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(\d{1,3}|QS) (Kampfrunde(n)?|KR(s)?|Sekunden(n)?|Minute(n)?|min|Stunde(n)?|Tag(e)?|Woche(n)?|Monat(e)?|Jahr(e)?)/
                 when "macro.transform"

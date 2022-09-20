@@ -165,7 +165,7 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 # Status
 |name|status| % |
 | -- | ---- | - |
-|goetterwirken2_ceremony|0/147|0.0|
+|goetterwirken2_ceremony|57/147|38.8|
 |goetterwirken2_liturgy|1/141|0.7|
 |goetterwirken2_spell|0/3|0.0|
 |goetterwirken_ceremony|149/222|67.1|
@@ -180,7 +180,7 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |nekromanthaeum_liturgy|1/3|33.3|
 |nekromanthaeum_ritual|5/6|83.3|
 |nekromanthaeum_spell|15/22|68.2|
-|partly done|842/1865|45.1|
-|progress|781/1865|41.9|
+|partly done|905/1865|48.5|
+|progress|838/1865|44.9|
 
 
