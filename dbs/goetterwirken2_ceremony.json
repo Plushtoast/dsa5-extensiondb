@@ -3,15 +3,19 @@
   "Arcanum Interdictum": [
     {
       "name": "Größere Stadt",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 256},
+        {"key": "system.castingTime.value", "mode": 5, "value": 960} 
 
       ]
     },
     {
       "name": "Noch größere Stadt",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 512},
+        {"key": "system.castingTime.value", "mode": 5, "value": 1920}
 
       ]
     },
@@ -33,15 +37,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
 
       ]
     }
@@ -56,15 +64,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
 
       ]
     }
@@ -79,15 +91,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
 
       ]
     }
@@ -98,19 +114,24 @@
       "complete": false,
       "changes": [
 
+
       ]
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+                {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": false,
-      "changes": [
+      "changes": [        
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
 
       ]
     }
@@ -125,8 +146,10 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
 
       ]
     },
@@ -134,6 +157,8 @@
       "name": "Mächtiger Elementar",
       "complete": false,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
 
       ]
     }
@@ -148,8 +173,10 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
 
       ]
     },
@@ -157,6 +184,8 @@
       "name": "Mächtiger Elementar",
       "complete": false,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
 
       ]
     }
@@ -164,8 +193,9 @@
   "Eidechsenregeneration": [
     {
       "name": "Schnelle Regeneration",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.castingTime.value", "mode": 5, "value": 5}
 
       ]
     },
@@ -173,13 +203,14 @@
       "name": "Starke Regeneration",
       "complete": false,
       "changes": [
-
+        
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
 
       ]
     }
@@ -201,8 +232,9 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "Berührung"}
 
       ]
     }
@@ -210,8 +242,10 @@
   "Elsterngestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
 
       ]
     },
@@ -240,8 +274,9 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 4"}
 
       ]
     },
@@ -258,20 +293,24 @@
       "name": "Weniger Schaden 1",
       "complete": false,
       "changes": [
+        {"key": "system.effectFormula.value", "mode": 5, "value": "2d20"}
+
 
       ]
     },
     {
       "name": "Weniger Schaden 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.effectFormula.value", "mode": 5, "value": "1d20"}
 
       ]
     },
     {
       "name": "Vampirleben",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "Selbst"}
 
       ]
     }
@@ -280,8 +319,10 @@
   "Falkengestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
 
       ]
     },
@@ -326,8 +367,9 @@
   "Geistheilung": [
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.variableBaseCost", "mode" 5, "value: "true"}
 
       ]
     },
@@ -349,8 +391,9 @@
   "Geschlechterwechsel": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 3 Stunden"}
 
       ]
     },
@@ -372,8 +415,9 @@
   "Gespräch mit den Toten": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
 
       ]
     },
@@ -396,15 +440,17 @@
   "Göttliche Präzision": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
 
       ]
     },
@@ -426,8 +472,9 @@
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
 
       ]
     },
@@ -442,15 +489,19 @@
   "Heilung von Seelenkranken": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Woche"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Monat"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
 
       ]
     },
@@ -488,21 +539,23 @@
   "Hundegestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -511,21 +564,23 @@
   "Jaguargestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -541,15 +596,18 @@
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "6 Monate"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "12 Monate"}
+
 
       ]
     }
@@ -557,8 +615,9 @@
   "Lebenstausch": [
     {
       "name": "Anderes Opfer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Tiere, Kulturschaffende"}
 
       ]
     },
@@ -580,8 +639,9 @@
   "Leichtfüßig": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+       {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     },
@@ -594,8 +654,9 @@
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
 
       ]
     }
@@ -603,8 +664,9 @@
   "Liebestätowierung": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * Jahre"}
 
       ]
     },
@@ -626,21 +688,23 @@
   "Luchsgestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -695,21 +759,23 @@
   "Mungogestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -725,15 +791,18 @@
     },
     {
       "name": "Höherer Ahn",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
       ]
     },
     {
       "name": "Mächtiger Ahn",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.castingTime.value", "mode": 5, "value": 460} 
 
       ]
     }
@@ -741,22 +810,25 @@
   "Regenkontrolle": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
 
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.range.value", "mode": 5, "value": "64 Schritt"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
 
       ]
     }
@@ -764,44 +836,49 @@
   "Schlangenfluch": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Monate"}
+        
       ]
     }
   ],
   "Schmetterlingsgestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -856,8 +933,9 @@
   "Stärkung der Wildnis": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
 
       ]
     },
@@ -865,6 +943,7 @@
       "name": "Mächtige Stärkung",
       "complete": false,
       "changes": [
+       {"key": "system.AsPCost.value", "mode": 1, "value": 2}
 
       ]
     },
@@ -872,6 +951,7 @@
       "name": "Längere Wirkungsdauer 2",
       "complete": false,
       "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Minuten"}
 
       ]
     }
