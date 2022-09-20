@@ -1137,16 +1137,16 @@
   "Heiliger Befehl": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Minuten"}
       ]
     },
     {
@@ -1160,23 +1160,23 @@
   "Heiliges Liebesspiel": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
       ]
     }
   ],
@@ -1206,39 +1206,40 @@
   "Heilsegen": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Kulturschaffende, übernatürliche Wesen"}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
       ]
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
       ]
     }
   ],
   "Heldenkraft": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -1344,9 +1345,8 @@
   "Herr der Flammen": [
     {
       "name": "Auch Gegenstände",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -1358,18 +1358,19 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Hilfreiche Seele": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     },
     {
@@ -1390,16 +1391,17 @@
   "Innere Ruhe": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "10 Minuten"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -1415,44 +1417,44 @@
       "name": "Besonders klarer Geist",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     }
   ],
   "Kleine Windhose": [
     {
       "name": "Erschwertes Ausweichen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Höherer Schaden",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.effectFormula.value", "mode": 5, "value": "+1d6+QS"}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
       ]
     }
   ],
@@ -1473,9 +1475,9 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
@@ -1496,32 +1498,32 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Krankheitsbann": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Tadelloser Krankheitsheiler",
       "complete": false,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": false,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -1535,32 +1537,34 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Lebensschutz": [
     {
       "name": "Zielkategorie Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
@@ -1581,25 +1585,27 @@
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "5"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Magiebann": [
     {
       "name": "Höhere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
@@ -1611,25 +1617,26 @@
     },
     {
       "name": "Andere Effekte",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Magieschutz": [
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -1643,78 +1650,78 @@
   "Magiesicht": [
     {
       "name": "Zwei Gegenstände",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Kegelsicht",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Rundumsicht",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Magiespiegel": [
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Zielkategorie Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Wesen"}
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
   "Maske": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     }
   ],
   "Mit Dummheit schlagen": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
@@ -1726,71 +1733,74 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
       ]
     }
   ],
   "Mondsicht": [
     {
       "name": "Längeres Intervall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "1 KaP pro Stunde"}
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Mondsilberzunge": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Motivation": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
       ]
     },
     {
@@ -1804,23 +1814,23 @@
   "Mächtiger Angriff": [
     {
       "name": "Drei Attacken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 12}
       ]
     },
     {
       "name": "Sechs Attacken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16}
       ]
     },
     {
       "name": "Neun Attacken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 20}
       ]
     }
   ],
