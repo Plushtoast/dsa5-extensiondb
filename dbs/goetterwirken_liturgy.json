@@ -1837,9 +1837,9 @@
   "Namenlose Kälte": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
       ]
     },
     {
@@ -1851,9 +1851,9 @@
     },
     {
       "name": "Stationäre Kälte",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
       ]
     }
   ],
@@ -1897,25 +1897,24 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
       ]
     }
   ],
   "Namenloses Vergessen": [
     {
       "name": "Leichtgläubig",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
       ]
     },
     {
@@ -1929,9 +1928,9 @@
   "Objektsegen": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Stunden"}
       ]
     },
     {
@@ -1943,25 +1942,25 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Stunden"}
       ]
     }
   ],
   "Obsession": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
       ]
     },
     {
@@ -1975,9 +1974,9 @@
   "Offenlegung des Geistes": [
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
       ]
     },
     {
@@ -1989,9 +1988,9 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     }
   ],
@@ -2021,9 +2020,9 @@
   "Ort der Ruhe": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Stunden"}
       ]
     },
     {
@@ -2046,113 +2045,106 @@
       "name": "Intensiver Strahl",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Pflanzenwuchs": [
     {
       "name": "Schnellerer Wuchs",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Beet",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16}
       ]
     },
     {
       "name": "Feld",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32}
       ]
     }
   ],
   "Rabenruf": [
     {
       "name": "Mehr Raben",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.target.value", "mode": 5, "value": "QS x 5000"}
       ]
     },
     {
       "name": "Größere Transportreichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Rattenschwarm": [
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Mehr Ratten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Nur eine letzte Ratte",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Ruf der Heimat": [
     {
       "name": "Entfernung bestimmen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Tempel der eigenen Kirche",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Erreichbarkeit feststellen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
