@@ -2454,32 +2454,32 @@
   "Tiere beruhigen": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Erhöhte Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
       ]
     }
   ],
   "Tierleid lindern": [
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2500,62 +2500,65 @@
   "Tiersprache": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Minuten"}
       ]
     },
     {
       "name": "Mehr Wildtiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Treuer Begleiter": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
       "name": "Größere Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     }
   ],
   "Unterwasseratmung": [
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     },
     {
@@ -2569,16 +2572,16 @@
   "Versteinerung": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
       ]
     },
     {
@@ -2592,101 +2595,101 @@
   "Wahrheit": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
       ]
     },
     {
       "name": "Andere Fragesteller",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
   "Wasserlauf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
       ]
     },
     {
       "name": "Mitnahme",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Wieselflink": [
     {
       "name": "Schnellsteigerung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.castingTime.value", "mode": 5, "value": "10 KR"},
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Windhose": [
     {
       "name": "Erschwertes Ausweichen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Höherer Schaden",
       "complete": false,
       "changes": [
-
+        {"key": "system.effectFormula.value", "mode": 5, "value": "+2W6+(QS x 2)"}
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
       ]
     }
   ],
   "Wundersame Verständigung": [
     {
       "name": "Zeichensprache",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     },
     {
@@ -2698,32 +2701,35 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ],
   "Zähe Haut": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
       ]
     },
     {
       "name": "Harte Schale",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "false"}
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
       ]
     }
   ]
