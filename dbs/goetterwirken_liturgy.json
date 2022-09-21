@@ -1208,7 +1208,7 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Kulturschaffende, übernatürliche Wesen"}
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Kulturschaffende, Übernatürliche Wesen"}
       ]
     },
     {
@@ -1447,7 +1447,7 @@
       "name": "Höherer Schaden",
       "complete": true,
       "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "+1d6+QS"}
+        {"key": "system.effectFormula.value", "mode": 5, "value": "1d6+QS"}
       ]
     },
     {
@@ -2642,7 +2642,7 @@
       "name": "Schnellsteigerung",
       "complete": true,
       "changes": [
-        {"key": "system.castingTime.value", "mode": 5, "value": "10 KR"},
+        {"key": "system.castingTime.value", "mode": 5, "value": 10 },
         {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
       ]
     },
@@ -2674,7 +2674,7 @@
       "name": "Höherer Schaden",
       "complete": false,
       "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "+2W6+(QS x 2)"}
+        {"key": "system.effectFormula.value", "mode": 5, "value": "2d6+2*QS"}
       ]
     },
     {

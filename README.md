@@ -99,7 +99,7 @@ The following keys can be used to modify the spells:
 | system.target.value        | size of aoe \*2       | Größe des Flächeneffekts \*2 | "qs*2"               | string |
 | defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   | number |
 
-*1 The damage roll is a string and has to be preceded with a "+" or "-" at all times.
+*1 The damage roll is a string and has to be preceded with a "+" or "-" for mode 2.
 *2 This is not reflected in spell data yet
 
 See also existing extensions as example.
@@ -169,7 +169,7 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken2_liturgy|1/141|0.7|
 |goetterwirken2_spell|0/3|0.0|
 |goetterwirken_ceremony|149/222|67.1|
-|goetterwirken_liturgy|117/354|33.1|
+|goetterwirken_liturgy|248/354|70.1|
 |magie1_ritual|22/57|38.6|
 |magie1_spell|202/412|49.0|
 |magie2_ritual|71/111|64.0|
@@ -180,7 +180,7 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |nekromanthaeum_liturgy|1/3|33.3|
 |nekromanthaeum_ritual|5/6|83.3|
 |nekromanthaeum_spell|15/22|68.2|
-|partly done|905/1865|48.5|
-|progress|838/1865|44.9|
+|partly done|1045/1865|56.0|
+|progress|969/1865|52.0|
 
 

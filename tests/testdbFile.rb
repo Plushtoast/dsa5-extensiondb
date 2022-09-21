@@ -2,10 +2,12 @@
 require 'json'
 
 
-targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere"]
+targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen"]
 
 directory_name = "./log"
 Dir.mkdir(directory_name) unless File.exists?(directory_name)
+
+rollPattern = /^(\+|-)?\d{1,3}[wWdD]\d{1,3}((\+|-)(\d|QS))?(\*(\d|QS))?$/
 
 Dir["../dbs/*.json"].each do |r|
     json = File.open(r) {|f| JSON.parse(f.read)}
@@ -31,7 +33,9 @@ Dir["../dbs/*.json"].each do |r|
                     cats = change["value"].split(",").map{|x| x.strip}.reject{|x| targetCategories.include?(x)}
                     output << "#{name}: #{key} unknown categorie(s) #{cats.join(", ")}" if cats.any?
                 when "system.effectFormula.value"
-                    output << "#{name}: #{key} needs to start with + or -" unless change["value"] =~ /^(\+-)/ || change["mode"] == 5
+                    output << "#{name}: #{key} <#{change["value"]}> does not match pattern #{rollPattern}" unless change["value"] =~ rollPattern
+
+                    output << "#{name}: #{key} needs to start with + or -" if !(change["value"] =~ /^(\+-)/) && change["mode"] == 2
                 when "system.target.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(qs\*|ql\*)?\d{1,3}/
                 when "system.range.value"
