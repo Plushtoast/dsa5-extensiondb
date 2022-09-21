@@ -10,15 +10,17 @@
     },
     {
       "name": "Liturgiedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
 
       ]
     },
     {
       "name": "Änderung des Intervalls",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 AsP pro 10 KR"}
 
       ]
     }
@@ -26,22 +28,25 @@
   "Befehl des Schamanen": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 KR"}
 
       ]
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
 
       ]
     }
@@ -49,15 +54,17 @@
   "Berauschen": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Stunde"}
 
       ]
     },
@@ -73,8 +80,9 @@
   "Bärenhaut": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 KR"}
 
       ]
     },
@@ -82,13 +90,15 @@
       "name": "Dickes Fell",
       "complete": false,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 10 KR"}
 
       ]
     }
@@ -96,22 +106,25 @@
   "Büchersuche": [
     {
       "name": "Größere Entfernung 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS * 3 Schritt"}
 
       ]
     },
     {
       "name": "Größere Entfernung 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS * 5 Schritt"}
 
       ]
     },
     {
       "name": "Mehrere Bücher",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
 
       ]
     }
@@ -119,22 +132,25 @@
   "Doppelgänger": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 10 Minuten"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 30 Minuten"}
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     }
@@ -149,15 +165,17 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "6 Stunden"}
 
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
 
       ]
     }
@@ -165,15 +183,17 @@
   "Erregender Rausch": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     },
@@ -188,22 +208,25 @@
   "Erwachen": [
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
 
       ]
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
 
       ]
     },
     {
       "name": "Massenerwachen",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
 
       ]
     }
@@ -218,15 +241,17 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 KR"}
 
       ]
     }
@@ -234,15 +259,17 @@
   "Freundschaftliches Auftreten": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "20 Minuten"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
@@ -264,8 +291,9 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
 
       ]
     },
@@ -280,8 +308,9 @@
   "Geisterfalle": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
 
       ]
     },
@@ -294,8 +323,9 @@
     },
     {
       "name": "Kürzere Liturgiedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.castingTime.value", "mode": 5, "value": 4}
 
       ]
     }
@@ -326,8 +356,9 @@
   "Gnadenstoß": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
 
       ]
     },
@@ -349,8 +380,9 @@
   "Göttlicher Rausch": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
 
       ]
     },
@@ -363,8 +395,9 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Minuten"}
 
       ]
     }
@@ -372,8 +405,9 @@
   "Hairuf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
@@ -402,15 +436,17 @@
     },
     {
       "name": "Harter Aufprall",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.effectFormula.value", "mode": 5, "value": "+1d6+6"}
 
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
 
       ]
     }
@@ -418,8 +454,9 @@
   "Jaguarruf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
@@ -441,8 +478,9 @@
   "Kampfgeschick": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 3 KR"}
 
       ]
     },
@@ -455,8 +493,9 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     }
@@ -464,22 +503,25 @@
   "Kleidungschamäleon": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Stunden"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 10 Stunden"}
 
       ]
     }
@@ -487,8 +529,9 @@
   "Kraftvoller Körper": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 10 KR"}
 
       ]
     },
@@ -510,22 +553,25 @@
   "Krankheiten vorbeugen": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Stunden"}
 
       ]
     }
@@ -558,20 +604,24 @@
       "name": "Paralysierende Explosion",
       "complete": false,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value" 4}
 
       ]
     },
     {
       "name": "Unvorhersehbare Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+        {"key": "system.AsPCost.value", "mode": 2, "value" 2}
 
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value" 2}
 
       ]
     }
@@ -586,15 +636,17 @@
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Minuten"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 10 Minuten"}
 
       ]
     }
@@ -602,8 +654,9 @@
   "Macht des Levthan": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 KR"}
 
       ]
     },
@@ -616,8 +669,9 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
 
       ]
     }
@@ -648,8 +702,10 @@
   "Mammutruf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
+
 
       ]
     },
@@ -678,8 +734,9 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
 
       ]
     },
@@ -694,8 +751,9 @@
   "Meeresungeheuer vertreiben": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
 
       ]
     },
@@ -708,8 +766,9 @@
     },
     {
       "name": "Kürzere Liturgiedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.castingTime.value", "mode": 5, "value": 8}
 
       ]
     }
@@ -717,8 +776,9 @@
   "Polarbärenruf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
@@ -763,8 +823,9 @@
   "Reinigung des Bösen": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
 
       ]
     },
@@ -786,8 +847,9 @@
   "Rinderruf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
@@ -811,6 +873,7 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": " QS KR"}
 
       ]
     },
@@ -832,8 +895,9 @@
   "Schlangenruf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "30 Minuten"}
 
       ]
     },
@@ -855,22 +919,26 @@
   "Schonfrist": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 KR"}
 
       ]
     },
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "8 KaP pro 5 Minuten"}
 
       ]
     },
     {
       "name": "Zielkategorie Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Wesen"}
 
       ]
     }
@@ -878,22 +946,25 @@
   "Sicht in der Dunkelheit": [
     {
       "name": "Längeres Intervall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.maintainCost.value", "mode": 5, "value": "1 KaP pro Stunde"}
+        
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     },
     {
       "name": "Mehrere Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-1AsP_per_target"}
 
       ]
     }
@@ -901,22 +972,25 @@
   "Steinhaut": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 3 KR"}
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 KR"}
 
       ]
     }
@@ -924,22 +998,25 @@
   "Talismanruf": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Stunden"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
 
       ]
     }
@@ -954,8 +1031,9 @@
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 3 KR"}
 
       ]
     },
@@ -970,8 +1048,9 @@
   "Vampirische Kräfte": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
 
       ]
     },
@@ -984,8 +1063,9 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "15 KR"}
 
       ]
     }
@@ -1000,15 +1080,17 @@
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "5"}
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
 
       ]
     }
@@ -1016,22 +1098,25 @@
   "Weihe des Bodens": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "QS * 3 Minuten"}
 
       ]
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "8"}
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Minuten"}
 
       ]
     }
@@ -1063,8 +1148,9 @@
   "Zwergenmacht": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Stunde"}
 
       ]
     },
