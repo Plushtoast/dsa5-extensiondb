@@ -604,7 +604,7 @@
       "name": "Paralysierende Explosion",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value" 4}
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
 
       ]
     },
@@ -612,8 +612,8 @@
       "name": "Unvorhersehbare Explosion",
       "complete": true,
       "changes": [
-        {"key": "defenseMalus", "mode": 2, "value": -2}
-        {"key": "system.AsPCost.value", "mode": 2, "value" 2}
+        {"key": "defenseMalus", "mode": 2, "value": -2},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
 
       ]
     },
@@ -621,7 +621,7 @@
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value" 2}
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
 
       ]
     }
