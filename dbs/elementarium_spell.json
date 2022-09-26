@@ -1,0 +1,807 @@
+{
+  "Aeolito": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weites Zurückwerfen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erz-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aquafaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aquasphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Archofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Archosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Basaltleib": [
+    {
+      "name": "Erzschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Brandungsleib": [
+    {
+      "name": "Wasserschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Corpofrigo": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fixiert",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Humus-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dornenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Drachenleib": [
+    {
+      "name": "Feuerschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eichenleib": [
+    {
+      "name": "Humusschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eiswand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Federleib": [
+    {
+      "name": "Luftschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Firnlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Flammenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Frigifaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Frigisphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Frostleib": [
+    {
+      "name": "Eisschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Glutlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Himmelslauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Humofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Humosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ignifaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ignisphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Incendio": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erhöhter Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wasser-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invinculo": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Festhalten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Orcanofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Orcanosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Steinwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sturmwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wellenlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wellenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wipfellauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wüstenlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zorn der Elemente": [
+    {
+      "name": "Schweres Ausweichen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harter Aufprall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}
