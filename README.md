@@ -186,4 +186,3 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |partly done|1128/2036|55.4|
 |progress|1049/2036|51.5|
 
-
