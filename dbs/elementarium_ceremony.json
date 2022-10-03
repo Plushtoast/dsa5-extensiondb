@@ -9,15 +9,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
 
       ]
     }
@@ -32,15 +36,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
 
       ]
     }
@@ -55,15 +63,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
 
       ]
     }
@@ -78,15 +90,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
 
       ]
     }
@@ -101,15 +117,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
 
       ]
     }
@@ -124,15 +144,19 @@
     },
     {
       "name": "Höherer Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
 
       ]
     },
     {
       "name": "Mächtiger Elementar",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
 
       ]
     }
