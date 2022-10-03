@@ -165,8 +165,8 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 # Status
 |name|status| % |
 | -- | ---- | - |
-|elementarium_ceremony|0/18|0.0|
-|elementarium_ritual|0/48|0.0|
+|elementarium_ceremony|12/18|66.7|
+|elementarium_ritual|26/48|54.2|
 |elementarium_spell|0/105|0.0|
 |goetterwirken2_ceremony|57/147|38.8|
 |goetterwirken2_liturgy|81/141|57.4|
@@ -183,6 +183,6 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |nekromanthaeum_liturgy|1/3|33.3|
 |nekromanthaeum_ritual|5/6|83.3|
 |nekromanthaeum_spell|15/22|68.2|
-|partly done|1128/2036|55.4|
-|progress|1049/2036|51.5|
+|partly done|1172/2036|57.6|
+|progress|1087/2036|53.4|
 

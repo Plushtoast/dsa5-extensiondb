@@ -83,7 +83,7 @@
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 8}   
 
       ]
@@ -109,7 +109,7 @@
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 8} 
 
       ]
@@ -154,7 +154,7 @@
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 8} 
 
       ]
@@ -206,7 +206,7 @@
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 8} 
 
       ]
@@ -281,7 +281,7 @@
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 8} 
 
       ]
@@ -307,7 +307,7 @@
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "Berührung"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 8} 
 
       ]
