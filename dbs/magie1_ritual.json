@@ -245,9 +245,8 @@
     },
     {
       "name": "Zwei Opfer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
       ]
     }
   ],
@@ -326,14 +325,14 @@
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
         {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
         {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Jahre"}
       ]
@@ -355,7 +354,7 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
         {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]

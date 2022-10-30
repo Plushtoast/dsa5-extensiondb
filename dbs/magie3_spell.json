@@ -900,9 +900,9 @@
     },
     {
       "name": "Erschöpfender Tanz",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "macro.transform", "mode": 2, "value": "Zwingtanz-ErschoepfenderTanz"}
       ]
     }
   ]
