@@ -11,7 +11,7 @@ source.effects.push({
             description: effect.system.description.value,
             hideOnToken: true,
             custom: true,
-            onRemove: `await actor.addCondition(\"daze\", 1, false)`,
+            onRemove: `await actor.addCondition(\"stunned\", 1, false)`,
         },
     },
 })
