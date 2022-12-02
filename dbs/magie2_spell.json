@@ -250,7 +250,7 @@
       "name": "Zauberdauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {

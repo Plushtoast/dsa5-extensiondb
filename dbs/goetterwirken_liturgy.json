@@ -121,7 +121,7 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -379,7 +379,7 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     }
   ],
@@ -1027,14 +1027,14 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
       "name": "Harte Schale",
       "complete": false,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "false"},
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "false"},
         {"key": "system.AsPCost.value", "mode": 2, "value": 32}
       ]
     },
@@ -1612,7 +1612,7 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2153,7 +2153,7 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -2300,7 +2300,7 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime", "mode": 5, "value": "true"}
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
