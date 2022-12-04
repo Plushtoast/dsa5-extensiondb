@@ -169,9 +169,9 @@
     },
     {
       "name": "Zeremoniedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -455,9 +455,9 @@
   "Greifenruf": [
     {
       "name": "Zeremoniedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -1157,9 +1157,9 @@
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
       ]
     },
     {
