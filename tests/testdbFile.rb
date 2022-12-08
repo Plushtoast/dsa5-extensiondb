@@ -27,7 +27,7 @@ Dir["../dbs/*.json"].each do |r|
                 when "system.variableBaseCost"
                 when "system.canChangeCastingTime.value"
                     output << "#{name}: #{key} can only be true/false" unless change["value"] =~ /(true|false)/
-                when "system.AsPCost.value", "defenseMalus", "system.castingTime.value"
+                when "system.AsPCost.value", "defenseMalus", "system.castingTime.value", "system.spellRollModifiers.decreaseCastingTime.mod", "system.spellRollModifiersreduceCostSpell.mod", "system.spellRollModifiers.increaseRangeSpell.mod", "system.spellRollModifiers.reduceCostSpell.mod"
                     output << "#{name}: #{key} needs to be a number" unless change["value"].is_a? Numeric
                 when "system.targetCategory.value"
                     cats = change["value"].split(",").map{|x| x.strip}.reject{|x| targetCategories.include?(x)}

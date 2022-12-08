@@ -615,21 +615,21 @@
       "name": "Reichweite erhöhen",
       "complete": true,
       "changes": [
-        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": 0}
       ]
     },
     {
       "name": "Zauberdauer senken",
       "complete": true,
       "changes": [
-        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": 0}
       ]
     },
     {
       "name": "Kosten senken",
       "complete": true,
       "changes": [
-        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": 0}
       ]
     }
   ],
@@ -728,21 +728,21 @@
       "name": "Reichweite erhöhen",
       "complete": true,
       "changes": [
-        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": 0}
       ]
     },
     {
       "name": "Zauberdauer senken",
       "complete": true,
       "changes": [
-        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": 0}
       ]
     },
     {
       "name": "Kosten senken",
       "complete": true,
       "changes": [
-        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": 0}
       ]
     }
   ],
