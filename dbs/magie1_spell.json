@@ -592,7 +592,7 @@
   "Blick aufs Wesen": [
     {
       "name": "Geistige Eigenschaften",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -892,23 +892,23 @@
   "Dämonenbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -964,23 +964,23 @@
   "Einflussbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -1010,23 +1010,23 @@
   "Elementarbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -1423,46 +1423,46 @@
   "Heilungsbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
   "Hellsichtbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -1703,23 +1703,23 @@
   "Illusionsbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -2209,23 +2209,23 @@
   "Objektbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -2958,23 +2958,23 @@
   "Telekinesebann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],
@@ -3026,23 +3026,23 @@
   "Verwandlungsbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.increaseRangeSpell.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.decreaseCastingTime.mod", "mode": 5, "value": "0"}
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.spellRollModifiers.reduceCostSpell.mod", "mode": 5, "value": "0"}
       ]
     }
   ],

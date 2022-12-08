@@ -1005,21 +1005,22 @@
   "Taubengestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1028,14 +1029,14 @@
   "Traumgesicht": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
       "name": "Mitnahme",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1051,9 +1052,9 @@
   "Untote erschaffen": [
     {
       "name": "Zeremoniedauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
       ]
     },
     {
@@ -1067,28 +1068,29 @@
       "name": "Permanente Wirkung",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Widdergestalt": [
     {
       "name": "Aufrechterhaltend",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1097,23 +1099,23 @@
   "Wolfsfluch": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Tage"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Wochen"}
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Monate"}
       ]
     }
   ],
@@ -1122,19 +1124,20 @@
       "name": "Aufrechterhaltend",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1143,9 +1146,9 @@
   "Zwergische Verbrüderung": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "1 Stunde"}
       ]
     },
     {
@@ -1157,9 +1160,9 @@
     },
     {
       "name": "Nichtzwerge",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"}
       ]
     }
   ],
@@ -1173,9 +1176,9 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "1 Woche"}
       ]
     },
     {
@@ -1189,9 +1192,9 @@
   "Schaffenskraft": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
       ]
     },
     {
