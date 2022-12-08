@@ -2,9 +2,9 @@
   "Aeolito": [
     {
       "name": "Zielkategorie Objekt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Objekte, Lebewesen"}
       ]
     },
     {
@@ -25,92 +25,102 @@
   "Aquafaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Aquafaxius-IntensiverStrahl"}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Aquasphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Aquasphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
   "Archofaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Archofaxius-IntensiverStrahl"}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Archosphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Archosphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
@@ -131,9 +141,11 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
@@ -154,9 +166,11 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
@@ -165,7 +179,7 @@
       "name": "Zielkategorie Objekt",
       "complete": false,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
       ]
     },
     {
@@ -179,7 +193,7 @@
       "name": "Humus-Zerstörer",
       "complete": false,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
       ]
     }
   ],
@@ -223,9 +237,11 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
@@ -246,9 +262,11 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
@@ -292,18 +310,20 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
   "Firnlauf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
@@ -347,46 +367,51 @@
   "Frigifaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Frigifaxius-IntensiverStrahl"}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Frigisphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Frigisphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
@@ -407,18 +432,20 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
       ]
     }
   ],
   "Glutlauf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
@@ -439,9 +466,9 @@
   "Himmelslauf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
@@ -462,101 +489,111 @@
   "Humofaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Humofaxius-IntensiverStrahl"}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Humosphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Humosphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
   "Ignifaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Ignifaxius-IntensiverStrahl"}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Ignisphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Ignisphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
   "Incendio": [
     {
       "name": "Zielkategorie Objekt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
       ]
     },
     {
@@ -577,9 +614,9 @@
   "Invinculo": [
     {
       "name": "Zielkategorie Objekt",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
       ]
     },
     {
@@ -591,55 +628,60 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
       ]
     }
   ],
   "Orcanofaxius": [
     {
       "name": "Intensiver Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Orcanofaxius-IntensiverStrahl"}
       ]
     },
     {
       "name": "Windender Strahl",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ],
   "Orcanosphaero": [
     {
       "name": "Intensive Explosion",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Orcanosphaero-IntensiveExplosion"}
       ]
     },
     {
       "name": "Schneller Ball",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
       ]
     },
     {
       "name": "Großer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
       ]
     }
   ],
@@ -692,9 +734,9 @@
   "Wellenlauf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
@@ -738,9 +780,9 @@
   "Wipfellauf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
@@ -761,9 +803,9 @@
   "Wüstenlauf": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
       ]
     },
     {
@@ -784,23 +826,23 @@
   "Zorn der Elemente": [
     {
       "name": "Schweres Ausweichen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
       "name": "Harter Aufprall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.effectFormula.value", "mode": 5, "value": "+1d6+6"}
       ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
       ]
     }
   ]
