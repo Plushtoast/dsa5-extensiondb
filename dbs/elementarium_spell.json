@@ -492,7 +492,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "macro.transform", "mode": 2, "value": "Humofaxius-IntensiverStrahl"}
+        {"key": "macro.transform", "mode": 2, "value": "Humofaxius-IntensiverStrahl-elementarium"}
       ]
     },
     {
@@ -500,7 +500,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
@@ -517,7 +517,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "macro.transform", "mode": 2, "value": "Humosphaero-IntensiveExplosion"}
+        {"key": "macro.transform", "mode": 2, "value": "Humosphaero-IntensiveExplosion-elementarium"}
       ]
     },
     {
@@ -543,7 +543,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "macro.transform", "mode": 2, "value": "Ignifaxius-IntensiverStrahl"}
+        {"key": "macro.transform", "mode": 2, "value": "Ignifaxius-IntensiverStrahl-elementarium"}
       ]
     },
     {
@@ -568,7 +568,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "macro.transform", "mode": 2, "value": "Ignisphaero-IntensiveExplosion"}
+        {"key": "macro.transform", "mode": 2, "value": "Ignisphaero-IntensiveExplosion-elementarium"}
       ]
     },
     {
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "name": "Erhöhter Schaden",
+      "name": "Schmerzhafte Flammen",
       "complete": false,
       "changes": [
 
@@ -640,7 +640,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "macro.transform", "mode": 2, "value": "Orcanofaxius-IntensiverStrahl"}
+        {"key": "macro.transform", "mode": 2, "value": "Orcanofaxius-IntensiverStrahl-elementarium"}
       ]
     },
     {
@@ -665,7 +665,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "macro.transform", "mode": 2, "value": "Orcanosphaero-IntensiveExplosion"}
+        {"key": "macro.transform", "mode": 2, "value": "Orcanosphaero-IntensiveExplosion-elementarium"}
       ]
     },
     {
