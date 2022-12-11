@@ -370,7 +370,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "macro.transform", "mode": 2, "value": "Frigifaxius-IntensiverStrahl"}
+        {"key": "macro.transform", "mode": 2, "value": "Frigifaxius-IntensiverStrahl-elementarium"}
       ]
     },
     {
@@ -378,7 +378,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {"key": "defenseMalus", "mode": 2, "value": -2}
       ]
     },
     {
@@ -395,7 +395,7 @@
       "complete": true,
       "changes": [
         {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "macro.transform", "mode": 2, "value": "Frigisphaero-IntensiveExplosion"}
+        {"key": "macro.transform", "mode": 2, "value": "Frigisphaero-IntensiveExplosion-elementarium"}
       ]
     },
     {
