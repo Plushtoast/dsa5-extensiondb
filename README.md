@@ -98,34 +98,34 @@ The following keys can be used to modify the spells:
 | system.targetCategory.value| Target category       | Zielkategorie           | "Lebewesen"          | string |
 | system.target.value        | size of aoe \*2       | Größe des Flächeneffekts \*2 | "qs*2"               | string |
 | defenseMalus               | Defense malus         | Verteidigungsmalus      |                 -2   | number |
-| system.spellRollModifiers.forceSpell.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)     | 1                    | number |
-| system.spellRollModifiers.reduceCostSpell.mod               | Cost modifier (Spell)         | Zauberkosten reduzieren (Zauber)     | 1                    | number |
-| system.spellRollModifiers.increaseRangeSpell.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)     | 1                    | number |
-| system.spellRollModifiers.increaseCastingTime.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)      | 1                    | number |
-| system.spellRollModifiers.decreaseCastingTime.mod               | Force Modifier (Spell)         | Erzwingen Modifikator (Zauber)      | 1                    | number |
-| system.spellRollModifiers.removeGesture.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)     | 1                    | number |
-| system.spellRollModifiers.removeFormula.mod               | Force Modifier (Spell)         | Erzwingen Modifikator (Zauber)      | 1                    | number |
-| system.liturgyRollModifiers.forceSpell.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)     | 1                    | number |
-| system.liturgyRollModifiers.reduceCostSpell.mod               | Cost modifier (Liturgical chant)         | Zauberkosten reduzieren (Liturgie)     | 1                    | number |
-| system.liturgyRollModifiers.increaseRangeSpell.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)     | 1                    | number |
-| system.liturgyRollModifiers.increaseCastingTime.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)      | 1                    | number |
-| system.liturgyRollModifiers.decreaseCastingTime.mod               | Force Modifier (Liturgical chant)         | Erzwingen Modifikator (Liturgie)      | 1                    | number |
-| system.liturgyRollModifiers.removeGesture.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)     | 1                    | number |
-| system.liturgyRollModifiers.removeFormula.mod               | Force Modifier (Liturgical chant)         | Erzwingen Modifikator (Liturgie)      | 1                    | number |
-| system.liturgyRollModifiers.forceSpell.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)     | 1                    | number |
-| system.ritualRollModifiers.reduceCostSpell.mod               | Cost modifier (Ritual)         | Zauberkosten reduzieren (Ritual)     | 1                    | number |
-| system.ritualRollModifiers.increaseRangeSpell.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)     | 1                    | number |
-| system.ritualRollModifiers.increaseCastingTime.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)      | 1                    | number |
-| system.ritualRollModifiers.decreaseCastingTime.mod               | Force Modifier (Ritual)         | Erzwingen Modifikator (Ritual)      | 1                    | number |
-| system.ritualRollModifiers.removeGesture.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)     | 1                    | number |
-| system.ritualRollModifiers.removeFormula.mod               | Force Modifier (Ritual)         | Erzwingen Modifikator (Ritual)      | 1                    | number |
-| system.ceremonyRollModifiers.forceSpell.mod               | Force Modifier (Ceremony)         | Erzwingen Modifikator (Zeremonie)     | 1                    | number |
-| system.ceremonyRollModifiers.reduceCostSpell.mod               | Cost modifier (Ceremony)         | Zauberkosten reduzieren (Zeremonie)     | 1                    | number |
-| system.ceremonyRollModifiers.increaseRangeSpell.mod               | Force Modifier (Ceremony)        | Erzwingen Modifikator (Zeremonie)     | 1                    | number |
-| system.ceremonyRollModifiers.increaseCastingTime.mod               | Force Modifier (Ceremony)        | Erzwingen Modifikator (Zeremonie)      | 1                    | number |
-| system.ceremonyRollModifiers.decreaseCastingTime.mod               | Force Modifier (Ceremony)         | Erzwingen Modifikator (Zeremonie)      | 1                    | number |
-| system.ceremonyRollModifiers.removeGesture.mod               | Force Modifier (Ceremony)        | Erzwingen Modifikator (Zeremonie)     | 1                    | number |
-| system.ceremonyRollModifiers.removeFormula.mod               | Force Modifier (Ceremony)         | Erzwingen Modifikator (Zeremonie)      | 1                    | number |
+| spellRollModifiers.forceSpell.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)     | 1                    | number |
+| spellRollModifiers.reduceCostSpell.mod               | Cost modifier (Spell)         | Zauberkosten reduzieren (Zauber)     | 1                    | number |
+| spellRollModifiers.increaseRangeSpell.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)     | 1                    | number |
+| spellRollModifiers.increaseCastingTime.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)      | 1                    | number |
+| spellRollModifiers.decreaseCastingTime.mod               | Force Modifier (Spell)         | Erzwingen Modifikator (Zauber)      | 1                    | number |
+| spellRollModifiers.removeGesture.mod               | Force Modifier (Spell)        | Erzwingen Modifikator (Zauber)     | 1                    | number |
+| spellRollModifiers.removeFormula.mod               | Force Modifier (Spell)         | Erzwingen Modifikator (Zauber)      | 1                    | number |
+| liturgyRollModifiers.forceSpell.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)     | 1                    | number |
+| liturgyRollModifiers.reduceCostSpell.mod               | Cost modifier (Liturgical chant)         | Zauberkosten reduzieren (Liturgie)     | 1                    | number |
+| liturgyRollModifiers.increaseRangeSpell.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)     | 1                    | number |
+| liturgyRollModifiers.increaseCastingTime.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)      | 1                    | number |
+| liturgyRollModifiers.decreaseCastingTime.mod               | Force Modifier (Liturgical chant)         | Erzwingen Modifikator (Liturgie)      | 1                    | number |
+| liturgyRollModifiers.removeGesture.mod               | Force Modifier (Liturgical chant)        | Erzwingen Modifikator (Liturgie)     | 1                    | number |
+| liturgyRollModifiers.removeFormula.mod               | Force Modifier (Liturgical chant)         | Erzwingen Modifikator (Liturgie)      | 1                    | number |
+| liturgyRollModifiers.forceSpell.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)     | 1                    | number |
+| ritualRollModifiers.reduceCostSpell.mod               | Cost modifier (Ritual)         | Zauberkosten reduzieren (Ritual)     | 1                    | number |
+| ritualRollModifiers.increaseRangeSpell.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)     | 1                    | number |
+| ritualRollModifiers.increaseCastingTime.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)      | 1                    | number |
+| ritualRollModifiers.decreaseCastingTime.mod               | Force Modifier (Ritual)         | Erzwingen Modifikator (Ritual)      | 1                    | number |
+| ritualRollModifiers.removeGesture.mod               | Force Modifier (Ritual)        | Erzwingen Modifikator (Ritual)     | 1                    | number |
+| ritualRollModifiers.removeFormula.mod               | Force Modifier (Ritual)         | Erzwingen Modifikator (Ritual)      | 1                    | number |
+| ceremonyRollModifiers.forceSpell.mod               | Force Modifier (Ceremony)         | Erzwingen Modifikator (Zeremonie)     | 1                    | number |
+| ceremonyRollModifiers.reduceCostSpell.mod               | Cost modifier (Ceremony)         | Zauberkosten reduzieren (Zeremonie)     | 1                    | number |
+| ceremonyRollModifiers.increaseRangeSpell.mod               | Force Modifier (Ceremony)        | Erzwingen Modifikator (Zeremonie)     | 1                    | number |
+| ceremonyRollModifiers.increaseCastingTime.mod               | Force Modifier (Ceremony)        | Erzwingen Modifikator (Zeremonie)      | 1                    | number |
+| ceremonyRollModifiers.decreaseCastingTime.mod               | Force Modifier (Ceremony)         | Erzwingen Modifikator (Zeremonie)      | 1                    | number |
+| ceremonyRollModifiers.removeGesture.mod               | Force Modifier (Ceremony)        | Erzwingen Modifikator (Zeremonie)     | 1                    | number |
+| ceremonyRollModifiers.removeFormula.mod               | Force Modifier (Ceremony)         | Erzwingen Modifikator (Zeremonie)      | 1                    | number |
 
 
 *1 The damage roll is a string and has to be preceded with a "+" or "-" for mode 2.
