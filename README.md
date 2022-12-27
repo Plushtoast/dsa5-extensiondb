@@ -176,22 +176,22 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 | -- | ---- | - |
 |elementarium_ceremony|12/18|66.7|
 |elementarium_ritual|26/48|54.2|
-|elementarium_spell|0/105|0.0|
-|goetterwirken2_ceremony|57/147|38.8|
+|elementarium_spell|55/105|52.4|
+|goetterwirken2_ceremony|75/147|51.0|
 |goetterwirken2_liturgy|81/141|57.4|
 |goetterwirken2_spell|0/3|0.0|
-|goetterwirken_ceremony|149/222|67.1|
+|goetterwirken_ceremony|152/222|68.5|
 |goetterwirken_liturgy|248/354|70.1|
 |magie1_ritual|26/57|45.6|
-|magie1_spell|216/412|52.4|
+|magie1_spell|244/412|59.2|
 |magie2_ritual|86/111|77.5|
 |magie2_spell|91/222|41.0|
 |magie3_ritual|28/45|62.2|
-|magie3_spell|79/117|67.5|
+|magie3_spell|85/117|72.6|
 |nekromanthaeum_ceremony|1/3|33.3|
 |nekromanthaeum_liturgy|1/3|33.3|
 |nekromanthaeum_ritual|5/6|83.3|
 |nekromanthaeum_spell|15/22|68.2|
-|partly done|1179/2036|57.9|
-|progress|1121/2036|55.1|
+|partly done|1293/2036|63.5|
+|progress|1231/2036|60.5|
 
