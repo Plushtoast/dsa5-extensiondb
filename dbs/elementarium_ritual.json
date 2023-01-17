@@ -32,6 +32,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Dschinnenruf": [
@@ -55,6 +69,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Elementarer Diener": [
@@ -74,6 +102,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
       "complete": false,
       "changes": [
 
@@ -114,6 +156,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Erhabenheit des Marmors": [
@@ -150,6 +206,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Felsenform": [
@@ -184,6 +254,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -221,6 +305,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Gletscherform": [
@@ -255,6 +353,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -292,6 +404,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Meister der Elemente": [
@@ -311,6 +437,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
       "complete": false,
       "changes": [
 
@@ -350,6 +490,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Reinheit der Lohe": [
@@ -385,6 +539,20 @@
           "mode": 5,
           "value": "QS x 3 Monate"
         }
+      ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -422,6 +590,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wirbelform": [
@@ -456,6 +638,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -492,6 +688,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Staub wandle": [
@@ -522,6 +732,20 @@
           "mode": 5,
           "value": "QS Jahre"
         }
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfache Herstellung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ]

@@ -42,6 +42,20 @@
           "value": 2
         }
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Aquasphaero": [
@@ -92,6 +106,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Atemnot": [
@@ -127,6 +155,20 @@
           "value": "multitarget-2AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Beklemmung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Aura der Erschöpfung": [
@@ -159,6 +201,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Gebrochener Wille",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anhaltende Erschöpfung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Totale Erschöpfung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Blitzball": [
@@ -200,6 +263,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Böser Blick": [
@@ -231,6 +308,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Du kannst nicht vorbei",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kategorie Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Dornenwand": [
@@ -254,6 +345,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Eiswand": [
@@ -273,6 +378,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -308,6 +427,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Fesselfeld": [
@@ -331,6 +464,20 @@
     },
     {
       "name": "Elementare Zerstörung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größerer Radius",
       "complete": false,
       "changes": [
 
@@ -379,6 +526,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -430,6 +591,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Große Verwirrung": [
@@ -460,6 +635,20 @@
           "mode": 2,
           "value": 8
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -496,6 +685,20 @@
           "value": "Halluzination-Wahnvorstellungen"
         }
       ]
+    },
+    {
+      "name": "Starke Halluzinationen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Handlungsfähig",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Herr über das Tierreich": [
@@ -520,6 +723,20 @@
     {
       "name": "Noch mehr Tiere",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
       "changes": [
 
       ]
@@ -567,6 +784,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -618,6 +849,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Invinculo": [
@@ -649,6 +894,20 @@
           "value": "10 KR"
         }
       ]
+    },
+    {
+      "name": "Qualvolle Ranken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Paralysierende Ranken",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Nebelform": [
@@ -679,6 +938,20 @@
           "mode": 5,
           "value": "true"
         }
+      ]
+    },
+    {
+      "name": "Nebeltaschen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wispernebel",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -715,6 +988,20 @@
           "value": "multitarget-4AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Gefangenname",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Panik überkomme euch": [
@@ -747,6 +1034,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Unerträglicher Schrecken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anhaltende Angst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Markerschütternder Schrecken",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Pestilenz erspüren": [
@@ -770,6 +1078,20 @@
     },
     {
       "name": "Gute Heilungschancen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilungssinn 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilungsisnn 2",
       "complete": false,
       "changes": [
 
@@ -814,6 +1136,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Robuster Schild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geschosssicherer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Schuppenhaut": [
@@ -856,6 +1192,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Andere Kosten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harte Schuppenhaut",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Sensattacco": [
@@ -879,6 +1229,20 @@
     },
     {
       "name": "Automatischer Erfolg beim Bestätigungswurf",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch höhere Kritische Trefferchance",
       "complete": false,
       "changes": [
 
@@ -911,6 +1275,20 @@
     {
       "name": "An und Aus",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
       "changes": [
 
       ]
@@ -949,6 +1327,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Stillstand": [
@@ -976,6 +1368,20 @@
     },
     {
       "name": "Zähflüssig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberer ausgenommen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausnahme",
       "complete": false,
       "changes": [
 
@@ -1012,6 +1418,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Machtvolle Verwirrung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anhaltende Verunsicherung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geistige Umnachtung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Sturmwand": [
@@ -1031,6 +1458,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -1062,6 +1503,20 @@
     },
     {
       "name": "Leichte Zubereitung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Alchimiemeister 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Alchimiemeister 2",
       "complete": false,
       "changes": [
 
@@ -1101,6 +1556,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Tempus Stasis": [
@@ -1132,6 +1601,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wellenwand": [
@@ -1151,6 +1634,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -1187,6 +1684,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Machtvolle Versteinerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anhaltende Paralyse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Überwältigende Lähmung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Zorn der Elemente": [
@@ -1222,6 +1740,20 @@
           "value": 2
         }
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Niederschmetternd",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Zunge betäuben": [
@@ -1253,6 +1785,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Höhere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Zweifel schüren": [
@@ -1280,6 +1826,20 @@
     },
     {
       "name": "Starke Zweifel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
       "complete": false,
       "changes": [
 
@@ -1318,6 +1878,20 @@
           "mode": 2,
           "value": "Zwingtanz-ErschoepfenderTanz"
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ansteckender Tanz",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ]

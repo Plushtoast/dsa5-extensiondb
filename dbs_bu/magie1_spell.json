@@ -1,0 +1,3188 @@
+{
+  "Ablativum": [
+    {
+      "name": "Stärkerer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "5"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}        
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"}
+
+      ]
+    }
+  ],
+  "Abvenenum": [
+    {
+      "name": "Ausnahme",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Umfang",
+      "complete": true,
+      "changes": [
+         {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Tadelloser Vorkoster",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Adlerauge": [
+    {
+      "name": "Einzelsinn schärfen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spurensuchen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Adlerschwinge": [
+    {
+      "name": "Mittlere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Große Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aeolito": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
+      ]
+    },
+    {
+      "name": "Weites Zurückwerfen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erz-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Alpgestalt": [
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Acht Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    }
+  ],
+  "Altisonus": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Noch weiter",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    },
+    {
+      "name": "Donnerstimme",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Analys Arkanstruktur": [
+    {
+      "name": "Zwei Gegenstände",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Drei Gegenstände",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Vier Gegenstände",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Angst auslösen": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Archofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Archofaxius-IntensiverStrahl"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Archosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Archosphaero-IntensiveExplosion"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Armatrutz": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Wesen, Objekte"}
+      ]
+    },
+    {
+      "name": "Harte Schale",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Aromatis Illusionis": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Attributo (Charisma)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Attributo (Fingerfertigkeit)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Attributo (Klugheit)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.AsPCost.value", "mode": 21, "value": 2}
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Attributo (Körperkraft)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Aufwecken": [
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Massenerwachen",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    }
+  ],
+  "Auge des Limbus": [
+    {
+      "name": "Aus dem Limbus",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Stärkerer Sog",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.target.value", "mode": 1, "value": "2"}
+      ]
+    }
+  ],
+  "Aureolus": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Auris Illusionis": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Axxeleratus": [
+    {
+      "name": "Schneller",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch schneller",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch viel schneller",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Balsam Salabunde": [
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Kulturschaffende"}
+      ]
+    }
+  ],
+  "Band und Fessel": [
+    {
+      "name": "Zwei Personen",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Vier Personen",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Acht Personen",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    }
+  ],
+  "Bannbaladin": [
+    {
+      "name": "Gelungene Beeinflussung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gelungene Beeinflussung 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gelungene Beeinflussung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blick aufs Wesen": [
+    {
+      "name": "Geistige Eigenschaften",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    }
+  ],
+  "Blick in die Gedanken": [
+    {
+      "name": "Kampfhandlung vorhersehen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unbemerkt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Blindheit": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+      ]
+    },
+    {
+      "name": "Sehschwierigkeiten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Blitz dich find": [
+    {
+      "name": "Vier Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Acht Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+      ]
+    }
+  ],
+  "Chamaelioni": [
+    {
+      "name": "Ausrüstung tarnen",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unsichtbarer Jäger",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    }
+  ],
+  "Claudibus": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "24 Stunden"}
+      ]
+    }
+  ],
+  "Corpofesso": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkung",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Corpofrigo": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
+      ]
+    },
+    {
+      "name": "Fixiert",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Humus-Zerstörer",
+      "complete": false,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Debilitatio": [
+    {
+      "name": "Geisterzone",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Feenzone",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Durchdringung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Desintegratus": [
+    {
+      "name": "Höhere Zerstörungskraft 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere Zerstörungskraft 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgeweitete Zerstörung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Disruptivo": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Unbeeindruckter Zauberwirker",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+      ]
+    }
+  ],
+  "Dunkelheit": [
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+      ]
+    },
+    {
+      "name": "Angsteinflößende Dunkelheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Duplicatus": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dämonenbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Dämonenschild": [
+    {
+      "name": "Schutzhaut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS*5"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    }
+  ],
+  "Ecliptifactus": [
+    {
+      "name": "Weite Entfernung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Verbesserter Schatten",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Einflussbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Eisenrost": [
+    {
+      "name": "Metallgegenstände",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": true,
+      "changes": [
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Ausgeweitete Zerstörung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Elementarbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Elfenstimme": [
+    {
+      "name": "Kurze Rücksprache",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Mehr Personen",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Kommunikationsverbindung",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Erinnerung verlasse dich": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
+      ]
+    }
+  ],
+  "Exposami": [
+    {
+      "name": "Durch Eis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spezielles Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch Erz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Falkenauge": [
+    {
+      "name": "Aufteilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Minuten"}
+      ]
+    },
+    {
+      "name": "Zweiter Schuss",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Favilludo": [
+    {
+      "name": "Kerzenschein",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heiße Aura",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    }
+  ],
+  "Fischflosse": [
+    {
+      "name": "Mittlere Tiere",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 5}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Große Tiere",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 6}
+      ]
+    }
+  ],
+  "Flim Flam": [
+    {
+      "name": "Lichtregulation",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Verankern",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    }
+  ],
+  "Foramen": [
+    {
+      "name": "Wiederverschließbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fallengespür",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Die Priesterkaiser kommen!",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Fortifex": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Fulminictus": [
+    {
+      "name": "Verteilter Schaden 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilter Schaden 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Gardianum": [
+    {
+      "name": "Stärkerer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS*5"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    }
+  ],
+  "Gedankenbilder": [
+    {
+      "name": "Kurze Rücksprache",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Mehr Personen",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Kommunikationsverbindung",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Gefunden": [
+    {
+      "name": "Höhere Reichweite 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "QS x 5 Schritt"}
+      ]
+    },
+    {
+      "name": "Höhere Reichweite 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "QS x 10 Schritt"}
+      ]
+    },
+    {
+      "name": "Höhere Reichweite 3",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "QS x 50 Schritt"}
+      ]
+    }
+  ],
+  "Große Gier": [
+    {
+      "name": "Gelungene Beeinflussung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gelungene Beeinflussung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gelungene Beeinflussung 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Große Verwirrung": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkung",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Harmlose Gestalt": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Haselbusch": [
+    {
+      "name": "Formwuchs",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Woche"}
+      ]
+    },
+    {
+      "name": "Viel längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Monat"}
+      ]
+    }
+  ],
+  "Heilungsbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Hellsichtbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Heptagramma": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": true,
+      "changes": [
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Zwei Geister",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    },
+    {
+      "name": "Drei Geister",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Herzschlag ruhe": [
+    {
+      "name": "Größerer Schmerz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größerer Schmerz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch viel größerer Schmerz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hexagramma": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": true,
+      "changes": [
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Zwei Elementare",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    },
+    {
+      "name": "Drei Elementare",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 16}
+      ]
+    }
+  ],
+  "Hexengalle": [
+    {
+      "name": "Zerstäuber",
+      "complete": true,
+      "changes": [
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Höhere Spuckreichweite",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "6 Schritt"}
+      ]
+    },
+    {
+      "name": "Nachwirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hexenkrallen": [
+    {
+      "name": "Ein- und ausfahrbare Krallen",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Kletterhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Scharfe Krallen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Horriphobus": [
+    {
+      "name": "Längere Wirkung",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 4 Minuten"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Höllenpein": [
+    {
+      "name": "Krämpfe",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "Hoellenpein-Kraempfe"}
+      ]
+    },
+    {
+      "name": "Längere Berührungszeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geistige Umnachtung",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "Hoellenpein-GeistigeUmnachtung"}
+      ]
+    }
+  ],
+  "Ignifaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Ignifaxius-IntensiverStrahl"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Ignisphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Ignisphaero-IntensiveExplosion"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Ignorantia": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+      ]
+    },
+    {
+      "name": "Höhere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+      ]
+    },
+    {
+      "name": "Jemand anderen benennen",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    }
+  ],
+  "Illusionsbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Imperavi": [
+    {
+      "name": "Ohne Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "1 Schritt"}
+      ]
+    },
+    {
+      "name": "Mehr Befehle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ohne Erinnerung",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Impersona": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Incendio": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
+      ]
+    },
+    {
+      "name": "Erhöhter Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wasser-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invercano": [
+    {
+      "name": "Verbesserte Reaktion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbesserte Reaktion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zurückspiegeln auf einen Dritten",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invocatio Minima": [
+    {
+      "name": "Größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch viel größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Karnifilo": [
+    {
+      "name": "Wüterich",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vorhersehbares Ende",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nur bestimmte Ziele",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Katzenaugen": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Mehrere Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-1AsP_per_target"}
+      ]
+    },
+    {
+      "name": "Längere Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "1 AsP pro Stunde"}
+      ]
+    }
+  ],
+  "Krötensprung": [
+    {
+      "name": "Weiter und höher 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weiter und höher 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Krötenflink",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kusch": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkung",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 2}
+      ]
+    }
+  ],
+  "Last des Alters": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+      ]
+    },
+    {
+      "name": "Längere Berührungszeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+      ]
+    }
+  ],
+  "Lunge des Leviatan": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Andere Tätigkeiten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+      ]
+    }
+  ],
+  "Manifesto": [
+    {
+      "name": "Größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch viel größere Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Manus Illusionis": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Manus Miracula": [
+    {
+      "name": "Bessere Werte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch bessere Werte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Memorans": [
+    {
+      "name": "Merk dir mehr",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 15 Minuten"}
+      ]
+    },
+    {
+      "name": "Merk dir noch mehr",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Stunde"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "5 Jahre"}
+      ]
+    }
+  ],
+  "Menetekel": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Motoricus": [
+    {
+      "name": "Noch mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Objekte",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nebelwand": [
+    {
+      "name": "Wandernder Nebel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lange Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+      ]
+    },
+    {
+      "name": "Dichter Nebel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nuntiovolo": [
+    {
+      "name": "Höhere Grundreichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere Flugreichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelle Kreatur",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Objectobscuro": [
+    {
+      "name": "Längere Wirkung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Unsichtbarer Inhalt",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Objectofixo": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+      ]
+    },
+    {
+      "name": "Höheres Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wände und Decken",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Objektbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Oculus Astralis": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    }
+  ],
+  "Oculus Illusionis": [
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Odem Arcanum": [
+    {
+      "name": "Zwei Gegenstände",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Kegelsicht",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Rundumsicht",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Orcanofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Orcanofaxius-IntensiverStrahl"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Orcanosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Orcanosphaero-IntensiveExplosion"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Paralysis": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkung",
+      "complete": true,
+      "changes": [
+          {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Minuten"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+          {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Penetrizzel": [
+    {
+      "name": "Helligkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch Wände hindurchzaubern",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Sehen und Hören",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pentagramma": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": true,
+      "changes": [
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Zwei Dämonen",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    },
+    {
+      "name": "Drei Dämonen",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 16}
+      ]
+    }
+  ],
+  "Physiostabilis": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Plumbumbarum": [
+    {
+      "name": "Senkung der Parade",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Projectimago": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Psychostabilis": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Radau": [
+    {
+      "name": "Weitgefasster Radau",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
+      ]
+    },
+    {
+      "name": "Stärkerer Besen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Reflectimago": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Regeneratio": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": true,
+      "changes": [
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Reichweite 8 Schritt",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
+      ]
+    }
+  ],
+  "Respondami": [
+    {
+      "name": "Mehr Fragen",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Antworten mit Zahlen",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Wann-Fragen beantworten",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Salander": [
+    {
+      "name": "Gleichwertig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geistige Fähigkeiten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+      ]
+    }
+  ],
+  "Sanftmut": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+      ]
+    },
+    {
+      "name": "Erhöhte Reichweite",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+      ]
+    }
+  ],
+  "Sapefacta": [
+    {
+      "name": "Gerüche",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+      ]
+    }
+  ],
+  "Satuarias Herrlichkeit": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 4 Stunden"}
+      ]
+    },
+    {
+      "name": "Wahre Schönheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schmerzen lindern": [
+    {
+      "name": "Größere Reichweite",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "2 Schritt"}
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Schwarz und Rot": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"}
+      ]
+    },
+    {
+      "name": "Schwächung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Todesfluch",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schwarzer Schrecken": [
+    {
+      "name": "Andere Farbe",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
+      ]
+    },
+    {
+      "name": "Große Angst",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sensibar": [
+    {
+      "name": "Kampfhandlung vorhersehen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unbemerkt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Silentium": [
+    {
+      "name": "Andere Kosten",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Skelettarius": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Solidirid": [
+    {
+      "name": "Mehr Strukturpunkte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höheres Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Brücke",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Somnigravis": [
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkung",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 4 Minuten"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Spinnenlauf": [
+    {
+      "name": "Wirkt durch Kleidung",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Spurlos": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+      ]
+    },
+    {
+      "name": "Andere Kosten",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 AsP pro 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    }
+  ],
+  "Taubheit": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+      ]
+    },
+    {
+      "name": "Hörschwierigkeiten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Telekinesebann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Tiergedanken": [
+    {
+      "name": "Erleichterte Verteidigung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere Reichweite",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+      ]
+    },
+    {
+      "name": "Mehr Ziele",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Transversalis": [
+    {
+      "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Teleportationsmöglichkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Transport",
+      "complete": false,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16}
+      ]
+    }
+  ],
+  "Verwandlungsbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": true,
+      "changes": [
+        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": true,
+      "changes": [
+        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": true,
+      "changes": [
+        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+      ]
+    }
+  ],
+  "Visibili": [
+    {
+      "name": "Andere Kosten",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "8 AsP pro 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Unsichtbare Kleidung",
+      "complete": true,
+      "changes": [
+      ]
+    }
+  ],
+  "Vogelzwitschern": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wasseratem": [
+    {
+      "name": "Andere Kosten",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8}
+      ]
+    }
+  ],
+  "Wolfstatze": [
+    {
+      "name": "Mittlere Tiere",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 5}
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Große Tiere",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 6}
+      ]
+    }
+  ],
+  "Ängste lindern": [
+    {
+      "name": "Größere Reichweite",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "2 Schritt"}
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Klarum Purum": [
+    {
+      "name": "Ausnahme",
+      "complete": true,
+      "changes": [
+      ]
+    },
+    {
+      "name": "Tadelloser Entgifter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ]
+}

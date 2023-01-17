@@ -20,6 +20,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Schneidermeister",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Chamäleonrobe",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Arcanovi": [
@@ -47,6 +61,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Noch geringere Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Artefaktkontrolle",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Caldofrigo": [
@@ -66,6 +94,20 @@
     },
     {
       "name": "Höhere/Niedrigere Temperatur 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
       "complete": false,
       "changes": [
 
@@ -93,6 +135,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Elementarer Diener": [
@@ -112,6 +168,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
       "complete": false,
       "changes": [
 
@@ -151,6 +221,20 @@
           "value": "512 Schritt"
         }
       ]
+    },
+    {
+      "name": "Hagelkörner",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harte Hagelkörner",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hartes schmelze": [
@@ -178,6 +262,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Sehr schnelles Schmelzen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verflüssigung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Invocatio Maior": [
@@ -197,6 +295,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
       "complete": false,
       "changes": [
 
@@ -224,6 +336,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Leidensbund": [
@@ -243,6 +369,20 @@
     },
     {
       "name": "Freiwilliger",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Krankheit trotzen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gift trotzen",
       "complete": false,
       "changes": [
 
@@ -274,6 +414,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verwirrtes Raubopfer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwischenspeicher",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Memorabia Falsifir": [
@@ -294,6 +448,20 @@
     {
       "name": "Andere Erinnerung",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Lücke",
+      "complete": false,
       "changes": [
 
       ]
@@ -324,6 +492,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Langer Lauf",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ruhe Körper": [
@@ -347,6 +529,20 @@
     },
     {
       "name": "Längerfristige Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gift- und Krankheitstop",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verstärkter Heilschlaf",
       "complete": false,
       "changes": [
 
@@ -382,6 +578,20 @@
           "value": "QS x 3 Jahre"
         }
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr hohes Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Widerwille": [
@@ -408,6 +618,20 @@
           "mode": 5,
           "value": "QS Tage"
         }
+      ]
+    },
+    {
+      "name": "Willensbrecher",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Objekte",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -444,6 +668,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Xenographus": [
@@ -475,6 +713,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Zauberklinge Geisterspeer": [
@@ -498,6 +750,20 @@
     },
     {
       "name": "Hass auf …",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch kürzere Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Waffen",
       "complete": false,
       "changes": [
 

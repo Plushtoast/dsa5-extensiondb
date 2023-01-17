@@ -13,6 +13,8 @@ Dir["../dbs/*.json"].each do |r|
     name = r.split("/")[-1].gsub(".json", "")
     json.keys.each do |sp|
         json[sp].each do |ew|
+            next if json["deprecated"]
+
             amount += 1
             done += 1 if ew["complete"]
             halfdone += 1 if ew["complete"] || ew["changes"].any?

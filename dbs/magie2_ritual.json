@@ -24,6 +24,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Strukturstärkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rüstungsschutz",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Animatio": [
@@ -47,6 +61,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Mehrere Gegenstände",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegungen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Band der Freundschaft": [
@@ -66,6 +94,20 @@
     },
     {
       "name": "Gelungene Beeinflussung 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -111,6 +153,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Ferner Ort 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ferner Ort 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Brandform": [
@@ -145,6 +201,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -192,6 +262,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Heilsamer Schlaf",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Steinschlaf",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Custodosigil": [
@@ -215,6 +299,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Knall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heiße Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Destructibo": [
@@ -235,6 +333,20 @@
     {
       "name": "Aufheben von dauerhaft wirkenden Artefakten",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Ritualdauer",
+      "complete": false,
       "changes": [
 
       ]
@@ -274,6 +386,20 @@
           "value": "berühren"
         }
       ]
+    },
+    {
+      "name": "Geländesinn",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Umgebungen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ergebenheit der Wogen": [
@@ -309,6 +435,20 @@
           "mode": 5,
           "value": "QS x 3 Wochen"
         }
+      ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -346,6 +486,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Felsenform": [
@@ -380,6 +534,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -417,6 +585,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Geisterbeschwörung": [
@@ -441,6 +623,27 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Mehr Bitten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfaches Herbeirufen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Geisterruf": [
@@ -461,6 +664,27 @@
     },
     {
       "name": "Freundliche Einstellung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Bitten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfaches Herbeirufen",
       "complete": false,
       "changes": [
 
@@ -500,6 +724,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Klarheit des Eises": [
@@ -536,6 +774,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Körperlose Reise": [
@@ -556,6 +808,20 @@
     {
       "name": "Manifestation",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größeres Intervall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zaubermacht",
+      "complete": false,
       "changes": [
 
       ]
@@ -590,6 +856,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Fremde Freunde",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Nekropathia": [
@@ -614,6 +894,20 @@
     {
       "name": "Wechsel des Totenreichs",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geister Deres",
+      "complete": false,
       "changes": [
 
       ]
@@ -644,6 +938,20 @@
     },
     {
       "name": "Bewegliche Zone",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Levitation",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kontrolliertere Levitation",
       "complete": false,
       "changes": [
 
@@ -683,6 +991,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Reinheit der Lohe": [
@@ -719,6 +1041,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ruf der Feenwesen": [
@@ -744,6 +1080,34 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Mehr bitten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfaches Herbeirufen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freundliche Einstellung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Seelenwanderung": [
@@ -768,6 +1132,20 @@
     {
       "name": "Endgültiger Seelentausch",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erstarrter Körper",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vierfachtausch",
+      "complete": false,
       "changes": [
 
       ]
@@ -806,6 +1184,20 @@
           "mode": 2,
           "value": 8
         }
+      ]
+    },
+    {
+      "name": "Elfischer Verteidiger",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Verteidiger",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -849,6 +1241,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Körperveränderung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geschlecht und Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Spezies",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Traumgestalt": [
@@ -872,6 +1285,20 @@
     },
     {
       "name": "Traummeister",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Traumkriegerin",
       "complete": false,
       "changes": [
 
@@ -917,6 +1344,20 @@
           "value": "QS x 3 Monate"
         }
       ]
+    },
+    {
+      "name": "Elementare Erkenntnisse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wirbelform": [
@@ -952,6 +1393,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Zaubernahrung": [
@@ -975,6 +1430,20 @@
     },
     {
       "name": "Geteiltes Elfenbrot",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Leckeres Elfenbrot",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch viel mehr Elfenbrot!",
       "complete": false,
       "changes": [
 
@@ -1006,6 +1475,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verführerisches Schnurren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Streicheln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Zauberwesen der Natur": [
@@ -1025,6 +1508,20 @@
     },
     {
       "name": "Freundliche Einstellung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfaches Herbeirufen",
       "complete": false,
       "changes": [
 
@@ -1059,6 +1556,20 @@
           "mode": 5,
           "value": "QS Wochen"
         }
+      ]
+    },
+    {
+      "name": "Schlimme Strafe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Ritualdauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1101,6 +1612,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Elfischer Kämpfer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Angreifer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wogenform": [
@@ -1136,6 +1661,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Weiches Erstarre": [
@@ -1166,6 +1705,20 @@
           "mode": 5,
           "value": "QS x 30 Minuten"
         }
+      ]
+    },
+    {
+      "name": "Sehr schnelles Härten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versteinerung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ]

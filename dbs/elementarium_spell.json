@@ -24,6 +24,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Qualvoller Wind",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Betäubender Wind",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Aquafaxius": [
@@ -68,6 +82,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -119,6 +147,20 @@
           "value": "10"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Archofaxius": [
@@ -163,6 +205,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -214,6 +270,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Basaltleib": [
@@ -250,6 +320,20 @@
           "mode": 2,
           "value": 8
         }
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -288,6 +372,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Corpofrigo": [
@@ -319,6 +417,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Qualvolles Eis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Paralysierendes Eis",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Dornenwand": [
@@ -338,6 +450,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -379,6 +505,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Eichenleib": [
@@ -416,6 +556,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Eiswand": [
@@ -435,6 +589,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -476,6 +644,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Firnlauf": [
@@ -503,6 +685,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Flammenwand": [
@@ -522,6 +718,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -570,6 +780,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -621,6 +845,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Frostleib": [
@@ -658,6 +896,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Glutlauf": [
@@ -685,6 +937,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Himmelslauf": [
@@ -708,6 +974,20 @@
     },
     {
       "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -756,6 +1036,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -807,6 +1101,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ignifaxius": [
@@ -851,6 +1159,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -902,6 +1224,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Incendio": [
@@ -925,6 +1261,20 @@
     },
     {
       "name": "Wasser-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Qualvolle Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großes Feuer",
       "complete": false,
       "changes": [
 
@@ -959,6 +1309,20 @@
           "mode": 5,
           "value": "10 KR"
         }
+      ]
+    },
+    {
+      "name": "Qualvolle Ranken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Paralysierende Ranken",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1004,6 +1368,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1055,6 +1433,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Steinwand": [
@@ -1078,6 +1470,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Sturmwand": [
@@ -1097,6 +1503,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -1128,6 +1548,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wellenwand": [
@@ -1147,6 +1581,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -1178,6 +1626,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wüstenlauf": [
@@ -1201,6 +1663,20 @@
     },
     {
       "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -1239,6 +1715,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Niederschmetternd",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ]

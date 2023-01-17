@@ -24,6 +24,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kräftiger Wurf",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ledrige Arme",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Affenruf": [
@@ -43,6 +57,20 @@
     },
     {
       "name": "Stärkere Ablenkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -88,6 +116,20 @@
           "value": "Objekte"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aggressive Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Attributo (Gewandtheit)": [
@@ -128,6 +170,20 @@
           "mode": 5,
           "value": "true"
         }
+      ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -170,6 +226,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Attributo (Konstitution)": [
@@ -210,6 +280,20 @@
           "mode": 5,
           "value": "true"
         }
+      ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -252,6 +336,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Avilea": [
@@ -293,6 +391,20 @@
           "value": "Objekte"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aggressive Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Basaltleib": [
@@ -329,6 +441,20 @@
           "mode": 2,
           "value": 8
         }
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -367,6 +493,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Brennender Hass": [
@@ -401,6 +541,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Wütender Hass",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Blinder Hass",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -439,6 +593,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Dämonisches Vergessen": [
@@ -469,6 +637,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -507,6 +689,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Eigene Dummheit": [
@@ -534,6 +730,20 @@
     },
     {
       "name": "Extreme Dummheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
       "complete": false,
       "changes": [
 
@@ -569,6 +779,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Eispfeil": [
@@ -588,6 +812,20 @@
     },
     {
       "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mindergeist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -615,6 +853,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Mindergeist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Eulenruf": [
@@ -634,6 +886,20 @@
     },
     {
       "name": "Scharfe Krallen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -675,6 +941,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Feenstaub": [
@@ -699,6 +979,27 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Ritualvorbereitung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ritualvorbereitung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gewaltige Menge",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Feuerpfeil": [
@@ -718,6 +1019,20 @@
     },
     {
       "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mindergeist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -749,6 +1064,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Flammenwand": [
@@ -768,6 +1097,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -792,6 +1135,27 @@
     },
     {
       "name": "Schwarmteilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starkes Geflatter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -833,6 +1197,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Geisteressenz": [
@@ -857,6 +1235,27 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Ritualvorbereitung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ritualvorbereitung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gewaltige Menge",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Gifthaut": [
@@ -876,6 +1275,20 @@
     },
     {
       "name": "Flexibles Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer modifizierbar",
       "complete": false,
       "changes": [
 
@@ -903,6 +1316,20 @@
     },
     {
       "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -953,6 +1380,20 @@
           "value": "2 AsP pro 5 KR"
         }
       ]
+    },
+    {
+      "name": "Los Hexenholz, flieg!",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Los Hexenholz, flieg schneller!",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hexenknoten": [
@@ -973,6 +1414,20 @@
     {
       "name": "Ausgenommen Freunde 2",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Furchteinfläßende Barriere",
+      "complete": false,
       "changes": [
 
       ]
@@ -1004,6 +1459,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Narbenheilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsamer Speichel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsame Speise",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hilfreiche Pfote": [
@@ -1027,6 +1503,20 @@
     },
     {
       "name": "Größere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Viel mehr Dienste",
       "complete": false,
       "changes": [
 
@@ -1058,6 +1548,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Viel mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hilfreiche Tatze": [
@@ -1081,6 +1585,20 @@
     },
     {
       "name": "Größere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 2",
       "complete": false,
       "changes": [
 
@@ -1112,6 +1630,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hornissenruf": [
@@ -1131,6 +1663,20 @@
     },
     {
       "name": "Allergische Reaktion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -1158,6 +1704,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Mindergeist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Katzenruf": [
@@ -1177,6 +1737,20 @@
     },
     {
       "name": "Scharfe Krallen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -1208,6 +1782,20 @@
           "value": "multitarget-8AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schwere Selbstbeherrschung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Kraft des Tieres": [
@@ -1233,6 +1821,34 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Stärke des Tieres 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärke des Tieres 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Krähenruf": [
@@ -1252,6 +1868,20 @@
     },
     {
       "name": "Zielgenauigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -1293,6 +1923,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kettenblitz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wolke von A’Tall",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Levthans Feuer": [
@@ -1316,6 +1967,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hitzige Liebesnacht",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Luftpfeil": [
@@ -1335,6 +2000,20 @@
     },
     {
       "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mindergeist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -1370,6 +2049,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Mal der Schwäche": [
@@ -1401,6 +2094,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Objectovoco": [
@@ -1421,6 +2128,20 @@
     {
       "name": "Wann-Fragen beantworten",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Viel mehr Fragen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wirkung",
+      "complete": false,
       "changes": [
 
       ]
@@ -1452,6 +2173,27 @@
           "value": "QS*3"
         }
       ]
+    },
+    {
+      "name": "Zauberer verschonen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kein Entkommen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Pestodem": [
@@ -1480,6 +2222,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Unerträglicher Gestank",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ätzender Odem",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Betäubendes Gas",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Reptilea": [
@@ -1521,6 +2284,20 @@
           "value": "Lebewesen, Objekte"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aggressive Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Sanfter Fall": [
@@ -1557,6 +2334,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Noch längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr sanfter Fall",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Schlangenruf": [
@@ -1576,6 +2367,20 @@
     },
     {
       "name": "Giftig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -1611,6 +2416,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Schleier der Unwissenheit": [
@@ -1642,6 +2461,20 @@
           "value": "Kulturschaffende, Lebewesen, Objekte"
         }
       ]
+    },
+    {
+      "name": "Starker Schleier",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Seelentier erkennen": [
@@ -1665,6 +2498,20 @@
     },
     {
       "name": "Erhöhte Willenskraft",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erkennbare Täuschung",
       "complete": false,
       "changes": [
 
@@ -1704,6 +2551,20 @@
           "value": "multitarget-8AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Überredungskünstler",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deutlich längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Serpentialis": [
@@ -1727,6 +2588,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Andere Kosten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Spinnenruf": [
@@ -1746,6 +2621,20 @@
     },
     {
       "name": "Spinnenpanik",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
       "complete": false,
       "changes": [
 
@@ -1786,6 +2675,20 @@
           "value": "berühren"
         }
       ]
+    },
+    {
+      "name": "Gewandter Kämpfer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Abwehrbollwerk",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Steinwand": [
@@ -1809,6 +2712,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Tiere besprechen": [
@@ -1828,6 +2745,20 @@
     },
     {
       "name": "Tierkrankheit heilen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Tierheilung",
       "complete": false,
       "changes": [
 
@@ -1859,6 +2790,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ungeschickt": [
@@ -1886,6 +2831,20 @@
     },
     {
       "name": "Extremes Ungeschick",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
       "complete": false,
       "changes": [
 
@@ -1921,6 +2880,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Vipernblick": [
@@ -1948,6 +2921,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Andere Zielkategorie",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Steinstatue",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wasserpfeil": [
@@ -1967,6 +2954,20 @@
     },
     {
       "name": "Elementarschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mindergeist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -1998,6 +2999,20 @@
     },
     {
       "name": "Große Schwarmtiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tod den Schwarmtieren!",
       "complete": false,
       "changes": [
 
@@ -2034,6 +3049,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Durchdringender Schmerz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anhaltende Agonie",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Peinigender Schmerz",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wellenlauf": [
@@ -2057,6 +3093,20 @@
     },
     {
       "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -2088,6 +3138,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wüstenlauf": [
@@ -2111,6 +3175,20 @@
     },
     {
       "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -2142,6 +3220,20 @@
           "value": "QS Tage"
         }
       ]
+    },
+    {
+      "name": "Wille des Pferdes",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Zitterfinger": [
@@ -2169,6 +3261,20 @@
     },
     {
       "name": "Extremes Zittern",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
       "complete": false,
       "changes": [
 

@@ -1,0 +1,1215 @@
+{
+  
+  "Arcanum Interdictum": [
+    {
+      "name": "Größere Stadt",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 256},
+        {"key": "system.castingTime.value", "mode": 5, "value": 960} 
+
+      ]
+    },
+    {
+      "name": "Noch größere Stadt",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 512},
+        {"key": "system.castingTime.value", "mode": 5, "value": 1920}
+
+      ]
+    },
+    {
+      "name": "Permanente Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Diener der Erde": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+
+      ]
+    }
+  ],
+  "Diener der Flammen": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+
+      ]
+    }
+  ],
+  "Diener der Kälte": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+
+      ]
+    }
+  ],
+  "Diener der Wellen": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+                {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [        
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+
+      ]
+    }
+  ],
+  "Diener der Wolken": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+
+      ]
+    }
+  ],
+  "Diener des Erzes": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": false,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
+        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+
+      ]
+    }
+  ],
+  "Eidechsenregeneration": [
+    {
+      "name": "Schnelle Regeneration",
+      "complete": true,
+      "changes": [
+        {"key": "system.castingTime.value", "mode": 5, "value": 5}
+
+      ]
+    },
+    {
+      "name": "Starke Regeneration",
+      "complete": false,
+      "changes": [
+        
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+
+      ]
+    }
+  ],
+  "Einflüsterung": [
+    {
+      "name": "Überzeugungsarbeit I",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Überzeugungsarbeit II",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+
+      ]
+    }
+  ],
+  "Elsterngestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erfolgreiche Pflanzensuche": [
+    {
+      "name": "Auch Giftpflanzen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 4 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Große Menge",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Erschaffung von Nachtkindern": [
+    {
+      "name": "Weniger Schaden 1",
+      "complete": false,
+      "changes": [
+        {"key": "system.effectFormula.value", "mode": 5, "value": "2d20"}
+
+
+      ]
+    },
+    {
+      "name": "Weniger Schaden 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.effectFormula.value", "mode": 5, "value": "1d20"}
+
+      ]
+    },
+    {
+      "name": "Vampirleben",
+      "complete": true,
+      "changes": [
+        {"key": "system.range.value", "mode": 5, "value": "selbst"}
+
+      ]
+    }
+  ],
+ 
+  "Falkengestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geistersprache": [
+    {
+      "name": "Körpergefühl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mitnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wechsel des Totenreichs",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geistheilung": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": true,
+      "changes": [
+        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+
+      ]
+    },
+    {
+      "name": "Kurze Regenerationsphase",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerfristige Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Geschlechterwechsel": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Einsichten ins andere Geschlecht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wechselndes Geschlecht",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Gespräch mit den Toten": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
+
+      ]
+    },
+    {
+      "name": "Kontakt ins Paradies",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Totenreiche",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  
+  "Göttliche Präzision": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Andere Schützen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heilschlaf": [
+    {
+      "name": "Starke Heilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": true,
+      "changes": [
+         {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+
+      ]
+    },
+    {
+      "name": "Karmale Heilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heilung von Seelenkranken": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Woche"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Monat"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+
+      ]
+    },
+    {
+      "name": "Seelenqual verursachen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Himmlische Schatzkammer": [
+    {
+      "name": "Größerer Gegenstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Minimale Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rückrufbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hundegestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Jaguargestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kriegszustand": [
+    {
+      "name": "Bessere Boni",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+         {"key": "system.duration.value", "mode": 5, "value": "6 Monate"}
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "12 Monate"}
+
+
+      ]
+    }
+  ],
+  "Lebenstausch": [
+    {
+      "name": "Anderes Opfer",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Tiere, Kulturschaffende"}
+
+      ]
+    },
+    {
+      "name": "Starker Tausch",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Leichtfüßig": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+       {"key": "system.range.value", "mode": 5, "value": "berühren"}
+
+      ]
+    },
+    {
+      "name": "Mehr Traglast",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+
+      ]
+    }
+  ],
+  "Liebestätowierung": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
+
+      ]
+    },
+    {
+      "name": "Andere Tätowieren",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Machtvolle Tätowierung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Luchsgestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Machtvoller Exorzismus": [
+    {
+      "name": "Spezialisierter Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geister-Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Dämonen-Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Marbidenmacht": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkerer Bluttrunk",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Regeneration",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Mungogestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Rat der Ahnen": [
+    {
+      "name": "Mehrere Ahnen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Ahn",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+      ]
+    },
+    {
+      "name": "Mächtiger Ahn",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.castingTime.value", "mode": 5, "value": 460} 
+
+      ]
+    }
+  ],
+  "Regenkontrolle": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": true,
+      "changes": [
+         {"key": "system.range.value", "mode": 5, "value": "64 Schritt"}
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
+
+      ]
+    }
+  ],
+  "Schlangenfluch": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Monate"}
+        
+      ]
+    }
+  ],
+  "Schmetterlingsgestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Selbstopferung": [
+    {
+      "name": "Rettung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rettung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rettung 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sippenbann": [
+    {
+      "name": "Schamanenbann 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Für immer verbannt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schamanenbann 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Stärkung der Wildnis": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
+
+      ]
+    },
+    {
+      "name": "Mächtige Stärkung",
+      "complete": false,
+      "changes": [
+       {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+       {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Minuten"}
+
+      ]
+    }
+  ],
+  "Tabuzone": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großes Gebiet",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Talismanverankerung": [
+    {
+      "name": "Geweihter Ort",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Profaner Ort",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geweihter Träger",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Taubengestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Traumgesicht": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Mitnahme",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Traummeister",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Untote erschaffen": [
+    {
+      "name": "Zeremoniedauer modifizierbar",
+      "complete": true,
+      "changes": [
+        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+      ]
+    },
+    {
+      "name": "Geweihter Körper",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Wirkung",
+      "complete": false,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Widdergestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wolfsfluch": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Tage"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Wochen"}
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Monate"}
+      ]
+    }
+  ],
+  "Wolfsgestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
+        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klerikales Tier",
+      "complete": true,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zwergische Verbrüderung": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Stunde"}
+      ]
+    },
+    {
+      "name": "Größerer Bonus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nichtzwerge",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"}
+      ]
+    }
+  ],
+  "Große Waffenweihe": [
+    {
+      "name": "Mehr Waffen 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "1 Woche"}
+      ]
+    },
+    {
+      "name": "Größerer Acker",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schaffenskraft": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+      ]
+    },
+    {
+      "name": "Vielseitige Begabung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Virtuose Begabung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

@@ -32,6 +32,20 @@
           "value": "QS*3"
         }
       ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Dämonisches Vergessen": [
@@ -63,6 +77,20 @@
           "value": "QS Stunden"
         }
       ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Imperavi": [
@@ -87,6 +115,20 @@
     {
       "name": "Ohne Erinnerung",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
       "changes": [
 
       ]
@@ -118,6 +160,27 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Unerträglicher Gestank",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ätzender Odem",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Betäubendes Gas",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Skelettarius": [
@@ -157,6 +220,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Zweifache Erhebung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vierfache Erhebung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Vipernblick": [
@@ -181,6 +258,20 @@
     {
       "name": "Keine Erinnerung",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Zielkategorie",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Steinstatue",
+      "complete": false,
       "changes": [
 
       ]
@@ -218,6 +309,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Niederschmetternd",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ]

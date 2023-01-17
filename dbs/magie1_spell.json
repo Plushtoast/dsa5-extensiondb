@@ -38,6 +38,20 @@
           "value": "Kulturschaffende"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufladbarer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Abvenenum": [
@@ -61,6 +75,20 @@
     },
     {
       "name": "Tadelloser Vorkoster",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
       "complete": false,
       "changes": [
 
@@ -97,6 +125,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Konzentrierter Sinn",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Adlerschwinge": [
@@ -129,6 +171,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Schnellverwandlung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Federkleid",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Aeolito": [
@@ -152,6 +208,20 @@
     },
     {
       "name": "Erz-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Qualvoller Wind",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Betäubender Wind",
       "complete": false,
       "changes": [
 
@@ -191,6 +261,20 @@
           "value": "multitarget-2AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Persönlicher Alptraum",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Altisonus": [
@@ -227,6 +311,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Zwei Personen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Chor",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Analys Arkanstruktur": [
@@ -247,6 +345,20 @@
     {
       "name": "Vier Gegenstände",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
       "changes": [
 
       ]
@@ -277,6 +389,20 @@
     },
     {
       "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Wesen",
       "complete": false,
       "changes": [
 
@@ -325,6 +451,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -376,6 +516,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Armatrutz": [
@@ -417,6 +571,20 @@
           "value": 2
         }
       ]
+    },
+    {
+      "name": "Anhaltender Schutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lebensretter",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Aromatis Illusionis": [
@@ -436,6 +604,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verwirrender Geschmack",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Illusionskombination",
       "complete": false,
       "changes": [
 
@@ -481,6 +663,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Attributo (Fingerfertigkeit)": [
@@ -521,6 +717,20 @@
           "mode": 5,
           "value": "true"
         }
+      ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -563,6 +773,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Attributo (Körperkraft)": [
@@ -604,6 +828,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Aufwecken": [
@@ -639,6 +877,20 @@
           "value": "multitarget-2AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hahnenschrei",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Auge des Limbus": [
@@ -666,6 +918,20 @@
           "value": "2"
         }
       ]
+    },
+    {
+      "name": "Kräftiger Sog",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tor in die Niederhöllen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Aureolus": [
@@ -685,6 +951,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geschickte Beeinflussung",
       "complete": false,
       "changes": [
 
@@ -712,6 +992,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verwirrende Geräusche",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Illusionskombination",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Axxeleratus": [
@@ -731,6 +1025,20 @@
     },
     {
       "name": "Noch viel schneller",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprungkraft",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelle Handlung",
       "complete": false,
       "changes": [
 
@@ -761,6 +1069,20 @@
           "mode": 5,
           "value": "Lebewesen, Kulturschaffende"
         }
+      ]
+    },
+    {
+      "name": "Heilung von Verstümmelung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brabacians Lebenshauch",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -800,6 +1122,41 @@
         }
       ],
       "deprecated": true
+    },
+    {
+      "name": "Zwei Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hausarrest",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelles Band",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Acht Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Bannbaladin": [
@@ -819,6 +1176,20 @@
     },
     {
       "name": "Gelungene Beeinflussung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
       "complete": false,
       "changes": [
 
@@ -854,6 +1225,20 @@
           "value": "multitarget-2AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Karmale Eigenschaften",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Blick in die Gedanken": [
@@ -886,6 +1271,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Sichtung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sichtung 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Blindheit": [
@@ -916,6 +1315,20 @@
           "mode": 2,
           "value": 8
         }
+      ]
+    },
+    {
+      "name": "Höhere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -952,6 +1365,20 @@
           "value": "multitarget-2AsP_per_target"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Sinnesverneblung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Chamaelioni": [
@@ -978,6 +1405,20 @@
           "mode": 5,
           "value": "berühren"
         }
+      ]
+    },
+    {
+      "name": "Mehr Ausrüstung tarnen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1014,6 +1455,20 @@
           "value": "24 Stunden"
         }
       ]
+    },
+    {
+      "name": "Sicherer Verschluss",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwergenschloss",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Corpofesso": [
@@ -1044,6 +1499,20 @@
           "mode": 2,
           "value": 8
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1076,6 +1545,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Qualvolles Eis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Paralysierendes Eis",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Debilitatio": [
@@ -1099,6 +1582,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Meine Freunde",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewegliche Zone",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Desintegratus": [
@@ -1118,6 +1615,20 @@
     },
     {
       "name": "Ausgeweitete Zerstörung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einen Weg schaffen",
       "complete": false,
       "changes": [
 
@@ -1158,6 +1669,20 @@
           "value": "QS*3"
         }
       ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zaubersog",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Dunkelheit": [
@@ -1194,6 +1719,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Noch größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Duplicatus": [
@@ -1213,6 +1752,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spiegelkabinett",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ihr und welche Armee?",
       "complete": false,
       "changes": [
 
@@ -1251,6 +1804,20 @@
           "mode": 5,
           "value": 0
         }
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1293,6 +1860,20 @@
           "value": "berühren"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufladbarer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ecliptifactus": [
@@ -1321,6 +1902,20 @@
     },
     {
       "name": "Verbesserter Schatten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schattenwächter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weg des Schattens",
       "complete": false,
       "changes": [
 
@@ -1360,6 +1955,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Eisenrost": [
@@ -1384,6 +1993,27 @@
     },
     {
       "name": "Ausgeweitete Zerstörung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Waffen und Rüstungen",
       "complete": false,
       "changes": [
 
@@ -1423,6 +2053,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Elfenstimme": [
@@ -1449,6 +2093,20 @@
           "mode": 2,
           "value": 4
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fehlender Sichtkontakt",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1485,6 +2143,20 @@
           "value": "QS Wochen"
         }
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Selektive Erinnerungslücke",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Exposami": [
@@ -1504,6 +2176,20 @@
     },
     {
       "name": "Durch Erz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reinheit der Aura",
       "complete": false,
       "changes": [
 
@@ -1531,6 +2217,20 @@
     },
     {
       "name": "Zweiter Schuss",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gleichzeitiges Zielen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Meisterschütze",
       "complete": false,
       "changes": [
 
@@ -1566,6 +2266,20 @@
           "mode": 5,
           "value": "berühren"
         }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lichtgestalt",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1606,6 +2320,20 @@
           "mode": 2,
           "value": 6
         }
+      ]
+    },
+    {
+      "name": "Schnellverwandlung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schuppenkleid",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1648,6 +2376,20 @@
           "value": "berühren"
         }
       ]
+    },
+    {
+      "name": "Bewegliche Lichtkugel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lichtexplosion",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Foramen": [
@@ -1671,6 +2413,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Übertragbarkeit",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Fortifex": [
@@ -1690,6 +2446,20 @@
     },
     {
       "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
       "complete": false,
       "changes": [
 
@@ -1720,6 +2490,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Angriff gegen Sphärenwesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Donnerkeil",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1762,6 +2546,20 @@
           "value": "berühren"
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufladbarer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Gedankenbilder": [
@@ -1788,6 +2586,20 @@
           "mode": 2,
           "value": 4
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fehlender Sichtkontakt",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1824,6 +2636,20 @@
           "value": "QS x 50 Schritt"
         }
       ]
+    },
+    {
+      "name": "Gefühl der Nähe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gegenstände von Freunden",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Große Gier": [
@@ -1843,6 +2669,20 @@
     },
     {
       "name": "Gelungene Beeinflussung 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite modifizierbar",
       "complete": false,
       "changes": [
 
@@ -1878,6 +2718,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Harmlose Gestalt": [
@@ -1897,6 +2751,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verborgene Dinge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Kosten",
       "complete": false,
       "changes": [
 
@@ -1931,6 +2799,20 @@
           "mode": 5,
           "value": "1 Monat"
         }
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1967,6 +2849,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hellsichtbann": [
@@ -2001,6 +2897,20 @@
           "mode": 5,
           "value": 0
         }
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2037,6 +2947,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Gefangenname",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Herzschlag ruhe": [
@@ -2063,6 +2987,41 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Herzschmerz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unruhiger Herzschlag 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unruhiger Herzschlag 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hexagramma": [
@@ -2098,6 +3057,20 @@
           "value": 16
         }
       ]
+    },
+    {
+      "name": "Gefangenname",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hexengalle": [
@@ -2129,6 +3102,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Hinderliche Spucke",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brennende Spucke",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hexenkrallen": [
@@ -2148,6 +3135,20 @@
     },
     {
       "name": "Scharfe Krallen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hand und Fuß",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lange Krallen",
       "complete": false,
       "changes": [
 
@@ -2183,6 +3184,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Höllenpein": [
@@ -2213,6 +3228,20 @@
           "mode": 2,
           "value": "Hoellenpein-GeistigeUmnachtung"
         }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schlimme Schmerzen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2258,6 +3287,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2309,6 +3352,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ignorantia": [
@@ -2343,6 +3400,20 @@
           "mode": 5,
           "value": "berühren"
         }
+      ]
+    },
+    {
+      "name": "Ignorierter Gegenstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2379,6 +3450,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Imperavi": [
@@ -2406,6 +3491,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Impersona": [
@@ -2425,6 +3524,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Das bin ja ich!",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wer denn nun?",
       "complete": false,
       "changes": [
 
@@ -2457,6 +3570,27 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Qualvolle Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schmerzhafte Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großes Feuer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Invercano": [
@@ -2483,6 +3617,41 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Zurückspiegeln auf einen Dritten 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Astrale Riposte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nicht während meiner Wache",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zurückspiegeln auf einen Dritten 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Invocatio Minima": [
@@ -2507,6 +3676,27 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Ritualvorbereitung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ritualvorbereitung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gewaltige Menge",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Karnifilo": [
@@ -2527,6 +3717,20 @@
     {
       "name": "Nur bestimmte Ziele",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Berserker",
+      "complete": false,
       "changes": [
 
       ]
@@ -2581,6 +3785,27 @@
           "value": "1 AsP pro Stunde"
         }
       ]
+    },
+    {
+      "name": "Sehen in der Dunkelheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Krötensprung": [
@@ -2600,6 +3825,20 @@
     },
     {
       "name": "Krötenflink",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Doppelsprung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
 
@@ -2635,6 +3874,20 @@
           "value": 2
         }
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Last des Alters": [
@@ -2665,6 +3918,20 @@
           "mode": 5,
           "value": "QS Stunden"
         }
+      ]
+    },
+    {
+      "name": "Vergreisung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkalkung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2702,6 +3969,20 @@
           "value": "QS x 3 KR"
         }
       ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Manifesto": [
@@ -2726,6 +4007,27 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Ritualvorbereitung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ritualvorbereitung 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gewaltige Menge",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Manus Illusionis": [
@@ -2749,6 +4051,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verwirrendes Gefühl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Illusionskombination",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Manus Miracula": [
@@ -2768,6 +4084,20 @@
     },
     {
       "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Hände",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch mehr Gewicht",
       "complete": false,
       "changes": [
 
@@ -2807,6 +4137,20 @@
           "value": "5 Jahre"
         }
       ]
+    },
+    {
+      "name": "Berührung des Meisters",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gedächtnisübertragung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Menetekel": [
@@ -2830,6 +4174,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Auffällige Schrift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Motoricus": [
@@ -2849,6 +4207,20 @@
     },
     {
       "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Motoricus Promptus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
       "complete": false,
       "changes": [
 
@@ -2880,6 +4252,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Angsteinflößender Nebel 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Angsteinflößender Nebel 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Nuntiovolo": [
@@ -2899,6 +4285,20 @@
     },
     {
       "name": "Schnelle Kreatur",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bote der Niederhölle",
       "complete": false,
       "changes": [
 
@@ -2939,6 +4339,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Mehr Gewicht 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Gewicht 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Objectofixo": [
@@ -2963,6 +4377,20 @@
     {
       "name": "Wände und Decken",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stabile Verankerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfach unverrückbar",
+      "complete": false,
       "changes": [
 
       ]
@@ -3001,6 +4429,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Oculus Astralis": [
@@ -3036,6 +4478,20 @@
           "value": "QS x 30 Minuten"
         }
       ]
+    },
+    {
+      "name": "Weniger Einschränkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Magische Analyse",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Oculus Illusionis": [
@@ -3055,6 +4511,20 @@
     },
     {
       "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verwirrende Bilder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Illusionskombination",
       "complete": false,
       "changes": [
 
@@ -3079,6 +4549,20 @@
     {
       "name": "Rundumsicht",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
       "changes": [
 
       ]
@@ -3126,6 +4610,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Extremer Schaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -3177,6 +4675,20 @@
           "value": "7"
         }
       ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Paralysis": [
@@ -3208,6 +4720,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Penetrizzel": [
@@ -3227,6 +4753,20 @@
     },
     {
       "name": "Sehen und Hören",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verankerter Spion",
       "complete": false,
       "changes": [
 
@@ -3266,6 +4806,20 @@
           "value": 16
         }
       ]
+    },
+    {
+      "name": "Gefangenname",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Physiostabilis": [
@@ -3298,6 +4852,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Andere Kosten 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Kosten 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Plumbumbarum": [
@@ -3329,6 +4897,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Projectimago": [
@@ -3348,6 +4930,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anderes Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geräuschillusion",
       "complete": false,
       "changes": [
 
@@ -3383,6 +4979,20 @@
           "mode": 5,
           "value": "true"
         }
+      ]
+    },
+    {
+      "name": "Andere Kosten 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Kosten 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -3420,6 +5030,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Wütender Kochlöffel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Radauraserei",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Reflectimago": [
@@ -3439,6 +5063,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Optiktrick",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spiegelkörper",
       "complete": false,
       "changes": [
 
@@ -3478,6 +5116,20 @@
           "value": "8 Schritt"
         }
       ]
+    },
+    {
+      "name": "Schmerzheilung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Regeneration",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Respondami": [
@@ -3498,6 +5150,20 @@
     {
       "name": "Wann-Fragen beantworten",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Strafmaßnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Viel mehr Fragen",
+      "complete": false,
       "changes": [
 
       ]
@@ -3527,6 +5193,20 @@
           "mode": 5,
           "value": "QS Tage"
         }
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -3563,6 +5243,20 @@
           "value": "QS x 10 Minuten"
         }
       ]
+    },
+    {
+      "name": "Zwei Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Sapefacta": [
@@ -3593,6 +5287,20 @@
           "mode": 5,
           "value": "QS*2"
         }
+      ]
+    },
+    {
+      "name": "Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Objektsäuberung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -3630,6 +5338,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Wunderschön 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wunderschön 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Schmerzen lindern": [
@@ -3661,6 +5383,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Schwarz und Rot": [
@@ -3684,6 +5420,20 @@
     },
     {
       "name": "Todesfluch",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brutale Folterung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Tod",
       "complete": false,
       "changes": [
 
@@ -3717,6 +5467,34 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Anderer Sinn",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Sensibar": [
@@ -3748,6 +5526,20 @@
           "mode": 5,
           "value": "true"
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gruppenemphatie",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -3794,6 +5586,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Skelettarius": [
@@ -3833,6 +5639,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Zweifache Erhebung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vierfache Erhebung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Solidirid": [
@@ -3852,6 +5672,20 @@
     },
     {
       "name": "Längere Brücke",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
       "complete": false,
       "changes": [
 
@@ -3886,6 +5720,20 @@
           "mode": 2,
           "value": 4
         }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -3927,6 +5775,20 @@
           "mode": 5,
           "value": "true"
         }
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spinnennetz",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -3973,6 +5835,20 @@
           "value": "true"
         }
       ]
+    },
+    {
+      "name": "Zwei Personen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Personen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Taubheit": [
@@ -4003,6 +5879,20 @@
           "mode": 1,
           "value": 2
         }
+      ]
+    },
+    {
+      "name": "Höhere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -4039,6 +5929,20 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Tiergedanken": [
@@ -4063,6 +5967,20 @@
     {
       "name": "Mehr Ziele",
       "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tierkontrolle",
+      "complete": false,
       "changes": [
 
       ]
@@ -4092,6 +6010,20 @@
           "mode": 5,
           "value": 16
         }
+      ]
+    },
+    {
+      "name": "Blinzeln",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lastenteleport",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -4127,6 +6059,20 @@
           "mode": 5,
           "value": 0
         }
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -4164,6 +6110,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Schnelle Unsichtbarkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Vogelzwitschern": [
@@ -4183,6 +6143,20 @@
     },
     {
       "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -4227,6 +6201,20 @@
           "value": 8
         }
       ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unterwasseratem",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Wolfstatze": [
@@ -4267,6 +6255,20 @@
           "value": 6
         }
       ]
+    },
+    {
+      "name": "Schnellverwandlung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fellkleid",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Ängste lindern": [
@@ -4298,6 +6300,20 @@
           "value": 4
         }
       ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Klarum Purum": [
@@ -4324,6 +6340,20 @@
           "mode": 2,
           "value": 4
         }
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ]

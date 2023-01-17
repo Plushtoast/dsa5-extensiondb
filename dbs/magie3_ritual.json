@@ -21,6 +21,27 @@
 
       ],
       "deprecated": true
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fremdauslöser",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Blick durch fremde Augen": [
@@ -52,6 +73,20 @@
           "value": "QS x 30 Minuten"
         }
       ]
+    },
+    {
+      "name": "Wechselsicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gleichzeitige Sinne",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Chimaeroform": [
@@ -79,6 +114,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfache Herstellung",
       "complete": false,
       "changes": [
 
@@ -114,6 +163,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Länger, weiter",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Chrononautos": [
@@ -145,6 +208,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Länger, weiter",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Dämonenpakt beenden": [
@@ -168,6 +245,20 @@
     },
     {
       "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erfahrener Paktbrecher 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erfahrener Paktbrecher 2",
       "complete": false,
       "changes": [
 
@@ -202,6 +293,20 @@
           "mode": 5,
           "value": "10 Jahre"
         }
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tödliches Abbild",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -238,6 +343,20 @@
           "value": "QS x 10 Jahre"
         }
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verjüngung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Infinitum Immerdar": [
@@ -261,6 +380,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Noch kürzere Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Artefaktmeisterschaft",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Invocatio Maxima": [
@@ -280,6 +413,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
       "complete": false,
       "changes": [
 
@@ -315,6 +462,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Ausnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Strukturelle Zerstörung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Meister der Elemente": [
@@ -334,6 +495,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
       "complete": false,
       "changes": [
 
@@ -369,6 +544,20 @@
           "value": "QS x 10 KR"
         }
       ]
+    },
+    {
+      "name": "Ausgewählte Limbusreisende",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Limbusrüstung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Stein wandle": [
@@ -400,6 +589,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfache Herstellung",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Totes handle": [
@@ -427,6 +630,20 @@
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfache Herstellung",
       "complete": false,
       "changes": [
 
