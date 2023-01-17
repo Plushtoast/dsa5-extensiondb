@@ -404,7 +404,7 @@
   ],
   "Invinculo": [
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
@@ -816,7 +816,7 @@
   ],
   "Zorn der Elemente": [
     {
-      "name": "Schweres Ausweichen",
+      "name": "Schwieriges Ausweichen",
       "complete": true,
       "changes": [
         {"key": "defenseMalus", "mode": 2, "value": -2}

@@ -146,7 +146,7 @@
   ],
   "Zorn der Elemente": [
     {
-      "name": "Schweres Ausweichen",
+      "name": "Schwieriges Ausweichen",
       "complete": true,
       "changes": [
         {"key": "defenseMalus", "mode": 2, "value": -2}

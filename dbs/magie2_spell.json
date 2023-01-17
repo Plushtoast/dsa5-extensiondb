@@ -63,7 +63,7 @@
       ]
     },
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Objekte"}
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Objekte"}
@@ -1180,7 +1180,7 @@
       ]
     },
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}

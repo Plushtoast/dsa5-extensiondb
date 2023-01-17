@@ -99,7 +99,7 @@
   ],
   "Aeolito": [
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
@@ -263,7 +263,7 @@
   ],
   "Armatrutz": [
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Wesen, Objekte"}
@@ -753,7 +753,7 @@
   ],
   "Corpofrigo": [
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": false,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
@@ -1770,7 +1770,7 @@
   ],
   "Incendio": [
     {
-      "name": "Zielkategorie Objekt",
+      "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
         {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
