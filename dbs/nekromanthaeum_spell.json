@@ -4,21 +4,33 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     }
   ],
@@ -27,7 +39,11 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
@@ -41,7 +57,11 @@
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -50,7 +70,11 @@
       "name": "Ohne Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "1 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "1 Schritt"
+        }
       ]
     },
     {
@@ -87,8 +111,13 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
-      ]
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
+      ],
+      "deprecated": true
     }
   ],
   "Skelettarius": [
@@ -103,14 +132,23 @@
       "name": "Längerer Dienst",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Minuten"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
@@ -133,7 +171,11 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
@@ -149,21 +191,33 @@
       "name": "Schwieriges Ausweichen",
       "complete": true,
       "changes": [
-        {"key": "defenseMalus", "mode": 2, "value": -2}
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -2
+        }
       ]
     },
     {
       "name": "Harter Aufprall",
       "complete": true,
       "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "1d6+6"}
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "1d6+6"
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ]

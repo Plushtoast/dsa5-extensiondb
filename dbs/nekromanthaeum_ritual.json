@@ -4,14 +4,22 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Monate"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Jahre"
+        }
       ]
     },
     {
@@ -27,20 +35,29 @@
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-16AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-16AsP_per_target"
+        }
       ]
     },
     {
       "name": "Vergessen nach Erfüllung",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Wochen"
+        }
       ]
     }
   ]

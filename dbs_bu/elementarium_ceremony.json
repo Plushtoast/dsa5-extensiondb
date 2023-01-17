@@ -1,0 +1,164 @@
+{
+  "Diener der Erde": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+
+      ]
+    }
+  ],
+  "Diener der Flammen": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+
+      ]
+    }
+  ],
+  "Diener der Kälte": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+
+      ]
+    }
+  ],
+  "Diener der Wellen": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+
+      ]
+    }
+  ],
+  "Diener der Wolken": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+
+      ]
+    }
+  ],
+  "Diener des Erzes": [
+    {
+      "name": "Zusätzlicher Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höherer Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
+        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+
+      ]
+    },
+    {
+      "name": "Mächtiger Elementar",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
+        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+
+      ]
+    }
+  ]
+}

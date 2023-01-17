@@ -4,19 +4,25 @@
       "name": "Größere Objekte",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     },
     {
       "name": "Noch größere Objekte",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -25,18 +31,21 @@
       "name": "Wiederholung",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Schlauer Gegenstand",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Bewegung",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -68,16 +77,32 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     },
     {
@@ -93,21 +118,33 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -116,23 +153,44 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 16},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "false"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Wochen"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "false"
+        }
       ]
     },
     {
       "name": "Halbschlaf",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -141,18 +199,21 @@
       "name": "Vertrauenswürdige Personen",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Internes Feuer",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Größere Gegenstände",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -161,18 +222,21 @@
       "name": "Entzauberung von selbst aufladenden Artefakten",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Aufheben von Bindungsritualen",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Aufheben von dauerhaft wirkenden Artefakten",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -188,15 +252,27 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     }
   ],
@@ -205,21 +281,34 @@
       "name": "Bewusstsein",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Wochen"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Wochen"
+        }
       ]
     }
   ],
@@ -228,21 +317,34 @@
       "name": "Bewusstsein",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Monate"
+        }
       ]
     }
   ],
@@ -251,21 +353,33 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -274,21 +388,34 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Bewusstsein",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Monate"
+        }
       ]
     }
   ],
@@ -298,7 +425,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Längerer Dienst",
@@ -321,7 +449,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Längerer Dienst",
@@ -343,21 +472,33 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -366,21 +507,34 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Bewusstsein",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Monate"
+        }
       ]
     }
   ],
@@ -389,18 +543,21 @@
       "name": "Körpergefühl",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Durch Objekte",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Manifestation",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -409,20 +566,29 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*100"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*100"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Minuten"
+        }
       ]
     },
     {
       "name": "Umgebungsansicht",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -431,19 +597,25 @@
       "name": "Körpergefühl",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Mitnahme",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Wechsel des Totenreichs",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -452,14 +624,22 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
@@ -475,21 +655,33 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -498,21 +690,34 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Bewusstsein",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Monate"
+        }
       ]
     }
   ],
@@ -522,7 +727,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Längerer Dienst",
@@ -536,7 +742,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     }
   ],
   "Seelenwanderung": [
@@ -544,19 +751,25 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Wochen"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Wochen"
+        }
       ]
     },
     {
       "name": "Fremder Tausch",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Endgültiger Seelentausch",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -565,7 +778,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
@@ -579,8 +796,16 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     }
   ],
@@ -589,23 +814,41 @@
       "name": "Stimme und Geruch",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 16}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Monate"
+        }
+      ],
+      "deprecated": true
     }
   ],
   "Traumgestalt": [
@@ -613,13 +856,18 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Mitnahme",
       "complete": true,
       "changes": [
+
       ]
     },
     {
@@ -635,22 +883,39 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Bewusstsein",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Monate"
+        }
       ]
     }
   ],
@@ -659,21 +924,33 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -682,7 +959,11 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -705,13 +986,18 @@
       "name": "Überträger",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     },
     {
@@ -750,20 +1036,29 @@
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-16AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-16AsP_per_target"
+        }
       ]
     },
     {
       "name": "Vergessen nach Erfüllung",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Wochen"
+        }
       ]
     }
   ],
@@ -772,7 +1067,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
@@ -786,9 +1085,21 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     }
   ],
@@ -797,21 +1108,33 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -820,7 +1143,11 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
@@ -834,7 +1161,11 @@
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     }
   ]

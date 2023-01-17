@@ -1,0 +1,849 @@
+{
+  "Aeolito": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Objekte, Lebewesen"}
+      ]
+    },
+    {
+      "name": "Weites Zurückwerfen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erz-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aquafaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Aquafaxius-IntensiverStrahl-elementarium"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Aquasphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Aquasphaero-IntensiveExplosion-elementarium"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "10"}
+      ]
+    }
+  ],
+  "Archofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Archofaxius-IntensiverStrahl-elementarium"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Archosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Archosphaero-IntensiveExplosion-elementarium"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Basaltleib": [
+    {
+      "name": "Erzschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Brandungsleib": [
+    {
+      "name": "Wasserschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Corpofrigo": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": false,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
+      ]
+    },
+    {
+      "name": "Fixiert",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Humus-Zerstörer",
+      "complete": false,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+      ]
+    }
+  ],
+  "Dornenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Drachenleib": [
+    {
+      "name": "Feuerschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Eichenleib": [
+    {
+      "name": "Humusschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Eiswand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Federleib": [
+    {
+      "name": "Luftschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Firnlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Flammenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Frigifaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Frigifaxius-IntensiverStrahl-elementarium"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Frigisphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Frigisphaero-IntensiveExplosion-elementarium"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Frostleib": [
+    {
+      "name": "Eisschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
+        {"key": "system.range.value", "mode": 5, "value": "berühren"},
+        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+      ]
+    }
+  ],
+  "Glutlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Himmelslauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Humofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Humofaxius-IntensiverStrahl-elementarium"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Humosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Humosphaero-IntensiveExplosion-elementarium"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Ignifaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Ignifaxius-IntensiverStrahl-elementarium"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Ignisphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Ignisphaero-IntensiveExplosion-elementarium"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Incendio": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
+      ]
+    },
+    {
+      "name": "Schmerzhafte Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wasser-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invinculo": [
+    {
+      "name": "Zielkategorie Objekt",
+      "complete": true,
+      "changes": [
+        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
+      ]
+    },
+    {
+      "name": "Festhalten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
+      ]
+    }
+  ],
+  "Orcanofaxius": [
+    {
+      "name": "Intensiver Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "macro.transform", "mode": 2, "value": "Orcanofaxius-IntensiverStrahl-elementarium"}
+      ]
+    },
+    {
+      "name": "Windender Strahl",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ],
+  "Orcanosphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "macro.transform", "mode": 2, "value": "Orcanosphaero-IntensiveExplosion-elementarium"}
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "defenseMalus", "mode": 2, "value": -1}
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
+        {"key": "system.target.value", "mode": 5, "value": "7"}
+      ]
+    }
+  ],
+  "Steinwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sturmwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wellenlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wellenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wipfellauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wüstenlauf": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+      ]
+    },
+    {
+      "name": "Kette",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durch das Element",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Zorn der Elemente": [
+    {
+      "name": "Schweres Ausweichen",
+      "complete": true,
+      "changes": [
+        {"key": "defenseMalus", "mode": 2, "value": -2}
+      ]
+    },
+    {
+      "name": "Harter Aufprall",
+      "complete": true,
+      "changes": [
+        {"key": "system.effectFormula.value", "mode": 5, "value": "+1d6+6"}
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+      ]
+    }
+  ]
+}

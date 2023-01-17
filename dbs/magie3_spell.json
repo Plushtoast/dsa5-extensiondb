@@ -4,23 +4,43 @@
       "name": "Intensiver Strahl",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "macro.transform", "mode": 2, "value": "Aquafaxius-IntensiverStrahl"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Aquafaxius-IntensiverStrahl"
+        }
       ]
     },
     {
       "name": "Windender Strahl",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -29,24 +49,48 @@
       "name": "Intensive Explosion",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "macro.transform", "mode": 2, "value": "Aquasphaero-IntensiveExplosion"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Aquasphaero-IntensiveExplosion"
+        }
       ]
     },
     {
       "name": "Schneller Ball",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
       ]
     },
     {
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "7"
+        }
       ]
     }
   ],
@@ -55,21 +99,33 @@
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     },
     {
       "name": "Acht Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     }
   ],
@@ -78,7 +134,11 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "QS x 3 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "QS x 3 Schritt"
+        }
       ]
     },
     {
@@ -92,8 +152,13 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     }
   ],
   "Blitzball": [
@@ -108,16 +173,32 @@
       "name": "Schneller Ball",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
       ]
     },
     {
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "7"
+        }
       ]
     }
   ],
@@ -133,14 +214,22 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 KR"
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -156,6 +245,7 @@
       "name": "Zylinder",
       "complete": false,
       "changes": [
+
       ]
     },
     {
@@ -178,12 +268,14 @@
       "name": "Zylinder",
       "complete": false,
       "changes": [
+
       ]
     },
     {
       "name": "Deckel",
       "complete": false,
       "changes": [
+
       ]
     }
   ],
@@ -192,7 +284,11 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
@@ -206,7 +302,11 @@
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -215,7 +315,11 @@
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
@@ -238,23 +342,43 @@
       "name": "Intensiver Strahl",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "macro.transform", "mode": 2, "value": "Frigifaxius-IntensiverStrahl"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Frigifaxius-IntensiverStrahl"
+        }
       ]
     },
     {
       "name": "Windender Strahl",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -263,24 +387,48 @@
       "name": "Intensive Explosion",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "macro.transform", "mode": 2, "value": "Frigisphaero-IntensiveExplosion"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Frigisphaero-IntensiveExplosion"
+        }
       ]
     },
     {
       "name": "Schneller Ball",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
       ]
     },
     {
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "7"
+        }
       ]
     }
   ],
@@ -296,14 +444,22 @@
       "name": "Längere Wirkung",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     }
   ],
@@ -312,21 +468,33 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Wahnvorstellungen",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "Halluzination-Wahnvorstellungen"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Halluzination-Wahnvorstellungen"
+        }
       ]
     }
   ],
@@ -335,19 +503,25 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Mehr Tiere",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Noch mehr Tiere",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -356,23 +530,43 @@
       "name": "Intensiver Strahl",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "macro.transform", "mode": 2, "value": "Humofaxius-IntensiverStrahl"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Humofaxius-IntensiverStrahl"
+        }
       ]
     },
     {
       "name": "Windender Strahl",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -381,24 +575,48 @@
       "name": "Intensive Explosion",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "macro.transform", "mode": 2, "value": "Humosphaero-IntensiveExplosion"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Humosphaero-IntensiveExplosion"
+        }
       ]
     },
     {
       "name": "Schneller Ball",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "defenseMalus", "mode": 2, "value": -1}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
       ]
     },
     {
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "7"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "7"
+        }
       ]
     }
   ],
@@ -407,7 +625,11 @@
       "name": "Zielkategorie Objekte",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Objekte"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen, Objekte"
+        }
       ]
     },
     {
@@ -421,7 +643,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
       ]
     }
   ],
@@ -430,20 +656,29 @@
       "name": "Lange Nebelexistenz",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "4 AsP pro 15 Minuten"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 AsP pro 15 Minuten"
+        }
       ]
     },
     {
       "name": "Windflug",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Zauberdauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
@@ -452,21 +687,33 @@
       "name": "Zauberdauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Zwei Feen",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     },
     {
       "name": "Drei Feen",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     }
   ],
@@ -475,7 +722,11 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
@@ -489,8 +740,13 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     }
   ],
   "Pestilenz erspüren": [
@@ -498,13 +754,18 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Mehr Patienten",
       "complete": true,
       "changes": [
+
       ]
     },
     {
@@ -520,22 +781,38 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
@@ -551,10 +828,26 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"},
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 AsP pro KR"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        }
       ]
     },
     {
@@ -570,7 +863,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
       ]
     },
     {
@@ -593,20 +890,29 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "An und Aus",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -615,21 +921,33 @@
       "name": "Reichweite erhöhen",
       "complete": true,
       "changes": [
-        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+        {
+          "key": "increaseRangeSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Zauberdauer senken",
       "complete": true,
       "changes": [
-        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Kosten senken",
       "complete": true,
       "changes": [
-        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
@@ -638,14 +956,22 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
@@ -661,7 +987,11 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
@@ -675,8 +1005,13 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     }
   ],
   "Sturmwand": [
@@ -691,12 +1026,14 @@
       "name": "Zylinder",
       "complete": false,
       "changes": [
+
       ]
     },
     {
       "name": "Deckel",
       "complete": false,
       "changes": [
+
       ]
     }
   ],
@@ -705,14 +1042,22 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Jahre"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Jahre"
+        }
       ]
     },
     {
@@ -728,21 +1073,33 @@
       "name": "Reichweite erhöhen",
       "complete": true,
       "changes": [
-        {"key": "increaseRangeSpell.mod", "mode": 5, "value": 0}
+        {
+          "key": "increaseRangeSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Zauberdauer senken",
       "complete": true,
       "changes": [
-        {"key": "decreaseCastingTime.mod", "mode": 5, "value": 0}
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Kosten senken",
       "complete": true,
       "changes": [
-        {"key": "reduceCostSpell.mod", "mode": 5, "value": 0}
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
@@ -751,20 +1108,29 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 1, "value": "2"}
+        {
+          "key": "system.duration.value",
+          "mode": 1,
+          "value": "2"
+        }
       ]
     },
     {
       "name": "Bewegung im Stillstand",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -780,7 +1146,7 @@
       "name": "Zylinder",
       "complete": false,
       "changes": [
-        
+
       ]
     },
     {
@@ -796,7 +1162,11 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*3"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
@@ -810,8 +1180,13 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     }
   ],
   "Zorn der Elemente": [
@@ -819,21 +1194,33 @@
       "name": "Schwieriges Ausweichen",
       "complete": true,
       "changes": [
-        {"key": "defenseMalus", "mode": 2, "value": -2}
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -2
+        }
       ]
     },
     {
       "name": "Harter Aufprall",
       "complete": true,
       "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "+1d6+6"}
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "+1d6+6"
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -842,7 +1229,11 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
@@ -856,7 +1247,11 @@
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
       ]
     }
   ],
@@ -865,14 +1260,22 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
       ]
     },
     {
@@ -888,21 +1291,33 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 KR"
+        }
       ]
     },
     {
       "name": "Erschöpfender Tanz",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "Zwingtanz-ErschoepfenderTanz"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Zwingtanz-ErschoepfenderTanz"
+        }
       ]
     }
   ]

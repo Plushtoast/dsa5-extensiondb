@@ -27,8 +27,11 @@
       "name": "Geringere Ritualdauer",
       "complete": true,
       "changes": [
-        {"key": "system.castingTime.value", "mode": 5, "value": 240}
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 240
+        }
       ]
     },
     {
@@ -120,21 +123,33 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*100"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*100"
+        }
       ]
     },
     {
       "name": "Höhere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "512 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "512 Schritt"
+        }
       ]
     }
   ],
@@ -143,19 +158,25 @@
       "name": "Größere Objekte 1",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Größere Objekte 2",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -240,13 +261,18 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     },
     {
       "name": "Zwei Opfer",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -255,18 +281,21 @@
       "name": "Ohne Erinnerung",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Phasen",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Andere Erinnerung",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -275,7 +304,11 @@
       "name": "Mehr Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     },
     {
@@ -298,13 +331,18 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Kurze Regenerationsphase",
       "complete": true,
       "changes": [
+
       ]
     },
     {
@@ -327,14 +365,22 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Monate"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Jahre"
+        }
       ]
     }
   ],
@@ -343,6 +389,7 @@
       "name": "Nicht alle",
       "complete": true,
       "changes": [
+
       ]
     },
     {
@@ -356,7 +403,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     }
   ],
@@ -365,21 +416,33 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*2"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -388,44 +451,57 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     },
     {
       "name": "Besseres Sprachverständnis",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
   "Zauberklinge Geisterspeer": [
-  {
-    "name": "Verkürzte Ritualdauer",
-    "complete": true,
-    "changes": [
-      {"key": "system.castingTime.value", "mode": 5, "value": 240}
-    ]
-  },
-  {
-    "name": "Trägerwahl",
-    "complete": false,
-    "changes": [
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 240
+        }
+      ]
+    },
+    {
+      "name": "Trägerwahl",
+      "complete": false,
+      "changes": [
 
-    ]
-  },
-  {
-    "name": "Hass auf …",
-    "complete": false,
-    "changes": [
+      ]
+    },
+    {
+      "name": "Hass auf …",
+      "complete": false,
+      "changes": [
 
-    ]
-  }
-]
+      ]
+    }
+  ]
 }

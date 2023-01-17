@@ -19,7 +19,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     }
   ],
   "Blick durch fremde Augen": [
@@ -27,20 +28,29 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 20 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 20 Minuten"
+        }
       ]
     },
     {
       "name": "Andere Sinne",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     }
   ],
@@ -49,14 +59,22 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Monate"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Jahre"
+        }
       ]
     },
     {
@@ -72,20 +90,29 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*8"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*8"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "24 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "24 Stunden"
+        }
       ]
     },
     {
       "name": "Länger zurückreichender Zeitpunkt",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -94,20 +121,29 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*8"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*8"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "24 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "24 Stunden"
+        }
       ]
     },
     {
       "name": "Länger zurückreichender Zeitpunkt",
       "complete": true,
       "changes": [
+
       ]
     }
   ],
@@ -116,13 +152,18 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*4"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*4"
+        }
       ]
     },
     {
       "name": "Große Reue",
       "complete": true,
       "changes": [
+
       ]
     },
     {
@@ -138,20 +179,29 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "5 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "5 Jahre"
+        }
       ]
     },
     {
       "name": "Andere Personen",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Jahre"
+        }
       ]
     }
   ],
@@ -160,21 +210,33 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Jahre"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Jahre"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Jahre"
+        }
       ]
     }
   ],
@@ -229,14 +291,22 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*100"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*100"
+        }
       ]
     },
     {
@@ -275,20 +345,29 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Globulentore",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 KR"
+        }
       ]
     }
   ],
@@ -297,14 +376,22 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Monate"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Jahre"
+        }
       ]
     },
     {
@@ -320,14 +407,22 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Monate"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Jahre"
+        }
       ]
     },
     {
