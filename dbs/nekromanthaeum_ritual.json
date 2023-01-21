@@ -25,16 +25,20 @@
     },
     {
       "name": "Mächtiges Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": "4 Stunden"
+        }
       ]
     },
     {
@@ -86,8 +90,13 @@
     },
     {
       "name": "Kürzere Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+         {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": "30 Minuten"
+        }
 
       ]
     }
