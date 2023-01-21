@@ -31,7 +31,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -54,14 +55,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -91,14 +94,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -144,7 +149,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -155,7 +161,8 @@
           "mode": 5,
           "value": "QS x 3 Monate"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementare Erkenntnisse",
@@ -194,7 +201,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -254,7 +262,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -286,7 +295,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewusstsein",
@@ -353,7 +363,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -385,7 +396,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewusstsein",
@@ -426,14 +438,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -489,7 +503,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -521,7 +536,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewusstsein",

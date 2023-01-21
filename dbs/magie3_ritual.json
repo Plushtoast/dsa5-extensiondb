@@ -5,14 +5,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Drei Zauber",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Vier Zauber",
@@ -72,7 +74,8 @@
           "mode": 5,
           "value": "QS x 30 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Wechselsicht",
@@ -110,7 +113,8 @@
           "mode": 5,
           "value": "QS Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -248,7 +252,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Erfahrener Paktbrecher 1",
@@ -282,7 +287,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 2",
@@ -293,7 +299,8 @@
           "mode": 5,
           "value": "10 Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Ritualdauer",
@@ -331,7 +338,8 @@
           "mode": 5,
           "value": "QS x 5 Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -342,7 +350,8 @@
           "mode": 5,
           "value": "QS x 10 Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Ritualdauer",
@@ -372,14 +381,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Drei Zauber",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch kürzere Ritualdauer",
@@ -402,14 +413,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -461,7 +474,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Ausnahme",
@@ -484,14 +498,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -525,7 +541,8 @@
           "mode": 5,
           "value": "QS x 5 KR"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Globulentore",
@@ -543,7 +560,8 @@
           "mode": 5,
           "value": "QS x 10 KR"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Ausgewählte Limbusreisende",
@@ -570,7 +588,8 @@
           "mode": 5,
           "value": "QS Monate"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 2",
@@ -581,14 +600,16 @@
           "mode": 5,
           "value": "QS Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Ritualdauer",
@@ -626,7 +647,8 @@
           "mode": 5,
           "value": "QS Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",

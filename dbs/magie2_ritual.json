@@ -23,7 +23,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Strukturstärkung",
@@ -46,21 +47,24 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schlauer Gegenstand",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Bewegung",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Gegenstände",
@@ -83,7 +87,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gelungene Beeinflussung 2",
@@ -97,7 +102,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehr Ziele",
@@ -201,7 +207,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -233,7 +240,8 @@
           "mode": 5,
           "value": "berühren"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -254,14 +262,16 @@
           "mode": 5,
           "value": "false"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Halbschlaf",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Heilsamer Schlaf",
@@ -284,7 +294,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Internes Feuer",
@@ -328,14 +339,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Aufheben von dauerhaft wirkenden Artefakten",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -424,7 +437,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -435,7 +449,8 @@
           "mode": 5,
           "value": "QS x 3 Wochen"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementare Erkenntnisse",
@@ -474,7 +489,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -534,7 +550,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -566,7 +583,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewusstsein",
@@ -723,7 +741,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -755,7 +774,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewusstsein",
@@ -990,7 +1010,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -1022,7 +1043,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewusstsein",
@@ -1071,7 +1093,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Freundlichen Einstellung",
@@ -1456,7 +1479,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1467,14 +1491,16 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Heilsames Schnurren",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verführerisches Schnurren",
@@ -1497,21 +1523,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Freundliche Einstellung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Ausgedehnter Dienst",
@@ -1538,14 +1567,16 @@
           "mode": 2,
           "value": "multitarget-16AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Vergessen nach Erfüllung",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -1590,7 +1621,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -1611,7 +1643,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elfischer Kämpfer",
@@ -1694,7 +1727,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 2",
@@ -1705,7 +1739,8 @@
           "mode": 5,
           "value": "QS x 30 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Sehr schnelles Härten",

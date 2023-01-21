@@ -5,21 +5,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Etikette-Vorteil",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gassenwissen-Vorteil",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schneidermeister",
@@ -53,14 +56,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Weniger Erschwernis 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch geringere Ritualdauer",
@@ -83,21 +88,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Höhere/Niedrigere Temperatur 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Höhere/Niedrigere Temperatur 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 1",
@@ -120,14 +128,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -157,14 +167,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -209,7 +221,8 @@
           "mode": 5,
           "value": "QS*100"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Höhere Reichweite",
@@ -243,7 +256,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -261,7 +275,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Sehr schnelles Schmelzen",
@@ -284,14 +299,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -321,14 +338,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
@@ -413,7 +432,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verwirrtes Raubopfer",
@@ -477,21 +497,24 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Geänderte Zielkategorie 1",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Geänderte Zielkategorie 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Langer Lauf",
@@ -518,21 +541,24 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kurze Regenerationsphase",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerfristige Wirkung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gift- und Krankheitstop",
@@ -577,7 +603,8 @@
           "mode": 5,
           "value": "QS x 3 Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Ritualdauer",
@@ -600,7 +627,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Objekte",
@@ -705,14 +733,16 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Besseres Sprachverständnis",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",

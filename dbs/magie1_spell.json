@@ -21,7 +21,8 @@
           "mode": 2,
           "value": 4
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -37,7 +38,8 @@
           "mode": 5,
           "value": "Kulturschaffende"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -78,7 +80,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -101,14 +104,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Spurensuchen",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -124,7 +129,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Konzentrierter Sinn",
@@ -163,14 +169,16 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Große Tiere",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schnellverwandlung",
@@ -204,7 +212,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Erz-Zerstörer",
@@ -249,7 +258,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Acht Ziele",
@@ -260,7 +270,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -310,7 +321,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Personen",
@@ -340,14 +352,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Vier Gegenstände",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer",
@@ -374,7 +388,8 @@
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -424,7 +439,8 @@
           "mode": 2,
           "value": "Archofaxius-IntensiverStrahl"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Windender Strahl",
@@ -440,7 +456,8 @@
           "mode": 2,
           "value": -2
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -451,7 +468,8 @@
           "mode": 1,
           "value": 2
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -483,7 +501,8 @@
           "mode": 2,
           "value": "Archosphaero-IntensiveExplosion"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schneller Ball",
@@ -499,7 +518,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -515,7 +535,8 @@
           "mode": 5,
           "value": "7"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kugelbombe",
@@ -549,7 +570,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -570,7 +592,8 @@
           "mode": 1,
           "value": 2
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Anhaltender Schutz",
@@ -593,21 +616,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verwirrender Geschmack",
@@ -701,7 +727,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -717,7 +744,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Fernhilfe",
@@ -756,7 +784,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -772,7 +801,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Fernhilfe",
@@ -811,7 +841,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -827,7 +858,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Fernhilfe",
@@ -865,7 +897,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Massenerwachen",
@@ -876,7 +909,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer",
@@ -899,14 +933,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Stärkerer Sog",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größerer Radius",
@@ -940,21 +976,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -977,21 +1016,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verwirrende Geräusche",
@@ -1014,21 +1056,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch schneller",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch viel schneller",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Sprungkraft",
@@ -1058,7 +1103,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zielkategorie Lebewesen",
@@ -1172,7 +1218,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gelungene Beeinflussung 1",
@@ -1202,7 +1249,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1224,7 +1272,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Karmale Eigenschaften",
@@ -1254,7 +1303,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -1270,7 +1320,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Sichtung 1",
@@ -1304,7 +1355,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1342,7 +1394,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Acht Ziele",
@@ -1353,7 +1406,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1394,7 +1448,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -1443,7 +1498,8 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -1454,7 +1510,8 @@
           "mode": 5,
           "value": "24 Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Sicherer Verschluss",
@@ -1477,7 +1534,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkung",
@@ -1488,7 +1546,8 @@
           "mode": 5,
           "value": "QS x 3 KR"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1499,7 +1558,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -1574,14 +1634,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durchdringung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Meine Freunde",
@@ -1611,14 +1673,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Ausgeweitete Zerstörung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -1702,7 +1766,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -1718,7 +1783,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch größerer Radius",
@@ -1741,21 +1807,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Spiegelkabinett",
@@ -1827,7 +1896,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -1859,7 +1929,8 @@
           "mode": 5,
           "value": "berühren"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -1898,14 +1969,16 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verbesserter Schatten",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schattenwächter",
@@ -2075,14 +2148,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehr Personen",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kommunikationsverbindung",
@@ -2093,7 +2168,8 @@
           "mode": 2,
           "value": 4
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -2131,7 +2207,8 @@
           "mode": 5,
           "value": "QS Tage"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -2142,7 +2219,8 @@
           "mode": 5,
           "value": "QS Wochen"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -2165,14 +2243,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Spezielles Lebewesen",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch Erz",
@@ -2220,7 +2300,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gleichzeitiges Zielen",
@@ -2309,7 +2390,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Große Tiere",
@@ -2320,7 +2402,8 @@
           "mode": 2,
           "value": 6
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schnellverwandlung",
@@ -2343,7 +2426,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -2359,7 +2443,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verankern",
@@ -2375,7 +2460,8 @@
           "mode": 5,
           "value": "berühren"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewegliche Lichtkugel",
@@ -2449,7 +2535,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wand",
@@ -2479,7 +2566,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -2513,7 +2601,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -2545,7 +2634,8 @@
           "mode": 5,
           "value": "berühren"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2575,7 +2665,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kommunikationsverbindung",
@@ -2586,7 +2677,8 @@
           "mode": 2,
           "value": 4
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -2624,7 +2716,8 @@
           "mode": 5,
           "value": "QS x 10 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Höhere Reichweite 3",
@@ -2635,7 +2728,8 @@
           "mode": 5,
           "value": "QS x 50 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gefühl der Nähe",
@@ -2658,21 +2752,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gelungene Beeinflussung 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gelungene Beeinflussung 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2695,7 +2792,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkung",
@@ -2717,7 +2815,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -2740,21 +2839,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verborgene Dinge",
@@ -2799,7 +2901,8 @@
           "mode": 5,
           "value": "1 Monat"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer 1",
@@ -2924,7 +3027,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Geister",
@@ -2935,7 +3039,8 @@
           "mode": 2,
           "value": 4
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Drei Geister",
@@ -2946,7 +3051,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gefangenname",
@@ -3034,7 +3140,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Elementare",
@@ -3056,7 +3163,8 @@
           "mode": 2,
           "value": 16
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gefangenname",
@@ -3083,7 +3191,8 @@
           "mode": 2,
           "value": -2
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Höhere Spuckreichweite",
@@ -3101,7 +3210,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Hinderliche Spucke",
@@ -3131,14 +3241,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Scharfe Krallen",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Hand und Fuß",
@@ -3165,7 +3277,8 @@
           "mode": 5,
           "value": "QS x 4 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -3260,7 +3373,8 @@
           "mode": 2,
           "value": "Ignifaxius-IntensiverStrahl"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Windender Strahl",
@@ -3276,7 +3390,8 @@
           "mode": 2,
           "value": -2
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -3335,7 +3450,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -3351,7 +3467,8 @@
           "mode": 5,
           "value": "7"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kugelbombe",
@@ -3476,7 +3593,8 @@
           "mode": 5,
           "value": "1 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehr Befehle",
@@ -3513,21 +3631,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Das bin ja ich!",
@@ -3660,14 +3781,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch größere Menge",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch viel größere Menge",
@@ -3719,7 +3842,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -3814,21 +3938,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Weiter und höher 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Krötenflink",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Doppelsprung",
@@ -3851,7 +3978,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkung",
@@ -3900,7 +4028,8 @@
           "mode": 5,
           "value": "QS x 5 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Berührungszeit",
@@ -3918,7 +4047,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Vergreisung",
@@ -3968,7 +4098,8 @@
           "mode": 5,
           "value": "QS x 3 KR"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -3991,14 +4122,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch größere Menge",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch viel größere Menge",
@@ -4036,21 +4169,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verwirrendes Gefühl",
@@ -4080,7 +4216,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehr Gewicht",
@@ -4125,7 +4262,8 @@
           "mode": 5,
           "value": "QS x 1 Stunde"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -4159,21 +4297,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Auffällige Schrift",
@@ -4196,14 +4337,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Objekte",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehr Gewicht",
@@ -4315,7 +4458,8 @@
           "mode": 5,
           "value": "4 AsP pro 30 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -4331,7 +4475,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Unsichtbarer Inhalt",
@@ -4466,7 +4611,8 @@
           "mode": 5,
           "value": "QS x 10 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -4477,7 +4623,8 @@
           "mode": 5,
           "value": "QS x 30 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Weniger Einschränkung",
@@ -4500,14 +4647,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 1",
@@ -4537,14 +4686,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kegelsicht",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Rundumsicht",
@@ -4583,7 +4734,8 @@
           "mode": 2,
           "value": "Orcanofaxius-IntensiverStrahl"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Windender Strahl",
@@ -4599,7 +4751,8 @@
           "mode": 2,
           "value": -2
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -4610,7 +4763,8 @@
           "mode": 1,
           "value": 2
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -4642,7 +4796,8 @@
           "mode": 2,
           "value": "Orcanosphaero-IntensiveExplosion"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schneller Ball",
@@ -4658,7 +4813,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -4674,7 +4830,8 @@
           "mode": 5,
           "value": "7"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kugelbombe",
@@ -4697,7 +4854,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkung",
@@ -4708,7 +4866,8 @@
           "mode": 5,
           "value": "QS x 3 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -4719,7 +4878,8 @@
           "mode": 2,
           "value": 4
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -4749,7 +4909,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Sehen und Hören",
@@ -4783,7 +4944,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Dämonen",
@@ -4805,7 +4967,8 @@
           "mode": 2,
           "value": 16
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gefangenname",
@@ -4828,14 +4991,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -4851,7 +5016,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Andere Kosten 1",
@@ -4919,21 +5085,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Anderes Lebewesen",
@@ -4956,14 +5125,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -4979,7 +5150,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Andere Kosten 1",
@@ -5029,7 +5201,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Wütender Kochlöffel",
@@ -5052,21 +5225,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Optiktrick",
@@ -5093,7 +5269,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -5115,7 +5292,8 @@
           "mode": 5,
           "value": "8 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schmerzheilung",
@@ -5145,14 +5323,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Wann-Fragen beantworten",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Strafmaßnahme",
@@ -5175,7 +5355,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Geistige Fähigkeiten",
@@ -5242,7 +5423,8 @@
           "mode": 5,
           "value": "QS x 10 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Tiere",
@@ -5265,7 +5447,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zielkategorie Lebewesen",
@@ -5337,7 +5520,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Wunderschön 1",
@@ -5364,14 +5548,16 @@
           "mode": 5,
           "value": "2 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verteilte Wirkung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -5416,7 +5602,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Todesfluch",
@@ -5510,7 +5697,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -5526,7 +5714,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -5608,7 +5797,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
@@ -5698,7 +5888,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkung",
@@ -5709,7 +5900,8 @@
           "mode": 5,
           "value": "QS x 4 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -5775,7 +5967,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -5868,7 +6061,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -5951,7 +6145,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Höhere Reichweite",
@@ -6102,14 +6297,16 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Unsichtbare Kleidung",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schnelle Unsichtbarkeit",
@@ -6132,21 +6329,24 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größerer Radius",
@@ -6189,7 +6389,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Ziele",
@@ -6200,7 +6401,8 @@
           "mode": 5,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -6243,7 +6445,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Große Tiere",
@@ -6254,7 +6457,8 @@
           "mode": 2,
           "value": 6
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schnellverwandlung",
@@ -6281,7 +6485,8 @@
           "mode": 5,
           "value": "2 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verteilte Wirkung",

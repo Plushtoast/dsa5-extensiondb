@@ -14,7 +14,8 @@
           "mode": 2,
           "value": "Aquafaxius-IntensiverStrahl"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Windender Strahl",
@@ -30,7 +31,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -73,7 +75,8 @@
           "mode": 2,
           "value": "Aquasphaero-IntensiveExplosion"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schneller Ball",
@@ -89,7 +92,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -105,7 +109,8 @@
           "mode": 5,
           "value": "7"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kugelbombe",
@@ -143,7 +148,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Acht Ziele",
@@ -154,7 +160,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -181,7 +188,8 @@
           "mode": 5,
           "value": "QS x 3 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Halbkreis",
@@ -230,7 +238,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schneller Ball",
@@ -246,7 +255,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -262,7 +272,8 @@
           "mode": 5,
           "value": "7"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kugelbombe",
@@ -344,7 +355,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wand",
@@ -381,7 +393,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wand",
@@ -415,7 +428,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -426,7 +440,8 @@
           "mode": 2,
           "value": 4
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer",
@@ -460,7 +475,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementare Zerstörung",
@@ -499,7 +515,8 @@
           "mode": 2,
           "value": "Frigifaxius-IntensiverStrahl"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Windender Strahl",
@@ -515,7 +532,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -558,7 +576,8 @@
           "mode": 2,
           "value": "Frigisphaero-IntensiveExplosion"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schneller Ball",
@@ -574,7 +593,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -590,7 +610,8 @@
           "mode": 5,
           "value": "7"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kugelbombe",
@@ -613,7 +634,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkung",
@@ -635,7 +657,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -673,7 +696,8 @@
           "mode": 5,
           "value": "QS x 10 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Wahnvorstellungen",
@@ -725,7 +749,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -757,7 +782,8 @@
           "mode": 2,
           "value": "Humofaxius-IntensiverStrahl"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Windender Strahl",
@@ -773,7 +799,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -816,7 +843,8 @@
           "mode": 2,
           "value": "Humosphaero-IntensiveExplosion"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schneller Ball",
@@ -832,7 +860,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
@@ -848,7 +877,8 @@
           "mode": 5,
           "value": "7"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kugelbombe",
@@ -882,7 +912,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -965,7 +996,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Feen",
@@ -987,7 +1019,8 @@
           "mode": 2,
           "value": "multitarget-4AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Gefangenname",
@@ -1014,7 +1047,8 @@
           "mode": 5,
           "value": "QS*3"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Halbkreis",
@@ -1067,7 +1101,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehr Patienten",
@@ -1081,7 +1116,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Heilungssinn 1",
@@ -1184,14 +1220,16 @@
           "mode": 5,
           "value": "2 AsP pro KR"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Scharfe Schuppen",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Andere Kosten",
@@ -1225,7 +1263,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Automatischer Erfolg beim Bestätigungswurf",
@@ -1277,7 +1316,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer",
@@ -1371,7 +1411,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zauberer ausgenommen",
@@ -1398,7 +1439,8 @@
           "mode": 5,
           "value": "QS*3"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Halbkreis",
@@ -1461,7 +1503,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wand",
@@ -1499,14 +1542,16 @@
           "mode": 5,
           "value": "QS x 10 Jahre"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Leichte Zubereitung",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Alchimiemeister 1",
@@ -1593,14 +1638,16 @@
           "mode": 1,
           "value": "2"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Bewegung im Stillstand",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zauberdauer senken",
@@ -1637,7 +1684,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wand",
@@ -1664,7 +1712,8 @@
           "mode": 5,
           "value": "QS*3"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Halbkreis",
@@ -1728,7 +1777,8 @@
           "mode": 5,
           "value": "+1d6+6"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1773,7 +1823,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1784,7 +1835,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Höhere Wirkungsdauer",
@@ -1829,7 +1881,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Ziele",
@@ -1856,7 +1909,8 @@
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -1878,7 +1932,8 @@
           "mode": 2,
           "value": "Zwingtanz-ErschoepfenderTanz"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",

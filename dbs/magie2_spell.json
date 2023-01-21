@@ -16,14 +16,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Lange Arme",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kräftiger Wurf",
@@ -104,7 +106,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zielkategorie Objekte",
@@ -154,7 +157,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -170,7 +174,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Fernhilfe",
@@ -209,7 +214,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -225,7 +231,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Fernhilfe",
@@ -264,7 +271,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -280,7 +288,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Fernhilfe",
@@ -319,7 +328,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -335,7 +345,8 @@
           "mode": 5,
           "value": "true"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Fernhilfe",
@@ -379,7 +390,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zielkategorie Objekte",
@@ -413,14 +425,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschutz",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -471,7 +485,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -530,7 +545,8 @@
           "mode": 2,
           "value": 8
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -571,7 +587,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -637,7 +654,8 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer",
@@ -660,14 +678,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschutz",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -715,7 +735,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -733,7 +754,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
@@ -760,7 +782,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -778,7 +801,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
@@ -808,7 +832,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschaden",
@@ -845,7 +870,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschaden",
@@ -889,7 +915,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zauberdauer senken",
@@ -919,7 +946,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -963,14 +991,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch größere Menge",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch viel größere Menge",
@@ -1015,7 +1045,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschaden",
@@ -1056,14 +1087,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch das Element",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -1123,7 +1156,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Geflatter",
@@ -1175,7 +1209,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -1219,14 +1254,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch größere Menge",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Noch viel größere Menge",
@@ -1278,7 +1315,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -1312,14 +1350,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch das Element",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -1342,7 +1382,8 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Hexengeschoss",
@@ -1363,7 +1404,8 @@
           "mode": 5,
           "value": "+1d6+1"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Poltergeist",
@@ -1379,7 +1421,8 @@
           "mode": 5,
           "value": "2 AsP pro 5 KR"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Los Hexenholz, flieg!",
@@ -1402,21 +1445,24 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kreisrund",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Ausgenommen Freunde 2",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -1499,7 +1545,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Tiere",
@@ -1540,7 +1587,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Tiere",
@@ -1581,7 +1629,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Tiere",
@@ -1622,14 +1671,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch das Element",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -1666,7 +1717,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zauberdauer senken",
@@ -1696,7 +1748,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschaden",
@@ -1763,14 +1816,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Starker Ekel",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Ziele",
@@ -1781,7 +1836,8 @@
           "mode": 2,
           "value": "multitarget-8AsP_per_target"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -1812,7 +1868,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Stärke des Tiers 2",
@@ -1871,7 +1928,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zauberdauer senken",
@@ -1894,7 +1952,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zuckender Blitz",
@@ -1910,7 +1969,8 @@
           "mode": 2,
           "value": -1
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -1959,14 +2019,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Regenerationstausch",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Ziele",
@@ -1996,7 +2058,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschaden",
@@ -2030,7 +2093,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2048,7 +2112,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
@@ -2075,7 +2140,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2093,7 +2159,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
@@ -2123,14 +2190,16 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Wann-Fragen beantworten",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Viel mehr Fragen",
@@ -2161,7 +2230,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größerer Radius",
@@ -2202,7 +2272,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Halbkreis",
@@ -2310,7 +2381,8 @@
           "mode": 5,
           "value": "QS x 5 Minuten"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -2397,7 +2469,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2415,7 +2488,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
@@ -2438,7 +2512,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2460,7 +2535,8 @@
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen, Objekte"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Starker Schleier",
@@ -2494,14 +2570,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Erhöhte Willenskraft",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer",
@@ -2573,7 +2651,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Lange Schlangen",
@@ -2587,7 +2666,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Andere Kosten",
@@ -2624,7 +2704,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zauberdauer senken",
@@ -2658,7 +2739,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
@@ -2711,7 +2793,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wand",
@@ -2816,7 +2899,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2834,7 +2918,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
@@ -2861,7 +2946,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2879,7 +2965,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
@@ -2902,7 +2989,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
@@ -2950,7 +3038,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Elementarschaden",
@@ -3029,7 +3118,8 @@
           "mode": 5,
           "value": "QS*3"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Halbkreis",
@@ -3089,14 +3179,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch das Element",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -3130,14 +3222,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch das Element",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -3171,14 +3265,16 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch das Element",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kürzere Zauberdauer",
@@ -3208,7 +3304,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Treues Pferd",
@@ -3246,7 +3343,8 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -3264,7 +3362,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Kosten modifizieren",
