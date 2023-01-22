@@ -21,8 +21,7 @@
           "mode": 2,
           "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -38,14 +37,17 @@
           "mode": 5,
           "value": "Kulturschaffende"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+          {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "QS x 15 Minuten"
+          }
       ]
     },
     {
@@ -79,22 +81,33 @@
       "name": "Tadelloser Vorkoster",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
     },
     {
       "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     }
   ],
@@ -104,16 +117,14 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Spurensuchen",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -129,8 +140,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Konzentrierter Sinn",
@@ -141,18 +151,36 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
   "Adlerschwinge": [
     {
       "name": "Mittlere Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 5
+        }
       ]
     },
     {
@@ -169,14 +197,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Große Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 6
+        }
       ],
       "dirty": true
     },
@@ -189,7 +220,7 @@
     },
     {
       "name": "Federkleid",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -209,31 +240,42 @@
     },
     {
       "name": "Weites Zurückwerfen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Erz-Zerstörer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Qualvoller Wind",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 2,
+          "value": "+2"
+        }
       ]
     },
     {
       "name": "Betäubender Wind",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Aeolito-BetaeubenderWind"
+        }
       ]
     }
   ],
@@ -258,8 +300,7 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Acht Ziele",
@@ -270,14 +311,17 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 KR"
+        }
       ]
     },
     {
@@ -321,21 +365,28 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Personen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Chor",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     }
   ],
@@ -352,29 +403,35 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Vier Gegenstände",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     }
   ],
@@ -387,9 +444,13 @@
           "key": "system.targetCategory.value",
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -404,23 +465,40 @@
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Zielkategorie Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen, Wesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     }
   ],
