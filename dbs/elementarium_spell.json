@@ -182,7 +182,7 @@
         {
           "key": "macro.transform",
           "mode": 2,
-          "value": "Archofaxius-IntensiverStrahl-elementarium"
+          "value": "Archofaxius-IntensiverStrahl"
         }
       ],
       "dirty": true
@@ -244,7 +244,7 @@
         {
           "key": "macro.transform",
           "mode": 2,
-          "value": "Archosphaero-IntensiveExplosion-elementarium"
+          "value": "Archosphaero-IntensiveExplosion"
         }
       ],
       "dirty": true
@@ -278,7 +278,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "7"
+          "value": "10"
         }
       ],
       "dirty": true

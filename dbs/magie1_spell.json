@@ -534,8 +534,7 @@
           "mode": 2,
           "value": -2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -546,21 +545,28 @@
           "mode": 1,
           "value": 2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
       "name": "Extremer Schaden",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "+2d6+(QS*3)"
+        }
       ]
     }
   ],
@@ -579,8 +585,7 @@
           "mode": 2,
           "value": "Archosphaero-IntensiveExplosion"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schneller Ball",
@@ -596,8 +601,7 @@
           "mode": 2,
           "value": -1
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -611,21 +615,20 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "7"
+          "value": "10"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kugelbombe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Komplexe Bewegung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -648,8 +651,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -670,21 +672,33 @@
           "mode": 1,
           "value": 2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Anhaltender Schutz",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 1,
+          "value": 2
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Lebensretter",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -694,35 +708,32 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verwirrender Geschmack",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Illusionskombination",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -749,7 +760,11 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
       ]
     },
     {
@@ -770,9 +785,13 @@
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -804,9 +823,12 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -822,14 +844,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -861,7 +886,11 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
       ],
       "dirty": true
     },
@@ -879,14 +908,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -919,8 +951,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -936,14 +967,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -975,8 +1009,7 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Massenerwachen",
@@ -987,19 +1020,22 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
       ]
     },
     {
       "name": "Hahnenschrei",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1011,16 +1047,14 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Stärkerer Sog",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größerer Radius",
@@ -1044,7 +1078,11 @@
       "name": "Tor in die Niederhöllen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 64
+        }
       ]
     }
   ],
