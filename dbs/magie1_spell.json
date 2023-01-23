@@ -680,8 +680,8 @@
       "changes": [
         {
           "key": "system.duration.value",
-          "mode": 1,
-          "value": 2
+          "mode": 5,
+          "value": "QS x 6 Minuten"
         },
         {
           "key": "system.AsPCost.value",

@@ -183,15 +183,17 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken_ceremony|152/222|68.5|
 |goetterwirken_liturgy|248/354|70.1|
 |magie1_ritual|26/95|27.4|
-|magie1_spell|244/702|34.8|
+|magie1_spell|275/702|39.2|
 |magie2_ritual|86/190|45.3|
 |magie2_spell|91/380|23.9|
 |magie3_ritual|28/76|36.8|
-|magie3_spell|85/199|42.7|
+|magie3_spell|84/199|42.2|
 |nekromanthaeum_ceremony|1/3|33.3|
 |nekromanthaeum_liturgy|1/3|33.3|
-|nekromanthaeum_ritual|5/10|50.0|
+|nekromanthaeum_ritual|8/10|80.0|
 |nekromanthaeum_spell|15/37|40.5|
-|partly done|1293/2837|45.6|
-|progress|1231/2837|43.4|
+|studyroom_ritual|0/80|0.0|
+|studyroom_spell|0/280|0.0|
+|partly done|1333/3197|41.7|
+|progress|1264/3197|39.5|
 

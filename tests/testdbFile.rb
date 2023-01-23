@@ -35,7 +35,7 @@ Dir["../dbs/*.json"].each do |r|
                 when "system.effectFormula.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern #{rollPattern}" unless change["value"] =~ rollPattern
 
-                    output << "#{name}: #{key} needs to start with + or -" if !(change["value"] =~ /^(\+-)/) && change["mode"] == 2
+                    output << "#{name}: #{key} needs to start with + or -" if !(change["value"] =~ /^(\+|-)/) && change["mode"] == 2
                 when "system.target.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(qs\*|ql\*)?\d{1,3}/
                 when "system.range.value"

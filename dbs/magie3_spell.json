@@ -1631,23 +1631,17 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": true,
+      "complete": false,
       "changes": [
-        {
-          "key": "system.duration.value",
-          "mode": 1,
-          "value": "2"
-        }
-      ],
-      "dirty": true
+
+      ]
     },
     {
       "name": "Bewegung im Stillstand",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zauberdauer senken",
