@@ -1,0 +1,594 @@
+{
+  "Animatio": [
+    {
+      "name": "Wiederholung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Gegenstände",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schlauer Gegenstand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegungen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Applicatus": [
+    {
+      "name": "Zwei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fremdauslöser",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aurum Argentor": [
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Goldmenge 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Goldmenge 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Goldmenge 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Felsenform": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hartes schmelze": [
+    {
+      "name": "Größere Objekte 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr schnelles Schmelzen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verflüssigung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Objekte 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Infinitum Immerdar": [
+    {
+      "name": "Kürzere Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch kürzere Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Artefaktmeisterschaft",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Memorabia Falsifir": [
+    {
+      "name": "Ohne Erinnerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Phasen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Lücke",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Erinnerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Movimento": [
+    {
+      "name": "Mehr Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langer Lauf",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geänderte Zielkategorie 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geänderte Zielkategorie 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nihilogravo": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Levitation",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kontrolliertere Levitation",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewegliche Zone",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Planastrale": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgewählte Limbusreisende",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Globulentore",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Limbusrüstung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Riesengestalt": [
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch stärker 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch stärker 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Riesig!",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ruhe Körper": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gift- und Krankheitstop",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurze Regenerationsphase",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verstärkter Heilschlaf",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerfristige Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Totes handle": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einfache Herstellung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Transformatio": [
+    {
+      "name": "Verkürzte Ritualdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Transformationsexperte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längeres Intervall",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wirbelform": [
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Xenographus": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Besseres Sprachverständnis",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}

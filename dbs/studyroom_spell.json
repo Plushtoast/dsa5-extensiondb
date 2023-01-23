@@ -1,0 +1,2074 @@
+{
+  "Ablativum": [
+    {
+      "name": "Stärkerer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufladbarer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Abvenenum": [
+    {
+      "name": "Ausnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Umfang",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tadelloser Vorkoster",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Adlerschwinge": [
+    {
+      "name": "Mittlere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellverwandlung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Federkleid",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aeolito": [
+    {
+      "name": "Zielkategorie Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Qualvoller Wind",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weites Zurückwerfen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Betäubender Wind",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erz-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aerofugo": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ersticken 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ersticken 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ängste lindern": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Aquaqueris": [
+    {
+      "name": "Größerer Schaden 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Schaden 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Attributo (Klugheit)": [
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fernhilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellsteigerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Auge des Limbus": [
+    {
+      "name": "Aus dem Limbus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kräftiger Sog",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkerer Sog",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tor in die Niederhöllen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Band und Fessel": [
+    {
+      "name": "Zwei Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hausarrest",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelles Band",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Acht Lebewesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Blick aufs Wesen": [
+    {
+      "name": "Geistige Eigenschaften",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Karmale Eigenschaften",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Cryptographo": [
+    {
+      "name": "Einfache Verschlüsselung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Verschlüsselung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bücher verschlüsseln",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dämonenbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Dämonenschild": [
+    {
+      "name": "Schutzhaut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufladbarer Schild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Debilitatio": [
+    {
+      "name": "Geisterzone",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Meine Freunde",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Feenzone",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewegliche Zone",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Durchdringung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Drachenleib": [
+    {
+      "name": "Feuerschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Elementarschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ecliptifactus": [
+    {
+      "name": "Weite Entfernung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schattenwächter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weg des Schattens",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbesserter Schatten",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Einflussbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Eiseskälte Kämpferherz": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Zustände",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kälteres Herz",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Flammenwand": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Fortifex": [
+    {
+      "name": "Höhere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zylinder",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Granit und Marmor": [
+    {
+      "name": "Bewusstsein",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hellsichtbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Heptagramma": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gefangenname",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Geister",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Geister",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Herr über das Tierreich": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch mehr Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Hexagramma": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gefangenname",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Elementare",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Elementare",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Ignisphaero": [
+    {
+      "name": "Intensive Explosion",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kugelbombe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schneller Ball",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Komplexe Bewegung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Illusionsbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Imperavi": [
+    {
+      "name": "Ohne Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Befehle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ohne Erinnerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Impersona": [
+    {
+      "name": "Gute Illusion 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Das bin ja ich!",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wer denn nun?",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Incendio": [
+    {
+      "name": "Zielkategorie Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Qualvolle Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schmerzhafte Flammen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großes Feuer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wasser-Zerstörer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Invercano": [
+    {
+      "name": "Zurückspiegeln auf einen Dritten 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Astrale Riposte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nicht während meiner Wache",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zurückspiegeln auf einen Dritten 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Karnifilo": [
+    {
+      "name": "Wüterich",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vorhersehbares Ende",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Berserker",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nur bestimmte Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Klarum Purum": [
+    {
+      "name": "Ausnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tadelloser Entgifter",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Kraft des Humus": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Regenerationen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Astrale Kräfte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsamer Ort",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Krötenruf": [
+    {
+      "name": "Herumspringende Kröten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starkes Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Paralysierendes Gift",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Levthans Feuer": [
+    {
+      "name": "Interesse bei anderer Person wecken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Regeneration schenken oder stehlen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hitzige Liebesnacht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Regenerationstausch",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Memorans": [
+    {
+      "name": "Merk dir mehr",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Berührung des Meisters",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Merk dir noch mehr",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gedächtnisübertragung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Minimus Reductibus": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Objekte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ein Zehntel",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Nuntiovolo": [
+    {
+      "name": "Höhere Grundreichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Gewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Höhere Flugreichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bote der Niederhölle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelle Kreatur",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Objectobscuro": [
+    {
+      "name": "Längere Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Gewicht 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Gewicht 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unsichtbarer Inhalt",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Objectovoco": [
+    {
+      "name": "Mehr Fragen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Viel mehr Fragen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Antworten mit Zahlen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltende Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wann-Fragen beantworten",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Oculus Astralis": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weniger Einschränkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Magische Analyse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Papageienruf": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lästernde Schnäbel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reserve",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielgenauigkeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Pentagramma": [
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gefangenname",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Dämonen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Drei Dämonen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Protectionis": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Banngespür",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gegenschlag",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gramma-Zauber",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Jederzeit",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Schleier der Unwissenheit": [
+    {
+      "name": "Verborgenes Geheimnis",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Schleier",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere Kulturschaffende und Objekte verschleiern",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sensibar": [
+    {
+      "name": "Kampfhandlung vorhersehen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unbemerkt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gruppenemphatie",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Skelettarius": [
+    {
+      "name": "Mehr Dienste",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zweifache Erhebung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vierfache Erhebung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sphärenbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Sumpfstrudel": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Sumpfstrudel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Verwandlungsbann": [
+    {
+      "name": "Reichweite erhöhen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Permanente Zauber unterdrücken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Versiegeln",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten senken",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Warmes gefriere": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zauberdauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verkürzte Zauberdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Windhose": [
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Sturm",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Windhose",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Windstille": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wolfstatze": [
+    {
+      "name": "Mittlere Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnellverwandlung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fellkleid",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Große Tiere",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ]
+}
