@@ -10,7 +10,6 @@
           "value": "Kulturschaffende, Lebewesen"
         }
       ],
-      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -36,16 +35,24 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Zielkategorie Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen, Wesen"
+        }
       ]
     }
   ],
@@ -75,23 +82,30 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS Stunden"
+          "value": "QS x 10 Minuten"
         }
       ],
-      "dirty": true
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x Stunden"
+        }
       ]
     }
   ],
@@ -103,10 +117,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "1 Schritt"
+          "value": "4 Schritt"
         }
       ],
-      "dirty": true
     },
     {
       "name": "Mehr Befehle",
@@ -124,16 +137,24 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -144,7 +165,6 @@
       "changes": [
 
       ],
-      "dirty": true
     },
     {
       "name": "Halbkreis",
