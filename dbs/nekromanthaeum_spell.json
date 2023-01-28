@@ -214,7 +214,6 @@
       "changes": [
 
       ],
-      "dirty": true
     },
     {
       "name": "Längerer Dienst",
@@ -248,16 +247,24 @@
     },
     {
       "name": "Zweifache Erhebung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Vierfache Erhebung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 12
+        }
       ]
     }
   ],
@@ -290,9 +297,13 @@
     },
     {
       "name": "Andere Zielkategorie",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Wesen"
+        }
       ]
     },
     {
@@ -325,7 +336,6 @@
           "value": "1d6+6"
         }
       ],
-      "dirty": true
     },
     {
       "name": "Zwei Ziele",
@@ -340,9 +350,13 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
