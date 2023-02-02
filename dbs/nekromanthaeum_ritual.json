@@ -20,7 +20,7 @@
           "mode": 5,
           "value": "QS Jahre"
         }
-      ],
+      ]
     },
     {
       "name": "Mächtiges Wesen",
@@ -58,14 +58,14 @@
           "mode": 2,
           "value": "multitarget-16AsP_per_target"
         }
-      ],
+      ]
     },
     {
       "name": "Vergessen nach Erfüllung",
       "complete": true,
       "changes": [
 
-      ],
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",

@@ -9,7 +9,7 @@
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen"
         }
-      ],
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -84,7 +84,7 @@
           "mode": 5,
           "value": "QS x 10 Minuten"
         }
-      ],
+      ]
     },
     {
       "name": "Verkürzte Zauberdauer",
@@ -119,7 +119,7 @@
           "mode": 5,
           "value": "4 Schritt"
         }
-      ],
+      ]
     },
     {
       "name": "Mehr Befehle",
@@ -164,7 +164,7 @@
       "complete": false,
       "changes": [
 
-      ],
+      ]
     },
     {
       "name": "Halbkreis",
@@ -213,7 +213,7 @@
       "complete": false,
       "changes": [
 
-      ],
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -335,7 +335,7 @@
           "mode": 5,
           "value": "1d6+6"
         }
-      ],
+      ]
     },
     {
       "name": "Zwei Ziele",
