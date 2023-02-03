@@ -31,7 +31,7 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ],
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -325,7 +325,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "Berührung"
+          "value": "berühren"
         },
         {
           "key": "system.AsPCost.value",

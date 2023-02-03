@@ -36,7 +36,7 @@
         {
           "key": "system.castingTime.value",
           "mode": 5,
-          "value": "4 Stunden"
+          "value": 240
         }
       ]
     },
@@ -92,7 +92,7 @@
          {
           "key": "system.castingTime.value",
           "mode": 5,
-          "value": "30 Minuten"
+          "value": 30
         }
 
       ]

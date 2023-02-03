@@ -10,9 +10,11 @@ Dir.mkdir(directory_name) unless File.exists?(directory_name)
 rollPattern = /^(\+|-)?\d{1,3}[wWdD]\d{1,3}((\+|-)(\d|QS))?(\*(\d|QS))?$/
 
 Dir["../dbs/*.json"].each do |r|
+    puts r
     json = File.open(r) {|f| JSON.parse(f.read)}
 
     fname = r.split("/")[-1].gsub(".json", "")
+    
     output = []
     json.each do |spell, value|
         value.each do |ext|

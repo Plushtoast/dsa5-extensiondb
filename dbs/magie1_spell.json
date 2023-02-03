@@ -563,7 +563,7 @@
         {
           "key": "system.effectFormula.value",
           "mode": 5,
-          "value": "+2d6+(QS*3)"
+          "value": "+2d6+QS*3"
         }
       ]
     }
