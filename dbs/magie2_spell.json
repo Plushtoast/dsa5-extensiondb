@@ -16,16 +16,14 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Lange Arme",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kräftiger Wurf",
@@ -66,9 +64,13 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -106,8 +108,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zielkategorie Objekte",
@@ -122,14 +123,18 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 4 Stunden"
+        }
       ]
     },
     {
       "name": "Aggressive Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -156,9 +161,12 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -174,14 +182,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -213,9 +224,12 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -231,14 +245,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -270,9 +287,12 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -293,9 +313,13 @@
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -327,9 +351,12 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -345,14 +372,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Fernhilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -387,11 +417,10 @@
     },
     {
       "name": "Spezieswahl",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zielkategorie Objekte",
@@ -406,14 +435,18 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 4 Stunden"
+        }
       ]
     },
     {
       "name": "Aggressive Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
