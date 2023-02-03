@@ -208,8 +208,7 @@
           "mode": 2,
           "value": 6
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schnellverwandlung",
@@ -517,8 +516,7 @@
           "mode": 2,
           "value": "Archofaxius-IntensiverStrahl"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Windender Strahl",
@@ -705,21 +703,21 @@
   "Aromatis Illusionis": [
     {
       "name": "Gute Illusion 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gute Illusion 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gute Illusion 3",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -891,8 +889,7 @@
           "mode": 5,
           "value": "1 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -950,7 +947,11 @@
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 KR"
+        }
       ]
     },
     {
@@ -1063,7 +1064,7 @@
         {
           "key": "system.target.value",
           "mode": 1,
-          "value": "2"
+          "value": "QS x 2 Schritt"
         }
       ]
     },
@@ -1089,78 +1090,80 @@
   "Aureolus": [
     {
       "name": "Gute Illusion 1",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Gute Illusion 2",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Gute Illusion 3",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Geschickte Beeinflussung",
-      "complete": false,
+      "name": "Gute Illusion 2",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Gute Illusion 3",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
+      ]
+    },
+    {
+      "name": "Geschickte Beeinflussung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     }
   ],
   "Auris Illusionis": [
     {
       "name": "Gute Illusion 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verwirrende Geräusche",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Illusionskombination",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1172,24 +1175,21 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Noch schneller",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Noch viel schneller",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprungkraft",
@@ -1200,7 +1200,7 @@
     },
     {
       "name": "Schnelle Handlung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
