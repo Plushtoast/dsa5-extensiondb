@@ -8,6 +8,11 @@
           "key": "system.targetCategory.value",
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
         }
       ]
     },
@@ -52,6 +57,11 @@
           "key": "system.targetCategory.value",
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen, Wesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
         }
       ]
     }

@@ -32,20 +32,33 @@
           "value": "QS Stunden"
         }
       ],
-      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }
 
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "8 KR"
+          }
       ]
     }
   ],
@@ -75,8 +88,13 @@
     },
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+               {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "4 Stunden"
+          }
 
       ]
     },
@@ -114,8 +132,14 @@
     },
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        
+               {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "5 Minuten"
+          }
 
       ]
     },
@@ -267,17 +291,30 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
+                {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }
+     ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
+              {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "8 KR"
+          }
+     ]
     }
   ],
   "Freiheit der Wolken": [
@@ -288,7 +325,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "berühren"
+          "value": "Berührung"
         },
         {
           "key": "system.AsPCost.value",
@@ -368,17 +405,30 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+                {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
-      "changes": [
-
-      ]
+      "complete": true,
+      "changes": [              
+        {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "8 KR"
+          }
+     ]
     }
   ],
   "Klarheit des Eises": [
@@ -458,9 +508,13 @@
     },
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "8 Stunden"
+          }
       ]
     },
     {
@@ -508,16 +562,29 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }
+     ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+       {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "8 KR"
+          }
       ]
     }
   ],
@@ -658,16 +725,29 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }     
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "8 KR"
+          }
       ]
     }
   ],
@@ -707,16 +787,30 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
+      "complete": true,
+      "changes": [                
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }
 
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "8 KR"
+          }
       ]
     }
   ],
@@ -752,8 +846,13 @@
     },
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {
+            "key": "system.duration.value",
+            "mode": 5,
+            "value": "4 Stunden"
+          }
 
       ]
     },
