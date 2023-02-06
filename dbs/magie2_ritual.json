@@ -23,8 +23,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Strukturstärkung",
@@ -47,24 +46,21 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schlauer Gegenstand",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Bewegung",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehrere Gegenstände",
@@ -87,8 +83,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gelungene Beeinflussung 2",
@@ -102,21 +97,33 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehr Ziele",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Wochen"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -155,21 +162,21 @@
     },
     {
       "name": "Verlangsamung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ferner Ort 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ferner Ort 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -207,21 +214,38 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -240,8 +264,7 @@
           "mode": 5,
           "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -262,27 +285,25 @@
           "mode": 5,
           "value": "false"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbschlaf",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Heilsamer Schlaf",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Steinschlaf",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -313,14 +334,14 @@
     },
     {
       "name": "Knall",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Heiße Flammen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -339,36 +360,42 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Aufheben von dauerhaft wirkenden Artefakten",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Kürzere Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
       ]
     }
   ],
   "Eins mit der Natur": [
     {
       "name": "Kälte und Wärme",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -402,14 +429,14 @@
     },
     {
       "name": "Geländesinn",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Zwei Umgebungen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -437,8 +464,7 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -447,21 +473,20 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 3 Wochen"
+          "value": "QS x 3 Monate"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Elementare Erkenntnisse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -489,8 +514,7 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -505,14 +529,14 @@
     },
     {
       "name": "Elementare Erkenntnisse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -555,16 +579,34 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -583,8 +625,7 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Bewusstsein",
@@ -606,14 +647,14 @@
     },
     {
       "name": "Elementare Erkenntnisse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -630,35 +671,35 @@
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Freundliche Einstellung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Bitten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ausgedehnter Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Einfaches Herbeirufen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -675,35 +716,35 @@
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Freundliche Einstellung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Bitten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ausgedehnter Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Einfaches Herbeirufen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -741,21 +782,38 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -774,8 +832,7 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Bewusstsein",
@@ -797,14 +854,14 @@
     },
     {
       "name": "Elementare Erkenntnisse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -834,14 +891,18 @@
     },
     {
       "name": "Größeres Intervall",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 AsP pro 30 Minuten"
+        }
       ]
     },
     {
       "name": "Zaubermacht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -879,14 +940,18 @@
     },
     {
       "name": "Fremde Freunde",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Noch größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -920,14 +985,18 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Geister Deres",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -958,23 +1027,51 @@
     },
     {
       "name": "Bewegliche Zone",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Levitation",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Wesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     },
     {
       "name": "Kontrolliertere Levitation",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Wesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     }
   ],
@@ -1010,21 +1107,38 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        }
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -1043,8 +1157,7 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Bewusstsein",
@@ -1066,14 +1179,14 @@
     },
     {
       "name": "Elementare Erkenntnisse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1090,15 +1203,14 @@
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Freundlichen Einstellung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ],
@@ -1106,28 +1218,28 @@
     },
     {
       "name": "Mehr bitten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ausgedehnter Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Einfaches Herbeirufen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Freundliche Einstellung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1141,7 +1253,7 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 3 Wochen"
+          "value": "QS Wochen"
         }
       ]
     },
@@ -1168,7 +1280,7 @@
     },
     {
       "name": "Vierfachtausch",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1206,6 +1318,11 @@
           "key": "system.AsPCost.value",
           "mode": 2,
           "value": 8
+        },
+        {
+        "key": "system.targetCategory.value",
+        "mode": 5,
+        "value": "Kulturschaffende"
         }
       ]
     },
@@ -1218,9 +1335,13 @@
     },
     {
       "name": "Starker Verteidiger",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": 2
+        }
       ]
     }
   ],
@@ -1281,7 +1402,7 @@
     },
     {
       "name": "Andere Spezies",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1308,21 +1429,25 @@
     },
     {
       "name": "Traummeister",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x Stunden"
+        }
       ]
     },
     {
       "name": "Traumkriegerin",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1370,14 +1495,14 @@
     },
     {
       "name": "Elementare Erkenntnisse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sprachfähigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1419,16 +1544,34 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -1446,16 +1589,29 @@
     },
     {
       "name": "Mehr Elfenbrot",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Tage"
+        }
       ]
     },
     {
       "name": "Geteiltes Elfenbrot",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -1467,9 +1623,13 @@
     },
     {
       "name": "Noch viel mehr Elfenbrot!",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Tage"
+        }
       ]
     }
   ],
@@ -1491,16 +1651,14 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Heilsames Schnurren",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verführerisches Schnurren",
@@ -1520,38 +1678,35 @@
   "Zauberwesen der Natur": [
     {
       "name": "Mehr Dienste",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Freundliche Einstellung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Ausgedehnter Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Einfaches Herbeirufen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1567,16 +1722,14 @@
           "mode": 2,
           "value": "multitarget-16AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Vergessen nach Erfüllung",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -1591,7 +1744,7 @@
     },
     {
       "name": "Schlimme Strafe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1618,11 +1771,10 @@
     },
     {
       "name": "Schmerzloser Wächter",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -1643,19 +1795,18 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Elfischer Kämpfer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Starker Angreifer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1697,16 +1848,34 @@
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Kurzritual",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -1727,8 +1896,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
@@ -1739,14 +1907,17 @@
           "mode": 5,
           "value": "QS x 30 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sehr schnelles Härten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     },
     {
