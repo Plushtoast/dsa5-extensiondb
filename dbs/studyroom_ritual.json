@@ -2,7 +2,21 @@
   "Animatio": [
     {
       "name": "Wiederholung",
-      "complete": false,
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schlauer Gegenstand",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Bewegung",
+      "complete": true,
       "changes": [
 
       ]
@@ -15,21 +29,7 @@
       ]
     },
     {
-      "name": "Schlauer Gegenstand",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
       "name": "Komplexe Bewegungen",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Bewegung",
       "complete": false,
       "changes": [
 
@@ -39,46 +39,66 @@
   "Applicatus": [
     {
       "name": "Zwei Zauber",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Drei Zauber",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Fremdauslöser",
+      "name": "Vier Zauber",
       "complete": false,
+      "changes": [
+
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Stunden"
+        }
+      ]
+    },
+    {
+      "name": "Fremdauslöser",
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 15 Stunden"
+        }
       ]
     }
   ],
   "Aurum Argentor": [
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
       ]
     },
     {
@@ -92,93 +112,167 @@
       "name": "Größere Goldmenge 1",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Größere Goldmenge 2",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 24
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Größere Goldmenge 3",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 56
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
   "Felsenform": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Kurzritual",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
   "Hartes schmelze": [
     {
       "name": "Größere Objekte 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Sehr schnelles Schmelzen",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Verflüssigung",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Größere Objekte 2",
-      "complete": false,
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "Sehr schnelles Schmelzen",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Verflüssigung",
+      "complete": true,
       "changes": [
 
       ]
@@ -187,35 +281,43 @@
   "Infinitum Immerdar": [
     {
       "name": "Kürzere Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Noch kürzere Ritualdauer",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 480
+        }
       ]
     },
     {
       "name": "Zwei Zauber",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Artefaktmeisterschaft",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Drei Zauber",
-      "complete": false,
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch kürzere Ritualdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 240
+        }
+      ]
+    },
+    {
+      "name": "Artefaktmeisterschaft",
+      "complete": true,
       "changes": [
 
       ]
@@ -224,34 +326,38 @@
   "Memorabia Falsifir": [
     {
       "name": "Ohne Erinnerung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Phasen",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Größere Lücke",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Andere Erinnerung",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS + 1 Jahr"
+        }
+      ]
+    },
+    {
+      "name": "Größere Lücke",
       "complete": false,
       "changes": [
 
@@ -261,6 +367,24 @@
   "Movimento": [
     {
       "name": "Mehr Ziele",
+      "complete": true,
+      "changes": [
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Geänderte Zielkategorie 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geänderte Zielkategorie 2",
       "complete": false,
       "changes": [
 
@@ -274,21 +398,7 @@
       ]
     },
     {
-      "name": "Geänderte Zielkategorie 1",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Geänderte Zielkategorie 2",
       "complete": false,
       "changes": [
 
@@ -298,72 +408,116 @@
   "Nihilogravo": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
+      ]
+    },
+    {
+      "name": "Bewegliche Zone",
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Levitation",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Größerer Radius",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Wesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     },
     {
       "name": "Kontrolliertere Levitation",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Bewegliche Zone",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Wesen"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     }
   ],
   "Planastrale": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Ausgewählte Limbusreisende",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Globulentore",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Limbusrüstung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 KR"
+        }
+      ]
+    },
+    {
+      "name": "Ausgewählte Limbusreisende",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Limbusrüstung",
+      "complete": true,
       "changes": [
 
       ]
@@ -372,9 +526,13 @@
   "Riesengestalt": [
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
       ]
     },
     {
@@ -386,9 +544,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
@@ -409,6 +571,24 @@
   "Ruhe Körper": [
     {
       "name": "Kosten modifizierbar",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "Kurze Regenerationsphase",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längerfristige Wirkung",
       "complete": false,
       "changes": [
 
@@ -422,21 +602,7 @@
       ]
     },
     {
-      "name": "Kurze Regenerationsphase",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
       "name": "Verstärkter Heilschlaf",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Längerfristige Wirkung",
       "complete": false,
       "changes": [
 
@@ -446,35 +612,47 @@
   "Totes handle": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Monate"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Jahre"
+        }
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 240
+        }
       ]
     },
     {
       "name": "Einfache Herstellung",
-      "complete": false,
-      "changes": [
-
-      ]
-    },
-    {
-      "name": "Mächtiges Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -483,9 +661,13 @@
   "Transformatio": [
     {
       "name": "Verkürzte Ritualdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 30
+        }
       ]
     },
     {
@@ -497,9 +679,18 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -513,81 +704,121 @@
       "name": "Längeres Intervall",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     }
   ],
   "Wirbelform": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*2"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Kurzritual",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Kurzritual",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
   "Xenographus": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
+      ]
+    },
+    {
+      "name": "Besseres Sprachverständnis",
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ]
-    },
-    {
-      "name": "Besseres Sprachverständnis",
-      "complete": false,
-      "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
       ]
     }
   ]
