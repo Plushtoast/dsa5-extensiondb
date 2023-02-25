@@ -1609,11 +1609,10 @@
     },
     {
       "name": "Unsichtbarer Jäger",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -1628,16 +1627,20 @@
     },
     {
       "name": "Mehr Ausrüstung tarnen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     }
   ],
@@ -1662,8 +1665,7 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -1674,19 +1676,18 @@
           "mode": 5,
           "value": "24 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sicherer Verschluss",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Zwergenschloss",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1698,8 +1699,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkung",
@@ -1708,10 +1708,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 3 KR"
+          "value": "QS x 5 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -1720,23 +1719,30 @@
         {
           "key": "system.AsPCost.value",
           "mode": 2,
-          "value": 8
+          "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -1772,9 +1778,13 @@
     },
     {
       "name": "Qualvolles Eis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "+2"
+        }
       ]
     },
     {
