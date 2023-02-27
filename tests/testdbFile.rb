@@ -2,7 +2,7 @@
 require 'json'
 
 
-targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen"]
+targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen", "Chimären", "Daimonide", "Elementare", "Untote"]
 
 directory_name = "./log"
 Dir.mkdir(directory_name) unless File.exists?(directory_name)

@@ -784,7 +784,7 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS"}
+        {"key": "system.target.value", "mode": 5, "value": "QS*1"}
       ]
     },
     {
