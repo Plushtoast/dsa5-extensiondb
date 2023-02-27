@@ -243,8 +243,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schneller Ball",
@@ -260,8 +259,7 @@
           "mode": 2,
           "value": -1
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -275,21 +273,20 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "7"
+          "value": "10"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kugelbombe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Komplexe Bewegung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -298,7 +295,7 @@
   "Böser Blick": [
     {
       "name": "Nicht näher kommen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -327,16 +324,20 @@
     },
     {
       "name": "Du kannst nicht vorbei",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Kategorie Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen, Wesen"
+        }
       ]
     }
   ],
@@ -360,8 +361,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wand",
@@ -372,9 +372,13 @@
     },
     {
       "name": "Langanhaltende Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "60 KR"
+        }
       ]
     }
   ],

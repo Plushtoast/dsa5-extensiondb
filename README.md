@@ -148,7 +148,7 @@ The automation is not finished because the extension can not add the status burn
         {"key": "system.AsPCost.value", "mode": 2, "value": 2},
         {"key": "defenseMalus", "mode": 2, "value": -2}
     ]
-},
+}
 ```
 The automation adds all required modifiers (AsP & defenseMalus). Complete should be true
 <hr/>
