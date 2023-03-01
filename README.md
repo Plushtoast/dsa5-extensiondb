@@ -105,7 +105,7 @@ The following keys can be used to modify the spells:
 | decreaseCastingTime.mod               | Force Modifier          | Erzwingen Modifikator      | 1                    | number |
 | removeGesture.mod               | Force Modifier        | Erzwingen Modifikator      | 1                    | number |
 | removeFormula.mod               | Force Modifier         | Erzwingen Modifikator       | 1                    | number |
-
+| extensionModifier.mod               | Flat Modifier         | Modifikator       | 1                    | number |
 
 
 *1 The damage roll is a string and has to be preceded with a "+" or "-" for mode 2.
