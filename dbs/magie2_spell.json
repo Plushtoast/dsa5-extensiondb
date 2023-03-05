@@ -746,16 +746,14 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Elementarschutz",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -780,16 +778,24 @@
     },
     {
       "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Minuten"
+        }
       ]
     }
   ],
@@ -801,10 +807,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -813,7 +818,7 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "4 Stunden"
+          "value": "1 Stunde"
         }
       ]
     },
@@ -822,14 +827,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -848,10 +856,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -869,14 +876,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -899,9 +909,12 @@
       "name": "Mehr Geschosse",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
     },
     {
       "name": "Elementarschaden",
@@ -921,7 +934,16 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -937,9 +959,12 @@
       "name": "Mehr Geschosse",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
     },
     {
       "name": "Elementarschaden",
@@ -959,7 +984,16 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -983,14 +1017,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {

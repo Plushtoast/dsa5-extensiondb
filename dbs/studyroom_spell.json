@@ -889,7 +889,7 @@
   "Ecliptifactus": [
     {
       "name": "Weite Entfernung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -903,14 +903,23 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Weg des Schattens",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -926,46 +935,90 @@
   "Einflussbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "increaseRangeSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Permanente Zauber unterdrücken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Versiegeln",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
   "Eiseskälte Kämpferherz": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "20 KR"
+        }
       ]
     },
     {
@@ -977,16 +1030,29 @@
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        }
       ]
     },
     {
