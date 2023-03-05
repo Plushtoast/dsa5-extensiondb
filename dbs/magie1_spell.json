@@ -1077,12 +1077,17 @@
     },
     {
       "name": "Tor in die Niederhöllen",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.AsPCost.value",
           "mode": 5,
           "value": 64
+        },
+        {
+          "key": "extensionModifier.mod",
+          "mode": 2,
+          "value": -7
         }
       ]
     }
