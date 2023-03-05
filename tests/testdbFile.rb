@@ -46,6 +46,8 @@ Dir["../dbs/*.json"].each do |r|
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(\d{1,3}|QS) (Kampfrunde(n)?|KR(s)?|Sekunden(n)?|Minute(n)?|min|Stunde(n)?|Tag(e)?|Woche(n)?|Monat(e)?|Jahr(e)?)/
                 when "macro.transform"
                     output << "#{name}: #{key} <#{change["value"]}> file missing" unless File.exists?("../macros/#{change["value"]}.js")
+                when "extensionModifier.mod"
+                    output << "#{name}: #{key} <#{change["value"]}> not a number or wrong mode" if !(change["value"].is_a?(Numeric) && change["mode"] == 2)
                 else
 
                     output << "#{name}: uncovered key <#{key}>"
