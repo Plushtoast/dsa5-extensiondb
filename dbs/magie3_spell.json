@@ -663,8 +663,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkung",
@@ -684,23 +683,35 @@
         {
           "key": "system.AsPCost.value",
           "mode": 2,
-          "value": 8
+          "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "extensionModifier.mod",
+          "mode": 2,
+          "value": 1
+        }
       ]
     }
   ],
