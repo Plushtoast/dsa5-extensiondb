@@ -494,8 +494,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Elementare Zerstörung",
@@ -506,16 +505,24 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
       ]
     },
     {
       "name": "Noch größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     }
   ],
@@ -534,8 +541,7 @@
           "mode": 2,
           "value": "Frigifaxius-IntensiverStrahl"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Windender Strahl",
@@ -549,10 +555,9 @@
         {
           "key": "defenseMalus",
           "mode": 2,
-          "value": -1
+          "value": -2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -567,16 +572,24 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
       "name": "Extremer Schaden",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "+2d6+QS*3"
+        }
       ]
     }
   ],
@@ -595,8 +608,7 @@
           "mode": 2,
           "value": "Frigisphaero-IntensiveExplosion"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schneller Ball",
@@ -612,8 +624,7 @@
           "mode": 2,
           "value": -1
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -627,10 +638,9 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "7"
+          "value": "10"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kugelbombe",
@@ -641,7 +651,7 @@
     },
     {
       "name": "Komplexe Bewegung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
