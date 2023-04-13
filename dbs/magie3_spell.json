@@ -700,7 +700,7 @@
     },
     {
       "name": "Brechen des Widerstands",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.AsPCost.value",
