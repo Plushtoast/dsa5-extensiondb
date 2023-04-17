@@ -2592,14 +2592,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gleichzeitiges Zielen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     },
     {
@@ -2643,9 +2646,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 KR"
+        }
       ]
     },
     {
@@ -2682,8 +2689,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Große Tiere",
@@ -2694,19 +2700,22 @@
           "mode": 2,
           "value": 6
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schnellverwandlung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Schuppenkleid",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2718,8 +2727,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -2735,8 +2743,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verankern",
@@ -2746,18 +2753,12 @@
           "key": "system.targetCategory.value",
           "mode": 5,
           "value": "Kulturschaffende"
-        },
-        {
-          "key": "system.range.value",
-          "mode": 5,
-          "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Bewegliche Lichtkugel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2773,7 +2774,7 @@
   "Foramen": [
     {
       "name": "Wiederverschließbar",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2794,16 +2795,34 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Minuten"
+        }
       ]
     },
     {
       "name": "Übertragbarkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -2827,8 +2846,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wand",
@@ -2839,9 +2857,13 @@
     },
     {
       "name": "Langanhaltende Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "60 KR"
+        }
       ]
     }
   ],
@@ -2858,8 +2880,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -2874,9 +2895,13 @@
     },
     {
       "name": "Angriff gegen Sphärenwesen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Wesen"
+        }
       ]
     },
     {
@@ -2893,8 +2918,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -2926,14 +2950,17 @@
           "mode": 5,
           "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "15 Minuten"
+        }
       ]
     },
     {
@@ -2957,8 +2984,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kommunikationsverbindung",
@@ -2969,19 +2995,22 @@
           "mode": 2,
           "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Fehlender Sichtkontakt",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -3008,8 +3037,7 @@
           "mode": 5,
           "value": "QS x 10 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Höhere Reichweite 3",
@@ -3020,19 +3048,18 @@
           "mode": 5,
           "value": "QS x 50 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gefühl der Nähe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gegenstände von Freunden",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -3044,30 +3071,31 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gelungene Beeinflussung 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gelungene Beeinflussung 3",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
@@ -3084,8 +3112,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkung",
@@ -3105,23 +3132,35 @@
         {
           "key": "system.AsPCost.value",
           "mode": 2,
-          "value": 8
+          "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "extensionModifier.mod",
+          "mode": 2,
+          "value": 1
+        }
       ]
     }
   ],
