@@ -1,5 +1,5 @@
 # Summary
-last_updated: 2023-07-01 16:14:44
+last_updated: 2023-07-01 17:31:33
 
 | Book | Status | % |
 | --- | --- | --- |
@@ -21,8 +21,8 @@ last_updated: 2023-07-01 16:14:44
 | [Herbarium2](#herbarium2) | 31/70 | 44.29% |
 | [Klingendernacht](#klingendernacht) | 4/14 | 28.57% |
 | [Magie1](#magie1) | 184/351 | 52.42% |
-| [Magie2](#magie2) | 191/344 | 55.52% |
-| [Magie3](#magie3) | 133/367 | 36.24% |
+| [Magie2](#magie2) | 192/344 | 55.81% |
+| [Magie3](#magie3) | 146/367 | 39.78% |
 | [Mastertools](#mastertools) | 0/12 | 0.0% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 64/81 | 79.01% |
@@ -35,20 +35,20 @@ last_updated: 2023-07-01 16:14:44
 | [Transmutarium](#transmutarium) | 43/63 | 68.25% |
 | [Warringkingdoms](#warringkingdoms) | 39/93 | 41.94% |
 | --- | --- | --- |
-| Total | 2560/4133 | 61.94% |
+| Total | 2574/4133 | 62.28% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
 | Advantage | 126/172 | 73.26% |
 | Disadvantage | 100/126 | 79.37% |
-| Specialability | 1467/2384 | 61.54% |
+| Specialability | 1480/2384 | 62.08% |
 | Liturgy | 190/257 | 73.93% |
 | Ceremony | 85/158 | 53.8% |
 | Consumable | 19/96 | 19.79% |
 | Trait | 123/205 | 60.0% |
 | Spell | 329/495 | 66.46% |
-| Ritual | 121/240 | 50.42% |
+| Ritual | 122/240 | 50.83% |
 
 
 
@@ -2878,7 +2878,7 @@ Total status:  184/351 (52.42%)
 
 
 ## Magie2
-Total status:  191/344 (55.52%)
+Total status:  192/344 (55.81%)
 
 
 ### Specialability
@@ -3082,7 +3082,7 @@ Total status:  191/344 (55.52%)
 - [ ] Nihilogravo
 - [x] Pflanzenform
 - [ ] Reinheit der Lohe
-- [ ] Ruf der Feenwesen
+- [x] Ruf der Feenwesen
 - [ ] Seelenwanderung
 - [x] Standhafter Wächter
 - [x] Transmutare
@@ -3249,13 +3249,13 @@ Total status:  191/344 (55.52%)
 
 
 ## Magie3
-Total status:  133/367 (36.24%)
+Total status:  146/367 (39.78%)
 
 
 ### Specialability
 
 - [ ] Geode der Wilden Zwerge
-- [ ] Scholar des Agrimeton
+- [x] Scholar des Agrimeton
 - [ ] Tradition (Animisten)
 - [ ] Tradition (Druiden)
 - [ ] Tradition (Geoden)
@@ -3276,11 +3276,11 @@ Total status:  133/367 (36.24%)
 - [x] Waffe gegen böse Wesen
 - [x] Waffen-Apport
 - [x] Bindung des Dolches
-- [ ] Blutbaum
+- [x] Blutbaum
 - [x] Borkenhaut
 - [x] Dolch-Apport
 - [ ] Flug des Dolches
-- [ ] Gespür des Dolches
+- [x] Gespür des Dolches
 - [ ] Kraft aus der Erde
 - [ ] Machtvolle Dolchrituale
 - [ ] Schutz des Dolches
@@ -3291,12 +3291,12 @@ Total status:  133/367 (36.24%)
 - [ ] Wegweiser
 - [x] Bannsichel
 - [x] Bindung der Sichel
-- [ ] Ernte der Sichel
+- [x] Ernte der Sichel
 - [x] Haltbare Ernte
 - [ ] Kraft der Sichel
 - [ ] Kräuterernte
 - [ ] Machtvolle Sichelrituale
-- [ ] Schnitt durch Stein
+- [x] Schnitt durch Stein
 - [x] Sichel-Apport
 - [x] Sichel wider Übernatürliches
 - [x] Volumenerweiterung der Sichel
@@ -3307,26 +3307,26 @@ Total status:  133/367 (36.24%)
 - [ ] Eiskristalle
 - [ ] Frostwelle
 - [ ] Launen des Windes
-- [ ] Macht über Regen
+- [x] Macht über Regen
 - [ ] Machtvolle Heilkräfte der Natur
 - [ ] Machtvolle Ringzauber
-- [ ] Machtvoller Wasserbann
+- [x] Machtvoller Wasserbann
 - [ ] Machtvoller wirbelnder Luftschild
 - [ ] Magnetismus
 - [ ] Pforte durch Sumus Leib
 - [ ] Schutzzone vor Bösem
 - [ ] Seelenfeuer
 - [x] Volumenerweiterung des Rings
-- [ ] Wasserbann
+- [x] Wasserbann
 - [ ] Weg durch Sumus Leib
 - [ ] Wirbelnder Luftschild
 - [x] Bannstab des Erzmagus
 - [ ] Hammer des Erzmagus
 - [ ] Gestapelter Zauberspeicher
 - [ ] Machtvoller Energiestrahl
-- [ ] Machtvoller Zauberspeicher
+- [x] Machtvoller Zauberspeicher
 - [ ] Seil des Erzmagus
-- [ ] Torsperre
+- [x] Torsperre
 - [ ] Türöffner
 - [ ] Zauberspeicher des Erzmagus
 - [ ] Zauberspeicher des Magus
@@ -3334,7 +3334,7 @@ Total status:  133/367 (36.24%)
 - [x] Bannschwert des Erzmagus
 - [ ] Bannschwert des Schutzsegens
 - [ ] Paralysierendes Schwert
-- [ ] Übernatürlicher Wegweiser
+- [x] Übernatürlicher Wegweiser
 - [ ] Geschossschutz
 - [ ] Kopierter Kugelzauber
 - [ ] Kugelbarriere
@@ -3379,13 +3379,13 @@ Total status:  133/367 (36.24%)
 - [x] Scholar des Informations-Instituts zu Rommilys
 - [x] Scholar des Konzils der Elemente zu Drakonia
 - [ ] Scholar des Magierkollegs zu Honingen
-- [ ] Bewahrer des Uralten
+- [x] Bewahrer des Uralten
 - [ ] Brecher des Willens
 - [ ] Hüterin des Hains
 - [ ] Konzilsmeister
 - [x] Meister der elementaren Gewalten
 - [ ] Meister des Kreises
-- [ ] Unscheinbare
+- [x] Unscheinbare
 - [ ] Wächter der Göttin
 - [ ] Meister vom Wald
 - [ ] Weiße Leute

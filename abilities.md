@@ -9,6 +9,7 @@ You can bring following things to help advancing the automations.
 * Ideas
 * Whishes
 * Bureaucracy help
+
 We reached now a state where we think TDE is playable exceptionally well and we don't have to change a lot anymore for special abilities. So now we can accept help to improve the system even more without risking work to be in vane because of frequent changes in the system. If you want to help, you are now invited to do so, thanks!
 But our base intention stays the same, we want to cover as much as possible and we will add more from time to time.
 
