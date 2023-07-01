@@ -1,0 +1,3907 @@
+{
+  "Tradition (Kristallomanten)": {
+    "source": [
+      "achaz",
+      "studyroom"
+    ]
+  },
+  "Beschützer": {
+    "source": [
+      "achaz",
+      "compendium"
+    ]
+  },
+  "Bruthüter-Stil": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Chaz'Zchakrr-Stil": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Defensives Verhalten": {
+    "source": [
+      "achaz",
+      "compendium2",
+      "goetterwirken2"
+    ]
+  },
+  "Formationsparade": {
+    "source": [
+      "achaz",
+      "compendium2"
+    ]
+  },
+  "Offensives Verhalten": {
+    "source": [
+      "achaz",
+      "compendium2",
+      "goetterwirken2",
+      "orcs"
+    ]
+  },
+  "Schmerzwut": {
+    "source": [
+      "achaz",
+      "compendium2",
+      "orcs"
+    ]
+  },
+  "Ewige Wegzehrung": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Leichter Beutel": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Machtvolle Beutelzauber": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Riesiger Beutel": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schutz des Beutels": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schutz des Beutels 2": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Suchende Finger": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Unauffindbarer Inhalt": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Unheilvoller Inhalt": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Windbeutel": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Bilderspiel - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Brennglas - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Fernbild - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Großer Hohlraum - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Kleines Orbitarium - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Kugel des Hellsehers - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Kugel des Zauberschutzes - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Machtvolle Kugelzauber - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Mehrfaches Volumen - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Vergrößerungsglas - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Wachendes Auge - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Warnendes Leuchten - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zauberspeicher-Kristallkugel - Kristallomant": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zauberspeicher-Kristallkugel - Kristallomant 2": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Astralspeicher-Haube": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Machtvolle Haubenzauber": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Meisterschliff": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Merkmalsverstärkung": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schutz des Geistes": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Tradition (Meistertalentierte)": {
+    "source": [
+      "achaz",
+      "magie1",
+      "orcs"
+    ]
+  },
+  "Tradition (Achazschamanen)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Keulenweihe (Achaz)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Freundschaft des Tieres (Achaz)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Tierische Kraft (Achaz)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Erfrierung verursachen (Achaz)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Kältestrahl (Achaz)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Keulenwurf (Achaz)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Tradition (H'Szint-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Wall gegen Schadensmagie (H'Szint-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Beistand gegen Einflusszauberei (H'Szint-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Bollwerk gegen Magie (H'Szint-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Wandelstab (H'Szint-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schlangenhaut (H'Szint-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Giftbiss (H'Szint-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Tradition (Zsahh-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Aura der Friedfertigkeit (Zsahh-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Eidechsenhaut (Zsahh-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Echsenfreundschaft (Zsahh-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Pflanzensuche (Zsahh-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Pflanzenerkennung (Zsahh-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Erholsamer Schlaf (Zsahh-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Tradition (Chr'Ssir'Ssr-Kult)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Ballistischer Schuss": {
+    "source": [
+      "armory",
+      "compendium"
+    ]
+  },
+  "Festnageln": {
+    "source": [
+      "armory",
+      "armory2",
+      "compendium"
+    ]
+  },
+  "Vorbeiziehen": {
+    "source": [
+      "armory",
+      "compendium",
+      "goetterwirken2"
+    ]
+  },
+  "Weiter Schwung": {
+    "source": [
+      "armory",
+      "compendium",
+      "goetterwirken",
+      "goetterwirken2"
+    ]
+  },
+  "Wuchtiger Wurf": {
+    "source": [
+      "armory",
+      "compendium"
+    ]
+  },
+  "Auflaufen": {
+    "source": [
+      "armory2",
+      "compendium2"
+    ]
+  },
+  "Spießgespann": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Aufspießen": {
+    "source": [
+      "armory2",
+      "compendium",
+      "goetterwirken",
+      "goetterwirken2"
+    ]
+  },
+  "Waffenwurf": {
+    "source": [
+      "armory2",
+      "compendium"
+    ]
+  },
+  "Orientierung unter Tage": {
+    "source": [
+      "bannerofloyalty",
+      "compendium"
+    ]
+  },
+  "Myrmidonen-Stil": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Eiserner Widerstand": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Taktische Befehle": {
+    "source": [
+      "bannerofloyalty",
+      "compendium2",
+      "suncoast"
+    ]
+  },
+  "Vollkommener Beschützer": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Tradition (Shinxirkult)": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Mächtiger Schlag": {
+    "source": [
+      "bestiary",
+      "companions",
+      "core",
+      "transmutarium"
+    ]
+  },
+  "Überrennen": {
+    "source": [
+      "bestiary",
+      "companions",
+      "nekromanthaeum",
+      "orcs",
+      "pandaemonium",
+      "transmutarium",
+      "warringkingdoms"
+    ]
+  },
+  "Unterwasserkampf": {
+    "source": [
+      "bestiary",
+      "companions",
+      "elementarium",
+      "goetterwirken",
+      "goetterwirken2",
+      "nekromanthaeum",
+      "pandaemonium",
+      "suncoast",
+      "transmutarium"
+    ]
+  },
+  "Verbeißen": {
+    "source": [
+      "bestiary",
+      "core",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
+  "Tradition (Sphinx)": {
+    "source": [
+      "bestiary2"
+    ]
+  },
+  "Fledermausschwarm des Schreckens": {
+    "source": [
+      "bestiary2",
+      "goetterwirken2"
+    ]
+  },
+  "Nebelgestalt": {
+    "source": [
+      "bestiary2",
+      "goetterwirken2"
+    ]
+  },
+  "Riesenfledermaus des Schreckens": {
+    "source": [
+      "bestiary2",
+      "goetterwirken2"
+    ]
+  },
+  "Ruf des Vampirs": {
+    "source": [
+      "bestiary2",
+      "goetterwirken2"
+    ]
+  },
+  "Sog des Purpurnen": {
+    "source": [
+      "bestiary2",
+      "goetterwirken2"
+    ]
+  },
+  "Stärke des untoten Leibs": {
+    "source": [
+      "bestiary2",
+      "goetterwirken2"
+    ]
+  },
+  "Ausdauerndes Werwesen": {
+    "source": [
+      "bestiary2",
+      "pandaemonium2"
+    ]
+  },
+  "Selbstbestimmter Verwandlungszeitpunkt": {
+    "source": [
+      "bestiary2",
+      "pandaemonium2"
+    ]
+  },
+  "Rastullahs Schwingen": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Schatzsucher": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Trickser": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Trittsicher (Geländetyp)": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Warnsignal": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Abrollen": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Freiklettern": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Leibdiener": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Provozieren": {
+    "source": [
+      "compendium",
+      "suncoast"
+    ]
+  },
+  "Smutje": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Empathie": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Fleischwunde": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Höhere Prophezeiung": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Magiegespür": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Prophezeiung": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Berittener Flugkampf": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Eisenhagel": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Herunterstoßen": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Kampf im Wasser": {
+    "source": [
+      "compendium",
+      "suncoast"
+    ]
+  },
+  "Schwitzkasten": {
+    "source": [
+      "compendium",
+      "elementarium"
+    ]
+  },
+  "Verbessertes Unterlaufen": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Verteilter Eisenhagel": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Elenvina-Stil": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Hammerfaust-Stil": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Hruruzat": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Marwan Sahib-Stil": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Mercenario-Stil": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Prem-Stil": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Rondras Trutz-Stil": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Kopfstoß": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Schildstoß": {
+    "source": [
+      "compendium",
+      "goetterwirken",
+      "goetterwirken2",
+      "suncoast"
+    ]
+  },
+  "Schwinger": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Verkürzte Waffenführung": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Würgegriff": {
+    "source": [
+      "compendium",
+      "elementarium",
+      "transmutarium"
+    ]
+  },
+  "Kräutermischung": {
+    "source": [
+      "compendium2",
+      "suncoast"
+    ]
+  },
+  "Weg der Prostituierten": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Weg der Spitzelin": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Weg der Zofe": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Weg des Holzfällers": {
+    "source": [
+      "compendium2",
+      "warringkingdoms"
+    ]
+  },
+  "Weg des Schriftstellers": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Weg des Streuners": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Entspannendes Liebesspiel": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Faszinierende Darstellung": {
+    "source": [
+      "compendium2",
+      "suncoast"
+    ]
+  },
+  "Grandioser Leibdiener": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Kraftanstrengung": {
+    "source": [
+      "compendium2",
+      "warringkingdoms"
+    ]
+  },
+  "Machtvoller Heiler": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Erholsame Regeneration": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Heilkraft": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Gegenhalten": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Geschossabwehr": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Kernschuss": {
+    "source": [
+      "compendium2",
+      "transmutarium"
+    ]
+  },
+  "Klinge drehen": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Meisterliche Geschossabwehr": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Querschuss": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Reißangriff": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Schildschlag": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Umwickeln": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Weitwurf": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Boxer-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Gardisten-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Garether Gossen-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Irbrasch-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Metessa Galora-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Phexcaer Gossen-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Rommilys-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Sappeur-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Tannhaus-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Thorwal-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Valaria-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Winhall-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Xorlosch-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Antäuschen": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Aufliegende Klinge": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Blattschuss": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Drehschlag": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Drehwurf": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Eisenfaust": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Formationsattacke": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Geschickter Wurf": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Machtvoller Kernschuss": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Meister elfischer Waffen": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Meister zwergischer Waffen": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Nervös machen": {
+    "source": [
+      "compendium2",
+      "suncoast"
+    ]
+  },
+  "Riskanter Schuss": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Taktik durchbrechen": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Verbesserter Schwitzkasten": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Heilungsspezialgebiet (Amputieren und Verbrennungen)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Heilungsspezialgebiet (Chirurgie)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Heilungsspezialgebiet (Knochenbrüche)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Heilungsspezialgebiet (Zahnbehandlung)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Meister der Improvisation": {
+    "source": [
+      "core"
+    ]
+  },
+  "Klingenfänger": {
+    "source": [
+      "core"
+    ]
+  },
+  "Schildspalter": {
+    "source": [
+      "core"
+    ]
+  },
+  "Aura verbergen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Verbotene Pforten": {
+    "source": [
+      "core"
+    ]
+  },
+  "Tradition (Elfen)": {
+    "source": [
+      "core",
+      "magie2",
+      "studyroom"
+    ]
+  },
+  "Tradition (Praioskirche)": {
+    "source": [
+      "core",
+      "goetterwirken"
+    ]
+  },
+  "Tradition (Perainekirche)": {
+    "source": [
+      "core",
+      "goetterwirken"
+    ]
+  },
+  "Tradition (Animisten)": {
+    "source": [
+      "desertkingdom",
+      "magie3",
+      "orcs",
+      "studyroom"
+    ]
+  },
+  "Tradition (Zauberbarden)": {
+    "source": [
+      "desertkingdom",
+      "magie1",
+      "studyroom",
+      "suncoast"
+    ]
+  },
+  "Bann des Übernatürlichen": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Ohrenbetäubender Klang": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Brechender Fels": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Störgeräusch": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Tradition (Zaubertänzer)": {
+    "source": [
+      "desertkingdom",
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Faszinierende Kleidung": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Gewand der Heilung": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Gewand der Beeinflussung": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Tradition (Ferkinaschamanen)": {
+    "source": [
+      "desertkingdom",
+      "goetterwirken2"
+    ]
+  },
+  "Tradition (Elementare)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Sahib al'Sitta": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Elementare Tarnung": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Flugfähigkeit": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Immunität gegen elementaren Schaden": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Kiemen des Barschs (Elementar)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Kraft des Lebens": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Macht der Pflanzen": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Macht wider Dämonen": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Ruf des Waldes": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Verformung des Elements": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Weg durch den Fluss (Elementar)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Wahrer Name (Elementargeist)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Wahrer Name (Dschinn)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Wahrer Name (Elementarer Meister)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Bollwerk wider Zauberei": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Wille zur Wahrheit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Bewahrung des Eids": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Heftiger Angriff": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Beistand der Unbesiegten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schutz wider Unheiliges": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Flug des Dreizacks": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Kräftigende Mahlzeit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Expertenwissen ()": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Wall gegen Schadensmagie": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Beistand gegen Einflusszauberei": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Bollwerk gegen Magie": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Messer des Frosts": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Klinge des Pirschers": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Tradition (Tsakirche)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Aura der Friedfertigkeit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Blütenregen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Licht des Prismas": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Freiheitsdrang": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Glück des Fuchses": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Ehrliche Geschäfte": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Genesungshandschuh": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Heilerhandschuh": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Pflanzensuche": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Glut des Hammers": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Tradition (Rahjakirche)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schleier der Unempfindlichkeit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schleier der Träume": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schleier der Verführung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schleier des Begehrens": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Gegenwehr des Stabträgers": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Sicherer Schritt des Stabträgers": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Glückskind": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Macht des Schicksals": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Zeichen der Vorsehung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Warmer Mantel": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Erholsamer Schlaf": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Jägermantel": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Tierfreundschaft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Tradition (Korkirche)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Scharfe Krallen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Mantikorstich": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Inspirierender Unterricht": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Weisheit des Lehrers": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Tradition (Namenloser Kult)": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Macht der Namenlosen Klinge": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Predigt des Gottvertrauens": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Predigt des Wohlgefallens": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Predigt wider Missgeschicke": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Vision der Bestimmung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Vision der Entrückung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Vision der Gottheit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Vision des Schicksals": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Vision des Wahren Glaubens": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Gefestigter Zeremonieablauf": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Hauptsegnung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Improvisierte Liturgie (Gebet)": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Improvisierte Liturgie (Gesten)": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Klarer Blick": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Mauer des Geistes": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schild des Glaubens": {
+    "source": [
+      "goetterwirken",
+      "orcs"
+    ]
+  },
+  "Stabile Regeneration": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Gespür für das Böse": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Zeichen des Schicksals": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Prinzipisten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Vigilanten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Flusswächter": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Graugänse": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Wildgänse": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Deuter der Träume": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Satori": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Bilderstürmer": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Wiedergeborene": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Diebe des Nachthimmels": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Heiler der Gütigen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Jünger des Handwerks": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Harmonisten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Hüterinnen der Schwänin": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Anhänger des guten Kampfes": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Sucher der Erkenntnis": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Hüter der Walwütigen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Jäger der Seeschlangen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Geistkontrolle": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Geteilte Freude": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Giftkenntnis": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Handwerksgespür": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Hitzegewöhnung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Kältegewöhnung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Krankheitskenntnis": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Langanhaltender Segen": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Missionierung": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Omen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Mantikor-Stil": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Hitzewall": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Verführung des Widders": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Rausch der Keule": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Rausch der Lustbarkeiten": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Stich der Vampirin": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Stich der Furcht": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Stich des Scheintods": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Tradition (Gjalskerschamanen)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Heilung der Gefährten": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Tradition (Mohaschamanen)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Tradition (Nivesenschamanen)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Mondsicht": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Tradition (Trollzackerschamanen)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Härte der Keule": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Fliegende Steine (Schamanen)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Chimärenschreck": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Geisterschreck": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Golemschreck": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Großer Festritus": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Heiliger Karmalleib": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Karmale Meditation": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Liturgie vereinen": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Traumweber": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Untotenschreck": {
+    "source": [
+      "goetterwirken2",
+      "nekromanthaeum"
+    ]
+  },
+  "Zweifachgeweihter Karmalleib": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hüter der Tradition": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hüter der Wacht": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Gehörnte": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Priester des Weins": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Dienerinnen der Nacht": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Geisterführer": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Körperkontrolle": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Überträger des Leids": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Al'Drakorhim-Stil": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Ardariten-Stil": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Beni Uchakâni-Stil": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Rabengarde-Stil": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Rahjakavalier-Stil": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Sonnenlegion-Stil": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Geschenk des Blutes": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Gestaltwandlung": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Griff des Pirschers": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hypnose": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Rabengefieder": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Rabenschwarm des Unheils": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Bannmeister": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Aussaugen": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Aufbewahrung": {
+    "source": [
+      "herbarium",
+      "magie2",
+      "studyroom"
+    ]
+  },
+  "Tradition (Waldschrate)": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Tradition (Nachtalben)": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Tradition (Qabalyamagier)": {
+    "source": [
+      "magie1",
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tradition (Intuitive Zauberer)": {
+    "source": [
+      "magie1",
+      "orcs",
+      "studyroom"
+    ]
+  },
+  "Tradition (Scharlatane)": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Druckwelle": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Hammer des Adepten": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Hammer des Magus": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Machtvolle Stabzauber": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Modifikationsfokus": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Seilpeitsche": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Seilschlange": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Siegelbrecher": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Stabbohrer": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Stabfixierung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Telekineseschlag": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tierwandlung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauberspeicher des Adepten": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Fokus der Austreibung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Machtvolle Bannschwertzauber": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Aufnahme": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Bilderspiel": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Illusionsspeicher": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Kommunikation": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Kugel des Hellsehers": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Kugel des Illusionisten": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Machtvoller Kugelzauber": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Magischer Schutzwall": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Störfeld": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Wachendes Auge": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Warnendes Leuchten": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Leuchtfeuer": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Steckenverzauberung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Halbes Maß (Zauberstecken)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Emotionsübernahme": {
+    "source": [
+      "magie1",
+      "suncoast"
+    ]
+  },
+  "Fokus der Aufmerksamkeit": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Hilferuf": {
+    "source": [
+      "magie1",
+      "suncoast"
+    ]
+  },
+  "Klangillusion": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Langanhaltender Rhythmus": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Machtvoller Instrumentzauber": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Viele Instrumente": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Weiter Klang": {
+    "source": [
+      "magie1",
+      "suncoast"
+    ]
+  },
+  "Zerspringendes Glas": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zugabe": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Besitzanspruch": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Diebesgewand": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Fesselnde Gewandung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Fokus der Begierde": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Gefühlsübernahme": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Gewand der Täuschung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Langer Tanz": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Machtvoller Gewandzauber": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Schmutzabweisend": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Verführerische Gewandung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Wandelbare Kleidung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Abgeschwächter Zauber": {
+    "source": [
+      "magie1",
+      "warringkingdoms"
+    ]
+  },
+  "Alchimieverstärkung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Astrale Meditation": {
+    "source": [
+      "magie1",
+      "studyroom",
+      "suncoast",
+      "warringkingdoms"
+    ]
+  },
+  "Aurapanzer": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Eisen- und Stahlverzauberung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Exorzist": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Extrem starke Zaubertricks": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Fernzaubern": {
+    "source": [
+      "magie1",
+      "warringkingdoms"
+    ]
+  },
+  "Gedankenschutz": {
+    "source": [
+      "magie1",
+      "studyroom",
+      "warringkingdoms"
+    ]
+  },
+  "Improvisationszauberei (Formel)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Improvisationszauberei (Gesten)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Improvisiertes Ritual": {
+    "source": [
+      "magie1",
+      "warringkingdoms"
+    ]
+  },
+  "Matrixkontrolle": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Meisterliche Regeneration": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Meistertrick ()": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Parallelzauberei": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Routinierte Zauberwiederholung": {
+    "source": [
+      "magie1",
+      "warringkingdoms"
+    ]
+  },
+  "Vielfache Ladung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauber bereithalten": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauber bündeln": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Zauber unterbrechen": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar der Akademie der Geistigen Kraft zu Fasar": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar der Halle der Erleuchtung zu Al'Anfa": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Scholar der Khelbara ay Baburia": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar der Schule der Vierfachen Verwandlung zu Sinoda": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar der Schule des Direkten Weges zu Gerasim": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Scholar der Schule des Seienden Scheins zu Zorgan": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar der Töchter Niobaras": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar des Alrik Dagabor": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Scholar des Demirion Ophenos": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar des Hesindius Lichtblick": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar des Seminars der elfischen Verständigung und natürlichen Heilung zu Donnerbach": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Scholar der Akademie der Verformungen zu Lowangen": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Aufladung": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Elfenfreund": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Erweiterter Gedankenschutz": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Geistzauberer": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Harmoniezauberei": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Illusionäre Undurchschaubarkeit": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Kriegszauberer": {
+    "source": [
+      "magie1",
+      "studyroom",
+      "warringkingdoms"
+    ]
+  },
+  "Langanhaltende Illusion": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Meisterliches Auraverbergen": {
+    "source": [
+      "magie1",
+      "warringkingdoms"
+    ]
+  },
+  "Mitverwandlung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Selbstkontrolle": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Selbstverzauberer": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Urtulamidische Heilmagie": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Verständigungszauberer": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tradition (Schelme)": {
+    "source": [
+      "magie2",
+      "studyroom"
+    ]
+  },
+  "Großes Orbitarium": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Kleines Orbitarium": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Machtvolle Kugelzauber - Magierkugel": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Schutz gegen Untote": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Angsteinflößendes Geblubber": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Benommenheitstrank": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Brechsuppe": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Giftgebräu": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Heilsüppchen": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Machtvolle Kesselzauber": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Schönheitssalbe": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Schutzsalbe": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Tarnsalbe": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Tiersuppe": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Waschung des Vertrauten": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Fernkampfmurks": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Geräumige Kappe": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Jemanden für sich sprechen lassen": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Machtvolle Kappenzauber": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Massenverwirrung": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Publikumsliebling": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Beweg dich!": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Machtvolle Spielzeugzauber": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Spielbewegung": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Trösten": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Allegorische Analyse": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Telekinetische Schale": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Blutmagie (Selbstopfer)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Große Trankverdünnung": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Hexentanz": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Koboldruf": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Koboldvision": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Kleine Trankverdünnung": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lockeres Zaubern": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Materielle Verbindung": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Traumzauberei": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Bewahrer": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Legendensänger": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Zauberweber": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Scholar der Akademie der Erscheinungen zu Grangor": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Scholar der Akademie der Geistreisen zu Belhanka": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Scholar der Akademie der Herrschaft zu Elenvina": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Scholar der Halle der Macht zu Lowangen": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Scholar der Sevastana Gevendar": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Scholar des Kampfseminars zu Andergast": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Scholar des Rafim Bey": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Geisterseherinnen (Schwarze Witwen)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Rächerinnen Lycosas (Schwarze Witwen)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Rote Jungfern (Schwarze Witwen)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Artisten (Fahrende Schwester)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Reisende (Fahrende Schwester)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Wahrsagerinnen (Fahrende Schwester)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Kinder der Kobra (Schwester des Wissens)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Nattern der Nacht (Schwester des Wissens)": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Rabenschwestern (Seherin von Heute und Morgen)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Spiritualistinnen (Seherin von Heute und Morgen)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Erdverbundene (Tochter der Erde)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Sumpfhexen (Tochter der Erde)": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Alchimieanalytiker": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Einlullende Zaubermusik": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Erdkraft": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Erschaffer": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Giftmeisterin": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Langer Fluch": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Liebeszauberei": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Magische Kräuterheilkunde": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Magischer Schutzschild": {
+    "source": [
+      "magie2",
+      "studyroom"
+    ]
+  },
+  "Musikzauberei": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Psychometrie": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Übertragung der Astralkräfte": {
+    "source": [
+      "magie2",
+      "studyroom"
+    ]
+  },
+  "Übertragung der Lebenskraft": {
+    "source": [
+      "magie2",
+      "studyroom"
+    ]
+  },
+  "Umfassende Telekinese": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Unaufhaltsamkeit": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Weissagung": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Wissensaustausch": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Zauberobjekte": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Geode der Wilden Zwerge": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar des Agrimeton": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Tradition (Druiden)": {
+    "source": [
+      "magie3",
+      "studyroom",
+      "warringkingdoms"
+    ]
+  },
+  "Tradition (Geoden)": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tradition (Zibiljas)": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tradition (Brobim-Geoden)": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Eins mit der Waffe": {
+    "source": [
+      "magie3",
+      "orcs"
+    ]
+  },
+  "Kampfglück": {
+    "source": [
+      "magie3",
+      "orcs"
+    ]
+  },
+  "Kreisende Wurfwaffe": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scharfe Klinge": {
+    "source": [
+      "magie3",
+      "orcs"
+    ]
+  },
+  "Blutbaum": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Flug des Dolches": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Gespür des Dolches": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Kraft aus der Erde": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Machtvolle Dolchrituale": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Schutz des Dolches": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Sicht im Dunkeln": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Tieropferung": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wegweiser": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Ernte der Sichel": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Kraft der Sichel": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Kräuterernte": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvolle Sichelrituale": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Schnitt durch Stein": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zaubermistel": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Heilkräfte der Natur": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Beherrscher der Flammen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Eiskristalle": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Frostwelle": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Launen des Windes": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Macht über Regen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvolle Heilkräfte der Natur": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvolle Ringzauber": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvoller Wasserbann": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvoller wirbelnder Luftschild": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Magnetismus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Pforte durch Sumus Leib": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Schutzzone vor Bösem": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Seelenfeuer": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wasserbann": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Weg durch Sumus Leib": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wirbelnder Luftschild": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Hammer des Erzmagus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Gestapelter Zauberspeicher": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvoller Energiestrahl": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvoller Zauberspeicher": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Seil des Erzmagus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Torsperre": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Türöffner": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zauberspeicher des Erzmagus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zauberspeicher des Magus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zauberspeicher-Volumenerweiterung": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Bannschwert des Schutzsegens": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Paralysierendes Schwert": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Übernatürlicher Wegweiser": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Geschossschutz": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Kopierter Kugelzauber": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Kugelbarriere": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Hilfe der Bienen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Heilungswissen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Honigkleber": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvolle Chronikzauber": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Sicht auf Heshinjas Werk": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wind des Schutzes": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wissen ist Macht": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Druidenrache": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Golembauer": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Exzellenter Entschwörer": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar der Anatomischen Akademie zu Vinsalt": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Scholar der Bannakademie von Fasar": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar der Drachenei-Akademie zu Khunchom": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar der Dunklen Halle der Geister zu Brabak": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar der Heptagonakademie zu Yol-Ghurmak": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar der Schule der variablen Form zu Mirham": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar des Halib abu'l Ketab": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Scholar des Magierkollegs zu Honingen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Bewahrer des Uralten": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Brecher des Willens": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Hüterin des Hains": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Konzilsmeister": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Meister des Kreises": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Unscheinbare": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wächter der Göttin": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Meister vom Wald": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Weiße Leute": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Astralraub (Sonderfertigkeit)": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Freundliche Artefaktseele": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Gegnerische Zauberpraxis ()": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Golemformer": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Langwirkende Artefakte": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Mehr Glück als Verstand": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Untotenmeister": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Alterslosigkeit": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Dämonische Fernkampfwaffe": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Dämonische Nahkampfwaffe": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Dämonischer Fokus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Dauerhaftes Unheiligtum errichten": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Herrschaft über Dämonen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Machtvolles Unheiligtum errichten": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Magnum Opus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Resistenz gegen Götterwirken": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Seelenopfer": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Unheiligtum errichten": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zauberei mit Lebenskraft": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Lodernder Blick": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Spur des Missetäters": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wahrheitssinn": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Bluttrinker": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Karmothhieb": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Lähmende Furcht": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Ruf über das Schlachtfeld": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wundschmerz": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Auf Wasser gehen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Erhebung von Wasserleichen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wasseratmung": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Wasserbrücke": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Schlafresistenz": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Sieben-Meilen-Stiefel": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Verfluchtes Herdfeuer": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zwist und Hader": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Alpträume erzeugen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Leichengespür": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Untote erheben": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Die Gabe Amazeroths": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Trugwelten erschaffen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Macht des Wahnsinns": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Verborgenes Wissen erspüren": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zaubervariabilität": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Beutesinn": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Freipfeile": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Sicherer Tritt": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Chimärenherrschaft": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Neue Körperteile": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Meister der Form": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Verjüngung": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Gier erzeugen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Goldene Gabe": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Lohnende Geschäfte": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Pech wünschen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zholvars Warnung": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Giftdrüsen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Korn verfaulen lassen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Krankheit verursachen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Hitzebeständigkeit": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Orkanbö": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Feuerhand": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Belkelels Ekstase": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Brünstigkeit erzeugen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Schönheit der Dar-Klajid": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Katzen rufen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Neun Leben": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Schleichen in den Schatten": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Schmusekätzchen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Lustlosigkeit": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Milde Gabe": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Müdigkeit": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Vampirische Berührung": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Störung der Zeit": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Trägheit": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zeitstopp": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Tor in den Limbus": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Teleportation": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Magieabsorption": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Unwiderstehlicher Charme": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Tierwandlung - Echsenpfad Chamäleon": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Echsenpfad Speikobra": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Nagerpfad Eichhörnchen": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Nagerpfad Biber": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Vogelpfad Taube": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Vogelpfad Rabe": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Kampftrinker": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Backpfeifen-Sturm": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Durch die Wand": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Hose Herunterziehen/Hemd Hochziehen": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Kneipen-Blutgrätsche": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Kneipen-Geschossabwehr": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Kneipen-Kopfstoß": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Köpfe Aneinanderschlagen": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Schlag auf den Kopf": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Tür gegen den Kopf Knallen": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Bund der Gefühle": {
+    "source": [
+      "negotiationpeace"
+    ]
+  },
+  "Kiemen des Barschs": {
+    "source": [
+      "negotiationpeace"
+    ]
+  },
+  "Salbung der Haut": {
+    "source": [
+      "negotiationpeace"
+    ]
+  },
+  "Weg durch den Fluss": {
+    "source": [
+      "negotiationpeace"
+    ]
+  },
+  "Olochtai-Stil": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Machtvolle Krallenkettenzauber": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Meute": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Schutz des Rudels": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Wunden lecken": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Wahrer Name ()": {
+    "source": [
+      "pandaemonium"
+    ]
+  },
+  "Tradition (Dämonen)": {
+    "source": [
+      "pandaemonium2"
+    ]
+  },
+  "Erhöhte Verteidigung": {
+    "source": [
+      "sharedStuff"
+    ]
+  },
+  "Reduzierte Verteidigung": {
+    "source": [
+      "sharedStuff"
+    ]
+  },
+  "Reversalis ()": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Tradition (Borbaradianer)": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Tradition (Darna)": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Tradition (Goblinzauberinnen)": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Tradition (Runenschöpfer)": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Tradition (Ysilische Bannzeichner)": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Zyklopenschmied": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Neetha-Stil": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Oloranthe della Cerrano-Stil": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Scholar der Kalliomathëa Dorikeikos von Sorabis": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Stille Wanderer": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Weg der Bognerin": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Weg des Deichbauers": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Handwerkskunst": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Routinierte Praxis": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Virtuose Wettervorhersage": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Seenritter-Stil": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Waldritter-Stil": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Sprung vom Reittier": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Machtvolle verbotene Pforten": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Deichbauer": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Tradition (Einhorn)": {
+    "source": [
+      "warringkingdoms"
+    ]
+  }
+}

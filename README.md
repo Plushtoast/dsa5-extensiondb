@@ -1,8 +1,14 @@
+** For special abilities, advantages, disadvantages, consumables, spells, liturgies, rituals and ceremonies see this page**
+
+[Contribute to abilities](abilities.md)
+[Ability automation coverage](summary.md)
+
+
+
 # Extension DB for DSA5/TDE5 in Foundry VTT
 This is the database for spell and liturgy extensions and their active effects for Foundry VTT. As there are roughly 3000 extensions distributed among spells, liturgical chants, rituals and ceremonies a complete coverage or functionality is only possible through joined efforts by the community of TDE/DSA. Feel free to contribute, we'll add the effects in intervals to the official modules.
 
 **This functionality requires at least Foundry DSA 4.1.0**
-**Please don't add Extensions from Rohal yet, we are not quite there...**
 
 # Contribution
 Everyone is invited to add missing keys to extensions. Please create a pull request.

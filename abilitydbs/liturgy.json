@@ -1,0 +1,301 @@
+{
+  "Flugechsenruf": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Friedfertigkeit": {
+    "source": [
+      "achaz",
+      "goetterwirken"
+    ]
+  },
+  "Kleine Windhose": {
+    "source": [
+      "achaz",
+      "goetterwirken"
+    ]
+  },
+  "Schlangenruf": {
+    "source": [
+      "achaz",
+      "goetterwirken2"
+    ]
+  },
+  "Schlingerruf": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Sturmruf": {
+    "source": [
+      "achaz",
+      "goetterwirken"
+    ]
+  },
+  "Windhose": {
+    "source": [
+      "achaz",
+      "goetterwirken"
+    ]
+  },
+  "Geist des Strategen": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Schutz der Hornissenkönigin": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Speer des Athleten": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Bann des Lichts": {
+    "source": [
+      "core"
+    ]
+  },
+  "Fall ins Nichts": {
+    "source": [
+      "core"
+    ]
+  },
+  "Friedvolle Aura": {
+    "source": [
+      "core"
+    ]
+  },
+  "Giftbann": {
+    "source": [
+      "core"
+    ]
+  },
+  "Heilsegen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Krankheitsbann": {
+    "source": [
+      "core"
+    ]
+  },
+  "Magiesicht": {
+    "source": [
+      "core"
+    ]
+  },
+  "Mondsicht": {
+    "source": [
+      "core"
+    ]
+  },
+  "Objektsegen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Ort der Ruhe": {
+    "source": [
+      "core"
+    ]
+  },
+  "Rabenruf": {
+    "source": [
+      "core"
+    ]
+  },
+  "Schlangenstab": {
+    "source": [
+      "core"
+    ]
+  },
+  "Wahrheit": {
+    "source": [
+      "core"
+    ]
+  },
+  "Bann der göttlichen Gaben": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Besänftigung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Dämonenwall": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Erdbeben": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Feuerwall": {
+    "source": [
+      "goetterwirken",
+      "orcs"
+    ]
+  },
+  "Froststurm": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Göttliche Klinge": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Liturgieschild": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Opfergang": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schleichende Fäulnis": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Schwindende Zauberkraft": {
+    "source": [
+      "goetterwirken",
+      "suncoast"
+    ]
+  },
+  "Unterwasseratmung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Versteinerung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Doppelgänger": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Entstelltes Antlitz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Erregender Rausch": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Erwachen": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hairuf": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Gnadenstoß": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Göttlicher Rausch": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Jaguarruf": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Kampfgeschick": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Krankheiten vorbeugen": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Mammutruf": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Polarbärenruf": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Rinderruf": {
+    "source": [
+      "goetterwirken2",
+      "orcs"
+    ]
+  },
+  "Schattenfessel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Schonfrist": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Sicht in der Dunkelheit": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Vampirische Kräfte": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Wand wider Dämonen": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Wolfsruf": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Zwergenmacht": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Nebelkrähenschwarm": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Ogerruf": {
+    "source": [
+      "orcs"
+    ]
+  }
+}

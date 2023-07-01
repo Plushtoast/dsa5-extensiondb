@@ -1,0 +1,296 @@
+{
+  "Gefährte in neuer Gestalt": {
+    "source": [
+      "companions",
+      "magie2"
+    ]
+  },
+  "Kleiner Spion": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Nächtlicher Lebensraub": {
+    "source": [
+      "companions",
+      "magie2"
+    ]
+  },
+  "Ruhepol": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Schlafender Freund": {
+    "source": [
+      "companions",
+      "magie2"
+    ]
+  },
+  "Schwächenkuckuck": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Sonnenkind": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Streicheleinheiten": {
+    "source": [
+      "companions",
+      "magie2"
+    ]
+  },
+  "Wachsame Augen": {
+    "source": [
+      "companions",
+      "magie2"
+    ]
+  },
+  "Wunderbeutel Krötenleib": {
+    "source": [
+      "companions"
+    ]
+  },
+  "Krötengift": {
+    "source": [
+      "core"
+    ]
+  },
+  "Krötenschlag": {
+    "source": [
+      "core"
+    ]
+  },
+  "Stimmungssinn": {
+    "source": [
+      "core"
+    ]
+  },
+  "Tiersinne": {
+    "source": [
+      "core"
+    ]
+  },
+  "Angriff mit Substanz": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Ausweichen in den Limbus": {
+    "source": [
+      "elementarium",
+      "magie3",
+      "pandaemonium"
+    ]
+  },
+  "Belebte Gliedmaßen": {
+    "source": [
+      "elementarium",
+      "magie3",
+      "nekromanthaeum"
+    ]
+  },
+  "Immunität gegen kritische Treffer": {
+    "source": [
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "transmutarium"
+    ]
+  },
+  "Resistenz gegen göttliches Wirken": {
+    "source": [
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
+  "Scharfe Krallen": {
+    "source": [
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
+  "Schreckgestalt": {
+    "source": [
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
+  "Zusätzliche Aktionen": {
+    "source": [
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
+  "Alraunenbeere": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Alraunenschrei": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Giftabsorption": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Heilendes Raunen": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Ingredienz erspüren": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Brutale Pflanzenchimäre": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Giftige Pflanzenchimäre": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Langlebige Pflanzenchimäre": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Laufende Pflanzenchimäre": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Regenerationsfähige Pflanzenchimäre": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Unauffällige Pflanzenchimäre": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Diebstahl": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Furchtbote": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Gaukeltricks": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Halluzinationsgift": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Hypnotischer Blick": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Katzenplage": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Spinnensinn": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Teleportationsflug": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lebenshauch": {
+    "source": [
+      "magie3",
+      "nekromanthaeum"
+    ]
+  },
+  "Einschüchterndes Bellen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Lebender Leichnam/Kadaver": {
+    "source": [
+      "nekromanthaeum"
+    ]
+  },
+  "Wachsmumie": {
+    "source": [
+      "nekromanthaeum"
+    ]
+  },
+  "Gestank": {
+    "source": [
+      "nekromanthaeum"
+    ]
+  },
+  "Nekrotischer Angriff": {
+    "source": [
+      "nekromanthaeum"
+    ]
+  },
+  "Materialisierung": {
+    "source": [
+      "pandaemonium"
+    ]
+  },
+  "Flügel": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Krankheitsüberträger": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Lockduft": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Mutation verursachen": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Pheromone": {
+    "source": [
+      "transmutarium"
+    ]
+  }
+}

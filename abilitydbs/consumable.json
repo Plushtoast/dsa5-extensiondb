@@ -1,0 +1,363 @@
+{
+  "Hylailer Feuer": {
+    "source": [
+      "armory2",
+      "herbarium",
+      "magie2",
+      "suncoast"
+    ]
+  },
+  "Antidot": {
+    "source": [
+      "core"
+    ]
+  },
+  "Liebestrunk": {
+    "source": [
+      "core"
+    ]
+  },
+  "Unsichtbarkeitselixier": {
+    "source": [
+      "core"
+    ]
+  },
+  "Verwandlungselixier": {
+    "source": [
+      "core"
+    ]
+  },
+  "Waffenbalsam": {
+    "source": [
+      "core"
+    ]
+  },
+  "Bannstaub": {
+    "source": [
+      "core"
+    ]
+  },
+  "Pastillen gegen Schmerzen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Alchimistensäure": {
+    "source": [
+      "herbarium",
+      "magie2"
+    ]
+  },
+  "Erscheinungspulver": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Eulentränen": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Heilsalbe": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Magiepaste": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Mengbiller Bannbalöl": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Tijakools Hauch": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Atanax": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Brandsalbe": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Horuschenöl": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Jacopo-Süßigkeit": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Liebesküchlein": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Lulanientrunk": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Praiosmilch": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Sansaro-Essenz": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Sansaro-Paste": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Talaschin-Tinktur": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Wirseltrank": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Getrocknete Libellengrasfrucht": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Gerebelter Thonnys": {
+    "source": [
+      "herbarium",
+      "studyroom"
+    ]
+  },
+  "Kajubo in Öl": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Malomis-Wasser": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Olginsud": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Pfeilblütenpunsch": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Pfeilblütentee": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Würgertee": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Atmonbrei": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Dergolasch-Pulver": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Egelschreckpaste": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Fiebersaft": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Grüner Pilzschleim": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Grünschleim-Tropfen": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Hirad-Antidot": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Kairantrunk": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Tarntinktur": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Bannkreide": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Berserkerelixier": {
+    "source": [
+      "herbarium2",
+      "magie2"
+    ]
+  },
+  "Feuerpulver": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Friedenswasser": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Furchtlos-Tropfen": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Ghulscheuche": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Gnädiger Drachenodem": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Hauch der Weissagung": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Ifirnstrunk": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Kaltes Licht": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Neckergel": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Pulver des Klaren Geistes": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Tarnelixier": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Techtals Elixier": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Wachtrunk": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Weissagungspulver": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Zurbarans Pflanzentinktur": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Argansud": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Finagesud": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Gulmondtee": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Satuarienstee": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Xordai": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Zwölftee": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Schwadenbeutel": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Stinktöpfchen": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Puder der Ewigkeit": {
+    "source": [
+      "nekromanthaeum"
+    ]
+  },
+  "Retro-Elixier": {
+    "source": [
+      "nekromanthaeum"
+    ]
+  },
+  "Elixier der Chimärenerschaffung": {
+    "source": [
+      "transmutarium"
+    ]
+  }
+}

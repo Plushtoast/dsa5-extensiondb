@@ -1,0 +1,473 @@
+{
+  "Arcanovi": {
+    "source": [
+      "core"
+    ]
+  },
+  "Friedenslied": {
+    "source": [
+      "core"
+    ]
+  },
+  "Melodie der Kunstfertigkeit": {
+    "source": [
+      "core"
+    ]
+  },
+  "Zaubermelodie": {
+    "source": [
+      "core"
+    ]
+  },
+  "Melodie der Heilung": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Melodie des Magieschadens": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Tanz der Erlösung": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Tanz der Linderung": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Tanz der Unantastbarkeit": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Tanz der Wahrheit": {
+    "source": [
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Klarheit des Eises": {
+    "source": [
+      "elementarium",
+      "magie2"
+    ]
+  },
+  "Erhabenheit des Marmors": {
+    "source": [
+      "elementarium",
+      "magie2"
+    ]
+  },
+  "Reinheit der Lohe": {
+    "source": [
+      "elementarium",
+      "magie2"
+    ]
+  },
+  "Weisheit der Bäume": {
+    "source": [
+      "elementarium",
+      "magie2"
+    ]
+  },
+  "Freiheit der Wolken": {
+    "source": [
+      "elementarium",
+      "magie2"
+    ]
+  },
+  "Ergebenheit der Wogen": {
+    "source": [
+      "elementarium",
+      "magie2"
+    ]
+  },
+  "Meister der Elemente": {
+    "source": [
+      "elementarium",
+      "magie3"
+    ]
+  },
+  "Lied der Pflanzen": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Kakophonie des Wahnsinns": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Schlachtlied": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Sturmlied": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Lied des Schmerzes": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Sklavenlied": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Melodie der Angriffslust": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Melodie der Erlösung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Melodie der Feen": {
+    "source": [
+      "magie1",
+      "suncoast"
+    ]
+  },
+  "Melodie der Freundschaft": {
+    "source": [
+      "magie1",
+      "suncoast"
+    ]
+  },
+  "Melodie der Versöhnung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Melodie des Bebens": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Melodie des Handels": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Melodie des Windes": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Melodie des Zögerns": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der Angriffslust": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der Bilder": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der Heilung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der Träume": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der magischen Gemeinschaft": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der Täuschung": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der Unverletzbarkeit": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz der Wacht": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz des Feuers": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Tanz des Handels": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Hagelschlag und Sturmgebrüll": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Leidensbund": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Magischer Raub": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Ruhe Körper": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Widerwille": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Lied der Abwehr dämonischer Mächte": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lied der Lieder": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lied der Reinheit": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lied der Tierwahrnehmung": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lied des Heilschlafs": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lied des Windgeflüsters": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Lied des Zauberschutzes": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Band der Freundschaft": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Bärenruhe": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Custodosigil": {
+    "source": [
+      "magie2",
+      "suncoast"
+    ]
+  },
+  "Destructibo": {
+    "source": [
+      "magie2",
+      "suncoast"
+    ]
+  },
+  "Eins mit der Natur": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Körperlose Reise": {
+    "source": [
+      "magie2",
+      "suncoast"
+    ]
+  },
+  "Nekropathia": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Nihilogravo": {
+    "source": [
+      "magie2",
+      "studyroom",
+      "warringkingdoms"
+    ]
+  },
+  "Ruf der Feenwesen": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Seelenwanderung": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Traumgestalt": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Zaubernahrung": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Zauberschnurren": {
+    "source": [
+      "magie2",
+      "pandaemonium2"
+    ]
+  },
+  "Ausbruch unterdrückter Gefühle": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Figur der Schmerzen": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Fluch der Pestilenz": {
+    "source": [
+      "magie3",
+      "pandaemonium",
+      "warringkingdoms"
+    ]
+  },
+  "Fluch der Schlaflosigkeit": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Kristall der Herrschaft": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Macht über Schlafwandler": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Wurzel des Blutes": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Gestalt aus Rauch": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Trank des ungehinderten Weges": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Bienenfleiß": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Bienenkönigin": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Bienensuche": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Sicheres Lager": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Traumseherin": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Unglücksgefäß": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Weisheit der Schrift": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Applicatus": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Infinitum Immerdar": {
+    "source": [
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Lawinenfall und Trümmerfeld": {
+    "source": [
+      "magie3",
+      "transmutarium"
+    ]
+  },
+  "Riesengestalt": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Melodie der Tiere": {
+    "source": [
+      "suncoast"
+    ]
+  }
+}
