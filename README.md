@@ -1,6 +1,7 @@
-** For special abilities, advantages, disadvantages, consumables, spells, liturgies, rituals and ceremonies see this page**
+**For special abilities, advantages, disadvantages, consumables, spells, liturgies, rituals and ceremonies see this page**
 
 [Contribute to abilities](abilities.md)
+
 [Ability automation coverage](summary.md)
 
 

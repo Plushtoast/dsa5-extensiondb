@@ -1,4 +1,4 @@
-** For the current state of the automations see**
+**For the current state of the automations see**
 [Ability automation coverage](summary.md)
 
 # What is this about
@@ -49,5 +49,7 @@ The example adds the tag "service to that ability. So we know this ability adds 
 More information to come...
 
 ## Current Tags
+
 | Tag | en | de |
+| --- | --- | --- |
 | service | Service | Dienst |
