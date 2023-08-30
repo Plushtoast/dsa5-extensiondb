@@ -4,16 +4,11 @@
       "achaz"
     ]
   },
-  "Friedfertigkeit": {
-    "source": [
-      "achaz",
-      "goetterwirken"
-    ]
-  },
   "Kleine Windhose": {
     "source": [
       "achaz",
-      "goetterwirken"
+      "goetterwirken",
+      "havena"
     ]
   },
   "Schlangenruf": {
@@ -119,6 +114,21 @@
       "core"
     ]
   },
+  "Der Schleier des Nebels": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Raschas Blutkelch": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Tafel der Lumnianer": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
   "Bann der göttlichen Gaben": {
     "source": [
       "goetterwirken"
@@ -155,6 +165,12 @@
       "goetterwirken"
     ]
   },
+  "Heilsame Quelle": {
+    "source": [
+      "goetterwirken",
+      "havena"
+    ]
+  },
   "Liturgieschild": {
     "source": [
       "goetterwirken"
@@ -179,7 +195,8 @@
   },
   "Unterwasseratmung": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "havena"
     ]
   },
   "Versteinerung": {
@@ -224,7 +241,8 @@
   },
   "Jaguarruf": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Kampfgeschick": {

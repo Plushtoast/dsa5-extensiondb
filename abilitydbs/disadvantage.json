@@ -29,16 +29,6 @@
       "core"
     ]
   },
-  "Hitzeempfindlich": {
-    "source": [
-      "core"
-    ]
-  },
-  "Kälteempfindlich": {
-    "source": [
-      "core"
-    ]
-  },
   "Krankheitsanfällig": {
     "source": [
       "core"
@@ -67,16 +57,6 @@
   "Zauberanfällig": {
     "source": [
       "core"
-    ]
-  },
-  "Hitzeempfindlich II": {
-    "source": [
-      "klingendernacht"
-    ]
-  },
-  "Lichtempfindlich II": {
-    "source": [
-      "klingendernacht"
     ]
   },
   "Empfindlichkeit (unedle Metalle)": {
@@ -112,6 +92,11 @@
     ]
   },
   "Unverträglichkeit gegenüber Alkohol": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Böser Namensvetter": {
     "source": [
       "mastertools"
     ]

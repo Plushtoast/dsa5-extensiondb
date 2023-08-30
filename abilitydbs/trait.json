@@ -1,4 +1,93 @@
 {
+  "Angriff mit Substanz": {
+    "source": [
+      "animatorium",
+      "elementarium"
+    ]
+  },
+  "Belebte Gliedmaßen": {
+    "source": [
+      "animatorium",
+      "elementarium",
+      "magie3",
+      "nekromanthaeum"
+    ]
+  },
+  "Flugfähiger Golem": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Krafliniensensitiv": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Immobil": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Resistenz gegenüber göttlichem Willen": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Scharfe Krallen": {
+    "source": [
+      "animatorium",
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
+  "Schreckgestalt": {
+    "source": [
+      "animatorium",
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
+  "Selbstreparatur": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Sprechender Golem": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Tarnung": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Verbindung zum Erschaffer": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Zerbersten": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Zusätzliche Aktionen": {
+    "source": [
+      "animatorium",
+      "elementarium",
+      "magie3",
+      "nekromanthaeum",
+      "pandaemonium",
+      "transmutarium"
+    ]
+  },
   "Gefährte in neuer Gestalt": {
     "source": [
       "companions",
@@ -74,11 +163,6 @@
       "core"
     ]
   },
-  "Angriff mit Substanz": {
-    "source": [
-      "elementarium"
-    ]
-  },
   "Ausweichen in den Limbus": {
     "source": [
       "elementarium",
@@ -86,49 +170,7 @@
       "pandaemonium"
     ]
   },
-  "Belebte Gliedmaßen": {
-    "source": [
-      "elementarium",
-      "magie3",
-      "nekromanthaeum"
-    ]
-  },
-  "Immunität gegen kritische Treffer": {
-    "source": [
-      "elementarium",
-      "magie3",
-      "nekromanthaeum",
-      "transmutarium"
-    ]
-  },
   "Resistenz gegen göttliches Wirken": {
-    "source": [
-      "elementarium",
-      "magie3",
-      "nekromanthaeum",
-      "pandaemonium",
-      "transmutarium"
-    ]
-  },
-  "Scharfe Krallen": {
-    "source": [
-      "elementarium",
-      "magie3",
-      "nekromanthaeum",
-      "pandaemonium",
-      "transmutarium"
-    ]
-  },
-  "Schreckgestalt": {
-    "source": [
-      "elementarium",
-      "magie3",
-      "nekromanthaeum",
-      "pandaemonium",
-      "transmutarium"
-    ]
-  },
-  "Zusätzliche Aktionen": {
     "source": [
       "elementarium",
       "magie3",

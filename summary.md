@@ -1,59 +1,62 @@
 # Summary
-last_updated: 2023-07-01 17:31:33
+last_updated: 2023-08-30 09:00:55
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 43/118 | 36.44% |
+| [Achaz](#achaz) | 66/118 | 55.93% |
+| [Animatorium](#animatorium) | 5/73 | 6.85% |
 | [Armory](#armory) | 17/22 | 77.27% |
-| [Armory2](#armory2) | 13/19 | 68.42% |
+| [Armory2](#armory2) | 18/25 | 72.0% |
 | [Bannerofloyalty](#bannerofloyalty) | 1/10 | 10.0% |
 | [Bestiary](#bestiary) | 20/25 | 80.0% |
 | [Bestiary2](#bestiary2) | 10/19 | 52.63% |
 | [Companions](#companions) | 80/111 | 72.07% |
-| [Compendium](#compendium) | 223/261 | 85.44% |
-| [Compendium2](#compendium2) | 204/266 | 76.69% |
-| [Core](#core) | 356/436 | 81.65% |
-| [Desertkingdom](#desertkingdom) | 30/57 | 52.63% |
-| [Elementarium](#elementarium) | 71/119 | 59.66% |
-| [Goetterwirken](#goetterwirken) | 260/410 | 63.41% |
-| [Goetterwirken2](#goetterwirken2) | 211/316 | 66.77% |
+| [Compendium](#compendium) | 224/261 | 85.82% |
+| [Compendium2](#compendium2) | 224/305 | 73.44% |
+| [Core](#core) | 361/436 | 82.8% |
+| [Desertkingdom](#desertkingdom) | 39/60 | 65.0% |
+| [Elementarium](#elementarium) | 72/119 | 60.5% |
+| [Goetterwirken](#goetterwirken) | 262/410 | 63.9% |
+| [Goetterwirken2](#goetterwirken2) | 214/316 | 67.72% |
+| [Havena](#havena) | 7/28 | 25.0% |
 | [Herbarium](#herbarium) | 57/93 | 61.29% |
 | [Herbarium2](#herbarium2) | 31/70 | 44.29% |
-| [Klingendernacht](#klingendernacht) | 4/14 | 28.57% |
-| [Magie1](#magie1) | 184/351 | 52.42% |
-| [Magie2](#magie2) | 192/344 | 55.81% |
-| [Magie3](#magie3) | 146/367 | 39.78% |
-| [Mastertools](#mastertools) | 0/12 | 0.0% |
+| [Klingendernacht](#klingendernacht) | 6/14 | 42.86% |
+| [Magie1](#magie1) | 196/360 | 54.44% |
+| [Magie2](#magie2) | 193/344 | 56.1% |
+| [Magie3](#magie3) | 148/367 | 40.33% |
+| [Mastertools](#mastertools) | 6/20 | 30.0% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
-| [Nekromanthaeum](#nekromanthaeum) | 64/81 | 79.01% |
-| [Orcs](#orcs) | 38/67 | 56.72% |
+| [Nekromanthaeum](#nekromanthaeum) | 65/81 | 80.25% |
+| [Orcs](#orcs) | 39/67 | 58.21% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
 | [Pandaemonium2](#pandaemonium2) | 16/24 | 66.67% |
-| [Sharedstuff](#sharedstuff) | 0/2 | 0.0% |
-| [Studyroom](#studyroom) | 115/190 | 60.53% |
-| [Suncoast](#suncoast) | 84/135 | 62.22% |
-| [Transmutarium](#transmutarium) | 43/63 | 68.25% |
-| [Warringkingdoms](#warringkingdoms) | 39/93 | 41.94% |
+| [Shared](#shared) | 0/2 | 0.0% |
+| [Steamingjungles](#steamingjungles) | 68/111 | 61.26% |
+| [Studyroom](#studyroom) | 128/209 | 61.24% |
+| [Suncoast](#suncoast) | 86/136 | 63.24% |
+| [Transmutarium](#transmutarium) | 45/63 | 71.43% |
+| [Warringkingdoms](#warringkingdoms) | 46/93 | 49.46% |
 | --- | --- | --- |
-| Total | 2574/4133 | 62.28% |
+| Total | 2772/4430 | 62.57% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 126/172 | 73.26% |
-| Disadvantage | 100/126 | 79.37% |
-| Specialability | 1480/2384 | 62.08% |
-| Liturgy | 190/257 | 73.93% |
-| Ceremony | 85/158 | 53.8% |
-| Consumable | 19/96 | 19.79% |
-| Trait | 123/205 | 60.0% |
-| Spell | 329/495 | 66.46% |
-| Ritual | 122/240 | 50.83% |
+| Advantage | 136/177 | 76.84% |
+| Ceremony | 93/168 | 55.36% |
+| Consumable | 19/97 | 19.59% |
+| Disadvantage | 108/131 | 82.44% |
+| Liturgy | 202/275 | 73.45% |
+| Ritual | 131/246 | 53.25% |
+| Specialability | 1622/2607 | 62.22% |
+| Spell | 333/509 | 65.42% |
+| Trait | 128/220 | 58.18% |
 
 
 
 ## Achaz
-Total status:  43/118 (36.44%)
+Total status:  66/118 (55.93%)
 
 
 ### Advantage
@@ -61,8 +64,8 @@ Total status:  43/118 (36.44%)
 - [ ] Biss
 - [x] Greifschwanz
 - [x] Hauttasche
-- [ ] Natürliche Waffe (Biss)
-- [ ] Natürliche Waffe (Schwanz)
+- [x] Natürliche Waffe (Biss)
+- [x] Natürliche Waffe (Schwanz)
 - [x] Natürlicher Rüstungsschutz
 - [x] Zusätzliche Gliedmaßen
 
@@ -78,7 +81,7 @@ Total status:  43/118 (36.44%)
 - [x] Drohgebärden
 - [ ] Beschützer
 - [ ] Bruthüter-Stil
-- [ ] Chaz'Zchakrr-Stil
+- [x] Chaz'Zchakrr-Stil
 - [x] Stammeskrieger-Stil
 - [x] Berserkerangriff
 - [ ] Defensives Verhalten
@@ -91,63 +94,63 @@ Total status:  43/118 (36.44%)
 - [x] Windmühle
 - [x] Beutel-Apport
 - [x] Bindung des Schuppenbeutels
-- [ ] Ewige Wegzehrung
+- [x] Ewige Wegzehrung
 - [ ] Leichter Beutel
 - [ ] Machtvolle Beutelzauber
 - [ ] Riesiger Beutel
 - [ ] Schutz des Beutels
 - [ ] Schutz des Beutels 2
-- [ ] Suchende Finger
-- [ ] Unauffindbarer Inhalt
+- [x] Suchende Finger
+- [x] Unauffindbarer Inhalt
 - [ ] Unheilvoller Inhalt
 - [x] Volumenerweiterung des Schuppenbeutels
 - [ ] Windbeutel
 - [ ] Bilderspiel - Kristallomant
 - [x] Bindung der Kristallkugel - Kristallomant
-- [ ] Brennglas - Kristallomant
+- [x] Brennglas - Kristallomant
 - [ ] Fernbild - Kristallomant
-- [ ] Großer Hohlraum - Kristallomant
+- [x] Großer Hohlraum - Kristallomant
 - [ ] Kleines Orbitarium - Kristallomant
-- [ ] Kugel des Hellsehers - Kristallomant
+- [x] Kugel des Hellsehers - Kristallomant
 - [ ] Kugel des Zauberschutzes - Kristallomant
 - [x] Kugel-Apport - Kristallomant
 - [ ] Machtvolle Kugelzauber - Kristallomant
 - [ ] Mehrfaches Volumen - Kristallomant
-- [ ] Vergrößerungsglas - Kristallomant
+- [x] Vergrößerungsglas - Kristallomant
 - [x] Volumenerweiterung der Kristallkugel - Kristallomant
-- [ ] Wachendes Auge - Kristallomant
-- [ ] Warnendes Leuchten - Kristallomant
+- [x] Wachendes Auge - Kristallomant
+- [x] Warnendes Leuchten - Kristallomant
 - [ ] Zauberspeicher-Kristallkugel - Kristallomant
 - [ ] Zauberspeicher-Kristallkugel - Kristallomant 2
 - [ ] Astralspeicher-Haube
 - [x] Bindung der Echsenhaube
 - [x] Hauben-Apport
 - [ ] Machtvolle Haubenzauber
-- [ ] Meisterschliff
+- [x] Meisterschliff
 - [ ] Merkmalsverstärkung
 - [ ] Schutz des Geistes
 - [x] Volumenerweiterung der Echsenhaube
 - [ ] Tradition (Meistertalentierte)
 - [ ] Tradition (Achazschamanen)
-- [ ] Keulenweihe (Achaz)
-- [ ] Freundschaft des Tieres (Achaz)
-- [ ] Tierische Kraft (Achaz)
-- [ ] Erfrierung verursachen (Achaz)
+- [x] Keulenweihe (Achaz)
+- [x] Freundschaft des Tieres (Achaz)
+- [x] Tierische Kraft (Achaz)
+- [x] Erfrierung verursachen (Achaz)
 - [ ] Kältestrahl (Achaz)
-- [ ] Keulenwurf (Achaz)
+- [x] Keulenwurf (Achaz)
 - [ ] Tradition (H'Szint-Kult)
 - [ ] Wall gegen Schadensmagie (H'Szint-Kult)
 - [ ] Beistand gegen Einflusszauberei (H'Szint-Kult)
 - [ ] Bollwerk gegen Magie (H'Szint-Kult)
 - [ ] Wandelstab (H'Szint-Kult)
-- [ ] Schlangenhaut (H'Szint-Kult)
+- [x] Schlangenhaut (H'Szint-Kult)
 - [ ] Giftbiss (H'Szint-Kult)
 - [ ] Tradition (Zsahh-Kult)
 - [ ] Aura der Friedfertigkeit (Zsahh-Kult)
-- [ ] Eidechsenhaut (Zsahh-Kult)
+- [x] Eidechsenhaut (Zsahh-Kult)
 - [ ] Echsenfreundschaft (Zsahh-Kult)
 - [ ] Pflanzensuche (Zsahh-Kult)
-- [ ] Pflanzenerkennung (Zsahh-Kult)
+- [x] Pflanzenerkennung (Zsahh-Kult)
 - [ ] Erholsamer Schlaf (Zsahh-Kult)
 - [ ] Tradition (Chr'Ssir'Ssr-Kult)
 
@@ -159,7 +162,7 @@ Total status:  43/118 (36.44%)
 - [x] Befehl des Schamanen
 - [x] Blitzschlag
 - [ ] Flugechsenruf
-- [ ] Friedfertigkeit
+- [x] Friedfertigkeit
 - [x] Hauch des Elements
 - [ ] Kleine Windhose
 - [x] Lebensschutz
@@ -185,9 +188,104 @@ Total status:  43/118 (36.44%)
 - [x] Häutung
 - [x] Jugendlichkeit
 - [ ] Nebelschwaden
-- [ ] Rat der Ahnen
+- [x] Rat der Ahnen
 - [x] Regenkontrolle
 - [ ] Schlangengestalt
+
+
+
+
+
+## Animatorium
+Total status:  5/73 (6.85%)
+
+
+### Ritual
+
+- [x] Stein wandle
+- [ ] Animatio
+- [ ] Transmutare
+- [ ] Planastrale
+- [ ] Caldofrigo
+
+
+### Specialability
+
+- [ ] Dauerhafte Golems
+- [ ] Golembauer
+- [ ] Synärethiker
+- [ ] Niederhöllischer Schmied
+- [ ] Homunculusbindung
+- [ ] Alraunenbeere
+- [ ] Alraunenschrei
+- [ ] Blutkonserve
+- [ ] Elixierspeicher
+- [ ] Gefahrenkompass
+- [ ] Giftabsorption
+- [ ] Giftmanipulation
+- [ ] Giftübertragung
+- [ ] Giftwirkung pausieren
+- [ ] Heilendes Raunen
+- [ ] Homunculusanalyse
+- [ ] Homunculusfluch
+- [ ] Homunculusspeise
+- [ ] Homunculustherapie
+- [ ] Ingredienz erspüren
+- [ ] Körpertresor
+- [ ] Meisterschüler
+- [ ] Personalisiertes Unheil
+- [ ] Ruhe der Gottlosen
+- [ ] Automatentüftler
+- [ ] Golemprägung
+- [ ] Kontrollobjekt
+- [ ] Tradition (Intuitive Zauberer)
+- [ ] Fleischwunde
+- [x] Gift melken (Land- und Lufttiere)
+- [x] Gift melken (Wassertiere)
+- [ ] Letzte Reserve
+- [ ] Prophezeihung
+- [ ] Schicksalsmacht
+- [ ] Unverstellter Blick
+- [ ] Bastler
+- [ ] Konstruktsimulacrum
+- [ ] Magischer Meisterkonstrukteur
+- [ ] Mechanopathische Automaten
+- [ ] Zauberbindung
+- [ ] Angriff auf ungeschützte Stellen
+- [ ] Flugangriff
+- [ ] Trampeln
+- [ ] Überrennen
+- [ ] Verbeißen
+
+
+### Spell
+
+- [ ] Dunkelheit
+- [ ] Favilludo
+- [ ] Frigisphaero
+- [ ] Ignisphaero
+- [ ] Incendio
+- [ ] Stillstand
+- [ ] Sturmwand
+
+
+### Trait
+
+- [ ] Angriff mit Substanz
+- [ ] Belebte Gliedmaßen
+- [ ] Flugfähiger Golem
+- [ ] Krafliniensensitiv
+- [ ] Immobil
+- [x] Immunität gegen kritische Treffer
+- [ ] Resistenz gegenüber göttlichem Willen
+- [ ] Scharfe Krallen
+- [ ] Schreckgestalt
+- [ ] Selbstreparatur
+- [ ] Sprechender Golem
+- [ ] Tarnung
+- [ ] Verbindung zum Erschaffer
+- [ ] Zerbersten
+- [ ] Zusätzliche Aktionen
 
 
 
@@ -223,7 +321,7 @@ Total status:  17/22 (77.27%)
 
 
 ## Armory2
-Total status:  13/19 (68.42%)
+Total status:  18/25 (72.0%)
 
 
 ### Specialability
@@ -236,6 +334,12 @@ Total status:  13/19 (68.42%)
 - [x] Angetäuschter Angriff
 - [ ] Aufspießen
 - [ ] Waffenwurf
+- [x] Zweihandwaffen-Doppelschlag
+- [x] Zweihandwaffen-Kampf
+- [x] Angriff nach hinten
+- [ ] Betäubendes Geschoss
+- [x] Machtvoller Ausfall
+- [x] Zweifacher Reiterangriff
 
 
 ### Consumable
@@ -482,14 +586,14 @@ Total status:  80/111 (72.07%)
 
 
 ## Compendium
-Total status:  223/261 (85.44%)
+Total status:  224/261 (85.82%)
 
 
 ### Advantage
 
 - [x] Eisern
-- [x] Hart im nehmen
 - [x] Immunität gegen (Blutiger Rotz)
+- [x] Hart im Nehmen
 
 
 ### Disadvantage
@@ -563,7 +667,7 @@ Total status:  223/261 (85.44%)
 - [ ] Beschützer
 - [x] Betäubungsschlag
 - [x] Blindkampf
-- [ ] Eisenhagel
+- [x] Eisenhagel
 - [ ] Festnageln
 - [x] Gezielter Angriff
 - [x] Gezielter Schuss
@@ -642,7 +746,7 @@ Total status:  223/261 (85.44%)
 
 
 ## Compendium2
-Total status:  204/266 (76.69%)
+Total status:  224/305 (73.44%)
 
 
 ### Trait
@@ -708,7 +812,7 @@ Total status:  204/266 (76.69%)
 - [x] Leg-ga-leg
 - [x] Lehrer
 - [x] Masseur/in
-- [x] Menschenstimmen immitieren
+- [x] Menschenstimmen imitieren
 - [x] Namensschmeichler
 - [x] Nerven aus Stahl
 - [x] Porzellanarbeiten
@@ -815,7 +919,7 @@ Total status:  204/266 (76.69%)
 - [ ] Gegenhalten
 - [ ] Geschossabwehr
 - [x] Grätsche
-- [ ] Kernschuss
+- [x] Kernschuss
 - [x] Kha-Formation
 - [ ] Klinge drehen
 - [x] Klingentänzer
@@ -886,7 +990,7 @@ Total status:  204/266 (76.69%)
 - [ ] Formationsattacke
 - [ ] Formationsparade
 - [ ] Geschickter Wurf
-- [ ] Machtvoller Kernschuss
+- [x] Machtvoller Kernschuss
 - [x] Machtvoller Sturmangriff
 - [x] Machtvoller Wirbelangriff
 - [ ] Meister elfischer Waffen
@@ -915,6 +1019,45 @@ Total status:  204/266 (76.69%)
 - [ ] Heilungsspezialgebiet (Chirurgie)
 - [ ] Heilungsspezialgebiet (Knochenbrüche)
 - [ ] Heilungsspezialgebiet (Zahnbehandlung)
+- [x] Angriff nach hinten
+- [ ] Nachladespezialist (Armbrüste)
+- [ ] Nachladespezialist (Bögen)
+- [ ] Nachladespezialist (Diskusse)
+- [ ] Nachladespezialist (Wurfwaffen)
+- [ ] Nachladespezialist (Blasrohre)
+- [ ] Nachladespezialist (Schleudern)
+- [x] Akrobat
+- [ ] Weg des Offiziers
+- [x] Weg der Reiterin
+- [x] Weg des Schmieds
+- [x] Weg der Schmugglerin
+- [ ] Weg der Wandergesellin
+- [x] Transporteur
+- [x] Zweihandwaffen-Doppelschlag
+- [x] Zweihandwaffen-Kampf
+- [ ] Azilajid-Stil
+- [x] Birkholt-Stil
+- [x] Comante-Stil
+- [ ] Efferdanez-Stil
+- [x] Endijian-Stil
+- [x] Eroscham-Stil
+- [ ] Eslamsgrund-Stil
+- [ ] Festum-Stil
+- [ ] Havena-Stil
+- [ ] Hornissenschwarm-Stil
+- [x] Klippag-Stil
+- [ ] Leddici-Stil
+- [ ] Methumis-Stil
+- [ ] Punin-Stil
+- [x] Sefirasab-Stil
+- [ ] Sippenkrieger-Stil
+- [ ] Soldaten-Stil
+- [x] Söldner-Stil
+- [x] Tulamidischer Balayan-Stil
+- [ ] Hruruzat-Stil
+- [ ] Betäubendes Geschoss
+- [x] Machtvoller Ausfall
+- [x] Zweifacher Reiterangriff
 
 
 ### Advantage
@@ -927,7 +1070,7 @@ Total status:  204/266 (76.69%)
 
 
 ## Core
-Total status:  356/436 (81.65%)
+Total status:  361/436 (82.8%)
 
 
 ### Advantage
@@ -952,13 +1095,13 @@ Total status:  356/436 (81.65%)
 - [x] Herausragender Sinn (Gehör)
 - [x] Herausragender Sinn (Geruch & Geschmack)
 - [x] Herausragender Sinn (Tastsinn)
-- [ ] Hitzeresistenz
+- [x] Hitzeresistenz
 - [x] Hohe Astralkraft
 - [x] Hohe Karmalkraft
 - [x] Hohe Lebenskraft
 - [x] Hohe Seelenkraft
 - [x] Hohe Zähigkeit
-- [ ] Immunität gegen (Gift)
+- [x] Immunität gegen (Gift)
 - [x] Immunität gegen (Wurara)
 - [x] Immunität gegen (Tulmadron)
 - [x] Immunität gegen (Krankheit)
@@ -969,7 +1112,7 @@ Total status:  356/436 (81.65%)
 - [x] Immunität gegen (Brabaker Schweiß)
 - [x] Immunität gegen (Rascher Wahn)
 - [x] Immunität gegen (Zorganpocken)
-- [ ] Kälteresistenz
+- [x] Kälteresistenz
 - [x] Krankheitsresistenz
 - [x] Magische Einstimmung ()
 - [ ] Mystiker
@@ -1012,8 +1155,8 @@ Total status:  356/436 (81.65%)
 - [x] Fettleibig
 - [ ] Giftanfällig
 - [x] Hässlich
-- [ ] Hitzeempfindlich
-- [ ] Kälteempfindlich
+- [x] Hitzeempfindlich
+- [x] Kälteempfindlich
 - [x] Keine Flugsalbe
 - [x] Kein Vertrauter
 - [x] Körpergebundene Kraft
@@ -1343,7 +1486,7 @@ Total status:  356/436 (81.65%)
 
 
 ## Desertkingdom
-Total status:  30/57 (52.63%)
+Total status:  39/60 (65.0%)
 
 
 ### Spell
@@ -1351,14 +1494,9 @@ Total status:  30/57 (52.63%)
 - [ ] Eisenrost
 - [ ] Blut trinken
 - [ ] Immunität gegen Hitze
-- [ ] Steinmacht
+- [x] Steinmacht
 - [ ] Talentverbesserung
-- [ ] Trümmerschlag
-- [x] Bindung der Waffe
-- [ ] Einschüchternde Waffe
-- [ ] Kreisende Wurfwaffe
-- [ ] Scharfe Klinge
-- [x] Waffen-Apport
+- [x] Trümmerschlag
 - [x] Basaltleib
 - [x] Erzpfeil
 - [x] Klarum Purum
@@ -1373,18 +1511,23 @@ Total status:  30/57 (52.63%)
 - [x] Porzellanarbeiten
 - [ ] Tradition (Animisten)
 - [ ] Tradition (Zauberbarden)
-- [ ] Bann des Übernatürlichen
+- [x] Bann des Übernatürlichen
 - [x] Bindung des Zauberinstruments
 - [ ] Ohrenbetäubender Klang
 - [ ] Brechender Fels
 - [ ] Störgeräusch
-- [ ] Tradition (Zaubertänzer)
+- [x] Tradition (Zaubertänzer)
 - [x] Bindung der Zauberkleidung
 - [ ] Faszinierende Kleidung
 - [ ] Gewand der Heilung
 - [ ] Gewand der Beeinflussung
 - [x] Schutzgewand
-- [ ] Tradition (Ferkinaschamanen)
+- [x] Tradition (Ferkinaschamanen)
+- [x] Einschüchternde Waffe
+- [x] Bindung der Waffe
+- [ ] Kreisende Wurfwaffe
+- [ ] Scharfe Klinge
+- [x] Waffen-Apport
 
 
 ### Liturgy
@@ -1393,6 +1536,9 @@ Total status:  30/57 (52.63%)
 - [x] Hauch des Elements
 - [x] Kriegsfarben
 - [x] Schutzsegen
+- [ ] Der Schleier des Nebels
+- [ ] Raschas Blutkelch
+- [ ] Tafel der Lumnianer
 
 
 ### Ceremony
@@ -1408,11 +1554,11 @@ Total status:  30/57 (52.63%)
 - [x] Melodie der Wüste
 - [ ] Melodie des Magieschadens
 - [x] Melodie des Zauberschutzes
-- [ ] Tanz der Erlösung
+- [x] Tanz der Erlösung
 - [x] Tanz der Ermutigung
-- [ ] Tanz der Linderung
+- [x] Tanz der Linderung
 - [ ] Tanz der Unantastbarkeit
-- [ ] Tanz der Wahrheit
+- [x] Tanz der Wahrheit
 - [x] Tanz der Weisheit
 - [x] Adamantium
 - [x] Caldofrigo
@@ -1427,7 +1573,7 @@ Total status:  30/57 (52.63%)
 
 
 ## Elementarium
-Total status:  71/119 (59.66%)
+Total status:  72/119 (60.5%)
 
 
 ### Trait
@@ -1435,7 +1581,7 @@ Total status:  71/119 (59.66%)
 - [ ] Angriff mit Substanz
 - [ ] Ausweichen in den Limbus
 - [ ] Belebte Gliedmaßen
-- [ ] Immunität gegen kritische Treffer
+- [x] Immunität gegen kritische Treffer
 - [x] Präsenz
 - [x] Regeneration
 - [ ] Resistenz gegen göttliches Wirken
@@ -1577,7 +1723,7 @@ Total status:  71/119 (59.66%)
 
 
 ## Goetterwirken
-Total status:  260/410 (63.41%)
+Total status:  262/410 (63.9%)
 
 
 ### Specialability
@@ -1723,8 +1869,8 @@ Total status:  260/410 (63.41%)
 - [x] Göttlicher Schutz
 - [ ] Hauptsegnung
 - [x] Hohe Weihe
-- [ ] Improvisierte Liturgie (Gebet)
-- [ ] Improvisierte Liturgie (Gesten)
+- [x] Improvisierte Liturgie (Gebet)
+- [x] Improvisierte Liturgie (Gesten)
 - [x] Karmale Regeneration
 - [ ] Klarer Blick
 - [x] Kontrolle des Karmalkörpers
@@ -1863,7 +2009,7 @@ Total status:  260/410 (63.41%)
 - [x] Ernüchterung
 - [x] Erzene Opfergabe
 - [ ] Feuerwall
-- [ ] Friedfertigkeit
+- [x] Friedfertigkeit
 - [x] Friedvoller Rausch
 - [ ] Froststurm
 - [x] Gebieter der Flammen
@@ -1876,7 +2022,7 @@ Total status:  260/410 (63.41%)
 - [x] Göttliche Verständigung
 - [x] Heiliger Befehl
 - [x] Heiliges Liebesspiel
-- [x] Heilsame Quelle
+- [ ] Heilsame Quelle
 - [x] Heldenkraft
 - [x] Helfende Hand
 - [x] Herbeirufung der Heerscharen des Rattenkindes (Ratten)
@@ -2014,7 +2160,7 @@ Total status:  260/410 (63.41%)
 
 
 ## Goetterwirken2
-Total status:  211/316 (66.77%)
+Total status:  214/316 (67.72%)
 
 
 ### Specialability
@@ -2040,7 +2186,7 @@ Total status:  211/316 (66.77%)
 - [ ] Stich der Furcht
 - [ ] Stich des Scheintods
 - [x] Stich der Visionen
-- [ ] Tradition (Ferkinaschamanen)
+- [x] Tradition (Ferkinaschamanen)
 - [x] Keulenweihe (Ferkina)
 - [x] Keulenweihe (Fjarninger)
 - [x] Keulenweihe (Gjalsker)
@@ -2264,7 +2410,7 @@ Total status:  211/316 (66.77%)
 - [x] Erfolgreiche Pflanzensuche
 - [x] Erschaffung von Nachtkindern
 - [ ] Falkengestalt
-- [ ] Geistersprache
+- [x] Geistersprache
 - [x] Geistheilung
 - [x] Geschlechterwechsel
 - [x] Gespräch mit den Toten
@@ -2282,7 +2428,7 @@ Total status:  211/316 (66.77%)
 - [x] Machtvoller Exorzismus
 - [ ] Marbidenmacht
 - [ ] Mungogestalt
-- [ ] Rat der Ahnen
+- [x] Rat der Ahnen
 - [x] Regenkontrolle
 - [ ] Schaffenskraft
 - [ ] Schlangenfluch
@@ -2305,6 +2451,65 @@ Total status:  211/316 (66.77%)
 ### Disadvantage
 
 - [x] Schlechte Eigenschaft (Sikaryan-Durst)
+
+
+
+
+
+## Havena
+Total status:  7/28 (25.0%)
+
+
+### Specialability
+
+- [ ] Tradition (Necker)
+- [x] Flusslotse (Region)
+- [ ] Seelotse (Region)
+- [x] Tradition (Efferdkirche)
+- [ ] Wissen um Gwen Petryl-Fundstätten (Geheimwissen)
+- [ ] Standort des geheimen Havener Phextempel (Geheimwissen)
+- [ ] Schmugglerroute Nebelpfad kennen (Geheimwissen)
+- [ ] Schmugglerroute Silberpfad kennen (Geheimwissen)
+- [ ] Wissen um Lata und Yonahoh (Geheimwissen)
+- [ ] Fehlerhaftes Schwarzes Auge in Nahemas Turm (Geheimwissen)
+- [ ] Herrschaft über Ungeheuer
+- [ ] Fauliger Wasserstrahl
+- [ ] Dämonischer Panzer
+- [ ] Wasseratmung
+- [ ] Wasserlunge
+
+
+### Liturgy
+
+- [x] Angriffswelle
+- [x] Delphinruf
+- [ ] Heilsame Quelle
+- [ ] Kleine Windhose
+- [x] Seevogelsprache
+- [ ] Unterwasseratmung
+- [x] Wasserlauf
+
+
+### Spell
+
+- [ ] Herr über das Tierreich
+
+
+### Ceremony
+
+- [ ] Delphingestalt
+- [ ] Guter Fang
+- [ ] Nebelschwaden
+
+
+### Advantage
+
+- [x] Wasserlebewesen
+
+
+### Consumable
+
+- [ ] Wasserodem
 
 
 
@@ -2466,7 +2671,7 @@ Total status:  31/70 (44.29%)
 
 
 ## Klingendernacht
-Total status:  4/14 (28.57%)
+Total status:  6/14 (42.86%)
 
 
 ### Ritual
@@ -2486,8 +2691,8 @@ Total status:  4/14 (28.57%)
 
 ### Disadvantage
 
-- [ ] Hitzeempfindlich II
-- [ ] Lichtempfindlich II
+- [x] Hitzeempfindlich II
+- [x] Lichtempfindlich II
 - [ ] Empfindlichkeit (unedle Metalle)
 
 
@@ -2500,7 +2705,7 @@ Total status:  4/14 (28.57%)
 
 
 ## Magie1
-Total status:  184/351 (52.42%)
+Total status:  196/360 (54.44%)
 
 
 ### Specialability
@@ -2511,7 +2716,7 @@ Total status:  184/351 (52.42%)
 - [ ] Tradition (Meistertalentierte)
 - [ ] Tradition (Scharlatane)
 - [ ] Tradition (Zauberbarden)
-- [ ] Tradition (Zaubertänzer)
+- [x] Tradition (Zaubertänzer)
 - [x] Astraltransfer
 - [x] Astralentzug
 - [x] Astralraub (Magierstab)
@@ -2558,8 +2763,8 @@ Total status:  184/351 (52.42%)
 - [ ] Magischer Schutzwall
 - [ ] Störfeld
 - [x] Volumenerweiterung der Zauberkugel
-- [ ] Wachendes Auge
-- [ ] Warnendes Leuchten
+- [x] Wachendes Auge
+- [x] Warnendes Leuchten
 - [x] Zauberkugel-Apport
 - [x] Funkenregen
 - [ ] Leuchtfeuer
@@ -2567,7 +2772,7 @@ Total status:  184/351 (52.42%)
 - [ ] Halbes Maß (Zauberstecken)
 - [x] Seil des Adepten (Zauberstecken)
 - [x] Ewige Flamme (Zauberstecken)
-- [ ] Bann des Übernatürlichen
+- [x] Bann des Übernatürlichen
 - [x] Bindung des Zauberinstruments
 - [ ] Brechender Fels
 - [ ] Emotionsübernahme
@@ -2615,8 +2820,8 @@ Total status:  184/351 (52.42%)
 - [ ] Extrem starke Zaubertricks
 - [ ] Fernzaubern
 - [ ] Gedankenschutz
-- [ ] Improvisationszauberei (Formel)
-- [ ] Improvisationszauberei (Gesten)
+- [x] Improvisationszauberei (Formel)
+- [x] Improvisationszauberei (Gesten)
 - [ ] Improvisiertes Ritual
 - [x] Kleine Kraftkontrolle
 - [x] Konzentrationsstärke
@@ -2687,6 +2892,15 @@ Total status:  184/351 (52.42%)
 - [x] Vollendeter Elementarist
 - [x] Vollkommener Beherrscher
 - [x] Vortrefflicher Hellseher
+- [ ] Tierwandlung - Echsenpfad Chamäleon
+- [ ] Tierwandlung - Echsenpfad Speikobra
+- [ ] Tierwandlung - Nagerpfad Eichhörnchen
+- [ ] Tierwandlung - Nagerpfad Biber
+- [ ] Tierwandlung - Vogelpfad Taube
+- [ ] Tierwandlung - Vogelpfad Rabe
+- [x] Bindung des Bannschwerts (Dolche)
+- [x] Bindung des Bannschwerts (Schwerter)
+- [x] Bindung des Bannschwerts (Zweihandschwerter)
 
 
 ### Ritual
@@ -2718,11 +2932,11 @@ Total status:  184/351 (52.42%)
 - [ ] Tanz der Angriffslust
 - [x] Tanz der Beweglichkeit
 - [ ] Tanz der Bilder
-- [ ] Tanz der Erlösung
+- [x] Tanz der Erlösung
 - [x] Tanz der Ermutigung
 - [ ] Tanz der Heilung
 - [x] Tanz der Liebe
-- [ ] Tanz der Linderung
+- [x] Tanz der Linderung
 - [ ] Tanz der Träume
 - [ ] Tanz der magischen Gemeinschaft
 - [ ] Tanz der Täuschung
@@ -2731,7 +2945,7 @@ Total status:  184/351 (52.42%)
 - [x] Tanz der Verteidigung
 - [x] Tanz der Verwirrung
 - [ ] Tanz der Wacht
-- [ ] Tanz der Wahrheit
+- [x] Tanz der Wahrheit
 - [x] Tanz der Weisheit
 - [x] Tanz des Begehrens
 - [x] Tanz des Blutrausches
@@ -2878,7 +3092,7 @@ Total status:  184/351 (52.42%)
 
 
 ## Magie2
-Total status:  192/344 (55.81%)
+Total status:  193/344 (56.1%)
 
 
 ### Specialability
@@ -3078,7 +3292,7 @@ Total status:  192/344 (55.81%)
 - [ ] Klarheit des Eises
 - [ ] Körperlose Reise
 - [x] Madas Spiegel
-- [ ] Nekropathia
+- [x] Nekropathia
 - [ ] Nihilogravo
 - [x] Pflanzenform
 - [ ] Reinheit der Lohe
@@ -3249,7 +3463,7 @@ Total status:  192/344 (55.81%)
 
 
 ## Magie3
-Total status:  146/367 (39.78%)
+Total status:  148/367 (40.33%)
 
 
 ### Specialability
@@ -3560,7 +3774,7 @@ Total status:  146/367 (39.78%)
 - [ ] Immunität gegen Kälte
 - [x] Patronruf
 - [ ] Schneller Angriff
-- [ ] Steinmacht
+- [x] Steinmacht
 - [ ] Talentverbesserung
 - [x] Trümmerschlag
 - [ ] Tierverwandlung
@@ -3613,7 +3827,7 @@ Total status:  146/367 (39.78%)
 - [ ] Belebte Gliedmaßen
 - [x] Fortpflanzungsfähigkeit
 - [x] Immobil
-- [ ] Immunität gegen kritische Treffer
+- [x] Immunität gegen kritische Treffer
 - [ ] Lebenshauch
 - [x] Präsenz
 - [x] Regeneration
@@ -3647,7 +3861,7 @@ Total status:  146/367 (39.78%)
 
 
 ## Mastertools
-Total status:  0/12 (0.0%)
+Total status:  6/20 (30.0%)
 
 
 ### Specialability
@@ -3667,11 +3881,19 @@ Total status:  0/12 (0.0%)
 ### Advantage
 
 - [ ] Schnell wieder auf den Beinen
+- [x] Gutes Namensgedächtnis
+- [x] Heldenhafter Name
+- [ ] Allerweltsname
 
 
 ### Disadvantage
 
 - [ ] Unverträglichkeit gegenüber Alkohol
+- [x] Schlechtes Namensgedächtnis
+- [x] Lächerlicher Name
+- [x] Unpassender Name
+- [x] Schurkenname
+- [ ] Böser Namensvetter
 
 
 
@@ -3693,7 +3915,7 @@ Total status:  0/4 (0.0%)
 
 
 ## Nekromanthaeum
-Total status:  64/81 (79.01%)
+Total status:  65/81 (80.25%)
 
 
 ### Specialability
@@ -3734,7 +3956,7 @@ Total status:  64/81 (79.01%)
 - [x] Eingraben
 - [ ] Gestank
 - [x] Immobil
-- [ ] Immunität gegen kritische Treffer
+- [x] Immunität gegen kritische Treffer
 - [ ] Lebenshauch
 - [x] Leichengift
 - [ ] Nekrotischer Angriff
@@ -3793,13 +4015,13 @@ Total status:  64/81 (79.01%)
 
 
 ## Orcs
-Total status:  38/67 (56.72%)
+Total status:  39/67 (58.21%)
 
 
 ### Advantage
 
 - [ ] Biss
-- [ ] Natürliche Waffe (Biss)
+- [x] Natürliche Waffe (Biss)
 - [x] Natürlicher Rüstungsschutz
 
 
@@ -3987,7 +4209,7 @@ Total status:  16/24 (66.67%)
 
 
 
-## Sharedstuff
+## Shared
 Total status:  0/2 (0.0%)
 
 
@@ -4000,8 +4222,148 @@ Total status:  0/2 (0.0%)
 
 
 
+## Steamingjungles
+Total status:  68/111 (61.26%)
+
+
+### Specialability
+
+- [ ] Schildstoß
+- [ ] Schildschlag
+- [x] Weg des Adligen
+- [x] Weg des Fischers
+- [x] Weg der Schmiedin
+- [x] Animisten-Stil der Tapo-Tikaute
+- [x] Dschungelschleicher-Stil
+- [x] Eidechsenkrieger-Stil
+- [ ] Geisterkrieger-Stil
+- [ ] Hruruzat
+- [x] Stammeskrieger-Stil
+- [ ] Geisterseherinnen (Schwarze Witwen)
+- [ ] Reisende (Fahrende Schwester)
+- [ ] Sumpfhexen (Tochter der Erde)
+- [ ] Geisterführer
+- [x] Medizinleute
+- [x] Drohgebärden
+- [x] Erfolgreicher Fischer
+- [x] Gute Verarbeitung
+- [x] Handwerkskunst ()
+- [x] Herrschaftsanspruch
+- [x] Kind der Natur ()
+- [x] Körperliches Geschick ()
+- [ ] Kraftanstrengung
+- [x] Soziale Kompetenz ()
+- [x] Vertrauenswürdig
+- [x] Angetäuschter Angriff
+- [x] Berserkerangriff
+- [x] Blitzreflexe
+- [ ] Defensives Verhalten
+- [x] Fußfeger
+- [x] Handkantenschlag
+- [x] Machtvoller Kernschuss
+- [x] Machtvoller Sturmangriff
+- [x] Nachladespezialist ()
+- [ ] Nervös machen
+- [ ] Offensives Verhalten
+- [x] Reizen
+- [ ] Schmerzwut
+- [x] Sprungtritt
+- [x] Tiefe Wunde
+- [ ] Materielle Verbindung
+- [x] Bewanderter Heilzauberer
+- [x] Brillanter Telekinetiker
+- [x] Geisterfreundin
+- [x] Geistermedium
+- [ ] Giftmeisterin
+- [x] Kesselmeisterin
+- [ ] Langer Fluch
+- [ ] Meisterliches Auraverbergen
+- [ ] Bannmeister
+- [x] Geistergefäß
+- [x] Gesunder Geist, gesunder Körper
+- [x] Heilritus
+- [ ] Omen
+- [x] Keulenweihe (Moha)
+- [x] Freundschaft des Tieres (Moha)
+- [x] Jaguarkraft
+- [x] Magieentzug (Moha)
+- [x] Stärkung der Sonne
+- [x] Keulenwurf (Moha)
+- [x] Bindung der Waffe
+- [ ] Eins mit der Waffe
+- [x] Einschüchternde Waffe
+- [ ] Kampfglück
+- [ ] Scharfe Klinge
+- [x] Waffe gegen böse Wesen
+- [ ] Tradition (Animisten)
+- [ ] Tradition (Darna)
+- [ ] Tradition (Tahaya-Schamanen)
+- [x] Dschungel-Zeichensprache
+- [x] Gift melken (Land- und Lufttiere)
+- [x] Gift melken (Wassertiere)
+- [x] Schrumpfkopfherstellung
+- [ ] Großer Festritus
+- [ ] Nachladespezialist (Armbrüste)
+- [ ] Nachladespezialist (Bögen)
+- [ ] Nachladespezialist (Diskusse)
+- [ ] Nachladespezialist (Wurfwaffen)
+- [ ] Nachladespezialist (Blasrohre)
+- [ ] Nachladespezialist (Schleudern)
+
+
+### Liturgy
+
+- [x] Bannzone
+- [x] Befehl des Schamanen
+- [x] Geisterfalle
+- [x] Hauch des Elements
+- [ ] Jaguarruf
+- [x] Kriegsfarben
+- [x] Oberans Blendung
+- [x] Sprache des Tapams
+
+
+### Ceremony
+
+- [x] Freie Seelenfahrt
+- [x] Geistersprache
+- [x] Geistheilung
+- [ ] Jaguargestalt
+- [x] Rat der Ahnen
+- [ ] Schlangenfluch
+- [x] Tabu-Zone
+
+
+### Advantage
+
+- [x] Schutzgeist
+
+
+### Spell
+
+- [ ] Blut trinken
+- [ ] Großer Sprung
+- [ ] Kampffähigkeiten verbessern
+- [ ] Immunität gegen Hitze
+- [x] Patronruf
+- [ ] Schneller Angriff
+- [ ] Talentverbesserung
+- [ ] Unbeschadeter Sturz
+- [x] Affenarme
+- [x] Avilea
+- [ ] Papageienruf
+
+
+### Ritual
+
+- [x] Nekropathia
+
+
+
+
+
 ## Studyroom
-Total status:  115/190 (60.53%)
+Total status:  128/209 (61.24%)
 
 
 ### Spell
@@ -4179,8 +4541,27 @@ Total status:  115/190 (60.53%)
 - [ ] Tradition (Ysilische Bannzeichner)
 - [x] Tradition (Zauberalchimisten)
 - [ ] Tradition (Zauberbarden)
-- [ ] Tradition (Zaubertänzer)
+- [x] Tradition (Zaubertänzer)
 - [ ] Tradition (Zibiljas)
+- [ ] Scholar des Halib abu’l Ketab
+- [ ] Scholar aus Mendena
+- [ ] Scholar der Erben der Gräber
+- [x] Auxiliator
+- [x] Gefährliche Träume
+- [x] Gefäß der Macht
+- [x] Schalenverzauberung
+- [ ] Zauberkraft des Hains
+- [ ] Goblinheilerin
+- [x] Goblinhexen
+- [x] Quacksalber
+- [ ] Hofzauberer
+- [x] Seher
+- [x] Theaterzauberer
+- [x] Trickbetrüger
+- [ ] Gegnerische Zauberpraxis (Element)
+- [x] Bindung des Bannschwerts (Dolche)
+- [x] Bindung des Bannschwerts (Schwerter)
+- [x] Bindung des Bannschwerts (Zweihandschwerter)
 
 
 ### Advantage
@@ -4220,7 +4601,7 @@ Total status:  115/190 (60.53%)
 
 
 ## Suncoast
-Total status:  84/135 (62.22%)
+Total status:  86/136 (63.24%)
 
 
 ### Specialability
@@ -4310,10 +4691,11 @@ Total status:  84/135 (62.22%)
 - [ ] Gefestigter Zeremonieablauf
 - [x] Göttlicher Schutz
 - [x] Hohe Weihe
-- [ ] Improvisierte Liturgie (Gebet)
-- [ ] Improvisierte Liturgie (Gesten)
+- [x] Improvisierte Liturgie (Gebet)
+- [x] Improvisierte Liturgie (Gesten)
 - [ ] Tradition (Namenloser Kult)
 - [x] Tradition (Aveskirche)
+- [ ] Tradition (Feen)
 
 
 ### Liturgy
@@ -4392,7 +4774,7 @@ Total status:  84/135 (62.22%)
 
 
 ## Transmutarium
-Total status:  43/63 (68.25%)
+Total status:  45/63 (71.43%)
 
 
 ### Advantage
@@ -4403,9 +4785,9 @@ Total status:  43/63 (68.25%)
 ### Disadvantage
 
 - [x] Kältestarre
-- [x] Lichtempfindlich 2
 - [x] Persönlichkeitsschwäche (Eifersucht)
 - [x] Schlechte Eigenschaft (Lüsternheit)
+- [x] Lichtempfindlich II
 
 
 ### Specialability
@@ -4428,7 +4810,7 @@ Total status:  43/63 (68.25%)
 - [x] Dreihändiger Kampf
 - [x] Flugangriff
 - [x] Klammergriff
-- [ ] Kernschuss
+- [x] Kernschuss
 - [ ] Mächtiger Schlag
 - [x] Schwanz- oder Tentakelschwung
 - [x] Trampeln
@@ -4464,7 +4846,7 @@ Total status:  43/63 (68.25%)
 - [x] Fortpflanzungsfähigkeit (Daimonide)
 - [ ] Flügel
 - [x] Giftige Transmutation
-- [ ] Immunität gegen kritische Treffer
+- [x] Immunität gegen kritische Treffer
 - [ ] Krankheitsüberträger
 - [ ] Lockduft
 - [ ] Mutation verursachen
@@ -4489,22 +4871,22 @@ Total status:  43/63 (68.25%)
 
 
 ## Warringkingdoms
-Total status:  39/93 (41.94%)
+Total status:  46/93 (49.46%)
 
 
 ### Specialability
 
 - [x] Waffenbau
-- [ ] Weg der Bognerin
-- [ ] Weg des Deichbauers
+- [x] Weg der Bognerin
+- [x] Weg des Deichbauers
 - [ ] Weg des Holzfällers
 - [x] Gute Verarbeitung
-- [ ] Handwerkskunst
+- [x] Handwerkskunst ()
 - [ ] Kraftanstrengung
-- [ ] Routinierte Praxis
-- [ ] Virtuose Wettervorhersage
+- [x] Routinierte Praxis
+- [x] Virtuose Wettervorhersage
 - [ ] Seenritter-Stil
-- [ ] Waldritter-Stil
+- [x] Waldritter-Stil
 - [x] Durchbohrung
 - [x] Frontalangriff
 - [x] Mächtiger Lanzenangriff
@@ -4532,7 +4914,7 @@ Total status:  39/93 (41.94%)
 - [x] Unverstellter Blick
 - [ ] Weissagung
 - [ ] Wissensaustausch
-- [ ] Deichbauer
+- [x] Deichbauer
 - [ ] Abgeschwächter Zauber
 - [ ] Astrale Meditation
 - [ ] Tradition (Druiden)

@@ -16,16 +16,12 @@
       "achaz"
     ]
   },
-  "Chaz'Zchakrr-Stil": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Defensives Verhalten": {
     "source": [
       "achaz",
       "compendium2",
-      "goetterwirken2"
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Formationsparade": {
@@ -39,19 +35,16 @@
       "achaz",
       "compendium2",
       "goetterwirken2",
-      "orcs"
+      "orcs",
+      "steamingjungles"
     ]
   },
   "Schmerzwut": {
     "source": [
       "achaz",
       "compendium2",
-      "orcs"
-    ]
-  },
-  "Ewige Wegzehrung": {
-    "source": [
-      "achaz"
+      "orcs",
+      "steamingjungles"
     ]
   },
   "Leichter Beutel": {
@@ -79,16 +72,6 @@
       "achaz"
     ]
   },
-  "Suchende Finger": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Unauffindbarer Inhalt": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Unheilvoller Inhalt": {
     "source": [
       "achaz"
@@ -104,27 +87,12 @@
       "achaz"
     ]
   },
-  "Brennglas - Kristallomant": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Fernbild - Kristallomant": {
     "source": [
       "achaz"
     ]
   },
-  "Großer Hohlraum - Kristallomant": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Kleines Orbitarium - Kristallomant": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Kugel des Hellsehers - Kristallomant": {
     "source": [
       "achaz"
     ]
@@ -140,21 +108,6 @@
     ]
   },
   "Mehrfaches Volumen - Kristallomant": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Vergrößerungsglas - Kristallomant": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Wachendes Auge - Kristallomant": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Warnendes Leuchten - Kristallomant": {
     "source": [
       "achaz"
     ]
@@ -175,11 +128,6 @@
     ]
   },
   "Machtvolle Haubenzauber": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Meisterschliff": {
     "source": [
       "achaz"
     ]
@@ -206,32 +154,7 @@
       "achaz"
     ]
   },
-  "Keulenweihe (Achaz)": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Freundschaft des Tieres (Achaz)": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Tierische Kraft (Achaz)": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Erfrierung verursachen (Achaz)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Kältestrahl (Achaz)": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Keulenwurf (Achaz)": {
     "source": [
       "achaz"
     ]
@@ -261,11 +184,6 @@
       "achaz"
     ]
   },
-  "Schlangenhaut (H'Szint-Kult)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Giftbiss (H'Szint-Kult)": {
     "source": [
       "achaz"
@@ -281,22 +199,12 @@
       "achaz"
     ]
   },
-  "Eidechsenhaut (Zsahh-Kult)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Echsenfreundschaft (Zsahh-Kult)": {
     "source": [
       "achaz"
     ]
   },
   "Pflanzensuche (Zsahh-Kult)": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Pflanzenerkennung (Zsahh-Kult)": {
     "source": [
       "achaz"
     ]
@@ -309,6 +217,237 @@
   "Tradition (Chr'Ssir'Ssr-Kult)": {
     "source": [
       "achaz"
+    ]
+  },
+  "Dauerhafte Golems": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Golembauer": {
+    "source": [
+      "animatorium",
+      "magie3"
+    ]
+  },
+  "Synärethiker": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Niederhöllischer Schmied": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Homunculusbindung": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Alraunenbeere": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Alraunenschrei": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Blutkonserve": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Elixierspeicher": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Gefahrenkompass": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Giftabsorption": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Giftmanipulation": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Giftübertragung": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Giftwirkung pausieren": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Heilendes Raunen": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Homunculusanalyse": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Homunculusfluch": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Homunculusspeise": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Homunculustherapie": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Ingredienz erspüren": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Körpertresor": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Meisterschüler": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Personalisiertes Unheil": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Ruhe der Gottlosen": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Automatentüftler": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Golemprägung": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Kontrollobjekt": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Tradition (Intuitive Zauberer)": {
+    "source": [
+      "animatorium",
+      "magie1",
+      "orcs",
+      "studyroom"
+    ]
+  },
+  "Fleischwunde": {
+    "source": [
+      "animatorium",
+      "compendium"
+    ]
+  },
+  "Letzte Reserve": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Prophezeihung": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Schicksalsmacht": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Unverstellter Blick": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Bastler": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Konstruktsimulacrum": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Magischer Meisterkonstrukteur": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Mechanopathische Automaten": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Zauberbindung": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Angriff auf ungeschützte Stellen": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Flugangriff": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Trampeln": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Überrennen": {
+    "source": [
+      "animatorium",
+      "bestiary",
+      "companions",
+      "nekromanthaeum",
+      "orcs",
+      "pandaemonium",
+      "transmutarium",
+      "warringkingdoms"
+    ]
+  },
+  "Verbeißen": {
+    "source": [
+      "animatorium",
+      "bestiary",
+      "core",
+      "pandaemonium",
+      "transmutarium"
     ]
   },
   "Ballistischer Schuss": {
@@ -370,6 +509,12 @@
       "compendium"
     ]
   },
+  "Betäubendes Geschoss": {
+    "source": [
+      "armory2",
+      "compendium2"
+    ]
+  },
   "Orientierung unter Tage": {
     "source": [
       "bannerofloyalty",
@@ -411,17 +556,6 @@
       "transmutarium"
     ]
   },
-  "Überrennen": {
-    "source": [
-      "bestiary",
-      "companions",
-      "nekromanthaeum",
-      "orcs",
-      "pandaemonium",
-      "transmutarium",
-      "warringkingdoms"
-    ]
-  },
   "Unterwasserkampf": {
     "source": [
       "bestiary",
@@ -432,14 +566,6 @@
       "nekromanthaeum",
       "pandaemonium",
       "suncoast",
-      "transmutarium"
-    ]
-  },
-  "Verbeißen": {
-    "source": [
-      "bestiary",
-      "core",
-      "pandaemonium",
       "transmutarium"
     ]
   },
@@ -552,11 +678,6 @@
       "compendium"
     ]
   },
-  "Fleischwunde": {
-    "source": [
-      "compendium"
-    ]
-  },
   "Höhere Prophezeiung": {
     "source": [
       "compendium"
@@ -573,11 +694,6 @@
     ]
   },
   "Berittener Flugkampf": {
-    "source": [
-      "compendium"
-    ]
-  },
-  "Eisenhagel": {
     "source": [
       "compendium"
     ]
@@ -621,7 +737,8 @@
   },
   "Hruruzat": {
     "source": [
-      "compendium"
+      "compendium",
+      "steamingjungles"
     ]
   },
   "Marwan Sahib-Stil": {
@@ -654,6 +771,7 @@
       "compendium",
       "goetterwirken",
       "goetterwirken2",
+      "steamingjungles",
       "suncoast"
     ]
   },
@@ -730,6 +848,7 @@
   "Kraftanstrengung": {
     "source": [
       "compendium2",
+      "steamingjungles",
       "warringkingdoms"
     ]
   },
@@ -758,12 +877,6 @@
       "compendium2"
     ]
   },
-  "Kernschuss": {
-    "source": [
-      "compendium2",
-      "transmutarium"
-    ]
-  },
   "Klinge drehen": {
     "source": [
       "compendium2"
@@ -786,7 +899,8 @@
   },
   "Schildschlag": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "steamingjungles"
     ]
   },
   "Umwickeln": {
@@ -904,11 +1018,6 @@
       "compendium2"
     ]
   },
-  "Machtvoller Kernschuss": {
-    "source": [
-      "compendium2"
-    ]
-  },
   "Meister elfischer Waffen": {
     "source": [
       "compendium2"
@@ -922,6 +1031,7 @@
   "Nervös machen": {
     "source": [
       "compendium2",
+      "steamingjungles",
       "suncoast"
     ]
   },
@@ -956,6 +1066,112 @@
     ]
   },
   "Heilungsspezialgebiet (Zahnbehandlung)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Nachladespezialist (Armbrüste)": {
+    "source": [
+      "compendium2",
+      "steamingjungles"
+    ]
+  },
+  "Nachladespezialist (Bögen)": {
+    "source": [
+      "compendium2",
+      "steamingjungles"
+    ]
+  },
+  "Nachladespezialist (Diskusse)": {
+    "source": [
+      "compendium2",
+      "steamingjungles"
+    ]
+  },
+  "Nachladespezialist (Wurfwaffen)": {
+    "source": [
+      "compendium2",
+      "steamingjungles"
+    ]
+  },
+  "Nachladespezialist (Blasrohre)": {
+    "source": [
+      "compendium2",
+      "steamingjungles"
+    ]
+  },
+  "Nachladespezialist (Schleudern)": {
+    "source": [
+      "compendium2",
+      "steamingjungles"
+    ]
+  },
+  "Weg des Offiziers": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Weg der Wandergesellin": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Azilajid-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Efferdanez-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Eslamsgrund-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Festum-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Havena-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Hornissenschwarm-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Leddici-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Methumis-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Punin-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Sippenkrieger-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Soldaten-Stil": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Hruruzat-Stil": {
     "source": [
       "compendium2"
     ]
@@ -1009,6 +1225,7 @@
       "desertkingdom",
       "magie3",
       "orcs",
+      "steamingjungles",
       "studyroom"
     ]
   },
@@ -1018,12 +1235,6 @@
       "magie1",
       "studyroom",
       "suncoast"
-    ]
-  },
-  "Bann des Übernatürlichen": {
-    "source": [
-      "desertkingdom",
-      "magie1"
     ]
   },
   "Ohrenbetäubender Klang": {
@@ -1044,13 +1255,6 @@
       "magie1"
     ]
   },
-  "Tradition (Zaubertänzer)": {
-    "source": [
-      "desertkingdom",
-      "magie1",
-      "studyroom"
-    ]
-  },
   "Faszinierende Kleidung": {
     "source": [
       "desertkingdom",
@@ -1069,10 +1273,18 @@
       "magie1"
     ]
   },
-  "Tradition (Ferkinaschamanen)": {
+  "Kreisende Wurfwaffe": {
     "source": [
       "desertkingdom",
-      "goetterwirken2"
+      "magie3"
+    ]
+  },
+  "Scharfe Klinge": {
+    "source": [
+      "desertkingdom",
+      "magie3",
+      "orcs",
+      "steamingjungles"
     ]
   },
   "Tradition (Elementare)": {
@@ -1434,18 +1646,6 @@
       "goetterwirken"
     ]
   },
-  "Improvisierte Liturgie (Gebet)": {
-    "source": [
-      "goetterwirken",
-      "suncoast"
-    ]
-  },
-  "Improvisierte Liturgie (Gesten)": {
-    "source": [
-      "goetterwirken",
-      "suncoast"
-    ]
-  },
   "Klarer Blick": {
     "source": [
       "goetterwirken"
@@ -1620,7 +1820,8 @@
   },
   "Omen": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "steamingjungles"
     ]
   },
   "Mantikor-Stil": {
@@ -1720,7 +1921,8 @@
   },
   "Großer Festritus": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Heiliger Karmalleib": {
@@ -1781,7 +1983,8 @@
   },
   "Geisterführer": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Körperkontrolle": {
@@ -1856,12 +2059,79 @@
   },
   "Bannmeister": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Aussaugen": {
     "source": [
       "goetterwirken2"
+    ]
+  },
+  "Tradition (Necker)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Seelotse (Region)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Wissen um Gwen Petryl-Fundstätten (Geheimwissen)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Standort des geheimen Havener Phextempel (Geheimwissen)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Schmugglerroute Nebelpfad kennen (Geheimwissen)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Schmugglerroute Silberpfad kennen (Geheimwissen)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Wissen um Lata und Yonahoh (Geheimwissen)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Fehlerhaftes Schwarzes Auge in Nahemas Turm (Geheimwissen)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Herrschaft über Ungeheuer": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Fauliger Wasserstrahl": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Dämonischer Panzer": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Wasseratmung": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
+  "Wasserlunge": {
+    "source": [
+      "havena"
     ]
   },
   "Aufbewahrung": {
@@ -1885,13 +2155,6 @@
     "source": [
       "magie1",
       "magie3",
-      "studyroom"
-    ]
-  },
-  "Tradition (Intuitive Zauberer)": {
-    "source": [
-      "magie1",
-      "orcs",
       "studyroom"
     ]
   },
@@ -2018,16 +2281,6 @@
     ]
   },
   "Störfeld": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Wachendes Auge": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Warnendes Leuchten": {
     "source": [
       "magie1"
     ]
@@ -2207,16 +2460,6 @@
       "warringkingdoms"
     ]
   },
-  "Improvisationszauberei (Formel)": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Improvisationszauberei (Gesten)": {
-    "source": [
-      "magie1"
-    ]
-  },
   "Improvisiertes Ritual": {
     "source": [
       "magie1",
@@ -2382,6 +2625,7 @@
   "Meisterliches Auraverbergen": {
     "source": [
       "magie1",
+      "steamingjungles",
       "warringkingdoms"
     ]
   },
@@ -2409,6 +2653,48 @@
   "Verständigungszauberer": {
     "source": [
       "magie1"
+    ]
+  },
+  "Tierwandlung - Echsenpfad Chamäleon": {
+    "source": [
+      "magie1",
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Echsenpfad Speikobra": {
+    "source": [
+      "magie1",
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Nagerpfad Eichhörnchen": {
+    "source": [
+      "magie1",
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Nagerpfad Biber": {
+    "source": [
+      "magie1",
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Vogelpfad Taube": {
+    "source": [
+      "magie1",
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tierwandlung - Vogelpfad Rabe": {
+    "source": [
+      "magie1",
+      "magie3",
+      "studyroom"
     ]
   },
   "Tradition (Schelme)": {
@@ -2590,6 +2876,7 @@
   "Materielle Verbindung": {
     "source": [
       "magie2",
+      "steamingjungles",
       "warringkingdoms"
     ]
   },
@@ -2651,7 +2938,8 @@
   },
   "Geisterseherinnen (Schwarze Witwen)": {
     "source": [
-      "magie2"
+      "magie2",
+      "steamingjungles"
     ]
   },
   "Rächerinnen Lycosas (Schwarze Witwen)": {
@@ -2671,7 +2959,8 @@
   },
   "Reisende (Fahrende Schwester)": {
     "source": [
-      "magie2"
+      "magie2",
+      "steamingjungles"
     ]
   },
   "Wahrsagerinnen (Fahrende Schwester)": {
@@ -2707,7 +2996,8 @@
   },
   "Sumpfhexen (Tochter der Erde)": {
     "source": [
-      "magie2"
+      "magie2",
+      "steamingjungles"
     ]
   },
   "Alchimieanalytiker": {
@@ -2733,12 +3023,14 @@
   },
   "Giftmeisterin": {
     "source": [
-      "magie2"
+      "magie2",
+      "steamingjungles"
     ]
   },
   "Langer Fluch": {
     "source": [
-      "magie2"
+      "magie2",
+      "steamingjungles"
     ]
   },
   "Liebeszauberei": {
@@ -2840,24 +3132,15 @@
   "Eins mit der Waffe": {
     "source": [
       "magie3",
-      "orcs"
+      "orcs",
+      "steamingjungles"
     ]
   },
   "Kampfglück": {
     "source": [
       "magie3",
-      "orcs"
-    ]
-  },
-  "Kreisende Wurfwaffe": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Scharfe Klinge": {
-    "source": [
-      "magie3",
-      "orcs"
+      "orcs",
+      "steamingjungles"
     ]
   },
   "Flug des Dolches": {
@@ -3095,11 +3378,6 @@
       "warringkingdoms"
     ]
   },
-  "Golembauer": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Exzellenter Entschwörer": {
     "source": [
       "magie3"
@@ -3324,11 +3602,6 @@
     ]
   },
   "Erhebung von Wasserleichen": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Wasseratmung": {
     "source": [
       "magie3"
     ]
@@ -3578,42 +3851,6 @@
       "magie3"
     ]
   },
-  "Tierwandlung - Echsenpfad Chamäleon": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
-  "Tierwandlung - Echsenpfad Speikobra": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
-  "Tierwandlung - Nagerpfad Eichhörnchen": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
-  "Tierwandlung - Nagerpfad Biber": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
-  "Tierwandlung - Vogelpfad Taube": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
-  "Tierwandlung - Vogelpfad Rabe": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
   "Kampftrinker": {
     "source": [
       "mastertools"
@@ -3721,12 +3958,28 @@
   },
   "Erhöhte Verteidigung": {
     "source": [
-      "sharedStuff"
+      "shared"
     ]
   },
   "Reduzierte Verteidigung": {
     "source": [
-      "sharedStuff"
+      "shared"
+    ]
+  },
+  "Geisterkrieger-Stil": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Tradition (Darna)": {
+    "source": [
+      "steamingjungles",
+      "studyroom"
+    ]
+  },
+  "Tradition (Tahaya-Schamanen)": {
+    "source": [
+      "steamingjungles"
     ]
   },
   "Reversalis ()": {
@@ -3735,11 +3988,6 @@
     ]
   },
   "Tradition (Borbaradianer)": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Tradition (Darna)": {
     "source": [
       "studyroom"
     ]
@@ -3755,6 +4003,41 @@
     ]
   },
   "Tradition (Ysilische Bannzeichner)": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Scholar des Halib abu’l Ketab": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Scholar aus Mendena": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Scholar der Erben der Gräber": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Zauberkraft des Hains": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Goblinheilerin": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Hofzauberer": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Gegnerische Zauberpraxis (Element)": {
     "source": [
       "studyroom"
     ]
@@ -3784,37 +4067,12 @@
       "suncoast"
     ]
   },
-  "Weg der Bognerin": {
+  "Tradition (Feen)": {
     "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Weg des Deichbauers": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Handwerkskunst": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Routinierte Praxis": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Virtuose Wettervorhersage": {
-    "source": [
-      "warringkingdoms"
+      "suncoast"
     ]
   },
   "Seenritter-Stil": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Waldritter-Stil": {
     "source": [
       "warringkingdoms"
     ]
@@ -3825,11 +4083,6 @@
     ]
   },
   "Machtvolle verbotene Pforten": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Deichbauer": {
     "source": [
       "warringkingdoms"
     ]

@@ -5,17 +5,6 @@
       "orcs"
     ]
   },
-  "Natürliche Waffe (Biss)": {
-    "source": [
-      "achaz",
-      "orcs"
-    ]
-  },
-  "Natürliche Waffe (Schwanz)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Basiliskentöter": {
     "source": [
       "bestiary"
@@ -59,21 +48,6 @@
   "Trendeln": {
     "source": [
       "companions"
-    ]
-  },
-  "Hitzeresistenz": {
-    "source": [
-      "core"
-    ]
-  },
-  "Immunität gegen (Gift)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Kälteresistenz": {
-    "source": [
-      "core"
     ]
   },
   "Mystiker": {
@@ -191,6 +165,11 @@
     ]
   },
   "Schnell wieder auf den Beinen": {
+    "source": [
+      "mastertools"
+    ]
+  },
+  "Allerweltsname": {
     "source": [
       "mastertools"
     ]

@@ -13,13 +13,8 @@
   "Nebelschwaden": {
     "source": [
       "achaz",
-      "goetterwirken"
-    ]
-  },
-  "Rat der Ahnen": {
-    "source": [
-      "achaz",
-      "goetterwirken2"
+      "goetterwirken",
+      "havena"
     ]
   },
   "Schlangengestalt": {
@@ -55,7 +50,8 @@
   },
   "Delphingestalt": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "havena"
     ]
   },
   "Eisbärgestalt": {
@@ -90,7 +86,8 @@
   },
   "Guter Fang": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "havena"
     ]
   },
   "Heiliger Schwur": {
@@ -217,11 +214,6 @@
       "goetterwirken2"
     ]
   },
-  "Geistersprache": {
-    "source": [
-      "goetterwirken2"
-    ]
-  },
   "Göttliche Präzision": {
     "source": [
       "goetterwirken2"
@@ -275,7 +267,8 @@
   },
   "Schlangenfluch": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Schmetterlingsgestalt": {
@@ -315,7 +308,8 @@
   },
   "Jaguargestalt": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Gnade des Vergessens": {

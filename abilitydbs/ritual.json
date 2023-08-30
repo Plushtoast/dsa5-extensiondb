@@ -1,4 +1,24 @@
 {
+  "Animatio": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Transmutare": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Planastrale": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Caldofrigo": {
+    "source": [
+      "animatorium"
+    ]
+  },
   "Arcanovi": {
     "source": [
       "core"
@@ -31,25 +51,7 @@
       "magie1"
     ]
   },
-  "Tanz der Erlösung": {
-    "source": [
-      "desertkingdom",
-      "magie1"
-    ]
-  },
-  "Tanz der Linderung": {
-    "source": [
-      "desertkingdom",
-      "magie1"
-    ]
-  },
   "Tanz der Unantastbarkeit": {
-    "source": [
-      "desertkingdom",
-      "magie1"
-    ]
-  },
-  "Tanz der Wahrheit": {
     "source": [
       "desertkingdom",
       "magie1"
@@ -316,11 +318,6 @@
     "source": [
       "magie2",
       "suncoast"
-    ]
-  },
-  "Nekropathia": {
-    "source": [
-      "magie2"
     ]
   },
   "Nihilogravo": {
