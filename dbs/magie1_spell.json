@@ -1787,7 +1787,7 @@
       "changes": [
         {
           "key": "system.effectFormula.value",
-          "mode": 5,
+          "mode": 2,
           "value": "+2"
         }
       ]
