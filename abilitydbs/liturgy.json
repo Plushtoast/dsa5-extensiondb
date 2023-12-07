@@ -8,7 +8,8 @@
     "source": [
       "achaz",
       "goetterwirken",
-      "havena"
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Schlangenruf": {
@@ -32,6 +33,17 @@
     "source": [
       "achaz",
       "goetterwirken"
+    ]
+  },
+  "Geldwechsel": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Doppelgänger": {
+    "source": [
+      "aranien",
+      "goetterwirken2"
     ]
   },
   "Geist des Strategen": {
@@ -168,7 +180,8 @@
   "Heilsame Quelle": {
     "source": [
       "goetterwirken",
-      "havena"
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Liturgieschild": {
@@ -196,17 +209,13 @@
   "Unterwasseratmung": {
     "source": [
       "goetterwirken",
-      "havena"
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Versteinerung": {
     "source": [
       "goetterwirken"
-    ]
-  },
-  "Doppelgänger": {
-    "source": [
-      "goetterwirken2"
     ]
   },
   "Entstelltes Antlitz": {
@@ -304,6 +313,21 @@
   "Zwergenmacht": {
     "source": [
       "goetterwirken2"
+    ]
+  },
+  "Bannzone": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterblick": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterfalle": {
+    "source": [
+      "incorporealhorrors"
     ]
   },
   "Nebelkrähenschwarm": {

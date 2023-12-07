@@ -3,6 +3,7 @@
     "source": [
       "animatorium",
       "core",
+      "incorporealhorrors",
       "magie1"
     ]
   },
@@ -40,6 +41,51 @@
       "elementarium",
       "magie3",
       "pandaemonium2"
+    ]
+  },
+  "Auris Illusionis": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Hellsichtbann": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Hexenspeichel": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Illusionsbann": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Manus Illusionis": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Memorans": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Reflectimago": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Schmerzen lindern": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Skelettarius": {
+    "source": [
+      "aranien"
     ]
   },
   "Analys Arkanstruktur": {
@@ -213,6 +259,7 @@
     "source": [
       "havena",
       "magie3",
+      "sevenwindscoast",
       "studyroom",
       "warringkingdoms"
     ]
@@ -231,6 +278,68 @@
       "pandaemonium"
     ]
   },
+  "Alptraumbote": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Besessenheit": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Dunkle Flammen": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Heimsuchung": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Manifestation": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Phantasma": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Todesgesang": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Debilitatio": {
+    "source": [
+      "incorporealhorrors",
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Geisteressenz": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Heptagramma": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Horriphobus": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Motoricus": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
   "Ablativum": {
     "source": [
       "magie1",
@@ -245,12 +354,6 @@
     ]
   },
   "Dämonenschild": {
-    "source": [
-      "magie1",
-      "studyroom"
-    ]
-  },
-  "Debilitatio": {
     "source": [
       "magie1",
       "studyroom"

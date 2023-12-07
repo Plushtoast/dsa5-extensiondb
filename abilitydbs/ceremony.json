@@ -14,13 +14,20 @@
     "source": [
       "achaz",
       "goetterwirken",
-      "havena"
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Schlangengestalt": {
     "source": [
       "achaz",
       "goetterwirken"
+    ]
+  },
+  "Mungogestalt": {
+    "source": [
+      "aranien",
+      "goetterwirken2"
     ]
   },
   "Geweihter Panzer": {
@@ -51,7 +58,8 @@
   "Delphingestalt": {
     "source": [
       "goetterwirken",
-      "havena"
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Eisbärgestalt": {
@@ -87,7 +95,8 @@
   "Guter Fang": {
     "source": [
       "goetterwirken",
-      "havena"
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Heiliger Schwur": {
@@ -112,7 +121,8 @@
   },
   "Kleine Moralstärkung": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "sevenwindscoast"
     ]
   },
   "Liturgieabsorption": {
@@ -255,11 +265,6 @@
       "goetterwirken2"
     ]
   },
-  "Mungogestalt": {
-    "source": [
-      "goetterwirken2"
-    ]
-  },
   "Schaffenskraft": {
     "source": [
       "goetterwirken2"
@@ -310,6 +315,26 @@
     "source": [
       "goetterwirken2",
       "steamingjungles"
+    ]
+  },
+  "Exorzismus": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geistersprache": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Machtvoller Exorzismus": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Rat der Ahnen": {
+    "source": [
+      "incorporealhorrors"
     ]
   },
   "Gnade des Vergessens": {

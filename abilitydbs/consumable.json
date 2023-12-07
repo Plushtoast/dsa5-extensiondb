@@ -29,7 +29,8 @@
   },
   "Waffenbalsam": {
     "source": [
-      "core"
+      "core",
+      "incorporealhorrors"
     ]
   },
   "Bannstaub": {
@@ -80,7 +81,8 @@
   },
   "Tijakools Hauch": {
     "source": [
-      "herbarium"
+      "herbarium",
+      "incorporealhorrors"
     ]
   },
   "Atanax": {
@@ -226,7 +228,8 @@
   },
   "Bannkreide": {
     "source": [
-      "herbarium2"
+      "herbarium2",
+      "incorporealhorrors"
     ]
   },
   "Berserkerelixier": {
@@ -338,6 +341,11 @@
   "Zwölftee": {
     "source": [
       "herbarium2"
+    ]
+  },
+  "Beschwörungskreide": {
+    "source": [
+      "incorporealhorrors"
     ]
   },
   "Schwadenbeutel": {

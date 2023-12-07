@@ -27,7 +27,8 @@
   "Formationsparade": {
     "source": [
       "achaz",
-      "compendium2"
+      "compendium2",
+      "sevenwindscoast"
     ]
   },
   "Offensives Verhalten": {
@@ -450,6 +451,83 @@
       "transmutarium"
     ]
   },
+  "Tradition (Qabalyamagier)": {
+    "source": [
+      "aranien",
+      "magie1",
+      "magie3",
+      "studyroom"
+    ]
+  },
+  "Tradition (Zaubertänzer)": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Bindung der Zauberkleidung": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Diebesgewand": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Fesselnde Gewandung": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Fokus der Begierde": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Gewand der Beeinflussung": {
+    "source": [
+      "aranien",
+      "desertkingdom",
+      "magie1"
+    ]
+  },
+  "Schmutzabweisend": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Belkelels Ekstase": {
+    "source": [
+      "aranien",
+      "magie3"
+    ]
+  },
+  "Brünstigkeit erzeugen": {
+    "source": [
+      "aranien",
+      "magie3"
+    ]
+  },
+  "Lange Nägel": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Peitschenhieb": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Schönheit der Dar-Klajid": {
+    "source": [
+      "aranien",
+      "magie3"
+    ]
+  },
   "Ballistischer Schuss": {
     "source": [
       "armory",
@@ -460,7 +538,8 @@
     "source": [
       "armory",
       "armory2",
-      "compendium"
+      "compendium",
+      "sevenwindscoast"
     ]
   },
   "Vorbeiziehen": {
@@ -481,7 +560,8 @@
   "Wuchtiger Wurf": {
     "source": [
       "armory",
-      "compendium"
+      "compendium",
+      "sevenwindscoast"
     ]
   },
   "Auflaufen": {
@@ -500,19 +580,22 @@
       "armory2",
       "compendium",
       "goetterwirken",
-      "goetterwirken2"
+      "goetterwirken2",
+      "sevenwindscoast"
     ]
   },
   "Waffenwurf": {
     "source": [
       "armory2",
-      "compendium"
+      "compendium",
+      "sevenwindscoast"
     ]
   },
   "Betäubendes Geschoss": {
     "source": [
       "armory2",
-      "compendium2"
+      "compendium2",
+      "sevenwindscoast"
     ]
   },
   "Orientierung unter Tage": {
@@ -535,6 +618,7 @@
     "source": [
       "bannerofloyalty",
       "compendium2",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
@@ -665,6 +749,7 @@
   "Provozieren": {
     "source": [
       "compendium",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
@@ -771,6 +856,7 @@
       "compendium",
       "goetterwirken",
       "goetterwirken2",
+      "sevenwindscoast",
       "steamingjungles",
       "suncoast"
     ]
@@ -837,6 +923,7 @@
   "Faszinierende Darstellung": {
     "source": [
       "compendium2",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
@@ -863,11 +950,6 @@
     ]
   },
   "Heilkraft": {
-    "source": [
-      "compendium2"
-    ]
-  },
-  "Gegenhalten": {
     "source": [
       "compendium2"
     ]
@@ -970,7 +1052,8 @@
   },
   "Winhall-Stil": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "sevenwindscoast"
     ]
   },
   "Xorlosch-Stil": {
@@ -985,7 +1068,8 @@
   },
   "Aufliegende Klinge": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "sevenwindscoast"
     ]
   },
   "Blattschuss": {
@@ -995,7 +1079,8 @@
   },
   "Drehschlag": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "sevenwindscoast"
     ]
   },
   "Drehwurf": {
@@ -1010,7 +1095,8 @@
   },
   "Formationsattacke": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "sevenwindscoast"
     ]
   },
   "Geschickter Wurf": {
@@ -1138,7 +1224,9 @@
   },
   "Havena-Stil": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Hornissenschwarm-Stil": {
@@ -1201,13 +1289,6 @@
       "core"
     ]
   },
-  "Tradition (Elfen)": {
-    "source": [
-      "core",
-      "magie2",
-      "studyroom"
-    ]
-  },
   "Tradition (Praioskirche)": {
     "source": [
       "core",
@@ -1233,6 +1314,7 @@
     "source": [
       "desertkingdom",
       "magie1",
+      "sevenwindscoast",
       "studyroom",
       "suncoast"
     ]
@@ -1240,19 +1322,22 @@
   "Ohrenbetäubender Klang": {
     "source": [
       "desertkingdom",
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Brechender Fels": {
     "source": [
       "desertkingdom",
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Störgeräusch": {
     "source": [
       "desertkingdom",
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Faszinierende Kleidung": {
@@ -1262,12 +1347,6 @@
     ]
   },
   "Gewand der Heilung": {
-    "source": [
-      "desertkingdom",
-      "magie1"
-    ]
-  },
-  "Gewand der Beeinflussung": {
     "source": [
       "desertkingdom",
       "magie1"
@@ -1324,7 +1403,8 @@
   },
   "Macht der Pflanzen": {
     "source": [
-      "elementarium"
+      "elementarium",
+      "sevenwindscoast"
     ]
   },
   "Macht wider Dämonen": {
@@ -1334,7 +1414,8 @@
   },
   "Ruf des Waldes": {
     "source": [
-      "elementarium"
+      "elementarium",
+      "sevenwindscoast"
     ]
   },
   "Verformung des Elements": {
@@ -1394,7 +1475,8 @@
   },
   "Flug des Dreizacks": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "sevenwindscoast"
     ]
   },
   "Kräftigende Mahlzeit": {
@@ -1690,7 +1772,8 @@
   },
   "Flusswächter": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "sevenwindscoast"
     ]
   },
   "Graugänse": {
@@ -1798,7 +1881,8 @@
   },
   "Kältegewöhnung": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "sevenwindscoast"
     ]
   },
   "Krankheitskenntnis": {
@@ -1809,18 +1893,21 @@
   "Langanhaltender Segen": {
     "source": [
       "goetterwirken",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
   "Missionierung": {
     "source": [
       "goetterwirken",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
   "Omen": {
     "source": [
       "goetterwirken",
+      "sevenwindscoast",
       "steamingjungles"
     ]
   },
@@ -1911,7 +1998,8 @@
   },
   "Geisterschreck": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "incorporealhorrors"
     ]
   },
   "Golemschreck": {
@@ -2070,7 +2158,8 @@
   },
   "Tradition (Necker)": {
     "source": [
-      "havena"
+      "havena",
+      "sevenwindscoast"
     ]
   },
   "Seelotse (Region)": {
@@ -2083,42 +2172,7 @@
       "havena"
     ]
   },
-  "Standort des geheimen Havener Phextempel (Geheimwissen)": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Schmugglerroute Nebelpfad kennen (Geheimwissen)": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Schmugglerroute Silberpfad kennen (Geheimwissen)": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Wissen um Lata und Yonahoh (Geheimwissen)": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Fehlerhaftes Schwarzes Auge in Nahemas Turm (Geheimwissen)": {
-    "source": [
-      "havena"
-    ]
-  },
   "Herrschaft über Ungeheuer": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Fauliger Wasserstrahl": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Dämonischer Panzer": {
     "source": [
       "havena"
     ]
@@ -2146,16 +2200,79 @@
       "herbarium2"
     ]
   },
+  "Tradition (Geister)": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterrettung": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterhafte Tarnung": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterflug": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterpanzer": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geistersicht": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterstärke": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterwaffe": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Bindung (Geister)": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Entschwörung (Geister)": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Machtvolle Entschwörung (Geister)": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Rudelbeschwörung (Geister)": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Zirkelmeister (Geister)": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Furcht nehmen": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
   "Tradition (Nachtalben)": {
     "source": [
       "klingendernacht"
-    ]
-  },
-  "Tradition (Qabalyamagier)": {
-    "source": [
-      "magie1",
-      "magie3",
-      "studyroom"
     ]
   },
   "Tradition (Scharlatane)": {
@@ -2303,72 +2420,67 @@
   "Emotionsübernahme": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
   "Fokus der Aufmerksamkeit": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Hilferuf": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
   "Klangillusion": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Langanhaltender Rhythmus": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Machtvoller Instrumentzauber": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Viele Instrumente": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Weiter Klang": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
   "Zerspringendes Glas": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Zugabe": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Besitzanspruch": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Diebesgewand": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Fesselnde Gewandung": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Fokus der Begierde": {
     "source": [
       "magie1"
     ]
@@ -2389,11 +2501,6 @@
     ]
   },
   "Machtvoller Gewandzauber": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Schmutzabweisend": {
     "source": [
       "magie1"
     ]
@@ -2602,6 +2709,7 @@
   "Harmoniezauberei": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "studyroom"
     ]
   },
@@ -3421,7 +3529,8 @@
   },
   "Scholar des Magierkollegs zu Honingen": {
     "source": [
-      "magie3"
+      "magie3",
+      "sevenwindscoast"
     ]
   },
   "Brecher des Willens": {
@@ -3488,7 +3597,8 @@
   },
   "Mehr Glück als Verstand": {
     "source": [
-      "magie3"
+      "magie3",
+      "sevenwindscoast"
     ]
   },
   "Untotenmeister": {
@@ -3761,21 +3871,6 @@
       "magie3"
     ]
   },
-  "Belkelels Ekstase": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Brünstigkeit erzeugen": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Schönheit der Dar-Klajid": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Katzen rufen": {
     "source": [
       "magie3"
@@ -3856,11 +3951,6 @@
       "mastertools"
     ]
   },
-  "Backpfeifen-Sturm": {
-    "source": [
-      "mastertools"
-    ]
-  },
   "Durch die Wand": {
     "source": [
       "mastertools"
@@ -3871,54 +3961,33 @@
       "mastertools"
     ]
   },
-  "Kneipen-Blutgrätsche": {
-    "source": [
-      "mastertools"
-    ]
-  },
-  "Kneipen-Geschossabwehr": {
-    "source": [
-      "mastertools"
-    ]
-  },
   "Kneipen-Kopfstoß": {
-    "source": [
-      "mastertools"
-    ]
-  },
-  "Köpfe Aneinanderschlagen": {
-    "source": [
-      "mastertools"
-    ]
-  },
-  "Schlag auf den Kopf": {
-    "source": [
-      "mastertools"
-    ]
-  },
-  "Tür gegen den Kopf Knallen": {
     "source": [
       "mastertools"
     ]
   },
   "Bund der Gefühle": {
     "source": [
-      "negotiationpeace"
+      "negotiationpeace",
+      "sevenwindscoast"
     ]
   },
   "Kiemen des Barschs": {
     "source": [
-      "negotiationpeace"
+      "negotiationpeace",
+      "sevenwindscoast"
     ]
   },
   "Salbung der Haut": {
     "source": [
-      "negotiationpeace"
+      "negotiationpeace",
+      "sevenwindscoast"
     ]
   },
   "Weg durch den Fluss": {
     "source": [
-      "negotiationpeace"
+      "negotiationpeace",
+      "sevenwindscoast"
     ]
   },
   "Olochtai-Stil": {
@@ -3954,6 +4023,77 @@
   "Tradition (Dämonen)": {
     "source": [
       "pandaemonium2"
+    ]
+  },
+  "Tradition (Hochelfen)": {
+    "source": [
+      "rahjasservants"
+    ]
+  },
+  "Distelritter-Stil": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Seesoldaten-Stil": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Sippenkrieger-Stil des Windhags": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Scharfes Instrument": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Gebieter/in der Wogen": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Gebieter/in des Winds": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Kontrolle des Wassers": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Tradition (Feen)": {
+    "source": [
+      "sevenwindscoast",
+      "suncoast"
+    ]
+  },
+  "Bann des Übernatürlichen": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Auge der Fee": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Dunkles Abbild der Bündnisgabe": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Im Schatten der Bäume": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Düsternis der Anderswelt": {
+    "source": [
+      "sevenwindscoast"
     ]
   },
   "Erhöhte Verteidigung": {
@@ -4063,11 +4203,6 @@
     ]
   },
   "Stille Wanderer": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Tradition (Feen)": {
     "source": [
       "suncoast"
     ]

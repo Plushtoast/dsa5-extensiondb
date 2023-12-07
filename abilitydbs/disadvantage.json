@@ -83,6 +83,7 @@
   "Verminderte Zaubermelodien": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
@@ -99,6 +100,11 @@
   "Böser Namensvetter": {
     "source": [
       "mastertools"
+    ]
+  },
+  "Lästige Blütenfeen": {
+    "source": [
+      "sevenwindscoast"
     ]
   },
   "Scholar/Scholarin (Magischer Rang)": {

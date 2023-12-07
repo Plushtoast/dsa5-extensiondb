@@ -141,6 +141,7 @@
   "Weitreichende Zaubermelodien": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
@@ -172,6 +173,91 @@
   "Allerweltsname": {
     "source": [
       "mastertools"
+    ]
+  },
+  "Koboldfreund": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Feenblut (Blütenfee)": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Feenblut (Nixer)": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Feenblut (Dryade)": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Feenblut (Großer Eberbiestinger)": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Animalische Kraft": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Blumenduft": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Dickes Fell": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Einblicke ins Verborgene": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Glatte Haut": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Harmonie des Waldes": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Kraft der Bäume": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Leichter Gang": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Seesprache": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Tierische Kampfgefährten": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Verführerische Gestalt": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Wasser des Lebens": {
+    "source": [
+      "sevenwindscoast"
     ]
   },
   "Hass auf (Andergaster)": {

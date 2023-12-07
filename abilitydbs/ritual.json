@@ -19,6 +19,82 @@
       "animatorium"
     ]
   },
+  "Tanz der Bilder": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Tanz der Erlösung": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Tanz der Wacht": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Tanz des Begehrens": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Tanz des Jagdglücks": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Blick in die Vergangenheit": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Körperlose Reise": {
+    "source": [
+      "aranien",
+      "magie2",
+      "suncoast"
+    ]
+  },
+  "Leidensbund": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Levthans Feuer": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Nekropathia": {
+    "source": [
+      "aranien",
+      "incorporealhorrors"
+    ]
+  },
+  "Ruhe Körper": {
+    "source": [
+      "aranien",
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Widerwille": {
+    "source": [
+      "aranien",
+      "magie1"
+    ]
+  },
+  "Zauberschnurren": {
+    "source": [
+      "aranien",
+      "magie2",
+      "pandaemonium2"
+    ]
+  },
   "Arcanovi": {
     "source": [
       "core"
@@ -42,13 +118,15 @@
   "Melodie der Heilung": {
     "source": [
       "desertkingdom",
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Melodie des Magieschadens": {
     "source": [
       "desertkingdom",
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Tanz der Unantastbarkeit": {
@@ -104,6 +182,21 @@
       "herbarium"
     ]
   },
+  "Geisterbeschwörung": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterruf": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Verrücktes Kichern": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
   "Kakophonie des Wahnsinns": {
     "source": [
       "klingendernacht"
@@ -131,23 +224,27 @@
   },
   "Melodie der Angriffslust": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Melodie der Erlösung": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Melodie der Feen": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
   "Melodie der Freundschaft": {
     "source": [
       "magie1",
+      "sevenwindscoast",
       "suncoast"
     ]
   },
@@ -163,7 +260,8 @@
   },
   "Melodie des Handels": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Melodie des Windes": {
@@ -173,15 +271,11 @@
   },
   "Melodie des Zögerns": {
     "source": [
-      "magie1"
+      "magie1",
+      "sevenwindscoast"
     ]
   },
   "Tanz der Angriffslust": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Tanz der Bilder": {
     "source": [
       "magie1"
     ]
@@ -211,11 +305,6 @@
       "magie1"
     ]
   },
-  "Tanz der Wacht": {
-    "source": [
-      "magie1"
-    ]
-  },
   "Tanz des Feuers": {
     "source": [
       "magie1"
@@ -231,23 +320,7 @@
       "magie1"
     ]
   },
-  "Leidensbund": {
-    "source": [
-      "magie1"
-    ]
-  },
   "Magischer Raub": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Ruhe Körper": {
-    "source": [
-      "magie1",
-      "studyroom"
-    ]
-  },
-  "Widerwille": {
     "source": [
       "magie1"
     ]
@@ -314,12 +387,6 @@
       "magie2"
     ]
   },
-  "Körperlose Reise": {
-    "source": [
-      "magie2",
-      "suncoast"
-    ]
-  },
   "Nihilogravo": {
     "source": [
       "magie2",
@@ -340,12 +407,6 @@
   "Zaubernahrung": {
     "source": [
       "magie2"
-    ]
-  },
-  "Zauberschnurren": {
-    "source": [
-      "magie2",
-      "pandaemonium2"
     ]
   },
   "Ausbruch unterdrückter Gefühle": {

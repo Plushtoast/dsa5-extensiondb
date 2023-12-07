@@ -47,6 +47,7 @@
     "source": [
       "animatorium",
       "elementarium",
+      "incorporealhorrors",
       "magie3",
       "nekromanthaeum",
       "pandaemonium",
@@ -65,7 +66,8 @@
   },
   "Tarnung": {
     "source": [
-      "animatorium"
+      "animatorium",
+      "incorporealhorrors"
     ]
   },
   "Verbindung zum Erschaffer": {
@@ -82,6 +84,7 @@
     "source": [
       "animatorium",
       "elementarium",
+      "incorporealhorrors",
       "magie3",
       "nekromanthaeum",
       "pandaemonium",
@@ -166,6 +169,7 @@
   "Ausweichen in den Limbus": {
     "source": [
       "elementarium",
+      "incorporealhorrors",
       "magie3",
       "pandaemonium"
     ]
@@ -173,6 +177,7 @@
   "Resistenz gegen göttliches Wirken": {
     "source": [
       "elementarium",
+      "incorporealhorrors",
       "magie3",
       "nekromanthaeum",
       "pandaemonium",
@@ -232,6 +237,141 @@
   "Unauffällige Pflanzenchimäre": {
     "source": [
       "herbarium2"
+    ]
+  },
+  "Immunität gegen kritische Treffer": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Präsenz": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Regeneration": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Verbindung zum Beschwörer/Erschaffer": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Astraler Nachhall": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Bedrohliche Präsenz": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Besessenheit des Unbelebten": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Dunkle Nacht": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Entfesselt": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Entzug der Lebenskraft": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Ewige Präsenz": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterfresser": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterkontrolle": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Geisterpoltern": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Grabeskälte": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Hartnäckige Präsenz": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Karmaler Nachhall": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Macht des Jenseits": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Machtvoller Geist": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Manipulation des Unbelebten": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Opferung von Lebenskraft": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Ruheort": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Schreckgespenst": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Sog des Jenseits": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Niedere Geister": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Mittlere Geister": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Hohe Geister": {
+    "source": [
+      "incorporealhorrors"
     ]
   },
   "Diebstahl": {

@@ -1,10 +1,11 @@
 # Summary
-last_updated: 2023-09-04 12:08:02
+last_updated: 2023-11-10 08:31:21
 
 | Book | Status | % |
 | --- | --- | --- |
 | [Achaz](#achaz) | 66/118 | 55.93% |
 | [Animatorium](#animatorium) | 5/73 | 6.85% |
+| [Aranien](#aranien) | 1/39 | 2.56% |
 | [Armory](#armory) | 17/22 | 77.27% |
 | [Armory2](#armory2) | 18/25 | 72.0% |
 | [Bannerofloyalty](#bannerofloyalty) | 1/10 | 10.0% |
@@ -12,46 +13,50 @@ last_updated: 2023-09-04 12:08:02
 | [Bestiary2](#bestiary2) | 10/19 | 52.63% |
 | [Companions](#companions) | 80/111 | 72.07% |
 | [Compendium](#compendium) | 224/261 | 85.82% |
-| [Compendium2](#compendium2) | 224/305 | 73.44% |
-| [Core](#core) | 361/436 | 82.8% |
+| [Compendium2](#compendium2) | 225/305 | 73.77% |
+| [Core](#core) | 363/437 | 83.07% |
 | [Desertkingdom](#desertkingdom) | 39/60 | 65.0% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
 | [Goetterwirken](#goetterwirken) | 262/410 | 63.9% |
 | [Goetterwirken2](#goetterwirken2) | 214/316 | 67.72% |
-| [Havena](#havena) | 7/28 | 25.0% |
+| [Havena](#havena) | 14/29 | 48.28% |
 | [Herbarium](#herbarium) | 57/93 | 61.29% |
 | [Herbarium2](#herbarium2) | 31/70 | 44.29% |
+| [Incorporealhorrors](#incorporealhorrors) | 0/75 | 0.0% |
 | [Klingendernacht](#klingendernacht) | 6/14 | 42.86% |
 | [Magie1](#magie1) | 196/360 | 54.44% |
-| [Magie2](#magie2) | 193/344 | 56.1% |
+| [Magie2](#magie2) | 194/344 | 56.4% |
 | [Magie3](#magie3) | 148/367 | 40.33% |
-| [Mastertools](#mastertools) | 6/20 | 30.0% |
+| [Mastertools](#mastertools) | 12/20 | 60.0% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 65/81 | 80.25% |
 | [Orcs](#orcs) | 39/67 | 58.21% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
 | [Pandaemonium2](#pandaemonium2) | 16/24 | 66.67% |
+| [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
+| [Sevenwindscoast](#sevenwindscoast) | 47/141 | 33.33% |
 | [Shared](#shared) | 0/2 | 0.0% |
+| [Soms](#soms) | 2/2 | 100.0% |
 | [Steamingjungles](#steamingjungles) | 68/111 | 61.26% |
-| [Studyroom](#studyroom) | 128/209 | 61.24% |
+| [Studyroom](#studyroom) | 129/209 | 61.72% |
 | [Suncoast](#suncoast) | 86/136 | 63.24% |
 | [Transmutarium](#transmutarium) | 45/63 | 71.43% |
 | [Warringkingdoms](#warringkingdoms) | 46/93 | 49.46% |
 | --- | --- | --- |
-| Total | 2772/4430 | 62.57% |
+| Total | 2840/4690 | 60.55% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 136/177 | 76.84% |
-| Ceremony | 93/168 | 55.36% |
-| Consumable | 19/97 | 19.59% |
-| Disadvantage | 108/131 | 82.44% |
-| Liturgy | 202/275 | 73.45% |
-| Ritual | 131/246 | 53.25% |
-| Specialability | 1622/2607 | 62.22% |
-| Spell | 333/509 | 65.42% |
-| Trait | 128/220 | 58.18% |
+| Advantage | 137/196 | 69.9% |
+| Ceremony | 93/177 | 52.54% |
+| Consumable | 19/101 | 18.81% |
+| Disadvantage | 109/134 | 81.34% |
+| Liturgy | 207/288 | 71.88% |
+| Ritual | 138/278 | 49.64% |
+| Specialability | 1672/2728 | 61.29% |
+| Spell | 337/536 | 62.87% |
+| Trait | 128/252 | 50.79% |
 
 
 
@@ -286,6 +291,80 @@ Total status:  5/73 (6.85%)
 - [ ] Verbindung zum Erschaffer
 - [ ] Zerbersten
 - [ ] Zusätzliche Aktionen
+
+
+
+
+
+## Aranien
+Total status:  1/39 (2.56%)
+
+
+### Specialability
+
+- [ ] Tradition (Qabalyamagier)
+- [ ] Tradition (Zaubertänzer)
+- [ ] Bindung der Zauberkleidung
+- [ ] Diebesgewand
+- [ ] Fesselnde Gewandung
+- [ ] Fokus der Begierde
+- [ ] Gewand der Beeinflussung
+- [ ] Schmutzabweisend
+- [ ] Belkelels Ekstase
+- [ ] Brünstigkeit erzeugen
+- [ ] Lange Nägel
+- [ ] Peitschenhieb
+- [ ] Schönheit der Dar-Klajid
+
+
+### Liturgy
+
+- [ ] Geldwechsel
+- [ ] Doppelgänger
+
+
+### Ceremony
+
+- [ ] Mungogestalt
+
+
+### Spell
+
+- [ ] Auris Illusionis
+- [ ] Hellsichtbann
+- [ ] Hexenspeichel
+- [ ] Illusionsbann
+- [ ] Manus Illusionis
+- [ ] Memorans
+- [ ] Reflectimago
+- [ ] Schmerzen lindern
+- [ ] Skelettarius
+
+
+### Ritual
+
+- [ ] Tanz der Bilder
+- [ ] Tanz der Erlösung
+- [ ] Tanz der Wacht
+- [ ] Tanz des Begehrens
+- [ ] Tanz des Jagdglücks
+- [ ] Blick in die Vergangenheit
+- [ ] Körperlose Reise
+- [ ] Leidensbund
+- [ ] Levthans Feuer
+- [ ] Nekropathia
+- [ ] Ruhe Körper
+- [ ] Widerwille
+- [x] Xenographus
+- [ ] Zauberschnurren
+
+
+### Advantage
+
+
+
+### Disadvantage
+
 
 
 
@@ -746,7 +825,7 @@ Total status:  224/261 (85.82%)
 
 
 ## Compendium2
-Total status:  224/305 (73.44%)
+Total status:  225/305 (73.77%)
 
 
 ### Trait
@@ -916,7 +995,7 @@ Total status:  224/305 (73.44%)
 - [x] Ellbogenangriff
 - [x] Formation
 - [x] Gefechtsformation
-- [ ] Gegenhalten
+- [x] Gegenhalten
 - [ ] Geschossabwehr
 - [x] Grätsche
 - [x] Kernschuss
@@ -1070,7 +1149,7 @@ Total status:  224/305 (73.44%)
 
 
 ## Core
-Total status:  361/436 (82.8%)
+Total status:  363/437 (83.07%)
 
 
 ### Advantage
@@ -1217,6 +1296,7 @@ Total status:  361/436 (82.8%)
 - [x] Schlechte Eigenschaft (Spielsucht)
 - [x] Schlechte Eigenschaft (Verschwendungssucht)
 - [x] Unfähig ()
+- [x] Persönlichkeitsschwäche (Selbstzweifel)
 
 
 ### Spell
@@ -1437,7 +1517,7 @@ Total status:  361/436 (82.8%)
 - [x] Flugsalbe
 - [x] Tradition (Gildenmagier)
 - [x] Tradition (Hexen)
-- [ ] Tradition (Elfen)
+- [x] Tradition (Elfen)
 - [ ] Tradition (Praioskirche)
 - [x] Tradition (Rondrakirche)
 - [x] Tradition (Boronkirche)
@@ -2457,7 +2537,7 @@ Total status:  214/316 (67.72%)
 
 
 ## Havena
-Total status:  7/28 (25.0%)
+Total status:  14/29 (48.28%)
 
 
 ### Specialability
@@ -2467,16 +2547,17 @@ Total status:  7/28 (25.0%)
 - [ ] Seelotse (Region)
 - [x] Tradition (Efferdkirche)
 - [ ] Wissen um Gwen Petryl-Fundstätten (Geheimwissen)
-- [ ] Standort des geheimen Havener Phextempel (Geheimwissen)
-- [ ] Schmugglerroute Nebelpfad kennen (Geheimwissen)
-- [ ] Schmugglerroute Silberpfad kennen (Geheimwissen)
-- [ ] Wissen um Lata und Yonahoh (Geheimwissen)
-- [ ] Fehlerhaftes Schwarzes Auge in Nahemas Turm (Geheimwissen)
+- [x] Standort des geheimen Havener Phextempel (Geheimwissen)
+- [x] Schmugglerroute Nebelpfad kennen (Geheimwissen)
+- [x] Schmugglerroute Silberpfad kennen (Geheimwissen)
+- [x] Wissen um Lata und Yonahoh (Geheimwissen)
+- [x] Fehlerhaftes Schwarzes Auge in Nahemas Turm (Geheimwissen)
 - [ ] Herrschaft über Ungeheuer
-- [ ] Fauliger Wasserstrahl
-- [ ] Dämonischer Panzer
+- [x] Fauliger Wasserstrahl
+- [x] Dämonischer Panzer
 - [ ] Wasseratmung
 - [ ] Wasserlunge
+- [ ] Havena-Stil
 
 
 ### Liturgy
@@ -2665,6 +2746,116 @@ Total status:  31/70 (44.29%)
 - [ ] Satuarienstee
 - [ ] Xordai
 - [ ] Zwölftee
+
+
+
+
+
+## Incorporealhorrors
+Total status:  0/75 (0.0%)
+
+
+### Spell
+
+- [ ] Alptraumbote
+- [ ] Besessenheit
+- [ ] Dunkle Flammen
+- [ ] Heimsuchung
+- [ ] Manifestation
+- [ ] Phantasma
+- [ ] Todesgesang
+- [ ] Debilitatio
+- [ ] Dunkelheit
+- [ ] Geisteressenz
+- [ ] Heptagramma
+- [ ] Horriphobus
+- [ ] Motoricus
+
+
+### Specialability
+
+- [ ] Tradition (Geister)
+- [ ] Geisterrettung
+- [ ] Geisterhafte Tarnung
+- [ ] Geisterflug
+- [ ] Geisterpanzer
+- [ ] Geistersicht
+- [ ] Geisterstärke
+- [ ] Geisterwaffe
+- [ ] Bindung (Geister)
+- [ ] Entschwörung (Geister)
+- [ ] Machtvolle Entschwörung (Geister)
+- [ ] Rudelbeschwörung (Geister)
+- [ ] Zirkelmeister (Geister)
+- [ ] Furcht nehmen
+- [ ] Geisterschreck
+
+
+### Ritual
+
+- [ ] Geisterbeschwörung
+- [ ] Geisterruf
+- [ ] Nekropathia
+- [ ] Verrücktes Kichern
+
+
+### Liturgy
+
+- [ ] Bannzone
+- [ ] Geisterblick
+- [ ] Geisterfalle
+
+
+### Ceremony
+
+- [ ] Exorzismus
+- [ ] Geistersprache
+- [ ] Machtvoller Exorzismus
+- [ ] Rat der Ahnen
+
+
+### Trait
+
+- [ ] Ausweichen in den Limbus
+- [ ] Immunität gegen kritische Treffer
+- [ ] Präsenz
+- [ ] Regeneration
+- [ ] Resistenz gegen göttliches Wirken
+- [ ] Schreckgestalt
+- [ ] Tarnung
+- [ ] Verbindung zum Beschwörer/Erschaffer
+- [ ] Zusätzliche Aktionen
+- [ ] Astraler Nachhall
+- [ ] Bedrohliche Präsenz
+- [ ] Besessenheit des Unbelebten
+- [ ] Dunkle Nacht
+- [ ] Entfesselt
+- [ ] Entzug der Lebenskraft
+- [ ] Ewige Präsenz
+- [ ] Geisterfresser
+- [ ] Geisterkontrolle
+- [ ] Geisterpoltern
+- [ ] Grabeskälte
+- [ ] Hartnäckige Präsenz
+- [ ] Karmaler Nachhall
+- [ ] Macht des Jenseits
+- [ ] Machtvoller Geist
+- [ ] Manipulation des Unbelebten
+- [ ] Opferung von Lebenskraft
+- [ ] Ruheort
+- [ ] Schreckgespenst
+- [ ] Sog des Jenseits
+- [ ] Niedere Geister
+- [ ] Mittlere Geister
+- [ ] Hohe Geister
+
+
+### Consumable
+
+- [ ] Bannkreide
+- [ ] Beschwörungskreide
+- [ ] Tijakools Hauch
+- [ ] Waffenbalsam
 
 
 
@@ -3092,12 +3283,12 @@ Total status:  196/360 (54.44%)
 
 
 ## Magie2
-Total status:  193/344 (56.1%)
+Total status:  194/344 (56.4%)
 
 
 ### Specialability
 
-- [ ] Tradition (Elfen)
+- [x] Tradition (Elfen)
 - [x] Tradition (Gildenmagier)
 - [x] Tradition (Hexen)
 - [ ] Tradition (Schelme)
@@ -3861,21 +4052,21 @@ Total status:  148/367 (40.33%)
 
 
 ## Mastertools
-Total status:  6/20 (30.0%)
+Total status:  12/20 (60.0%)
 
 
 ### Specialability
 
 - [ ] Kampftrinker
-- [ ] Backpfeifen-Sturm
+- [x] Backpfeifen-Sturm
 - [ ] Durch die Wand
 - [ ] Hose Herunterziehen/Hemd Hochziehen
-- [ ] Kneipen-Blutgrätsche
-- [ ] Kneipen-Geschossabwehr
+- [x] Kneipen-Blutgrätsche
+- [x] Kneipen-Geschossabwehr
 - [ ] Kneipen-Kopfstoß
-- [ ] Köpfe Aneinanderschlagen
-- [ ] Schlag auf den Kopf
-- [ ] Tür gegen den Kopf Knallen
+- [x] Köpfe Aneinanderschlagen
+- [x] Schlag auf den Kopf
+- [x] Tür gegen den Kopf Knallen
 
 
 ### Advantage
@@ -4209,6 +4400,194 @@ Total status:  16/24 (66.67%)
 
 
 
+## Rahjasservants
+Total status:  0/1 (0.0%)
+
+
+### Specialability
+
+- [ ] Tradition (Hochelfen)
+
+
+
+
+
+## Sevenwindscoast
+Total status:  47/141 (33.33%)
+
+
+### Specialability
+
+- [x] Tradition (Efferdkirche)
+- [x] Anpeitscher
+- [x] Drohgebärden
+- [x] Ermutigender Gesang
+- [x] Faszinierender Gesang
+- [ ] Provozieren
+- [x] Weg der Bardin
+- [x] Weg der Reiterin
+- [x] Weg der Schmugglerin
+- [x] Ermutigende Darstellung
+- [ ] Faszinierende Darstellung
+- [x] Kind der Natur ()
+- [x] Körperliches Geschick ()
+- [x] Kunstbegabt
+- [x] Meisterin der Tarnung
+- [x] Tierverbundenheit
+- [x] Transporteur
+- [ ] Distelritter-Stil
+- [ ] Havena-Stil
+- [x] Scanlail ni Uinin-Stil
+- [ ] Seesoldaten-Stil
+- [ ] Sippenkrieger-Stil des Windhags
+- [ ] Winhall-Stil
+- [ ] Festnageln
+- [x] Angetäuschter Angriff
+- [ ] Aufliegende Klinge
+- [ ] Aufspießen
+- [ ] Betäubendes Geschoss
+- [x] Binden
+- [ ] Drehschlag
+- [ ] Formationsattacke
+- [ ] Formationsparade
+- [x] Mächtiger Lanzenangriff
+- [ ] Schildstoß
+- [ ] Taktische Befehle
+- [ ] Waffenwurf
+- [ ] Wuchtiger Wurf
+- [x] Zweifacher Angriff
+- [ ] Scholar des Magierkollegs zu Honingen
+- [ ] Harmoniezauberei
+- [x] Matrixzauberei
+- [ ] Mehr Glück als Verstand
+- [x] Vortrefflicher Hellseher
+- [ ] Brechender Fels
+- [ ] Emotionsübernahme
+- [ ] Fokus der Aufmerksamkeit
+- [ ] Hilferuf
+- [ ] Klangillusion
+- [ ] Langanhaltender Rhythmus
+- [ ] Machtvoller Instrumentzauber
+- [ ] Ohrenbetäubender Klang
+- [ ] Scharfes Instrument
+- [ ] Störgeräusch
+- [x] Volumenerweiterung des Zauberinstruments
+- [ ] Weiter Klang
+- [x] Zauberinstrument-Apport
+- [ ] Zerspringendes Glas
+- [ ] Flusswächter
+- [x] Küstenwächter
+- [x] Meereswächter
+- [ ] Gebieter/in der Wogen
+- [ ] Gebieter/in des Winds
+- [ ] Kältegewöhnung
+- [ ] Langanhaltender Segen
+- [ ] Missionierung
+- [ ] Omen
+- [x] Stille Andacht
+- [ ] Flug des Dreizacks
+- [x] Sprung mit dem Dreizack
+- [x] Macht des Dreizacks
+- [ ] Kontrolle des Wassers
+- [x] Kontrolle der Welle
+- [x] Kontrolle des Strudels
+- [ ] Tradition (Necker)
+- [ ] Tradition (Feen)
+- [ ] Tradition (Zauberbarden)
+- [ ] Bann des Übernatürlichen
+- [x] Bindung des Zauberinstruments
+- [ ] Viele Instrumente
+- [ ] Zugabe
+- [ ] Auge der Fee
+- [ ] Bund der Gefühle
+- [ ] Dunkles Abbild der Bündnisgabe
+- [ ] Im Schatten der Bäume
+- [ ] Düsternis der Anderswelt
+- [ ] Kiemen des Barschs
+- [ ] Macht der Pflanzen
+- [x] Raub der Lebenskraft
+- [ ] Ruf des Waldes
+- [ ] Salbung der Haut
+- [ ] Weg durch den Fluss
+
+
+### Liturgy
+
+- [x] Angriffswelle
+- [x] Delphinruf
+- [ ] Heilsame Quelle
+- [ ] Kleine Windhose
+- [x] Seevogelsprache
+- [ ] Unterwasseratmung
+- [x] Wasserlauf
+- [x] Windruf
+
+
+### Ceremony
+
+- [ ] Delphingestalt
+- [ ] Guter Fang
+- [ ] Kleine Moralstärkung
+- [ ] Nebelschwaden
+
+
+### Spell
+
+- [x] Levthans Feuer
+- [x] Physiostabilis
+- [x] Basaltleib
+- [ ] Herr über das Tierreich
+
+
+### Ritual
+
+- [ ] Melodie der Erlösung
+- [x] Melodie der Ermutigung
+- [ ] Melodie der Feen
+- [ ] Melodie der Freundschaft
+- [ ] Melodie der Heilung
+- [x] Melodie der Verwirrung
+- [x] Melodie des Einlullens
+- [ ] Melodie des Handels
+- [x] Melodie des Kampfes
+- [ ] Melodie des Magieschadens
+- [x] Melodie des Meeres
+- [ ] Melodie des Zögerns
+- [ ] Melodie der Angriffslust
+
+
+### Advantage
+
+- [x] Feenfreund
+- [ ] Koboldfreund
+- [ ] Weitreichende Zaubermelodien
+- [ ] Feenblut (Blütenfee)
+- [ ] Feenblut (Nixer)
+- [ ] Feenblut (Dryade)
+- [ ] Feenblut (Großer Eberbiestinger)
+- [ ] Animalische Kraft
+- [ ] Blumenduft
+- [ ] Dickes Fell
+- [ ] Einblicke ins Verborgene
+- [ ] Glatte Haut
+- [ ] Harmonie des Waldes
+- [ ] Kraft der Bäume
+- [ ] Leichter Gang
+- [ ] Seesprache
+- [ ] Tierische Kampfgefährten
+- [ ] Verführerische Gestalt
+- [ ] Wasser des Lebens
+
+
+### Disadvantage
+
+- [ ] Verminderte Zaubermelodien
+- [ ] Lästige Blütenfeen
+
+
+
+
+
 ## Shared
 Total status:  0/2 (0.0%)
 
@@ -4217,6 +4596,23 @@ Total status:  0/2 (0.0%)
 
 - [ ] Erhöhte Verteidigung
 - [ ] Reduzierte Verteidigung
+
+
+
+
+
+## Soms
+Total status:  2/2 (100.0%)
+
+
+### Ritual
+
+- [x] Xenographus
+
+
+### Spell
+
+- [x] Oculus Astralis
 
 
 
@@ -4363,7 +4759,7 @@ Total status:  68/111 (61.26%)
 
 
 ## Studyroom
-Total status:  128/209 (61.24%)
+Total status:  129/209 (61.72%)
 
 
 ### Spell
@@ -4527,7 +4923,7 @@ Total status:  128/209 (61.24%)
 - [ ] Tradition (Brobim-Geoden)
 - [ ] Tradition (Darna)
 - [ ] Tradition (Druiden)
-- [ ] Tradition (Elfen)
+- [x] Tradition (Elfen)
 - [ ] Tradition (Geoden)
 - [x] Tradition (Gildenmagier)
 - [ ] Tradition (Goblinzauberinnen)
