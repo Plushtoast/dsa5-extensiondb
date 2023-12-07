@@ -4,20 +4,50 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
-
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Große Offensive",
+      "complete": false,
+      "changes": [
 
       ]
     },
     {
-      "name": "Mehrere Ziele",
+      "name": "Präzise Treffer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ohne Rücksicht auf Verluste",
       "complete": false,
       "changes": [
 
@@ -30,7 +60,8 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Tosende Welle",
@@ -45,6 +76,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Durchgespült",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ruf der Fluten",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Auge des Jägers": [
@@ -53,17 +98,34 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Durch Feuer und Erz",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Klare Sicht",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Daimonidenjäger",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Dämonenjäger",
       "complete": false,
       "changes": [
 
@@ -75,18 +137,51 @@
       "name": "Lichtregulation",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
-      ]
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Lichtkegel",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Hoffnungsschimmer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Langanhaltendes Licht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Strafendes Licht",
       "complete": false,
       "changes": [
 
@@ -98,21 +193,55 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Furchtlos",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -121,22 +250,54 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Fluch der Gottheit 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fluch der Gottheit 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Fluch der Gottheit 3",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -146,22 +307,52 @@
       "name": "Längeres Intervall",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "8 AsP pro 15 Minuten"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "8 AsP pro 15 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "QS x 5 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "QS x 5 Schritt"
+        }
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "Verborgenes Wirken",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freunde benennen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -178,13 +369,32 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Paralysierender Bann",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Uthars Pfeil",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -194,20 +404,55 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Verteilter Schaden 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Verteilter Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausbrennender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Blendung der Gottlosen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -216,23 +461,47 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "Freier Wille",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Befreiung der Seele",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -241,23 +510,48 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "4 Stunden"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "4 Stunden"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
-
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Fertigkeitsspezialisierung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -267,8 +561,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     },
     {
@@ -276,10 +573,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Starke Prinzipientreue 2",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
       "complete": false,
       "changes": [
 
@@ -299,10 +612,25 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ferne Befehle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ausgedehnter Dienst",
       "complete": false,
       "changes": [
 
@@ -314,22 +642,55 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
+      ]
+    },
+    {
+      "name": "Schnelleres Ende",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gnädiges Nachspiel",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -338,23 +699,48 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 KR"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 KR"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Strafendes Leuchten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Sinnesverneblung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -363,23 +749,47 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Blendung des Gezüchts",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -388,21 +798,50 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro Minute"}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro Minute"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Genaue Erkenntnis",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Schwindendes Leben",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Göttliche Eingebung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -427,6 +866,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Ferner Blitzschlag",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verheerender Blitz",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Blutiger Zorn": [
@@ -434,6 +887,7 @@
       "name": "Wählbare Ziele",
       "complete": true,
       "changes": [
+
       ]
     },
     {
@@ -441,13 +895,33 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "2 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 KR"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Keine Betäubung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Unberechenbar",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -456,21 +930,63 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Echter Blutzoll",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hoher Tribut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Herrschaft des Stärkeren",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -479,21 +995,48 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "8"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "8"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -502,19 +1045,63 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Zwei Delphine",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "deprecated": true
     },
     {
       "name": "Vier Delphine",
       "complete": true,
       "changes": [
+
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schnelle Hilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Befehle",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wie ein Fisch im Wasser",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Wesen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -523,7 +1110,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
@@ -531,13 +1122,33 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Lange und starke Hörigkeit",
       "complete": false,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zielkategorie Lebewesen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -547,22 +1158,62 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4},
-        {"key": "system.target.value", "mode": 5, "value": "5"}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "5"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rüstender Wall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufladbarer Schild",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -571,21 +1222,55 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Rondras Wille",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ehrenhaftes Schlachtfeld",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Doppelduell",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -594,7 +1279,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "1 Tag"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Tag"
+        }
       ]
     },
     {
@@ -608,8 +1297,30 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Gültiger Vertrag",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Harter Verhandlungspartner",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -618,19 +1329,42 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen"
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Versteinerung aufheben",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Freihändig und ohne Worte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Ziele",
+      "complete": false,
       "changes": [
 
       ]
@@ -641,22 +1375,61 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 15 Minuten"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 15 Minuten"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Mehr Seiten 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Seiten 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geheimschriften",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -665,18 +1438,56 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
       ]
     },
     {
       "name": "Reichweitenausdehnung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Größerer Schaden",
+      "complete": false,
+      "changes": [
+
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Freunde sind nicht betroffen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Strukturschaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zorn der Erde",
       "complete": false,
       "changes": [
 
@@ -688,7 +1499,11 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
@@ -702,7 +1517,25 @@
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Stärkeres Attribut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schlachtsegen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -711,8 +1544,16 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
@@ -728,6 +1569,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Erzene Opfergabe": [
@@ -735,18 +1590,38 @@
       "name": "Stein und Metall",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Größeres Gewicht",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Rückruf",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Dankbares Opfer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gottgefällig",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -755,20 +1630,43 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Minuten"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Klippensturz",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Abfedern",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -777,21 +1675,48 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Minuten"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*1"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*1"
+        }
       ]
     },
     {
       "name": "Intensive Flammen",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 2
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Deckel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heiliges Feuer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -800,22 +1725,53 @@
       "name": "Größerer Radius",
       "complete": false,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "8"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "8"
+        }
       ]
     },
     {
       "name": "Anderes Intervall",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 4 KR"}
-      ]
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 4 KR"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "Kleiner Schutzsegen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Stärkere Beeinflussung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -824,23 +1780,58 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "8 KaP pro 5 Minuten"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "8 KaP pro 5 Minuten"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Nein!",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kein Pardon",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -850,20 +1841,43 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
+      ]
+    },
+    {
+      "name": "Langanhaltende Betäubung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Rausch",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -872,7 +1886,11 @@
       "name": "Größerer Radius",
       "complete": false,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "8"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "8"
+        }
       ]
     },
     {
@@ -880,13 +1898,32 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Firuns Feinde",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ifirns Milde",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -895,21 +1932,48 @@
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Große Brandherde",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Wandernde Zone",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -918,23 +1982,58 @@
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS*5"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*5"
+        }
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Auch du siehst tote Menschen!",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Geisterkommunikation",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Freundliche Geister",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -943,19 +2042,40 @@
       "name": "Größere Menge 1",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
       ]
     },
     {
       "name": "Größere Menge 2",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Harmoniesegen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geselliger Rausch",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -964,18 +2084,35 @@
       "name": "Widerstandsfähig gegen Schädlinge",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Wachstum auf kargem Boden",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Hoher Ertrag",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsame Beigabe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Speisesegen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -984,18 +2121,46 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Tadelloser Entgifter",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Ausnahme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Präventiver Bann",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Patientenversorgung",
       "complete": false,
       "changes": [
 
@@ -1007,18 +2172,37 @@
       "name": "Höherer Wert 1",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Höherer Wert 2",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Höherer Wert 3",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Bezaubernder Glanz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verlockender Glanz",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1027,19 +2211,55 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Harte Schale",
       "complete": false,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "false"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 32}
-      ]
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "false"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 32
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Anhaltender Schutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schutz vor Magie",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Lebensretter",
       "complete": false,
       "changes": [
 
@@ -1051,21 +2271,48 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Höhere Reichweite",
       "complete": false,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Erwählter der Gottheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Klinge der Gottheit",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1074,19 +2321,41 @@
       "name": "Heimattempel",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "QS x 10 Meilen"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "QS x 10 Meilen"
+        }
       ]
     },
     {
       "name": "Persönlicher Bekannter",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längere Botschaft",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rücksprache",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1095,19 +2364,41 @@
       "name": "Weiter entfernter Gegenstand",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "QS x 2 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "QS x 2 Schritt"
+        }
       ]
     },
     {
       "name": "Magischer Fingerzeig",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Karmaler Fingerzeig",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Ahnung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufrechterhaltend",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1116,18 +2407,41 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 25"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS x 25"
+        }
       ]
     },
     {
       "name": "Mächtiges Zeichen",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Überreden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einschüchtern",
       "complete": false,
       "changes": [
 
@@ -1139,21 +2453,55 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Minuten"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Größere Reichweite 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Strafender Befehl",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1162,21 +2510,48 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Gesegnetes Herz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1186,17 +2561,40 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Erfrischende Heilquelle",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Trinkende",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtige Heilsame Quelle 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Linderung der Qualen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtige Heilsame Quelle 2",
       "complete": false,
       "changes": [
 
@@ -1208,21 +2606,56 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Lebewesen, Kulturschaffende, Übernatürliche Wesen"}
-      ]
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen, Kulturschaffende, Übernatürliche Wesen"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Heilung von Verstümmelung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wo ein Wille ist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Heilsegen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1231,22 +2664,62 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 KR"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
-      ]
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Monstrentöter",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1263,10 +2736,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Viele starke Hände 2",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
 
@@ -1286,10 +2775,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Raserei",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Listige Schakale",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tödlicher Geifer",
       "complete": false,
       "changes": [
 
@@ -1309,10 +2814,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Loyal bis in den Tod",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Tanz der Vampirfledermäuse",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großer Schwarm",
       "complete": false,
       "changes": [
 
@@ -1339,6 +2860,21 @@
       "complete": false,
       "changes": [
 
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Starke Fänge",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spinnensinn",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1347,6 +2883,7 @@
       "name": "Auch Gegenstände",
       "complete": true,
       "changes": [
+
       ]
     },
     {
@@ -1354,14 +2891,37 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kein Feuerschaden",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1370,7 +2930,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     },
     {
@@ -1378,10 +2942,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Starke Prinzipientreue 2",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
       "complete": false,
       "changes": [
 
@@ -1393,22 +2973,54 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Minuten"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
-      ]
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Inneres Gleichgewicht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ruhiger Körper, ruhiger Geist",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1417,21 +3029,48 @@
       "name": "Besonders klarer Geist",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
+      ]
+    },
+    {
+      "name": "Gesegneter Geist",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1440,21 +3079,56 @@
       "name": "Erschwertes Ausweichen",
       "complete": true,
       "changes": [
-        {"key": "defenseMalus", "mode": 2, "value": -1}
-      ]
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Höherer Schaden",
       "complete": true,
       "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "1d6+QS"}
-      ]
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "1d6+QS"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Erschwertes Ausweichen 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Erschwertes Ausweichen 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1464,20 +3138,41 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Verteilter Schaden 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Paralysierender Bann",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Dauerhafter Bann",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1494,13 +3189,33 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Ausbrennender Strahl",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1509,21 +3224,57 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
-      ]
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Tadelloser Krankheitsheiler",
       "complete": false,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Vier Ziele",
       "complete": false,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Krankenversorgung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Wie Neu",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schadensheilung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1533,22 +3284,54 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Unentdeckt",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Leisetreter",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1557,18 +3340,41 @@
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Erholsame Rettung",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Neugeboren",
       "complete": false,
       "changes": [
 
@@ -1581,22 +3387,69 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Großer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "5"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
-      ]
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "5"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Schutzhaut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rüstungsschutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufladbarer Schild",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1605,20 +3458,44 @@
       "name": "Höhere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Andere Effekte",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Schwächender Bann",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufhebung permanenter Wirkungen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1627,20 +3504,51 @@
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": false,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Schutz der Gefährten",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Zauberschild",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Spontaner Schutz",
       "complete": false,
       "changes": [
 
@@ -1652,18 +3560,37 @@
       "name": "Zwei Gegenstände",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Kegelsicht",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Rundumsicht",
       "complete": true,
       "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Verkürzte Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1672,22 +3599,68 @@
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Zielkategorie Wesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Wesen"}
-      ]
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Wesen"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Astrale Riposte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Liturgiedauer modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Nicht unter meinem Schutz",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1696,23 +3669,59 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
-      ]
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Maskierung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1721,7 +3730,11 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
@@ -1735,7 +3748,25 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ]
+    },
+    {
+      "name": "Fluch des Nandus",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Universaldummheit",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1744,23 +3775,58 @@
       "name": "Längeres Intervall",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "1 KaP pro Stunde"}
-      ]
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "1 KaP pro Stunde"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Sehen in der Dunkelheit",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1769,22 +3835,54 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Weiteres Talent 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Weiteres Talent 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1793,21 +3891,48 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-2AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Sehr motiviert",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1816,21 +3941,49 @@
       "name": "Drei Attacken",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 12}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 12
+        }
       ]
     },
     {
       "name": "Sechs Attacken",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Neun Attacken",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 20}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 20
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Höherer Schaden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Göttliche Finte",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1839,7 +3992,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
       ]
     },
     {
@@ -1853,7 +4010,25 @@
       "name": "Stationäre Kälte",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schockfrost",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1869,11 +4044,30 @@
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
       ]
     },
     {
       "name": "Wüterich 2",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Wütende Hiebe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufwallende Wut",
       "complete": false,
       "changes": [
 
@@ -1892,14 +4086,37 @@
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Wochen"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtiger Zweifel",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1908,20 +4125,44 @@
       "name": "Leichtgläubig",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Teilerinnerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1930,21 +4171,67 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Stunden"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Stunden"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Starker Objektsegen",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Stunden"
+        }
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Objektsegen 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Objektsegen 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Ziele",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1953,21 +4240,47 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Starker Drang",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gesegnete Obsession",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1976,7 +4289,11 @@
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        }
       ]
     },
     {
@@ -1990,7 +4307,25 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Sichtung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sichtung 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2000,17 +4335,47 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Zäh",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Guter Kampf",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heldentod",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zorn der Todgeweihten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zäh 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zäh 2",
       "complete": false,
       "changes": [
 
@@ -2022,7 +4387,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Stunden"
+        }
       ]
     },
     {
@@ -2030,10 +4399,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Stärkere Stille 2",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Borongefällige Stille 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Borongefällige Stille 2",
       "complete": false,
       "changes": [
 
@@ -2045,22 +4430,52 @@
       "name": "Intensiver Strahl",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Windender Strahl",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 2, "value": 2},
-        {"key": "defenseMalus", "mode": 2, "value": -2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        },
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -2
+        }
       ]
     },
     {
       "name": "Zwei Ziele",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Schwefel",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Pech",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2069,20 +4484,52 @@
       "name": "Schnellerer Wuchs",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "deprecated": true
     },
     {
       "name": "Beet",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        }
       ]
     },
     {
       "name": "Feld",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Schnelle Hilfe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2091,19 +4538,39 @@
       "name": "Mehr Raben",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QS x 5000"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS x 5000"
+        }
       ]
     },
     {
       "name": "Größere Transportreichweite",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geringere Kosten",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2112,19 +4579,39 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Mehr Ratten",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Nur eine letzte Ratte",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Flinke Ratten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kleidungsmitnahme",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2133,18 +4620,35 @@
       "name": "Entfernung bestimmen",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Tempel der eigenen Kirche",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Erreichbarkeit feststellen",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schrein der eigenen Kirche",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2153,18 +4657,57 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
-      ]
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Verteilte Wirkung",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Brechen des Widerstands",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
       "complete": false,
       "changes": [
 
@@ -2192,6 +4735,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kampfverbesserung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zweikopf-Stabschlange",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Schlangenzunge": [
@@ -2199,22 +4756,57 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Mehr Schlangen",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2223,21 +4815,47 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 2 Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Tage"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
       "complete": false,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-16AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-16AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Fluch des Dreizehnten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Todesfluch",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2246,19 +4864,45 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Schmerzimmunität",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Furchtlos",
       "complete": false,
       "changes": [
 
@@ -2270,21 +4914,48 @@
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Lebewesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     },
     {
       "name": "Zielkategorie Wesen",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende, Wesen"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Wesen"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Rondras gerechter Zorn",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Rondras Wille",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2300,14 +4971,37 @@
       "name": "Liturgiedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Änderung des Intervalls",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 10 KR"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 10 KR"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Zweifacher Schutz",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2317,20 +5011,40 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Starker Zauberschwund 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "16"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Sog",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2339,20 +5053,51 @@
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.duration.value", "mode": 5, "value": "13 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "13 Stunden"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Schwer zu durchschauen",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Dauer",
       "complete": false,
       "changes": [
 
@@ -2364,21 +5109,57 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Mehr Vögel",
       "complete": true,
       "changes": [
-      ]
+
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2388,20 +5169,59 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längeres Intervall 1",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 1 Stunde"}
-      ]
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 1 Stunde"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Längeres Intervall 2",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 2 Stunde"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 2 Stunde"
+        }
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Aufgepasst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längeres Intervall",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Reisegruppe",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Ein Freund auf allen Wegen",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2410,20 +5230,43 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     },
     {
       "name": "Bessere Preise",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Täuschung 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Täuschung 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2432,22 +5275,52 @@
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Größerer Radius",
       "complete": true,
       "changes": [
-        {"key": "system.target.value", "mode": 5, "value": "QSx10"}
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QSx10"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "64 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "64 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Kampfgefährte",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bewegliche Zone",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2456,21 +5329,48 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Erhöhte Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "16 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geringere Kosten",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2479,18 +5379,40 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     },
     {
       "name": "Starke Linderung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geringere Kosten",
       "complete": false,
       "changes": [
 
@@ -2502,21 +5424,56 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 Minuten"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Minuten"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Mehr Wildtiere",
       "complete": true,
       "changes": [
+
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2525,8 +5482,16 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
@@ -2540,7 +5505,25 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Noch größere Tiere",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2549,20 +5532,50 @@
       "name": "Keine Aufrechterhaltung",
       "complete": true,
       "changes": [
-        {"key": "system.maintainCost.value", "mode": 5, "value": "0"},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Vier Ziele",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Dauer",
       "complete": false,
       "changes": [
 
@@ -2574,18 +5587,40 @@
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "8 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Schnelle Versteinerung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Steinschmerzen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
       "complete": false,
       "changes": [
 
@@ -2597,20 +5632,43 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "4 Schritt"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Andere Fragesteller",
       "complete": true,
       "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geringere Kosten",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2619,82 +5677,16 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 10 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Mitnahme",
       "complete": true,
-      "changes": [
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": true,
-      "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
-      ]
-    }
-  ],
-  "Wieselflink": [
-    {
-      "name": "Schnellsteigerung",
-      "complete": true,
-      "changes": [
-        {"key": "system.castingTime.value", "mode": 5, "value": 10 },
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
-      ]
-    },
-    {
-      "name": "Längere Wirkungsdauer",
-      "complete": true,
-      "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 Minuten"}
-      ]
-    },
-    {
-      "name": "Reichweite Berührung",
-      "complete": true,
-      "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
-      ]
-    }
-  ],
-  "Windhose": [
-    {
-      "name": "Erschwertes Ausweichen",
-      "complete": true,
-      "changes": [
-        {"key": "defenseMalus", "mode": 2, "value": -1}
-      ]
-    },
-    {
-      "name": "Höherer Schaden",
-      "complete": false,
-      "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "2d6+2*QS"}
-      ]
-    },
-    {
-      "name": "Größere Reichweite",
-      "complete": true,
-      "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "32 Schritt"}
-      ]
-    }
-  ],
-  "Wundersame Verständigung": [
-    {
-      "name": "Zeichensprache",
-      "complete": true,
-      "changes": [
-      ]
-    },
-    {
-      "name": "Tadelloser Übersetzer",
-      "complete": false,
       "changes": [
 
       ]
@@ -2703,8 +5695,189 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wieselflink": [
+    {
+      "name": "Schnellsteigerung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 10
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Gewandtheit des Mungos",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Gute Verteidigung",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Windhose": [
+    {
+      "name": "Erschwertes Ausweichen",
+      "complete": true,
+      "changes": [
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -1
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Höherer Schaden",
+      "complete": false,
+      "changes": [
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "2d6+2*QS"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Betäubung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Wundersame Verständigung": [
+    {
+      "name": "Zeichensprache",
+      "complete": true,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tadelloser Übersetzer",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -2713,23 +5886,58 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 5 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Harte Schale",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
-        {"key": "system.variableBaseCost", "mode": 5, "value": "false"}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "false"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"},
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Der über das Schlachtfeld schreitet",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Übernatürliche Rüstung",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ]

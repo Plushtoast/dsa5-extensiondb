@@ -11,17 +11,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsame Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -38,17 +67,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -65,17 +123,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Diener der Regungslosigkeit",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -92,17 +179,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -119,17 +235,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -146,17 +291,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.duration.value", "mode": 5, "value": "2 Stunden"}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
-        {"key": "system.duration.value", "mode": 5, "value": "8 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }

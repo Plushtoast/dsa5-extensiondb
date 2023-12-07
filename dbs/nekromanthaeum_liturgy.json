@@ -5,18 +5,45 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Längerer Dienst",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 3 KR"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Zweifache Erhebung",
+      "complete": false,
+      "changes": [
 
       ]
     },
     {
-      "name": "Mächtiges Wesen",
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Vierfache Erhebung",
       "complete": false,
       "changes": [
 

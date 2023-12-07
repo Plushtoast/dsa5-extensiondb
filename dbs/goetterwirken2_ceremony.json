@@ -1,26 +1,55 @@
 {
-  
   "Arcanum Interdictum": [
     {
       "name": "Größere Stadt",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 256},
-        {"key": "system.castingTime.value", "mode": 5, "value": 960} 
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 256
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 960
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Noch größere Stadt",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 512},
-        {"key": "system.castingTime.value", "mode": 5, "value": 1920}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 512
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1920
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Permanente Wirkung",
+      "complete": false,
+      "changes": [
 
       ]
     },
     {
-      "name": "Permanente Wirkung",
+      "name": "Praios’ Ordnung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Praios’ Wille",
       "complete": false,
       "changes": [
 
@@ -39,17 +68,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.castingTime.value", "mode": 5, "value": 120}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 120
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
-        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 480
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 32
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsame Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -66,17 +124,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.castingTime.value", "mode": 5, "value": 120}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 120
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
-        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 480
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 32
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -93,17 +180,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.castingTime.value", "mode": 5, "value": 120}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 120
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
-        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 480
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 32
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Diener der Regungslosigkeit",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -114,24 +230,52 @@
       "complete": false,
       "changes": [
 
-
       ]
     },
     {
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-                {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.castingTime.value", "mode": 5, "value": 120}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 120
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": false,
-      "changes": [        
-        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
-        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+      "changes": [
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 480
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 32
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -148,17 +292,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.castingTime.value", "mode": 5, "value": 120}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 120
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
-        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 480
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 32
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -175,17 +348,46 @@
       "name": "Höherer Elementar",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.castingTime.value", "mode": 5, "value": 120}
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 120
+        }
       ]
     },
     {
       "name": "Mächtiger Elementar",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 480},
-        {"key": "system.castingTime.value", "mode": 5, "value": 32}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 480
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 32
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längerer Dienst",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Geister",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -195,22 +397,50 @@
       "name": "Schnelle Regeneration",
       "complete": true,
       "changes": [
-        {"key": "system.castingTime.value", "mode": 5, "value": 5}
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
       ]
     },
     {
       "name": "Starke Regeneration",
       "complete": false,
       "changes": [
-        
-      ]
+
+      ],
+      "deprecated": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Schönheitsregeneration",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Regeneration 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Regeneration 2",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -221,20 +451,54 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Überzeugungsarbeit II",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "berühren"}
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Überzeugungsarbeit 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Überzeugungsarbeit 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mächtige Überzeugungsarbeit",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -244,20 +508,51 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
       "complete": false,
       "changes": [
 
@@ -276,12 +571,31 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS * 4 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 4 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Große Menge",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Schnelle Suche",
+      "complete": false,
+      "changes": [
 
       ]
     },
     {
-      "name": "Große Menge",
+      "name": "Reichhaltiges Angebot",
       "complete": false,
       "changes": [
 
@@ -293,48 +607,101 @@
       "name": "Weniger Schaden 1",
       "complete": false,
       "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "2d20"}
-
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "2d20"
+        }
       ]
     },
     {
       "name": "Weniger Schaden 2",
       "complete": true,
       "changes": [
-        {"key": "system.effectFormula.value", "mode": 5, "value": "1d20"}
-
-      ]
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "1d20"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Vampirleben",
       "complete": true,
       "changes": [
-        {"key": "system.range.value", "mode": 5, "value": "selbst"}
-
-      ]
-    }
-  ],
- 
-  "Falkengestalt": [
-    {
-      "name": "Aufrechterhaltend",
-      "complete": true,
-      "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     },
     {
-      "name": "Sprachfähigkeit",
+      "name": "Eilige Zeremonie",
       "complete": false,
       "changes": [
 
       ]
     },
     {
+      "name": "Gesättigt",
+      "complete": false,
+      "changes": [
+
+      ]
+    }
+  ],
+  "Falkengestalt": [
+    {
+      "name": "Aufrechterhaltend",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Sprachfähigkeit",
+      "complete": false,
+      "changes": [
+
+      ],
+      "deprecated": true
+    },
+    {
       "name": "Klerikales Tier",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
       "complete": false,
       "changes": [
 
@@ -362,6 +729,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Totenzungen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geister Deres",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Geistheilung": [
@@ -369,8 +750,11 @@
       "name": "Kosten modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.variableBaseCost", "mode": 5, "value": "true"}
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -386,6 +770,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Gift- und Krankheitsstop",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verstärkter Heilschlaf",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Geschlechterwechsel": [
@@ -393,19 +791,53 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS * 3 Stunden"}
-
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 3 Stunden"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Einsichten ins andere Geschlecht",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Wechselndes Geschlecht",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geringere Kosten",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
       "complete": false,
       "changes": [
 
@@ -417,8 +849,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 2 Minuten"
+        }
       ]
     },
     {
@@ -433,29 +868,64 @@
       "complete": false,
       "changes": [
 
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Totenzungen",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Geister Deres",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
-  
   "Göttliche Präzision": [
     {
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-         {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-         {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 2 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Andere Schützen",
+      "complete": false,
+      "changes": [
 
       ]
     },
     {
-      "name": "Andere Schützen",
+      "name": "Entfernungssinn",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Bullenauge",
       "complete": false,
       "changes": [
 
@@ -474,12 +944,31 @@
       "name": "Mehrere Ziele",
       "complete": true,
       "changes": [
-         {"key": "macro.transform", "mode": 2, "value": "multitarget-4AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Karmale Heilung",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kurze Rast",
+      "complete": false,
+      "changes": [
 
       ]
     },
     {
-      "name": "Karmale Heilung",
+      "name": "Gesegneter Schlaf",
       "complete": false,
       "changes": [
 
@@ -491,22 +980,52 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "1 Woche"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 4}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Woche"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "1 Monat"},
-        {"key": "system.AsPCost.value", "mode": 2, "value": 8}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Monat"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 8
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Seelenqual verursachen",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Behandlung des Patienten",
+      "complete": false,
+      "changes": [
 
       ]
     },
     {
-      "name": "Seelenqual verursachen",
+      "name": "Kürzere Zeremoniedauer",
       "complete": false,
       "changes": [
 
@@ -534,6 +1053,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Leihgabe",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Hundegestalt": [
@@ -541,21 +1074,52 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -566,21 +1130,52 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -598,16 +1193,36 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-         {"key": "system.duration.value", "mode": 5, "value": "6 Monate"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "6 Monate"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "12 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "12 Monate"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Zeremoniedauer",
+      "complete": false,
+      "changes": [
 
+      ]
+    },
+    {
+      "name": "Kosten stückeln",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -617,8 +1232,11 @@
       "name": "Anderes Opfer",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Tiere, Kulturschaffende"}
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Tiere, Kulturschaffende"
+        }
       ]
     },
     {
@@ -634,6 +1252,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Eigene Stärkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Über das Maximum",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Leichtfüßig": [
@@ -641,8 +1273,11 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-       {"key": "system.range.value", "mode": 5, "value": "berühren"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
@@ -656,7 +1291,25 @@
       "name": "Vier Ziele",
       "complete": true,
       "changes": [
-        {"key": "macro.transform", "mode": 2, "value": "multitarget-8AsP_per_target"}
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -666,19 +1319,54 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Jahre"}
-
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Jahre"
+        }
+      ],
+      "deprecated": true
     },
     {
       "name": "Andere Tätowieren",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Machtvolle Tätowierung",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Andere tätowieren",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Lebende Rose",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
       "complete": false,
       "changes": [
 
@@ -690,21 +1378,52 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -723,10 +1442,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Dämonen-Exorzismus",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Verbannung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kurzzeremonie",
       "complete": false,
       "changes": [
 
@@ -754,6 +1489,20 @@
       "changes": [
 
       ]
+    },
+    {
+      "name": "Gesegnetes Blut",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Schutz für die Gabe",
+      "complete": false,
+      "changes": [
+
+      ]
     }
   ],
   "Mungogestalt": [
@@ -761,21 +1510,52 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -793,16 +1573,45 @@
       "name": "Höherer Ahn",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 16},
-        {"key": "system.castingTime.value", "mode": 5, "value": 120}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 120
+        }
       ]
     },
     {
       "name": "Mächtiger Ahn",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 32},
-        {"key": "system.castingTime.value", "mode": 5, "value": 460} 
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 460
+        }
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Hilfreiche Ahnen",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -812,23 +1621,48 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Stunden"}
-
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Größere Reichweite",
       "complete": true,
       "changes": [
-         {"key": "system.range.value", "mode": 5, "value": "64 Schritt"}
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "64 Schritt"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Stunden"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 2 Stunden"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Zeremoniedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Tranksegen",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -838,24 +1672,49 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-       {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-       {"key": "system.duration.value", "mode": 5, "value": "QS Wochen"}
-
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Wochen"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 3",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Monate"}
-        
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Monate"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kürzere Zeremoniedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Verzögerter Fluch",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -864,21 +1723,52 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -890,17 +1780,34 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Rettung 2",
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Rettung 3",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Großes Opfer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Großes Opfer 2",
       "complete": false,
       "changes": [
 
@@ -920,10 +1827,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Schamanenbann 2",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Strafe für den Frevler 1",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Strafe für den Frevler 2",
       "complete": false,
       "changes": [
 
@@ -935,23 +1858,49 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-       {"key": "system.duration.value", "mode": 5, "value": "QS * 2 Minuten"}
-
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 2 Minuten"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Mächtige Stärkung",
       "complete": false,
       "changes": [
-       {"key": "system.AsPCost.value", "mode": 1, "value": 2}
-
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": false,
       "changes": [
-       {"key": "system.duration.value", "mode": 5, "value": "QS * 5 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 5 Minuten"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starke Hilfe",
+      "complete": false,
+      "changes": [
 
       ]
     }
@@ -992,10 +1941,26 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Geweihter Träger",
+      "complete": false,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Schicksalsgebunden",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Aufhebung",
       "complete": false,
       "changes": [
 
@@ -1007,20 +1972,52 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -1031,7 +2028,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 30 Minuten"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
@@ -1039,10 +2040,25 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Traummeister",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Heilsame Träume",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Starker Träumer",
       "complete": false,
       "changes": [
 
@@ -1054,7 +2070,11 @@
       "name": "Zeremoniedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -1062,13 +2082,32 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Permanente Wirkung",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 1, "value": 2}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Untoter Handlanger",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Untoter Akoluth",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1077,8 +2116,16 @@
       "name": "Aufrechterhaltend",
       "complete": true,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 8},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "4 KaP pro 3 Stunden"}
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 KaP pro 3 Stunden"
+        }
       ]
     },
     {
@@ -1086,11 +2133,34 @@
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -1101,21 +2171,49 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 1 Tage"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Wochen"}
-      ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 1 Wochen"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Längere Wirkungsdauer 3",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS x 1 Monate"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 1 Monate"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Verzögerter Fluch",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Einsamer Wolf",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1124,20 +2222,52 @@
       "name": "Aufrechterhaltend",
       "complete": false,
       "changes": [
-        {"key": "system.AsPCost.value", "mode": 5, "value": 4},
-        {"key": "system.maintainCost.value", "mode": 5, "value": "2 KaP pro 3 Stunden"}
-      ]
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 KaP pro 3 Stunden"
+        }
+      ],
+      "dirty": true
     },
     {
       "name": "Sprachfähigkeit",
       "complete": true,
       "changes": [
 
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Klerikales Tier",
       "complete": true,
+      "changes": [
+
+      ],
+      "dirty": true
+    },
+    {
+      "name": "Besonderes Exemplar",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Flexible Tierform",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Eins mit der Gottheit",
+      "complete": false,
       "changes": [
 
       ]
@@ -1148,7 +2278,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "1 Stunde"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     },
     {
@@ -1162,7 +2296,33 @@
       "name": "Nichtzwerge",
       "complete": true,
       "changes": [
-        {"key": "system.targetCategory.value", "mode": 5, "value": "Kulturschaffende"}
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        }
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Eherne Wacht",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Segen der acht Stämme",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Zwergenfreunde",
+      "complete": false,
+      "changes": [
+
       ]
     }
   ],
@@ -1178,11 +2338,37 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "1 Woche"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Woche"
+        }
       ]
     },
     {
       "name": "Größerer Acker",
+      "complete": false,
+      "changes": [
+
+      ],
+      "deprecated": true
+    },
+    {
+      "name": "Spezielle Gegner",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zeremoniedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Mehr Waffen 2",
       "complete": false,
       "changes": [
 
@@ -1194,7 +2380,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-        {"key": "system.duration.value", "mode": 5, "value": "QS Tage"}
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     },
     {
@@ -1206,6 +2396,20 @@
     },
     {
       "name": "Virtuose Begabung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kürzere Zeremoniedauer",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Kosten modifizierbar",
       "complete": false,
       "changes": [
 

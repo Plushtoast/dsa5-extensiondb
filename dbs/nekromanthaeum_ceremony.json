@@ -4,8 +4,11 @@
       "name": "Zeremoniedauer modifizierbar",
       "complete": true,
       "changes": [
-        {"key": "system.canChangeCastingTime.value", "mode": 5, "value": "true"}
-
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -13,10 +16,25 @@
       "complete": false,
       "changes": [
 
-      ]
+      ],
+      "dirty": true
     },
     {
       "name": "Permanente Wirkung",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Untoter Handlanger",
+      "complete": false,
+      "changes": [
+
+      ]
+    },
+    {
+      "name": "Untoter Akoluth",
       "complete": false,
       "changes": [
 
