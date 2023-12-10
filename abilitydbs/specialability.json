@@ -150,11 +150,6 @@
       "orcs"
     ]
   },
-  "Tradition (Achazschamanen)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Kältestrahl (Achaz)": {
     "source": [
       "achaz"
@@ -447,6 +442,7 @@
       "animatorium",
       "bestiary",
       "core",
+      "incorporealhorrors",
       "pandaemonium",
       "transmutarium"
     ]
@@ -539,6 +535,7 @@
       "armory",
       "armory2",
       "compendium",
+      "retos_armory",
       "sevenwindscoast"
     ]
   },
@@ -554,7 +551,8 @@
       "armory",
       "compendium",
       "goetterwirken",
-      "goetterwirken2"
+      "goetterwirken2",
+      "retos_armory"
     ]
   },
   "Wuchtiger Wurf": {
@@ -627,16 +625,12 @@
       "bannerofloyalty"
     ]
   },
-  "Tradition (Shinxirkult)": {
-    "source": [
-      "bannerofloyalty"
-    ]
-  },
   "Mächtiger Schlag": {
     "source": [
       "bestiary",
       "companions",
       "core",
+      "incorporealhorrors",
       "transmutarium"
     ]
   },
@@ -785,7 +779,8 @@
   },
   "Herunterstoßen": {
     "source": [
-      "compendium"
+      "compendium",
+      "retos_armory"
     ]
   },
   "Kampf im Wasser": {
@@ -856,6 +851,7 @@
       "compendium",
       "goetterwirken",
       "goetterwirken2",
+      "retos_armory",
       "sevenwindscoast",
       "steamingjungles",
       "suncoast"
@@ -1050,12 +1046,6 @@
       "compendium2"
     ]
   },
-  "Winhall-Stil": {
-    "source": [
-      "compendium2",
-      "sevenwindscoast"
-    ]
-  },
   "Xorlosch-Stil": {
     "source": [
       "compendium2"
@@ -1154,42 +1144,6 @@
   "Heilungsspezialgebiet (Zahnbehandlung)": {
     "source": [
       "compendium2"
-    ]
-  },
-  "Nachladespezialist (Armbrüste)": {
-    "source": [
-      "compendium2",
-      "steamingjungles"
-    ]
-  },
-  "Nachladespezialist (Bögen)": {
-    "source": [
-      "compendium2",
-      "steamingjungles"
-    ]
-  },
-  "Nachladespezialist (Diskusse)": {
-    "source": [
-      "compendium2",
-      "steamingjungles"
-    ]
-  },
-  "Nachladespezialist (Wurfwaffen)": {
-    "source": [
-      "compendium2",
-      "steamingjungles"
-    ]
-  },
-  "Nachladespezialist (Blasrohre)": {
-    "source": [
-      "compendium2",
-      "steamingjungles"
-    ]
-  },
-  "Nachladespezialist (Schleudern)": {
-    "source": [
-      "compendium2",
-      "steamingjungles"
     ]
   },
   "Weg des Offiziers": {
@@ -1874,17 +1828,6 @@
       "goetterwirken"
     ]
   },
-  "Hitzegewöhnung": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Kältegewöhnung": {
-    "source": [
-      "goetterwirken",
-      "sevenwindscoast"
-    ]
-  },
   "Krankheitskenntnis": {
     "source": [
       "goetterwirken"
@@ -2156,12 +2099,6 @@
       "goetterwirken2"
     ]
   },
-  "Tradition (Necker)": {
-    "source": [
-      "havena",
-      "sevenwindscoast"
-    ]
-  },
   "Seelotse (Region)": {
     "source": [
       "havena"
@@ -2188,6 +2125,113 @@
       "havena"
     ]
   },
+  "Tradition (Numinorukult)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Wasser der Vorbereitung": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Wasser der Hellsicht": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Wasser der Klarheit": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Donnerndes Horn": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Sturmhorn": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Treibendes Horn": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Auf Wasser gehen": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
+  "Dämonische Nahkampfwaffe": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
+  "Dämonischer Fokus": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
+  "Durchsichtig": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Erhebung von Wasserleichen": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
+  "Fischgift": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Krakenruf": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Resistenz gegen Götterwirken": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
+  "Nachtschwarze Welle": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Plankengang": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Kleines Simulacrum": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Unheiligtum errichten": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
+  "Wasserbrücke": {
+    "source": [
+      "havena",
+      "magie3"
+    ]
+  },
   "Aufbewahrung": {
     "source": [
       "herbarium",
@@ -2198,16 +2242,6 @@
   "Tradition (Waldschrate)": {
     "source": [
       "herbarium2"
-    ]
-  },
-  "Tradition (Geister)": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Geisterrettung": {
-    "source": [
-      "incorporealhorrors"
     ]
   },
   "Geisterhafte Tarnung": {
@@ -2236,36 +2270,6 @@
     ]
   },
   "Geisterwaffe": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Bindung (Geister)": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Entschwörung (Geister)": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Machtvolle Entschwörung (Geister)": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Rudelbeschwörung (Geister)": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Zirkelmeister (Geister)": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Furcht nehmen": {
     "source": [
       "incorporealhorrors"
     ]
@@ -2333,11 +2337,6 @@
     ]
   },
   "Telekineseschlag": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Tierwandlung": {
     "source": [
       "magie1"
     ]
@@ -2425,19 +2424,6 @@
     ]
   },
   "Fokus der Aufmerksamkeit": {
-    "source": [
-      "magie1",
-      "sevenwindscoast"
-    ]
-  },
-  "Hilferuf": {
-    "source": [
-      "magie1",
-      "sevenwindscoast",
-      "suncoast"
-    ]
-  },
-  "Klangillusion": {
     "source": [
       "magie1",
       "sevenwindscoast"
@@ -3527,12 +3513,6 @@
       "magie3"
     ]
   },
-  "Scholar des Magierkollegs zu Honingen": {
-    "source": [
-      "magie3",
-      "sevenwindscoast"
-    ]
-  },
   "Brecher des Willens": {
     "source": [
       "magie3",
@@ -3616,16 +3596,6 @@
       "magie3"
     ]
   },
-  "Dämonische Nahkampfwaffe": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Dämonischer Fokus": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Dauerhaftes Unheiligtum errichten": {
     "source": [
       "magie3"
@@ -3646,17 +3616,7 @@
       "magie3"
     ]
   },
-  "Resistenz gegen Götterwirken": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Seelenopfer": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Unheiligtum errichten": {
     "source": [
       "magie3"
     ]
@@ -3702,21 +3662,6 @@
     ]
   },
   "Wundschmerz": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Auf Wasser gehen": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Erhebung von Wasserleichen": {
-    "source": [
-      "magie3"
-    ]
-  },
-  "Wasserbrücke": {
     "source": [
       "magie3"
     ]
@@ -4030,6 +3975,41 @@
       "rahjasservants"
     ]
   },
+  "Auf Distanz halten": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Betäubungsschlag": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Hohe Klinge": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Pikenwall": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Windmühle": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Zertrümmern": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Zweihandwaffen-Doppelschlag": {
+    "source": [
+      "retos_armory"
+    ]
+  },
   "Distelritter-Stil": {
     "source": [
       "sevenwindscoast"
@@ -4050,30 +4030,10 @@
       "sevenwindscoast"
     ]
   },
-  "Gebieter/in der Wogen": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Gebieter/in des Winds": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Kontrolle des Wassers": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
   "Tradition (Feen)": {
     "source": [
       "sevenwindscoast",
       "suncoast"
-    ]
-  },
-  "Bann des Übernatürlichen": {
-    "source": [
-      "sevenwindscoast"
     ]
   },
   "Auge der Fee": {

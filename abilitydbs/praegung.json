@@ -1,0 +1,155 @@
+{
+  "todo": {
+    "source": [
+      "goetterwirken",
+      "goetterwirken2",
+      "magie1",
+      "magie2"
+    ]
+  },
+  "Geisterseher": {
+    "source": [
+      "magie3",
+      "steamingjungles"
+    ]
+  },
+  "Klingenmeister": {
+    "source": [
+      "magie3",
+      "steamingjungles"
+    ]
+  },
+  "Zauberkrieger": {
+    "source": [
+      "magie3",
+      "steamingjungles"
+    ]
+  },
+  "Diener der Natur": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Ehrwürdige": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Elementaranhänger": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Sumen": {
+    "source": [
+      "magie3",
+      "warringkingdoms"
+    ]
+  },
+  "Ausgeglichene": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Gnome": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Seelenhirten": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Sippenhüterinnen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Traumdeuterinnen": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Menschenkenner": {
+    "source": [
+      "sevenwindscoast",
+      "suncoast"
+    ]
+  },
+  "Naturverbundene": {
+    "source": [
+      "sevenwindscoast",
+      "suncoast"
+    ]
+  },
+  "Moderne Sichtweise": {
+    "source": [
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast"
+    ]
+  },
+  "Mysterienkult": {
+    "source": [
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast"
+    ]
+  },
+  "Pragmatismus": {
+    "source": [
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast"
+    ]
+  },
+  "Traditionelle Denkrichtung": {
+    "source": [
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast"
+    ]
+  },
+  "Fahrende Schwester": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Schwarze Witwe": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Tochter der Erde": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Beherrscher des Geistes": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Graue Gilde": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Weiße Gilde": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Schwestern des Wissens": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Verschwiegene Schwestern": {
+    "source": [
+      "warringkingdoms"
+    ]
+  }
+}

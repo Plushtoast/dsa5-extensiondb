@@ -62,11 +62,6 @@
       "sevenwindscoast"
     ]
   },
-  "Eisbärgestalt": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
   "Frostschutz": {
     "source": [
       "goetterwirken"
@@ -214,6 +209,11 @@
       "goetterwirken"
     ]
   },
+  "Eisbärengestalt": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
   "Elsterngestalt": {
     "source": [
       "goetterwirken2"
@@ -317,24 +317,24 @@
       "steamingjungles"
     ]
   },
-  "Exorzismus": {
+  "Leitende Strömung": {
     "source": [
-      "incorporealhorrors"
+      "havena"
     ]
   },
-  "Geistersprache": {
+  "Numinorus Fluch": {
     "source": [
-      "incorporealhorrors"
+      "havena"
     ]
   },
-  "Machtvoller Exorzismus": {
+  "Schattenrochengestalt": {
     "source": [
-      "incorporealhorrors"
+      "havena"
     ]
   },
-  "Rat der Ahnen": {
+  "Seemonsterruf": {
     "source": [
-      "incorporealhorrors"
+      "havena"
     ]
   },
   "Gnade des Vergessens": {
@@ -345,6 +345,11 @@
   "Tairachs machtvolle Erhebung von Untoten": {
     "source": [
       "orcs"
+    ]
+  },
+  "Arcanum Interdictum": {
+    "source": [
+      "retos_armory"
     ]
   }
 }

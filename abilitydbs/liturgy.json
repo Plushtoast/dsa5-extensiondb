@@ -269,11 +269,6 @@
       "goetterwirken2"
     ]
   },
-  "Polarbärenruf": {
-    "source": [
-      "goetterwirken2"
-    ]
-  },
   "Rinderruf": {
     "source": [
       "goetterwirken2",
@@ -315,19 +310,54 @@
       "goetterwirken2"
     ]
   },
-  "Bannzone": {
+  "Eisbärenruf": {
     "source": [
-      "incorporealhorrors"
+      "goetterwirken2"
     ]
   },
-  "Geisterblick": {
+  "Blick auf den Meeresgrund": {
     "source": [
-      "incorporealhorrors"
+      "havena"
     ]
   },
-  "Geisterfalle": {
+  "Botschaft aus der Tiefe": {
     "source": [
-      "incorporealhorrors"
+      "havena"
+    ]
+  },
+  "Ertrinken": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Furchtresistenz": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Numinorus Fesseln": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Quallenhaut": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Quallenruf": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Schiffsgespür": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Unsichtbare Flut": {
+    "source": [
+      "havena"
     ]
   },
   "Nebelkrähenschwarm": {
@@ -338,6 +368,21 @@
   "Ogerruf": {
     "source": [
       "orcs"
+    ]
+  },
+  "Bann wider Untote": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Goldene Rüstung": {
+    "source": [
+      "retos_armory"
+    ]
+  },
+  "Zauberschutz": {
+    "source": [
+      "retos_armory"
     ]
   }
 }

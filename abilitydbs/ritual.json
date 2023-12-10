@@ -71,8 +71,7 @@
   },
   "Nekropathia": {
     "source": [
-      "aranien",
-      "incorporealhorrors"
+      "aranien"
     ]
   },
   "Ruhe Körper": {
@@ -180,16 +179,6 @@
   "Lied der Pflanzen": {
     "source": [
       "herbarium"
-    ]
-  },
-  "Geisterbeschwörung": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Geisterruf": {
-    "source": [
-      "incorporealhorrors"
     ]
   },
   "Verrücktes Kichern": {
@@ -511,6 +500,11 @@
     "source": [
       "magie3",
       "transmutarium"
+    ]
+  },
+  "Zauberklinge Geisterspeer": {
+    "source": [
+      "retos_armory"
     ]
   },
   "Riesengestalt": {

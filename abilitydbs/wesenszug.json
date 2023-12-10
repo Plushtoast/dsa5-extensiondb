@@ -1,0 +1,400 @@
+{
+  "Typische/-r Achaz": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Östliche Echsensümpfe": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Orklandbewohner": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Regengebirge": {
+    "source": [
+      "achaz",
+      "steamingjungles"
+    ]
+  },
+  "Waldinseln": {
+    "source": [
+      "achaz",
+      "steamingjungles"
+    ]
+  },
+  "Westliche Echsensümpfe": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Akrr’Tzr": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Azhlazah": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Chi’Rtsa und Zzszz": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Chriaz Imxxiu": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Kyshn’t": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "O’shr": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Ymrysz’Tarh": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zansch’Jrr": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zarrsi": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zza’Astrrhan": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zzzt": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zorghana": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Elburien": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Baburien": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Typische/r Aranier/in": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Gorien": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Palmyramis": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Yalaiad": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Floeszern": {
+    "source": [
+      "aranien"
+    ]
+  },
+  "Östliches Kalifat (Novadis und Thalushim)": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Westliches Kalifat (Novadis)": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Raschtulswall (Ferkinas)": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Havena": {
+    "source": [
+      "havena",
+      "sevenwindscoast"
+    ]
+  },
+  "Feldmark": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Krakeninsel": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Marschen": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Nalleshof": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Unterfluren": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Typische/-r Orkländer/-in": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Typische/-r Wild-Ork/-in": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Typische/-r Stadt-Ork/-in": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Bodirsümpfe": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Dämmerberge": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Finsterberge": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Große Steppe": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Grenzgebiete des Orklandes": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Olochtai-Gebirge": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Orkschädelsteppe": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Korogai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Mokolash": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Olochtai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Orichai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Truanzhai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Tscharshai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Zholochai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Gharrachai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Svelltlandorks": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Shurachai": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Typische/r Windhager/in": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Albernische Küste & Inseln": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Albernisches Seenland": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Altes Land": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Windhagberge": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Winhaller Land": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Pirateninseln": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Anoiha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Baguarak": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Haipu": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Kasam’Utulus": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Keke-Wanaq": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Miniwatu": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Mohaha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Napewanha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Rololo": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Shemuhaha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Tscholuq": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Chababisches Hinterland": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Ingvaltal": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Seenland": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Siebenwindküste": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Steineichenwald": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Thuranien": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Tommellande": {
+    "source": [
+      "warringkingdoms"
+    ]
+  }
+}

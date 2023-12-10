@@ -1,67 +1,70 @@
 # Summary
-last_updated: 2023-11-10 08:31:21
+last_updated: 2023-12-10 13:28:18
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 66/118 | 55.93% |
+| [Achaz](#achaz) | 67/135 | 49.63% |
 | [Animatorium](#animatorium) | 5/73 | 6.85% |
-| [Aranien](#aranien) | 1/39 | 2.56% |
+| [Aranien](#aranien) | 1/47 | 2.13% |
 | [Armory](#armory) | 17/22 | 77.27% |
 | [Armory2](#armory2) | 18/25 | 72.0% |
-| [Bannerofloyalty](#bannerofloyalty) | 1/10 | 10.0% |
+| [Bannerofloyalty](#bannerofloyalty) | 2/10 | 20.0% |
 | [Bestiary](#bestiary) | 20/25 | 80.0% |
 | [Bestiary2](#bestiary2) | 10/19 | 52.63% |
 | [Companions](#companions) | 80/111 | 72.07% |
 | [Compendium](#compendium) | 224/261 | 85.82% |
-| [Compendium2](#compendium2) | 225/305 | 73.77% |
+| [Compendium2](#compendium2) | 232/305 | 76.07% |
 | [Core](#core) | 363/437 | 83.07% |
-| [Desertkingdom](#desertkingdom) | 39/60 | 65.0% |
+| [Desertkingdom](#desertkingdom) | 45/69 | 65.22% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
-| [Goetterwirken](#goetterwirken) | 262/410 | 63.9% |
-| [Goetterwirken2](#goetterwirken2) | 214/316 | 67.72% |
-| [Havena](#havena) | 14/29 | 48.28% |
+| [Goetterwirken](#goetterwirken) | 264/411 | 64.23% |
+| [Goetterwirken2](#goetterwirken2) | 214/317 | 67.51% |
+| [Havena](#havena) | 21/74 | 28.38% |
 | [Herbarium](#herbarium) | 57/93 | 61.29% |
 | [Herbarium2](#herbarium2) | 31/70 | 44.29% |
-| [Incorporealhorrors](#incorporealhorrors) | 0/75 | 0.0% |
+| [Incorporealhorrors](#incorporealhorrors) | 47/83 | 56.63% |
 | [Klingendernacht](#klingendernacht) | 6/14 | 42.86% |
-| [Magie1](#magie1) | 196/360 | 54.44% |
-| [Magie2](#magie2) | 194/344 | 56.4% |
-| [Magie3](#magie3) | 148/367 | 40.33% |
+| [Magie1](#magie1) | 198/360 | 55.0% |
+| [Magie2](#magie2) | 194/345 | 56.23% |
+| [Magie3](#magie3) | 152/382 | 39.79% |
 | [Mastertools](#mastertools) | 12/20 | 60.0% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 65/81 | 80.25% |
-| [Orcs](#orcs) | 39/67 | 58.21% |
+| [Orcs](#orcs) | 39/87 | 44.83% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
 | [Pandaemonium2](#pandaemonium2) | 16/24 | 66.67% |
 | [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
-| [Sevenwindscoast](#sevenwindscoast) | 47/141 | 33.33% |
+| [Retos_armory](#retos_armory) | 0/16 | 0.0% |
+| [Sevenwindscoast](#sevenwindscoast) | 71/158 | 44.94% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
-| [Steamingjungles](#steamingjungles) | 68/111 | 61.26% |
+| [Steamingjungles](#steamingjungles) | 83/144 | 57.64% |
 | [Studyroom](#studyroom) | 129/209 | 61.72% |
-| [Suncoast](#suncoast) | 86/136 | 63.24% |
+| [Suncoast](#suncoast) | 95/151 | 62.91% |
 | [Transmutarium](#transmutarium) | 45/63 | 71.43% |
-| [Warringkingdoms](#warringkingdoms) | 46/93 | 49.46% |
+| [Warringkingdoms](#warringkingdoms) | 50/110 | 45.45% |
 | --- | --- | --- |
-| Total | 2840/4690 | 60.55% |
+| Total | 2969/4913 | 60.43% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 137/196 | 69.9% |
-| Ceremony | 93/177 | 52.54% |
+| Advantage | 146/196 | 74.49% |
+| Ceremony | 97/182 | 53.3% |
 | Consumable | 19/101 | 18.81% |
-| Disadvantage | 109/134 | 81.34% |
-| Liturgy | 207/288 | 71.88% |
-| Ritual | 138/278 | 49.64% |
-| Specialability | 1672/2728 | 61.29% |
-| Spell | 337/536 | 62.87% |
-| Trait | 128/252 | 50.79% |
+| Disadvantage | 110/134 | 82.09% |
+| Liturgy | 210/300 | 70.0% |
+| Praegung | 0/45 | 0.0% |
+| Ritual | 141/279 | 50.54% |
+| Specialability | 1718/2766 | 62.11% |
+| Spell | 346/536 | 64.55% |
+| Trait | 145/255 | 56.86% |
+| Wesenszug | 37/119 | 31.09% |
 
 
 
 ## Achaz
-Total status:  66/118 (55.93%)
+Total status:  67/135 (49.63%)
 
 
 ### Advantage
@@ -136,7 +139,7 @@ Total status:  66/118 (55.93%)
 - [ ] Schutz des Geistes
 - [x] Volumenerweiterung der Echsenhaube
 - [ ] Tradition (Meistertalentierte)
-- [ ] Tradition (Achazschamanen)
+- [x] Tradition (Achazschamanen)
 - [x] Keulenweihe (Achaz)
 - [x] Freundschaft des Tieres (Achaz)
 - [x] Tierische Kraft (Achaz)
@@ -196,6 +199,27 @@ Total status:  66/118 (55.93%)
 - [x] Rat der Ahnen
 - [x] Regenkontrolle
 - [ ] Schlangengestalt
+
+
+### Wesenszug
+
+- [ ] Typische/-r Achaz
+- [ ] Östliche Echsensümpfe
+- [ ] Orklandbewohner
+- [ ] Regengebirge
+- [ ] Waldinseln
+- [ ] Westliche Echsensümpfe
+- [ ] Akrr’Tzr
+- [ ] Azhlazah
+- [ ] Chi’Rtsa und Zzszz
+- [ ] Chriaz Imxxiu
+- [ ] Kyshn’t
+- [ ] O’shr
+- [ ] Ymrysz’Tarh
+- [ ] Zansch’Jrr
+- [ ] Zarrsi
+- [ ] Zza’Astrrhan
+- [ ] Zzzt
 
 
 
@@ -297,7 +321,7 @@ Total status:  5/73 (6.85%)
 
 
 ## Aranien
-Total status:  1/39 (2.56%)
+Total status:  1/47 (2.13%)
 
 
 ### Specialability
@@ -367,6 +391,22 @@ Total status:  1/39 (2.56%)
 
 
 
+### Praegung
+
+
+
+### Wesenszug
+
+- [ ] Zorghana
+- [ ] Elburien
+- [ ] Baburien
+- [ ] Typische/r Aranier/in
+- [ ] Gorien
+- [ ] Palmyramis
+- [ ] Yalaiad
+- [ ] Floeszern
+
+
 
 
 
@@ -430,7 +470,7 @@ Total status:  18/25 (72.0%)
 
 
 ## Bannerofloyalty
-Total status:  1/10 (10.0%)
+Total status:  2/10 (20.0%)
 
 
 ### Specialability
@@ -440,7 +480,7 @@ Total status:  1/10 (10.0%)
 - [ ] Eiserner Widerstand
 - [ ] Taktische Befehle
 - [ ] Vollkommener Beschützer
-- [ ] Tradition (Shinxirkult)
+- [x] Tradition (Shinxirkult)
 
 
 ### Liturgy
@@ -825,7 +865,7 @@ Total status:  224/261 (85.82%)
 
 
 ## Compendium2
-Total status:  225/305 (73.77%)
+Total status:  232/305 (76.07%)
 
 
 ### Trait
@@ -1047,7 +1087,7 @@ Total status:  225/305 (73.77%)
 - [ ] Thorwal-Stil
 - [ ] Valaria-Stil
 - [x] Vinsalt-Stil
-- [ ] Winhall-Stil
+- [x] Winhall-Stil
 - [x] Wulfgar-Stil
 - [ ] Xorlosch-Stil
 - [x] Angetäuschter Angriff
@@ -1099,12 +1139,12 @@ Total status:  225/305 (73.77%)
 - [ ] Heilungsspezialgebiet (Knochenbrüche)
 - [ ] Heilungsspezialgebiet (Zahnbehandlung)
 - [x] Angriff nach hinten
-- [ ] Nachladespezialist (Armbrüste)
-- [ ] Nachladespezialist (Bögen)
-- [ ] Nachladespezialist (Diskusse)
-- [ ] Nachladespezialist (Wurfwaffen)
-- [ ] Nachladespezialist (Blasrohre)
-- [ ] Nachladespezialist (Schleudern)
+- [x] Nachladespezialist (Armbrüste)
+- [x] Nachladespezialist (Bögen)
+- [x] Nachladespezialist (Diskusse)
+- [x] Nachladespezialist (Wurfwaffen)
+- [x] Nachladespezialist (Blasrohre)
+- [x] Nachladespezialist (Schleudern)
 - [x] Akrobat
 - [ ] Weg des Offiziers
 - [x] Weg der Reiterin
@@ -1566,7 +1606,7 @@ Total status:  363/437 (83.07%)
 
 
 ## Desertkingdom
-Total status:  39/60 (65.0%)
+Total status:  45/69 (65.22%)
 
 
 ### Spell
@@ -1647,6 +1687,19 @@ Total status:  39/60 (65.0%)
 ### Disadvantage
 
 - [x] Misslungene Reifeprüfung
+
+
+### Wesenszug
+
+- [x] Typische/-r Ferkina
+- [x] Typische/-r Novadi
+- [x] Zentrales Kalifat (Novadis)
+- [ ] Östliches Kalifat (Novadis und Thalushim)
+- [ ] Westliches Kalifat (Novadis)
+- [x] Nördliches Kalifat (Novadis)
+- [x] Novadis außerhalb des realen Kalifats (Novadis)
+- [x] Khoram-Gebirge (Ferkinas)
+- [ ] Raschtulswall (Ferkinas)
 
 
 
@@ -1803,7 +1856,7 @@ Total status:  72/119 (60.5%)
 
 
 ## Goetterwirken
-Total status:  262/410 (63.9%)
+Total status:  264/411 (64.23%)
 
 
 ### Specialability
@@ -2032,8 +2085,8 @@ Total status:  262/410 (63.9%)
 - [x] Guter Handel
 - [ ] Handwerksgespür
 - [x] Harmonie der Seele
-- [ ] Hitzegewöhnung
-- [ ] Kältegewöhnung
+- [x] Hitzegewöhnung
+- [x] Kältegewöhnung
 - [ ] Krankheitskenntnis
 - [ ] Langanhaltender Segen
 - [ ] Missionierung
@@ -2164,7 +2217,6 @@ Total status:  262/410 (63.9%)
 - [x] Blick in die Flammen
 - [ ] Delphingestalt
 - [ ] Eidechsengestalt
-- [ ] Eisbärgestalt
 - [x] Erinnern
 - [x] Fest der Freude
 - [ ] Frostschutz
@@ -2219,6 +2271,7 @@ Total status:  262/410 (63.9%)
 - [x] Winterschlaf
 - [ ] Zuflucht
 - [ ] Zwergwalgestalt
+- [ ] Eisbärengestalt
 
 
 ### Advantage
@@ -2236,11 +2289,16 @@ Total status:  262/410 (63.9%)
 - [x] Wenige Visionen
 
 
+### Praegung
+
+- [ ] todo
+
+
 
 
 
 ## Goetterwirken2
-Total status:  214/316 (67.72%)
+Total status:  214/317 (67.51%)
 
 
 ### Specialability
@@ -2417,7 +2475,6 @@ Total status:  214/316 (67.72%)
 - [ ] Mammutruf
 - [x] Mauereinsturz
 - [x] Meeresungeheuer vertreiben
-- [ ] Polarbärenruf
 - [x] Regenbogenbrücke
 - [x] Reinigung des Bösen
 - [ ] Rinderruf
@@ -2473,6 +2530,7 @@ Total status:  214/316 (67.72%)
 - [x] Die Alveransfeder
 - [x] Der Heilige Eiskristall
 - [x] Das Ruderblatt der Jurga
+- [ ] Eisbärenruf
 
 
 ### Ceremony
@@ -2533,16 +2591,21 @@ Total status:  214/316 (67.72%)
 - [x] Schlechte Eigenschaft (Sikaryan-Durst)
 
 
+### Praegung
+
+- [ ] todo
+
+
 
 
 
 ## Havena
-Total status:  14/29 (48.28%)
+Total status:  21/74 (28.38%)
 
 
 ### Specialability
 
-- [ ] Tradition (Necker)
+- [x] Tradition (Necker)
 - [x] Flusslotse (Region)
 - [ ] Seelotse (Region)
 - [x] Tradition (Efferdkirche)
@@ -2558,6 +2621,26 @@ Total status:  14/29 (48.28%)
 - [ ] Wasseratmung
 - [ ] Wasserlunge
 - [ ] Havena-Stil
+- [ ] Tradition (Numinorukult)
+- [ ] Wasser der Vorbereitung
+- [ ] Wasser der Hellsicht
+- [ ] Wasser der Klarheit
+- [ ] Donnerndes Horn
+- [ ] Sturmhorn
+- [ ] Treibendes Horn
+- [ ] Auf Wasser gehen
+- [ ] Dämonische Nahkampfwaffe
+- [ ] Dämonischer Fokus
+- [ ] Durchsichtig
+- [ ] Erhebung von Wasserleichen
+- [ ] Fischgift
+- [ ] Krakenruf
+- [ ] Resistenz gegen Götterwirken
+- [ ] Nachtschwarze Welle
+- [ ] Plankengang
+- [ ] Kleines Simulacrum
+- [ ] Unheiligtum errichten
+- [ ] Wasserbrücke
 
 
 ### Liturgy
@@ -2569,6 +2652,15 @@ Total status:  14/29 (48.28%)
 - [x] Seevogelsprache
 - [ ] Unterwasseratmung
 - [x] Wasserlauf
+- [ ] Blick auf den Meeresgrund
+- [ ] Botschaft aus der Tiefe
+- [ ] Ertrinken
+- [ ] Furchtresistenz
+- [ ] Numinorus Fesseln
+- [ ] Quallenhaut
+- [ ] Quallenruf
+- [ ] Schiffsgespür
+- [ ] Unsichtbare Flut
 
 
 ### Spell
@@ -2581,6 +2673,10 @@ Total status:  14/29 (48.28%)
 - [ ] Delphingestalt
 - [ ] Guter Fang
 - [ ] Nebelschwaden
+- [ ] Leitende Strömung
+- [ ] Numinorus Fluch
+- [ ] Schattenrochengestalt
+- [ ] Seemonsterruf
 
 
 ### Advantage
@@ -2591,6 +2687,22 @@ Total status:  14/29 (48.28%)
 ### Consumable
 
 - [ ] Wasserodem
+
+
+### Wesenszug
+
+- [x] Typische/r Albernier/in
+- [x] Muhrsape und Delta des Großen Flusses
+- [ ] Havena
+- [ ] Feldmark
+- [x] Fischerort
+- [ ] Krakeninsel
+- [ ] Marschen
+- [ ] Nalleshof
+- [x] Oberfluren
+- [x] Orkendorf
+- [x] Südhafen
+- [ ] Unterfluren
 
 
 
@@ -2752,99 +2864,103 @@ Total status:  31/70 (44.29%)
 
 
 ## Incorporealhorrors
-Total status:  0/75 (0.0%)
+Total status:  47/83 (56.63%)
 
 
 ### Spell
 
-- [ ] Alptraumbote
+- [x] Alptraumbote
 - [ ] Besessenheit
-- [ ] Dunkle Flammen
-- [ ] Heimsuchung
-- [ ] Manifestation
+- [x] Dunkle Flammen
+- [x] Heimsuchung
+- [x] Manifestation
 - [ ] Phantasma
-- [ ] Todesgesang
+- [x] Todesgesang
 - [ ] Debilitatio
 - [ ] Dunkelheit
-- [ ] Geisteressenz
-- [ ] Heptagramma
-- [ ] Horriphobus
-- [ ] Motoricus
+- [x] Geisteressenz
+- [x] Heptagramma
+- [x] Horriphobus
+- [x] Motoricus
 
 
 ### Specialability
 
-- [ ] Tradition (Geister)
-- [ ] Geisterrettung
+- [x] Tradition (Geister)
+- [x] Geisterrettung
 - [ ] Geisterhafte Tarnung
 - [ ] Geisterflug
 - [ ] Geisterpanzer
 - [ ] Geistersicht
 - [ ] Geisterstärke
 - [ ] Geisterwaffe
-- [ ] Bindung (Geister)
-- [ ] Entschwörung (Geister)
-- [ ] Machtvolle Entschwörung (Geister)
-- [ ] Rudelbeschwörung (Geister)
-- [ ] Zirkelmeister (Geister)
-- [ ] Furcht nehmen
+- [x] Bindung (Geister)
+- [x] Entschwörung (Geister)
+- [x] Machtvolle Entschwörung (Geister)
+- [x] Rudelbeschwörung (Geister)
+- [x] Zirkelmeister (Geister)
+- [x] Furcht nehmen
 - [ ] Geisterschreck
+- [x] Anspringen
+- [x] Flugangriff
+- [ ] Mächtiger Schlag
+- [ ] Verbeißen
 
 
 ### Ritual
 
-- [ ] Geisterbeschwörung
-- [ ] Geisterruf
-- [ ] Nekropathia
+- [x] Geisterbeschwörung
+- [x] Geisterruf
+- [x] Nekropathia
 - [ ] Verrücktes Kichern
 
 
 ### Liturgy
 
-- [ ] Bannzone
-- [ ] Geisterblick
-- [ ] Geisterfalle
+- [x] Bannzone
+- [x] Geisterblick
+- [x] Geisterfalle
 
 
 ### Ceremony
 
-- [ ] Exorzismus
-- [ ] Geistersprache
-- [ ] Machtvoller Exorzismus
-- [ ] Rat der Ahnen
+- [x] Exorzismus
+- [x] Geistersprache
+- [x] Machtvoller Exorzismus
+- [x] Rat der Ahnen
 
 
 ### Trait
 
 - [ ] Ausweichen in den Limbus
-- [ ] Immunität gegen kritische Treffer
-- [ ] Präsenz
-- [ ] Regeneration
+- [x] Immunität gegen kritische Treffer
+- [x] Präsenz
+- [x] Regeneration
 - [ ] Resistenz gegen göttliches Wirken
 - [ ] Schreckgestalt
-- [ ] Tarnung
-- [ ] Verbindung zum Beschwörer/Erschaffer
+- [x] Tarnung
+- [x] Verbindung zum Beschwörer/Erschaffer
 - [ ] Zusätzliche Aktionen
-- [ ] Astraler Nachhall
-- [ ] Bedrohliche Präsenz
-- [ ] Besessenheit des Unbelebten
+- [x] Astraler Nachhall
+- [x] Bedrohliche Präsenz
+- [x] Besessenheit des Unbelebten
 - [ ] Dunkle Nacht
-- [ ] Entfesselt
+- [x] Entfesselt
 - [ ] Entzug der Lebenskraft
-- [ ] Ewige Präsenz
+- [x] Ewige Präsenz
 - [ ] Geisterfresser
-- [ ] Geisterkontrolle
+- [x] Geisterkontrolle
 - [ ] Geisterpoltern
 - [ ] Grabeskälte
-- [ ] Hartnäckige Präsenz
+- [x] Hartnäckige Präsenz
 - [ ] Karmaler Nachhall
 - [ ] Macht des Jenseits
 - [ ] Machtvoller Geist
 - [ ] Manipulation des Unbelebten
 - [ ] Opferung von Lebenskraft
-- [ ] Ruheort
+- [x] Ruheort
 - [ ] Schreckgespenst
-- [ ] Sog des Jenseits
+- [x] Sog des Jenseits
 - [ ] Niedere Geister
 - [ ] Mittlere Geister
 - [ ] Hohe Geister
@@ -2896,7 +3012,7 @@ Total status:  6/14 (42.86%)
 
 
 ## Magie1
-Total status:  196/360 (54.44%)
+Total status:  198/360 (55.0%)
 
 
 ### Specialability
@@ -2929,7 +3045,6 @@ Total status:  196/360 (54.44%)
 - [x] Stabexplosion
 - [ ] Stabfixierung
 - [ ] Telekineseschlag
-- [ ] Tierwandlung
 - [x] Volumenerweiterung des Zauberstabs
 - [ ] Zauberspeicher des Adepten
 - [x] Bannschwert des Adepten
@@ -2968,8 +3083,8 @@ Total status:  196/360 (54.44%)
 - [ ] Brechender Fels
 - [ ] Emotionsübernahme
 - [ ] Fokus der Aufmerksamkeit
-- [ ] Hilferuf
-- [ ] Klangillusion
+- [x] Hilferuf
+- [x] Klangillusion
 - [ ] Langanhaltender Rhythmus
 - [ ] Machtvoller Instrumentzauber
 - [ ] Ohrenbetäubender Klang
@@ -3279,11 +3394,16 @@ Total status:  196/360 (54.44%)
 - [ ] Verminderte Zaubertänze
 
 
+### Praegung
+
+- [ ] todo
+
+
 
 
 
 ## Magie2
-Total status:  194/344 (56.4%)
+Total status:  194/345 (56.23%)
 
 
 ### Specialability
@@ -3650,11 +3770,16 @@ Total status:  194/344 (56.4%)
 - [x] Zielwasser
 
 
+### Praegung
+
+- [ ] todo
+
+
 
 
 
 ## Magie3
-Total status:  148/367 (40.33%)
+Total status:  152/382 (39.79%)
 
 
 ### Specialability
@@ -3783,7 +3908,7 @@ Total status:  148/367 (40.33%)
 - [ ] Scholar des Halib abu'l Ketab
 - [x] Scholar des Informations-Instituts zu Rommilys
 - [x] Scholar des Konzils der Elemente zu Drakonia
-- [ ] Scholar des Magierkollegs zu Honingen
+- [x] Scholar des Magierkollegs zu Honingen
 - [x] Bewahrer des Uralten
 - [ ] Brecher des Willens
 - [ ] Hüterin des Hains
@@ -4032,6 +4157,9 @@ Total status:  148/367 (40.33%)
 - [ ] Zusätzliche Aktionen
 - [ ] Einschüchterndes Bellen
 - [x] Leben aufspüren
+- [x] Fortpflanzungsfähigkeit (Chimären)
+- [x] Fortpflanzungsfähigkeit (Daimonide)
+- [x] Fortpflanzungsfähigkeit (Golems)
 
 
 ### Advantage
@@ -4046,6 +4174,22 @@ Total status:  148/367 (40.33%)
 ### Disadvantage
 
 - [x] Kleine Zauberauswahl
+
+
+### Praegung
+
+- [ ] Geisterseher
+- [ ] Klingenmeister
+- [ ] Zauberkrieger
+- [ ] Diener der Natur
+- [ ] Ehrwürdige
+- [ ] Elementaranhänger
+- [ ] Sumen
+- [ ] Ausgeglichene
+- [ ] Gnome
+- [ ] Seelenhirten
+- [ ] Sippenhüterinnen
+- [ ] Traumdeuterinnen
 
 
 
@@ -4206,7 +4350,7 @@ Total status:  65/81 (80.25%)
 
 
 ## Orcs
-Total status:  39/67 (58.21%)
+Total status:  39/87 (44.83%)
 
 
 ### Advantage
@@ -4298,6 +4442,30 @@ Total status:  39/67 (58.21%)
 - [ ] Gnade des Vergessens
 - [x] Ogerbindung
 - [ ] Tairachs machtvolle Erhebung von Untoten
+
+
+### Wesenszug
+
+- [ ] Typische/-r Orkländer/-in
+- [ ] Typische/-r Wild-Ork/-in
+- [ ] Typische/-r Stadt-Ork/-in
+- [ ] Bodirsümpfe
+- [ ] Dämmerberge
+- [ ] Finsterberge
+- [ ] Große Steppe
+- [ ] Grenzgebiete des Orklandes
+- [ ] Olochtai-Gebirge
+- [ ] Orkschädelsteppe
+- [ ] Korogai
+- [ ] Mokolash
+- [ ] Olochtai
+- [ ] Orichai
+- [ ] Truanzhai
+- [ ] Tscharshai
+- [ ] Zholochai
+- [ ] Gharrachai
+- [ ] Svelltlandorks
+- [ ] Shurachai
 
 
 
@@ -4412,8 +4580,47 @@ Total status:  0/1 (0.0%)
 
 
 
+## Retos_armory
+Total status:  0/16 (0.0%)
+
+
+### Specialability
+
+- [ ] Auf Distanz halten
+- [ ] Betäubungsschlag
+- [ ] Festnageln
+- [ ] Herunterstoßen
+- [ ] Hohe Klinge
+- [ ] Pikenwall
+- [ ] Schildstoß
+- [ ] Weiter Schwung
+- [ ] Windmühle
+- [ ] Zertrümmern
+- [ ] Zweihandwaffen-Doppelschlag
+
+
+### Ritual
+
+- [ ] Zauberklinge Geisterspeer
+
+
+### Liturgy
+
+- [ ] Bann wider Untote
+- [ ] Goldene Rüstung
+- [ ] Zauberschutz
+
+
+### Ceremony
+
+- [ ] Arcanum Interdictum
+
+
+
+
+
 ## Sevenwindscoast
-Total status:  47/141 (33.33%)
+Total status:  71/158 (44.94%)
 
 
 ### Specialability
@@ -4440,7 +4647,7 @@ Total status:  47/141 (33.33%)
 - [x] Scanlail ni Uinin-Stil
 - [ ] Seesoldaten-Stil
 - [ ] Sippenkrieger-Stil des Windhags
-- [ ] Winhall-Stil
+- [x] Winhall-Stil
 - [ ] Festnageln
 - [x] Angetäuschter Angriff
 - [ ] Aufliegende Klinge
@@ -4456,7 +4663,7 @@ Total status:  47/141 (33.33%)
 - [ ] Waffenwurf
 - [ ] Wuchtiger Wurf
 - [x] Zweifacher Angriff
-- [ ] Scholar des Magierkollegs zu Honingen
+- [x] Scholar des Magierkollegs zu Honingen
 - [ ] Harmoniezauberei
 - [x] Matrixzauberei
 - [ ] Mehr Glück als Verstand
@@ -4464,8 +4671,8 @@ Total status:  47/141 (33.33%)
 - [ ] Brechender Fels
 - [ ] Emotionsübernahme
 - [ ] Fokus der Aufmerksamkeit
-- [ ] Hilferuf
-- [ ] Klangillusion
+- [x] Hilferuf
+- [x] Klangillusion
 - [ ] Langanhaltender Rhythmus
 - [ ] Machtvoller Instrumentzauber
 - [ ] Ohrenbetäubender Klang
@@ -4478,9 +4685,9 @@ Total status:  47/141 (33.33%)
 - [ ] Flusswächter
 - [x] Küstenwächter
 - [x] Meereswächter
-- [ ] Gebieter/in der Wogen
-- [ ] Gebieter/in des Winds
-- [ ] Kältegewöhnung
+- [x] Gebieter/in der Wogen
+- [x] Gebieter/in des Winds
+- [x] Kältegewöhnung
 - [ ] Langanhaltender Segen
 - [ ] Missionierung
 - [ ] Omen
@@ -4488,13 +4695,13 @@ Total status:  47/141 (33.33%)
 - [ ] Flug des Dreizacks
 - [x] Sprung mit dem Dreizack
 - [x] Macht des Dreizacks
-- [ ] Kontrolle des Wassers
+- [x] Kontrolle des Wassers
 - [x] Kontrolle der Welle
 - [x] Kontrolle des Strudels
-- [ ] Tradition (Necker)
+- [x] Tradition (Necker)
 - [ ] Tradition (Feen)
 - [ ] Tradition (Zauberbarden)
-- [ ] Bann des Übernatürlichen
+- [x] Bann des Übernatürlichen
 - [x] Bindung des Zauberinstruments
 - [ ] Viele Instrumente
 - [ ] Zugabe
@@ -4559,30 +4766,55 @@ Total status:  47/141 (33.33%)
 ### Advantage
 
 - [x] Feenfreund
-- [ ] Koboldfreund
+- [x] Koboldfreund
 - [ ] Weitreichende Zaubermelodien
-- [ ] Feenblut (Blütenfee)
+- [x] Feenblut (Blütenfee)
 - [ ] Feenblut (Nixer)
-- [ ] Feenblut (Dryade)
-- [ ] Feenblut (Großer Eberbiestinger)
+- [x] Feenblut (Dryade)
+- [x] Feenblut (Großer Eberbiestinger)
 - [ ] Animalische Kraft
 - [ ] Blumenduft
-- [ ] Dickes Fell
-- [ ] Einblicke ins Verborgene
+- [x] Dickes Fell
+- [x] Einblicke ins Verborgene
 - [ ] Glatte Haut
 - [ ] Harmonie des Waldes
 - [ ] Kraft der Bäume
-- [ ] Leichter Gang
-- [ ] Seesprache
+- [x] Leichter Gang
+- [x] Seesprache
 - [ ] Tierische Kampfgefährten
 - [ ] Verführerische Gestalt
-- [ ] Wasser des Lebens
+- [x] Wasser des Lebens
 
 
 ### Disadvantage
 
 - [ ] Verminderte Zaubermelodien
-- [ ] Lästige Blütenfeen
+- [x] Lästige Blütenfeen
+
+
+### Praegung
+
+- [ ] Menschenkenner
+- [ ] Naturverbundene
+- [ ] Moderne Sichtweise
+- [ ] Mysterienkult
+- [ ] Pragmatismus
+- [ ] Traditionelle Denkrichtung
+
+
+### Wesenszug
+
+- [x] Typische/r Albernier/in
+- [ ] Typische/r Windhager/in
+- [x] Abagund
+- [ ] Albernische Küste & Inseln
+- [ ] Albernisches Seenland
+- [x] Farindelwald
+- [ ] Havena
+- [ ] Altes Land
+- [x] Muhrsape und Delta des Großen Flusses
+- [ ] Windhagberge
+- [ ] Winhaller Land
 
 
 
@@ -4619,7 +4851,7 @@ Total status:  2/2 (100.0%)
 
 
 ## Steamingjungles
-Total status:  68/111 (61.26%)
+Total status:  83/144 (57.64%)
 
 
 ### Specialability
@@ -4699,12 +4931,12 @@ Total status:  68/111 (61.26%)
 - [x] Gift melken (Wassertiere)
 - [x] Schrumpfkopfherstellung
 - [ ] Großer Festritus
-- [ ] Nachladespezialist (Armbrüste)
-- [ ] Nachladespezialist (Bögen)
-- [ ] Nachladespezialist (Diskusse)
-- [ ] Nachladespezialist (Wurfwaffen)
-- [ ] Nachladespezialist (Blasrohre)
-- [ ] Nachladespezialist (Schleudern)
+- [x] Nachladespezialist (Armbrüste)
+- [x] Nachladespezialist (Bögen)
+- [x] Nachladespezialist (Diskusse)
+- [x] Nachladespezialist (Wurfwaffen)
+- [x] Nachladespezialist (Blasrohre)
+- [x] Nachladespezialist (Schleudern)
 
 
 ### Liturgy
@@ -4715,7 +4947,7 @@ Total status:  68/111 (61.26%)
 - [x] Hauch des Elements
 - [ ] Jaguarruf
 - [x] Kriegsfarben
-- [x] Oberans Blendung
+- [x] Obarans Blendung
 - [x] Sprache des Tapams
 
 
@@ -4753,6 +4985,47 @@ Total status:  68/111 (61.26%)
 ### Ritual
 
 - [x] Nekropathia
+
+
+### Praegung
+
+- [ ] Geisterseher
+- [ ] Klingenmeister
+- [ ] Zauberkrieger
+- [ ] Fahrende Schwester
+- [ ] Schwarze Witwe
+- [ ] Tochter der Erde
+- [ ] Moderne Sichtweise
+- [ ] Mysterienkult
+- [ ] Pragmatismus
+- [ ] Traditionelle Denkrichtung
+
+
+### Wesenszug
+
+- [x] Typische Festlandstämme
+- [x] Typische Inselstämme
+- [x] Horobans Wälder
+- [ ] Regengebirge
+- [x] Trahelien und Syllanische Halbinsel
+- [ ] Pirateninseln
+- [ ] Waldinseln
+- [ ] Anoiha
+- [ ] Baguarak
+- [x] Darna
+- [ ] Haipu
+- [ ] Kasam’Utulus
+- [ ] Keke-Wanaq
+- [ ] Miniwatu
+- [ ] Mohaha
+- [ ] Napewanha
+- [x] Oijaniha
+- [ ] Rololo
+- [ ] Shemuhaha
+- [x] Tapo-Tikaute
+- [ ] Tscholuq
+- [x] Tschopukikuha
+- [x] Yakosh-Dey
 
 
 
@@ -4997,7 +5270,7 @@ Total status:  129/209 (61.72%)
 
 
 ## Suncoast
-Total status:  86/136 (63.24%)
+Total status:  95/151 (62.91%)
 
 
 ### Specialability
@@ -5076,7 +5349,7 @@ Total status:  86/136 (63.24%)
 - [ ] Tradition (Zauberbarden)
 - [x] Bindung des Zauberinstruments
 - [ ] Emotionsübernahme
-- [ ] Hilferuf
+- [x] Hilferuf
 - [ ] Weiter Klang
 - [ ] Astrale Meditation
 - [x] Kraftknotenmagie
@@ -5164,6 +5437,29 @@ Total status:  86/136 (63.24%)
 ### Consumable
 
 - [ ] Hylailer Feuer
+
+
+### Praegung
+
+- [ ] Menschenkenner
+- [ ] Naturverbundene
+- [ ] Moderne Sichtweise
+- [ ] Pragmatismus
+- [ ] Mysterienkult
+- [ ] Traditionelle Denkrichtung
+
+
+### Wesenszug
+
+- [x] Typische/-r Südhorasier/-in
+- [x] Typische/-r Zyklopäer/-in
+- [x] Chababische Küste
+- [ ] Chababisches Hinterland
+- [x] Harodische Küste
+- [x] Harodisches Sumpfland
+- [x] Hohe Eternen
+- [x] Östliche Zyklopeninseln
+- [x] Westliche Zyklopeninseln
 
 
 
@@ -5267,7 +5563,7 @@ Total status:  45/63 (71.43%)
 
 
 ## Warringkingdoms
-Total status:  46/93 (49.46%)
+Total status:  50/110 (45.45%)
 
 
 ### Specialability
@@ -5374,6 +5670,31 @@ Total status:  46/93 (49.46%)
 
 - [ ] Hass auf (Andergaster)
 - [ ] Hass auf (Nostrier)
+
+
+### Praegung
+
+- [ ] Beherrscher des Geistes
+- [ ] Diener der Natur
+- [ ] Sumen
+- [ ] Graue Gilde
+- [ ] Weiße Gilde
+- [ ] Schwestern des Wissens
+- [ ] Verschwiegene Schwestern
+
+
+### Wesenszug
+
+- [x] Typische/r Andergaster/in
+- [x] Typische/r Nostrier/in
+- [ ] Ingvaltal
+- [ ] Seenland
+- [ ] Siebenwindküste
+- [ ] Steineichenwald
+- [x] Steppen des Ostens
+- [ ] Thuranien
+- [ ] Tommellande
+- [x] Waldwildnis
 
 
 

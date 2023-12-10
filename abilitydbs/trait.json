@@ -66,8 +66,7 @@
   },
   "Tarnung": {
     "source": [
-      "animatorium",
-      "incorporealhorrors"
+      "animatorium"
     ]
   },
   "Verbindung zum Erschaffer": {
@@ -239,47 +238,7 @@
       "herbarium2"
     ]
   },
-  "Immunität gegen kritische Treffer": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Präsenz": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Regeneration": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Verbindung zum Beschwörer/Erschaffer": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Astraler Nachhall": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Bedrohliche Präsenz": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Besessenheit des Unbelebten": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
   "Dunkle Nacht": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Entfesselt": {
     "source": [
       "incorporealhorrors"
     ]
@@ -289,17 +248,7 @@
       "incorporealhorrors"
     ]
   },
-  "Ewige Präsenz": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
   "Geisterfresser": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Geisterkontrolle": {
     "source": [
       "incorporealhorrors"
     ]
@@ -310,11 +259,6 @@
     ]
   },
   "Grabeskälte": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Hartnäckige Präsenz": {
     "source": [
       "incorporealhorrors"
     ]
@@ -344,17 +288,7 @@
       "incorporealhorrors"
     ]
   },
-  "Ruheort": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
   "Schreckgespenst": {
-    "source": [
-      "incorporealhorrors"
-    ]
-  },
-  "Sog des Jenseits": {
     "source": [
       "incorporealhorrors"
     ]
