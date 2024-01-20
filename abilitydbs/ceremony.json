@@ -27,7 +27,8 @@
   "Mungogestalt": {
     "source": [
       "aranien",
-      "goetterwirken2"
+      "goetterwirken2",
+      "realmofthethorns"
     ]
   },
   "Geweihter Panzer": {
@@ -52,7 +53,8 @@
   },
   "Ausbrennen (Purgation)": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "riverlands"
     ]
   },
   "Delphingestalt": {
@@ -267,7 +269,8 @@
   },
   "Schaffenskraft": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "riverlands"
     ]
   },
   "Schlangenfluch": {
@@ -349,7 +352,33 @@
   },
   "Arcanum Interdictum": {
     "source": [
+      "retosarmory",
       "retos_armory"
+    ]
+  },
+  "Blick in die Flammen": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Metallerhitzung": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Weihe des Heims": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Wiederherstellung": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Große Waffenweihe": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

@@ -7,6 +7,160 @@
       "magie2"
     ]
   },
+  "Pragmatismus": {
+    "source": [
+      "goetterwirken2",
+      "riverlands",
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast",
+      "winterwatch"
+    ]
+  },
+  "Mysterienkult": {
+    "source": [
+      "goetterwirken2",
+      "riverlands",
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast",
+      "winterwatch"
+    ]
+  },
+  "Traditionelle Denkrichtung": {
+    "source": [
+      "goetterwirken2",
+      "riverlands",
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast",
+      "winterwatch"
+    ]
+  },
+  "Moderne Sichtweise": {
+    "source": [
+      "goetterwirken2",
+      "riverlands",
+      "sevenwindscoast",
+      "steamingjungles",
+      "suncoast",
+      "winterwatch"
+    ]
+  },
+  "Graue Gilde": {
+    "source": [
+      "magie1",
+      "realmofthethorns",
+      "warringkingdoms",
+      "winterwatch"
+    ]
+  },
+  "Schwarze Gilde": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Weiße Gilde": {
+    "source": [
+      "magie1",
+      "riverlands",
+      "warringkingdoms",
+      "winterwatch"
+    ]
+  },
+  "Gildenlose": {
+    "source": [
+      "magie1",
+      "realmofthethorns"
+    ]
+  },
+  "Menschenfreund": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Sehnende": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Wanderer": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Fahrende Schwester": {
+    "source": [
+      "magie2",
+      "steamingjungles"
+    ]
+  },
+  "Schöne der Nacht": {
+    "source": [
+      "magie2",
+      "realmofthethorns"
+    ]
+  },
+  "Schwarze Witwe": {
+    "source": [
+      "magie2",
+      "steamingjungles"
+    ]
+  },
+  "Schwester des Wissens": {
+    "source": [
+      "magie2",
+      "realmofthethorns"
+    ]
+  },
+  "Seherin von Heute und Morgen": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Tochter der Erde": {
+    "source": [
+      "magie2",
+      "riverlands",
+      "steamingjungles"
+    ]
+  },
+  "Verschwiegene Schwester": {
+    "source": [
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Hofnarr": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Klabauterlehrling": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Possenreißer": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Schöpfer": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Vagabund": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Visionär": {
+    "source": [
+      "magie2"
+    ]
+  },
   "Geisterseher": {
     "source": [
       "magie3",
@@ -38,7 +192,8 @@
   },
   "Elementaranhänger": {
     "source": [
-      "magie3"
+      "magie3",
+      "riverlands"
     ]
   },
   "Sumen": {
@@ -72,6 +227,22 @@
       "magie3"
     ]
   },
+  "Ausdruckstänzer": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Töchter der Inszenierung": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Beherrscher des Geistes": {
+    "source": [
+      "riverlands",
+      "warringkingdoms"
+    ]
+  },
   "Menschenkenner": {
     "source": [
       "sevenwindscoast",
@@ -84,64 +255,6 @@
       "suncoast"
     ]
   },
-  "Moderne Sichtweise": {
-    "source": [
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast"
-    ]
-  },
-  "Mysterienkult": {
-    "source": [
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast"
-    ]
-  },
-  "Pragmatismus": {
-    "source": [
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast"
-    ]
-  },
-  "Traditionelle Denkrichtung": {
-    "source": [
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast"
-    ]
-  },
-  "Fahrende Schwester": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Schwarze Witwe": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Tochter der Erde": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Beherrscher des Geistes": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Graue Gilde": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Weiße Gilde": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
   "Schwestern des Wissens": {
     "source": [
       "warringkingdoms"
@@ -150,6 +263,26 @@
   "Verschwiegene Schwestern": {
     "source": [
       "warringkingdoms"
+    ]
+  },
+  "Goblinritualmeisterin": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Sippenzauberin": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Sippenhüterin": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Traumdeuterin": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

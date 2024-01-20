@@ -16,52 +16,61 @@
   },
   "Caldofrigo": {
     "source": [
-      "animatorium"
+      "animatorium",
+      "winterwatch"
     ]
   },
   "Tanz der Bilder": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Tanz der Erlösung": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Tanz der Wacht": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Tanz des Begehrens": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Tanz des Jagdglücks": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Blick in die Vergangenheit": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Körperlose Reise": {
     "source": [
       "aranien",
       "magie2",
+      "realmofthethorns",
       "suncoast"
     ]
   },
   "Leidensbund": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Levthans Feuer": {
@@ -71,27 +80,32 @@
   },
   "Nekropathia": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Ruhe Körper": {
     "source": [
       "aranien",
       "magie1",
-      "studyroom"
+      "realmofthethorns",
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Widerwille": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Zauberschnurren": {
     "source": [
       "aranien",
       "magie2",
-      "pandaemonium2"
+      "pandaemonium2",
+      "realmofthethorns"
     ]
   },
   "Arcanovi": {
@@ -155,7 +169,8 @@
   "Weisheit der Bäume": {
     "source": [
       "elementarium",
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Freiheit der Wolken": {
@@ -179,11 +194,6 @@
   "Lied der Pflanzen": {
     "source": [
       "herbarium"
-    ]
-  },
-  "Verrücktes Kichern": {
-    "source": [
-      "incorporealhorrors"
     ]
   },
   "Kakophonie des Wahnsinns": {
@@ -306,7 +316,8 @@
   },
   "Hagelschlag und Sturmgebrüll": {
     "source": [
-      "magie1"
+      "magie1",
+      "riverlands"
     ]
   },
   "Magischer Raub": {
@@ -373,7 +384,8 @@
   },
   "Eins mit der Natur": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Nihilogravo": {
@@ -451,12 +463,14 @@
   },
   "Bienenfleiß": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Bienenkönigin": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Bienensuche": {
@@ -476,7 +490,8 @@
   },
   "Unglücksgefäß": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Weisheit der Schrift": {
@@ -502,8 +517,14 @@
       "transmutarium"
     ]
   },
+  "Xenographus": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
   "Zauberklinge Geisterspeer": {
     "source": [
+      "retosarmory",
       "retos_armory"
     ]
   },
@@ -515,6 +536,51 @@
   "Melodie der Tiere": {
     "source": [
       "suncoast"
+    ]
+  },
+  "Band zur Ware": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Traumerinnerung": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Warenchronik": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Elementarer Verbündeter": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Goblin-Exorzismus": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Goblin-Geistheilung": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Goblin-Zuflucht": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Orvai Kurims Kriegstrommel": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Adamantium": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

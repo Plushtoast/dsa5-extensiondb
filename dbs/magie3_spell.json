@@ -60,8 +60,8 @@
       "changes": [
         {
           "key": "system.effectFormula.value",
-          "mode": 5,
-          "value": "+2d6+QS*3"
+          "mode": 2,
+          "value": "+QS"
         }
       ]
     }
@@ -587,8 +587,8 @@
       "changes": [
         {
           "key": "system.effectFormula.value",
-          "mode": 5,
-          "value": "+2d6+QS*3"
+          "mode": 2,
+          "value": "+QS"
         }
       ]
     }
@@ -862,9 +862,13 @@
     },
     {
       "name": "Extremer Schaden",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 2,
+          "value": "+QS"
+        }
       ]
     }
   ],

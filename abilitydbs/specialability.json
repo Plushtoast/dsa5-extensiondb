@@ -21,6 +21,8 @@
       "achaz",
       "compendium2",
       "goetterwirken2",
+      "realmofthethorns",
+      "riverlands",
       "steamingjungles"
     ]
   },
@@ -37,7 +39,9 @@
       "compendium2",
       "goetterwirken2",
       "orcs",
-      "steamingjungles"
+      "realmofthethorns",
+      "steamingjungles",
+      "winterwatch"
     ]
   },
   "Schmerzwut": {
@@ -387,7 +391,8 @@
   },
   "Bastler": {
     "source": [
-      "animatorium"
+      "animatorium",
+      "riverlands"
     ]
   },
   "Konstruktsimulacrum": {
@@ -452,76 +457,89 @@
       "aranien",
       "magie1",
       "magie3",
+      "realmofthethorns",
       "studyroom"
     ]
   },
   "Tradition (Zaubertänzer)": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Bindung der Zauberkleidung": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Diebesgewand": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Fesselnde Gewandung": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Fokus der Begierde": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Gewand der Beeinflussung": {
     "source": [
       "aranien",
       "desertkingdom",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Schmutzabweisend": {
     "source": [
       "aranien",
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Belkelels Ekstase": {
     "source": [
       "aranien",
-      "magie3"
+      "magie3",
+      "realmofthethorns"
     ]
   },
   "Brünstigkeit erzeugen": {
     "source": [
       "aranien",
-      "magie3"
+      "magie3",
+      "realmofthethorns"
     ]
   },
   "Lange Nägel": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Peitschenhieb": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Schönheit der Dar-Klajid": {
     "source": [
       "aranien",
-      "magie3"
+      "magie3",
+      "realmofthethorns"
     ]
   },
   "Ballistischer Schuss": {
@@ -535,15 +553,19 @@
       "armory",
       "armory2",
       "compendium",
+      "retosarmory",
       "retos_armory",
-      "sevenwindscoast"
+      "riverlands",
+      "sevenwindscoast",
+      "winterwatch"
     ]
   },
   "Vorbeiziehen": {
     "source": [
       "armory",
       "compendium",
-      "goetterwirken2"
+      "goetterwirken2",
+      "realmofthethorns"
     ]
   },
   "Weiter Schwung": {
@@ -552,6 +574,8 @@
       "compendium",
       "goetterwirken",
       "goetterwirken2",
+      "realmofthethorns",
+      "retosarmory",
       "retos_armory"
     ]
   },
@@ -559,7 +583,9 @@
     "source": [
       "armory",
       "compendium",
-      "sevenwindscoast"
+      "realmofthethorns",
+      "sevenwindscoast",
+      "winterwatch"
     ]
   },
   "Auflaufen": {
@@ -570,7 +596,8 @@
   },
   "Spießgespann": {
     "source": [
-      "armory2"
+      "armory2",
+      "riverlands"
     ]
   },
   "Aufspießen": {
@@ -579,13 +606,17 @@
       "compendium",
       "goetterwirken",
       "goetterwirken2",
-      "sevenwindscoast"
+      "realmofthethorns",
+      "riverlands",
+      "sevenwindscoast",
+      "winterwatch"
     ]
   },
   "Waffenwurf": {
     "source": [
       "armory2",
       "compendium",
+      "riverlands",
       "sevenwindscoast"
     ]
   },
@@ -780,6 +811,8 @@
   "Herunterstoßen": {
     "source": [
       "compendium",
+      "realmofthethorns",
+      "retosarmory",
       "retos_armory"
     ]
   },
@@ -807,7 +840,8 @@
   },
   "Elenvina-Stil": {
     "source": [
-      "compendium"
+      "compendium",
+      "riverlands"
     ]
   },
   "Hammerfaust-Stil": {
@@ -843,7 +877,8 @@
   },
   "Kopfstoß": {
     "source": [
-      "compendium"
+      "compendium",
+      "winterwatch"
     ]
   },
   "Schildstoß": {
@@ -851,10 +886,12 @@
       "compendium",
       "goetterwirken",
       "goetterwirken2",
+      "retosarmory",
       "retos_armory",
       "sevenwindscoast",
       "steamingjungles",
-      "suncoast"
+      "suncoast",
+      "winterwatch"
     ]
   },
   "Schwinger": {
@@ -983,7 +1020,8 @@
   },
   "Umwickeln": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "winterwatch"
     ]
   },
   "Weitwurf": {
@@ -1048,7 +1086,8 @@
   },
   "Xorlosch-Stil": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "riverlands"
     ]
   },
   "Antäuschen": {
@@ -1064,7 +1103,8 @@
   },
   "Blattschuss": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "winterwatch"
     ]
   },
   "Drehschlag": {
@@ -1102,13 +1142,6 @@
   "Meister zwergischer Waffen": {
     "source": [
       "compendium2"
-    ]
-  },
-  "Nervös machen": {
-    "source": [
-      "compendium2",
-      "steamingjungles",
-      "suncoast"
     ]
   },
   "Riskanter Schuss": {
@@ -1153,7 +1186,8 @@
   },
   "Weg der Wandergesellin": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "riverlands"
     ]
   },
   "Azilajid-Stil": {
@@ -1173,7 +1207,8 @@
   },
   "Festum-Stil": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "winterwatch"
     ]
   },
   "Havena-Stil": {
@@ -1205,7 +1240,8 @@
   },
   "Sippenkrieger-Stil": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "winterwatch"
     ]
   },
   "Soldaten-Stil": {
@@ -1419,12 +1455,14 @@
   },
   "Beistand der Unbesiegten": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "winterwatch"
     ]
   },
   "Schutz wider Unheiliges": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "winterwatch"
     ]
   },
   "Flug des Dreizacks": {
@@ -1592,12 +1630,14 @@
   },
   "Tierfreundschaft": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "winterwatch"
     ]
   },
   "Tradition (Korkirche)": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "winterwatch"
     ]
   },
   "Scharfe Krallen": {
@@ -1623,7 +1663,8 @@
   "Tradition (Namenloser Kult)": {
     "source": [
       "goetterwirken",
-      "suncoast"
+      "suncoast",
+      "winterwatch"
     ]
   },
   "Macht der Namenlosen Klinge": {
@@ -1700,7 +1741,8 @@
   },
   "Stabile Regeneration": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "riverlands"
     ]
   },
   "Gespür für das Böse": {
@@ -1721,7 +1763,8 @@
   },
   "Vigilanten": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "winterwatch"
     ]
   },
   "Flusswächter": {
@@ -1773,7 +1816,8 @@
   },
   "Jünger des Handwerks": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "riverlands"
     ]
   },
   "Harmonisten": {
@@ -1809,12 +1853,14 @@
   "Geistkontrolle": {
     "source": [
       "goetterwirken",
-      "suncoast"
+      "suncoast",
+      "winterwatch"
     ]
   },
   "Geteilte Freude": {
     "source": [
       "goetterwirken",
+      "riverlands",
       "suncoast"
     ]
   },
@@ -1825,7 +1871,8 @@
   },
   "Handwerksgespür": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "riverlands"
     ]
   },
   "Krankheitskenntnis": {
@@ -1963,7 +2010,8 @@
   },
   "Karmale Meditation": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "winterwatch"
     ]
   },
   "Liturgie vereinen": {
@@ -2211,11 +2259,6 @@
     ]
   },
   "Plankengang": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Kleines Simulacrum": {
     "source": [
       "havena"
     ]
@@ -2504,7 +2547,8 @@
   "Abgeschwächter Zauber": {
     "source": [
       "magie1",
-      "warringkingdoms"
+      "warringkingdoms",
+      "winterwatch"
     ]
   },
   "Alchimieverstärkung": {
@@ -2515,6 +2559,7 @@
   "Astrale Meditation": {
     "source": [
       "magie1",
+      "riverlands",
       "studyroom",
       "suncoast",
       "warringkingdoms"
@@ -2556,7 +2601,8 @@
   "Improvisiertes Ritual": {
     "source": [
       "magie1",
-      "warringkingdoms"
+      "warringkingdoms",
+      "winterwatch"
     ]
   },
   "Matrixkontrolle": {
@@ -2619,7 +2665,8 @@
   },
   "Scholar der Khelbara ay Baburia": {
     "source": [
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Scholar der Schule der Vierfachen Verwandlung zu Sinoda": {
@@ -2635,12 +2682,14 @@
   },
   "Scholar der Schule des Seienden Scheins zu Zorgan": {
     "source": [
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Scholar der Töchter Niobaras": {
     "source": [
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Scholar des Alrik Dagabor": {
@@ -2678,7 +2727,8 @@
   "Elfenfreund": {
     "source": [
       "magie1",
-      "studyroom"
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Erweiterter Gedankenschutz": {
@@ -2689,7 +2739,9 @@
   },
   "Geistzauberer": {
     "source": [
-      "magie1"
+      "magie1",
+      "riverlands",
+      "winterwatch"
     ]
   },
   "Harmoniezauberei": {
@@ -2701,7 +2753,8 @@
   },
   "Illusionäre Undurchschaubarkeit": {
     "source": [
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Kriegszauberer": {
@@ -2713,12 +2766,14 @@
   },
   "Langanhaltende Illusion": {
     "source": [
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Meisterliches Auraverbergen": {
     "source": [
       "magie1",
+      "realmofthethorns",
       "steamingjungles",
       "warringkingdoms"
     ]
@@ -2731,6 +2786,7 @@
   "Selbstkontrolle": {
     "source": [
       "magie1",
+      "realmofthethorns",
       "studyroom"
     ]
   },
@@ -2741,7 +2797,8 @@
   },
   "Urtulamidische Heilmagie": {
     "source": [
-      "magie1"
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Verständigungszauberer": {
@@ -2819,57 +2876,68 @@
   },
   "Angsteinflößendes Geblubber": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Benommenheitstrank": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Brechsuppe": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Giftgebräu": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Heilsüppchen": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Machtvolle Kesselzauber": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Schönheitssalbe": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Schutzsalbe": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Tarnsalbe": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Tiersuppe": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Waschung des Vertrauten": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Fernkampfmurks": {
@@ -2944,7 +3012,8 @@
   },
   "Hexentanz": {
     "source": [
-      "magie2"
+      "magie2",
+      "winterwatch"
     ]
   },
   "Koboldruf": {
@@ -2970,6 +3039,7 @@
   "Materielle Verbindung": {
     "source": [
       "magie2",
+      "riverlands",
       "steamingjungles",
       "warringkingdoms"
     ]
@@ -3006,7 +3076,8 @@
   },
   "Scholar der Akademie der Herrschaft zu Elenvina": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Scholar der Halle der Macht zu Lowangen": {
@@ -3096,7 +3167,8 @@
   },
   "Alchimieanalytiker": {
     "source": [
-      "magie2"
+      "magie2",
+      "winterwatch"
     ]
   },
   "Einlullende Zaubermusik": {
@@ -3107,6 +3179,7 @@
   "Erdkraft": {
     "source": [
       "magie2",
+      "riverlands",
       "warringkingdoms"
     ]
   },
@@ -3118,7 +3191,8 @@
   "Giftmeisterin": {
     "source": [
       "magie2",
-      "steamingjungles"
+      "steamingjungles",
+      "winterwatch"
     ]
   },
   "Langer Fluch": {
@@ -3135,7 +3209,9 @@
   "Magische Kräuterheilkunde": {
     "source": [
       "magie2",
-      "warringkingdoms"
+      "riverlands",
+      "warringkingdoms",
+      "winterwatch"
     ]
   },
   "Magischer Schutzschild": {
@@ -3151,19 +3227,22 @@
   },
   "Psychometrie": {
     "source": [
-      "magie2"
+      "magie2",
+      "winterwatch"
     ]
   },
   "Übertragung der Astralkräfte": {
     "source": [
       "magie2",
-      "studyroom"
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Übertragung der Lebenskraft": {
     "source": [
       "magie2",
-      "studyroom"
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Umfassende Telekinese": {
@@ -3201,6 +3280,7 @@
   "Tradition (Druiden)": {
     "source": [
       "magie3",
+      "riverlands",
       "studyroom",
       "warringkingdoms"
     ]
@@ -3214,7 +3294,8 @@
   "Tradition (Zibiljas)": {
     "source": [
       "magie3",
-      "studyroom"
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Tradition (Brobim-Geoden)": {
@@ -3245,6 +3326,7 @@
   "Kraft aus der Erde": {
     "source": [
       "magie3",
+      "riverlands",
       "warringkingdoms"
     ]
   },
@@ -3255,7 +3337,8 @@
   },
   "Schutz des Dolches": {
     "source": [
-      "magie3"
+      "magie3",
+      "riverlands"
     ]
   },
   "Sicht im Dunkeln": {
@@ -3272,6 +3355,7 @@
   "Wegweiser": {
     "source": [
       "magie3",
+      "riverlands",
       "warringkingdoms"
     ]
   },
@@ -3438,12 +3522,14 @@
   },
   "Heilungswissen": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Honigkleber": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Machtvolle Chronikzauber": {
@@ -3453,7 +3539,8 @@
   },
   "Sicht auf Heshinjas Werk": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Wind des Schutzes": {
@@ -3463,12 +3550,14 @@
   },
   "Wissen ist Macht": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Druidenrache": {
     "source": [
       "magie3",
+      "riverlands",
       "warringkingdoms"
     ]
   },
@@ -3521,7 +3610,8 @@
   },
   "Hüterin des Hains": {
     "source": [
-      "magie3"
+      "magie3",
+      "riverlands"
     ]
   },
   "Konzilsmeister": {
@@ -3547,7 +3637,8 @@
   },
   "Weiße Leute": {
     "source": [
-      "magie3"
+      "magie3",
+      "riverlands"
     ]
   },
   "Astralraub (Sonderfertigkeit)": {
@@ -3975,39 +4066,479 @@
       "rahjasservants"
     ]
   },
+  "Drohgebärden": {
+    "source": [
+      "realmofthethorns",
+      "winterwatch"
+    ]
+  },
+  "Angetäuschter Angriff": {
+    "source": [
+      "realmofthethorns",
+      "riverlands"
+    ]
+  },
+  "Hohe Klinge": {
+    "source": [
+      "realmofthethorns",
+      "retosarmory",
+      "retos_armory"
+    ]
+  },
+  "Klingensturm": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Weg des Händlers": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Weg des Tänzers": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Einnahmequelle": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Gerüchte aufschnappen": {
+    "source": [
+      "realmofthethorns",
+      "riverlands"
+    ]
+  },
+  "Handwerkskunst ()": {
+    "source": [
+      "realmofthethorns",
+      "riverlands"
+    ]
+  },
+  "Körperliches Geschick ()": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Kunstbegabt": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Verhandlungsgeschick": {
+    "source": [
+      "realmofthethorns",
+      "winterwatch"
+    ]
+  },
+  "Aranischer Sippenkrieger-Stil": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Baburin-Stil": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Ishannah al'Kira-Stil": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Rosenritter-Stil": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Fahrender Schütze": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Machtvoller Wirbelangriff": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Reizen": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Verbesserte Aufmerksamkeit": {
+    "source": [
+      "realmofthethorns",
+      "winterwatch"
+    ]
+  },
+  "Verbesserter Doppelangriff": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Scholar der Erben der Gräber": {
+    "source": [
+      "realmofthethorns",
+      "studyroom"
+    ]
+  },
+  "Wildkatzen (Schöne der Nacht)": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Bewanderter Heilzauberer": {
+    "source": [
+      "realmofthethorns",
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Bewegungszauberei": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Destruktor": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Hervorragender Illusionist": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Kundiger Sphärologe": {
+    "source": [
+      "realmofthethorns",
+      "riverlands"
+    ]
+  },
+  "Qabalya-Magie": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Tierflüsterer": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Vortrefflicher Hellseher": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Meteoreisen verarbeiten": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
   "Auf Distanz halten": {
     "source": [
+      "retosarmory",
       "retos_armory"
     ]
   },
   "Betäubungsschlag": {
     "source": [
-      "retos_armory"
-    ]
-  },
-  "Hohe Klinge": {
-    "source": [
+      "retosarmory",
       "retos_armory"
     ]
   },
   "Pikenwall": {
     "source": [
+      "retosarmory",
       "retos_armory"
     ]
   },
   "Windmühle": {
     "source": [
-      "retos_armory"
+      "retosarmory",
+      "retos_armory",
+      "winterwatch"
     ]
   },
   "Zertrümmern": {
     "source": [
+      "retosarmory",
       "retos_armory"
     ]
   },
   "Zweihandwaffen-Doppelschlag": {
     "source": [
+      "retosarmory",
       "retos_armory"
+    ]
+  },
+  "Ingenieurin": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Weg der Gelehrten (Rechtskunde)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Weg des Greven": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Weg des Mechanikus": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Allgemeinwissen ()": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Fachwissen ()": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Gute Verarbeitung": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Meister der Orientierung": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Praxisbezug": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Universalgenie ()": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Vertrauenswürdig": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Berittene Lanzenformation": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Drachenkampf-Taktik": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Ferdoker Lanzerinnen-Stil": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Klippag-Stil": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Binden": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Breschenangriff": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Drachentod": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Durchbohrung": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Erweiterte Drachenkampf-Taktik": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Frontalangriff": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Schilddeckung": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Bindung des Hexenkessels": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Hexenkessel-Apport": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Krafttrank": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Volumenerweiterung des Hexenkessels": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Bindung des Dolches": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Dolch-Apport": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Gespür des Dolches": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Bannsichel": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Bindung der Sichel": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Ernte der Sichel": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Sichel-Apport": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Sichel wider Übernatürliches": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Zauber abbrechen": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Zauberkraft des Hains": {
+    "source": [
+      "riverlands",
+      "studyroom"
+    ]
+  },
+  "Erdverbundene": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Elementarmeisterin": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Machtvolle materielle Verbindung": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Matrixzauberei": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Vollendeter Elementarist": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Vollkommener Beherrscher": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Tradition (Ingerimmkirche)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Werkzeug der Beständigkeit": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Schlag der Zerstörung": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Hammer der Schwere": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Karmale Regeneration": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Anhänger des Roten Gottes": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Aufbegehren": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Gebieter/in des Handwerks": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Hitzegewöhnung": {
+    "source": [
+      "riverlands"
     ]
   },
   "Distelritter-Stil": {
@@ -4033,7 +4564,8 @@
   "Tradition (Feen)": {
     "source": [
       "sevenwindscoast",
-      "suncoast"
+      "suncoast",
+      "winterwatch"
     ]
   },
   "Auge der Fee": {
@@ -4094,7 +4626,8 @@
   },
   "Tradition (Goblinzauberinnen)": {
     "source": [
-      "studyroom"
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Tradition (Runenschöpfer)": {
@@ -4117,19 +4650,10 @@
       "studyroom"
     ]
   },
-  "Scholar der Erben der Gräber": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Zauberkraft des Hains": {
-    "source": [
-      "studyroom"
-    ]
-  },
   "Goblinheilerin": {
     "source": [
-      "studyroom"
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Hofzauberer": {
@@ -4185,6 +4709,231 @@
   "Tradition (Einhorn)": {
     "source": [
       "warringkingdoms"
+    ]
+  },
+  "Ackerbau": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Anpeitscher": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Ätzes geben": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Bine Maschores": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Skifahren": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Weg der Kontoristin": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Weg des Rattenfängers": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Erfolgreicher Jäger": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Fährtenleser": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Körperliches Geschick": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Rechnungswesen": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Schnellladen (Schleudern)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Birkholt-Stil": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Bornländisches Raufen": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Neersand-Stil": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Söldner-Stil": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Haltegriff brechen": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Machtvoller Sturmangriff": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Miese Tricks": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Tiefschlag": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Bindung der Chronik": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Eindämmung des Kampfeswillens": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Mokoschas Schutz": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Bindung der Goblinkeule": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Keulenwurf": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Rottenheilung": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Schweinekraft": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Adaption (Zauber)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Scholar der Halle des Lebens zu Norburg": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Scholar der Halle des Quecksilbers zu Festum": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Scholar der Schule der Beherrschung zu Neersand": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Goblinhexe": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Schutz der Löwin": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Verteidigungslücke": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Schmerzhafter Hieb": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Kampfesmut": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Göttlicher Schutz": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Anhänger des Guten Kampfes": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Honoren": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Kamerad des Guten Goldes": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Einschüchternde Zurechtweisung": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Gebieter des (Aspekts)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Tapferkeit der Unsterblichen": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Verbesserte Fokussierung": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Blutpfand": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

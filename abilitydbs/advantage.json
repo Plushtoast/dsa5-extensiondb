@@ -2,7 +2,8 @@
   "Biss": {
     "source": [
       "achaz",
-      "orcs"
+      "orcs",
+      "winterwatch"
     ]
   },
   "Basiliskentöter": {
@@ -223,6 +224,16 @@
   "Hass auf (Nostrier)": {
     "source": [
       "warringkingdoms"
+    ]
+  },
+  "Natürliche Waffe (Biss)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Natürlicher Rüstungssschutz": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

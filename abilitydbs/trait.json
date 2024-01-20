@@ -125,7 +125,8 @@
   },
   "Sonnenkind": {
     "source": [
-      "companions"
+      "companions",
+      "winterwatch"
     ]
   },
   "Streicheleinheiten": {
@@ -330,7 +331,8 @@
   },
   "Hypnotischer Blick": {
     "source": [
-      "magie2"
+      "magie2",
+      "winterwatch"
     ]
   },
   "Katzenplage": {
@@ -407,6 +409,11 @@
   "Pheromone": {
     "source": [
       "transmutarium"
+    ]
+  },
+  "Extrem putzig": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

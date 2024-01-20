@@ -1,26 +1,10 @@
 {
-  "Flugechsenruf": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Kleine Windhose": {
     "source": [
       "achaz",
       "goetterwirken",
       "havena",
       "sevenwindscoast"
-    ]
-  },
-  "Schlangenruf": {
-    "source": [
-      "achaz",
-      "goetterwirken2"
-    ]
-  },
-  "Schlingerruf": {
-    "source": [
-      "achaz"
     ]
   },
   "Sturmruf": {
@@ -37,13 +21,15 @@
   },
   "Geldwechsel": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Doppelgänger": {
     "source": [
       "aranien",
-      "goetterwirken2"
+      "goetterwirken2",
+      "realmofthethorns"
     ]
   },
   "Geist des Strategen": {
@@ -111,11 +97,6 @@
       "core"
     ]
   },
-  "Rabenruf": {
-    "source": [
-      "core"
-    ]
-  },
   "Schlangenstab": {
     "source": [
       "core"
@@ -158,13 +139,15 @@
   },
   "Erdbeben": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "riverlands"
     ]
   },
   "Feuerwall": {
     "source": [
       "goetterwirken",
-      "orcs"
+      "orcs",
+      "riverlands"
     ]
   },
   "Froststurm": {
@@ -174,7 +157,8 @@
   },
   "Göttliche Klinge": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "winterwatch"
     ]
   },
   "Heilsame Quelle": {
@@ -215,7 +199,8 @@
   },
   "Versteinerung": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "riverlands"
     ]
   },
   "Entstelltes Antlitz": {
@@ -233,11 +218,6 @@
       "goetterwirken2"
     ]
   },
-  "Hairuf": {
-    "source": [
-      "goetterwirken2"
-    ]
-  },
   "Gnadenstoß": {
     "source": [
       "goetterwirken2"
@@ -248,31 +228,15 @@
       "goetterwirken2"
     ]
   },
-  "Jaguarruf": {
-    "source": [
-      "goetterwirken2",
-      "steamingjungles"
-    ]
-  },
   "Kampfgeschick": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "winterwatch"
     ]
   },
   "Krankheiten vorbeugen": {
     "source": [
       "goetterwirken2"
-    ]
-  },
-  "Mammutruf": {
-    "source": [
-      "goetterwirken2"
-    ]
-  },
-  "Rinderruf": {
-    "source": [
-      "goetterwirken2",
-      "orcs"
     ]
   },
   "Schattenfessel": {
@@ -300,17 +264,7 @@
       "goetterwirken2"
     ]
   },
-  "Wolfsruf": {
-    "source": [
-      "goetterwirken2"
-    ]
-  },
   "Zwergenmacht": {
-    "source": [
-      "goetterwirken2"
-    ]
-  },
-  "Eisbärenruf": {
     "source": [
       "goetterwirken2"
     ]
@@ -345,11 +299,6 @@
       "havena"
     ]
   },
-  "Quallenruf": {
-    "source": [
-      "havena"
-    ]
-  },
   "Schiffsgespür": {
     "source": [
       "havena"
@@ -372,17 +321,75 @@
   },
   "Bann wider Untote": {
     "source": [
+      "retosarmory",
       "retos_armory"
     ]
   },
   "Goldene Rüstung": {
     "source": [
+      "retosarmory",
       "retos_armory"
     ]
   },
   "Zauberschutz": {
     "source": [
+      "retosarmory",
       "retos_armory"
+    ]
+  },
+  "Erzene Opfergabe": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Gebieter der Flammen": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Herr der Flammen": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Steinhaut": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Blutzoll": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Heldenkraft": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Zähe Haut": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Des Einen bezaubernder Sphärenklang": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Herbeirufung der Heerscharen des Rattenkindes (Vampirfledermäuse)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Namenlose Raserei": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Pech und Schwefel": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

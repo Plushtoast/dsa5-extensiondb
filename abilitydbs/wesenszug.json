@@ -88,42 +88,50 @@
   },
   "Zorghana": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Elburien": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Baburien": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Typische/r Aranier/in": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Gorien": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Palmyramis": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Yalaiad": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Floeszern": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Östliches Kalifat (Novadis und Thalushim)": {
@@ -272,6 +280,66 @@
       "orcs"
     ]
   },
+  "Ambosszwerge": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Erzzwerge": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Hügelzwerge": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Typische/r Koscher/in": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Typische/r Nordmärker/in": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Elenviner Ebene & Tal des Großen Flusses": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Ferdoker Land": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Gratenfelser Becken": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Hochkosch und Wengenholmer Land": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Hügellande und Angbarer See": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Nordgratenfels": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Stammland der Zwerge": {
+    "source": [
+      "riverlands"
+    ]
+  },
   "Typische/r Windhager/in": {
     "source": [
       "sevenwindscoast"
@@ -395,6 +463,51 @@
   "Tommellande": {
     "source": [
       "warringkingdoms"
+    ]
+  },
+  "Typische/-r Bornländer/-in": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Typische/-r Norbardin/Norbarde": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Typische/-r Stammesgoblin/-in": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Bornische Sümpfe": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Festenland": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Grüner Wall": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Mark": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Sewerien": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Überwals": {
+    "source": [
+      "winterwatch"
     ]
   }
 }

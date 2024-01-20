@@ -45,47 +45,56 @@
   },
   "Auris Illusionis": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Hellsichtbann": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Hexenspeichel": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Illusionsbann": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Manus Illusionis": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Memorans": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Reflectimago": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Schmerzen lindern": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Skelettarius": {
     "source": [
-      "aranien"
+      "aranien",
+      "realmofthethorns"
     ]
   },
   "Analys Arkanstruktur": {
@@ -215,14 +224,6 @@
       "steamingjungles"
     ]
   },
-  "Talentverbesserung": {
-    "source": [
-      "desertkingdom",
-      "magie3",
-      "orcs",
-      "steamingjungles"
-    ]
-  },
   "Steinwand": {
     "source": [
       "desertkingdom",
@@ -259,6 +260,7 @@
     "source": [
       "havena",
       "magie3",
+      "riverlands",
       "sevenwindscoast",
       "studyroom",
       "warringkingdoms"
@@ -268,6 +270,7 @@
     "source": [
       "herbarium",
       "magie3",
+      "riverlands",
       "warringkingdoms"
     ]
   },
@@ -320,14 +323,6 @@
       "transmutarium"
     ]
   },
-  "Ecliptifactus": {
-    "source": [
-      "magie1",
-      "pandaemonium2",
-      "studyroom",
-      "warringkingdoms"
-    ]
-  },
   "Fischflosse": {
     "source": [
       "magie1"
@@ -365,7 +360,8 @@
       "magie1",
       "studyroom",
       "suncoast",
-      "warringkingdoms"
+      "warringkingdoms",
+      "winterwatch"
     ]
   },
   "Wolfstatze": {
@@ -429,25 +425,10 @@
       "magie2"
     ]
   },
-  "Affenruf": {
-    "source": [
-      "magie2"
-    ]
-  },
   "Dämonisches Vergessen": {
     "source": [
       "magie2",
       "nekromanthaeum"
-    ]
-  },
-  "Eulenruf": {
-    "source": [
-      "magie2"
-    ]
-  },
-  "Fledermausruf": {
-    "source": [
-      "magie2"
     ]
   },
   "Hexenknoten": {
@@ -456,30 +437,9 @@
       "warringkingdoms"
     ]
   },
-  "Hornissenruf": {
-    "source": [
-      "magie2"
-    ]
-  },
-  "Katzenruf": {
-    "source": [
-      "magie2"
-    ]
-  },
   "Krabbelnder Schrecken": {
     "source": [
       "magie2"
-    ]
-  },
-  "Krähenruf": {
-    "source": [
-      "magie2"
-    ]
-  },
-  "Schlangenruf": {
-    "source": [
-      "magie2",
-      "warringkingdoms"
     ]
   },
   "Schleier der Unwissenheit": {
@@ -488,14 +448,10 @@
       "studyroom"
     ]
   },
-  "Spinnenruf": {
-    "source": [
-      "magie2"
-    ]
-  },
   "Tiere besprechen": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Unentflammbarkeit": {
@@ -556,7 +512,8 @@
   },
   "Böser Blick": {
     "source": [
-      "magie3"
+      "magie3",
+      "riverlands"
     ]
   },
   "Fesselfeld": {
@@ -626,10 +583,30 @@
       "orcs"
     ]
   },
-  "Papageienruf": {
+  "Levthans Feuer": {
     "source": [
-      "steamingjungles",
-      "studyroom"
+      "realmofthethorns"
+    ]
+  },
+  "Band und Fessel": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Einflussbann": {
+    "source": [
+      "riverlands",
+      "winterwatch"
+    ]
+  },
+  "Gifthaut": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Humofaxius": {
+    "source": [
+      "riverlands"
     ]
   },
   "Protectionis": {
@@ -652,11 +629,6 @@
       "studyroom"
     ]
   },
-  "Krötenruf": {
-    "source": [
-      "studyroom"
-    ]
-  },
   "Minimus Reductibus": {
     "source": [
       "studyroom"
@@ -675,6 +647,46 @@
   "Windstille": {
     "source": [
       "studyroom"
+    ]
+  },
+  "Affenarme": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Ängste lindern": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Aura der Erschöpfung": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Blick aufs Wesen": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Imperavi": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Klarum Purum": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Objectofixo": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Verwandlungsbann": {
+    "source": [
+      "winterwatch"
     ]
   }
 }
