@@ -1,11 +1,11 @@
 // transform spell source data object
 
-let origEffect = source.effects.find(x => x.label == "Aeolito")
+let origEffect = source.effects.find(x => x.name == "Aeolito")
 
 if(!origEffect) return
 
 origEffect = duplicate(origEffect)
-source.effects = source.effects.filter(x => x.label != "Aeolito")
+source.effects = source.effects.filter(x => x.name != "Aeolito")
 
 const lang = game.i18n.lang == "de" ? "de" : "en"
 const dict = {
