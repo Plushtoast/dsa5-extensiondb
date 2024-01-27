@@ -1,10 +1,10 @@
 // transform spell source data object
 
-let effect = source.effects.find(x => x.label == "Aeolito")
+let origEffect = source.effects.find(x => x.label == "Aeolito")
 
-if(!effect) return
+if(!origEffect) return
 
-effect = duplicate(effect)
+origEffect = duplicate(origEffect)
 source.effects = source.effects.filter(x => x.label != "Aeolito")
 
 const lang = game.i18n.lang == "de" ? "de" : "en"
@@ -17,5 +17,5 @@ const dict = {
     }
 }[lang]
 
-effect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('stunned', 1, false)`
-source.effects.push(effect)
+origEffect.flags.dsa5.args3 = `msg += \` \${actor.name} ${dict.msg}.\`;\nawait actor.addCondition('stunned', 1, false)`
+source.effects.push(origEffect)
