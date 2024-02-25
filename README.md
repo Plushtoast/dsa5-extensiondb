@@ -92,31 +92,31 @@ You can also add a "comment" key if you need to add information:
 ## Allowed keys
 The following keys can be used to modify the spells:
 
-| Key                               |     Effect(en)     | Effect(de)                       |        Example        | type     |
-|-----------------------------------|:------------------:|----------------------------------|:---------------------:|----------|
-| system.castingTime.value          |    Casting time    | Zauberdauer                      |           5           | numbe r  |
-| system.AsPCost.value              |      AE cost       | AsP cost                         |           2           | number   |
-| system.maintainCost.value         |   Maintain cost    | Aufrechterhalten kosten          | "5 AsP pro 5 Minuten" | string   |
-| system.effectFormula.value        |   Damage roll *1   | Schadenswurf *1                  |       "+2+1d6"        | string   |
-| system.range.value                |       Range        | Reichweite                       |     "32 Schritt"      | string   |
-| system.duration.value             |      Duration      | Dauer                            |        "5 KR"         | string   |
-| system.variableBaseCost           |  variable AE cost  | Variable AsP kosten              |        "true"         | boolean  |
-| system.canChangeCastingTime.value | variable cast time | Variable Zauberdauer             |        "true"         | boolean  |
-| system.targetCategory.value       |  Target category   | Zielkategorie                    |      "Lebewesen"      | string   |
-| system.target.value               |  size of aoe \*2   | Größe des Flächeneffekts \*2     |        "qs*2"         | string   |
-| defenseMalus                      |   Defense malus    | Verteidigungsmalus               |          -2           | number   |
-| forceSpell.mod                    |   Force Modifier   | Erzwingen Modifikator            |           1           | number   |
-| reduceCostSpell.mod               |   Cost modifier    | Zauberkosten reduzieren (Zauber) |           1           | number   |
-| increaseRangeSpell.mod            |   Force Modifier   | Erzwingen Modifikator            |           1           | number   |
-| increaseCastingTime.mod           |   Force Modifier   | Erzwingen Modifikator            |           1           | number   |
-| decreaseCastingTime.mod           |   Force Modifier   | Erzwingen Modifikator            |           1           | number   |
-| removeGesture.mod                 |   Force Modifier   | Erzwingen Modifikator            |           1           | number   |
-| removeFormula.mod                 |   Force Modifier   | Erzwingen Modifikator            |           1           | number   |
-| extensionModifier.mod             |   Flat Modifier    | Modifikator                      |           1           | number   |
-| system.target.type                |                    |                                  |        "Kegel"        | string   |
-| system.target.value               |                    |                                  |   "QS x 10 Schritt"   | string   |
-| system.target.angle               |                    |                                  |          45           | number   |
-| system.target.width               |                    |                                  |   "QS x 2 Schritt"    | String   |
+| Key                               | Effect(en)         | Effect(de)                       |               Example | type    |
+|-----------------------------------|:-------------------|----------------------------------|----------------------:|---------|
+| system.castingTime.value          | Casting time       | Zauberdauer                      |                     5 | number  |
+| system.AsPCost.value              | AE cost            | AsP cost                         |                     2 | number  |
+| system.maintainCost.value         | Maintain cost      | Aufrechterhalten kosten          | "5 AsP pro 5 Minuten" | string  |
+| system.effectFormula.value        | Damage roll *1     | Schadenswurf *1                  |              "+2+1d6" | string  |
+| system.range.value                | Range              | Reichweite                       |          "32 Schritt" | string  |
+| system.duration.value             | Duration           | Dauer                            |                "5 KR" | string  |
+| system.variableBaseCost           | variable AE cost   | Variable AsP kosten              |                "true" | boolean |
+| system.canChangeCastingTime.value | variable cast time | Variable Zauberdauer             |                "true" | boolean |
+| system.targetCategory.value       | Target category    | Zielkategorie                    |           "Lebewesen" | string  |
+| system.target.value               | size of aoe \*2    | Größe des Flächeneffekts \*2     |                "qs*2" | string  |
+| defenseMalus                      | Defense malus      | Verteidigungsmalus               |                    -2 | number  |
+| forceSpell.mod                    | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
+| reduceCostSpell.mod               | Cost modifier      | Zauberkosten reduzieren (Zauber) |                     1 | number  |
+| increaseRangeSpell.mod            | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
+| increaseCastingTime.mod           | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
+| decreaseCastingTime.mod           | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
+| removeGesture.mod                 | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
+| removeFormula.mod                 | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
+| extensionModifier.mod             | Flat Modifier      | Modifikator                      |                     1 | number  |
+| system.target.type                |                    |                                  |               "Kegel" | string  |
+| system.target.value               |                    |                                  |     "QS x 10 Schritt" | string  |
+| system.target.angle               |                    |                                  |                    45 | number  |
+| system.target.width               |                    |                                  |      "QS x 2 Schritt" | String  |
 
 
 *1 The damage roll is a string and has to be preceded with a "+" or "-" for mode 2.
