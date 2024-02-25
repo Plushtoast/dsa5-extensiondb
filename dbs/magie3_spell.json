@@ -962,8 +962,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -980,7 +979,11 @@
       "name": "Qualvolle Ranken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 2,
+          "value": "+2"
+        }
       ]
     },
     {

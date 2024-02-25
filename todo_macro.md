@@ -13,8 +13,5 @@
 | Hexengalle       | Hinderlich, Brennend    | Effekte anwenden                                                                           |
 | Hexengalle       | Nachwirkungen           | Verpäteten Schaden anwenden                                                                |
 | Hexenkrallen     | Kletterhilfe            | Effekt der Klettern erleichtert                                                            |
-
-
-# List of extensions that could help more autoimation
-* Changing Flächeneffect --> "QS x 20 Schritt" and shape "Sphäre" (e.g. Exposami, Feuerwand, ...)
-* Some spells can have a zone effect or a single target (player choice) -> marked as incomplete so far
+| Incendio         | Schmerzhafte Flammen    | Schmerz anwenden                                                                           |
+| Invinculo        | Paralysierende Ranken   | Paralyse hinzufügen                                                                        |
