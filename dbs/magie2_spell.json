@@ -1522,12 +1522,11 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Hexengeschoss",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.AsPCost.value",
@@ -1542,14 +1541,19 @@
         {
           "key": "system.effectFormula.value",
           "mode": 5,
-          "value": "+1d6+1"
+          "value": "+1d6 + QS/2"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Poltergeist",
       "complete": false,
+      "comment": "Zone and per round damage is missing + zone effect 'eingeängt'",
       "changes": [
         {
           "key": "system.AsPCost.value",
@@ -1561,19 +1565,18 @@
           "mode": 5,
           "value": "2 AsP pro 5 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Los Hexenholz, flieg!",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Los Hexenholz, flieg schneller!",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1585,30 +1588,31 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kreisrund",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Ausgenommen Freunde 2",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 20 KR"
+        }
       ]
     },
     {
@@ -1622,14 +1626,14 @@
   "Hexenspeichel": [
     {
       "name": "Erholung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gift- und Krankheitsheilung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1648,7 +1652,7 @@
     },
     {
       "name": "Narbenheilung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1685,8 +1689,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Tiere",
@@ -1697,9 +1700,13 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -1727,8 +1734,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Tiere",
@@ -1739,9 +1745,13 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -1766,11 +1776,10 @@
     },
     {
       "name": "Einen Elfenfreund verteidigen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Tiere",
@@ -1781,16 +1790,24 @@
     },
     {
       "name": "Verkürzte Zauberdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     }
   ],
@@ -1811,29 +1828,35 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Durch das Element",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kürzere Zauberdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Sehr lange Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -1862,9 +1885,13 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -1888,8 +1915,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Elementarschaden",
@@ -1907,9 +1933,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     }
   ],
@@ -1937,9 +1967,13 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -1956,16 +1990,14 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Starker Ekel",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehrere Ziele",
@@ -1976,14 +2008,17 @@
           "mode": 2,
           "value": "multitarget-8AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
@@ -2008,8 +2043,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Stärke des Tiers 2",
@@ -2028,16 +2062,24 @@
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "20 KR"
+        }
       ]
     },
     {
@@ -2068,14 +2110,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -2089,15 +2134,14 @@
   "Kulminatio": [
     {
       "name": "Intensiver Blitz",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zuckender Blitz",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.AsPCost.value",
@@ -2107,10 +2151,9 @@
         {
           "key": "defenseMalus",
           "mode": 2,
-          "value": -1
+          "value": -2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -2128,21 +2171,38 @@
       "name": "Größere Reichweite",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
       "name": "Kettenblitz",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Wolke von A’Tall",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 32
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],

@@ -3170,28 +3170,25 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verborgene Dinge",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -3200,7 +3197,16 @@
       "name": "Andere Kosten",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 AsP pro 15 Minuten"
+        }
       ]
     }
   ],
@@ -3232,21 +3238,28 @@
           "mode": 5,
           "value": "1 Monat"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verkürzte Zauberdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     }
   ],
@@ -3288,14 +3301,38 @@
       "name": "Permanente Zauber unterdrücken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        }
       ]
     },
     {
       "name": "Versiegeln",
       "complete": false,
+      "comment": "we should add a zone shape here",
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     }
   ],
@@ -3337,14 +3374,37 @@
       "name": "Permanente Zauber unterdrücken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        }
       ]
     },
     {
       "name": "Versiegeln",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     }
   ],
@@ -3358,8 +3418,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Geister",
@@ -3370,8 +3429,7 @@
           "mode": 2,
           "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Drei Geister",
@@ -3382,19 +3440,23 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gefangenname",
       "complete": false,
+      "comment": "apply Zone and Anrufungsschwierigkeits modification",
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Verbannung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -3429,35 +3491,52 @@
       "name": "Herzschmerz",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Unruhiger Herzschlag 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 4 KR"
+        }
       ]
     },
     {
       "name": "Unruhiger Herzschlag 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Schaden",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.effectFormula.value",
+          "mode": 2,
+          "value": "+1"
+        }
       ]
     }
   ],
@@ -3471,8 +3550,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Elementare",
@@ -3494,19 +3572,23 @@
           "mode": 2,
           "value": 16
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gefangenname",
       "complete": false,
+      "comment": "apply Zone and Anrufungsschwierigkeits modification",
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Verbannung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -3522,8 +3604,7 @@
           "mode": 2,
           "value": -2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Höhere Spuckreichweite",
@@ -3541,8 +3622,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Hinderliche Spucke",
@@ -3572,16 +3652,14 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Scharfe Krallen",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Hand und Fuß",
@@ -3606,10 +3684,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 4 Minuten"
+          "value": "QS x 5 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -3631,16 +3708,24 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -3678,7 +3763,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Minuten"
+        }
       ]
     },
     {
@@ -3704,8 +3793,7 @@
           "mode": 2,
           "value": "Ignifaxius-IntensiverStrahl"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Windender Strahl",
@@ -3721,8 +3809,7 @@
           "mode": 2,
           "value": -2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -3737,9 +3824,13 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
@@ -3785,8 +3876,7 @@
           "mode": 2,
           "value": -1
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -3800,10 +3890,9 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "7"
+          "value": "10"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kugelbombe",
@@ -3856,16 +3945,24 @@
     },
     {
       "name": "Ignorierter Gegenstand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen, Objekte"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     }
   ],
@@ -3905,16 +4002,39 @@
     },
     {
       "name": "Permanente Zauber unterdrücken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        }
       ]
     },
     {
       "name": "Versiegeln",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     }
   ],
@@ -3926,14 +4046,13 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "1 Schritt"
+          "value": "4 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehr Befehle",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -3947,16 +4066,24 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -3966,35 +4093,32 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Das bin ja ich!",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Wer denn nun?",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4029,9 +4153,13 @@
     },
     {
       "name": "Qualvolle Flammen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 2,
+          "value": "+2"
+        }
       ]
     },
     {
@@ -4097,9 +4225,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 KR"
+        }
       ]
     },
     {
@@ -4116,24 +4248,21 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Noch größere Menge",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Noch viel größere Menge",
       "complete": false,
       "changes": [
 
-      ],
-      "deprecated": true
+      ]
     },
     {
       "name": "Ritualvorbereitung 1",
@@ -4167,7 +4296,7 @@
     },
     {
       "name": "Vorhersehbares Ende",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4177,14 +4306,17 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
       ]
     },
     {
@@ -4247,23 +4379,46 @@
     },
     {
       "name": "Sehen in der Dunkelheit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-1AsP_per_target"
+        }
       ]
     }
   ],
@@ -4273,37 +4428,56 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Weiter und höher 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Krötenflink",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 1 KR"
+        }
+      ]
     },
     {
       "name": "Doppelsprung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 KR"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -4313,8 +4487,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkung",
@@ -4340,16 +4513,24 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],

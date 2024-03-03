@@ -736,8 +736,7 @@
           "mode": 5,
           "value": "QS x 10 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Wahnvorstellungen",
@@ -789,21 +788,28 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Tage"
+        }
       ]
     },
     {
       "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     }
   ],
@@ -822,8 +828,7 @@
           "mode": 2,
           "value": "Humofaxius-IntensiverStrahl"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Windender Strahl",
@@ -855,9 +860,13 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
@@ -887,8 +896,7 @@
           "mode": 2,
           "value": "Humosphaero-IntensiveExplosion"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schneller Ball",
@@ -904,8 +912,7 @@
           "mode": 2,
           "value": -1
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -919,10 +926,9 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "7"
+          "value": "10"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kugelbombe",
@@ -956,8 +962,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -974,7 +979,11 @@
       "name": "Qualvolle Ranken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 2,
+          "value": "+2"
+        }
       ]
     },
     {
