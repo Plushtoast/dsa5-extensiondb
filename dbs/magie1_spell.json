@@ -4296,7 +4296,7 @@
     },
     {
       "name": "Vorhersehbares Ende",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4306,14 +4306,17 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 KR"
+        }
       ]
     },
     {
@@ -4376,23 +4379,46 @@
     },
     {
       "name": "Sehen in der Dunkelheit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Mehrere Ziele",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-1AsP_per_target"
+        }
       ]
     }
   ],
@@ -4402,37 +4428,56 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Weiter und höher 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Krötenflink",
-      "complete": false,
+      "complete": true,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 1 KR"
+        }
+      ]
     },
     {
       "name": "Doppelsprung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 KR"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -4442,8 +4487,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkung",
@@ -4469,16 +4513,24 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],

@@ -15,3 +15,4 @@
 | Hexenkrallen     | Kletterhilfe            | Effekt der Klettern erleichtert                                                            |
 | Incendio         | Schmerzhafte Flammen    | Schmerz anwenden                                                                           |
 | Invinculo        | Paralysierende Ranken   | Paralyse hinzufügen                                                                        |
+| Katzenaugen      | Mehrere Ziele           | erhöte AsP kosten bei Aufrechterhaltung abhängig von der Anzahl der Ziele                  | 
