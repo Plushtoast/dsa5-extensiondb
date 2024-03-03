@@ -113,10 +113,10 @@ The following keys can be used to modify the spells:
 | removeGesture.mod                 | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
 | removeFormula.mod                 | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
 | extensionModifier.mod             | Flat Modifier      | Modifikator                      |                     1 | number  |
-| system.target.type                |                    |                                  |               "Kegel" | string  |
-| system.target.value               |                    |                                  |     "QS x 10 Schritt" | string  |
-| system.target.angle               |                    |                                  |                    45 | number  |
-| system.target.width               |                    |                                  |      "QS x 2 Schritt" | String  |
+| system.target.type                | Area effect shape  | Flächeneffekt Form               |               "sphere"| string  |
+| system.target.value               | Area effect size   | Flächeneffekt Große (Schritt)    |                 "QS*2"| string  |
+| system.target.angle               | Cone opening       | Kegel Öffnungswinkel             |                    45 | number  |
+| system.target.width               | Line width         | Linienbreite (Schritt)           |                     2 | String  |
 
 
 *1 The damage roll is a string and has to be preceded with a "+" or "-" for mode 2.
@@ -132,6 +132,14 @@ See also existing extensions as example.
 | 3      | Downgrade|
 | 4      | Upgrade  |
 | 5      | Override |
+
+## Area effect shapes
+
+### Allowed types
+* cube
+* line
+* sphere
+* cone
 
 ## When to "complete"
 Setting the key "completed" to true is a completely arbitrary decission. If the automation is working with all required modifiers, set it to true. If it's missing an aspect don't.
@@ -194,17 +202,17 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken_ceremony|152/394|38.6|
 |goetterwirken_liturgy|248/632|39.2|
 |magie1_ritual|73/95|76.8|
-|magie1_spell|353/702|50.3|
+|magie1_spell|382/702|54.4|
 |magie2_ritual|167/190|87.9|
-|magie2_spell|132/380|34.7|
+|magie2_spell|153/380|40.3|
 |magie3_ritual|74/76|97.4|
-|magie3_spell|104/199|52.3|
+|magie3_spell|107/199|53.8|
 |nekromanthaeum_ceremony|1/5|20.0|
 |nekromanthaeum_liturgy|1/6|16.7|
 |nekromanthaeum_ritual|8/10|80.0|
-|nekromanthaeum_spell|25/37|67.6|
+|nekromanthaeum_spell|26/37|70.3|
 |studyroom_ritual|60/81|74.1|
-|studyroom_spell|72/280|25.7|
-|partly done|1881/3884|48.4|
-|progress|1771/3884|45.6|
+|studyroom_spell|116/280|41.4|
+|partly done|2002/3884|51.5|
+|progress|1869/3884|48.1|
 

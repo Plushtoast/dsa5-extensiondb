@@ -29,13 +29,13 @@ Dir["../dbs/*.json"].each do |r|
                 when "system.variableBaseCost"
                 when "system.canChangeCastingTime.value"
                     output << "#{name}: #{key} can only be true/false" unless change["value"] =~ /(true|false)/
-                when "system.AsPCost.value", "defenseMalus", "system.castingTime.value", "decreaseCastingTime.mod", "reduceCostSpell.mod", "increaseRangeSpell.mod", "reduceCostSpell.mod"
+                when "system.AsPCost.value", "defenseMalus", "system.castingTime.value", "decreaseCastingTime.mod", "reduceCostSpell.mod", "increaseRangeSpell.mod", "reduceCostSpell.mod", "system.target.width", "system.target.angle"
                     output << "#{name}: #{key} needs to be a number" unless change["value"].is_a? Numeric
                 when "system.targetCategory.value"
                     cats = change["value"].split(",").map{|x| x.strip}.reject{|x| targetCategories.include?(x)}
                     output << "#{name}: #{key} unknown categorie(s) #{cats.join(", ")}" if cats.any?
                 when "system.effectFormula.value"
-                    output << "#{name}: #{key} <#{change["value"]}> does not match pattern #{rollPattern}" unless change["value"] =~ rollPattern
+                    output << "#{name}: #{key} <#{change["value"]}> does not match pattern #{rollPattern}" unless change["value"] =~ rollPattern || change["value"] =~ /\+(\d|QS)/
 
                     output << "#{name}: #{key} needs to start with + or -" if !(change["value"] =~ /^(\+|-)/) && change["mode"] == 2
                 when "system.target.value"
@@ -48,6 +48,10 @@ Dir["../dbs/*.json"].each do |r|
                     output << "#{name}: #{key} <#{change["value"]}> file missing" unless File.exists?("../macros/#{change["value"]}.js")
                 when "extensionModifier.mod"
                     output << "#{name}: #{key} <#{change["value"]}> not a number or wrong mode" if !(change["value"].is_a?(Numeric) && change["mode"] == 2)
+                when "system.target.type"
+                    output << "#{name}: #{key} <#{change["value"]}> unknown area type" unless change["value"] =~ /(sphere|cone|line|cube)/
+                when "system.target.value"
+                    output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(qs\*|ql\*)?\d{1,3}/
                 else
 
                     output << "#{name}: uncovered key <#{key}>"

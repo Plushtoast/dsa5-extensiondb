@@ -19,19 +19,6 @@
       "goetterwirken"
     ]
   },
-  "Geldwechsel": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Doppelgänger": {
-    "source": [
-      "aranien",
-      "goetterwirken2",
-      "realmofthethorns"
-    ]
-  },
   "Geist des Strategen": {
     "source": [
       "bannerofloyalty"
@@ -203,6 +190,12 @@
       "riverlands"
     ]
   },
+  "Doppelgänger": {
+    "source": [
+      "goetterwirken2",
+      "realmofthethorns"
+    ]
+  },
   "Entstelltes Antlitz": {
     "source": [
       "goetterwirken2"
@@ -319,24 +312,6 @@
       "orcs"
     ]
   },
-  "Bann wider Untote": {
-    "source": [
-      "retosarmory",
-      "retos_armory"
-    ]
-  },
-  "Goldene Rüstung": {
-    "source": [
-      "retosarmory",
-      "retos_armory"
-    ]
-  },
-  "Zauberschutz": {
-    "source": [
-      "retosarmory",
-      "retos_armory"
-    ]
-  },
   "Erzene Opfergabe": {
     "source": [
       "riverlands"
@@ -355,41 +330,6 @@
   "Steinhaut": {
     "source": [
       "riverlands"
-    ]
-  },
-  "Blutzoll": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Heldenkraft": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Zähe Haut": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Des Einen bezaubernder Sphärenklang": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Herbeirufung der Heerscharen des Rattenkindes (Vampirfledermäuse)": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Namenlose Raserei": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Pech und Schwefel": {
-    "source": [
-      "winterwatch"
     ]
   }
 }

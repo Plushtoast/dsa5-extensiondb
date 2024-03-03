@@ -6,7 +6,8 @@
   },
   "Transmutare": {
     "source": [
-      "animatorium"
+      "animatorium",
+      "broodofhell"
     ]
   },
   "Planastrale": {
@@ -17,95 +18,13 @@
   "Caldofrigo": {
     "source": [
       "animatorium",
-      "winterwatch"
+      "broodofhell"
     ]
   },
-  "Tanz der Bilder": {
+  "Traumgestalt": {
     "source": [
-      "aranien",
-      "magie1",
-      "realmofthethorns"
-    ]
-  },
-  "Tanz der Erlösung": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Tanz der Wacht": {
-    "source": [
-      "aranien",
-      "magie1",
-      "realmofthethorns"
-    ]
-  },
-  "Tanz des Begehrens": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Tanz des Jagdglücks": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Blick in die Vergangenheit": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Körperlose Reise": {
-    "source": [
-      "aranien",
-      "magie2",
-      "realmofthethorns",
-      "suncoast"
-    ]
-  },
-  "Leidensbund": {
-    "source": [
-      "aranien",
-      "magie1",
-      "realmofthethorns"
-    ]
-  },
-  "Levthans Feuer": {
-    "source": [
-      "aranien"
-    ]
-  },
-  "Nekropathia": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Ruhe Körper": {
-    "source": [
-      "aranien",
-      "magie1",
-      "realmofthethorns",
-      "studyroom",
-      "winterwatch"
-    ]
-  },
-  "Widerwille": {
-    "source": [
-      "aranien",
-      "magie1",
-      "realmofthethorns"
-    ]
-  },
-  "Zauberschnurren": {
-    "source": [
-      "aranien",
-      "magie2",
-      "pandaemonium2",
-      "realmofthethorns"
+      "broodofhell",
+      "magie2"
     ]
   },
   "Arcanovi": {
@@ -279,6 +198,12 @@
       "magie1"
     ]
   },
+  "Tanz der Bilder": {
+    "source": [
+      "magie1",
+      "realmofthethorns"
+    ]
+  },
   "Tanz der Heilung": {
     "source": [
       "magie1"
@@ -304,6 +229,12 @@
       "magie1"
     ]
   },
+  "Tanz der Wacht": {
+    "source": [
+      "magie1",
+      "realmofthethorns"
+    ]
+  },
   "Tanz des Feuers": {
     "source": [
       "magie1"
@@ -320,9 +251,29 @@
       "riverlands"
     ]
   },
+  "Leidensbund": {
+    "source": [
+      "magie1",
+      "realmofthethorns"
+    ]
+  },
   "Magischer Raub": {
     "source": [
       "magie1"
+    ]
+  },
+  "Ruhe Körper": {
+    "source": [
+      "magie1",
+      "realmofthethorns",
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Widerwille": {
+    "source": [
+      "magie1",
+      "realmofthethorns"
     ]
   },
   "Lied der Abwehr dämonischer Mächte": {
@@ -388,6 +339,13 @@
       "riverlands"
     ]
   },
+  "Körperlose Reise": {
+    "source": [
+      "magie2",
+      "realmofthethorns",
+      "suncoast"
+    ]
+  },
   "Nihilogravo": {
     "source": [
       "magie2",
@@ -400,14 +358,16 @@
       "magie2"
     ]
   },
-  "Traumgestalt": {
+  "Zaubernahrung": {
     "source": [
       "magie2"
     ]
   },
-  "Zaubernahrung": {
+  "Zauberschnurren": {
     "source": [
-      "magie2"
+      "magie2",
+      "pandaemonium2",
+      "realmofthethorns"
     ]
   },
   "Ausbruch unterdrückter Gefühle": {
@@ -480,7 +440,8 @@
   },
   "Sicheres Lager": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Traumseherin": {
@@ -517,17 +478,6 @@
       "transmutarium"
     ]
   },
-  "Xenographus": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Zauberklinge Geisterspeer": {
-    "source": [
-      "retosarmory",
-      "retos_armory"
-    ]
-  },
   "Riesengestalt": {
     "source": [
       "studyroom"
@@ -536,21 +486,6 @@
   "Melodie der Tiere": {
     "source": [
       "suncoast"
-    ]
-  },
-  "Band zur Ware": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Traumerinnerung": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Warenchronik": {
-    "source": [
-      "winterwatch"
     ]
   },
   "Elementarer Verbündeter": {
@@ -574,11 +509,6 @@
     ]
   },
   "Orvai Kurims Kriegstrommel": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Adamantium": {
     "source": [
       "winterwatch"
     ]

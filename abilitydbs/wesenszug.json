@@ -9,61 +9,10 @@
       "achaz"
     ]
   },
-  "Orklandbewohner": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Regengebirge": {
     "source": [
       "achaz",
       "steamingjungles"
-    ]
-  },
-  "Waldinseln": {
-    "source": [
-      "achaz",
-      "steamingjungles"
-    ]
-  },
-  "Westliche Echsensümpfe": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Akrr’Tzr": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Azhlazah": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Chi’Rtsa und Zzszz": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Chriaz Imxxiu": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Kyshn’t": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "O’shr": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Ymrysz’Tarh": {
-    "source": [
-      "achaz"
     ]
   },
   "Zansch’Jrr": {
@@ -71,67 +20,9 @@
       "achaz"
     ]
   },
-  "Zarrsi": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Zza’Astrrhan": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Zzzt": {
     "source": [
       "achaz"
-    ]
-  },
-  "Zorghana": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Elburien": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Baburien": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Typische/r Aranier/in": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Gorien": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Palmyramis": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Yalaiad": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
-    ]
-  },
-  "Floeszern": {
-    "source": [
-      "aranien",
-      "realmofthethorns"
     ]
   },
   "Östliches Kalifat (Novadis und Thalushim)": {
@@ -180,26 +71,6 @@
       "havena"
     ]
   },
-  "Typische/-r Orkländer/-in": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Typische/-r Wild-Ork/-in": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Typische/-r Stadt-Ork/-in": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Bodirsümpfe": {
-    "source": [
-      "orcs"
-    ]
-  },
   "Dämmerberge": {
     "source": [
       "orcs"
@@ -210,37 +81,7 @@
       "orcs"
     ]
   },
-  "Große Steppe": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Grenzgebiete des Orklandes": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Olochtai-Gebirge": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Orkschädelsteppe": {
-    "source": [
-      "orcs"
-    ]
-  },
   "Korogai": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Mokolash": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Olochtai": {
     "source": [
       "orcs"
     ]
@@ -250,34 +91,19 @@
       "orcs"
     ]
   },
-  "Truanzhai": {
-    "source": [
-      "orcs"
-    ]
-  },
   "Tscharshai": {
     "source": [
       "orcs"
     ]
   },
-  "Zholochai": {
+  "Baburien": {
     "source": [
-      "orcs"
+      "realmofthethorns"
     ]
   },
-  "Gharrachai": {
+  "Gorien": {
     "source": [
-      "orcs"
-    ]
-  },
-  "Svelltlandorks": {
-    "source": [
-      "orcs"
-    ]
-  },
-  "Shurachai": {
-    "source": [
-      "orcs"
+      "realmofthethorns"
     ]
   },
   "Ambosszwerge": {
@@ -371,6 +197,11 @@
     ]
   },
   "Pirateninseln": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Waldinseln": {
     "source": [
       "steamingjungles"
     ]
@@ -470,27 +301,7 @@
       "winterwatch"
     ]
   },
-  "Typische/-r Norbardin/Norbarde": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Typische/-r Stammesgoblin/-in": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Bornische Sümpfe": {
-    "source": [
-      "winterwatch"
-    ]
-  },
   "Festenland": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Grüner Wall": {
     "source": [
       "winterwatch"
     ]

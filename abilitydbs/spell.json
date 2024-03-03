@@ -25,7 +25,8 @@
   },
   "Incendio": {
     "source": [
-      "animatorium"
+      "animatorium",
+      "broodofhell"
     ]
   },
   "Stillstand": {
@@ -38,63 +39,227 @@
   "Sturmwand": {
     "source": [
       "animatorium",
+      "broodofhell",
       "elementarium",
       "magie3",
       "pandaemonium2"
     ]
   },
-  "Auris Illusionis": {
+  "Ablativum": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell",
+      "magie1",
+      "studyroom"
     ]
   },
-  "Hellsichtbann": {
+  "Aeolito": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell"
     ]
   },
-  "Hexenspeichel": {
+  "Aerofugo": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell",
+      "studyroom"
     ]
   },
-  "Illusionsbann": {
+  "Angst auslösen": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell"
     ]
   },
-  "Manus Illusionis": {
+  "Aromatis Illusionis": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell"
     ]
   },
-  "Memorans": {
+  "Vipernblick": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell"
     ]
   },
-  "Reflectimago": {
+  "Aura der Erschöpfung": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell"
     ]
   },
-  "Schmerzen lindern": {
+  "Band und Fessel": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell",
+      "riverlands"
     ]
   },
-  "Skelettarius": {
+  "Blitzball": {
     "source": [
-      "aranien",
-      "realmofthethorns"
+      "broodofhell"
+    ]
+  },
+  "Dämonisches Vergessen": {
+    "source": [
+      "broodofhell",
+      "magie2",
+      "nekromanthaeum"
+    ]
+  },
+  "Dornenwand": {
+    "source": [
+      "broodofhell",
+      "elementarium",
+      "magie3"
+    ]
+  },
+  "Eigene Dummheit": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Eiswand": {
+    "source": [
+      "broodofhell",
+      "elementarium",
+      "magie3"
+    ]
+  },
+  "Fledermausruf": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Foramen": {
+    "source": [
+      "broodofhell",
+      "magie1",
+      "transmutarium",
+      "warringkingdoms"
+    ]
+  },
+  "Frigifaxius": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Frostleib": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Granit und Marmor": {
+    "source": [
+      "broodofhell",
+      "studyroom"
+    ]
+  },
+  "Große Verwirrung": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Halluzination": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Herzschlag ruhe": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Ignorantia": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Imperavi": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Invercano": {
+    "source": [
+      "broodofhell",
+      "magie1",
+      "studyroom",
+      "suncoast"
+    ]
+  },
+  "Krabbelnder Schrecken": {
+    "source": [
+      "broodofhell",
+      "magie2"
+    ]
+  },
+  "Krähenruf": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Oculus Astralis": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Pandaemonium": {
+    "source": [
+      "broodofhell",
+      "herbarium",
+      "magie2",
+      "pandaemonium"
+    ]
+  },
+  "Pestodem": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Plumbumbarum": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Reptilea": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Sanfter Fall": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Schlangenruf": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Seidenzunge": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Spinnenruf": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Tempus Stasis": {
+    "source": [
+      "broodofhell",
+      "magie3"
+    ]
+  },
+  "Verunsicherung": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Kornfäule": {
+    "source": [
+      "broodofhell"
+    ]
+  },
+  "Viehverstümmelung": {
+    "source": [
+      "broodofhell"
     ]
   },
   "Analys Arkanstruktur": {
@@ -108,11 +273,6 @@
     ]
   },
   "Disruptivo": {
-    "source": [
-      "core"
-    ]
-  },
-  "Duplicatus": {
     "source": [
       "core"
     ]
@@ -231,23 +391,11 @@
       "magie2"
     ]
   },
-  "Eiswand": {
-    "source": [
-      "elementarium",
-      "magie3"
-    ]
-  },
   "Flammenwand": {
     "source": [
       "elementarium",
       "magie2",
       "studyroom"
-    ]
-  },
-  "Dornenwand": {
-    "source": [
-      "elementarium",
-      "magie3"
     ]
   },
   "Wellenwand": {
@@ -274,13 +422,6 @@
       "warringkingdoms"
     ]
   },
-  "Pandaemonium": {
-    "source": [
-      "herbarium",
-      "magie2",
-      "pandaemonium"
-    ]
-  },
   "Besessenheit": {
     "source": [
       "incorporealhorrors"
@@ -294,12 +435,6 @@
   "Debilitatio": {
     "source": [
       "incorporealhorrors",
-      "magie1",
-      "studyroom"
-    ]
-  },
-  "Ablativum": {
-    "source": [
       "magie1",
       "studyroom"
     ]
@@ -328,26 +463,12 @@
       "magie1"
     ]
   },
-  "Foramen": {
-    "source": [
-      "magie1",
-      "transmutarium",
-      "warringkingdoms"
-    ]
-  },
   "Fortifex": {
     "source": [
       "magie1",
       "studyroom",
       "suncoast",
       "warringkingdoms"
-    ]
-  },
-  "Invercano": {
-    "source": [
-      "magie1",
-      "studyroom",
-      "suncoast"
     ]
   },
   "Schwarz und Rot": {
@@ -425,21 +546,10 @@
       "magie2"
     ]
   },
-  "Dämonisches Vergessen": {
-    "source": [
-      "magie2",
-      "nekromanthaeum"
-    ]
-  },
   "Hexenknoten": {
     "source": [
       "magie2",
       "warringkingdoms"
-    ]
-  },
-  "Krabbelnder Schrecken": {
-    "source": [
-      "magie2"
     ]
   },
   "Schleier der Unwissenheit": {
@@ -557,11 +667,6 @@
       "magie3"
     ]
   },
-  "Tempus Stasis": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Zweifel schüren": {
     "source": [
       "magie3"
@@ -583,20 +688,9 @@
       "orcs"
     ]
   },
-  "Levthans Feuer": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Band und Fessel": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Einflussbann": {
     "source": [
-      "riverlands",
-      "winterwatch"
+      "riverlands"
     ]
   },
   "Gifthaut": {
@@ -610,16 +704,6 @@
     ]
   },
   "Protectionis": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Aerofugo": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Granit und Marmor": {
     "source": [
       "studyroom"
     ]
@@ -647,46 +731,6 @@
   "Windstille": {
     "source": [
       "studyroom"
-    ]
-  },
-  "Affenarme": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Ängste lindern": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Aura der Erschöpfung": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Blick aufs Wesen": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Imperavi": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Klarum Purum": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Objectofixo": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Verwandlungsbann": {
-    "source": [
-      "winterwatch"
     ]
   }
 }

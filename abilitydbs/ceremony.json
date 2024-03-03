@@ -24,13 +24,6 @@
       "goetterwirken"
     ]
   },
-  "Mungogestalt": {
-    "source": [
-      "aranien",
-      "goetterwirken2",
-      "realmofthethorns"
-    ]
-  },
   "Geweihter Panzer": {
     "source": [
       "core"
@@ -267,6 +260,12 @@
       "goetterwirken2"
     ]
   },
+  "Mungogestalt": {
+    "source": [
+      "goetterwirken2",
+      "realmofthethorns"
+    ]
+  },
   "Schaffenskraft": {
     "source": [
       "goetterwirken2",
@@ -350,12 +349,6 @@
       "orcs"
     ]
   },
-  "Arcanum Interdictum": {
-    "source": [
-      "retosarmory",
-      "retos_armory"
-    ]
-  },
   "Blick in die Flammen": {
     "source": [
       "riverlands"
@@ -374,11 +367,6 @@
   "Wiederherstellung": {
     "source": [
       "riverlands"
-    ]
-  },
-  "Große Waffenweihe": {
-    "source": [
-      "winterwatch"
     ]
   }
 }

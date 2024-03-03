@@ -1,79 +1,4 @@
 {
-  "todo": {
-    "source": [
-      "goetterwirken",
-      "goetterwirken2",
-      "magie1",
-      "magie2"
-    ]
-  },
-  "Pragmatismus": {
-    "source": [
-      "goetterwirken2",
-      "riverlands",
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast",
-      "winterwatch"
-    ]
-  },
-  "Mysterienkult": {
-    "source": [
-      "goetterwirken2",
-      "riverlands",
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast",
-      "winterwatch"
-    ]
-  },
-  "Traditionelle Denkrichtung": {
-    "source": [
-      "goetterwirken2",
-      "riverlands",
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast",
-      "winterwatch"
-    ]
-  },
-  "Moderne Sichtweise": {
-    "source": [
-      "goetterwirken2",
-      "riverlands",
-      "sevenwindscoast",
-      "steamingjungles",
-      "suncoast",
-      "winterwatch"
-    ]
-  },
-  "Graue Gilde": {
-    "source": [
-      "magie1",
-      "realmofthethorns",
-      "warringkingdoms",
-      "winterwatch"
-    ]
-  },
-  "Schwarze Gilde": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Weiße Gilde": {
-    "source": [
-      "magie1",
-      "riverlands",
-      "warringkingdoms",
-      "winterwatch"
-    ]
-  },
-  "Gildenlose": {
-    "source": [
-      "magie1",
-      "realmofthethorns"
-    ]
-  },
   "Menschenfreund": {
     "source": [
       "magie2"
@@ -87,12 +12,6 @@
   "Wanderer": {
     "source": [
       "magie2"
-    ]
-  },
-  "Fahrende Schwester": {
-    "source": [
-      "magie2",
-      "steamingjungles"
     ]
   },
   "Schöne der Nacht": {
@@ -113,35 +32,7 @@
       "realmofthethorns"
     ]
   },
-  "Seherin von Heute und Morgen": {
-    "source": [
-      "magie2"
-    ]
-  },
-  "Tochter der Erde": {
-    "source": [
-      "magie2",
-      "riverlands",
-      "steamingjungles"
-    ]
-  },
-  "Verschwiegene Schwester": {
-    "source": [
-      "magie2",
-      "warringkingdoms"
-    ]
-  },
   "Hofnarr": {
-    "source": [
-      "magie2"
-    ]
-  },
-  "Klabauterlehrling": {
-    "source": [
-      "magie2"
-    ]
-  },
-  "Possenreißer": {
     "source": [
       "magie2"
     ]
@@ -219,12 +110,14 @@
   },
   "Sippenhüterinnen": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Traumdeuterinnen": {
     "source": [
-      "magie3"
+      "magie3",
+      "winterwatch"
     ]
   },
   "Ausdruckstänzer": {
@@ -243,44 +136,12 @@
       "warringkingdoms"
     ]
   },
-  "Menschenkenner": {
-    "source": [
-      "sevenwindscoast",
-      "suncoast"
-    ]
-  },
-  "Naturverbundene": {
-    "source": [
-      "sevenwindscoast",
-      "suncoast"
-    ]
-  },
   "Schwestern des Wissens": {
     "source": [
       "warringkingdoms"
     ]
   },
-  "Verschwiegene Schwestern": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Goblinritualmeisterin": {
-    "source": [
-      "winterwatch"
-    ]
-  },
   "Sippenzauberin": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Sippenhüterin": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Traumdeuterin": {
     "source": [
       "winterwatch"
     ]

@@ -1,74 +1,73 @@
 # Summary
-last_updated: 2024-01-20 17:12:04
+last_updated: 2024-03-03 17:25:43
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 70/135 | 51.85% |
+| [Achaz](#achaz) | 82/135 | 60.74% |
 | [Animatorium](#animatorium) | 5/73 | 6.85% |
-| [Aranien](#aranien) | 1/47 | 2.13% |
 | [Armory](#armory) | 17/22 | 77.27% |
 | [Armory2](#armory2) | 18/25 | 72.0% |
 | [Bannerofloyalty](#bannerofloyalty) | 2/10 | 20.0% |
 | [Bestiary](#bestiary) | 20/25 | 80.0% |
 | [Bestiary2](#bestiary2) | 10/19 | 52.63% |
+| [Broodofhell](#broodofhell) | 0/61 | 0.0% |
 | [Companions](#companions) | 80/111 | 72.07% |
 | [Compendium](#compendium) | 224/261 | 85.82% |
 | [Compendium2](#compendium2) | 233/305 | 76.39% |
-| [Core](#core) | 364/437 | 83.3% |
+| [Core](#core) | 365/437 | 83.52% |
 | [Desertkingdom](#desertkingdom) | 46/69 | 66.67% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
-| [Goetterwirken](#goetterwirken) | 264/411 | 64.23% |
-| [Goetterwirken2](#goetterwirken2) | 221/321 | 68.85% |
+| [Goetterwirken](#goetterwirken) | 264/410 | 64.39% |
+| [Goetterwirken2](#goetterwirken2) | 225/320 | 70.31% |
 | [Havena](#havena) | 23/74 | 31.08% |
 | [Herbarium](#herbarium) | 57/93 | 61.29% |
 | [Herbarium2](#herbarium2) | 31/70 | 44.29% |
 | [Incorporealhorrors](#incorporealhorrors) | 47/82 | 57.32% |
 | [Klingendernacht](#klingendernacht) | 6/14 | 42.86% |
-| [Magie1](#magie1) | 199/364 | 54.67% |
-| [Magie2](#magie2) | 202/361 | 55.96% |
+| [Magie1](#magie1) | 203/363 | 55.92% |
+| [Magie2](#magie2) | 208/360 | 57.78% |
 | [Magie3](#magie3) | 153/382 | 40.05% |
 | [Mastertools](#mastertools) | 12/20 | 60.0% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 65/81 | 80.25% |
-| [Orcs](#orcs) | 41/87 | 47.13% |
+| [Orcs](#orcs) | 56/87 | 64.37% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
 | [Pandaemonium2](#pandaemonium2) | 17/24 | 70.83% |
 | [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
-| [Realmofthethorns](#realmofthethorns) | 0/100 | 0.0% |
-| [Retos_armory](#retos_armory) | 0/16 | 0.0% |
-| [Retosarmory](#retosarmory) | 0/16 | 0.0% |
-| [Riverlands](#riverlands) | 0/137 | 0.0% |
-| [Sevenwindscoast](#sevenwindscoast) | 71/158 | 44.94% |
+| [Realmofthethorns](#realmofthethorns) | 58/100 | 58.0% |
+| [Retosarmory](#retosarmory) | 12/16 | 75.0% |
+| [Riverlands](#riverlands) | 6/137 | 4.38% |
+| [Sevenwindscoast](#sevenwindscoast) | 77/158 | 48.73% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
-| [Steamingjungles](#steamingjungles) | 87/144 | 60.42% |
+| [Steamingjungles](#steamingjungles) | 93/144 | 64.58% |
 | [Studyroom](#studyroom) | 132/209 | 63.16% |
-| [Suncoast](#suncoast) | 96/151 | 63.58% |
+| [Suncoast](#suncoast) | 102/151 | 67.55% |
 | [Transmutarium](#transmutarium) | 45/63 | 71.43% |
-| [Warringkingdoms](#warringkingdoms) | 52/111 | 46.85% |
-| [Winterwatch](#winterwatch) | 0/156 | 0.0% |
+| [Warringkingdoms](#warringkingdoms) | 55/110 | 50.0% |
+| [Winterwatch](#winterwatch) | 87/157 | 55.41% |
 | --- | --- | --- |
-| Total | 3007/5346 | 56.25% |
+| Total | 3232/5340 | 60.52% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 146/199 | 73.37% |
-| Ceremony | 97/191 | 50.79% |
+| Advantage | 148/199 | 74.37% |
+| Ceremony | 99/189 | 52.38% |
 | Consumable | 19/101 | 18.81% |
 | Disadvantage | 110/134 | 82.09% |
-| Liturgy | 224/321 | 69.78% |
-| Praegung | 0/94 | 0.0% |
-| Ritual | 141/309 | 45.63% |
-| Specialability | 1722/3027 | 56.89% |
-| Spell | 366/564 | 64.89% |
+| Liturgy | 235/316 | 74.37% |
+| Praegung | 50/89 | 56.18% |
+| Ritual | 152/298 | 51.01% |
+| Specialability | 1814/3020 | 60.07% |
+| Spell | 386/596 | 64.77% |
 | Trait | 145/258 | 56.2% |
-| Wesenszug | 37/148 | 25.0% |
+| Wesenszug | 74/140 | 52.86% |
 
 
 
 ## Achaz
-Total status:  70/135 (51.85%)
+Total status:  82/135 (60.74%)
 
 
 ### Advantage
@@ -209,20 +208,20 @@ Total status:  70/135 (51.85%)
 
 - [ ] Typische/-r Achaz
 - [ ] Östliche Echsensümpfe
-- [ ] Orklandbewohner
+- [x] Orklandbewohner
 - [ ] Regengebirge
-- [ ] Waldinseln
-- [ ] Westliche Echsensümpfe
-- [ ] Akrr’Tzr
-- [ ] Azhlazah
-- [ ] Chi’Rtsa und Zzszz
-- [ ] Chriaz Imxxiu
-- [ ] Kyshn’t
-- [ ] O’shr
-- [ ] Ymrysz’Tarh
+- [x] Waldinseln
+- [x] Westliche Echsensümpfe
+- [x] Akrr’Tzr
+- [x] Azhlazah
+- [x] Chi’Rtsa und Zzszz
+- [x] Chriaz Imxxiu
+- [x] Kyshn’t
+- [x] O’shr
+- [x] Ymrysz’Tarh
 - [ ] Zansch’Jrr
-- [ ] Zarrsi
-- [ ] Zza’Astrrhan
+- [x] Zarrsi
+- [x] Zza’Astrrhan
 - [ ] Zzzt
 
 
@@ -319,96 +318,6 @@ Total status:  5/73 (6.85%)
 - [ ] Verbindung zum Erschaffer
 - [ ] Zerbersten
 - [ ] Zusätzliche Aktionen
-
-
-
-
-
-## Aranien
-Total status:  1/47 (2.13%)
-
-
-### Specialability
-
-- [ ] Tradition (Qabalyamagier)
-- [ ] Tradition (Zaubertänzer)
-- [ ] Bindung der Zauberkleidung
-- [ ] Diebesgewand
-- [ ] Fesselnde Gewandung
-- [ ] Fokus der Begierde
-- [ ] Gewand der Beeinflussung
-- [ ] Schmutzabweisend
-- [ ] Belkelels Ekstase
-- [ ] Brünstigkeit erzeugen
-- [ ] Lange Nägel
-- [ ] Peitschenhieb
-- [ ] Schönheit der Dar-Klajid
-
-
-### Liturgy
-
-- [ ] Geldwechsel
-- [ ] Doppelgänger
-
-
-### Ceremony
-
-- [ ] Mungogestalt
-
-
-### Spell
-
-- [ ] Auris Illusionis
-- [ ] Hellsichtbann
-- [ ] Hexenspeichel
-- [ ] Illusionsbann
-- [ ] Manus Illusionis
-- [ ] Memorans
-- [ ] Reflectimago
-- [ ] Schmerzen lindern
-- [ ] Skelettarius
-
-
-### Ritual
-
-- [ ] Tanz der Bilder
-- [ ] Tanz der Erlösung
-- [ ] Tanz der Wacht
-- [ ] Tanz des Begehrens
-- [ ] Tanz des Jagdglücks
-- [ ] Blick in die Vergangenheit
-- [ ] Körperlose Reise
-- [ ] Leidensbund
-- [ ] Levthans Feuer
-- [ ] Nekropathia
-- [ ] Ruhe Körper
-- [ ] Widerwille
-- [x] Xenographus
-- [ ] Zauberschnurren
-
-
-### Advantage
-
-
-
-### Disadvantage
-
-
-
-### Praegung
-
-
-
-### Wesenszug
-
-- [ ] Zorghana
-- [ ] Elburien
-- [ ] Baburien
-- [ ] Typische/r Aranier/in
-- [ ] Gorien
-- [ ] Palmyramis
-- [ ] Yalaiad
-- [ ] Floeszern
 
 
 
@@ -569,6 +478,86 @@ Total status:  10/19 (52.63%)
 ### Disadvantage
 
 - [x] Schlechte Eigenschaft (Sikaryan-Durst)
+
+
+
+
+
+## Broodofhell
+Total status:  0/61 (0.0%)
+
+
+### Spell
+
+- [ ] Ablativum
+- [ ] Aeolito
+- [ ] Aerofugo
+- [ ] Angst auslösen
+- [ ] Aromatis Illusionis
+- [ ] Vipernblick
+- [ ] Aura der Erschöpfung
+- [ ] Band und Fessel
+- [ ] Blitzball
+- [ ] Dämonisches Vergessen
+- [ ] Dornenwand
+- [ ] Eigene Dummheit
+- [ ] Eiswand
+- [ ] Fledermausruf
+- [ ] Foramen
+- [ ] Frigifaxius
+- [ ] Frostleib
+- [ ] Granit und Marmor
+- [ ] Große Verwirrung
+- [ ] Halluzination
+- [ ] Herzschlag ruhe
+- [ ] Ignorantia
+- [ ] Imperavi
+- [ ] Incendio
+- [ ] Invercano
+- [ ] Krabbelnder Schrecken
+- [ ] Krähenruf
+- [ ] Oculus Astralis
+- [ ] Pandaemonium
+- [ ] Pestodem
+- [ ] Plumbumbarum
+- [ ] Reptilea
+- [ ] Sanfter Fall
+- [ ] Schlangenruf
+- [ ] Seidenzunge
+- [ ] Spinnenruf
+- [ ] Sturmwand
+- [ ] Tempus Stasis
+- [ ] Verunsicherung
+- [ ] Kornfäule
+- [ ] Viehverstümmelung
+
+
+### Ritual
+
+- [ ] Caldofrigo
+- [ ] Transmutare
+- [ ] Traumgestalt
+
+
+### Specialability
+
+- [ ] Diener
+- [ ] Gerüchtekoch
+- [ ] Liebling der Massen
+- [ ] Angriff auf ungeschützte Stellen
+- [ ] Anspringen
+- [ ] Flugangriff
+- [ ] Klammergriff
+- [ ] Klinge drehen
+- [ ] Klingensturm
+- [ ] Mächtiger Schlag
+- [ ] Schwanz- oder Tentakelschwung
+- [ ] Trampeln
+- [ ] Überrennen
+- [ ] Unterwasserkampf
+- [ ] Verbeißen
+- [ ] Reversalis
+- [ ] Rudelbeschwörung
 
 
 
@@ -1193,7 +1182,7 @@ Total status:  233/305 (76.39%)
 
 
 ## Core
-Total status:  364/437 (83.3%)
+Total status:  365/437 (83.52%)
 
 
 ### Advantage
@@ -1355,7 +1344,7 @@ Total status:  364/437 (83.3%)
 - [x] Blitz dich find
 - [x] Corpofesso
 - [ ] Disruptivo
-- [ ] Duplicatus
+- [x] Duplicatus
 - [ ] Falkenauge
 - [x] Flim Flam
 - [x] Fulminictus
@@ -1860,7 +1849,7 @@ Total status:  72/119 (60.5%)
 
 
 ## Goetterwirken
-Total status:  264/411 (64.23%)
+Total status:  264/410 (64.39%)
 
 
 ### Specialability
@@ -2293,16 +2282,11 @@ Total status:  264/411 (64.23%)
 - [x] Wenige Visionen
 
 
-### Praegung
-
-- [ ] todo
-
-
 
 
 
 ## Goetterwirken2
-Total status:  221/321 (68.85%)
+Total status:  225/320 (70.31%)
 
 
 ### Specialability
@@ -2597,11 +2581,10 @@ Total status:  221/321 (68.85%)
 
 ### Praegung
 
-- [ ] todo
-- [ ] Pragmatismus
-- [ ] Mysterienkult
-- [ ] Traditionelle Denkrichtung
-- [ ] Moderne Sichtweise
+- [x] Pragmatismus
+- [x] Mysterienkult
+- [x] Traditionelle Denkrichtung
+- [x] Moderne Sichtweise
 
 
 
@@ -3019,7 +3002,7 @@ Total status:  6/14 (42.86%)
 
 
 ## Magie1
-Total status:  199/364 (54.67%)
+Total status:  203/363 (55.92%)
 
 
 ### Specialability
@@ -3403,18 +3386,17 @@ Total status:  199/364 (54.67%)
 
 ### Praegung
 
-- [ ] todo
-- [ ] Graue Gilde
-- [ ] Schwarze Gilde
-- [ ] Weiße Gilde
-- [ ] Gildenlose
+- [x] Graue Gilde
+- [x] Schwarze Gilde
+- [x] Weiße Gilde
+- [x] Gildenlose
 
 
 
 
 
 ## Magie2
-Total status:  202/361 (55.96%)
+Total status:  208/360 (57.78%)
 
 
 ### Specialability
@@ -3783,20 +3765,19 @@ Total status:  202/361 (55.96%)
 
 ### Praegung
 
-- [ ] todo
 - [ ] Menschenfreund
 - [ ] Sehnende
 - [ ] Wanderer
-- [ ] Fahrende Schwester
+- [x] Fahrende Schwester
 - [ ] Schöne der Nacht
 - [ ] Schwarze Witwe
 - [ ] Schwester des Wissens
-- [ ] Seherin von Heute und Morgen
-- [ ] Tochter der Erde
-- [ ] Verschwiegene Schwester
+- [x] Seherin von Heute und Morgen
+- [x] Tochter der Erde
+- [x] Verschwiegene Schwester
 - [ ] Hofnarr
-- [ ] Klabauterlehrling
-- [ ] Possenreißer
+- [x] Klabauterlehrling
+- [x] Possenreißer
 - [ ] Schöpfer
 - [ ] Vagabund
 - [ ] Visionär
@@ -4377,7 +4358,7 @@ Total status:  65/81 (80.25%)
 
 
 ## Orcs
-Total status:  41/87 (47.13%)
+Total status:  56/87 (64.37%)
 
 
 ### Advantage
@@ -4473,26 +4454,26 @@ Total status:  41/87 (47.13%)
 
 ### Wesenszug
 
-- [ ] Typische/-r Orkländer/-in
-- [ ] Typische/-r Wild-Ork/-in
-- [ ] Typische/-r Stadt-Ork/-in
-- [ ] Bodirsümpfe
+- [x] Typische/-r Orkländer/-in
+- [x] Typische/-r Wild-Ork/-in
+- [x] Typische/-r Stadt-Ork/-in
+- [x] Bodirsümpfe
 - [ ] Dämmerberge
 - [ ] Finsterberge
-- [ ] Große Steppe
-- [ ] Grenzgebiete des Orklandes
-- [ ] Olochtai-Gebirge
-- [ ] Orkschädelsteppe
+- [x] Große Steppe
+- [x] Grenzgebiete des Orklandes
+- [x] Olochtai-Gebirge
+- [x] Orkschädelsteppe
 - [ ] Korogai
-- [ ] Mokolash
-- [ ] Olochtai
+- [x] Mokolash
+- [x] Olochtai
 - [ ] Orichai
-- [ ] Truanzhai
+- [x] Truanzhai
 - [ ] Tscharshai
-- [ ] Zholochai
-- [ ] Gharrachai
-- [ ] Svelltlandorks
-- [ ] Shurachai
+- [x] Zholochai
+- [x] Gharrachai
+- [x] Svelltlandorks
+- [x] Shurachai
 
 
 
@@ -4608,13 +4589,13 @@ Total status:  0/1 (0.0%)
 
 
 ## Realmofthethorns
-Total status:  0/100 (0.0%)
+Total status:  58/100 (58.0%)
 
 
 ### Praegung
 
-- [ ] Gildenlose
-- [ ] Graue Gilde
+- [x] Gildenlose
+- [x] Graue Gilde
 - [ ] Schöne der Nacht
 - [ ] Schwester des Wissens
 - [ ] Ausdruckstänzer
@@ -4624,8 +4605,8 @@ Total status:  0/100 (0.0%)
 ### Specialability
 
 - [ ] Tradition (Qabalyamagier)
-- [ ] Tradition (Zaubertänzer)
-- [ ] Bindung der Zauberkleidung
+- [x] Tradition (Zaubertänzer)
+- [x] Bindung der Zauberkleidung
 - [ ] Diebesgewand
 - [ ] Fesselnde Gewandung
 - [ ] Fokus der Begierde
@@ -4633,61 +4614,61 @@ Total status:  0/100 (0.0%)
 - [ ] Schmutzabweisend
 - [ ] Belkelels Ekstase
 - [ ] Brünstigkeit erzeugen
-- [ ] Lange Nägel
-- [ ] Peitschenhieb
+- [x] Lange Nägel
+- [x] Peitschenhieb
 - [ ] Schönheit der Dar-Klajid
-- [ ] Drohgebärden
-- [ ] Angetäuschter Angriff
+- [x] Drohgebärden
+- [x] Angetäuschter Angriff
 - [ ] Herunterstoßen
-- [ ] Hohe Klinge
-- [ ] Klingensturm
+- [x] Hohe Klinge
+- [x] Klingensturm
 - [ ] Weiter Schwung
-- [ ] Weg des Händlers
+- [x] Weg des Händlers
 - [ ] Weg des Tänzers
-- [ ] Einnahmequelle
-- [ ] Gerüchte aufschnappen
-- [ ] Handwerkskunst ()
-- [ ] Körperliches Geschick ()
-- [ ] Kunstbegabt
-- [ ] Verhandlungsgeschick
+- [x] Einnahmequelle
+- [x] Gerüchte aufschnappen
+- [x] Handwerkskunst ()
+- [x] Körperliches Geschick ()
+- [x] Kunstbegabt
+- [x] Verhandlungsgeschick
 - [ ] Aranischer Sippenkrieger-Stil
-- [ ] Baburin-Stil
-- [ ] Ishannah al'Kira-Stil
-- [ ] Rosenritter-Stil
+- [x] Baburin-Stil
+- [x] Ishannah al'Kira-Stil
+- [x] Rosenritter-Stil
 - [ ] Aufspießen
 - [ ] Defensives Verhalten
-- [ ] Fahrender Schütze
-- [ ] Machtvoller Wirbelangriff
+- [x] Fahrender Schütze
+- [x] Machtvoller Wirbelangriff
 - [ ] Offensives Verhalten
-- [ ] Reizen
-- [ ] Verbesserte Aufmerksamkeit
-- [ ] Verbesserter Doppelangriff
+- [x] Reizen
+- [x] Verbesserte Aufmerksamkeit
+- [x] Verbesserter Doppelangriff
 - [ ] Vorbeiziehen
 - [ ] Wuchtiger Wurf
 - [ ] Scholar der Erben der Gräber
 - [ ] Scholar der Khelbara ay Baburia
 - [ ] Scholar der Töchter Niobaras
 - [ ] Scholar der Schule des Seienden Scheins zu Zorgan
-- [ ] Wildkatzen (Schöne der Nacht)
-- [ ] Bewanderter Heilzauberer
-- [ ] Bewegungszauberei
-- [ ] Destruktor
-- [ ] Hervorragender Illusionist
+- [x] Wildkatzen (Schöne der Nacht)
+- [x] Bewanderter Heilzauberer
+- [x] Bewegungszauberei
+- [x] Destruktor
+- [x] Hervorragender Illusionist
 - [ ] Illusionäre Undurchschaubarkeit
-- [ ] Kundiger Sphärologe
+- [x] Kundiger Sphärologe
 - [ ] Langanhaltende Illusion
 - [ ] Meisterliches Auraverbergen
-- [ ] Qabalya-Magie
+- [x] Qabalya-Magie
 - [ ] Selbstkontrolle
-- [ ] Tierflüsterer
+- [x] Tierflüsterer
 - [ ] Urtulamidische Heilmagie
-- [ ] Vortrefflicher Hellseher
-- [ ] Meteoreisen verarbeiten
+- [x] Vortrefflicher Hellseher
+- [x] Meteoreisen verarbeiten
 
 
 ### Liturgy
 
-- [ ] Geldwechsel
+- [x] Geldwechsel
 - [ ] Doppelgänger
 
 
@@ -4698,130 +4679,91 @@ Total status:  0/100 (0.0%)
 
 ### Spell
 
-- [ ] Auris Illusionis
-- [ ] Hellsichtbann
-- [ ] Hexenspeichel
-- [ ] Illusionsbann
-- [ ] Manus Illusionis
-- [ ] Memorans
-- [ ] Reflectimago
-- [ ] Schmerzen lindern
-- [ ] Levthans Feuer
-- [ ] Skelettarius
+- [x] Auris Illusionis
+- [x] Hellsichtbann
+- [x] Hexenspeichel
+- [x] Illusionsbann
+- [x] Manus Illusionis
+- [x] Memorans
+- [x] Reflectimago
+- [x] Schmerzen lindern
+- [x] Levthans Feuer
+- [x] Skelettarius
 
 
 ### Ritual
 
 - [ ] Tanz der Bilder
-- [ ] Tanz der Erlösung
+- [x] Tanz der Erlösung
 - [ ] Tanz der Wacht
-- [ ] Tanz des Begehrens
-- [ ] Tanz des Jagdglücks
-- [ ] Blick in die Vergangenheit
+- [x] Tanz des Begehrens
+- [x] Tanz des Jagdglücks
+- [x] Blick in die Vergangenheit
 - [ ] Körperlose Reise
 - [ ] Leidensbund
-- [ ] Nekropathia
+- [x] Nekropathia
 - [ ] Ruhe Körper
 - [ ] Widerwille
-- [ ] Xenographus
+- [x] Xenographus
 - [ ] Zauberschnurren
 
 
 ### Wesenszug
 
-- [ ] Zorghana
-- [ ] Elburien
+- [x] Zorghana
+- [x] Elburien
 - [ ] Baburien
-- [ ] Typische/r Aranier/in
+- [x] Typische/r Aranier/in
 - [ ] Gorien
-- [ ] Palmyramis
-- [ ] Yalaiad
-- [ ] Floeszern
-
-
-
-
-
-## Retos_armory
-Total status:  0/16 (0.0%)
-
-
-### Specialability
-
-- [ ] Auf Distanz halten
-- [ ] Betäubungsschlag
-- [ ] Festnageln
-- [ ] Herunterstoßen
-- [ ] Hohe Klinge
-- [ ] Pikenwall
-- [ ] Schildstoß
-- [ ] Weiter Schwung
-- [ ] Windmühle
-- [ ] Zertrümmern
-- [ ] Zweihandwaffen-Doppelschlag
-
-
-### Ritual
-
-- [ ] Zauberklinge Geisterspeer
-
-
-### Liturgy
-
-- [ ] Bann wider Untote
-- [ ] Goldene Rüstung
-- [ ] Zauberschutz
-
-
-### Ceremony
-
-- [ ] Arcanum Interdictum
+- [x] Palmyramis
+- [x] Yalaiad
+- [x] Floeszern
 
 
 
 
 
 ## Retosarmory
-Total status:  0/16 (0.0%)
+Total status:  12/16 (75.0%)
 
 
 ### Specialability
 
-- [ ] Auf Distanz halten
-- [ ] Betäubungsschlag
+- [x] Auf Distanz halten
+- [x] Betäubungsschlag
 - [ ] Festnageln
 - [ ] Herunterstoßen
-- [ ] Hohe Klinge
-- [ ] Pikenwall
+- [x] Hohe Klinge
+- [x] Pikenwall
 - [ ] Schildstoß
 - [ ] Weiter Schwung
-- [ ] Windmühle
-- [ ] Zertrümmern
-- [ ] Zweihandwaffen-Doppelschlag
+- [x] Windmühle
+- [x] Zertrümmern
+- [x] Zweihandwaffen-Doppelschlag
 
 
 ### Ritual
 
-- [ ] Zauberklinge Geisterspeer
+- [x] Zauberklinge Geisterspeer
 
 
 ### Liturgy
 
-- [ ] Bann wider Untote
-- [ ] Goldene Rüstung
-- [ ] Zauberschutz
+- [x] Bann wider Untote
+- [x] Goldene Rüstung
+- [x] Zauberschutz
 
 
 ### Ceremony
 
-- [ ] Arcanum Interdictum
+- [x] Arcanum Interdictum
 
 
 
 
 
 ## Riverlands
-Total status:  0/137 (0.0%)
+Total status:  6/137 (4.38%)
 
 
 ### Wesenszug
@@ -4962,12 +4904,12 @@ Total status:  0/137 (0.0%)
 
 - [ ] Beherrscher des Geistes
 - [ ] Elementaranhänger
-- [ ] Weiße Gilde
-- [ ] Tochter der Erde
-- [ ] Moderne Sichtweise
-- [ ] Mysterienkult
-- [ ] Pragmatismus
-- [ ] Traditionelle Denkrichtung
+- [x] Weiße Gilde
+- [x] Tochter der Erde
+- [x] Moderne Sichtweise
+- [x] Mysterienkult
+- [x] Pragmatismus
+- [x] Traditionelle Denkrichtung
 
 
 ### Spell
@@ -4993,7 +4935,7 @@ Total status:  0/137 (0.0%)
 
 
 ## Sevenwindscoast
-Total status:  71/158 (44.94%)
+Total status:  77/158 (48.73%)
 
 
 ### Specialability
@@ -5167,12 +5109,12 @@ Total status:  71/158 (44.94%)
 
 ### Praegung
 
-- [ ] Menschenkenner
-- [ ] Naturverbundene
-- [ ] Moderne Sichtweise
-- [ ] Mysterienkult
-- [ ] Pragmatismus
-- [ ] Traditionelle Denkrichtung
+- [x] Menschenkenner
+- [x] Naturverbundene
+- [x] Moderne Sichtweise
+- [x] Mysterienkult
+- [x] Pragmatismus
+- [x] Traditionelle Denkrichtung
 
 
 ### Wesenszug
@@ -5224,7 +5166,7 @@ Total status:  2/2 (100.0%)
 
 
 ## Steamingjungles
-Total status:  87/144 (60.42%)
+Total status:  93/144 (64.58%)
 
 
 ### Specialability
@@ -5365,13 +5307,13 @@ Total status:  87/144 (60.42%)
 - [ ] Geisterseher
 - [ ] Klingenmeister
 - [ ] Zauberkrieger
-- [ ] Fahrende Schwester
+- [x] Fahrende Schwester
 - [ ] Schwarze Witwe
-- [ ] Tochter der Erde
-- [ ] Moderne Sichtweise
-- [ ] Mysterienkult
-- [ ] Pragmatismus
-- [ ] Traditionelle Denkrichtung
+- [x] Tochter der Erde
+- [x] Moderne Sichtweise
+- [x] Mysterienkult
+- [x] Pragmatismus
+- [x] Traditionelle Denkrichtung
 
 
 ### Wesenszug
@@ -5643,7 +5585,7 @@ Total status:  132/209 (63.16%)
 
 
 ## Suncoast
-Total status:  96/151 (63.58%)
+Total status:  102/151 (67.55%)
 
 
 ### Specialability
@@ -5814,12 +5756,12 @@ Total status:  96/151 (63.58%)
 
 ### Praegung
 
-- [ ] Menschenkenner
-- [ ] Naturverbundene
-- [ ] Moderne Sichtweise
-- [ ] Pragmatismus
-- [ ] Mysterienkult
-- [ ] Traditionelle Denkrichtung
+- [x] Menschenkenner
+- [x] Naturverbundene
+- [x] Moderne Sichtweise
+- [x] Pragmatismus
+- [x] Mysterienkult
+- [x] Traditionelle Denkrichtung
 
 
 ### Wesenszug
@@ -5936,7 +5878,7 @@ Total status:  45/63 (71.43%)
 
 
 ## Warringkingdoms
-Total status:  52/111 (46.85%)
+Total status:  55/110 (50.0%)
 
 
 ### Specialability
@@ -6050,11 +5992,10 @@ Total status:  52/111 (46.85%)
 - [ ] Beherrscher des Geistes
 - [ ] Diener der Natur
 - [ ] Sumen
-- [ ] Graue Gilde
-- [ ] Weiße Gilde
+- [x] Graue Gilde
+- [x] Weiße Gilde
 - [ ] Schwestern des Wissens
-- [ ] Verschwiegene Schwestern
-- [ ] Verschwiegene Schwester
+- [x] Verschwiegene Schwester
 
 
 ### Wesenszug
@@ -6075,24 +6016,24 @@ Total status:  52/111 (46.85%)
 
 
 ## Winterwatch
-Total status:  0/156 (0.0%)
+Total status:  87/157 (55.41%)
 
 
 ### Advantage
 
 - [ ] Biss
-- [ ] Natürliche Waffe (Biss)
-- [ ] Natürlicher Rüstungssschutz
+- [x] Natürliche Waffe (Biss)
+- [x] Natürlicher Rüstungsschutz
 
 
 ### Wesenszug
 
 - [ ] Typische/-r Bornländer/-in
-- [ ] Typische/-r Norbardin/Norbarde
-- [ ] Typische/-r Stammesgoblin/-in
-- [ ] Bornische Sümpfe
+- [x] Typische/-r Norbardin/Norbarde
+- [x] Typische/-r Stammesgoblin/-in
+- [x] Bornische Sümpfe
 - [ ] Festenland
-- [ ] Grüner Wall
+- [x] Grüner Wall
 - [ ] Mark
 - [ ] Sewerien
 - [ ] Überwals
@@ -6100,153 +6041,154 @@ Total status:  0/156 (0.0%)
 
 ### Liturgy
 
-- [ ] Blutzoll
+- [x] Blutzoll
 - [ ] Göttliche Klinge
-- [ ] Heldenkraft
+- [x] Heldenkraft
 - [ ] Kampfgeschick
-- [ ] Zähe Haut
-- [ ] Des Einen bezaubernder Sphärenklang
-- [ ] Herbeirufung der Heerscharen des Rattenkindes (Vampirfledermäuse)
-- [ ] Namenlose Raserei
-- [ ] Pech und Schwefel
+- [x] Zähe Haut
+- [x] Des Einen bezaubernder Sphärenklang
+- [x] Herbeirufung der Heerscharen des Rattenkindes (Vampirfledermäuse)
+- [x] Namenlose Raserei
+- [x] Pech und Schwefel
 
 
 ### Ceremony
 
-- [ ] Große Waffenweihe
+- [x] Große Waffenweihe
 
 
 ### Specialability
 
 - [ ] Tradition (Feen)
-- [ ] Ackerbau
-- [ ] Anpeitscher
-- [ ] Ätzes geben
-- [ ] Bine Maschores
-- [ ] Drohgebärden
-- [ ] Skifahren
-- [ ] Weg der Kontoristin
+- [x] Ackerbau
+- [x] Anpeitscher
+- [x] Ätzes geben
+- [x] Bine Maschores
+- [x] Drohgebärden
+- [x] Skifahren
+- [x] Weg der Kontoristin
 - [ ] Weg des Rattenfängers
-- [ ] Erfolgreicher Jäger
-- [ ] Fährtenleser
-- [ ] Körperliches Geschick
-- [ ] Rechnungswesen
-- [ ] Verhandlungsgeschick
-- [ ] Vertrauenswürdig
-- [ ] Berittene Lanzenformation
-- [ ] Drachenkampf-Taktik
+- [x] Erfolgreicher Jäger
+- [x] Fährtenleser
+- [x] Rechnungswesen
+- [x] Verhandlungsgeschick
+- [x] Vertrauenswürdig
+- [x] Berittene Lanzenformation
+- [x] Drachenkampf-Taktik
 - [ ] Festnageln
-- [ ] Schnellladen (Schleudern)
+- [x] Schnellladen (Schleudern)
 - [ ] Umwickeln
-- [ ] Birkholt-Stil
-- [ ] Bornländisches Raufen
+- [x] Birkholt-Stil
+- [x] Bornländisches Raufen
 - [ ] Festum-Stil
-- [ ] Neersand-Stil
+- [x] Neersand-Stil
 - [ ] Sippenkrieger-Stil
-- [ ] Söldner-Stil
+- [x] Söldner-Stil
 - [ ] Aufspießen
-- [ ] Binden
+- [x] Binden
 - [ ] Blattschuss
-- [ ] Durchbohrung
-- [ ] Erweiterte Drachenkampf-Taktik
-- [ ] Frontalangriff
-- [ ] Haltegriff brechen
+- [x] Durchbohrung
+- [x] Erweiterte Drachenkampf-Taktik
+- [x] Frontalangriff
+- [x] Haltegriff brechen
 - [ ] Kopfstoß
-- [ ] Machtvoller Sturmangriff
-- [ ] Miese Tricks
+- [x] Machtvoller Sturmangriff
+- [x] Miese Tricks
 - [ ] Offensives Verhalten
 - [ ] Schildstoß
-- [ ] Tiefschlag
-- [ ] Verbesserte Aufmerksamkeit
-- [ ] Windmühle
+- [x] Tiefschlag
+- [x] Verbesserte Aufmerksamkeit
+- [x] Windmühle
 - [ ] Wuchtiger Wurf
 - [ ] Tradition (Zibiljas)
-- [ ] Bindung der Chronik
-- [ ] Eindämmung des Kampfeswillens
+- [x] Bindung der Chronik
+- [x] Eindämmung des Kampfeswillens
 - [ ] Heilungswissen
 - [ ] Honigkleber
-- [ ] Mokoschas Schutz
+- [x] Mokoschas Schutz
 - [ ] Sicht auf Heshinjas Werk
 - [ ] Wissen ist Macht
 - [ ] Tradition (Goblinzauberinnen)
 - [ ] Bindung der Goblinkeule
-- [ ] Keulenwurf
 - [ ] Rottenheilung
 - [ ] Schweinekraft
-- [ ] Tierfreundschaft
 - [ ] Abgeschwächter Zauber
-- [ ] Adaption (Zauber)
 - [ ] Hexentanz
 - [ ] Improvisiertes Ritual
-- [ ] Scholar der Halle des Lebens zu Norburg
-- [ ] Scholar der Halle des Quecksilbers zu Festum
-- [ ] Scholar der Schule der Beherrschung zu Neersand
+- [x] Scholar der Halle des Lebens zu Norburg
+- [x] Scholar der Halle des Quecksilbers zu Festum
+- [x] Scholar der Schule der Beherrschung zu Neersand
 - [ ] Goblinheilerin
 - [ ] Goblinhexe
 - [ ] Alchimieanalytiker
-- [ ] Bewanderter Heilzauberer
+- [x] Bewanderter Heilzauberer
 - [ ] Elfenfreund
 - [ ] Geistzauberer
 - [ ] Giftmeisterin
 - [ ] Magische Kräuterheilkunde
-- [ ] Matrixzauberei
+- [x] Matrixzauberei
 - [ ] Psychometrie
 - [ ] Übertragung der Astralkräfte
 - [ ] Übertragung der Lebenskraft
-- [ ] Vollendeter Elementarist
-- [ ] Vollkommener Beherrscher
+- [x] Vollendeter Elementarist
+- [x] Vollkommener Beherrscher
 - [ ] Tradition (Korkirche)
-- [ ] Schutz der Löwin
+- [x] Schutz der Löwin
 - [ ] Beistand der Unbesiegten
 - [ ] Schutz wider Unheiliges
-- [ ] Verteidigungslücke
-- [ ] Schmerzhafter Hieb
-- [ ] Kampfesmut
-- [ ] Göttlicher Schutz
+- [x] Verteidigungslücke
+- [x] Schmerzhafter Hieb
+- [x] Kampfesmut
+- [x] Göttlicher Schutz
 - [ ] Karmale Meditation
-- [ ] Anhänger des Guten Kampfes
-- [ ] Honoren
-- [ ] Kamerad des Guten Goldes
+- [x] Honoren
 - [ ] Vigilanten
-- [ ] Einschüchternde Zurechtweisung
-- [ ] Gebieter des (Aspekts)
+- [x] Einschüchternde Zurechtweisung
 - [ ] Geistkontrolle
-- [ ] Tapferkeit der Unsterblichen
-- [ ] Verbesserte Fokussierung
+- [x] Tapferkeit der Unsterblichen
+- [x] Verbesserte Fokussierung
 - [ ] Tradition (Namenloser Kult)
 - [ ] Blutpfand
+- [x] Körperliches Geschick ()
+- [ ] Keulenwurf (Goblinkeule)
+- [ ] Tierfreundschaft (Goblinkeule)
+- [x] Adaption ()
+- [ ] Anhänger des guten Kampfes
+- [x] Kamerad des guten Goldes
+- [x] Gebieter des ()
 
 
 ### Spell
 
-- [ ] Affenarme
-- [ ] Ängste lindern
-- [ ] Aura der Erschöpfung
-- [ ] Blick aufs Wesen
-- [ ] Einflussbann
-- [ ] Imperavi
-- [ ] Klarum Purum
-- [ ] Objectofixo
+- [x] Affenarme
+- [x] Ängste lindern
+- [x] Aura der Erschöpfung
+- [x] Blick aufs Wesen
+- [x] Einflussbann
+- [x] Imperavi
+- [x] Klarum Purum
+- [x] Objectofixo
 - [ ] Sensibar
-- [ ] Verwandlungsbann
+- [x] Verwandlungsbann
 
 
 ### Ritual
 
-- [ ] Band zur Ware
+- [x] Band zur Ware
 - [ ] Bienenfleiß
 - [ ] Bienenkönigin
-- [ ] Traumerinnerung
+- [x] Traumerinnerung
 - [ ] Unglücksgefäß
-- [ ] Warenchronik
+- [x] Warenchronik
 - [ ] Elementarer Verbündeter
 - [ ] Goblin-Exorzismus
 - [ ] Goblin-Geistheilung
 - [ ] Goblin-Zuflucht
 - [ ] Orvai Kurims Kriegstrommel
-- [ ] Adamantium
-- [ ] Caldofrigo
+- [x] Adamantium
+- [x] Caldofrigo
 - [ ] Ruhe Körper
+- [ ] Sicheres Lager
 
 
 ### Trait
@@ -6258,16 +6200,16 @@ Total status:  0/156 (0.0%)
 
 ### Praegung
 
-- [ ] Graue Gilde
-- [ ] Weiße Gilde
-- [ ] Goblinritualmeisterin
+- [x] Graue Gilde
+- [x] Weiße Gilde
+- [x] Goblinritualmeisterin
 - [ ] Sippenzauberin
-- [ ] Sippenhüterin
-- [ ] Traumdeuterin
-- [ ] Moderne Sichtweise
-- [ ] Mysterienkult
-- [ ] Pragmatismus
-- [ ] Traditionelle Denkrichtung
+- [x] Moderne Sichtweise
+- [x] Mysterienkult
+- [x] Pragmatismus
+- [x] Traditionelle Denkrichtung
+- [ ] Sippenhüterinnen
+- [ ] Traumdeuterinnen
 
 
 
