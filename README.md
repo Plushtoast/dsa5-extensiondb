@@ -4,7 +4,7 @@
 
 [Ability automation coverage](summary.md)
 
-
+[Contribute to automated animations](animations.md)
 
 # Extension DB for DSA5/TDE5 in Foundry VTT
 This is the database for spell and liturgy extensions and their active effects for Foundry VTT. As there are roughly 3000 extensions distributed among spells, liturgical chants, rituals and ceremonies a complete coverage or functionality is only possible through joined efforts by the community of TDE/DSA. Feel free to contribute, we'll add the effects in intervals to the official modules.
