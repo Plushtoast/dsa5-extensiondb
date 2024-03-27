@@ -38,7 +38,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -50,7 +51,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -270,7 +272,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -282,7 +285,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -502,7 +506,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -736,7 +741,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -748,7 +754,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -968,7 +975,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -1202,7 +1210,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -1436,7 +1445,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -1448,7 +1458,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -1668,7 +1679,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -1680,7 +1692,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -1900,7 +1913,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -2134,7 +2148,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -2368,7 +2383,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -2602,7 +2618,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -2836,7 +2853,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -3070,7 +3088,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -3304,7 +3323,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -3538,7 +3558,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -3772,7 +3793,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -4006,7 +4028,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -4240,7 +4263,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -4474,7 +4498,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -4708,7 +4733,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -4942,7 +4968,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -5177,7 +5204,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -5411,7 +5439,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -5645,7 +5674,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -5657,7 +5687,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -5877,7 +5908,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -6111,7 +6143,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -6345,7 +6378,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -6357,7 +6391,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -6577,7 +6612,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -6811,7 +6847,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -6823,7 +6860,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -7043,7 +7081,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -7278,7 +7317,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -7290,7 +7330,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -7511,7 +7552,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -7523,7 +7565,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -7744,7 +7787,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -7978,7 +8022,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -7990,7 +8035,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -8178,10 +8224,12 @@
       "levels3d": {
         "enable": false,
         "type": "",
-        "data": {},
+        "data": {
+        },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -8415,7 +8463,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -8649,7 +8698,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -8883,7 +8933,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -8895,7 +8946,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -9115,7 +9167,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -9349,7 +9402,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -9583,7 +9637,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -9817,7 +9872,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -10051,7 +10107,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -10063,7 +10120,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -10283,7 +10341,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -10517,7 +10576,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -10751,7 +10811,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -10763,7 +10824,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -10983,7 +11045,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -11217,7 +11280,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -11451,7 +11515,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -11463,7 +11528,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -11683,7 +11749,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -11917,7 +11984,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -12151,7 +12219,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -12385,7 +12454,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -12619,7 +12689,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -12631,7 +12702,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -12851,7 +12923,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -13085,7 +13158,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -13320,7 +13394,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -13556,7 +13631,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -13765,7 +13841,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -13974,7 +14051,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -14183,7 +14261,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -14392,7 +14471,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -14601,7 +14681,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -14810,7 +14891,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -15019,7 +15101,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -15229,7 +15312,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -15438,7 +15522,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -15649,7 +15734,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -15858,7 +15944,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -16068,7 +16155,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -16278,7 +16366,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -16487,7 +16576,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -16499,7 +16589,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "menu": "range",
       "primary": {
         "options": {
@@ -16695,7 +16786,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -16707,7 +16799,8 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "menu": "range",
       "primary": {
         "options": {
@@ -16902,7 +16995,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -17650,7 +17744,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -17870,7 +17965,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -18090,7 +18186,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -18309,7 +18406,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -18528,7 +18626,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -18746,7 +18845,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -18964,7 +19064,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -19182,7 +19283,8 @@
         },
         "secondary": {
           "enable": false,
-          "data": {}
+          "data": {
+          }
         },
         "sound": {
           "delay": 0,
@@ -19723,7 +19825,8 @@
     {
       "id": "e0a01e69-8107-49dc-acb7-fd40dfa731b0",
       "label": "Donnerwoge",
-      "macro": {},
+      "macro": {
+      },
       "menu": "templatefx",
       "primary": {
         "options": {
@@ -19889,7 +19992,8 @@
     {
       "id": "4e205f52-09ff-402f-83b7-5283d47da0e9",
       "label": "Nebelwolke",
-      "macro": {},
+      "macro": {
+      },
       "menu": "templatefx",
       "primary": {
         "options": {
@@ -20057,7 +20161,8 @@
     {
       "id": "b80a2a7a-954a-49d2-b80d-83076be13c22",
       "label": "Schutzgeister",
-      "macro": {},
+      "macro": {
+      },
       "menu": "aura",
       "primary": {
         "options": {
@@ -20307,7 +20412,8 @@
           }
         }
       },
-      "macro": {},
+      "macro": {
+      },
       "presetType": "teleportation",
       "label": "Nebelschritt",
       "soundOnly": {
@@ -20321,6 +20427,8 @@
       "menu": "preset"
     }
   ],
-  "aefx": [],
+  "aefx": [
+
+  ],
   "version": 5
 }
