@@ -32,9 +32,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -266,9 +266,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -500,9 +500,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -735,9 +735,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -969,9 +969,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -1204,9 +1204,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -1438,9 +1438,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -1672,9 +1672,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -1907,9 +1907,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -2142,9 +2142,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -2377,9 +2377,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -2612,9 +2612,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -2847,9 +2847,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -3082,9 +3082,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -3318,9 +3318,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -3554,9 +3554,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -3789,9 +3789,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -4024,9 +4024,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -4258,9 +4258,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -4493,9 +4493,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -4727,9 +4727,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -4962,9 +4962,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -5196,9 +5196,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -5433,9 +5433,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -5668,9 +5668,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -5903,9 +5903,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -6112,6 +6112,7 @@
         "enable": false,
         "type": "",
         "data": {
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -6344,9 +6345,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -6579,9 +6580,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -6814,9 +6815,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -7048,9 +7049,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -7283,9 +7284,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -7518,9 +7519,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -7753,9 +7754,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -7988,9 +7989,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -8223,9 +8224,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -8458,9 +8459,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -8693,9 +8694,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -8928,9 +8929,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -9163,9 +9164,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -9398,9 +9399,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -9632,9 +9633,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -9867,9 +9868,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -10102,9 +10103,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -10337,9 +10338,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -10572,9 +10573,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -10808,9 +10809,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -11043,9 +11044,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -11279,9 +11280,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -11526,9 +11527,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -11762,9 +11763,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -11997,9 +11998,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -12232,9 +12233,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -12468,9 +12469,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -12703,9 +12704,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -12938,9 +12939,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -13173,9 +13174,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -13408,9 +13409,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -13643,9 +13644,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -13877,9 +13878,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -14111,9 +14112,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -14345,9 +14346,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -14579,9 +14580,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -14813,9 +14814,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -15047,9 +15048,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -15281,9 +15282,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -15515,9 +15516,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -15749,9 +15750,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -15983,9 +15984,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -16192,6 +16193,7 @@
         "enable": false,
         "type": "",
         "data": {
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -16399,6 +16401,7 @@
         "enable": false,
         "type": "",
         "data": {
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -16606,6 +16609,7 @@
         "enable": false,
         "type": "",
         "data": {
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -16838,9 +16842,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -17073,9 +17077,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -17308,9 +17312,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -17543,9 +17547,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -17779,9 +17783,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -18015,9 +18019,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -18251,9 +18255,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -18487,9 +18491,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -18723,9 +18727,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -18959,9 +18963,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -19194,9 +19198,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -19429,9 +19433,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -19664,9 +19668,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -19899,9 +19903,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -20134,9 +20138,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -20369,9 +20373,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -20604,9 +20608,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -20838,9 +20842,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -21072,9 +21076,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -21307,9 +21311,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -21542,9 +21546,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -21776,9 +21780,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -22010,9 +22014,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -22244,9 +22248,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -22453,6 +22457,7 @@
         "enable": false,
         "type": "",
         "data": {
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -22660,6 +22665,7 @@
         "enable": false,
         "type": "",
         "data": {
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -22892,9 +22898,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -23127,9 +23133,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -23362,9 +23368,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -23598,9 +23604,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -23834,9 +23840,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -24070,9 +24076,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -24306,9 +24312,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -24542,9 +24548,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -24778,9 +24784,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -25014,9 +25020,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -25249,9 +25255,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -25484,9 +25490,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -25719,9 +25725,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -25955,9 +25961,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -26189,9 +26195,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -26423,9 +26429,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -26657,9 +26663,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -26891,9 +26897,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -27125,9 +27131,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -27359,9 +27365,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -27594,9 +27600,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -27829,9 +27835,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -28064,9 +28070,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -28299,9 +28305,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -28533,9 +28539,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -28768,9 +28774,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -29003,9 +29009,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -29239,9 +29245,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -29475,9 +29481,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -29709,9 +29715,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -29945,9 +29951,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -30179,9 +30185,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -30414,9 +30420,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -30649,9 +30655,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -30883,9 +30889,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -31119,9 +31125,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -31353,9 +31359,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -31589,9 +31595,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -31823,9 +31829,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -32057,9 +32063,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -32291,9 +32297,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -32525,9 +32531,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -32759,9 +32765,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -32994,9 +33000,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -33228,9 +33234,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -33463,9 +33469,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -33697,9 +33703,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -33933,9 +33939,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -34168,9 +34174,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -34403,9 +34409,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -34639,9 +34645,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -34874,9 +34880,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -35109,9 +35115,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -35344,9 +35350,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -35579,9 +35585,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -35814,9 +35820,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -36050,9 +36056,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -36285,9 +36291,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -36520,9 +36526,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -36755,9 +36761,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -36990,9 +36996,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -37226,9 +37232,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -37461,9 +37467,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -37695,9 +37701,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -37930,9 +37936,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -38165,9 +38171,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -38400,9 +38406,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -38636,9 +38642,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -38872,9 +38878,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -39107,9 +39113,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -39341,9 +39347,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -39576,9 +39582,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -39811,9 +39817,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -40047,9 +40053,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -40283,9 +40289,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -40518,9 +40524,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -40753,9 +40759,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -40989,9 +40995,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -41224,9 +41230,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -41458,9 +41464,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -41692,9 +41698,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -41926,9 +41932,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -42161,9 +42167,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -42397,9 +42403,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -42633,9 +42639,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -42868,9 +42874,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -43103,9 +43109,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -43337,9 +43343,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -43572,9 +43578,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -43806,9 +43812,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -44041,9 +44047,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -44276,9 +44282,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -44510,9 +44516,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -44746,9 +44752,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -44982,9 +44988,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -45218,9 +45224,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -45454,9 +45460,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -45689,9 +45695,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -45924,9 +45930,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -46158,9 +46164,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -46393,9 +46399,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -46628,9 +46634,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -46862,9 +46868,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -47098,9 +47104,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -47333,9 +47339,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -47568,9 +47574,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -47804,9 +47810,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -48039,9 +48045,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -48275,9 +48281,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -48511,9 +48517,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -48749,9 +48755,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -48959,9 +48965,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -49169,9 +49175,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -49379,9 +49385,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -49589,9 +49595,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -49799,9 +49805,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -50009,9 +50015,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -50220,9 +50226,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -50432,9 +50438,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -50642,9 +50648,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -50853,9 +50859,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -51039,7 +51045,8 @@
         "data": {
           "color01": "#FFFFFF",
           "color02": "#FFFFFF",
-          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png",
+          "sprite": ""
         },
         "sound": {
           "enable": false
@@ -51218,7 +51225,8 @@
         "data": {
           "color01": "#FFFFFF",
           "color02": "#FFFFFF",
-          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png",
+          "sprite": ""
         },
         "sound": {
           "enable": false
@@ -51397,7 +51405,8 @@
         "data": {
           "color01": "#FFFFFF",
           "color02": "#FFFFFF",
-          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png",
+          "sprite": ""
         },
         "sound": {
           "enable": false
@@ -51600,9 +51609,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -51810,9 +51819,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -52020,9 +52029,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -52230,9 +52239,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -52440,9 +52449,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -52651,9 +52660,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -52861,9 +52870,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -53071,9 +53080,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -53281,9 +53290,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -53491,9 +53500,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -53701,9 +53710,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -53911,9 +53920,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -54121,9 +54130,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -54331,9 +54340,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -54541,9 +54550,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -54751,9 +54760,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -54961,9 +54970,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -55171,9 +55180,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -55381,9 +55390,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -55591,9 +55600,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -55801,9 +55810,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -56011,9 +56020,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -56221,9 +56230,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -56431,9 +56440,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -56641,9 +56650,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -56851,9 +56860,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -57061,9 +57070,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -57271,9 +57280,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -57481,9 +57490,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -57691,9 +57700,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -57901,9 +57910,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -58111,9 +58120,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -58322,9 +58331,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -58533,9 +58542,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -58744,9 +58753,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -58955,9 +58964,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -59165,9 +59174,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -59375,9 +59384,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -59587,9 +59596,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -59808,9 +59817,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -60029,9 +60038,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -60249,9 +60258,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -60469,9 +60478,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -60688,9 +60697,9 @@
             "life": null,
             "emittersize": null,
             "rate": null,
-            "sprite": "modules/levels-3d-preview/assets/particles/dust.png"
+            "sprite": ""
           },
-          "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
+          "sprite": ""
         },
         "secondary": {
           "enable": false,
@@ -60883,7 +60892,8 @@
         "data": {
           "color01": "#FFFFFF",
           "color02": "#FFFFFF",
-          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png",
+          "sprite": ""
         },
         "sound": {
           "enable": false
