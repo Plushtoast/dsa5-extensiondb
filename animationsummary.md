@@ -4,49 +4,49 @@
 
 | Done | Name | Category | AA-Match |
 |------|------|----------|-------|
-|   | Achaz-Knochenkeule, kurz | none | - |
-|   | Achaz-Knochenkeule, mittel | none | - |
-|   | Achaz-Knochenkeule, lang (2H) | none | - |
-|   | Schlangenstab (2H) | none | - |
-|   | Achfawar (2H) | none | - |
-|   | Drash'kor (2H) | none | - |
+| 🆗 | Achaz-Knochenkeule, kurz | melee | Keule |
+| 🆗 | Achaz-Knochenkeule, mittel | melee | Keule |
+| 🆗 | Achaz-Knochenkeule, lang (2H) | melee | Keule |
+| 🆗 | Schlangenstab (2H) | melee | Schlangenstab |
+| 🆗 | Achfawar (2H) | melee | Achfawar |
+| 🆗 | Drash'kor (2H) | melee | Drash'kor |
 |   | Mattenschild | none | - |
-|   | Raz'Thon | none | - |
-|   | Rimkur (2H) | none | - |
-|   | Kristallomantische Kristallkugel | none | - |
-| 🆗 | Amazonensäbel | melee | Amazonensäbel |
+| 🆗 | Raz'Thon | melee | Raz'Thon |
+| 🆗 | Rimkur (2H) | melee | Rimkur |
+| 🆗 | Kristallomantische Kristallkugel | melee | Kristallomantische Kristallkugel |
+| 🆗 | Amazonensäbel | melee | Säbel |
 | 🆗 | Anderthalbhänder (2H) | melee | Anderthalbhänder |
 | 🆗 | Barbarenschwert | melee | Barbarenschwert |
-|   | Barbarenstreitaxt (2H) | none | - |
+| 🆗 | Barbarenstreitaxt (2H) | melee | Streitaxt |
 | 🆗 | Basiliskenzunge | melee | Basiliskenzunge |
 | 🆗 | Brabakbengel | melee | Brabakbengel |
-|   | Breitschwert | none | - |
+| 🆗 | Breitschwert | melee | Schwert |
 | 🆗 | Dolch | melee | Dolch |
-|   | Doppelkhunchomer (2H) | none | - |
+| 🆗 | Doppelkhunchomer (2H) | melee | Khunchomer |
 | 🆗 | Drachenzahn | melee | Drachenzahn |
-|   | Dreizack (2H) | none | - |
-|   | Dschadra (2H) | none | - |
+| 🆗 | Dreizack (2H) | melee | Dreizack |
+| 🆗 | Dschadra (2H) | melee | Dschadra |
 | 🆗 | Entermesser | melee | Entermesser |
 |   | Faustschild | none | - |
-|   | Felsspalter (2H) | none | - |
+| 🆗 | Felsspalter (2H) | melee | Felsspalter |
 | 🆗 | Florett | melee | Florett |
 |   | Fuhrmannspeitsche | none | - |
-|   | Glefe (2H) | none | - |
+| 🆗 | Glefe (2H) | melee | Glefe |
 | 🆗 | Großer Sklaventod (2H) | melee | Sklaventod |
 |   | Großschild | none | - |
-|   | Hakendolch | none | - |
+| 🆗 | Hakendolch | melee | Dolch |
 | 🆗 | Haumesser | melee | Haumesser |
-|   | Hellebarde (2H) | none | - |
+| 🆗 | Hellebarde (2H) | melee | Hellebarde |
 |   | Holzschild | none | - |
 | 🆗 | Holzspeer (2H) | melee | Holzspeer |
-|   | Jagdmesser | none | - |
-|   | Jagdspieß (2H) | none | - |
+| 🆗 | Jagdmesser | melee | Messer |
+| 🆗 | Jagdspieß (2H) | melee | Jagdspieß |
 | 🆗 | Kampfstab (2H) | melee | Kampfstab |
-|   | Katar | none | - |
+| 🆗 | Katar | melee | Katar |
 | 🆗 | Keule | melee | Keule |
 | 🆗 | Khunchomer | melee | Khunchomer |
 | 🆗 | Knüppel | melee | Knüppel |
-|   | Kriegshammer (2H) | none | - |
+| 🆗 | Kriegshammer (2H) | melee | Hammer |
 | 🆗 | Kurzschwert | melee | Kurzschwert |
 | 🆗 | Langschwert | melee | Langschwert |
 |   | Lederschild | none | - |
@@ -54,533 +54,533 @@
 | 🆗 | Linkhand | melee | Linkhand |
 | 🆗 | Magierstab, kurz | melee | Magierstab, kurz |
 | 🆗 | Magierstab, mittel | melee | Magierstab, mittel |
-|   | Magierstab, lang (2H) | none | - |
-|   | Mengbilar | none | - |
+| 🆗 | Magierstab, lang (2H) | melee | Magierstab |
+| 🆗 | Mengbilar | melee | Mengbilar |
 | 🆗 | Messer | melee | Messer |
 | 🆗 | Molokdeschnaja | melee | Molokdeschnaja |
 | 🆗 | Morgenstern | melee | Morgenstern |
-|   | Nachtwind | none | - |
-|   | Ochsenherde (2H) | none | - |
-|   | Ogerfänger | none | - |
-|   | Ogerschelle | none | - |
-|   | Orchidee | none | - |
+| 🆗 | Nachtwind | melee | Nachtwind |
+| 🆗 | Ochsenherde (2H) | melee | Ochsenherde |
+| 🆗 | Ogerfänger | melee | Ogerfänger |
+| 🆗 | Ogerschelle | melee | Ogerschelle |
+| 🆗 | Orchidee | melee | Orchidee |
 | 🆗 | Orknase | melee | Orknase |
-|   | Panzerarm | none | - |
+| 🆗 | Panzerarm | melee | Panzerarm |
 | 🆗 | Rabenschnabel | melee | Rabenschnabel |
 | 🆗 | Rapier | melee | Rapier |
-|   | Richtschwert (2H, i) | none | - |
+| 🆗 | Richtschwert (2H, i) | melee | Schwert |
 | 🆗 | Robbentöter | melee | Robbentöter |
-|   | Rondrakamm (2H) | none | - |
+| 🆗 | Rondrakamm (2H) | melee | Rondrakamm |
 | 🆗 | Säbel | melee | Säbel |
 | 🆗 | Schlagring | melee | Schlagring |
-|   | Schnitter (2H) | none | - |
+| 🆗 | Schnitter (2H) | melee | Schnitter |
 | 🆗 | Schwerer Dolch | melee | Dolch |
 | 🆗 | Sklaventod | melee | Sklaventod |
 | 🆗 | Sonnenzepter | melee | Sonnenzepter |
-|   | Speer (2H) | none | - |
-|   | Stockdegen | none | - |
+| 🆗 | Speer (2H) | melee | Speer |
+| 🆗 | Stockdegen | melee | Stockdegen |
 | 🆗 | Streitaxt | melee | Streitaxt |
 | 🆗 | Streitkolben | melee | Streitkolben |
 |   | Thorwalerschild | none | - |
-|   | Tuzakmesser (2H) | none | - |
+| 🆗 | Tuzakmesser (2H) | melee | Messer |
 | 🆗 | Waqqif | melee | Waqqif |
-|   | Warunker Hammer (2H) | none | - |
-| 🆗 | Wolfsmesser | melee | Wolfsmesser |
-|   | Zweihänder (2H) | none | - |
+| 🆗 | Warunker Hammer (2H) | melee | Hammer |
+| 🆗 | Wolfsmesser | melee | Messer |
+| 🆗 | Zweihänder (2H) | melee | Zweihänder |
 | 🆗 | Zweililie (2H) | melee | Zweililie |
-|   | Zwergenschlägel (2H) | none | - |
-|   | Besen (i) | none | - |
-|   | Bratpfanne (i) | none | - |
-|   | Bratpfanne, heiß (i) | none | - |
-|   | Eimer (i) | none | - |
-|   | Flasche (i) | none | - |
-|   | Stuhl (i) | none | - |
-|   | Stuhlbein (i) | none | - |
-|   | Tisch (i) | none | - |
+| 🆗 | Zwergenschlägel (2H) | melee | Zwergenschlägel |
+| 🆗 | Besen (i) | melee | Besen |
+| 🆗 | Bratpfanne (i) | melee | Bratpfanne |
+| 🆗 | Bratpfanne, heiß (i) | melee | Bratpfanne |
+| 🆗 | Eimer (i) | melee | Eimer |
+| 🆗 | Flasche (i) | melee | Flasche |
+| 🆗 | Stuhl (i) | melee | Stuhl |
+| 🆗 | Stuhlbein (i) | melee | Stuhl |
+| 🆗 | Tisch (i) | melee | Tisch |
 | 🆗 | Beil oder Handaxt (i) | melee | Beil |
-|   | Bratspieß (i) | none | - |
-|   | Brecheisen (i) | none | - |
-|   | Brechstange (2H, i) | none | - |
-|   | Fackel (i) | none | - |
-|   | Nudel- oder Teigholz (i) | none | - |
-|   | Schmiedehammer (i) | none | - |
-|   | Sichel (i) | none | - |
-|   | Spaten (2H, i) | none | - |
-|   | Spitzhacke (2H, i) | none | - |
-|   | Wurfhaken mit Kletterseil (i) | none | - |
-|   | Andergaster / Nostrianer (2H) | none | - |
+| 🆗 | Bratspieß (i) | melee | Bratspieß |
+| 🆗 | Brecheisen (i) | melee | Brecheisen |
+| 🆗 | Brechstange (2H, i) | melee | Brechstange |
+| 🆗 | Fackel (i) | melee | Fackel |
+| 🆗 | Nudel- oder Teigholz (i) | melee | Nudel- oder Teigholz |
+| 🆗 | Schmiedehammer (i) | melee | Hammer |
+| 🆗 | Sichel (i) | melee | Sichel |
+| 🆗 | Spaten (2H, i) | melee | Spaten |
+| 🆗 | Spitzhacke (2H, i) | melee | Spitzhacke |
+| 🆗 | Wurfhaken mit Kletterseil (i) | melee | Wurfhaken mit Kletterseil |
+| 🆗 | Andergaster / Nostrianer (2H) | melee | Andergaster / Nostrianer |
 | 🆗 | Arbach | melee | Arbach |
-|   | Avesstab (2H) | none | - |
-|   | Bastardschwert (2H) | none | - |
+| 🆗 | Avesstab (2H) | melee | Avesstab |
+| 🆗 | Bastardschwert (2H) | melee | Schwert |
 |   | Bock | none | - |
-|   | Boronssichel (2H) | none | - |
-|   | Byakka | none | - |
-|   | Degen | none | - |
-|   | Dornenkeule | none | - |
+| 🆗 | Boronssichel (2H) | melee | Sichel |
+| 🆗 | Byakka | melee | Byakka |
+| 🆗 | Degen | melee | Degen |
+| 🆗 | Dornenkeule | melee | Keule |
 |   | Drachentöter (2H) | none | - |
-|   | Druidendolch aus Vulkanglas | none | - |
-|   | Eberfänger | none | - |
-|   | Efferdbart (2H) | none | - |
-|   | Firunsmesser | none | - |
-|   | Geißel | none | - |
+| 🆗 | Druidendolch aus Vulkanglas | melee | Dolch |
+| 🆗 | Eberfänger | melee | Eberfänger |
+| 🆗 | Efferdbart (2H) | range | Efferdbart |
+| 🆗 | Firunsmesser | melee | Messer |
+| 🆗 | Geißel | melee | Geißel |
 |   | Großer Lederschild | none | - |
-|   | Gruufhai (2H) | none | - |
-|   | Hakenspieß (2H) | none | - |
-|   | Hauswehr | none | - |
-|   | Ingerimmshammer | none | - |
-|   | Kettenstab | none | - |
-|   | Knochendolch | none | - |
-|   | Knochenkeule | none | - |
-|   | Korspieß (2H) | none | - |
-|   | Kriegsfächer | none | - |
-|   | Kriegsflegel (2H) | none | - |
-|   | Kriegslanze | none | - |
+| 🆗 | Gruufhai (2H) | melee | Gruufhai |
+| 🆗 | Hakenspieß (2H) | melee | Hakenspieß |
+| 🆗 | Hauswehr | melee | Hauswehr |
+| 🆗 | Ingerimmshammer | melee | Hammer |
+| 🆗 | Kettenstab | melee | Kette |
+| 🆗 | Knochendolch | melee | Dolch |
+| 🆗 | Knochenkeule | melee | Keule |
+| 🆗 | Korspieß (2H) | melee | Korspieß |
+| 🆗 | Kriegsfächer | melee | Krieg |
+| 🆗 | Kriegsflegel (2H) | melee | Kriegsflegel |
+| 🆗 | Kriegslanze | melee | Krieg |
 | 🆗 | Kusliker Säbel | melee | Säbel |
-|   | Langdolch | none | - |
-|   | Magierdegen | none | - |
-|   | Neethaner Langaxt (2H) | none | - |
+| 🆗 | Langdolch | melee | Dolch |
+| 🆗 | Magierdegen | melee | Degen |
+| 🆗 | Neethaner Langaxt (2H) | melee | Axt |
 |   | Neunschwänzige | none | - |
 |   | Neunschwänzige mit Metallstücken/Dornen | none | - |
-|   | Opferdolch | none | - |
-|   | Pailos (2H) | none | - |
-|   | Partisane (2H) | none | - |
+| 🆗 | Opferdolch | melee | Dolch |
+| 🆗 | Pailos (2H) | melee | Pailos |
+| 🆗 | Partisane (2H) | melee | Partisane |
 |   | Pike (2H) | none | - |
-|   | Scheibendolch | none | - |
-|   | Steinbeil | none | - |
-|   | Steinhammer | none | - |
-|   | Stoßspeer (2H) | none | - |
-|   | Sturmsense (2H) | none | - |
+| 🆗 | Scheibendolch | melee | Dolch |
+| 🆗 | Steinbeil | range | Stein |
+| 🆗 | Steinhammer | range | Stein |
+| 🆗 | Stoßspeer (2H) | melee | Speer |
+| 🆗 | Sturmsense (2H) | melee | Sense |
 |   | Turmschild | none | - |
 |   | Turnierschild | none | - |
-|   | Turnierschwert | none | - |
-|   | Turnierzweihänder (2H) | none | - |
+| 🆗 | Turnierschwert | melee | Schwert |
+| 🆗 | Turnierzweihänder (2H) | melee | Zweihänder |
 |   | Verstärkter Holzschild | none | - |
-|   | Veteranenhand | none | - |
+| 🆗 | Veteranenhand | melee | Veteranenhand |
 |   | Walschild | none | - |
-|   | Wurmspieß (2H) | none | - |
-|   | Zwergenskraja | none | - |
+| 🆗 | Wurmspieß (2H) | melee | Wurmspieß |
+| 🆗 | Zwergenskraja | melee | Zwergenskraja |
 | 🆗 | Balestrina (i) | range | Balestrina |
-|   | Handarmbrust (i) | none | - |
+| 🆗 | Handarmbrust (i) | range | Armbrust |
 | 🆗 | Armbrust (2H, i) | range | Armbrust |
 | 🆗 | Bogen (2H, i) | range | Bogen |
-|   | Bolzen (i) | none | - |
-|   | Pfeil (i) | none | - |
+| 🆗 | Bolzen (i) | melee | Bolzen |
+| 🆗 | Pfeil (i) | melee | Pfeil |
 | 🆗 | Oger-Keule | melee | Keule |
 | 🆗 | Yeti-Keule | melee | Keule |
-|   | Troll-Axt | none | - |
-|   | Zyklopen-Hammer | none | - |
-|   | Federmesser (i) | none | - |
-|   | Schere (i) | none | - |
-|   | Schneiderschere (i) | none | - |
-|   | Fleischerbeil (i) | none | - |
-|   | Handspiegel (i) | none | - |
-|   | Kette (i) | none | - |
-|   | Sense (2H, i) | none | - |
-|   | Vorschlaghammer (2H, i) | none | - |
+| 🆗 | Troll-Axt | melee | Axt |
+| 🆗 | Zyklopen-Hammer | melee | Hammer |
+| 🆗 | Federmesser (i) | melee | Messer |
+| 🆗 | Schere (i) | melee | Schere |
+| 🆗 | Schneiderschere (i) | melee | Schneiderschere |
+| 🆗 | Fleischerbeil (i) | melee | Beil |
+| 🆗 | Handspiegel (i) | melee | Handspiegel |
+| 🆗 | Kette (i) | melee | Kette |
+| 🆗 | Sense (2H, i) | melee | Sense |
+| 🆗 | Vorschlaghammer (2H, i) | melee | Hammer |
 |   | Entdeckerpeitsche | none | - |
-|   | Holzhammer (i) | none | - |
+| 🆗 | Holzhammer (i) | melee | Hammer |
 | 🆗 | Hügelzwergisches Kurzschwert | melee | Kurzschwert |
-|   | Machete | none | - |
+| 🆗 | Machete | melee | Machete |
 | 🆗 | Nordmärker Langschwert | melee | Langschwert |
 | 🆗 | Albernisches Langschwert | melee | Langschwert |
-|   | Lea Invicta | none | - |
-|   | Drachenschwinger | none | - |
-|   | Zepter des Shinxirius Magnus | none | - |
+| 🆗 | Lea Invicta | melee | Lea Invicta |
+| 🆗 | Drachenschwinger | melee | Drachenschwinger |
+| 🆗 | Zepter des Shinxirius Magnus | melee | Zepter des Shinxirius Magnus |
 |   | Legionärsschild | none | - |
 |   | Turnierlanze | none | - |
-|   | Parazonium | none | - |
-|   | Scimshar | none | - |
-|   | Dreschflegel (2H, i) | none | - |
-|   | Hirtenstab (2H) | none | - |
-|   | Schlachtermesser (i) | none | - |
-|   | Elfendolch | none | - |
-|   | Aleeza | none | - |
+| 🆗 | Parazonium | melee | Parazonium |
+| 🆗 | Scimshar | melee | Scimshar |
+| 🆗 | Dreschflegel (2H, i) | melee | Dreschflegel |
+| 🆗 | Hirtenstab (2H) | melee | Hirtenstab |
+| 🆗 | Schlachtermesser (i) | melee | Messer |
+| 🆗 | Elfendolch | melee | Dolch |
+| 🆗 | Aleeza | melee | Aleeza |
 |   | Brillantzwergischer Buckler | none | - |
 | 🆗 | Brillantzwergisches Kurzschwert | melee | Kurzschwert |
 | 🆗 | Havener Messer | melee | Messer |
-|   | Elfenspeer (2H) | none | - |
-|   | Mistgabel (2H, i) | none | - |
-|   | Holzfälleraxt (2H, i) | none | - |
+| 🆗 | Elfenspeer (2H) | melee | Speer |
+| 🆗 | Mistgabel (2H, i) | melee | Mistgabel |
+| 🆗 | Holzfälleraxt (2H, i) | melee | Axt |
 | 🆗 | Amadah-Waqqif | melee | Waqqif |
-|   | Krummdolch | none | - |
-|   | Novadische Reiteraxt | none | - |
-|   | Thalusische Jitte | none | - |
-|   | Thalusische Sichel | none | - |
-|   | Knochenkeule, kurz | none | - |
-|   | Knochenkeule, mittel | none | - |
-|   | Thalusischer Panzerarm | none | - |
+| 🆗 | Krummdolch | melee | Dolch |
+| 🆗 | Novadische Reiteraxt | melee | Axt |
+| 🆗 | Thalusische Jitte | melee | Thalusische Jitte |
+| 🆗 | Thalusische Sichel | melee | Sichel |
+| 🆗 | Knochenkeule, kurz | melee | Keule |
+| 🆗 | Knochenkeule, mittel | melee | Keule |
+| 🆗 | Thalusischer Panzerarm | melee | Panzerarm |
 |   | Novadischer Schild | none | - |
 | 🆗 | Beni-Geraut-Schie-Säbel | melee | Säbel |
 | 🆗 | Novadischer Khunchomer | melee | Khunchomer |
-|   | Ferkina-Dschadra (2H) | none | - |
-|   | Kefter Dschadra (2H) | none | - |
-|   | Ferkina-Barbarenstreitaxt (2H) | none | - |
-|   | Knochenkeule, lang (2H) | none | - |
-|   | Mherweder Doppelkhunchomer (2H) | none | - |
-|   | Thalusischer Kadikalam (2H) | none | - |
-|   | Esravun, Sternenschwert des Mautaban | none | - |
-|   | Der Tausendjährige Zweihänder (2H) | none | - |
-|   | Dschadra Al’Abrah, die Träne Rastullahs | none | - |
-|   | Echter Bernsteindolch | none | - |
-|   | Echtes Bernsteinschwert | none | - |
-|   | Funkelpieks | none | - |
-|   | Opferdolch des Namenlosen | none | - |
+| 🆗 | Ferkina-Dschadra (2H) | melee | Dschadra |
+| 🆗 | Kefter Dschadra (2H) | melee | Dschadra |
+| 🆗 | Ferkina-Barbarenstreitaxt (2H) | melee | Streitaxt |
+| 🆗 | Knochenkeule, lang (2H) | melee | Keule |
+| 🆗 | Mherweder Doppelkhunchomer (2H) | melee | Khunchomer |
+| 🆗 | Thalusischer Kadikalam (2H) | melee | Thalusischer Kadikalam |
+| 🆗 | Esravun, Sternenschwert des Mautaban | melee | Schwert |
+| 🆗 | Der Tausendjährige Zweihänder (2H) | melee | Zweihänder |
+| 🆗 | Dschadra Al’Abrah, die Träne Rastullahs | melee | Dschadra |
+| 🆗 | Echter Bernsteindolch | range | Stein |
+| 🆗 | Echtes Bernsteinschwert | range | Stein |
+| 🆗 | Funkelpieks | melee | Funkelpieks |
+| 🆗 | Opferdolch des Namenlosen | melee | Dolch |
 |   | Amazonenschild | none | - |
-|   | Wanderstab (2H) | none | - |
-|   | Der Zweihänder Armalion (2H) | none | - |
+| 🆗 | Wanderstab (2H) | melee | Wanderstab |
+| 🆗 | Der Zweihänder Armalion (2H) | melee | Zweihänder |
 | 🆗 | Das heilige Schwert Rabenfeder | melee | Schwert |
-|   | Der Schwarze Speer (2H) | none | - |
-|   | Die Dschadra al'Zul (2H) | none | - |
-|   | Marbodolch | none | - |
-|   | Heroldsstab | none | - |
-|   | Widderkeule | none | - |
+| 🆗 | Der Schwarze Speer (2H) | melee | Speer |
+| 🆗 | Die Dschadra al'Zul (2H) | melee | Dschadra |
+| 🆗 | Marbodolch | melee | Dolch |
+| 🆗 | Heroldsstab | melee | Heroldsstab |
+| 🆗 | Widderkeule | melee | Keule |
 |   | Metallverstärkter Holzschild | none | - |
 |   | Sonnenschild | none | - |
-|   | Hacksäbel | none | - |
-|   | Maraskanischer Hakenspieß (2H) | none | - |
-|   | Mohaknochenkeule, kurz | none | - |
-|   | Mohaknochenkeule, mittel | none | - |
-|   | Mohaknochenkeule, lang (2H) | none | - |
-|   | Nivesenknochenkeule, kurz | none | - |
-|   | Nivesenknochenkeule, mittel | none | - |
-|   | Nivesenknochenkeule, lang (2H) | none | - |
-|   | Trollzackerknochenkeule, kurz | none | - |
-|   | Trollzackerknochenkeule, mittel | none | - |
-|   | Trollzackerknochenkeule, lang (2H) | none | - |
-|   | Gjalskerknochenkeule, kurz | none | - |
-|   | Gjalskerknochenkeule, mittel | none | - |
-|   | Gjalskerknochenkeule, lang (2H) | none | - |
-|   | Fjarningerknochenkeule, kurz | none | - |
-|   | Fjarningerknochenkeule, mittel | none | - |
-|   | Fjarningerknochenkeule, lang (2H) | none | - |
-|   | Ferkinaknochenkeule, kurz | none | - |
-|   | Ferkinaknochenkeule, mittel | none | - |
-|   | Ferkinaknochenkeule, lang (2H) | none | - |
+| 🆗 | Hacksäbel | melee | Säbel |
+| 🆗 | Maraskanischer Hakenspieß (2H) | melee | Hakenspieß |
+| 🆗 | Mohaknochenkeule, kurz | melee | Keule |
+| 🆗 | Mohaknochenkeule, mittel | melee | Keule |
+| 🆗 | Mohaknochenkeule, lang (2H) | melee | Keule |
+| 🆗 | Nivesenknochenkeule, kurz | melee | Keule |
+| 🆗 | Nivesenknochenkeule, mittel | melee | Keule |
+| 🆗 | Nivesenknochenkeule, lang (2H) | melee | Keule |
+| 🆗 | Trollzackerknochenkeule, kurz | melee | Keule |
+| 🆗 | Trollzackerknochenkeule, mittel | melee | Keule |
+| 🆗 | Trollzackerknochenkeule, lang (2H) | melee | Keule |
+| 🆗 | Gjalskerknochenkeule, kurz | melee | Keule |
+| 🆗 | Gjalskerknochenkeule, mittel | melee | Keule |
+| 🆗 | Gjalskerknochenkeule, lang (2H) | melee | Keule |
+| 🆗 | Fjarningerknochenkeule, kurz | melee | Keule |
+| 🆗 | Fjarningerknochenkeule, mittel | melee | Keule |
+| 🆗 | Fjarningerknochenkeule, lang (2H) | melee | Keule |
+| 🆗 | Ferkinaknochenkeule, kurz | melee | Keule |
+| 🆗 | Ferkinaknochenkeule, mittel | melee | Keule |
+| 🆗 | Ferkinaknochenkeule, lang (2H) | melee | Keule |
 | 🆗 | Albernischer Anderthalbhänder (2H) | melee | Anderthalbhänder |
 | 🆗 | Harbener Säbel | melee | Säbel |
 |   | Havener Buckler | none | - |
-|   | Neckerdreizack (2H) | none | - |
-|   | Tiefendorn (2H) | none | - |
+| 🆗 | Neckerdreizack (2H) | melee | Dreizack |
+| 🆗 | Tiefendorn (2H) | melee | Tiefendorn |
 | 🆗 | Charib’Yzz-Dolch | melee | Dolch |
-|   | Krakensilberspeer (2H) | none | - |
-|   | Dornrosengerte | none | - |
-|   | Waldwebennetz | none | - |
-|   | Shakagra-Giftdolch | none | - |
-|   | Shakagra-Hammer | none | - |
+| 🆗 | Krakensilberspeer (2H) | melee | Speer |
+| 🆗 | Dornrosengerte | melee | Dornrosengerte |
+| 🆗 | Waldwebennetz | melee | Waldwebennetz |
+| 🆗 | Shakagra-Giftdolch | melee | Dolch |
+| 🆗 | Shakagra-Hammer | melee | Hammer |
 |   | Shakagra-Buckler | none | - |
 |   | Shakagra-Langschild | none | - |
-|   | Shakagra-Krummsäbel | none | - |
+| 🆗 | Shakagra-Krummsäbel | melee | Säbel |
 | 🆗 | Shakagra-Schwert | melee | Schwert |
-|   | Shakagra-Kriegshammer (2H) | none | - |
-|   | Bannschwert, klein | none | - |
-|   | Bannschwert, mittel | none | - |
-|   | Bannschwert, groß (2H) | none | - |
-|   | Flöte und ähnliche Instrumente (i) | none | - |
-|   | Laute und ähnliche Instrumente (i) | none | - |
-|   | Zauberinstrument (Flöte und ähnliche Instrumente) (i) | none | - |
-|   | Zauberinstrument (Laute und ähnliche Instrumente) (i) | none | - |
-|   | Zauberkugel | none | - |
-|   | Zauberstecken, kurz | none | - |
-|   | Zauberstecken, mittel | none | - |
-|   | Zauberstecken, lang (2H) | none | - |
-|   | Magierkugel | none | - |
-|   | Druidensichel | none | - |
-|   | Bakka | none | - |
+| 🆗 | Shakagra-Kriegshammer (2H) | melee | Hammer |
+| 🆗 | Bannschwert, klein | melee | Schwert |
+| 🆗 | Bannschwert, mittel | melee | Schwert |
+| 🆗 | Bannschwert, groß (2H) | melee | Schwert |
+| 🆗 | Flöte und ähnliche Instrumente (i) | melee | Flöte und ähnliche Instrumente |
+| 🆗 | Laute und ähnliche Instrumente (i) | melee | Laute und ähnliche Instrumente |
+| 🆗 | Zauberinstrument (Flöte und ähnliche Instrumente) (i) | melee | Flöte und ähnliche Instrumente |
+| 🆗 | Zauberinstrument (Laute und ähnliche Instrumente) (i) | melee | Laute und ähnliche Instrumente |
+| 🆗 | Zauberkugel | melee | Zauberkugel |
+| 🆗 | Zauberstecken, kurz | melee | Zauberstecken |
+| 🆗 | Zauberstecken, mittel | melee | Zauberstecken |
+| 🆗 | Zauberstecken, lang (2H) | melee | Zauberstecken |
+| 🆗 | Magierkugel | range | Magierkugel |
+| 🆗 | Druidensichel | melee | Sichel |
+| 🆗 | Bakka | melee | Bakka |
 | 🆗 | Chablak-Dolch | melee | Dolch |
 | 🆗 | Dagla-Schwert | melee | Schwert |
-|   | Harigastur-Bronzeschwert | none | - |
-|   | Nipauka-Axt | none | - |
-|   | Nivesischer Wolfsspeer (2H) | none | - |
-|   | Druidendolch | none | - |
+| 🆗 | Harigastur-Bronzeschwert | melee | Schwert |
+| 🆗 | Nipauka-Axt | melee | Axt |
+| 🆗 | Nivesischer Wolfsspeer (2H) | melee | Speer |
+| 🆗 | Druidendolch | melee | Dolch |
 | 🆗 | Maru-Säbel | melee | Säbel |
-|   | Minotauren-Hammer | none | - |
-|   | Priesterstab, lang (2H) | none | - |
+| 🆗 | Minotauren-Hammer | melee | Hammer |
+| 🆗 | Priesterstab, lang (2H) | melee | Priesterstab |
 | 🆗 | Skrechu-Säbel | melee | Säbel |
-|   | Skrechu-Stab | none | - |
+| 🆗 | Skrechu-Stab | melee | Skrechu-Stab |
 | 🆗 | Troll-Keule | melee | Keule |
-|   | Blutspeer (2H) | none | - |
-|   | Orkknochenkeule, kurz | none | - |
-|   | Orkknochenkeule, mittel | none | - |
-|   | Orkknochenkeule, lang (2H) | none | - |
+| 🆗 | Blutspeer (2H) | melee | Speer |
+| 🆗 | Orkknochenkeule, kurz | melee | Keule |
+| 🆗 | Orkknochenkeule, mittel | melee | Keule |
+| 🆗 | Orkknochenkeule, lang (2H) | melee | Keule |
 | 🆗 | Aranischer Säbel | melee | Säbel |
-|   | Chalukischer Kettenstab | none | - |
+| 🆗 | Chalukischer Kettenstab | melee | Kette |
 |   | Elburischer Lederschild | none | - |
 |   | Elburumer Dornenfächer | none | - |
-|   | Mendlicumer Stechhammer | none | - |
+| 🆗 | Mendlicumer Stechhammer | melee | Hammer |
 |   | Llankaner Eisenfächer | none | - |
-|   | Palmyrer Reitersäbel | none | - |
-|   | Palmyrische Dschadra (2H) | none | - |
-|   | Shariwaner Schnitter (2H) | none | - |
+| 🆗 | Palmyrer Reitersäbel | melee | Säbel |
+| 🆗 | Palmyrische Dschadra (2H) | melee | Dschadra |
+| 🆗 | Shariwaner Schnitter (2H) | melee | Schnitter |
 | 🆗 | Zorganer Dolch | melee | Dolch |
-|   | Oronische Klingengeißel, Sichelklinge (2H) | none | - |
-|   | Oronische Klingengeißel, Kettenkugel (2H) | none | - |
-|   | Oronischer Scimitar (2H) | none | - |
-|   | Oronischer Rahjafrevler (2H) | none | - |
-|   | Obstpflücker (2H, i) | none | - |
-|   | Amethystlöwin | none | - |
+| 🆗 | Oronische Klingengeißel, Sichelklinge (2H) | melee | Sichel |
+| 🆗 | Oronische Klingengeißel, Kettenkugel (2H) | melee | Geißel |
+| 🆗 | Oronischer Scimitar (2H) | melee | Oronischer Scimitar |
+| 🆗 | Oronischer Rahjafrevler (2H) | melee | Oronischer Rahjafrevler |
+| 🆗 | Obstpflücker (2H, i) | melee | Obstpflücker |
+| 🆗 | Amethystlöwin | melee | Amethystlöwin |
 |   | Belkelels Zuchtmeisterin | none | - |
-|   | Die Dschadra al’Zul (2H) | none | - |
-|   | Kaiser Rauls Reitersäbel | none | - |
-|   | Patientia | none | - |
-|   | Humilitas (2H) | none | - |
-|   | Gratia | none | - |
-|   | Fortomblasch (2H) | none | - |
-|   | Gerbaldspieß (2H) | none | - |
-|   | Singende Klinge „Tag“ | none | - |
-|   | Singende Klinge „Nacht“ | none | - |
-|   | Kaisertöter | none | - |
+| 🆗 | Die Dschadra al’Zul (2H) | melee | Dschadra |
+| 🆗 | Kaiser Rauls Reitersäbel | melee | Säbel |
+| 🆗 | Patientia | melee | Patientia |
+| 🆗 | Humilitas (2H) | melee | Humilitas |
+| 🆗 | Gratia | melee | Gratia |
+| 🆗 | Fortomblasch (2H) | melee | Fortomblasch |
+| 🆗 | Gerbaldspieß (2H) | melee | Gerbaldspieß |
+| 🆗 | Singende Klinge „Tag“ | melee | Singende Klinge „Tag“ |
+| 🆗 | Singende Klinge „Nacht“ | melee | Singende Klinge „Nacht“ |
+| 🆗 | Kaisertöter | melee | Kaisertöter |
 |   | Auripraedes-Sonnenschild | none | - |
 | 🆗 | Auripraedes-Streitkolben | melee | Streitkolben |
-|   | Skalsmader (2H) | none | - |
+| 🆗 | Skalsmader (2H) | melee | Skalsmader |
 | 🆗 | Langschwert des Admirals | melee | Langschwert |
-|   | Bastardschwert des unbekannten Helden (2H) | none | - |
-|   | Magierstab des Gandolf von Gareth, lang (2H) | none | - |
+| 🆗 | Bastardschwert des unbekannten Helden (2H) | melee | Schwert |
+| 🆗 | Magierstab des Gandolf von Gareth, lang (2H) | melee | Magierstab |
 | 🆗 | Sphären-Magierstab, kurz | melee | Magierstab, kurz |
-|   | Stab des Altumarn, lang | none | - |
+| 🆗 | Stab des Altumarn, lang | melee | Stab des Altumarn |
 | 🆗 | Antimagie-Magierstab, mittel | melee | Magierstab, mittel |
-|   | Orkenschreck | none | - |
-|   | Partisane der Bürgerlichen (2H) | none | - |
-|   | Chimärenschläger | none | - |
-|   | Casydrion | none | - |
-|   | Brusgalin | none | - |
-|   | Ay’Halam al’Rhondrachai (2H) | none | - |
-|   | Kaiser Bodars II Saufeder (2H) | none | - |
-|   | Kam’Arum (2H) | none | - |
-|   | Sägeschwert | none | - |
+| 🆗 | Orkenschreck | melee | Orkenschreck |
+| 🆗 | Partisane der Bürgerlichen (2H) | melee | Partisane |
+| 🆗 | Chimärenschläger | melee | Chimärenschläger |
+| 🆗 | Casydrion | melee | Casydrion |
+| 🆗 | Brusgalin | melee | Brusgalin |
+| 🆗 | Ay’Halam al’Rhondrachai (2H) | melee | Ay’Halam al’Rhondrachai |
+| 🆗 | Kaiser Bodars II Saufeder (2H) | melee | Kaiser Bodars II Saufeder |
+| 🆗 | Kam’Arum (2H) | melee | Kam’Arum |
+| 🆗 | Sägeschwert | melee | Schwert |
 | 🆗 | Rondharas Langschwert | melee | Langschwert |
-|   | Immertreu-Bastardschwert (2H) | none | - |
+| 🆗 | Immertreu-Bastardschwert (2H) | melee | Schwert |
 | 🆗 | Die ersten Pervalschen Schwerter | melee | Schwert |
-|   | Pervalscher Tunierstreitkolben | none | - |
-|   | Laternenschild | none | - |
-|   | Prunkschwert der Goldenen Lanze | none | - |
-|   | Grijomacons Tuzakmesser Mungobiss (2H) | none | - |
-|   | Harlijins Tuzakmesser Lotosdorn (2H) | none | - |
+| 🆗 | Pervalscher Tunierstreitkolben | melee | Streitkolben |
+| 🆗 | Laternenschild | melee | Laternenschild |
+| 🆗 | Prunkschwert der Goldenen Lanze | melee | Schwert |
+| 🆗 | Grijomacons Tuzakmesser Mungobiss (2H) | ontoken | Biss |
+| 🆗 | Harlijins Tuzakmesser Lotosdorn (2H) | melee | Messer |
 |   | Achaz-Schwanzwaffe (Raz’Thon) | none | - |
 |   | Reißer (Drash’kor) (2H) | none | - |
-|   | Schnitter aus Frumolds Heer (2H) | none | - |
-|   | Rebellen-Nachtwind | none | - |
+| 🆗 | Schnitter aus Frumolds Heer (2H) | melee | Schnitter |
+| 🆗 | Rebellen-Nachtwind | melee | Nachtwind |
 | 🆗 | Hal-Schwert | melee | Schwert |
 | 🆗 | Hal-Streitkolben | melee | Streitkolben |
-|   | Paligan-Prunkdolch | none | - |
-|   | Prunk-Partisane (2H) | none | - |
-|   | Ogerkeule (2H) | none | - |
+| 🆗 | Paligan-Prunkdolch | melee | Dolch |
+| 🆗 | Prunk-Partisane (2H) | melee | Partisane |
+| 🆗 | Ogerkeule (2H) | melee | Keule |
 | 🆗 | Windhager Flotten-Säbel | melee | Säbel |
-|   | Khefu-Bengel | none | - |
-|   | Doppelkhunchomer der Murawidun (2H) | none | - |
+| 🆗 | Khefu-Bengel | melee | Khefu-Bengel |
+| 🆗 | Doppelkhunchomer der Murawidun (2H) | melee | Khunchomer |
 | 🆗 | Hal-Rapier | melee | Rapier |
-|   | Gwains Reitersäbel | none | - |
+| 🆗 | Gwains Reitersäbel | melee | Säbel |
 | 🆗 | Arbach eines Tordochai-Kriegers | melee | Arbach |
-|   | Byakka der Garde des Roten Mondes | none | - |
-|   | Gruufhai des Olog Orchai (2H) | none | - |
-|   | Hellebarde der Garether Spießbürger (2H) | none | - |
-| 🆗 | Amazonensäbel aus Kurkum | melee | Amazonensäbel |
-|   | Piratensäbel aus der Blutigen See | none | - |
+| 🆗 | Byakka der Garde des Roten Mondes | melee | Byakka |
+| 🆗 | Gruufhai des Olog Orchai (2H) | melee | Gruufhai |
+| 🆗 | Hellebarde der Garether Spießbürger (2H) | melee | Hellebarde |
+| 🆗 | Amazonensäbel aus Kurkum | melee | Säbel |
+| 🆗 | Piratensäbel aus der Blutigen See | melee | Säbel |
 | 🆗 | Seeschlangenzahn-Dolch | melee | Dolch |
 | 🆗 | Streitaxt der Wolfengarde | melee | Streitaxt |
-|   | Sagittas Bannschwert | none | - |
-|   | Gryphius | none | - |
-|   | Waldemars Ochsenherde (2H) | none | - |
-|   | Blutiger Zweihänder (2H) | none | - |
+| 🆗 | Sagittas Bannschwert | melee | Schwert |
+| 🆗 | Gryphius | melee | Gryphius |
+| 🆗 | Waldemars Ochsenherde (2H) | melee | Ochsenherde |
+| 🆗 | Blutiger Zweihänder (2H) | melee | Zweihänder |
 |   | Schild der Panthergarde | none | - |
-|   | Stahlschwinge-Hellebarde (2H) | none | - |
+| 🆗 | Stahlschwinge-Hellebarde (2H) | melee | Hellebarde |
 | 🆗 | Schattenstich-Rapier | melee | Rapier |
 | 🆗 | Löwinblitz-Streitaxt | melee | Streitaxt |
-|   | Leuinzahn-Zweihänder (2H) | none | - |
-|   | Knochenbrecher-Ogerschelle | none | - |
+| 🆗 | Leuinzahn-Zweihänder (2H) | melee | Zweihänder |
+| 🆗 | Knochenbrecher-Ogerschelle | melee | Ogerschelle |
 | 🆗 | Tommeldorn-Anderthalbhänder (2H) | melee | Anderthalbhänder |
-|   | Mauerbrecher-Sappeursaxt | none | - |
-|   | Rachtar’achan, Trollzacker-Barbarenstreitaxt (2H) | none | - |
-|   | Abilachter Reitersäbel | none | - |
-|   | Lange Mühle (2H) | none | - |
-|   | Finsterfang (2H) | none | - |
-|   | Amalidion (2H) | none | - |
-|   | Krieg (2H) | none | - |
-|   | Scharlachdorn (2H) | none | - |
-|   | Danos von Lurings Ritterschwert | none | - |
-|   | Schlangenbiss (2H) | none | - |
-|   | Albenhuser Rossschinder (2H) | none | - |
-|   | Angbarer Sappeursaxt | none | - |
-|   | Eisenhuetter Kriegshammer (2H) | none | - |
-|   | Elenviner Reiterhammer | none | - |
-|   | Ferdoker Kriegslanze | none | - |
-|   | Gratenfelser Ahlspieß (2H) | none | - |
-|   | Gratenfelser Malchus | none | - |
+| 🆗 | Mauerbrecher-Sappeursaxt | melee | Axt |
+| 🆗 | Rachtar’achan, Trollzacker-Barbarenstreitaxt (2H) | melee | Streitaxt |
+| 🆗 | Abilachter Reitersäbel | melee | Säbel |
+| 🆗 | Lange Mühle (2H) | melee | Lange Mühle |
+| 🆗 | Finsterfang (2H) | melee | Finsterfang |
+| 🆗 | Amalidion (2H) | melee | Amalidion |
+| 🆗 | Krieg (2H) | melee | Krieg |
+| 🆗 | Scharlachdorn (2H) | melee | Scharlachdorn |
+| 🆗 | Danos von Lurings Ritterschwert | melee | Schwert |
+| 🆗 | Schlangenbiss (2H) | ontoken | Biss |
+| 🆗 | Albenhuser Rossschinder (2H) | melee | Albenhuser Rossschinder |
+| 🆗 | Angbarer Sappeursaxt | melee | Axt |
+| 🆗 | Eisenhuetter Kriegshammer (2H) | melee | Hammer |
+| 🆗 | Elenviner Reiterhammer | melee | Hammer |
+| 🆗 | Ferdoker Kriegslanze | melee | Krieg |
+| 🆗 | Gratenfelser Ahlspieß (2H) | melee | Gratenfelser Ahlspieß |
+| 🆗 | Gratenfelser Malchus | melee | Gratenfelser Malchus |
 | 🆗 | Koscher Langschwert | melee | Langschwert |
-|   | Nordmärker Mordaxt (2H) | none | - |
+| 🆗 | Nordmärker Mordaxt (2H) | melee | Axt |
 | 🆗 | Lûrer Lindwurmschläger | melee | Lindwurmschläger |
-|   | Muroloscher Zwergenschlägel (2H) | none | - |
-|   | Senaloscher Sehnenschneider | none | - |
-|   | Waldwachter Felsspalter (2H) | none | - |
-|   | Xorloscher Wurmspieß (2H) | none | - |
-|   | Koscher Grevenstecken (i) | none | - |
-|   | Schmiedewerkzeug (i) | none | - |
-|   | Guldebrandt (2H) | none | - |
-|   | Albernische Bauernwehr | none | - |
+| 🆗 | Muroloscher Zwergenschlägel (2H) | melee | Zwergenschlägel |
+| 🆗 | Senaloscher Sehnenschneider | melee | Senaloscher Sehnenschneider |
+| 🆗 | Waldwachter Felsspalter (2H) | melee | Felsspalter |
+| 🆗 | Xorloscher Wurmspieß (2H) | melee | Wurmspieß |
+| 🆗 | Koscher Grevenstecken (i) | melee | Koscher Grevenstecken |
+| 🆗 | Schmiedewerkzeug (i) | melee | Schmiedewerkzeug |
+| 🆗 | Guldebrandt (2H) | melee | Guldebrandt |
+| 🆗 | Albernische Bauernwehr | melee | Albernische Bauernwehr |
 | 🆗 | Albernisches Entermesser | melee | Entermesser |
-|   | Albernische Wurzelholzkeule | none | - |
-|   | Albernischer Langdolch | none | - |
-|   | Albernische Spießaxt (2H) | none | - |
-|   | Seesäbel | none | - |
-|   | Windhager Drachenmesser | none | - |
-|   | Windhager Hakenaxt (2H) | none | - |
-|   | Windhager Sichelspeer (2H, i) | none | - |
-|   | Torfgabel (i) | none | - |
-|   | Opallöwin (2H) | none | - |
-|   | Immanschläger | none | - |
-|   | Baccanaq | none | - |
-|   | Jagdspeer der Mohaha (2H) | none | - |
-|   | Karmulka | none | - |
-|   | Katar der Eidechsenkrieger | none | - |
-| 🆗 | Keulenbeil der Miniwatu | melee | Keule |
+| 🆗 | Albernische Wurzelholzkeule | melee | Keule |
+| 🆗 | Albernischer Langdolch | melee | Dolch |
+| 🆗 | Albernische Spießaxt (2H) | melee | Axt |
+| 🆗 | Seesäbel | melee | Säbel |
+| 🆗 | Windhager Drachenmesser | melee | Messer |
+| 🆗 | Windhager Hakenaxt (2H) | melee | Axt |
+| 🆗 | Windhager Sichelspeer (2H, i) | melee | Speer |
+| 🆗 | Torfgabel (i) | melee | Torfgabel |
+| 🆗 | Opallöwin (2H) | melee | Opallöwin |
+| 🆗 | Immanschläger | melee | Immanschläger |
+| 🆗 | Baccanaq | melee | Baccanaq |
+| 🆗 | Jagdspeer der Mohaha (2H) | melee | Speer |
+| 🆗 | Karmulka | melee | Karmulka |
+| 🆗 | Katar der Eidechsenkrieger | melee | Katar |
+| 🆗 | Keulenbeil der Miniwatu | melee | Beil |
 |   | Bastschild | none | - |
 |   | Leichter Lederschild | none | - |
 |   | Panzerschild | none | - |
-|   | Stachelkeule der Tschopukikuha | none | - |
-|   | Tauchspeer der Napewanha | none | - |
+| 🆗 | Stachelkeule der Tschopukikuha | melee | Keule |
+| 🆗 | Tauchspeer der Napewanha | melee | Speer |
 |   | Epharit-Schild | none | - |
 | 🆗 | Epharit-Schwert | melee | Schwert |
-|   | Epharit-Speer | none | - |
-|   | Geisteraxt | none | - |
-|   | Kleine Magierkugel | none | - |
-|   | Magierstab mit Magierkugel, kurz | none | - |
-|   | Magierstab mit Magierkugel, mittel | none | - |
-|   | Magierstab mit Magierkugel, lang (2H) | none | - |
-|   | Zauberschale | none | - |
+| 🆗 | Epharit-Speer | melee | Speer |
+| 🆗 | Geisteraxt | melee | Axt |
+| 🆗 | Kleine Magierkugel | range | Magierkugel |
+| 🆗 | Magierstab mit Magierkugel, kurz | range | Magierkugel |
+| 🆗 | Magierstab mit Magierkugel, mittel | range | Magierkugel |
+| 🆗 | Magierstab mit Magierkugel, lang (2H) | range | Magierkugel |
+| 🆗 | Zauberschale | melee | Zauberschale |
 |   | Grauer Stab (2H) - Robureon | none | - |
 |   | Grauer Stab (2H) - Sangulmeon | none | - |
 |   | Grauer Stab (2H) - Ferruginion | none | - |
 |   | Grauer Stab (2H) - Cedraion | none | - |
-|   | Famerlîn (2H) | none | - |
-|   | Arkisischer Parazonium | none | - |
-|   | Baltreïscher Pailos (2H) | none | - |
+| 🆗 | Famerlîn (2H) | melee | Famerlîn |
+| 🆗 | Arkisischer Parazonium | melee | Parazonium |
+| 🆗 | Baltreïscher Pailos (2H) | melee | Pailos |
 | 🆗 | Chababischer Waqqif | melee | Waqqif |
 | 🆗 | Chirakah-Haumesser | melee | Haumesser |
-|   | Drôler Reiterhammer | none | - |
-|   | Kopis | none | - |
-|   | Sarissa der Seekrieger (2H) | none | - |
-|   | Sklaventreibergerte | none | - |
+| 🆗 | Drôler Reiterhammer | melee | Hammer |
+| 🆗 | Kopis | melee | Kopis |
+| 🆗 | Sarissa der Seekrieger (2H) | melee | Krieg |
+| 🆗 | Sklaventreibergerte | melee | Sklaventreibergerte |
 |   | Zyklopäischer Rundschild | none | - |
-|   | Ay'Halam al'Rhondrachai | none | - |
-|   | Das Monadenschwert Balgringa | none | - |
-|   | Lavawut | none | - |
+| 🆗 | Ay'Halam al'Rhondrachai | melee | Ay'Halam al'Rhondrachai |
+| 🆗 | Das Monadenschwert Balgringa | melee | Schwert |
+| 🆗 | Lavawut | melee | Lavawut |
 | 🆗 | Zyklopisches Langschwert | melee | Langschwert |
-|   | Hummerier-Speer (2H) | none | - |
-|   | Hummerier-Axt (2H) | none | - |
-|   | Eichhafener / Harmlyner (2H) | none | - |
-|   | Hirschfänger | none | - |
+| 🆗 | Hummerier-Speer (2H) | melee | Speer |
+| 🆗 | Hummerier-Axt (2H) | melee | Axt |
+| 🆗 | Eichhafener / Harmlyner (2H) | melee | Eichhafener / Harmlyner |
+| 🆗 | Hirschfänger | melee | Hirschfänger |
 | 🆗 | Andergaster Langschwert | melee | Langschwert |
 | 🆗 | Nostrisches Langschwert | melee | Langschwert |
-|   | Saufeder (2H) | none | - |
-|   | Deichgabel (i) | none | - |
-|   | Stakaxt (2H, i) | none | - |
-|   | Zauberstab (2H) | none | - |
-|   | Goblinkeule, kurz | none | - |
-|   | Goblinkeule, mittel | none | - |
-|   | Goblinkeule, lang (2H) | none | - |
-|   | Birkholter Drachenspeer (2H) | none | - |
+| 🆗 | Saufeder (2H) | melee | Saufeder |
+| 🆗 | Deichgabel (i) | melee | Deichgabel |
+| 🆗 | Stakaxt (2H, i) | melee | Axt |
+| 🆗 | Zauberstab (2H) | melee | Zauberstab |
+| 🆗 | Goblinkeule, kurz | melee | Keule |
+| 🆗 | Goblinkeule, mittel | melee | Keule |
+| 🆗 | Goblinkeule, lang (2H) | melee | Keule |
+| 🆗 | Birkholter Drachenspeer (2H) | melee | Speer |
 |   | Bornische Peitsche | none | - |
-|   | Bronnjarenschwert (2H) | none | - |
+| 🆗 | Bronnjarenschwert (2H) | melee | Schwert |
 | 🆗 | Festumer Säbel | melee | Säbel |
 |   | Gebietigerlanze | none | - |
 |   | Knute | none | - |
 |   | Norbardische Setztartsche | none | - |
-|   | Ranzengarbe (2H) | none | - |
-|   | Rattenfänger | none | - |
-|   | Romagh (2H) | none | - |
-|   | Sewerischer Reitersäbel | none | - |
-|   | Flößerhaken (2H, i) | none | - |
+| 🆗 | Ranzengarbe (2H) | melee | Ranzengarbe |
+| 🆗 | Rattenfänger | melee | Rattenfänger |
+| 🆗 | Romagh (2H) | melee | Romagh |
+| 🆗 | Sewerischer Reitersäbel | melee | Säbel |
+| 🆗 | Flößerhaken (2H, i) | melee | Flößerhaken |
 |   | Blitzwender | none | - |
-|   | Eisschwert | none | - |
+| 🆗 | Eisschwert | melee | Schwert |
 | 🆗 | Schwert des Nordens | melee | Schwert |
 
 ## rangeweapons
 
 | Done | Name | Category | AA-Match |
 |------|------|----------|-------|
-|   | Kristallomantische Kristallkugel (geworfen) | none | - |
-|   | Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen) | none | - |
+| 🆗 | Kristallomantische Kristallkugel (geworfen) | melee | Kristallomantische Kristallkugel |
+| 🆗 | Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen) | melee | Kristallomantische Kristallkugel |
 | 🆗 | Balestrina | range | Balestrina |
 | 🆗 | Balläster-Armbrust | range | Armbrust |
-|   | Blasrohr | none | - |
+| 🆗 | Blasrohr | range | Blasrohr |
 |   | Diskus | none | - |
 | 🆗 | Eisenwalder | range | Eisenwalder |
-| 🆗 | Elfenbogen | range | Elfenbogen |
-|   | Handarmbrust | none | - |
-|   | Kompositbogen | none | - |
-|   | Kurzbogen | none | - |
-|   | Langbogen | none | - |
+| 🆗 | Elfenbogen | range | Bogen |
+| 🆗 | Handarmbrust | range | Armbrust |
+| 🆗 | Kompositbogen | range | Bogen |
+| 🆗 | Kurzbogen | range | Bogen |
+| 🆗 | Langbogen | range | Bogen |
 | 🆗 | Leichte Armbrust | range | Armbrust |
-|   | Schneidzahn | none | - |
+| 🆗 | Schneidzahn | range | Schneidzahn |
 | 🆗 | Schwere Armbrust | range | Armbrust |
-|   | Wurfbeil | none | - |
+| 🆗 | Wurfbeil | range | Wurfbeil |
 | 🆗 | Wurfdolch | range | Wurfdolch |
-|   | Wurfkeule | none | - |
-|   | Wurfnetz | none | - |
-|   | Wurfring | none | - |
-|   | Wurfscheibe | none | - |
-|   | Wurfstern | none | - |
-|   | Wurfspeer | none | - |
-|   | Apfel/Steinchen (i) | none | - |
-|   | Bierkrug (i) | none | - |
-|   | Geschirr (i) | none | - |
-|   | Vase (i) | none | - |
-|   | Balestra | none | - |
-|   | Borndorn | none | - |
-|   | Fledermaus | none | - |
-|   | Granatapfel | none | - |
-|   | Kriegsbogen | none | - |
-|   | Schleuder | none | - |
-|   | Stabschleuder | none | - |
-|   | Windenarmbrust | none | - |
-|   | Wurfmesser | none | - |
-|   | Jonglierball (i) | none | - |
-|   | Jonglierball mit Gewichten (i) | none | - |
-|   | Gaoraith | none | - |
-|   | Stein | none | - |
-|   | Thalusische Rebellenarmbrust | none | - |
+| 🆗 | Wurfkeule | range | Wurfkeule |
+| 🆗 | Wurfnetz | range | Wurfnetz |
+| 🆗 | Wurfring | range | Wurfring |
+| 🆗 | Wurfscheibe | range | Wurfscheibe |
+| 🆗 | Wurfstern | range | Wurfstern |
+| 🆗 | Wurfspeer | range | Wurfspeer |
+| 🆗 | Apfel/Steinchen (i) | range | Apfel/Steinchen |
+| 🆗 | Bierkrug (i) | range | Bierkrug |
+| 🆗 | Geschirr (i) | range | Geschirr |
+| 🆗 | Vase (i) | range | Vase |
+| 🆗 | Balestra | range | Balestra |
+| 🆗 | Borndorn | range | Borndorn |
+| 🆗 | Fledermaus | range | Fledermaus |
+| 🆗 | Granatapfel | range | Granatapfel |
+| 🆗 | Kriegsbogen | range | Bogen |
+| 🆗 | Schleuder | range | Schleuder |
+| 🆗 | Stabschleuder | range | Schleuder |
+| 🆗 | Windenarmbrust | range | Armbrust |
+| 🆗 | Wurfmesser | range | Wurfmesser |
+| 🆗 | Jonglierball (i) | range | Jonglierball |
+| 🆗 | Jonglierball mit Gewichten (i) | range | Jonglierball |
+| 🆗 | Gaoraith | range | Gaoraith |
+| 🆗 | Stein | range | Stein |
+| 🆗 | Thalusische Rebellenarmbrust | range | Armbrust |
 | 🆗 | Beni-Geraut-Schie-Bogen | range | Bogen |
-|   | Ferkina-Kurzbogen | none | - |
-|   | Unauer Kompositbogen | none | - |
-|   | Efferdbart (2H) | none | - |
-|   | Der Wurfstern des Phex | none | - |
-|   | Gaoraith (Albernische Wurfaxt) | none | - |
-|   | Schnellfeuerarmbrust „Ucuri“ | none | - |
+| 🆗 | Ferkina-Kurzbogen | range | Bogen |
+| 🆗 | Unauer Kompositbogen | range | Bogen |
+| 🆗 | Efferdbart (2H) | range | Efferdbart |
+| 🆗 | Der Wurfstern des Phex | range | Wurfstern |
+| 🆗 | Gaoraith (Albernische Wurfaxt) | range | Gaoraith |
+| 🆗 | Schnellfeuerarmbrust „Ucuri“ | range | Armbrust |
 | 🆗 | Schwere Armbrust „Leonardo Original“ | range | Armbrust |
-|   | Krähenfüße | none | - |
-|   | Schlängelbeutel | none | - |
-|   | Lichtnebler-Beutel | none | - |
-|   | Zauberkugel (geworfen) | none | - |
-|   | Magierkugel | none | - |
-|   | Anchopaler Silberstern | none | - |
-|   | Baburiner Streitwagenbogen | none | - |
-|   | Baburischer Wurfspeer | none | - |
-|   | Gorische Wurfscheibe | none | - |
-|   | Yalaiadscher Schnepper | none | - |
-|   | Valvarandir | none | - |
-|   | Thuranstolz-Langbogen | none | - |
-|   | Kriegsdiskus aus Frumolds Heer | none | - |
-|   | Belen-Horas’ Wurfspeer | none | - |
-|   | Angbarer Mauerwehr | none | - |
+| 🆗 | Krähenfüße | range | Krähenfüße |
+| 🆗 | Schlängelbeutel | range | Schlängelbeutel |
+| 🆗 | Lichtnebler-Beutel | range | Lichtnebler-Beutel |
+| 🆗 | Zauberkugel (geworfen) | melee | Zauberkugel |
+| 🆗 | Magierkugel | range | Magierkugel |
+| 🆗 | Anchopaler Silberstern | range | Anchopaler Silberstern |
+| 🆗 | Baburiner Streitwagenbogen | range | Bogen |
+| 🆗 | Baburischer Wurfspeer | range | Wurfspeer |
+| 🆗 | Gorische Wurfscheibe | range | Wurfscheibe |
+| 🆗 | Yalaiadscher Schnepper | range | Yalaiadscher Schnepper |
+| 🆗 | Valvarandir | range | Valvarandir |
+| 🆗 | Thuranstolz-Langbogen | range | Bogen |
+| 🆗 | Kriegsdiskus aus Frumolds Heer | melee | Krieg |
+| 🆗 | Belen-Horas’ Wurfspeer | range | Wurfspeer |
+| 🆗 | Angbarer Mauerwehr | range | Angbarer Mauerwehr |
 | 🆗 | Isenhager Armbrust | range | Armbrust |
-|   | Koscher Kurzbogen | none | - |
+| 🆗 | Koscher Kurzbogen | range | Bogen |
 | 🆗 | Waldwachter Armbrust | range | Armbrust |
-|   | Albernischer Langbogen | none | - |
-|   | Windhager Schleuder | none | - |
-|   | Albernisches Wurfbeil | none | - |
-|   | Blasrohr, kurz | none | - |
-|   | Blasrohr, lang | none | - |
-|   | Harpune | none | - |
-|   | Kurzbogen der Yakosh-Dey | none | - |
-|   | Wurfspeer der Anoiha | none | - |
-|   | Zwille der Oijaniha | none | - |
-|   | Netz der Keke-Wanaq | none | - |
-|   | Kleine Magierkugel | none | - |
-|   | Gastraphetes | none | - |
-|   | Hylaische Schleuder | none | - |
-|   | Phrygaischer Wurfspeer | none | - |
-|   | Nostrischer Langbogen | none | - |
-|   | Kutscherarmbrust | none | - |
-|   | Goblinschleuder | none | - |
+| 🆗 | Albernischer Langbogen | range | Bogen |
+| 🆗 | Windhager Schleuder | range | Schleuder |
+| 🆗 | Albernisches Wurfbeil | range | Wurfbeil |
+| 🆗 | Blasrohr, kurz | range | Blasrohr |
+| 🆗 | Blasrohr, lang | range | Blasrohr |
+| 🆗 | Harpune | range | Harpune |
+| 🆗 | Kurzbogen der Yakosh-Dey | range | Bogen |
+| 🆗 | Wurfspeer der Anoiha | range | Wurfspeer |
+| 🆗 | Zwille der Oijaniha | range | Zwille der Oijaniha |
+| 🆗 | Netz der Keke-Wanaq | range | Netz der Keke-Wanaq |
+| 🆗 | Kleine Magierkugel | range | Magierkugel |
+| 🆗 | Gastraphetes | range | Gastraphetes |
+| 🆗 | Hylaische Schleuder | range | Schleuder |
+| 🆗 | Phrygaischer Wurfspeer | range | Wurfspeer |
+| 🆗 | Nostrischer Langbogen | range | Bogen |
+| 🆗 | Kutscherarmbrust | range | Armbrust |
+| 🆗 | Goblinschleuder | range | Schleuder |
 
 ## spells
 
@@ -606,7 +606,7 @@
 |   | Dornenwand | none | - |
 |   | Eigene Dummheit | none | - |
 |   | Eiswand | none | - |
-|   | Fledermausruf | none | - |
+| 🆗 | Fledermausruf | range | Fledermaus |
 |   | Foramen | none | - |
 | 🆗 | Frigifaxius | range | Frigifaxius |
 | 🆗 | Frostleib | ontoken | Frostleib |
@@ -690,14 +690,14 @@
 |   | Eisenrost | none | - |
 |   | Blut trinken | none | - |
 |   | Immunität gegen Hitze | none | - |
-|   | Steinmacht | none | - |
+| 🆗 | Steinmacht | range | Stein |
 |   | Talentverbesserung | none | - |
 |   | Trümmerschlag | none | - |
 |   | Basaltleib | none | - |
-|   | Erzpfeil | none | - |
+| 🆗 | Erzpfeil | melee | Pfeil |
 |   | Klarum Purum | none | - |
 |   | Pentagramma | none | - |
-|   | Steinwand | none | - |
+| 🆗 | Steinwand | range | Stein |
 |   | Wüstenlauf | none | - |
 |   | Archofaxius | none | - |
 |   | Humofaxius | none | - |
@@ -838,7 +838,7 @@
 |   | Avilea | none | - |
 |   | Brennender Hass | none | - |
 |   | Eigene Ängste | none | - |
-|   | Eispfeil | none | - |
+| 🆗 | Eispfeil | melee | Pfeil |
 |   | Eulenruf | none | - |
 |   | Feenstaub | none | - |
 | 🆗 | Feuerpfeil | range | Feuerpfeil |
@@ -850,12 +850,12 @@
 |   | Hilfreiche Schwinge | none | - |
 |   | Hilfreiche Tatze | none | - |
 |   | Hornissenruf | none | - |
-|   | Humuspfeil | none | - |
+| 🆗 | Humuspfeil | melee | Pfeil |
 |   | Katzenruf | none | - |
 |   | Kraft des Tieres | none | - |
 | 🆗 | Kulminatio | range | Kulminatio |
 |   | Levthans Feuer | none | - |
-|   | Luftpfeil | none | - |
+| 🆗 | Luftpfeil | melee | Pfeil |
 |   | Mal der Erschöpfung | none | - |
 |   | Mal der Schwäche | none | - |
 |   | Objectovoco | none | - |
@@ -867,7 +867,7 @@
 |   | Tiere besprechen | none | - |
 |   | Unentflammbarkeit | none | - |
 |   | Ungeschickt | none | - |
-|   | Wasserpfeil | none | - |
+| 🆗 | Wasserpfeil | melee | Pfeil |
 |   | Welle der Reinigung | none | - |
 |   | Welle des Schmerzes | none | - |
 |   | Zauberpferd herbeirufen | none | - |
@@ -897,7 +897,7 @@
 |   | Sensattacco | none | - |
 |   | Sturm der Verunsicherung | none | - |
 |   | Temporalbann | none | - |
-|   | Woge der Versteinerung | none | - |
+| 🆗 | Woge der Versteinerung | range | Stein |
 |   | Zunge betäuben | none | - |
 |   | Zweifel schüren | none | - |
 |   | Zwingtanz | none | - |
@@ -938,7 +938,7 @@
 |   | Windhose | none | - |
 |   | Geist des Strategen | none | - |
 |   | Schutz der Hornissenkönigin | none | - |
-|   | Speer des Athleten | none | - |
+| 🆗 | Speer des Athleten | melee | Speer |
 |   | Bann der Dunkelheit | none | - |
 |   | Bann der Furcht | none | - |
 |   | Bann des Lichts | none | - |
@@ -965,7 +965,7 @@
 |   | Pflanzenwuchs | none | - |
 |   | Rabenruf | none | - |
 |   | Schlaf | none | - |
-|   | Schlangenstab | none | - |
+| 🆗 | Schlangenstab | melee | Schlangenstab |
 |   | Schlangenzunge | none | - |
 |   | Schmerzresistenz | none | - |
 |   | Schutz der Wehrlosen | none | - |
@@ -973,7 +973,7 @@
 |   | Wahrheit | none | - |
 |   | Wieselflink | none | - |
 |   | Wundersame Verständigung | none | - |
-|   | Kriegsfarben | none | - |
+| 🆗 | Kriegsfarben | melee | Krieg |
 |   | Schutzsegen | none | - |
 |   | Der Schleier des Nebels | none | - |
 |   | Raschas Blutkelch | none | - |
@@ -1051,7 +1051,7 @@
 |   | Tierleid lindern | none | - |
 |   | Treuer Begleiter | none | - |
 |   | Unterwasseratmung | none | - |
-|   | Versteinerung | none | - |
+| 🆗 | Versteinerung | range | Stein |
 |   | Wasserlauf | none | - |
 |   | Windruf | none | - |
 |   | Zähe Haut | none | - |
@@ -1084,13 +1084,13 @@
 |   | Mauereinsturz | none | - |
 |   | Meeresungeheuer vertreiben | none | - |
 |   | Eisbärenruf | none | - |
-|   | Regenbogenbrücke | none | - |
+| 🆗 | Regenbogenbrücke | range | Bogen |
 |   | Reinigung des Bösen | none | - |
 |   | Rinderruf | none | - |
 |   | Schattenfessel | none | - |
 |   | Schonfrist | none | - |
 |   | Sicht in der Dunkelheit | none | - |
-|   | Steinhaut | none | - |
+| 🆗 | Steinhaut | range | Stein |
 |   | Talismanruf | none | - |
 |   | Tierbeherrschung | none | - |
 |   | Untotenerhebung | none | - |
@@ -1100,11 +1100,11 @@
 |   | Weihe des Bodens | none | - |
 |   | Wolfsruf | none | - |
 |   | Zwergenmacht | none | - |
-|   | Der Wurfstern des Phex | none | - |
-|   | Der Zweihänder Armalion | none | - |
+| 🆗 | Der Wurfstern des Phex | range | Wurfstern |
+| 🆗 | Der Zweihänder Armalion | melee | Zweihänder |
 | 🆗 | Das heilige Schwert Rabenfeder | melee | Schwert |
-|   | Der Schwarze Speer | none | - |
-|   | Die Dschadra al'Zul | none | - |
+| 🆗 | Der Schwarze Speer | melee | Speer |
+| 🆗 | Die Dschadra al'Zul | melee | Dschadra |
 |   | Das Auge des Praios | none | - |
 |   | Der Wasserkrug des Efferd | none | - |
 |   | Der Delphinstab | none | - |
@@ -1116,7 +1116,7 @@
 |   | Der Mantel der Heiligen Mascha | none | - |
 |   | Das Licht der Pallinai | none | - |
 |   | Das Infundibulum der Allwissenden | none | - |
-|   | Der Schlangenstab des Erzheiligen Argelion | none | - |
+| 🆗 | Der Schlangenstab des Erzheiligen Argelion | melee | Schlangenstab |
 |   | Die Tafel der Heiligen Canyzeth | none | - |
 |   | Der Ring des Firun | none | - |
 |   | Die Kreide der Tsa | none | - |
@@ -1127,7 +1127,7 @@
 |   | Der Honinger Tiegel | none | - |
 |   | Der Krug der Heiligen Lindegard | none | - |
 |   | Die Saat des Lebens | none | - |
-|   | Der Stein des Ingerimm | none | - |
+| 🆗 | Der Stein des Ingerimm | range | Stein |
 |   | Die Heilige Laterne zu Angbar | none | - |
 |   | Der Kelch der Rahja | none | - |
 |   | Der Erste Schleier | none | - |
