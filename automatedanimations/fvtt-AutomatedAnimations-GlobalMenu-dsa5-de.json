@@ -59561,9 +59561,5925 @@
           "customPath": ""
         }
       }
+    },
+    {
+      "id": "82977ac9-eff9-4a37-9163-7a7d3cda7a52",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "2dc4d193-67fb-48ed-b65f-2d46d2c598ee",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "acbffdc2-867a-4caa-bfb8-138b6d830691",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "f9e4b1ac-ac94-42e7-b8f4-c66c520e982f",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "30a76f6b-5947-4b31-8850-be4ce9c0e7ac",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "185f411c-96ea-4282-b2a7-c0aa6f3ed530",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "c373405c-790a-4ccc-b1f4-97388676a122",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "f24c13e8-7356-4754-9597-04624376fbcd",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "6ab71efa-fcbc-4772-8820-c050bcec5ed4",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "85875760-816b-4ce0-905a-92722e1097d2",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "02f92dc3-e9e2-4550-8af1-952684100f74",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "2d1d04cb-f510-4202-a15a-dddd271e157c",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "c56ba3b7-917a-4570-8e0b-5c62e1359d23",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "c41e3f92-36d5-44f4-a174-5da088d97006",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "2d959f2b-6769-49c5-9ae0-b9316c5016db",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "6ebfd0a4-27b2-400c-ac3a-1359ae33da0a",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "0c9d3f51-0b0a-4b43-b641-4ca9d01655e0",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "f65e9d0a-8b27-4689-8eaa-9c1998ff05e0",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "a51b2fa6-94ba-406b-a038-0fd929132959",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "652b38cb-5171-4ee8-bc93-b9d7b25f3d25",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "37e415b7-714e-4722-bb61-3f5b3553b4a7",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "23283ff8-39c2-4946-97fd-a37808c9979b",
+      "label": "Kristallomantische Kristallkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "566d6939-8df5-4245-868c-a8c25fdf7459",
+      "label": "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "58431f35-00a0-4bc5-b086-9e9a83df5283",
+      "label": "Zauberkugel (geworfen)",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "range",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "dagger",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
     }
   ],
   "ontoken": [
+    {
+      "id": "ae4c72bd-f07f-41a6-a512-0e94e41d1d0a",
+      "label": "Heilsegen",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 0,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "default",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "generichealing",
+          "variant": "01",
+          "color": "yellow",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "6a67f5e3-93d2-405a-b6ac-9dd5b33b5a35",
+      "label": "Kleiner Bann wider Untote",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "target",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "divinesmite",
+          "variant": "target",
+          "color": "yellowblue",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "43302f41-d8c2-4fda-ad14-07722f8d0e44",
+      "label": "Incendio",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "target",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "fireball",
+          "variant": "explode",
+          "color": "orange",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "4a0f729f-0e4c-4525-abad-2112dafce0d2",
+      "label": "Schlaf",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "target",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "conditions",
+          "animation": "stun",
+          "variant": "02",
+          "color": "darkteal",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
     {
       "id": "31922be5-b95f-4ddd-9bad-e9b07faa0be3",
       "label": "Aquafaxius",
@@ -59703,6 +65619,442 @@
           "startTime": 0,
           "volume": 1,
           "file": "audio/sfx-ralf/Wasser_Aquafaxius.ogg",
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "2006e3b1-854a-4ac9-a039-e7a13ea7e84d",
+      "label": "Adlerauge",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "source",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "conditions",
+          "animation": "runes",
+          "variant": "02",
+          "color": "green",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "7b948555-90e5-41de-9447-d562b40e4a4f",
+      "label": "Göttliche Klinge",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {
+          "color01": "#000000",
+          "color02": "#000000",
+          "speed": null,
+          "repeat": null,
+          "arc": null,
+          "delay": null,
+          "scale": null,
+          "alpha": null,
+          "gravity": null,
+          "mass": null,
+          "life": null,
+          "emittersize": null,
+          "rate": null,
+          "addexplosion": {
+            "enable": false,
+            "color01": "#000000",
+            "color02": "#000000",
+            "speed": null,
+            "scale": null,
+            "alpha": null,
+            "gravity": null,
+            "mass": null,
+            "life": null,
+            "emittersize": null,
+            "rate": null,
+            "sprite": ""
+          },
+          "sprite": ""
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+          }
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "source",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "energy",
+          "animation": "energyfield",
+          "variant": "01",
+          "color": "green",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
           "repeat": 1,
           "repeatDelay": 250
         }

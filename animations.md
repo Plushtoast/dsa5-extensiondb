@@ -17,4 +17,5 @@ tbd
 ## Status
 
 You can check all the coverage of the current file right here:
-[Animation automation coverage](animationsummary.md) 
+[Animation automation coverage de](animationsummary_de.md) 
+[Animation automation coverage en](animationsummary_en.md) 
