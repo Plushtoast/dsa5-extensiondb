@@ -4542,10 +4542,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 5 Minuten"
+          "value": "QS x 2 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Berührungszeit",
@@ -4561,7 +4560,7 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS Stunden"
+          "value": "QS Tage"
         }
       ],
       "dirty": true
@@ -4570,14 +4569,22 @@
       "name": "Vergreisung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Verkalkung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -4600,7 +4607,7 @@
     },
     {
       "name": "Andere Tätigkeiten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4612,23 +4619,30 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 3 KR"
+          "value": "QS x 4 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Vier Ziele",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],

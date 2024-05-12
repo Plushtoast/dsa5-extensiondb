@@ -1913,35 +1913,39 @@
   "Levthans Feuer": [
     {
       "name": "Interesse bei anderer Person wecken",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     },
     {
       "name": "Regeneration schenken oder stehlen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Hitzige Liebesnacht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Regenerationstausch",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
