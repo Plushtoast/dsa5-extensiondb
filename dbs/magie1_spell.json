@@ -4649,19 +4649,17 @@
   "Manifesto": [
     {
       "name": "Größere Menge",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Noch größere Menge",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Noch viel größere Menge",
@@ -4673,21 +4671,23 @@
     },
     {
       "name": "Ritualvorbereitung 1",
-      "complete": false,
+      "complete": true,
+      "comment": "We cannot track what it is used for, thsi could be part of the Spielermenü-Beschwörung",
       "changes": [
 
       ]
     },
     {
       "name": "Ritualvorbereitung 2",
-      "complete": false,
+      "complete": true,
+      "comment": "We cannot track what it is used for, thsi could be part of the Spielermenü-Beschwörung",
       "changes": [
 
       ]
     },
     {
       "name": "Gewaltige Menge",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4696,38 +4696,35 @@
   "Manus Illusionis": [
     {
       "name": "Gute Illusion 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verwirrendes Gefühl",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Illusionskombination",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4746,19 +4743,18 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehr Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Zwei Hände",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4776,24 +4772,15 @@
       "name": "Merk dir mehr",
       "complete": true,
       "changes": [
-        {
-          "key": "system.duration.value",
-          "mode": 5,
-          "value": "QS x 15 Minuten"
-        }
+
       ]
     },
     {
       "name": "Merk dir noch mehr",
       "complete": true,
       "changes": [
-        {
-          "key": "system.duration.value",
-          "mode": 5,
-          "value": "QS x 1 Stunde"
-        }
-      ],
-      "dirty": true
+
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -4810,12 +4797,26 @@
       "name": "Berührung des Meisters",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 1
+        }
       ]
     },
     {
       "name": "Gedächtnisübertragung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4824,31 +4825,28 @@
   "Menetekel": [
     {
       "name": "Gute Illusion 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Auffällige Schrift",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4857,46 +4855,52 @@
       "name": "Längere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
   "Motoricus": [
     {
       "name": "Noch mehr Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehrere Objekte",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehr Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Motoricus Promptus",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
       ]
     }
   ],
