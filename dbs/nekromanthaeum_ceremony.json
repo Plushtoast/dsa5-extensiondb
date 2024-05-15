@@ -13,7 +13,7 @@
     },
     {
       "name": "Geweihter Körper",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ],
@@ -21,21 +21,26 @@
     },
     {
       "name": "Permanente Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "Permanent"
+        }
 
       ]
     },
     {
       "name": "Untoter Handlanger",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Untoter Akoluth",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
