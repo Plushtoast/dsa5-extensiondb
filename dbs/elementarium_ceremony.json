@@ -2,7 +2,7 @@
   "Diener der Erde": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -37,19 +37,18 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Heilsame Geister",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -58,7 +57,7 @@
   "Diener der Flammen": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -93,19 +92,18 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Hilfreiche Geister",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -114,7 +112,7 @@
   "Diener der Kälte": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -149,19 +147,18 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Diener der Regungslosigkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -170,7 +167,7 @@
   "Diener der Wellen": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -205,19 +202,18 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Hilfreiche Geister",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -226,7 +222,7 @@
   "Diener der Wolken": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -261,19 +257,18 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Hilfreiche Geister",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -282,7 +277,7 @@
   "Diener des Erzes": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -317,19 +312,18 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Hilfreiche Geister",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
