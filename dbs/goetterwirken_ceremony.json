@@ -2,14 +2,14 @@
   "Ackersegen": [
     {
       "name": "Größerer Acker",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Noch größerer Acker",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ],
@@ -17,21 +17,25 @@
     },
     {
       "name": "Mehrere Wachstumszyklen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Reicher Acker",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Widerstandsfähiger Acker",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -58,8 +62,7 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Acht Ziele",
@@ -70,19 +73,18 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Wohlwollen der Götter",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gesegnete Zeremonie",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -124,9 +126,13 @@
     },
     {
       "name": "Schnelle Zeremonie",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 60
+        }
       ]
     },
     {
@@ -148,15 +154,14 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.range.value",
           "mode": 5,
           "value": "unbegrenzt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Nicht-Initiaten",
@@ -167,14 +172,18 @@
     },
     {
       "name": "Letzte Chance",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "12 Monate"
+        }
       ]
     },
     {
       "name": "Dem Schicksal ausgeliefert",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -183,76 +192,80 @@
   "Berauschender Wein": [
     {
       "name": "Andere Alkoholika",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehr Wein!",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Noch meeehr Wein!",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reulose Freude",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gesegnetes Fest",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     }
   ],
   "Beschwörung der hohen Diener des Rattenkindes": [
     {
       "name": "Mehr Dienste",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mächtiges Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ferne Befehle",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
       "name": "Ausgedehnter Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -261,23 +274,21 @@
   "Beschwörung der machtvollen Diener des Rattenkindes": [
     {
       "name": "Mehr Dienste",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mächtiges Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -286,12 +297,16 @@
       "name": "Ferne Befehle",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
       "name": "Ausgedehnter Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -330,23 +345,35 @@
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 3 Minuten"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Erhöhte Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     }
   ],
@@ -363,27 +390,25 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Klarheit",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Glückssegen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Tatendrang",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
