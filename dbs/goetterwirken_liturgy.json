@@ -9,8 +9,7 @@
           "mode": 5,
           "value": "16 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -19,10 +18,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "10 KR"
+          "value": "20 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehrere Ziele",
@@ -34,21 +32,21 @@
     },
     {
       "name": "Große Offensive",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Präzise Treffer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ohne Rücksicht auf Verluste",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -57,22 +55,25 @@
   "Angriffswelle": [
     {
       "name": "Harte Welle",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Tosende Welle",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Mehrere Ziele",
+      "name": "Tosende Welle",
       "complete": false,
+      "changes": [
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "1d3+1"
+        }
+      ]
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": true,
       "changes": [
 
       ]
@@ -81,12 +82,16 @@
       "name": "Durchgespült",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Ruf der Fluten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -97,38 +102,47 @@
       "name": "Spezielles Lebewesen",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "240"
+        }
+      ]
     },
     {
       "name": "Durch Feuer und Erz",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Klare Sicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Daimonidenjäger",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen, Daimoniden"
+        }
       ]
     },
     {
       "name": "Dämonenjäger",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Lebewesen, Daimoniden, Dämonen"
+        }
       ]
     }
   ],
@@ -138,8 +152,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -162,27 +175,44 @@
       "name": "Lichtkegel",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 45
+        }
+      ]
     },
     {
       "name": "Hoffnungsschimmer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Langanhaltendes Licht",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 KaP pro 30 Minuten"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Strafendes Licht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -232,16 +262,24 @@
     },
     {
       "name": "Größere Reichweite 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     },
     {
       "name": "Größere Reichweite 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "12 Schritt"
+        }
       ]
     }
   ],
@@ -282,23 +320,36 @@
     },
     {
       "name": "Fluch der Gottheit 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "nächster Sonnenaufgang"
+        }
       ]
     },
     {
       "name": "Fluch der Gottheit 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Fluch der Gottheit 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -369,8 +420,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -394,7 +444,16 @@
       "name": "Uthars Pfeil",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        },
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "3d6+QS*4"
+        }
       ]
     }
   ],
@@ -424,8 +483,7 @@
           "mode": 1,
           "value": 2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verteilter Schaden",
@@ -450,9 +508,13 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
