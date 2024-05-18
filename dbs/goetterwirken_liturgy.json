@@ -1166,35 +1166,43 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "30 Minuten"
+        }
       ]
     },
     {
       "name": "Schnelle Hilfe",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Mehr Befehle",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Wie ein Fisch im Wasser",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1214,11 +1222,10 @@
     },
     {
       "name": "Geringer Widerstand",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Lange und starke Hörigkeit",
@@ -1229,21 +1236,28 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Zielkategorie Lebewesen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen"
+        }
       ]
     }
   ],
@@ -1253,8 +1267,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -1287,14 +1300,17 @@
           "mode": 5,
           "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "15 Minuten"
+        }
       ]
     },
     {
@@ -1358,14 +1374,22 @@
       "name": "Ehrenhaftes Schlachtfeld",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 32
+        }
       ]
     },
     {
       "name": "Doppelduell",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     }
   ],
@@ -1406,14 +1430,14 @@
     },
     {
       "name": "Gültiger Vertrag",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Harter Verhandlungspartner",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1447,21 +1471,24 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Freihändig und ohne Worte",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     }
   ],
@@ -1503,26 +1530,25 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehr Seiten 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Seiten 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Geheimschriften",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1562,21 +1588,25 @@
     },
     {
       "name": "Freunde sind nicht betroffen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Größerer Strukturschaden",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1585,7 +1615,16 @@
       "name": "Zorn der Erde",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.effectFormula.value",
+          "mode": 2,
+          "value": "1d6"
+        }
       ]
     }
   ],
@@ -1603,9 +1642,18 @@
     },
     {
       "name": "Schnellsteigerung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS KR"
+        }
       ]
     },
     {
@@ -1630,7 +1678,21 @@
       "name": "Schlachtsegen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 240
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 64
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -1667,16 +1729,24 @@
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
@@ -1686,35 +1756,36 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größeres Gewicht",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Rückruf",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Dankbares Opfer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Gottgefällig",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1737,6 +1808,11 @@
       "complete": true,
       "changes": [
         {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
           "key": "system.range.value",
           "mode": 5,
           "value": "berühren"
@@ -1752,16 +1828,20 @@
     },
     {
       "name": "Abfedern",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     }
   ],
@@ -1797,12 +1877,11 @@
           "mode": 5,
           "value": 2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Deckel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1811,14 +1890,18 @@
       "name": "Heiliges Feuer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "2d6+QS"
+        }
       ]
     }
   ],
   "Friedfertigkeit": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.target.value",
@@ -1836,8 +1919,7 @@
           "mode": 5,
           "value": "2 KaP pro 4 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -1857,7 +1939,7 @@
     },
     {
       "name": "Kleiner Schutzsegen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1912,8 +1994,7 @@
           "mode": 5,
           "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Nein!",
@@ -1936,8 +2017,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zielkategorie Lebewesen",
@@ -1979,12 +2059,12 @@
   "Froststurm": [
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "8"
+          "value": "20"
         }
       ]
     },
@@ -1993,8 +2073,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
