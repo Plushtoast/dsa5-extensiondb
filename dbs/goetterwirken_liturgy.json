@@ -554,14 +554,14 @@
     },
     {
       "name": "Freier Wille",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Befreiung der Seele",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -588,8 +588,7 @@
           "mode": 5,
           "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
@@ -600,21 +599,24 @@
           "mode": 5,
           "value": "8 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Fertigkeitsspezialisierung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     }
   ],
@@ -632,68 +634,77 @@
     },
     {
       "name": "Starke Prinzipientreue 1",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Starke Prinzipientreue 2",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Vier Ziele",
-      "complete": false,
+      "name": "Starke Prinzipientreue 2",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Vier Ziele",
+      "complete": true,
+      "changes": [
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     }
   ],
   "Beschwörung der gemeinen Diener des Rattenkindes": [
     {
       "name": "Mehr Dienste",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längerer Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mächtiges Wesen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ferne Befehle",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
       "name": "Ausgedehnter Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -736,21 +747,25 @@
     },
     {
       "name": "Schnelleres Ende",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Vier Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     },
     {
       "name": "Gnädiges Nachspiel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -786,21 +801,20 @@
         {
           "key": "macro.transform",
           "mode": 2,
-          "value": "multitarget-4AsP_per_target"
+          "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Strafendes Leuchten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Starke Sinnesverneblung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -842,14 +856,18 @@
     },
     {
       "name": "Zwei Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Blendung des Gezüchts",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -881,27 +899,25 @@
           "mode": 5,
           "value": "2 KaP pro Minute"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Genaue Erkenntnis",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schwindendes Leben",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Göttliche Eingebung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -931,16 +947,24 @@
     },
     {
       "name": "Ferner Blitzschlag",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "64 Schritt"
+        }
       ]
     },
     {
       "name": "Verheerender Blitz",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "4d6+(QS*3)"
+        }
       ]
     }
   ],
@@ -954,11 +978,10 @@
     },
     {
       "name": "Wildes Wüten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -967,10 +990,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "2 KR"
+          "value": "10 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Betäubung",
@@ -1027,7 +1049,11 @@
       "name": "Kürzere Liturgiedauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
       ]
     },
     {
@@ -1084,21 +1110,28 @@
           "mode": 5,
           "value": "QS Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Kürzere Liturgiedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     }
   ],
