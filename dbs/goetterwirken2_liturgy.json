@@ -480,8 +480,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizierbar",
@@ -503,14 +502,17 @@
           "mode": 5,
           "value": "QS * 2 KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Übernatürliche Fessel",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Wesen"
+        }
       ]
     },
     {

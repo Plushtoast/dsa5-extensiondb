@@ -42,9 +42,13 @@
     },
     {
       "name": "Einfache Herstellung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "extensionModifier.mod",
+          "mode": 2,
+          "value": 1
+        }
       ]
     }
   ],
