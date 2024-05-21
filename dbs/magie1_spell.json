@@ -1064,7 +1064,7 @@
         {
           "key": "system.target.value",
           "mode": 1,
-          "value": "QS x 2 Schritt"
+          "value": "QS*2"
         }
       ]
     },
