@@ -34,7 +34,11 @@
       "name": "Große Offensive",
       "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "angriffslustat"
+        }
       ]
     },
     {
