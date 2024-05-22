@@ -675,7 +675,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Dämonen, Geister, Objekt (dämonisch verseucht)"
+          "value": "Dämonen, Geister, Objekte (dämonisch verseucht)"
         }
       ]
     },
@@ -1240,7 +1240,7 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x Stunden"
+          "value": "QS Stunden"
         }
       ]
     },
@@ -2724,7 +2724,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Kulturschaffende, Objekt"
+          "value": "Kulturschaffende, Objekte"
         }
       ]
     },

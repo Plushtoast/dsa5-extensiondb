@@ -193,26 +193,26 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 # Status
 |name|status| % |
 | -- | ---- | - |
-|elementarium_ceremony|12/30|40.0|
+|elementarium_ceremony|30/30|100.0|
 |elementarium_ritual|42/80|52.5|
 |elementarium_spell|91/175|52.0|
-|goetterwirken2_ceremony|75/262|28.6|
-|goetterwirken2_liturgy|81/245|33.1|
-|goetterwirken2_spell|0/5|0.0|
-|goetterwirken_ceremony|152/394|38.6|
-|goetterwirken_liturgy|248/632|39.2|
+|goetterwirken2_ceremony|127/264|48.1|
+|goetterwirken2_liturgy|151/245|61.6|
+|goetterwirken2_spell|1/5|20.0|
+|goetterwirken_ceremony|359/401|89.5|
+|goetterwirken_liturgy|434/632|68.7|
 |magie1_ritual|73/95|76.8|
 |magie1_spell|405/702|57.7|
 |magie2_ritual|167/190|87.9|
 |magie2_spell|158/380|41.6|
 |magie3_ritual|74/76|97.4|
 |magie3_spell|107/199|53.8|
-|nekromanthaeum_ceremony|1/5|20.0|
-|nekromanthaeum_liturgy|1/6|16.7|
-|nekromanthaeum_ritual|8/10|80.0|
+|nekromanthaeum_ceremony|5/5|100.0|
+|nekromanthaeum_liturgy|5/6|83.3|
+|nekromanthaeum_ritual|9/10|90.0|
 |nekromanthaeum_spell|26/37|70.3|
 |studyroom_ritual|60/81|74.1|
 |studyroom_spell|130/280|46.4|
-|partly done|2050/3884|52.8|
-|progress|1911/3884|49.2|
+|partly done|2628/3893|67.5|
+|progress|2454/3893|63.0|
 

@@ -2,7 +2,7 @@
 require 'json'
 
 
-targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen", "Chimären", "Daimonide", "Elementare", "Untote"]
+targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen", "Chimären", "Daimonide", "Elementare", "Untote", "Dämonen", "Geister"]
 
 directory_name = "./log"
 Dir.mkdir(directory_name) unless File.exists?(directory_name)
@@ -32,7 +32,9 @@ Dir["../dbs/*.json"].each do |r|
                 when "system.AsPCost.value", "defenseMalus", "system.castingTime.value", "decreaseCastingTime.mod", "reduceCostSpell.mod", "increaseRangeSpell.mod", "reduceCostSpell.mod", "system.target.width", "system.target.angle"
                     output << "#{name}: #{key} needs to be a number" unless change["value"].is_a? Numeric
                 when "system.targetCategory.value"
-                    cats = change["value"].split(",").map{|x| x.strip}.reject{|x| targetCategories.include?(x)}
+                    #replace all content within brackets
+                    wobrackets = change["value"].gsub(/\(.*?\)/, "")
+                    cats = wobrackets.split(",").map{|x| x.strip}.reject{|x| targetCategories.include?(x)}
                     output << "#{name}: #{key} unknown categorie(s) #{cats.join(", ")}" if cats.any?
                 when "system.effectFormula.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern #{rollPattern}" unless change["value"] =~ rollPattern || change["value"] =~ /\+(\d|QS)/

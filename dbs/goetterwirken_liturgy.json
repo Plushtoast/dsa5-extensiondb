@@ -130,7 +130,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Daimoniden"
+          "value": "Lebewesen, Daimonide"
         }
       ]
     },
@@ -141,7 +141,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Daimoniden, Dämonen"
+          "value": "Lebewesen, Daimonide, Dämonen"
         }
       ]
     }
@@ -1623,7 +1623,7 @@
         {
           "key": "system.effectFormula.value",
           "mode": 2,
-          "value": "1d6"
+          "value": "+1d6"
         }
       ]
     }
@@ -4351,7 +4351,7 @@
         {
           "key": "system.effectFormula.value",
           "mode": 2,
-          "value": "2d6"
+          "value": "+2d6"
         }
       ]
     }
