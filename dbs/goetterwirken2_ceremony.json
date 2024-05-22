@@ -14,8 +14,7 @@
           "mode": 5,
           "value": 960
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Noch größere Stadt",
@@ -31,8 +30,7 @@
           "mode": 5,
           "value": 1920
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Permanente Wirkung",
@@ -59,7 +57,7 @@
   "Diener der Erde": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -94,8 +92,7 @@
           "mode": 5,
           "value": 32
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -115,7 +112,7 @@
   "Diener der Flammen": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -150,8 +147,7 @@
           "mode": 5,
           "value": 32
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -171,7 +167,7 @@
   "Diener der Kälte": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -206,8 +202,7 @@
           "mode": 5,
           "value": 32
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -227,7 +222,7 @@
   "Diener der Wellen": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -262,8 +257,7 @@
           "mode": 5,
           "value": 32
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -283,7 +277,7 @@
   "Diener der Wolken": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -318,8 +312,7 @@
           "mode": 5,
           "value": 32
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -339,7 +332,7 @@
   "Diener des Erzes": [
     {
       "name": "Zusätzlicher Dienst",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -374,8 +367,7 @@
           "mode": 5,
           "value": 32
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -417,6 +409,11 @@
       "complete": true,
       "changes": [
         {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
           "key": "system.range.value",
           "mode": 5,
           "value": "berühren"
@@ -425,7 +422,7 @@
     },
     {
       "name": "Schönheitsregeneration",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -471,8 +468,7 @@
           "mode": 5,
           "value": "berühren"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Überzeugungsarbeit 1",
@@ -483,9 +479,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 2 Stunden"
+        }
       ]
     },
     {
@@ -511,15 +511,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -531,11 +530,10 @@
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -562,7 +560,7 @@
   "Erfolgreiche Pflanzensuche": [
     {
       "name": "Auch Giftpflanzen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -576,16 +574,14 @@
           "mode": 5,
           "value": "QS * 4 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Große Menge",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schnelle Suche",
@@ -605,7 +601,7 @@
   "Erschaffung von Nachtkindern": [
     {
       "name": "Weniger Schaden 1",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.effectFormula.value",
@@ -623,8 +619,7 @@
           "mode": 5,
           "value": "1d20"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Vampirleben",
@@ -639,9 +634,13 @@
     },
     {
       "name": "Eilige Zeremonie",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 240
+        }
       ]
     },
     {
@@ -660,15 +659,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -680,11 +678,10 @@
     },
     {
       "name": "Klerikales Tier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -711,35 +708,39 @@
   "Geistersprache": [
     {
       "name": "Körpergefühl",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mitnahme",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Wechsel des Totenreichs",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Totenzungen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Geister Deres",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -759,7 +760,7 @@
     },
     {
       "name": "Kurze Regenerationsphase",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -768,7 +769,11 @@
       "name": "Längerfristige Wirkung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "48 Stunden"
+        }
       ]
     },
     {
@@ -812,28 +817,39 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Monate"
+        }
       ]
     },
     {
       "name": "Geringere Kosten",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     },
     {
@@ -858,29 +874,28 @@
     },
     {
       "name": "Kontakt ins Paradies",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Andere Totenreiche",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Totenzungen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Geister Deres",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -907,8 +922,7 @@
           "mode": 5,
           "value": "QS * 2 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Andere Schützen",
@@ -947,18 +961,16 @@
         {
           "key": "macro.transform",
           "mode": 2,
-          "value": "multitarget-4AsP_per_target"
+          "value": "multitarget-2AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Karmale Heilung",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kurze Rast",
@@ -1006,16 +1018,14 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Seelenqual verursachen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Behandlung des Patienten",
@@ -1026,39 +1036,47 @@
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
       ]
     }
   ],
   "Himmlische Schatzkammer": [
     {
       "name": "Größerer Gegenstand",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Minimale Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Rückrufbar",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -1077,15 +1095,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -1100,8 +1117,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -1133,15 +1149,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -1156,8 +1171,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -1209,14 +1223,17 @@
           "mode": 5,
           "value": "12 Monate"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 240
+        }
       ]
     },
     {
@@ -1274,6 +1291,11 @@
       "complete": true,
       "changes": [
         {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
           "key": "system.range.value",
           "mode": 5,
           "value": "berühren"
@@ -1296,21 +1318,28 @@
           "mode": 2,
           "value": "multitarget-8AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "12 Stunden (1,5 Reisetage)"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "16 Stunden (2 Reisetage)"
+        }
       ]
     }
   ],
@@ -1340,14 +1369,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 2 Jahre"
+        }
       ]
     },
     {
@@ -1355,8 +1387,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Lebende Rose",
@@ -1367,9 +1398,13 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 5 Jahre"
+        }
       ]
     }
   ],
@@ -1381,15 +1416,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -1404,8 +1438,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -1442,16 +1475,14 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Dämonen-Exorzismus",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verbannung",
@@ -1462,18 +1493,26 @@
     },
     {
       "name": "Kurzzeremonie",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
   "Marbidenmacht": [
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     },
     {
@@ -1513,15 +1552,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -1536,8 +1574,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -1564,9 +1601,13 @@
   "Rat der Ahnen": [
     {
       "name": "Mehrere Ahnen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
       ]
     },
     {
@@ -1603,9 +1644,13 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -1624,10 +1669,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS Stunden"
+          "value": "QS * 2 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
@@ -1647,21 +1691,24 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS * 2 Stunden"
+          "value": "QS * 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
       ]
     },
     {
       "name": "Tranksegen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1688,8 +1735,7 @@
           "mode": 5,
           "value": "QS Wochen"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -1700,14 +1746,17 @@
           "mode": 5,
           "value": "QS Monate"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 30
+        }
       ]
     },
     {
@@ -1726,15 +1775,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -1749,8 +1797,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -1780,24 +1827,21 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Rettung 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Rettung 3",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großes Opfer",
@@ -1827,16 +1871,14 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schamanenbann 2",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Strafe für den Frevler 1",
@@ -1861,10 +1903,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS * 2 Minuten"
+          "value": "QS * 4 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mächtige Stärkung",
@@ -1873,10 +1914,9 @@
         {
           "key": "system.AsPCost.value",
           "mode": 1,
-          "value": 2
+          "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
@@ -1887,14 +1927,17 @@
           "mode": 5,
           "value": "QS * 5 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -1910,47 +1953,71 @@
       "name": "Längere Wirkungsdauer 1",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Jahr"
+        }
+      ]
+    },
+    {
+      "name": "Warnende Omen",
+      "complete": false,
+      "changes": [
+        
       ]
     },
     {
       "name": "Großes Gebiet",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "name": "Drohende Träume",
       "complete": false,
       "changes": [
-
+        
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Jahr"
+        }
       ]
     }
   ],
   "Talismanverankerung": [
     {
       "name": "Geweihter Ort",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Profaner Ort",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Geweihter Träger",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schicksalsgebunden",
@@ -1975,15 +2042,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -1998,8 +2064,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -2031,7 +2096,7 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 30 Minuten"
+          "value": "QS * 30 Minuten"
         }
       ]
     },
@@ -2040,8 +2105,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Traummeister",
@@ -2082,8 +2146,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Permanente Wirkung",
@@ -2141,8 +2204,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -2174,7 +2236,7 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 1 Tage"
+          "value": "QS * 1 Tage"
         }
       ]
     },
@@ -2185,10 +2247,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 1 Wochen"
+          "value": "QS * 1 Wochen"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -2197,10 +2258,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 1 Monate"
+          "value": "QS * 1 Monate"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verzögerter Fluch",
@@ -2225,15 +2285,14 @@
         {
           "key": "system.AsPCost.value",
           "mode": 5,
-          "value": 4
+          "value": 8
         },
         {
           "key": "system.maintainCost.value",
           "mode": 5,
-          "value": "2 KaP pro 3 Stunden"
+          "value": "4 KaP pro 3 Stunden"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sprachfähigkeit",
@@ -2248,8 +2307,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Besonderes Exemplar",
@@ -2320,9 +2378,13 @@
     },
     {
       "name": "Zwergenfreunde",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        }
       ]
     }
   ],
@@ -2341,7 +2403,7 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "1 Woche"
+          "value": "1 Jahr"
         }
       ]
     },
@@ -2362,9 +2424,13 @@
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 30
+        }
       ]
     },
     {
@@ -2403,16 +2469,24 @@
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 30
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ]
