@@ -417,20 +417,17 @@
   },
   "Angriff auf ungeschützte Stellen": {
     "source": [
-      "animatorium",
-      "broodofhell"
+      "animatorium"
     ]
   },
   "Flugangriff": {
     "source": [
-      "animatorium",
-      "broodofhell"
+      "animatorium"
     ]
   },
   "Trampeln": {
     "source": [
-      "animatorium",
-      "broodofhell"
+      "animatorium"
     ]
   },
   "Überrennen": {
@@ -455,6 +452,36 @@
       "incorporealhorrors",
       "pandaemonium",
       "transmutarium"
+    ]
+  },
+  "Berufsgeheimnis Homunculus (Alrauniger Homunculus": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Berufsgeheimnis Homunculus (Salamandrischer Homunculus)": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Berufsgeheimnis Homunculus (Homunculushündchen)": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Berufsgeheimnis Homunculus (Homunculus Lemmini)": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Berufsgeheimnis Homunculus (Flatter-Homunculus)": {
+    "source": [
+      "animatorium"
+    ]
+  },
+  "Berufsgeheimnis Homunculus (Alrauniger Homunculus)": {
+    "source": [
+      "animatorium"
     ]
   },
   "Ballistischer Schuss": {
@@ -523,14 +550,6 @@
       "riverlands",
       "sevenwindscoast",
       "winterwatch"
-    ]
-  },
-  "Waffenwurf": {
-    "source": [
-      "armory2",
-      "compendium",
-      "riverlands",
-      "sevenwindscoast"
     ]
   },
   "Betäubendes Geschoss": {
@@ -646,53 +665,13 @@
       "pandaemonium2"
     ]
   },
-  "Diener": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Gerüchtekoch": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Liebling der Massen": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Anspringen": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Klammergriff": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Klinge drehen": {
+  "Reversalis ()": {
     "source": [
       "broodofhell",
-      "compendium2"
+      "studyroom"
     ]
   },
-  "Klingensturm": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Schwanz- oder Tentakelschwung": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Reversalis": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Rudelbeschwörung": {
+  "Rudelbeschwörung (Dämonen)": {
     "source": [
       "broodofhell"
     ]
@@ -1143,12 +1122,6 @@
       "compendium2"
     ]
   },
-  "Weg der Wandergesellin": {
-    "source": [
-      "compendium2",
-      "riverlands"
-    ]
-  },
   "Azilajid-Stil": {
     "source": [
       "compendium2"
@@ -1211,6 +1184,12 @@
   "Hruruzat-Stil": {
     "source": [
       "compendium2"
+    ]
+  },
+  "Weg der Wandergesellin ()": {
+    "source": [
+      "compendium2",
+      "riverlands"
     ]
   },
   "Meister der Improvisation": {
@@ -2288,6 +2267,61 @@
       "klingendernacht"
     ]
   },
+  "Archivar": {
+    "source": [
+      "library"
+    ]
+  },
+  "Buchdrucker": {
+    "source": [
+      "library"
+    ]
+  },
+  "Kalligraphie": {
+    "source": [
+      "library"
+    ]
+  },
+  "Kryptographie": {
+    "source": [
+      "library"
+    ]
+  },
+  "Schnellschreiber": {
+    "source": [
+      "library"
+    ]
+  },
+  "Verschlüsselungen (Chorhoper Chiffrat)": {
+    "source": [
+      "library"
+    ]
+  },
+  "Verschlüsselungen (Elburumer Enigma)": {
+    "source": [
+      "library"
+    ]
+  },
+  "Verschlüsselungen (Kusliker Kode)": {
+    "source": [
+      "library"
+    ]
+  },
+  "Verschlüsselungen (Kusliker Kryptierung)": {
+    "source": [
+      "library"
+    ]
+  },
+  "Verschlüsselungen (Silaser Schlüsseltext)": {
+    "source": [
+      "library"
+    ]
+  },
+  "Verschlüsselungen (Vallusianische Verschlüsselung)": {
+    "source": [
+      "library"
+    ]
+  },
   "Tradition (Qabalyamagier)": {
     "source": [
       "magie1",
@@ -3154,7 +3188,8 @@
   },
   "Erdverbundene (Tochter der Erde)": {
     "source": [
-      "magie2"
+      "magie2",
+      "riverlands"
     ]
   },
   "Sumpfhexen (Tochter der Erde)": {
@@ -3273,14 +3308,6 @@
   "Geode der Wilden Zwerge": {
     "source": [
       "magie3"
-    ]
-  },
-  "Tradition (Druiden)": {
-    "source": [
-      "magie3",
-      "riverlands",
-      "studyroom",
-      "warringkingdoms"
     ]
   },
   "Tradition (Geoden)": {
@@ -4103,47 +4130,7 @@
       "riverlands"
     ]
   },
-  "Weg der Gelehrten (Rechtskunde)": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Weg des Greven": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Weg des Mechanikus": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Allgemeinwissen ()": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Fachwissen ()": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Gerüchte aufschnappen": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Gute Verarbeitung": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Handwerkskunst ()": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Meister der Orientierung": {
     "source": [
       "riverlands"
     ]
@@ -4153,137 +4140,7 @@
       "riverlands"
     ]
   },
-  "Universalgenie ()": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Vertrauenswürdig": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Berittene Lanzenformation": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Drachenkampf-Taktik": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Ferdoker Lanzerinnen-Stil": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Klippag-Stil": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Angetäuschter Angriff": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Binden": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Breschenangriff": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Drachentod": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Durchbohrung": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Erweiterte Drachenkampf-Taktik": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Frontalangriff": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Schilddeckung": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Bindung des Hexenkessels": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Hexenkessel-Apport": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Krafttrank": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Volumenerweiterung des Hexenkessels": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Bindung des Dolches": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Dolch-Apport": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Gespür des Dolches": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Bannsichel": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Bindung der Sichel": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Ernte der Sichel": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Sichel-Apport": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Sichel wider Übernatürliches": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Zauber abbrechen": {
     "source": [
       "riverlands"
     ]
@@ -4294,87 +4151,7 @@
       "studyroom"
     ]
   },
-  "Erdverbundene": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Bewanderter Heilzauberer": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Elementarmeisterin": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Kundiger Sphärologe": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Machtvolle materielle Verbindung": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Matrixzauberei": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Vollendeter Elementarist": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Vollkommener Beherrscher": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Tradition (Ingerimmkirche)": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Werkzeug der Beständigkeit": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Schlag der Zerstörung": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Hammer der Schwere": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Karmale Regeneration": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Anhänger des Roten Gottes": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Aufbegehren": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Gebieter/in des Handwerks": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Hitzegewöhnung": {
     "source": [
       "riverlands"
     ]
@@ -4450,11 +4227,6 @@
   "Tradition (Tahaya-Schamanen)": {
     "source": [
       "steamingjungles"
-    ]
-  },
-  "Reversalis ()": {
-    "source": [
-      "studyroom"
     ]
   },
   "Tradition (Borbaradianer)": {

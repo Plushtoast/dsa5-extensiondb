@@ -25,8 +25,7 @@
   },
   "Incendio": {
     "source": [
-      "animatorium",
-      "broodofhell"
+      "animatorium"
     ]
   },
   "Stillstand": {
@@ -52,46 +51,10 @@
       "studyroom"
     ]
   },
-  "Aeolito": {
-    "source": [
-      "broodofhell"
-    ]
-  },
   "Aerofugo": {
     "source": [
       "broodofhell",
       "studyroom"
-    ]
-  },
-  "Angst auslösen": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Aromatis Illusionis": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Vipernblick": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Aura der Erschöpfung": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Band und Fessel": {
-    "source": [
-      "broodofhell",
-      "riverlands"
-    ]
-  },
-  "Blitzball": {
-    "source": [
-      "broodofhell"
     ]
   },
   "Dämonisches Vergessen": {
@@ -108,21 +71,11 @@
       "magie3"
     ]
   },
-  "Eigene Dummheit": {
-    "source": [
-      "broodofhell"
-    ]
-  },
   "Eiswand": {
     "source": [
       "broodofhell",
       "elementarium",
       "magie3"
-    ]
-  },
-  "Fledermausruf": {
-    "source": [
-      "broodofhell"
     ]
   },
   "Foramen": {
@@ -133,45 +86,10 @@
       "warringkingdoms"
     ]
   },
-  "Frigifaxius": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Frostleib": {
-    "source": [
-      "broodofhell"
-    ]
-  },
   "Granit und Marmor": {
     "source": [
       "broodofhell",
       "studyroom"
-    ]
-  },
-  "Große Verwirrung": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Halluzination": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Herzschlag ruhe": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Ignorantia": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Imperavi": {
-    "source": [
-      "broodofhell"
     ]
   },
   "Invercano": {
@@ -188,16 +106,6 @@
       "magie2"
     ]
   },
-  "Krähenruf": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Oculus Astralis": {
-    "source": [
-      "broodofhell"
-    ]
-  },
   "Pandaemonium": {
     "source": [
       "broodofhell",
@@ -206,60 +114,10 @@
       "pandaemonium"
     ]
   },
-  "Pestodem": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Plumbumbarum": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Reptilea": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Sanfter Fall": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Schlangenruf": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Seidenzunge": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Spinnenruf": {
-    "source": [
-      "broodofhell"
-    ]
-  },
   "Tempus Stasis": {
     "source": [
       "broodofhell",
       "magie3"
-    ]
-  },
-  "Verunsicherung": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Kornfäule": {
-    "source": [
-      "broodofhell"
-    ]
-  },
-  "Viehverstümmelung": {
-    "source": [
-      "broodofhell"
     ]
   },
   "Analys Arkanstruktur": {
@@ -437,6 +295,11 @@
       "incorporealhorrors",
       "magie1",
       "studyroom"
+    ]
+  },
+  "Cryptographo": {
+    "source": [
+      "library"
     ]
   },
   "Auge des Limbus": {
@@ -686,21 +549,6 @@
   "Kraft aus Schmerzen": {
     "source": [
       "orcs"
-    ]
-  },
-  "Einflussbann": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Gifthaut": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Humofaxius": {
-    "source": [
-      "riverlands"
     ]
   },
   "Protectionis": {

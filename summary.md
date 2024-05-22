@@ -1,68 +1,74 @@
 # Summary
-last_updated: 2024-03-03 17:25:43
+last_updated: 2024-05-22 18:30:38
 
 | Book | Status | % |
 | --- | --- | --- |
 | [Achaz](#achaz) | 82/135 | 60.74% |
-| [Animatorium](#animatorium) | 5/73 | 6.85% |
+| [Animatorium](#animatorium) | 5/136 | 3.68% |
 | [Armory](#armory) | 17/22 | 77.27% |
-| [Armory2](#armory2) | 18/25 | 72.0% |
-| [Bannerofloyalty](#bannerofloyalty) | 2/10 | 20.0% |
-| [Bestiary](#bestiary) | 20/25 | 80.0% |
-| [Bestiary2](#bestiary2) | 10/19 | 52.63% |
-| [Broodofhell](#broodofhell) | 0/61 | 0.0% |
+| [Armory2](#armory2) | 19/25 | 76.0% |
+| [Aventurian-taverns](#aventurian-taverns) | 1/1 | 100.0% |
+| [Bannerofloyalty](#bannerofloyalty) | 9/17 | 52.94% |
+| [Bestiary](#bestiary) | 27/33 | 81.82% |
+| [Bestiary2](#bestiary2) | 14/25 | 56.0% |
+| [Broodofhell](#broodofhell) | 48/67 | 71.64% |
 | [Companions](#companions) | 80/111 | 72.07% |
-| [Compendium](#compendium) | 224/261 | 85.82% |
-| [Compendium2](#compendium2) | 233/305 | 76.39% |
-| [Core](#core) | 365/437 | 83.52% |
-| [Desertkingdom](#desertkingdom) | 46/69 | 66.67% |
+| [Compendium](#compendium) | 228/265 | 86.04% |
+| [Compendium2](#compendium2) | 243/321 | 75.7% |
+| [Core](#core) | 370/443 | 83.52% |
+| [Desertkingdom](#desertkingdom) | 55/80 | 68.75% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
-| [Goetterwirken](#goetterwirken) | 264/410 | 64.39% |
+| [Goetterwirken](#goetterwirken) | 264/411 | 64.23% |
 | [Goetterwirken2](#goetterwirken2) | 225/320 | 70.31% |
-| [Havena](#havena) | 23/74 | 31.08% |
-| [Herbarium](#herbarium) | 57/93 | 61.29% |
-| [Herbarium2](#herbarium2) | 31/70 | 44.29% |
-| [Incorporealhorrors](#incorporealhorrors) | 47/82 | 57.32% |
+| [Havena](#havena) | 30/82 | 36.59% |
+| [Herbarium](#herbarium) | 94/139 | 67.63% |
+| [Herbarium2](#herbarium2) | 63/112 | 56.25% |
+| [Incorporealhorrors](#incorporealhorrors) | 48/84 | 57.14% |
 | [Klingendernacht](#klingendernacht) | 6/14 | 42.86% |
-| [Magie1](#magie1) | 203/363 | 55.92% |
-| [Magie2](#magie2) | 208/360 | 57.78% |
-| [Magie3](#magie3) | 153/382 | 40.05% |
-| [Mastertools](#mastertools) | 12/20 | 60.0% |
+| [Library](#library) | 0/12 | 0.0% |
+| [Magie1](#magie1) | 204/368 | 55.43% |
+| [Magie2](#magie2) | 215/367 | 58.58% |
+| [Magie3](#magie3) | 157/386 | 40.67% |
+| [Mastertools](#mastertools) | 97/105 | 92.38% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
-| [Nekromanthaeum](#nekromanthaeum) | 65/81 | 80.25% |
+| [Nekromanthaeum](#nekromanthaeum) | 68/84 | 80.95% |
 | [Orcs](#orcs) | 56/87 | 64.37% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
-| [Pandaemonium2](#pandaemonium2) | 17/24 | 70.83% |
+| [Pandaemonium2](#pandaemonium2) | 23/31 | 74.19% |
+| [Rabenkrieg4](#rabenkrieg4) | 1/2 | 50.0% |
 | [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
-| [Realmofthethorns](#realmofthethorns) | 58/100 | 58.0% |
+| [Realmofthethorns](#realmofthethorns) | 64/107 | 59.81% |
 | [Retosarmory](#retosarmory) | 12/16 | 75.0% |
-| [Riverlands](#riverlands) | 6/137 | 4.38% |
-| [Sevenwindscoast](#sevenwindscoast) | 77/158 | 48.73% |
+| [Revelations](#revelations) | 3/3 | 100.0% |
+| [Riverlands](#riverlands) | 88/151 | 58.28% |
+| [Sevenwindscoast](#sevenwindscoast) | 80/160 | 50.0% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
-| [Steamingjungles](#steamingjungles) | 93/144 | 64.58% |
-| [Studyroom](#studyroom) | 132/209 | 63.16% |
+| [Steamingjungles](#steamingjungles) | 100/155 | 64.52% |
+| [Studyroom](#studyroom) | 135/213 | 63.38% |
 | [Suncoast](#suncoast) | 102/151 | 67.55% |
-| [Transmutarium](#transmutarium) | 45/63 | 71.43% |
-| [Warringkingdoms](#warringkingdoms) | 55/110 | 50.0% |
-| [Winterwatch](#winterwatch) | 87/157 | 55.41% |
+| [Transmutarium](#transmutarium) | 53/77 | 68.83% |
+| [Warringkingdoms](#warringkingdoms) | 57/111 | 51.35% |
+| [Winterwatch](#winterwatch) | 88/159 | 55.35% |
+| [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | --- | --- | --- |
-| Total | 3232/5340 | 60.52% |
+| Total | 3628/5751 | 63.08% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
 | Advantage | 148/199 | 74.37% |
-| Ceremony | 99/189 | 52.38% |
-| Consumable | 19/101 | 18.81% |
+| Ceremony | 103/189 | 54.5% |
+| Consumable | 19/102 | 18.63% |
 | Disadvantage | 110/134 | 82.09% |
-| Liturgy | 235/316 | 74.37% |
-| Praegung | 50/89 | 56.18% |
-| Ritual | 152/298 | 51.01% |
-| Specialability | 1814/3020 | 60.07% |
-| Spell | 386/596 | 64.77% |
-| Trait | 145/258 | 56.2% |
-| Wesenszug | 74/140 | 52.86% |
+| Liturgy | 239/318 | 75.16% |
+| Poison | 266/320 | 83.13% |
+| Praegung | 50/92 | 54.35% |
+| Ritual | 154/298 | 51.68% |
+| Specialability | 1894/3048 | 62.14% |
+| Spell | 419/597 | 70.18% |
+| Trait | 145/314 | 46.18% |
+| Wesenszug | 81/140 | 57.86% |
 
 
 
@@ -229,7 +235,7 @@ Total status:  82/135 (60.74%)
 
 
 ## Animatorium
-Total status:  5/73 (6.85%)
+Total status:  5/136 (3.68%)
 
 
 ### Ritual
@@ -288,6 +294,12 @@ Total status:  5/73 (6.85%)
 - [ ] Trampeln
 - [ ] Überrennen
 - [ ] Verbeißen
+- [ ] Berufsgeheimnis Homunculus (Alrauniger Homunculus
+- [ ] Berufsgeheimnis Homunculus (Salamandrischer Homunculus)
+- [ ] Berufsgeheimnis Homunculus (Homunculushündchen)
+- [ ] Berufsgeheimnis Homunculus (Homunculus Lemmini)
+- [ ] Berufsgeheimnis Homunculus (Flatter-Homunculus)
+- [ ] Berufsgeheimnis Homunculus (Alrauniger Homunculus)
 
 
 ### Spell
@@ -318,6 +330,67 @@ Total status:  5/73 (6.85%)
 - [ ] Verbindung zum Erschaffer
 - [ ] Zerbersten
 - [ ] Zusätzliche Aktionen
+- [ ] Blei
+- [ ] Eisen
+- [ ] Kobalt
+- [ ] Kupfer
+- [ ] Zink
+- [ ] Zinn
+- [ ] Antimon
+- [ ] Bronze
+- [ ] Chrom
+- [ ] Epharit (Gumijok)
+- [ ] Stahl
+- [ ] Wismut
+- [ ] Angrak (Zwergengold)
+- [ ] Elektrum (Wassergold)
+- [ ] Gold
+- [ ] Mondsilber (Platin)
+- [ ] Quecksilber
+- [ ] Silber
+- [ ] Toschkril (Zwergensilber)
+- [ ] Arkanium
+- [ ] Endurium
+- [ ] Mindorium
+- [ ] Titanium
+- [ ] Cupritan
+- [ ] Illuminium
+- [ ] Meteoreisen
+- [ ] Brandbronze
+- [ ] Fesselkies
+- [ ] Frostkristall
+- [ ] Geisterblech
+- [ ] Hölleneisen
+- [ ] Knochenblei
+- [ ] Krakensilber
+- [ ] Mordstahl
+- [ ] Narrenglas
+- [ ] Neidblende
+- [ ] Qualkupfer
+- [ ] Rattengold
+- [ ] Rauschgold
+- [ ] Schattenglanz
+- [ ] Zeitenmessing
+- [ ] Zitterzinn
+- [ ] Bernstein
+- [ ] Diamant
+- [ ] Gwen-Petryl
+- [ ] Karfunkel
+- [ ] Kashra-Stein
+- [ ] Lignolith
+- [ ] Sangurit-Kristall
+- [ ] Schwarze Perle
+- [ ] Topas
+- [ ] Fleisch
+- [ ] Haare
+- [ ] Knochen
+- [ ] Blutulme
+- [ ] Wachs
+
+
+### Consumable
+
+- [ ] Synärethikon
 
 
 
@@ -353,7 +426,7 @@ Total status:  17/22 (77.27%)
 
 
 ## Armory2
-Total status:  18/25 (72.0%)
+Total status:  19/25 (76.0%)
 
 
 ### Specialability
@@ -365,7 +438,7 @@ Total status:  18/25 (72.0%)
 - [x] Formation
 - [x] Angetäuschter Angriff
 - [ ] Aufspießen
-- [ ] Waffenwurf
+- [x] Waffenwurf
 - [x] Zweihandwaffen-Doppelschlag
 - [x] Zweihandwaffen-Kampf
 - [x] Angriff nach hinten
@@ -382,8 +455,20 @@ Total status:  18/25 (72.0%)
 
 
 
+## Aventurian-taverns
+Total status:  1/1 (100.0%)
+
+
+### Poison
+
+- [x] Grog (Becher)
+
+
+
+
+
 ## Bannerofloyalty
-Total status:  2/10 (20.0%)
+Total status:  9/17 (52.94%)
 
 
 ### Specialability
@@ -403,11 +488,22 @@ Total status:  2/10 (20.0%)
 - [ ] Speer des Athleten
 
 
+### Poison
+
+- [x] Mandragora
+- [x] Samthauch
+- [x] Kelmon
+- [x] Arachnae
+- [x] Helles Ferdoker Gerstenbräu (Humpen)
+- [x] Nordasker Weizengold (Humpen)
+- [x] Vinsalter Altquell (Humpen)
+
+
 
 
 
 ## Bestiary
-Total status:  20/25 (80.0%)
+Total status:  27/33 (81.82%)
 
 
 ### Specialability
@@ -443,11 +539,23 @@ Total status:  20/25 (80.0%)
 - [x] Raubtiergeruch
 
 
+### Poison
+
+- [x] Ghulgift
+- [x] Mantikorgift
+- [x] Morfugift
+- [x] Brabacudagift
+- [ ] Gelbschwanzskorpiongift
+- [x] Kvillottergift
+- [x] Vogelspinnengift
+- [x] Höhlenspinnengift
+
+
 
 
 
 ## Bestiary2
-Total status:  10/19 (52.63%)
+Total status:  14/25 (56.0%)
 
 
 ### Specialability
@@ -480,84 +588,104 @@ Total status:  10/19 (52.63%)
 - [x] Schlechte Eigenschaft (Sikaryan-Durst)
 
 
+### Poison
+
+- [x] Feuerskorpiongift
+- [x] Palmvipergift
+- [ ] Saguaraspinnengift
+- [x] Speikobragift
+- [ ] Pailoswarangift
+- [x] Riesenskorpiongift
+
+
 
 
 
 ## Broodofhell
-Total status:  0/61 (0.0%)
+Total status:  48/67 (71.64%)
 
 
 ### Spell
 
 - [ ] Ablativum
-- [ ] Aeolito
+- [x] Aeolito
 - [ ] Aerofugo
-- [ ] Angst auslösen
-- [ ] Aromatis Illusionis
-- [ ] Vipernblick
-- [ ] Aura der Erschöpfung
-- [ ] Band und Fessel
-- [ ] Blitzball
+- [x] Angst auslösen
+- [x] Aromatis Illusionis
+- [x] Vipernblick
+- [x] Aura der Erschöpfung
+- [x] Band und Fessel
+- [x] Blitzball
 - [ ] Dämonisches Vergessen
 - [ ] Dornenwand
-- [ ] Eigene Dummheit
+- [x] Eigene Dummheit
 - [ ] Eiswand
-- [ ] Fledermausruf
+- [x] Fledermausruf
 - [ ] Foramen
-- [ ] Frigifaxius
-- [ ] Frostleib
+- [x] Frigifaxius
+- [x] Frostleib
 - [ ] Granit und Marmor
-- [ ] Große Verwirrung
-- [ ] Halluzination
-- [ ] Herzschlag ruhe
-- [ ] Ignorantia
-- [ ] Imperavi
-- [ ] Incendio
+- [x] Große Verwirrung
+- [x] Halluzination
+- [x] Herzschlag ruhe
+- [x] Ignorantia
+- [x] Imperavi
+- [x] Incendio
 - [ ] Invercano
 - [ ] Krabbelnder Schrecken
-- [ ] Krähenruf
-- [ ] Oculus Astralis
+- [x] Krähenruf
+- [x] Oculus Astralis
 - [ ] Pandaemonium
-- [ ] Pestodem
-- [ ] Plumbumbarum
-- [ ] Reptilea
-- [ ] Sanfter Fall
-- [ ] Schlangenruf
-- [ ] Seidenzunge
-- [ ] Spinnenruf
+- [x] Pestodem
+- [x] Plumbumbarum
+- [x] Reptilea
+- [x] Sanfter Fall
+- [x] Schlangenruf
+- [x] Seidenzunge
+- [x] Spinnenruf
 - [ ] Sturmwand
 - [ ] Tempus Stasis
-- [ ] Verunsicherung
-- [ ] Kornfäule
-- [ ] Viehverstümmelung
+- [x] Verunsicherung
+- [x] Kornfäule
+- [x] Viehverstümmelung
 
 
 ### Ritual
 
-- [ ] Caldofrigo
-- [ ] Transmutare
+- [x] Caldofrigo
+- [x] Transmutare
 - [ ] Traumgestalt
 
 
 ### Specialability
 
-- [ ] Diener
-- [ ] Gerüchtekoch
-- [ ] Liebling der Massen
-- [ ] Angriff auf ungeschützte Stellen
-- [ ] Anspringen
-- [ ] Flugangriff
-- [ ] Klammergriff
-- [ ] Klinge drehen
-- [ ] Klingensturm
+- [x] Diener
+- [x] Gerüchtekoch
+- [x] Liebling der Massen
+- [x] Angriff auf ungeschützte Stellen
+- [x] Anspringen
+- [x] Flugangriff
+- [x] Klammergriff
+- [x] Klinge drehen
+- [x] Klingensturm
 - [ ] Mächtiger Schlag
-- [ ] Schwanz- oder Tentakelschwung
-- [ ] Trampeln
+- [x] Schwanz- oder Tentakelschwung
+- [x] Trampeln
 - [ ] Überrennen
 - [ ] Unterwasserkampf
 - [ ] Verbeißen
-- [ ] Reversalis
-- [ ] Rudelbeschwörung
+- [x] Rudelbeschwörung
+- [ ] Reversalis ()
+- [ ] Rudelbeschwörung (Dämonen)
+
+
+### Poison
+
+- [x] Beel-Arkanael-Gift
+- [x] Ashta’suul-Gift
+- [x] Khidma’kha’bul-Gift
+- [x] Barabuul-Gift
+- [x] Oschin-Jabba-Gift
 
 
 
@@ -698,7 +826,7 @@ Total status:  80/111 (72.07%)
 
 
 ## Compendium
-Total status:  224/261 (85.82%)
+Total status:  228/265 (86.04%)
 
 
 ### Advantage
@@ -840,7 +968,7 @@ Total status:  224/261 (85.82%)
 - [x] Tod von Links
 - [ ] Verkürzte Waffenführung
 - [ ] Vorbeiziehen
-- [ ] Waffenwurf
+- [x] Waffenwurf
 - [ ] Weiter Schwung
 - [x] Windmühle
 - [ ] Wuchtiger Wurf
@@ -854,11 +982,19 @@ Total status:  224/261 (85.82%)
 - [x] Befehl Überrennen
 
 
+### Poison
+
+- [x] Kukris
+- [x] Mandragora
+- [x] Omrais
+- [ ] Sunsura
+
+
 
 
 
 ## Compendium2
-Total status:  233/305 (76.39%)
+Total status:  243/321 (75.7%)
 
 
 ### Trait
@@ -1033,7 +1169,7 @@ Total status:  233/305 (76.39%)
 - [x] Grätsche
 - [x] Kernschuss
 - [x] Kha-Formation
-- [ ] Klinge drehen
+- [x] Klinge drehen
 - [x] Klingentänzer
 - [x] Kraftvoller Speerwurf
 - [x] Lanzenführung
@@ -1143,7 +1279,6 @@ Total status:  233/305 (76.39%)
 - [x] Weg der Reiterin
 - [x] Weg des Schmieds
 - [x] Weg der Schmugglerin
-- [ ] Weg der Wandergesellin
 - [x] Transporteur
 - [x] Zweihandwaffen-Doppelschlag
 - [x] Zweihandwaffen-Kampf
@@ -1170,6 +1305,7 @@ Total status:  233/305 (76.39%)
 - [ ] Betäubendes Geschoss
 - [x] Machtvoller Ausfall
 - [x] Zweifacher Reiterangriff
+- [ ] Weg der Wandergesellin ()
 
 
 ### Advantage
@@ -1178,11 +1314,31 @@ Total status:  233/305 (76.39%)
 - [x] Einkommen
 
 
+### Poison
+
+- [x] Angstgift
+- [x] Arachnae
+- [x] Betäubungsgift
+- [x] Boabungaha
+- [ ] Drachenspeichel
+- [ ] Feuerzunge
+- [ ] Gelbschwanzskorpiongift
+- [ ] Gonede
+- [ ] Halbgift
+- [x] Marbos Ruhe
+- [x] Purpurblitz
+- [ ] Schwarzer Lotos
+- [ ] Tinzal
+- [x] Urkaritgift
+- [x] Visarnetgift
+- [x] Vogelspinnengift
+
+
 
 
 
 ## Core
-Total status:  365/437 (83.52%)
+Total status:  370/443 (83.52%)
 
 
 ### Advantage
@@ -1595,11 +1751,21 @@ Total status:  365/437 (83.52%)
 - [x] Zähigkeitstrunk
 
 
+### Poison
+
+- [x] Arax
+- [x] Kelmon
+- [x] Tulmadron
+- [ ] Wurara
+- [x] Koschkrötengift
+- [x] Stabschlangengift
+
+
 
 
 
 ## Desertkingdom
-Total status:  46/69 (66.67%)
+Total status:  55/80 (68.75%)
 
 
 ### Spell
@@ -1693,6 +1859,21 @@ Total status:  46/69 (66.67%)
 - [x] Novadis außerhalb des realen Kalifats (Novadis)
 - [x] Khoram-Gebirge (Ferkinas)
 - [ ] Raschtulswall (Ferkinas)
+
+
+### Poison
+
+- [ ] Ton’Kemla
+- [ ] Gonede
+- [x] Merach-Extrakt
+- [x] Omrais
+- [x] Klapperschlangengift
+- [x] Wüstenskorpiongift
+- [x] Riesenhundertfüßergift
+- [x] Gigantulaeköniginnengift
+- [x] Gigantulaegift
+- [x] Cheria-Kaktus (Berührung)
+- [x] Cheria-Kaktus (Verzehr)
 
 
 
@@ -1849,7 +2030,7 @@ Total status:  72/119 (60.5%)
 
 
 ## Goetterwirken
-Total status:  264/410 (64.39%)
+Total status:  264/411 (64.23%)
 
 
 ### Specialability
@@ -2282,6 +2463,11 @@ Total status:  264/410 (64.39%)
 - [x] Wenige Visionen
 
 
+### Poison
+
+- [ ] Wolfsspinnengift
+
+
 
 
 
@@ -2591,7 +2777,7 @@ Total status:  225/320 (70.31%)
 
 
 ## Havena
-Total status:  23/74 (31.08%)
+Total status:  30/82 (36.59%)
 
 
 ### Specialability
@@ -2696,11 +2882,23 @@ Total status:  23/74 (31.08%)
 - [ ] Unterfluren
 
 
+### Poison
+
+- [x] Charyb’Yzz’ Traum
+- [x] Muränenbiss
+- [ ] Totenbleiche
+- [x] Bleichmuränengift
+- [x] Numinoruquallengift
+- [x] Geisterquallengift
+- [x] Quallengift
+- [x] Schattenrochengift
+
+
 
 
 
 ## Herbarium
-Total status:  57/93 (61.29%)
+Total status:  94/139 (67.63%)
 
 
 ### Spell
@@ -2786,11 +2984,61 @@ Total status:  57/93 (61.29%)
 - [ ] Würgertee
 
 
+### Poison
+
+- [x] Gardistenkeuche
+- [x] Goldleim
+- [ ] Krötenschemelgift
+- [x] Purpurner Lotosstaub
+- [x] Boronwein
+- [x] Dornrosenöl
+- [ ] Rahjasine
+- [x] Samthauch
+- [x] Schleieröffner
+- [ ] Schwarzer Weihrauch
+- [x] Angstgift
+- [x] Betäubungsgift
+- [x] Freundfeind
+- [ ] Halbgift
+- [x] Lotosöl
+- [x] Merach-Extrakt
+- [x] Purpurblitz
+- [x] Schlafgift
+- [x] Aufputschmittel
+- [ ] Feuerschlick-Essenz
+- [ ] Feuerschlick-Pulver
+- [x] Katzenaugensalbe
+- [ ] Regenbogenstaub
+- [x] Alraune (Verzehr)
+- [x] Aranische Wassernuss (Verzehr)
+- [x] Blauschirmpilz (Verzehr)
+- [x] Blauschirmpilz (Einatmung)
+- [x] Braunschlinge (Berührung)
+- [ ] Dämonenklaue (Verzehr)
+- [x] Disdychonda (Verzehr)
+- [x] Disdychonda (Berührung im Kampf)
+- [x] Dornrose (Einatmung)
+- [x] Eitriger Krötenschemel (Verzehr)
+- [x] Pestsporenpilz (Einatmung)
+- [x] Pestsporenpilz (Verzehr)
+- [x] Purpurner Lotos (Einatmung)
+- [x] Roter Lotos (Einatmung)
+- [ ] Seelenhauch (Verzehr)
+- [x] Tuur-Amash-Kelch (Verzehr)
+- [x] Vragieswurzel (Verzehr)
+- [x] Weißgelber Lotos (Verzehr)
+- [x] Weißgelber Lotos (Einatmung)
+- [x] Wolchrauke (Verzehr)
+- [x] Wolchrauke (Einatmung)
+- [x] Rattenpilzgift (Einatmung)
+- [x] Rattenpilzgift (Verzehr)
+
+
 
 
 
 ## Herbarium2
-Total status:  31/70 (44.29%)
+Total status:  63/112 (56.25%)
 
 
 ### Specialability
@@ -2851,11 +3099,57 @@ Total status:  31/70 (44.29%)
 - [ ] Zwölftee
 
 
+### Poison
+
+- [x] Axorda-Katzensäckchen
+- [x] Boabungaha
+- [x] Margolasch-Abführmittel
+- [x] Knötergift
+- [ ] Schwarzer Lotosstaub
+- [ ] Shurinknollengift
+- [ ] Beruhigungsmittel
+- [x] Cheriacha
+- [ ] Einbeerentrank
+- [x] Ilmenblatt-Rauchpäckchen
+- [x] Lotoswein
+- [x] Marbos Odem
+- [x] Mibel-Absud
+- [x] Moarana-Liebessaft
+- [x] Quinja-Schnaps
+- [x] Schwarzer Pfeffer
+- [x] Schwarzer Wein
+- [ ] Lichtnebler-Beutel
+- [ ] Stabiles Zazamotoxin
+- [ ] Drachentrunk
+- [ ] Dreh-Öl
+- [x] Atmon (Verzehr)
+- [x] Axorda-Baum (Verzehr)
+- [x] Zwölfblatt (Einatmung)
+- [ ] Grauer Mohn (Verzehr)
+- [x] Färberlotos (Einatmung)
+- [x] Druidenwurz (Verzehr)
+- [x] Dergolasch (Verzehr)
+- [x] Cheria-Kaktus (Berührung)
+- [x] Cheria-Kaktus (Verzehr)
+- [x] Boronsschlinge (Einatmung)
+- [x] Weißer Lotos (Einatmung)
+- [x] Shurinstrauch (Verzehr)
+- [x] Schwarzer Lotos (Einatmung)
+- [x] Scheinquinja
+- [ ] Purpurmohn (Verzehr)
+- [x] Schattennebler (Einatmung)
+- [x] Hollbeere (Verzehr)
+- [x] Nesselwurzel
+- [x] Glanzbeere (Verzehr)
+- [x] Schwarzer Weinstock (Berührung)
+- [x] Schwarzer Weinstock (Verzehr)
+
+
 
 
 
 ## Incorporealhorrors
-Total status:  47/82 (57.32%)
+Total status:  48/84 (57.14%)
 
 
 ### Spell
@@ -2964,6 +3258,12 @@ Total status:  47/82 (57.32%)
 - [ ] Waffenbalsam
 
 
+### Poison
+
+- [x] Schleieröffner
+- [ ] Kuss des Frevlers
+
+
 
 
 
@@ -3001,8 +3301,35 @@ Total status:  6/14 (42.86%)
 
 
 
+## Library
+Total status:  0/12 (0.0%)
+
+
+### Specialability
+
+- [ ] Archivar
+- [ ] Buchdrucker
+- [ ] Kalligraphie
+- [ ] Kryptographie
+- [ ] Schnellschreiber
+- [ ] Verschlüsselungen (Chorhoper Chiffrat)
+- [ ] Verschlüsselungen (Elburumer Enigma)
+- [ ] Verschlüsselungen (Kusliker Kode)
+- [ ] Verschlüsselungen (Kusliker Kryptierung)
+- [ ] Verschlüsselungen (Silaser Schlüsseltext)
+- [ ] Verschlüsselungen (Vallusianische Verschlüsselung)
+
+
+### Spell
+
+- [ ] Cryptographo
+
+
+
+
+
 ## Magie1
-Total status:  203/363 (55.92%)
+Total status:  204/368 (55.43%)
 
 
 ### Specialability
@@ -3390,13 +3717,22 @@ Total status:  203/363 (55.92%)
 - [x] Schwarze Gilde
 - [x] Weiße Gilde
 - [x] Gildenlose
+- [ ] Umtriebige
+- [ ] Undurchschaubare
+- [ ] Unterhalter
+
+
+### Poison
+
+- [x] Speikobragift
+- [ ] Seilschlangengift
 
 
 
 
 
 ## Magie2
-Total status:  208/360 (57.78%)
+Total status:  215/367 (58.58%)
 
 
 ### Specialability
@@ -3783,11 +4119,22 @@ Total status:  208/360 (57.78%)
 - [ ] Visionär
 
 
+### Poison
+
+- [x] Hautgift
+- [x] Hexenschlangengift
+- [x] Serpentialisgift
+- [x] Angstgift
+- [x] Schwarze-Witwen-Gift
+- [x] Hexenspinnengift
+- [x] Hexenhornissengift
+
+
 
 
 
 ## Magie3
-Total status:  153/382 (40.05%)
+Total status:  157/386 (40.67%)
 
 
 ### Specialability
@@ -3795,7 +4142,7 @@ Total status:  153/382 (40.05%)
 - [ ] Geode der Wilden Zwerge
 - [x] Scholar des Agrimeton
 - [ ] Tradition (Animisten)
-- [ ] Tradition (Druiden)
+- [x] Tradition (Druiden)
 - [ ] Tradition (Geoden)
 - [x] Tradition (Gildenmagier)
 - [ ] Tradition (Qabalyamagier)
@@ -4200,11 +4547,19 @@ Total status:  153/382 (40.05%)
 - [ ] Traumdeuterinnen
 
 
+### Poison
+
+- [x] Zibiljabienengift
+- [ ] Mishkaragift
+- [x] Mantikorgift
+- [x] Shaz-Man-Yat-Gift
+
+
 
 
 
 ## Mastertools
-Total status:  12/20 (60.0%)
+Total status:  97/105 (92.38%)
 
 
 ### Specialability
@@ -4239,6 +4594,95 @@ Total status:  12/20 (60.0%)
 - [ ] Böser Namensvetter
 
 
+### Poison
+
+- [x] Beraner Goldweizen (Humpen)
+- [x] Waskirer (Humpen)
+- [x] Gagelbier (Humpen)
+- [x] Uslenrieder Rot (Humpen)
+- [x] Nordasker Weizengold (Humpen)
+- [x] Waldwachter Urbier (Humpen)
+- [x] Eslamsbräu (Humpen)
+- [x] Kwassetz (Humpen)
+- [x] Urschlund Dunkel (Humpen)
+- [x] Havenabier (Humpen)
+- [x] Bräubier (Humpen)
+- [x] Amazonenbier (Humpen)
+- [x] Bilsener (Humpen)
+- [x] Bethaner, Drôler und Neethaner Weizengold (Humpen)
+- [x] Helles Ferdoker Gerstenbräu (Humpen)
+- [x] Alt-Angbarer Starkbier (Humpen)
+- [x] De Motter Klosterbräu (Humpen)
+- [x] Jerganer Bier (Humpen)
+- [x] Eichstätter Weizenbier (Humpen)
+- [x] Garether Bier (Humpen)
+- [x] Brabakbräu (Humpen)
+- [x] Angbarer Zwergenbock (Humpen)
+- [x] Eichenbier (Humpen)
+- [x] Knat (Humpen)
+- [x] Firunströpfchen (Becherchen)
+- [x] Hochgeweihter Mendona (Becherchen)
+- [x] Arrak (Becherchen)
+- [x] Valposella (Becherchen)
+- [x] Offenbarung der Zwillinge (Becherchen)
+- [x] Fiebertraum (Becherchen)
+- [x] Rallerspforter Quellwasser (Becherchen)
+- [x] Abszinto (Becherchen)
+- [x] Kaiserkorn (Becherchen)
+- [x] Feengeist (Becherchen)
+- [x] Steinfresser (Becherchen)
+- [x] Salzatran (Becherchen)
+- [x] Dergelsteiner Zwetschg (Becherchen)
+- [x] Araukener Waldsaft (Becherchen)
+- [x] Bergtau (Becherchen)
+- [x] Käämi (Becherchen)
+- [x] Aufgesetzter (Becherchen)
+- [x] Flotter Reiter (Becherchen)
+- [x] Ingerimms Hammerschlag (Becherchen)
+- [x] Bjaldorner Waldschrat (Becherchen)
+- [x] Bodirer Eichengalle (Becherchen)
+- [x] Premer Feuer (Becherchen)
+- [x] Koschwasser (Becherchen)
+- [x] Warunker Rambelbost (Becherchen)
+- [x] Traviagünstchen (Becherchen)
+- [x] Balihoer Bärentod (Becherchen)
+- [x] Waskirer (Becherchen)
+- [x] Chababischer Weinbrand (Becherchen)
+- [x] Trollzacker (Becherchen)
+- [x] Shatakschnaps (Becherchen)
+- [x] Axtschlag (Becherchen)
+- [x] Meskinnes (Becherchen)
+- [x] Bitterwein (Becher)
+- [x] Met (Becher)
+- [x] Weinbrand (Becherchen)
+- [x] Kornbrand (Becherchen)
+- [x] Dünnbier (Humpen)
+- [x] Schnaps (Becherchen)
+- [x] Starkbier (Humpen)
+- [x] Beerenwein (Becher)
+- [x] Landwein (Becher)
+- [x] Yaquirtaler Madawein (Becher)
+- [x] Sikramer Weißwein (Becher)
+- [x] Sewerischer Met (Becher)
+- [x] Raschtulswaller (Becher)
+- [x] Thalusischer Reiswein (Becher)
+- [x] Bosparanjer (Becher)
+- [x] Maraskaner (Becher)
+- [x] Ragatzo (Becher)
+- [x] Fasarer Gewürzwein (Becher)
+- [x] Aranischer Schlauchwein (Becher)
+- [x] Tuzaker Drachenblut (Becher)
+- [x] Rahjas Göttergabe (Becher)
+- [x] Mhanadischer Dattelwein (Becher)
+- [x] Hippokras (Becher)
+- [x] Yaquirblume (Becher)
+- [x] Arivorer Blut (Becher)
+- [x] Hylailischer Seemost (Becher)
+- [x] Liebliche Cella (Becher)
+- [x] Goldfelser Morgenrot (Becher)
+- [x] Engasalwein (Becher)
+
+
 
 
 
@@ -4258,7 +4702,7 @@ Total status:  0/4 (0.0%)
 
 
 ## Nekromanthaeum
-Total status:  65/81 (80.25%)
+Total status:  68/84 (80.95%)
 
 
 ### Specialability
@@ -4352,6 +4796,13 @@ Total status:  65/81 (80.25%)
 
 - [ ] Puder der Ewigkeit
 - [ ] Retro-Elixier
+
+
+### Poison
+
+- [x] Tatzelwurmtoxin
+- [x] Ghulgift
+- [x] Leichengift
 
 
 
@@ -4537,7 +4988,7 @@ Total status:  22/34 (64.71%)
 
 
 ## Pandaemonium2
-Total status:  17/24 (70.83%)
+Total status:  23/31 (74.19%)
 
 
 ### Spell
@@ -4573,6 +5024,30 @@ Total status:  17/24 (70.83%)
 - [ ] Tradition (Dämonen)
 
 
+### Poison
+
+- [x] Dagga-Gift
+- [x] Nirib-Gift
+- [x] Shaz-Man-Yat-Gift
+- [ ] Zazamotoxin
+- [x] Khash'irroth-Gift
+- [x] Gorgobaal-Gift
+- [x] Dämonisches Serpentialisgift
+
+
+
+
+
+## Rabenkrieg4
+Total status:  1/2 (50.0%)
+
+
+### Poison
+
+- [x] Das Blut des Landes
+- [ ] Boronsotterngift
+
+
 
 
 
@@ -4589,7 +5064,7 @@ Total status:  0/1 (0.0%)
 
 
 ## Realmofthethorns
-Total status:  58/100 (58.0%)
+Total status:  64/107 (59.81%)
 
 
 ### Praegung
@@ -4720,6 +5195,17 @@ Total status:  58/100 (58.0%)
 - [x] Floeszern
 
 
+### Poison
+
+- [x] Schwarzer Wein
+- [x] Schwarzer Weinstock (Verzehr)
+- [x] Schwarzer Weinstock (Berührung)
+- [x] Königsskorpiongift
+- [x] Speikobragift
+- [ ] Purpurmohn (Verzehr)
+- [x] Schwarzer Pfeffer
+
+
 
 
 
@@ -4762,23 +5248,37 @@ Total status:  12/16 (75.0%)
 
 
 
+## Revelations
+Total status:  3/3 (100.0%)
+
+
+### Poison
+
+- [x] Rattenpilzgift (Einatmung)
+- [x] Rattenpilzgift (Verzehr)
+- [x] Höhlenspinnengift
+
+
+
+
+
 ## Riverlands
-Total status:  6/137 (4.38%)
+Total status:  88/151 (58.28%)
 
 
 ### Wesenszug
 
 - [ ] Ambosszwerge
-- [ ] Erzzwerge
-- [ ] Hügelzwerge
+- [x] Erzzwerge
+- [x] Hügelzwerge
 - [ ] Typische/r Koscher/in
 - [ ] Typische/r Nordmärker/in
-- [ ] Elenviner Ebene & Tal des Großen Flusses
+- [x] Elenviner Ebene & Tal des Großen Flusses
 - [ ] Ferdoker Land
-- [ ] Gratenfelser Becken
-- [ ] Hochkosch und Wengenholmer Land
-- [ ] Hügellande und Angbarer See
-- [ ] Nordgratenfels
+- [x] Gratenfelser Becken
+- [x] Hochkosch und Wengenholmer Land
+- [x] Hügellande und Angbarer See
+- [x] Nordgratenfels
 - [ ] Stammland der Zwerge
 
 
@@ -4786,118 +5286,120 @@ Total status:  6/137 (4.38%)
 
 - [ ] Bastler
 - [ ] Ingenieurin
-- [ ] Weg der Gelehrten (Rechtskunde)
-- [ ] Weg der Wandergesellin
-- [ ] Weg des Greven
+- [x] Weg des Greven
 - [ ] Weg des Mechanikus
-- [ ] Allgemeinwissen ()
-- [ ] Fachwissen ()
-- [ ] Gerüchte aufschnappen
-- [ ] Gute Verarbeitung
-- [ ] Handwerkskunst ()
-- [ ] Meister der Orientierung
+- [x] Fachwissen ()
+- [x] Gerüchte aufschnappen
+- [x] Gute Verarbeitung
+- [x] Handwerkskunst ()
+- [x] Meister der Orientierung
 - [ ] Praxisbezug
-- [ ] Universalgenie ()
-- [ ] Vertrauenswürdig
-- [ ] Berittene Lanzenformation
-- [ ] Drachenkampf-Taktik
+- [x] Universalgenie ()
+- [x] Vertrauenswürdig
+- [x] Berittene Lanzenformation
+- [x] Drachenkampf-Taktik
 - [ ] Festnageln
 - [ ] Spießgespann
 - [ ] Elenvina-Stil
 - [ ] Ferdoker Lanzerinnen-Stil
-- [ ] Klippag-Stil
+- [x] Klippag-Stil
 - [ ] Xorlosch-Stil
-- [ ] Angetäuschter Angriff
+- [x] Angetäuschter Angriff
 - [ ] Aufspießen
-- [ ] Binden
-- [ ] Breschenangriff
+- [x] Binden
+- [x] Breschenangriff
 - [ ] Defensives Verhalten
-- [ ] Drachentod
-- [ ] Durchbohrung
-- [ ] Erweiterte Drachenkampf-Taktik
-- [ ] Frontalangriff
-- [ ] Schilddeckung
-- [ ] Waffenwurf
+- [x] Drachentod
+- [x] Durchbohrung
+- [x] Erweiterte Drachenkampf-Taktik
+- [x] Frontalangriff
+- [x] Schilddeckung
+- [x] Waffenwurf
 - [ ] Angsteinflößendes Geblubber
 - [ ] Benommenheitstrank
-- [ ] Bindung des Hexenkessels
+- [x] Bindung des Hexenkessels
 - [ ] Brechsuppe
 - [ ] Giftgebräu
 - [ ] Heilsüppchen
-- [ ] Hexenkessel-Apport
-- [ ] Krafttrank
+- [x] Hexenkessel-Apport
+- [x] Krafttrank
 - [ ] Machtvolle Kesselzauber
 - [ ] Schönheitssalbe
 - [ ] Schutzsalbe
 - [ ] Tarnsalbe
 - [ ] Tiersuppe
-- [ ] Volumenerweiterung des Hexenkessels
+- [x] Volumenerweiterung des Hexenkessels
 - [ ] Waschung des Vertrauten
-- [ ] Tradition (Druiden)
-- [ ] Bindung des Dolches
-- [ ] Dolch-Apport
-- [ ] Gespür des Dolches
+- [x] Tradition (Druiden)
+- [x] Bindung des Dolches
+- [x] Dolch-Apport
+- [x] Gespür des Dolches
 - [ ] Kraft aus der Erde
 - [ ] Schutz des Dolches
 - [ ] Wegweiser
-- [ ] Bannsichel
-- [ ] Bindung der Sichel
-- [ ] Ernte der Sichel
-- [ ] Sichel-Apport
-- [ ] Sichel wider Übernatürliches
+- [x] Bannsichel
+- [x] Bindung der Sichel
+- [x] Ernte der Sichel
+- [x] Sichel-Apport
+- [x] Sichel wider Übernatürliches
 - [ ] Astrale Meditation
 - [ ] Druidenrache
 - [ ] Materielle Verbindung
-- [ ] Zauber abbrechen
+- [x] Zauber abbrechen
 - [ ] Zauberkraft des Hains
-- [ ] Erdverbundene
 - [ ] Hüterin des Hains
 - [ ] Scholar der Akademie der Herrschaft zu Elenvina
 - [ ] Weiße Leute
-- [ ] Bewanderter Heilzauberer
-- [ ] Elementarmeisterin
+- [x] Bewanderter Heilzauberer
+- [x] Elementarmeisterin
 - [ ] Erdkraft
 - [ ] Geistzauberer
-- [ ] Kundiger Sphärologe
-- [ ] Machtvolle materielle Verbindung
+- [x] Kundiger Sphärologe
+- [x] Machtvolle materielle Verbindung
 - [ ] Magische Kräuterheilkunde
-- [ ] Matrixzauberei
-- [ ] Vollendeter Elementarist
-- [ ] Vollkommener Beherrscher
-- [ ] Tradition (Ingerimmkirche)
-- [ ] Werkzeug der Beständigkeit
-- [ ] Schlag der Zerstörung
-- [ ] Hammer der Schwere
-- [ ] Karmale Regeneration
+- [x] Matrixzauberei
+- [x] Vollendeter Elementarist
+- [x] Vollkommener Beherrscher
+- [x] Tradition (Ingerimmkirche)
+- [x] Werkzeug der Beständigkeit
+- [x] Schlag der Zerstörung
+- [x] Hammer der Schwere
+- [x] Karmale Regeneration
 - [ ] Stabile Regeneration
-- [ ] Anhänger des Roten Gottes
 - [ ] Jünger des Handwerks
-- [ ] Aufbegehren
+- [x] Aufbegehren
 - [ ] Gebieter/in des Handwerks
 - [ ] Geteilte Freude
 - [ ] Handwerksgespür
-- [ ] Hitzegewöhnung
+- [x] Hitzegewöhnung
+- [x] Weg der Gelehrten ()
+- [ ] Weg der Wandergesellin ()
+- [ ] Erdverbundene (Tochter der Erde)
+- [x] Anhänger des roten Gottes
+- [x] Allgemeinwissen
 
 
 ### Liturgy
 
 - [ ] Erdbeben
-- [ ] Erzene Opfergabe
+- [x] Erzene Opfergabe
 - [ ] Feuerwall
-- [ ] Gebieter der Flammen
-- [ ] Herr der Flammen
-- [ ] Steinhaut
+- [x] Gebieter der Flammen
+- [x] Herr der Flammen
+- [x] Steinhaut
 - [ ] Versteinerung
+- [ ] Der Stein des Ingerimm
+- [ ] Die Heilige Laterne zu Angbar
 
 
 ### Ceremony
 
 - [ ] Ausbrennen (Purgation)
-- [ ] Blick in die Flammen
-- [ ] Metallerhitzung
+- [x] Blick in die Flammen
+- [x] Metallerhitzung
 - [ ] Schaffenskraft
-- [ ] Weihe des Heims
-- [ ] Wiederherstellung
+- [x] Weihe des Heims
+- [x] Wiederherstellung
 
 
 ### Praegung
@@ -4914,12 +5416,12 @@ Total status:  6/137 (4.38%)
 
 ### Spell
 
-- [ ] Band und Fessel
+- [x] Band und Fessel
 - [ ] Böser Blick
-- [ ] Einflussbann
-- [ ] Gifthaut
+- [x] Einflussbann
+- [x] Gifthaut
 - [ ] Herr über das Tierreich
-- [ ] Humofaxius
+- [x] Humofaxius
 - [ ] Sumus Elixiere
 - [ ] Tiere besprechen
 
@@ -4931,11 +5433,17 @@ Total status:  6/137 (4.38%)
 - [ ] Weisheit der Bäume
 
 
+### Poison
+
+- [x] Hautgift
+- [x] Salamandergift
+
+
 
 
 
 ## Sevenwindscoast
-Total status:  77/158 (48.73%)
+Total status:  80/160 (50.0%)
 
 
 ### Specialability
@@ -4975,7 +5483,7 @@ Total status:  77/158 (48.73%)
 - [x] Mächtiger Lanzenangriff
 - [ ] Schildstoß
 - [ ] Taktische Befehle
-- [ ] Waffenwurf
+- [x] Waffenwurf
 - [ ] Wuchtiger Wurf
 - [x] Zweifacher Angriff
 - [x] Scholar des Magierkollegs zu Honingen
@@ -5132,6 +5640,12 @@ Total status:  77/158 (48.73%)
 - [ ] Winhaller Land
 
 
+### Poison
+
+- [x] Margolasch-Abführmittel
+- [x] Schattenneblergift
+
+
 
 
 
@@ -5166,7 +5680,7 @@ Total status:  2/2 (100.0%)
 
 
 ## Steamingjungles
-Total status:  93/144 (64.58%)
+Total status:  100/155 (64.52%)
 
 
 ### Specialability
@@ -5343,11 +5857,26 @@ Total status:  93/144 (64.58%)
 - [x] Yakosh-Dey
 
 
+### Poison
+
+- [x] Arachnae
+- [x] Boabungaha
+- [x] Fleckenhaigift
+- [x] Kekeyatonba
+- [ ] Konzentriertes Shurinknollengift
+- [ ] Krötenschemelgift (Kupeq)
+- [x] Morfugift
+- [x] Pfeilfroschgift (Nacan-Ne)
+- [x] Glücksspinnengift
+- [ ] Jadeskorpionsgift
+- [ ] Boronsotterngift
+
+
 
 
 
 ## Studyroom
-Total status:  132/209 (63.16%)
+Total status:  135/213 (63.38%)
 
 
 ### Spell
@@ -5510,7 +6039,7 @@ Total status:  132/209 (63.16%)
 - [ ] Tradition (Borbaradianer)
 - [ ] Tradition (Brobim-Geoden)
 - [ ] Tradition (Darna)
-- [ ] Tradition (Druiden)
+- [x] Tradition (Druiden)
 - [x] Tradition (Elfen)
 - [ ] Tradition (Geoden)
 - [x] Tradition (Gildenmagier)
@@ -5579,6 +6108,14 @@ Total status:  132/209 (63.16%)
 ### Consumable
 
 - [ ] Gerebelter Thonnys
+
+
+### Poison
+
+- [ ] Feuerschlick-Essenz
+- [ ] Feuerschlick-Pulver
+- [x] Mibel-Absud
+- [x] Hexenkrötengift
 
 
 
@@ -5781,7 +6318,7 @@ Total status:  102/151 (67.55%)
 
 
 ## Transmutarium
-Total status:  45/63 (71.43%)
+Total status:  53/77 (68.83%)
 
 
 ### Advantage
@@ -5874,11 +6411,29 @@ Total status:  45/63 (71.43%)
 - [ ] Elixier der Chimärenerschaffung
 
 
+### Poison
+
+- [x] Bestienschlaf
+- [ ] Kristall-Libellengift
+- [x] Mantikorgift
+- [x] Skorpionvipergift (Schwanz)
+- [x] Skorpionvipergift (Biss)
+- [ ] Skorpionschreckengift
+- [x] Shintroidgift
+- [x] Bleichmuränengift
+- [x] Blutschakalgift
+- [ ] Ikanaria-Morfugift
+- [x] Raubschwingengift
+- [ ] Scherenwurmgift
+- [ ] Boronsotterngift
+- [ ] Giftige Transmutation
+
+
 
 
 
 ## Warringkingdoms
-Total status:  55/110 (50.0%)
+Total status:  57/111 (51.35%)
 
 
 ### Specialability
@@ -5924,7 +6479,7 @@ Total status:  55/110 (50.0%)
 - [x] Deichbauer
 - [ ] Abgeschwächter Zauber
 - [ ] Astrale Meditation
-- [ ] Tradition (Druiden)
+- [x] Tradition (Druiden)
 - [ ] Druidenrache
 - [ ] Fernzaubern
 - [ ] Improvisiertes Ritual
@@ -6012,11 +6567,16 @@ Total status:  55/110 (50.0%)
 - [x] Waldwildnis
 
 
+### Poison
+
+- [x] Hollbeerenbrechmittel
+
+
 
 
 
 ## Winterwatch
-Total status:  87/157 (55.41%)
+Total status:  88/159 (55.35%)
 
 
 ### Advantage
@@ -6210,6 +6770,24 @@ Total status:  87/157 (55.41%)
 - [x] Traditionelle Denkrichtung
 - [ ] Sippenhüterinnen
 - [ ] Traumdeuterinnen
+
+
+### Poison
+
+- [ ] Kors Samen
+- [x] Knötergift
+
+
+
+
+
+## Witchsdance
+Total status:  1/1 (100.0%)
+
+
+### Poison
+
+- [x] Pilzgift
 
 
 

@@ -1,0 +1,240 @@
+{
+  "Gelbschwanzskorpiongift": {
+    "source": [
+      "bestiary",
+      "compendium2"
+    ]
+  },
+  "Saguaraspinnengift": {
+    "source": [
+      "bestiary2"
+    ]
+  },
+  "Pailoswarangift": {
+    "source": [
+      "bestiary2"
+    ]
+  },
+  "Sunsura": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Drachenspeichel": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Feuerzunge": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Gonede": {
+    "source": [
+      "compendium2",
+      "desertkingdom"
+    ]
+  },
+  "Halbgift": {
+    "source": [
+      "compendium2",
+      "herbarium"
+    ]
+  },
+  "Schwarzer Lotos": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Tinzal": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Wurara": {
+    "source": [
+      "core"
+    ]
+  },
+  "Ton’Kemla": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Wolfsspinnengift": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Totenbleiche": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Krötenschemelgift": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Rahjasine": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Schwarzer Weihrauch": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Feuerschlick-Essenz": {
+    "source": [
+      "herbarium",
+      "studyroom"
+    ]
+  },
+  "Feuerschlick-Pulver": {
+    "source": [
+      "herbarium",
+      "studyroom"
+    ]
+  },
+  "Regenbogenstaub": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Dämonenklaue (Verzehr)": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Seelenhauch (Verzehr)": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Schwarzer Lotosstaub": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Shurinknollengift": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Beruhigungsmittel": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Einbeerentrank": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Lichtnebler-Beutel": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Stabiles Zazamotoxin": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Drachentrunk": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Dreh-Öl": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Grauer Mohn (Verzehr)": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Purpurmohn (Verzehr)": {
+    "source": [
+      "herbarium2",
+      "realmofthethorns"
+    ]
+  },
+  "Kuss des Frevlers": {
+    "source": [
+      "incorporealhorrors"
+    ]
+  },
+  "Seilschlangengift": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Mishkaragift": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Zazamotoxin": {
+    "source": [
+      "pandaemonium2"
+    ]
+  },
+  "Boronsotterngift": {
+    "source": [
+      "rabenkrieg4",
+      "steamingjungles",
+      "transmutarium"
+    ]
+  },
+  "Konzentriertes Shurinknollengift": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Krötenschemelgift (Kupeq)": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Jadeskorpionsgift": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Kristall-Libellengift": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Skorpionschreckengift": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Ikanaria-Morfugift": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Scherenwurmgift": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Giftige Transmutation": {
+    "source": [
+      "transmutarium"
+    ]
+  },
+  "Kors Samen": {
+    "source": [
+      "winterwatch"
+    ]
+  }
+}
