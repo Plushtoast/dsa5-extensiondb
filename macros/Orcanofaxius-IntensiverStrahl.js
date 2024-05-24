@@ -4,7 +4,7 @@ let origEffect = source.effects.find(x => x.name == "Orcanofaxius")
 
 if(!origEffect) return
 
-origEffect = duplicate(origEffect)
+origEffect = foundry.utils.duplicate(origEffect)
 source.effects = source.effects.filter(x => x.name != "Orcanofaxius")
 
 const lang = game.i18n.lang == "de" ? "de" : "en"

@@ -12,7 +12,7 @@ let origEffect = source.effects.find(x => x.name == dict.name)
 
 if(!origEffect) return
 
-origEffect = duplicate(origEffect)
+origEffect = foundry.utils.duplicate(origEffect)
 source.effects = source.effects.filter(x => x.name != dict.name)
 
 origEffect.changes = [
