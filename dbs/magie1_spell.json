@@ -5418,8 +5418,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkung",
@@ -5428,10 +5427,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 3 Minuten"
+          "value": "QS x 5 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -5442,28 +5440,40 @@
           "mode": 2,
           "value": 4
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "extensionModifier.mod",
+          "mode": 2,
+          "value": 1
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
   "Penetrizzel": [
     {
       "name": "Helligkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5473,21 +5483,34 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Sehen und Hören",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     },
     {
@@ -5508,17 +5531,16 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Dämonen",
       "complete": true,
       "changes": [
         {
-          "key": "system.AsPCost.value",
+          "key": "macro.transform",
           "mode": 2,
-          "value": 8
+          "value": "multitarget-8AsP_per_target"
         }
       ]
     },
@@ -5527,23 +5549,36 @@
       "complete": true,
       "changes": [
         {
-          "key": "system.AsPCost.value",
+          "key": "macro.transform",
           "mode": 2,
-          "value": 16
+          "value": "multitarget-8AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gefangenname",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Verbannung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5555,16 +5590,23 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        },
+        {
+          "key": "extensionModifier.mod,",
+          "mode": 2,
+          "value": -2
+        }
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -5580,21 +5622,38 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Andere Kosten 1",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro 20 Minuten"
+        }
       ]
     },
     {
       "name": "Andere Kosten 2",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro 30 Minuten"
+        }
       ]
     }
   ],
@@ -5630,54 +5689,59 @@
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "7 KR"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
       ]
     }
   ],
   "Projectimago": [
     {
       "name": "Gute Illusion 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Anderes Lebewesen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Geräuschillusion",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5689,16 +5753,23 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schnellsteigerung",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        },
+        {
+          "key": "extensionModifier.mod,",
+          "mode": 2,
+          "value": -2
+        }
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -5714,21 +5785,38 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Andere Kosten 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro 20 Minuten"
+        }
       ]
     },
     {
       "name": "Andere Kosten 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro 30 Minuten"
+        }
       ]
     }
   ],
