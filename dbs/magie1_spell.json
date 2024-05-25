@@ -4907,7 +4907,7 @@
   "Nebelwand": [
     {
       "name": "Wandernder Nebel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -4948,35 +4948,35 @@
   "Nuntiovolo": [
     {
       "name": "Höhere Grundreichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Höhere Flugreichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Schnelle Kreatur",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Bote der Niederhölle",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]

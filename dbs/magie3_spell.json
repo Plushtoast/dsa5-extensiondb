@@ -1026,14 +1026,14 @@
     },
     {
       "name": "Nebeltaschen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Wispernebel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
