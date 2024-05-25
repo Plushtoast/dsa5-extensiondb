@@ -2095,28 +2095,41 @@
   "Objectobscuro": [
     {
       "name": "Längere Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 AsP pro 30 Minuten"
+        }
       ]
     },
     {
       "name": "Mehr Gewicht 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Mehr Gewicht 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2132,35 +2145,39 @@
   "Objectovoco": [
     {
       "name": "Mehr Fragen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Viel mehr Fragen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Antworten mit Zahlen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Langanhaltende Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "24 Stunden"
+        }
       ]
     },
     {
       "name": "Wann-Fragen beantworten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2169,9 +2186,13 @@
   "Oculus Astralis": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
@@ -2183,23 +2204,31 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Magische Analyse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     }
   ],

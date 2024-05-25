@@ -1049,8 +1049,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Feen",
@@ -1072,19 +1071,32 @@
           "mode": 2,
           "value": "multitarget-4AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gefangenname",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        },
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        }
       ]
     },
     {
       "name": "Verbannung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]

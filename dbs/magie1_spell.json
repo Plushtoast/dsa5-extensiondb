@@ -4992,8 +4992,7 @@
           "mode": 5,
           "value": "4 AsP pro 30 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -5009,8 +5008,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Unsichtbarer Inhalt",
@@ -5021,14 +5019,14 @@
     },
     {
       "name": "Mehr Gewicht 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Gewicht 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5048,7 +5046,7 @@
     },
     {
       "name": "Höheres Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5062,14 +5060,14 @@
     },
     {
       "name": "Stabile Verankerung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Einfach unverrückbar",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5113,14 +5111,42 @@
       "name": "Permanente Zauber unterdrücken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Versiegeln",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     }
   ],
@@ -5145,8 +5171,7 @@
           "mode": 5,
           "value": "QS x 10 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
@@ -5157,8 +5182,7 @@
           "mode": 5,
           "value": "QS x 30 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Weniger Einschränkung",
@@ -5169,7 +5193,7 @@
     },
     {
       "name": "Magische Analyse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5178,37 +5202,35 @@
   "Oculus Illusionis": [
     {
       "name": "Gute Illusion 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Verwirrende Bilder",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Illusionskombination",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -5220,16 +5242,14 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kegelsicht",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Rundumsicht",
@@ -5240,16 +5260,24 @@
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     }
   ],
@@ -5268,8 +5296,7 @@
           "mode": 2,
           "value": "Orcanofaxius-IntensiverStrahl"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Windender Strahl",
@@ -5285,8 +5312,7 @@
           "mode": 2,
           "value": -2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -5297,14 +5323,17 @@
           "mode": 1,
           "value": 2
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
@@ -5334,8 +5363,7 @@
           "mode": 2,
           "value": "Orcanosphaero-IntensiveExplosion"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schneller Ball",
@@ -5351,8 +5379,7 @@
           "mode": 2,
           "value": -1
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Großer Radius",
@@ -5366,21 +5393,20 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "7"
+          "value": "10"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kugelbombe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Komplexe Bewegung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
