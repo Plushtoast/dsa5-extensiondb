@@ -6001,15 +6001,14 @@
   "Salander": [
     {
       "name": "Gleichwertig",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Geistige Fähigkeiten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -6027,16 +6026,24 @@
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
       ]
     }
   ],
@@ -6072,21 +6079,28 @@
           "mode": 5,
           "value": "QS x 10 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     },
     {
       "name": "Vier Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     }
   ],
@@ -6096,8 +6110,7 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zielkategorie Lebewesen",
@@ -6123,16 +6136,29 @@
     },
     {
       "name": "Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        }
       ]
     },
     {
       "name": "Objektsäuberung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 2
+        }
       ]
     }
   ],
@@ -6169,8 +6195,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Wunderschön 1",
@@ -6195,18 +6220,16 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "2 Schritt"
+          "value": "4 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verteilte Wirkung",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -6221,16 +6244,24 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
@@ -6251,8 +6282,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Todesfluch",
@@ -6265,14 +6295,22 @@
       "name": "Brutale Folterung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "false"
+        }
       ]
     },
     {
       "name": "Schneller Tod",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     }
   ],
@@ -6293,8 +6331,7 @@
           "mode": 5,
           "value": "QS x 2 Stunden"
         }
-      ],
-      "deprecated": true
+      ]
     },
     {
       "name": "Große Angst",
@@ -6306,21 +6343,29 @@
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
       ]
     },
     {
       "name": "Anderer Sinn",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -6329,7 +6374,11 @@
       "name": "Längere Wirkungsdauer 2",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Tage"
+        }
       ]
     }
   ],
@@ -6346,8 +6395,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Keine Aufrechterhaltung",
@@ -6363,14 +6411,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
@@ -6427,16 +6478,24 @@
     },
     {
       "name": "Größerer Radius",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "8"
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     }
   ],
@@ -6446,8 +6505,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längerer Dienst",
@@ -6481,16 +6539,24 @@
     },
     {
       "name": "Zweifache Erhebung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Vierfache Erhebung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 12
+        }
       ]
     }
   ],
@@ -6511,23 +6577,35 @@
     },
     {
       "name": "Längere Brücke",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 1,
+          "value": "QS*20"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     }
   ],
@@ -6537,8 +6615,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkung",
@@ -6547,10 +6624,9 @@
         {
           "key": "system.duration.value",
           "mode": 5,
-          "value": "QS x 4 Minuten"
+          "value": "QS x 5 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -6565,16 +6641,24 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Brechen des Widerstands",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     }
   ],
@@ -6616,14 +6700,17 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kürzere Zauberdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
@@ -6680,16 +6767,24 @@
     },
     {
       "name": "Zwei Personen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     },
     {
       "name": "Mehrere Personen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-2AsP_per_target"
+        }
       ]
     }
   ],

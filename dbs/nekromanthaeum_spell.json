@@ -178,9 +178,18 @@
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {
