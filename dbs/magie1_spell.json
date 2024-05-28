@@ -5853,8 +5853,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Wütender Kochlöffel",
@@ -5874,40 +5873,41 @@
   "Reflectimago": [
     {
       "name": "Gute Illusion 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gute Illusion 3",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Optiktrick",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Spiegelkörper",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     }
   ],
@@ -5921,8 +5921,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -5944,8 +5943,7 @@
           "mode": 5,
           "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schmerzheilung",
@@ -5975,27 +5973,26 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Wann-Fragen beantworten",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Strafmaßnahme",
-      "complete": false,
+      "complete": true,
+      "comment": "will not automate as the effect depends on the answer (if given)",
       "changes": [
 
       ]
     },
     {
       "name": "Viel mehr Fragen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]

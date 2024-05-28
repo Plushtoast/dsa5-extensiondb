@@ -2567,7 +2567,7 @@
     },
     {
       "name": "Spezieswahl",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2585,9 +2585,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 4 Stunden"
+        }
       ]
     },
     {
