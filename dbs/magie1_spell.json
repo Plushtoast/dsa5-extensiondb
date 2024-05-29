@@ -6802,11 +6802,10 @@
     },
     {
       "name": "Hörschwierigkeiten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -6821,16 +6820,24 @@
     },
     {
       "name": "Höhere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     }
   ],
@@ -6870,16 +6877,44 @@
     },
     {
       "name": "Permanente Zauber unterdrücken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Versiegeln",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     }
   ],
@@ -6889,8 +6924,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Höhere Reichweite",
@@ -6912,14 +6946,18 @@
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Tierkontrolle",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -6928,21 +6966,21 @@
   "Transversalis": [
     {
       "name": "Mehr Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Größere Teleportationsmöglichkeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Transport",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.AsPCost.value",
@@ -6955,12 +6993,31 @@
       "name": "Blinzeln",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "QS x 3 Schritt"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "false"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        },
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
       ]
     },
     {
       "name": "Lastenteleport",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
