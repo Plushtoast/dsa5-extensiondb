@@ -3245,10 +3245,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -3266,14 +3265,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -3290,8 +3292,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
@@ -3313,9 +3314,13 @@
     },
     {
       "name": "Andere Zielkategorie",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen, Wesen"
+        }
       ]
     },
     {
