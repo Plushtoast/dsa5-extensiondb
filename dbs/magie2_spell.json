@@ -3059,7 +3059,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS*3"
+          "value": "QS"
         },
         {
           "key": "system.range.value",
@@ -3343,9 +3343,12 @@
       "name": "Mehr Geschosse",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
     },
     {
       "name": "Elementarschaden",
@@ -3363,9 +3366,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     }
   ],
@@ -3401,9 +3408,13 @@
     },
     {
       "name": "Noch größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "QS x 20 Schritt"
+        }
       ]
     },
     {
@@ -3422,16 +3433,24 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS*3"
+          "value": "8"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {
@@ -3482,32 +3501,38 @@
     },
     {
       "name": "Kette",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Durch das Element",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "name": "Durch das Element",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -3525,32 +3550,38 @@
     },
     {
       "name": "Kette",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Durch das Element",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "name": "Durch das Element",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -3568,32 +3599,38 @@
     },
     {
       "name": "Kette",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Durch das Element",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "name": "Durch das Element",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],

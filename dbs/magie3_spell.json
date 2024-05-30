@@ -1860,31 +1860,52 @@
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "0"
+        }
       ]
     },
     {
       "name": "Deckel",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Längere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Langanhaltende Wand",
-      "complete": false,
+      "name": "Längere Wand",
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "60 KR"
+        }
       ]
     }
   ],
@@ -1896,16 +1917,24 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS*3"
+          "value": "16"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {

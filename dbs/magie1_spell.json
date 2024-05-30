@@ -7225,8 +7225,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehrere Ziele",
@@ -7237,21 +7236,28 @@
           "mode": 5,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Unterwasseratem",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 AsP pro Stunde"
+        }
       ]
     }
   ],
@@ -7281,8 +7287,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Große Tiere",
@@ -7293,8 +7298,7 @@
           "mode": 2,
           "value": 6
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schnellverwandlung",
@@ -7305,7 +7309,7 @@
     },
     {
       "name": "Fellkleid",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
