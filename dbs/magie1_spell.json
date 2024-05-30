@@ -7323,10 +7323,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "2 Schritt"
+          "value": "4 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verteilte Wirkung",
@@ -7348,16 +7347,24 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
@@ -7371,9 +7378,13 @@
     },
     {
       "name": "Tadelloser Entgifter",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -7389,16 +7400,24 @@
     },
     {
       "name": "Verkürzte Zauberdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
       ]
     }
   ]
