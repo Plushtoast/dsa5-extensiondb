@@ -1266,7 +1266,8 @@
           "mode": 2,
           "value": "multitarget-2AsP_per_target"
         }
-      ]
+      ],
+      "deprecated": true
     },
     {
       "name": "Vier Personen",

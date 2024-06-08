@@ -3,7 +3,7 @@ require 'json'
 dbPath = "./../dbs/"
 
 
-prettyprint = true
+prettyprint = false
 if prettyprint
     Dir.entries(dbPath).each do |db|
         next if db == "." or db == ".."
@@ -27,18 +27,18 @@ Dir.entries(dbPath).each do |db|
     json.each do |spell, extensions|
         
         extensions.each do |ext|
-            next if ext["dirty"] 
+            next if ext["dirty"] || ext["deprecated"]
 
             dataAll[category][spell] = [] if dataAll[category][spell].nil?
 
-            unless ext["dirty"]
-                if dataAll[category][spell].find{|x| x["name"] == ext["name"]}
-                    #compare
+            
+            if dataAll[category][spell].find{|x| x["name"] == ext["name"]}
+                #compare
 
-                else
-                    dataAll[category][spell] << ext                
-                end
+            else
+                dataAll[category][spell] << ext                
             end
+            
         end
     end
 end
@@ -50,21 +50,25 @@ Dir.entries(dbPath).each do |db|
     category = db.split(".")[0].split("_")[-1]
 
     write = false
-    json.each do |spell, extensions|
-        
-        extensions.each do |ext|
-            next unless ext["dirty"] 
 
-            if dataAll[category][spell]
-                write = true
-                json[spell] = dataAll[category][spell]
+    dataAll[category].each do |spell, extensions|
+
+        unless json[spell].nil?
+            
+            extensions.each do |ext|
+                index = json[spell].index{|x| x["name"] == ext["name"]}
+
+                if index.nil?
+                    throw "Error: #{category} - #{spell} - #{ext["name"]} not found in #{db}"
+                
+                elsif json[spell][index]["dirty"]
+                    json[spell][index] = ext
+                end
             end
         end
     end
-
-    if write
-        File.open("#{dbPath}#{db}", "w") {|f| f.write(JSON.pretty_generate(json))}
-    end
+    
+    File.open("#{dbPath}#{db}", "w") {|f| f.write(JSON.pretty_generate(json))} if write    
 end
 
 puts "Done"
