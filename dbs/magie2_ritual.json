@@ -1320,9 +1320,9 @@
           "value": 8
         },
         {
-        "key": "system.targetCategory.value",
-        "mode": 5,
-        "value": "Kulturschaffende"
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
         }
       ]
     },

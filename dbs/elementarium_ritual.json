@@ -47,7 +47,6 @@
           "mode": 5,
           "value": 32
         }
-
       ]
     },
     {
@@ -55,10 +54,10 @@
       "complete": true,
       "changes": [
         {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "8 KR"
-          }
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 KR"
+        }
       ]
     }
   ],
@@ -90,12 +89,11 @@
       "name": "Verkürzte Ritualdauer",
       "complete": true,
       "changes": [
-               {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "4 Stunden"
-          }
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "4 Stunden"
+        }
       ]
     },
     {
@@ -134,13 +132,11 @@
       "name": "Verkürzte Ritualdauer",
       "complete": true,
       "changes": [
-        
-               {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "5 Minuten"
-          }
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "5 Minuten"
+        }
       ]
     },
     {
@@ -293,7 +289,7 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-                {
+        {
           "key": "system.range.value",
           "mode": 5,
           "value": "berühren"
@@ -303,18 +299,18 @@
           "mode": 5,
           "value": 32
         }
-     ]
+      ]
     },
     {
       "name": "Kurzritual",
       "complete": true,
       "changes": [
-              {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "8 KR"
-          }
-     ]
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 KR"
+        }
+      ]
     }
   ],
   "Freiheit der Wolken": [
@@ -407,7 +403,7 @@
       "name": "Reichweite Berührung",
       "complete": true,
       "changes": [
-                {
+        {
           "key": "system.range.value",
           "mode": 5,
           "value": "berühren"
@@ -422,13 +418,13 @@
     {
       "name": "Kurzritual",
       "complete": true,
-      "changes": [              
+      "changes": [
         {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "8 KR"
-          }
-     ]
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 KR"
+        }
+      ]
     }
   ],
   "Klarheit des Eises": [
@@ -511,10 +507,10 @@
       "complete": true,
       "changes": [
         {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "8 Stunden"
-          }
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 Stunden"
+        }
       ]
     },
     {
@@ -574,17 +570,17 @@
           "mode": 5,
           "value": 32
         }
-     ]
+      ]
     },
     {
       "name": "Kurzritual",
       "complete": true,
       "changes": [
-       {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "8 KR"
-          }
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 KR"
+        }
       ]
     }
   ],
@@ -736,7 +732,7 @@
           "key": "system.AsPCost.value",
           "mode": 5,
           "value": 32
-        }     
+        }
       ]
     },
     {
@@ -744,10 +740,10 @@
       "complete": true,
       "changes": [
         {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "8 KR"
-          }
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 KR"
+        }
       ]
     }
   ],
@@ -788,7 +784,7 @@
     {
       "name": "Reichweite Berührung",
       "complete": true,
-      "changes": [                
+      "changes": [
         {
           "key": "system.range.value",
           "mode": 5,
@@ -799,7 +795,6 @@
           "mode": 5,
           "value": 32
         }
-
       ]
     },
     {
@@ -807,10 +802,10 @@
       "complete": true,
       "changes": [
         {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "8 KR"
-          }
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "8 KR"
+        }
       ]
     }
   ],
@@ -849,11 +844,10 @@
       "complete": true,
       "changes": [
         {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "4 Stunden"
-          }
-
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "4 Stunden"
+        }
       ]
     },
     {

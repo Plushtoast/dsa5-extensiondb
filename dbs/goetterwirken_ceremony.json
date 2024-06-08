@@ -3783,7 +3783,7 @@
           "value": 4
         }
       ]
-    },   
+    },
     {
       "name": "Längere Wirkungsdauer 2",
       "complete": true,
@@ -3799,9 +3799,9 @@
       "name": "Schnelles Schiff",
       "complete": false,
       "changes": [
-        
+
       ]
-    },   
+    },
     {
       "name": "Größere Reichweite",
       "complete": true,

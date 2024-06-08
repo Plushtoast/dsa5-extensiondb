@@ -57,7 +57,7 @@
           "key": "system.variableBaseCost",
           "mode": 5,
           "value": "true"
-        },        
+        },
         {
           "key": "system.AsPCost.value",
           "mode": 2,

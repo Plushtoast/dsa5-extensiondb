@@ -93,12 +93,11 @@
       "name": "Kürzere Ritualdauer",
       "complete": true,
       "changes": [
-         {
+        {
           "key": "system.castingTime.value",
           "mode": 5,
           "value": 30
         }
-
       ]
     }
   ]

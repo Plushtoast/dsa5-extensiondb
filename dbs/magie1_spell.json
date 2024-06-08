@@ -43,11 +43,11 @@
       "name": "Längere Wirkungsdauer",
       "complete": true,
       "changes": [
-          {
-            "key": "system.duration.value",
-            "mode": 5,
-            "value": "QS x 15 Minuten"
-          }
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 15 Minuten"
+        }
       ]
     },
     {
