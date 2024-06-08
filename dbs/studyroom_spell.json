@@ -2297,7 +2297,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": 4
+          "value": "4"
         },
         {
           "key": "system.range.value",
@@ -2581,7 +2581,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": 4
+          "value": "4"
         },
         {
           "key": "system.duration.value",

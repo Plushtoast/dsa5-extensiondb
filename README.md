@@ -103,7 +103,6 @@ The following keys can be used to modify the spells:
 | system.variableBaseCost           | variable AE cost   | Variable AsP kosten              |                "true" | boolean |
 | system.canChangeCastingTime.value | variable cast time | Variable Zauberdauer             |                "true" | boolean |
 | system.targetCategory.value       | Target category    | Zielkategorie                    |           "Lebewesen" | string  |
-| system.target.value               | size of aoe \*2    | Größe des Flächeneffekts \*2     |                "qs*2" | string  |
 | defenseMalus                      | Defense malus      | Verteidigungsmalus               |                    -2 | number  |
 | forceSpell.mod                    | Force Modifier     | Erzwingen Modifikator            |                     1 | number  |
 | reduceCostSpell.mod               | Cost modifier      | Zauberkosten reduzieren (Zauber) |                     1 | number  |

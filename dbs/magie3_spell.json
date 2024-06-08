@@ -1126,7 +1126,7 @@
         {
           "key": "system.target.angle",
           "mode": 5,
-          "value": "180"
+          "value": 180
         }
       ]
     },
@@ -1499,7 +1499,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": 4
+          "value": "4"
         },
         {
           "key": "system.duration.value",
@@ -1641,7 +1641,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "0"
+          "value": "selbst"
         }
       ]
     },
@@ -1870,12 +1870,12 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS"
+          "value": "QS*1"
         },
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "0"
+          "value": "selbst"
         }
       ]
     },

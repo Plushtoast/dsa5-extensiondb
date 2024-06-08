@@ -2,7 +2,7 @@
 require 'json'
 
 
-targetCategories = ["Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen", "Chimären", "Daimonide", "Elementare", "Untote", "Dämonen", "Geister"]
+targetCategories = ["Selbst", "Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen", "Chimären", "Daimonide", "Elementare", "Untote", "Dämonen", "Geister"]
 
 directory_name = "./log"
 Dir.mkdir(directory_name) unless File.exists?(directory_name)
@@ -41,6 +41,7 @@ Dir["../dbs/*.json"].each do |r|
 
                     output << "#{name}: #{key} needs to start with + or -" if !(change["value"] =~ /^(\+|-)/) && change["mode"] == 2
                 when "system.target.value"
+                    output << "#{name}: #{key} <#{change["value"]}> must be a string" unless change["value"].is_a? String
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(qs\*|ql\*)?\d{1,3}/
                 when "system.range.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(selbst|berühren|\d{1,3} Schritt(e)?)/

@@ -5567,7 +5567,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": 4
+          "value": "4"
         },
         {
           "key": "system.range.value",
@@ -5602,7 +5602,7 @@
           "value": 2
         },
         {
-          "key": "extensionModifier.mod,",
+          "key": "extensionModifier.mod",
           "mode": 2,
           "value": -2
         }
@@ -5765,7 +5765,7 @@
           "value": 2
         },
         {
-          "key": "extensionModifier.mod,",
+          "key": "extensionModifier.mod",
           "mode": 2,
           "value": -2
         }
@@ -5906,7 +5906,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "selbst"
+          "value": "Selbst"
         }
       ]
     }
