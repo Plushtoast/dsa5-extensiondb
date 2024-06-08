@@ -2058,35 +2058,35 @@
   "Nuntiovolo": [
     {
       "name": "Höhere Grundreichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Mehr Gewicht",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Höhere Flugreichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Bote der Niederhölle",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Schnelle Kreatur",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2095,28 +2095,41 @@
   "Objectobscuro": [
     {
       "name": "Längere Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 AsP pro 30 Minuten"
+        }
       ]
     },
     {
       "name": "Mehr Gewicht 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Mehr Gewicht 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2132,35 +2145,39 @@
   "Objectovoco": [
     {
       "name": "Mehr Fragen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Viel mehr Fragen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Antworten mit Zahlen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Langanhaltende Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "24 Stunden"
+        }
       ]
     },
     {
       "name": "Wann-Fragen beantworten",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2169,9 +2186,13 @@
   "Oculus Astralis": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 Minuten"
+        }
       ]
     },
     {
@@ -2183,23 +2204,31 @@
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Magische Analyse",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     }
   ],
@@ -2213,9 +2242,13 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -2243,72 +2276,102 @@
   "Pentagramma": [
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Gefangenname",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Zwei Dämonen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
       ]
     },
     {
       "name": "Verbannung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Drei Dämonen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
       ]
     }
   ],
   "Protectionis": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Banngespür",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gegenschlag",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Gramma-Zauber",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Jederzeit",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2317,37 +2380,49 @@
   "Schleier der Unwissenheit": [
     {
       "name": "Verborgenes Geheimnis",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Starker Schleier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     },
     {
       "name": "Andere Kulturschaffende und Objekte verschleiern",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen, Objekte"
+        }
       ]
     }
   ],
@@ -2361,9 +2436,13 @@
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
@@ -2382,9 +2461,18 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
@@ -2398,23 +2486,35 @@
     },
     {
       "name": "Zweifache Erhebung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     },
     {
       "name": "Vierfache Erhebung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 12
+        }
       ]
     },
     {
@@ -2428,53 +2528,101 @@
   "Sphärenbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "increaseRangeSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Permanente Zauber unterdrücken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        }
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Versiegeln",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
   "Sumpfstrudel": [
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Größerer Radius 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        }
       ]
     },
     {
@@ -2486,90 +2634,158 @@
     },
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Größerer Radius 2",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "5"
+        }
       ]
     }
   ],
   "Verwandlungsbann": [
     {
       "name": "Reichweite erhöhen",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "increaseRangeSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Permanente Zauber unterdrücken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Versiegeln",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
   "Warmes gefriere": [
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Minuten"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
       ]
     },
     {
       "name": "Zauberdauer modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.canChangeCastingTime.value",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 2 Stunden"
+        }
       ]
     }
   ],
@@ -2578,7 +2794,11 @@
       "name": "Größere Reichweite",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "32 Schritt"
+        }
       ]
     },
     {
@@ -2590,9 +2810,13 @@
     },
     {
       "name": "Größerer Radius 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "5"
+        }
       ]
     },
     {
@@ -2606,53 +2830,86 @@
       "name": "Größerer Radius 2",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "7"
+        }
       ]
     }
   ],
   "Windstille": [
     {
       "name": "Kosten modifizierbar",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     },
     {
       "name": "Größerer Radius 1",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "5"
+        }
       ]
     },
     {
       "name": "Größerer Radius 2",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "7"
+        }
       ]
     }
   ],
   "Wolfstatze": [
     {
       "name": "Mittlere Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 5
+        }
       ]
     },
     {
@@ -2664,23 +2921,36 @@
     },
     {
       "name": "Keine Aufrechterhaltung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Fellkleid",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Große Tiere",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 6
+        }
       ]
     }
   ]

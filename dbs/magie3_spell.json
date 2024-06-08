@@ -1026,14 +1026,14 @@
     },
     {
       "name": "Nebeltaschen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Wispernebel",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1049,8 +1049,7 @@
           "mode": 5,
           "value": "true"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Feen",
@@ -1072,19 +1071,32 @@
           "mode": 2,
           "value": "multitarget-4AsP_per_target"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Gefangenname",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        },
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        }
       ]
     },
     {
       "name": "Verbannung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1098,16 +1110,24 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS*3"
+          "value": "16 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": "180"
+        }
       ]
     },
     {
@@ -1152,10 +1172,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehr Patienten",
@@ -1166,22 +1185,21 @@
     },
     {
       "name": "Gute Heilungschancen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Heilungssinn 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Heilungsisnn 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1273,22 +1291,29 @@
           "mode": 5,
           "value": "2 AsP pro KR"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Scharfe Schuppen",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Andere Kosten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 2
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "1 AsP pro KR"
+        }
       ]
     },
     {
@@ -1316,8 +1341,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Automatischer Erfolg beim Bestätigungswurf",
@@ -1330,7 +1354,11 @@
       "name": "Zauberdauer senken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -1369,21 +1397,38 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
       ]
     }
   ],
@@ -1425,14 +1470,42 @@
       "name": "Permanente Zauber unterdrücken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        }
       ]
     },
     {
       "name": "Versiegeln",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 16
+        },
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     }
   ],
@@ -1464,19 +1537,18 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zauberer ausgenommen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Ausnahme",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1490,16 +1562,24 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS*3"
+          "value": "16"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {
@@ -1546,9 +1626,23 @@
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "0"
+        }
       ]
     },
     {
@@ -1556,21 +1650,28 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
       "name": "Langanhaltende Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "60 KR"
+        }
       ]
     }
   ],
@@ -1595,27 +1696,25 @@
           "mode": 5,
           "value": "QS x 10 Jahre"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Leichte Zubereitung",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Alchimiemeister 1",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Alchimiemeister 2",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1657,16 +1756,44 @@
     },
     {
       "name": "Permanente Zauber unterdrücken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 4
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "2 AsP pro KR"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
       "name": "Versiegeln",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "4"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 16
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1 Stunde"
+        }
       ]
     }
   ],
@@ -1684,9 +1811,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 1,
+          "value": "2"
+        }
       ]
     },
     {
@@ -1698,16 +1829,24 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
       "name": "Kosten senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "reduceCostSpell.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     }
   ],
@@ -1721,31 +1860,52 @@
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "0"
+        }
       ]
     },
     {
       "name": "Deckel",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Längere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Langanhaltende Wand",
-      "complete": false,
+      "name": "Längere Wand",
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
+      ]
+    },
+    {
+      "name": "Langanhaltende Wand",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "60 KR"
+        }
       ]
     }
   ],
@@ -1757,16 +1917,24 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS*3"
+          "value": "16"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {
@@ -1824,8 +1992,7 @@
           "mode": 5,
           "value": "+1d6+6"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -1842,7 +2009,11 @@
       "name": "Größere Reichweite",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
@@ -1870,8 +2041,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -1882,21 +2052,28 @@
           "mode": 2,
           "value": 8
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Höhere Wirkungsdauer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     }
   ],
@@ -1928,21 +2105,28 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Mehrere Ziele",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     }
   ],
@@ -1956,8 +2140,7 @@
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -1979,19 +2162,22 @@
           "mode": 2,
           "value": "Zwingtanz-ErschoepfenderTanz"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
       ]
     },
     {
       "name": "Ansteckender Tanz",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]

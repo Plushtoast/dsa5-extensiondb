@@ -2404,29 +2404,31 @@
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Wann-Fragen beantworten",
       "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Viel mehr Fragen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Langanhaltende Wirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "24 Stunden"
+        }
       ]
     }
   ],
@@ -2444,8 +2446,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größerer Radius",
@@ -2460,7 +2461,7 @@
     },
     {
       "name": "Zauberer verschonen",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2474,9 +2475,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
       ]
     }
   ],
@@ -2486,14 +2491,22 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {
@@ -2554,7 +2567,7 @@
     },
     {
       "name": "Spezieswahl",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2572,9 +2585,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 4 Stunden"
+        }
       ]
     },
     {
@@ -2595,8 +2612,7 @@
           "mode": 5,
           "value": "QS x 5 Minuten"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -2616,21 +2632,25 @@
     },
     {
       "name": "Klippensturz",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Noch längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 10 Minuten"
+        }
       ]
     },
     {
       "name": "Sehr sanfter Fall",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -2660,9 +2680,13 @@
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -2681,10 +2705,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2702,14 +2725,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -2723,11 +2749,10 @@
   "Schleier der Unwissenheit": [
     {
       "name": "Verborgenes Geheimnis",
-      "complete": false,
+      "complete": true,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -2749,21 +2774,24 @@
           "mode": 5,
           "value": "Kulturschaffende, Lebewesen, Objekte"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Starker Schleier",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -2784,22 +2812,24 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Erhöhte Willenskraft",
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
@@ -2853,9 +2883,13 @@
     },
     {
       "name": "Deutlich längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Stunden"
+        }
       ]
     }
   ],
@@ -2865,8 +2899,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Lange Schlangen",
@@ -2880,21 +2913,38 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Andere Kosten",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 8
+        },
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "4 AsP pro 10 KR"
+        }
       ]
     },
     {
       "name": "Reichweite Berührung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
       ]
     }
   ],
@@ -2918,14 +2968,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zauberdauer senken",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "decreaseCastingTime.mod",
+          "mode": 5,
+          "value": 0
+        }
       ]
     },
     {
@@ -2953,8 +3006,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Reichweite Berührung",
@@ -2997,9 +3049,23 @@
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "0"
+        }
       ]
     },
     {
@@ -3007,21 +3073,28 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
       "name": "Langanhaltende Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "60 KR"
+        }
       ]
     }
   ],
@@ -3049,9 +3122,13 @@
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     },
     {
@@ -3090,16 +3167,24 @@
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
       "name": "Kosten modifizierbar",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     }
   ],
@@ -3111,10 +3196,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -3132,14 +3216,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -3158,10 +3245,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -3179,14 +3265,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {
@@ -3203,8 +3292,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
@@ -3226,9 +3314,13 @@
     },
     {
       "name": "Andere Zielkategorie",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende, Lebewesen, Wesen"
+        }
       ]
     },
     {
@@ -3251,9 +3343,12 @@
       "name": "Mehr Geschosse",
       "complete": false,
       "changes": [
-
-      ],
-      "dirty": true
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
     },
     {
       "name": "Elementarschaden",
@@ -3271,9 +3366,13 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 30 Minuten"
+        }
       ]
     }
   ],
@@ -3309,9 +3408,13 @@
     },
     {
       "name": "Noch größere Reichweite",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "QS x 20 Schritt"
+        }
       ]
     },
     {
@@ -3330,16 +3433,24 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "QS*3"
+          "value": "8"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {
@@ -3390,32 +3501,38 @@
     },
     {
       "name": "Kette",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Durch das Element",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "name": "Durch das Element",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -3433,32 +3550,38 @@
     },
     {
       "name": "Kette",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Durch das Element",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "name": "Durch das Element",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -3476,32 +3599,38 @@
     },
     {
       "name": "Kette",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Durch das Element",
-      "complete": false,
-      "changes": [
-
-      ],
-      "dirty": true
-    },
-    {
-      "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
-      "name": "Sehr lange Wirkungsdauer",
-      "complete": false,
+      "name": "Durch das Element",
+      "complete": true,
       "changes": [
 
+      ]
+    },
+    {
+      "name": "Kürzere Zauberdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Sehr lange Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Stunden"
+        }
       ]
     }
   ],
@@ -3518,8 +3647,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Treues Pferd",
@@ -3534,16 +3662,20 @@
     },
     {
       "name": "Wille des Pferdes",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
     },
     {
       "name": "Verkürzte Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 8
+        }
       ]
     }
   ],
@@ -3555,10 +3687,9 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "8 Schritt"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wirkungsdauer",
@@ -3576,14 +3707,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Kosten modifizieren",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
       ]
     },
     {

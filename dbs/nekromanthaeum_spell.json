@@ -178,9 +178,18 @@
     },
     {
       "name": "Halbkreis",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "cone"
+        },
+        {
+          "key": "system.target.angle",
+          "mode": 5,
+          "value": 180
+        }
       ]
     },
     {
@@ -284,8 +293,7 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Größere Reichweite",
@@ -312,7 +320,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Kulturschaffende, Wesen"
+          "value": "Kulturschaffende, Lebewesen, Wesen"
         }
       ]
     },
