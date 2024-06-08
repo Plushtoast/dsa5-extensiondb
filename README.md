@@ -201,17 +201,17 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |goetterwirken_ceremony|359/401|89.5|
 |goetterwirken_liturgy|434/632|68.7|
 |magie1_ritual|73/95|76.8|
-|magie1_spell|405/702|57.7|
+|magie1_spell|501/702|71.4|
 |magie2_ritual|167/190|87.9|
-|magie2_spell|158/380|41.6|
+|magie2_spell|204/380|53.7|
 |magie3_ritual|74/76|97.4|
-|magie3_spell|107/199|53.8|
+|magie3_spell|142/199|71.4|
 |nekromanthaeum_ceremony|5/5|100.0|
 |nekromanthaeum_liturgy|5/6|83.3|
 |nekromanthaeum_ritual|9/10|90.0|
-|nekromanthaeum_spell|26/37|70.3|
+|nekromanthaeum_spell|27/37|73.0|
 |studyroom_ritual|60/81|74.1|
-|studyroom_spell|130/280|46.4|
-|partly done|2628/3893|67.5|
-|progress|2454/3893|63.0|
+|studyroom_spell|193/280|68.9|
+|partly done|2894/3893|74.3|
+|progress|2695/3893|69.2
 
