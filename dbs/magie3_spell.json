@@ -81,8 +81,7 @@
           "mode": 2,
           "value": "Aquasphaero-IntensiveExplosion"
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Schneller Ball",
@@ -118,7 +117,7 @@
     },
     {
       "name": "Kugelbombe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -351,9 +350,23 @@
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*1"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     },
     {
@@ -365,9 +378,13 @@
     },
     {
       "name": "Längere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
@@ -392,9 +409,23 @@
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*1"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     },
     {
@@ -402,14 +433,17 @@
       "complete": false,
       "changes": [
 
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Längere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
@@ -644,7 +678,7 @@
     },
     {
       "name": "Kugelbombe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -844,8 +878,7 @@
           "mode": 2,
           "value": -1
         }
-      ],
-      "dirty": true
+      ]
     },
     {
       "name": "Zwei Ziele",
@@ -932,7 +965,7 @@
     },
     {
       "name": "Kugelbombe",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -977,7 +1010,7 @@
     },
     {
       "name": "Qualvolle Ranken",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.effectFormula.value",

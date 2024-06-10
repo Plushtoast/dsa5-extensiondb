@@ -1193,7 +1193,7 @@
     },
     {
       "name": "Kette",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1238,9 +1238,23 @@
     },
     {
       "name": "Zylinder",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.type",
+          "mode": 5,
+          "value": "sphere"
+        },
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*1"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "selbst"
+        }
       ]
     },
     {
@@ -1252,9 +1266,13 @@
     },
     {
       "name": "Längere Wand",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
       ]
     },
     {
@@ -1481,7 +1499,7 @@
     },
     {
       "name": "Kette",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1825,7 +1843,7 @@
     },
     {
       "name": "Kette",
-      "complete": false,
+      "complete": true,
       "changes": [
 
       ]
@@ -1839,7 +1857,7 @@
     },
     {
       "name": "Kürzere Zauberdauer",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "system.castingTime.value",
