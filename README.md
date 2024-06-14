@@ -190,28 +190,29 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 **string**: value can be any text enclosed in quotation marks
 
 # Status
+
 |name|status| % |
 | -- | ---- | - |
 |elementarium_ceremony|30/30|100.0|
 |elementarium_ritual|42/80|52.5|
-|elementarium_spell|91/175|52.0|
+|elementarium_spell|136/175|77.7|
 |goetterwirken2_ceremony|127/264|48.1|
 |goetterwirken2_liturgy|151/245|61.6|
 |goetterwirken2_spell|1/5|20.0|
 |goetterwirken_ceremony|359/401|89.5|
 |goetterwirken_liturgy|434/632|68.7|
 |magie1_ritual|73/95|76.8|
-|magie1_spell|501/702|71.4|
+|magie1_spell|504/702|71.8|
 |magie2_ritual|167/190|87.9|
-|magie2_spell|204/380|53.7|
+|magie2_spell|210/380|55.3|
 |magie3_ritual|74/76|97.4|
-|magie3_spell|142/199|71.4|
+|magie3_spell|150/199|75.4|
 |nekromanthaeum_ceremony|5/5|100.0|
 |nekromanthaeum_liturgy|5/6|83.3|
 |nekromanthaeum_ritual|9/10|90.0|
 |nekromanthaeum_spell|27/37|73.0|
 |studyroom_ritual|60/81|74.1|
 |studyroom_spell|193/280|68.9|
-|partly done|2894/3893|74.3|
-|progress|2695/3893|69.2
+|partly done|2954/3893|75.9|
+|progress|2757/3893|70.8|
 
