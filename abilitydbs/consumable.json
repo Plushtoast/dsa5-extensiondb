@@ -22,28 +22,12 @@
       "core"
     ]
   },
-  "Unsichtbarkeitselixier": {
-    "source": [
-      "core"
-    ]
-  },
   "Verwandlungselixier": {
     "source": [
       "core"
     ]
   },
-  "Waffenbalsam": {
-    "source": [
-      "core",
-      "incorporealhorrors"
-    ]
-  },
   "Bannstaub": {
-    "source": [
-      "core"
-    ]
-  },
-  "Pastillen gegen Schmerzen": {
     "source": [
       "core"
     ]
@@ -60,16 +44,6 @@
     ]
   },
   "Erscheinungspulver": {
-    "source": [
-      "herbarium"
-    ]
-  },
-  "Eulentränen": {
-    "source": [
-      "herbarium"
-    ]
-  },
-  "Heilsalbe": {
     "source": [
       "herbarium"
     ]
@@ -106,11 +80,6 @@
     ]
   },
   "Jacopo-Süßigkeit": {
-    "source": [
-      "herbarium"
-    ]
-  },
-  "Liebesküchlein": {
     "source": [
       "herbarium"
     ]
@@ -186,11 +155,6 @@
       "herbarium"
     ]
   },
-  "Atmonbrei": {
-    "source": [
-      "herbarium2"
-    ]
-  },
   "Dergolasch-Pulver": {
     "source": [
       "herbarium2"
@@ -253,11 +217,6 @@
       "herbarium2"
     ]
   },
-  "Furchtlos-Tropfen": {
-    "source": [
-      "herbarium2"
-    ]
-  },
   "Ghulscheuche": {
     "source": [
       "herbarium2"
@@ -268,17 +227,7 @@
       "herbarium2"
     ]
   },
-  "Hauch der Weissagung": {
-    "source": [
-      "herbarium2"
-    ]
-  },
   "Ifirnstrunk": {
-    "source": [
-      "herbarium2"
-    ]
-  },
-  "Kaltes Licht": {
     "source": [
       "herbarium2"
     ]

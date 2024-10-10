@@ -1,9 +1,9 @@
 # Summary
-last_updated: 2024-05-22 18:30:38
+last_updated: 2024-06-16 10:32:44
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 82/135 | 60.74% |
+| [Achaz](#achaz) | 82/164 | 50.0% |
 | [Animatorium](#animatorium) | 5/136 | 3.68% |
 | [Armory](#armory) | 17/22 | 77.27% |
 | [Armory2](#armory2) | 19/25 | 76.0% |
@@ -15,15 +15,15 @@ last_updated: 2024-05-22 18:30:38
 | [Companions](#companions) | 80/111 | 72.07% |
 | [Compendium](#compendium) | 228/265 | 86.04% |
 | [Compendium2](#compendium2) | 243/321 | 75.7% |
-| [Core](#core) | 370/443 | 83.52% |
+| [Core](#core) | 374/443 | 84.42% |
 | [Desertkingdom](#desertkingdom) | 55/80 | 68.75% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
-| [Goetterwirken](#goetterwirken) | 264/411 | 64.23% |
-| [Goetterwirken2](#goetterwirken2) | 225/320 | 70.31% |
-| [Havena](#havena) | 30/82 | 36.59% |
-| [Herbarium](#herbarium) | 94/139 | 67.63% |
-| [Herbarium2](#herbarium2) | 63/112 | 56.25% |
-| [Incorporealhorrors](#incorporealhorrors) | 48/84 | 57.14% |
+| [Goetterwirken](#goetterwirken) | 265/524 | 50.57% |
+| [Goetterwirken2](#goetterwirken2) | 226/357 | 63.31% |
+| [Havena](#havena) | 31/89 | 34.83% |
+| [Herbarium](#herbarium) | 97/139 | 69.78% |
+| [Herbarium2](#herbarium2) | 67/112 | 59.82% |
+| [Incorporealhorrors](#incorporealhorrors) | 49/84 | 58.33% |
 | [Klingendernacht](#klingendernacht) | 6/14 | 42.86% |
 | [Library](#library) | 0/12 | 0.0% |
 | [Magie1](#magie1) | 204/368 | 55.43% |
@@ -32,7 +32,7 @@ last_updated: 2024-05-22 18:30:38
 | [Mastertools](#mastertools) | 97/105 | 92.38% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 68/84 | 80.95% |
-| [Orcs](#orcs) | 56/87 | 64.37% |
+| [Orcs](#orcs) | 56/99 | 56.57% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
 | [Pandaemonium2](#pandaemonium2) | 23/31 | 74.19% |
 | [Rabenkrieg4](#rabenkrieg4) | 1/2 | 50.0% |
@@ -52,28 +52,28 @@ last_updated: 2024-05-22 18:30:38
 | [Winterwatch](#winterwatch) | 88/159 | 55.35% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | --- | --- | --- |
-| Total | 3628/5751 | 63.08% |
+| Total | 3643/5949 | 61.24% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
 | Advantage | 148/199 | 74.37% |
 | Ceremony | 103/189 | 54.5% |
-| Consumable | 19/102 | 18.63% |
+| Consumable | 30/102 | 29.41% |
 | Disadvantage | 110/134 | 82.09% |
 | Liturgy | 239/318 | 75.16% |
-| Poison | 266/320 | 83.13% |
+| Poison | 267/321 | 83.18% |
 | Praegung | 50/92 | 54.35% |
 | Ritual | 154/298 | 51.68% |
-| Specialability | 1894/3048 | 62.14% |
-| Spell | 419/597 | 70.18% |
+| Specialability | 1896/3245 | 58.43% |
+| Spell | 420/597 | 70.35% |
 | Trait | 145/314 | 46.18% |
 | Wesenszug | 81/140 | 57.86% |
 
 
 
 ## Achaz
-Total status:  82/135 (60.74%)
+Total status:  82/164 (50.0%)
 
 
 ### Advantage
@@ -157,7 +157,6 @@ Total status:  82/135 (60.74%)
 - [x] Keulenwurf (Achaz)
 - [ ] Tradition (H'Szint-Kult)
 - [ ] Wall gegen Schadensmagie (H'Szint-Kult)
-- [ ] Beistand gegen Einflusszauberei (H'Szint-Kult)
 - [ ] Bollwerk gegen Magie (H'Szint-Kult)
 - [ ] Wandelstab (H'Szint-Kult)
 - [x] Schlangenhaut (H'Szint-Kult)
@@ -170,6 +169,36 @@ Total status:  82/135 (60.74%)
 - [x] Pflanzenerkennung (Zsahh-Kult)
 - [ ] Erholsamer Schlaf (Zsahh-Kult)
 - [ ] Tradition (Chr'Ssir'Ssr-Kult)
+- [ ] Schild gegen Einflusszauberei (H'Szint-Kult)
+- [ ] Friedliche Ausstrahlung
+- [ ] Lederhaut
+- [ ] Heilpflanzenernte
+- [ ] Pflanzenbestimmung
+- [ ] Entspannender Schlaf
+- [ ] Fürsorgliches Auftreten
+- [ ] Behagliches Nest
+- [ ] Sicheres Nest
+- [ ] Zsahhs Einklang mit der Natur
+- [ ] Tarnung der Vielgestaltigen
+- [ ] Segen der Allesgebärenden
+- [ ] Armband des Anführers
+- [ ] Verwandlungsresistenz
+- [ ] H’Szints Giftresistenz
+- [ ] Schlangenfreundschaft
+- [ ] Armband der Analyse
+- [ ] Schutz vor Verwandlungszauberei
+- [ ] Macht der Schwingen
+- [ ] Schwingensturm
+- [ ] Schwingenwindstoß
+- [ ] Schwingensprung
+- [ ] Gleitflug
+- [ ] Schwingenhochsprung
+- [ ] Flugechsenfreundschaft
+- [ ] Schuppenpanzer
+- [ ] Echsenschuppen
+- [ ] Chr’Ssir’Ssrs Wissen
+- [ ] Nebelfeld
+- [ ] Blitzstrahl
 
 
 ### Liturgy
@@ -1338,7 +1367,7 @@ Total status:  243/321 (75.7%)
 
 
 ## Core
-Total status:  370/443 (83.52%)
+Total status:  374/443 (84.42%)
 
 
 ### Advantage
@@ -1523,7 +1552,7 @@ Total status:  370/443 (83.52%)
 - [x] Paralysis
 - [x] Penetrizzel
 - [x] Psychostabilis
-- [ ] Radau
+- [x] Radau
 - [x] Respondami
 - [ ] Salander
 - [x] Sanftmut
@@ -1741,13 +1770,13 @@ Total status:  370/443 (83.52%)
 - [ ] Antidot
 - [x] Heiltrank
 - [ ] Liebestrunk
-- [ ] Unsichtbarkeitselixier
+- [x] Unsichtbarkeitselixier
 - [ ] Verwandlungselixier
-- [ ] Waffenbalsam
+- [x] Waffenbalsam
 - [x] Willenstrunk
 - [x] Zaubertrank
 - [ ] Bannstaub
-- [ ] Pastillen gegen Schmerzen
+- [x] Pastillen gegen Schmerzen
 - [x] Zähigkeitstrunk
 
 
@@ -2030,7 +2059,7 @@ Total status:  72/119 (60.5%)
 
 
 ## Goetterwirken
-Total status:  264/411 (64.23%)
+Total status:  265/524 (50.57%)
 
 
 ### Specialability
@@ -2123,7 +2152,6 @@ Total status:  264/411 (64.23%)
 - [x] Weg des Stabträgers
 - [ ] Gegenwehr des Stabträgers
 - [ ] Sicherer Schritt des Stabträgers
-- [ ] Glückskind
 - [ ] Macht des Schicksals
 - [ ] Zeichen der Vorsehung
 - [x] Tradition (Ifirnkirche)
@@ -2286,6 +2314,120 @@ Total status:  264/411 (64.23%)
 - [x] Angriff auf ungeschützte Stellen
 - [x] Anspringen
 - [ ] Unterwasserkampf
+- [ ] Glück mit dir
+- [ ] Guter Schlaf
+- [ ] Gleichklang von Körper und Seele
+- [ ] Praios’ Magieentzug
+- [ ] Kugelschild
+- [ ] Autorität
+- [x] Praiosschutz
+- [ ] Praios’ gestählter Wille
+- [ ] Kraft der Löwin
+- [ ] Bollwerk des Schutzes
+- [ ] Stahlhaut
+- [ ] Mut der Sturmherrin
+- [ ] Einschüchterndes Sturmgebrüll
+- [ ] Zorn der Sturmherrin
+- [ ] Wie ein Fisch im Wasser
+- [ ] Efferds Tierfreundschaft
+- [ ] Gebet der Einsicht
+- [ ] Schützender Wirbelwind
+- [ ] Auf See geboren
+- [ ] Segen der Seeleute
+- [ ] Friedliches Auftreten
+- [ ] Mütterliches Auftreten
+- [ ] Behagliches Heim
+- [ ] Sicheres Heim
+- [ ] Schutz vor den Toten
+- [ ] Angsteinflößende Gestalt
+- [ ] Schlaf der Toten
+- [ ] Buch der Träume
+- [ ] Schlaf der Träume
+- [ ] Beruhigende Worte
+- [ ] Analysestab
+- [ ] Beistand gegen Verwandlungszauberei
+- [ ] Hesindes Magieentzug
+- [ ] Wissensvorteil
+- [ ] Heilige Eingebung
+- [ ] Recherchehilfe
+- [ ] Firuns Bogenweihe
+- [ ] Eisiger Pfeil
+- [ ] Frostiger Pfeil
+- [ ] Auge des Adlers
+- [ ] Weitschuss
+- [ ] Heiliger Blattschuss
+- [ ] Friedensaura
+- [ ] Unbeirrbarkeit
+- [ ] Eidechsenfreundschaft
+- [ ] Gewand des Demagogen
+- [ ] Erholsame Nachtruhe
+- [ ] Geschmeidiges Gewand
+- [ ] Schaffenskraft
+- [ ] Gespür für Geschäfte
+- [ ] Bessere Argumente
+- [ ] Unbeeinflussbar
+- [ ] Tarnung des Ichs
+- [ ] Geistige Umnachtung
+- [ ] Phexens Magieentzug
+- [ ] Pflanzenkenner
+- [ ] Erntezeit
+- [ ] Brot der Stärkung
+- [ ] Heilsames Saatgut
+- [ ] Heilkräuter-Beutel
+- [ ] Beutel der Widerstandskraft
+- [ ] Flammenschutz
+- [ ] Hitze der Esse
+- [ ] Lodernde Laterne
+- [ ] Handwerksmeister
+- [ ] Geschickter Handwerker
+- [ ] Routinierter Handwerker
+- [ ] Der eigene Wille
+- [ ] Rahjas Fürsorge
+- [ ] Reigen der Harmonie
+- [ ] Genussmensch
+- [ ] Rausch der Ekstase
+- [ ] Meister der Ekstase
+- [ ] Flöte der Friedfertigkeit
+- [ ] Lied des Sanftmuts
+- [ ] Lied des Friedens
+- [ ] Vogelflug
+- [ ] Schicksalslied
+- [ ] Segenslied
+- [ ] Ifirns Bogenweihe
+- [ ] Geduldige Jägerin
+- [ ] Kunstschuss
+- [ ] Segen der Waldläuferin
+- [ ] Segen der Schwanengleichen
+- [ ] Ifirns Fürsorge
+- [ ] Mantikorpanzer
+- [ ] Unfehlbarer Hieb
+- [ ] Unaufhaltsam
+- [ ] Unbeeindruckt
+- [ ] Überlegene Taktik
+- [ ] Befehlsgewalt
+- [ ] Pfad des Phex
+- [ ] Auge des Kryptographen
+- [ ] Verschleierung des Wissens
+- [ ] Pfad der Hesinde
+- [ ] Stärkung des Geistes
+- [ ] Weisheit der Schlange
+- [ ] Schicksalsbund
+- [ ] Langer Bund
+- [ ] Eingeschworener Bund
+- [ ] Kampfgemeinschaft
+- [ ] Angriffsgemeinschaft
+- [ ] Schildgemeinschaft
+- [ ] Larve des Demagogen
+- [ ] Larve der Unbeirrbarkeit
+- [ ] Larve des Zauberschilds
+- [ ] Larve des Schutzes
+- [ ] Larve des unbeirrbaren Willens
+- [ ] Larve der Tarnung
+- [ ] Liturgiebindung
+- [ ] Schattenkrieger
+- [ ] Verkünder des Schickals
+- [ ] Die Alte Tradition
+- [ ] Weisung der Sterne
 
 
 ### Liturgy
@@ -2472,7 +2614,7 @@ Total status:  264/411 (64.23%)
 
 
 ## Goetterwirken2
-Total status:  225/320 (70.31%)
+Total status:  226/357 (63.31%)
 
 
 ### Specialability
@@ -2612,6 +2754,43 @@ Total status:  225/320 (70.31%)
 - [ ] Unterwasserkampf
 - [ ] Bannmeister
 - [ ] Aussaugen
+- [ ] Lebemann
+- [ ] Trank der Begierde
+- [ ] Trank des Verführers
+- [ ] Füllhorn des Rausches
+- [ ] Levthans Gelage
+- [ ] Meister des Rausches
+- [ ] Sanfte Worte
+- [ ] Schlaf der Widerstandsfähigkeit
+- [ ] Schlaf des Friedens
+- [ ] Sanduhr der Visionen
+- [ ] Sand der Zukunft
+- [ ] Sand der Geheimnisse
+- [x] Tradition (Shinxirkult)
+- [ ] Mut der Legion
+- [ ] Legionärsgeschick
+- [ ] Legionärsformation
+- [ ] Kompromisslose Taktik
+- [ ] Drohnenopfer
+- [ ] Legionärsbund
+- [ ] Spitzer Stachel
+- [ ] Hornissenstich
+- [ ] Blutender Stich
+- [ ] Shinxirs Standfestigkeit
+- [ ] Hornissenpanzer
+- [ ] Schlachtfeldgeschick
+- [ ] Geisterfetischweihe
+- [ ] Gestählter Geist
+- [ ] Unbezwingbarer Geist
+- [ ] Gestählter Körper
+- [ ] Unbezwingbarer Körper
+- [ ] Unbeugsamkeit
+- [ ] Meisterhandwerker
+- [ ] Hammer der Hitze
+- [ ] Feuerresistenz
+- [ ] Angroschpanzer
+- [ ] Geschärfter Stahl
+- [ ] Durchdringender Schlag
 
 
 ### Liturgy
@@ -2777,7 +2956,7 @@ Total status:  225/320 (70.31%)
 
 
 ## Havena
-Total status:  30/82 (36.59%)
+Total status:  31/89 (34.83%)
 
 
 ### Specialability
@@ -2818,6 +2997,12 @@ Total status:  30/82 (36.59%)
 - [x] Kleines Simulacrum
 - [ ] Unheiligtum errichten
 - [ ] Wasserbrücke
+- [ ] Kiemenatmung
+- [ ] Rochengift
+- [ ] Numinorus Wissen
+- [ ] Numinorus Prophezeiung
+- [ ] Numinorus Zeichen
+- [ ] Numinorus Flutwelle
 
 
 ### Liturgy
@@ -2892,13 +3077,14 @@ Total status:  30/82 (36.59%)
 - [x] Geisterquallengift
 - [x] Quallengift
 - [x] Schattenrochengift
+- [x] Rochengift
 
 
 
 
 
 ## Herbarium
-Total status:  94/139 (67.63%)
+Total status:  97/139 (69.78%)
 
 
 ### Spell
@@ -2947,9 +3133,9 @@ Total status:  94/139 (67.63%)
 - [x] 1001 Rausch
 - [ ] Alchimistensäure
 - [ ] Erscheinungspulver
-- [ ] Eulentränen
+- [x] Eulentränen
 - [x] Fingerfertigkeitselixier
-- [ ] Heilsalbe
+- [x] Heilsalbe
 - [ ] Hylailer Feuer
 - [x] Konstitutionselixier
 - [x] Körperkraftelixier
@@ -2967,7 +3153,7 @@ Total status:  94/139 (67.63%)
 - [ ] Brandsalbe
 - [ ] Horuschenöl
 - [ ] Jacopo-Süßigkeit
-- [ ] Liebesküchlein
+- [x] Liebesküchlein
 - [ ] Lulanientrunk
 - [ ] Praiosmilch
 - [ ] Sansaro-Essenz
@@ -3038,7 +3224,7 @@ Total status:  94/139 (67.63%)
 
 
 ## Herbarium2
-Total status:  63/112 (56.25%)
+Total status:  67/112 (59.82%)
 
 
 ### Specialability
@@ -3062,7 +3248,7 @@ Total status:  63/112 (56.25%)
 
 ### Consumable
 
-- [ ] Atmonbrei
+- [x] Atmonbrei
 - [ ] Dergolasch-Pulver
 - [ ] Egelschreckpaste
 - [ ] Fiebersaft
@@ -3076,13 +3262,13 @@ Total status:  63/112 (56.25%)
 - [x] Charismaelixier
 - [ ] Feuerpulver
 - [ ] Friedenswasser
-- [ ] Furchtlos-Tropfen
+- [x] Furchtlos-Tropfen
 - [x] Gewandtheitselixier
 - [ ] Ghulscheuche
 - [ ] Gnädiger Drachenodem
-- [ ] Hauch der Weissagung
+- [x] Hauch der Weissagung
 - [ ] Ifirnstrunk
-- [ ] Kaltes Licht
+- [x] Kaltes Licht
 - [x] Mutelixier
 - [ ] Neckergel
 - [ ] Pulver des Klaren Geistes
@@ -3149,7 +3335,7 @@ Total status:  63/112 (56.25%)
 
 
 ## Incorporealhorrors
-Total status:  48/84 (57.14%)
+Total status:  49/84 (58.33%)
 
 
 ### Spell
@@ -3255,7 +3441,7 @@ Total status:  48/84 (57.14%)
 - [ ] Bannkreide
 - [ ] Beschwörungskreide
 - [ ] Tijakools Hauch
-- [ ] Waffenbalsam
+- [x] Waffenbalsam
 
 
 ### Poison
@@ -4809,7 +4995,7 @@ Total status:  68/84 (80.95%)
 
 
 ## Orcs
-Total status:  56/87 (64.37%)
+Total status:  56/99 (56.57%)
 
 
 ### Advantage
@@ -4866,6 +5052,18 @@ Total status:  56/87 (64.37%)
 - [x] Anspringen
 - [x] Angriff auf ungeschützte Stellen
 - [ ] Überrennen
+- [ ] Graveshs Beständigkeit
+- [ ] Graveshs Geschick
+- [ ] Graveshs Routine
+- [ ] Brandimmunität
+- [ ] Graveshs glühender Hammer
+- [ ] Graveshs glühende Esse
+- [ ] Graveshs Meisterhandwerk
+- [ ] Geschärfte Klinge
+- [ ] Durchdringende Klinge
+- [ ] Handwerkshilfe
+- [ ] Lodernde Klinge
+- [ ] Brandresistenz
 
 
 ### Spell
