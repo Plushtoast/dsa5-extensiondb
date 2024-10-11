@@ -1,0 +1,428 @@
+{
+  "Kristallomantische Kristallkugel (geworfen)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Wurfnetz der Lähmung": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Schneidzahn": {
+    "source": [
+      "armory",
+      "core"
+    ]
+  },
+  "Wurfkeule": {
+    "source": [
+      "armory",
+      "core"
+    ]
+  },
+  "Wurfnetz": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Wurfstern": {
+    "source": [
+      "armory",
+      "core"
+    ]
+  },
+  "Wurfspeer": {
+    "source": [
+      "armory",
+      "core",
+      "goetterwirken2"
+    ]
+  },
+  "Balestra": {
+    "source": [
+      "armory2",
+      "compendium2"
+    ]
+  },
+  "Borndorn": {
+    "source": [
+      "armory2",
+      "compendium2",
+      "winterwatch"
+    ]
+  },
+  "Fledermaus": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Kriegsbogen": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Schleuder": {
+    "source": [
+      "compendium",
+      "goetterwirken"
+    ]
+  },
+  "Gaoraith": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Balestrina": {
+    "source": [
+      "core"
+    ]
+  },
+  "Eisenwalder": {
+    "source": [
+      "core"
+    ]
+  },
+  "Handarmbrust": {
+    "source": [
+      "core"
+    ]
+  },
+  "Leichte Armbrust": {
+    "source": [
+      "core"
+    ]
+  },
+  "Schwere Armbrust": {
+    "source": [
+      "core"
+    ]
+  },
+  "Elfenbogen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Kompositbogen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Kurzbogen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Langbogen": {
+    "source": [
+      "core"
+    ]
+  },
+  "Stein": {
+    "source": [
+      "core"
+    ]
+  },
+  "Wurfbeil": {
+    "source": [
+      "core"
+    ]
+  },
+  "Wurfdolch": {
+    "source": [
+      "core"
+    ]
+  },
+  "Wurfring": {
+    "source": [
+      "core"
+    ]
+  },
+  "Wurfscheibe": {
+    "source": [
+      "core"
+    ]
+  },
+  "Thalusische Rebellenarmbrust": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Beni-Geraut-Schie-Bogen": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Ferkina-Kurzbogen": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Unauer Kompositbogen": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Efferdbart (2H)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Firunsbogen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Ifirnsbogen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Der Wurfstern des Phex": {
+    "source": [
+      "goetterwirken2",
+      "realmofthethorns"
+    ]
+  },
+  "Diskus": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Gaoraith (Albernische Wurfaxt)": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Schnellfeuerarmbrust „Ucuri“": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Schwere Armbrust „Leonardo Original“": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Krähenfüße": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Schlängelbeutel": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Blasrohr": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Lichtnebler-Beutel": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Zauberkugel (geworfen)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Magierkugel": {
+    "source": [
+      "magie2",
+      "studyroom"
+    ]
+  },
+  "Anchopaler Silberstern": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Baburiner Streitwagenbogen": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Baburischer Wurfspeer": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Gorische Wurfscheibe": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Yalaiadscher Schnepper": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Valvarandir": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Thuranstolz-Langbogen": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Kriegsdiskus aus Frumolds Heer": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Belen-Horas’ Wurfspeer": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Angbarer Mauerwehr": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Isenhager Armbrust": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Koscher Kurzbogen": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Waldwachter Armbrust": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Albernischer Langbogen": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Windhager Schleuder": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Albernisches Wurfbeil": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Blasrohr, kurz": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Blasrohr, lang": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Harpune": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Kurzbogen der Yakosh-Dey": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Wurfspeer der Anoiha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Zwille der Oijaniha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Netz der Keke-Wanaq": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Kleine Magierkugel": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Gastraphetes": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Granatapfel": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Hylaische Schleuder": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Phrygaischer Wurfspeer": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Bodirtaler Kurzbogen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Kettenkugel": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Wurfspeer": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Ifirnshavener Hailanze": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Virporter Schneidzahn": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Findling": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Nostrischer Langbogen": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Kutscherarmbrust": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Goblinschleuder": {
+    "source": [
+      "winterwatch"
+    ]
+  }
+}

@@ -1,33 +1,33 @@
 {
-  "Animatio": {
+  "Applicatus": {
     "source": [
-      "animatorium"
+      "arcanelabs",
+      "magie3",
+      "studyroom"
     ]
   },
-  "Transmutare": {
+  "Arcanovi": {
     "source": [
-      "animatorium"
+      "arcanelabs",
+      "core"
     ]
   },
-  "Planastrale": {
+  "Infinitum Immerdar": {
     "source": [
-      "animatorium"
+      "arcanelabs",
+      "magie3",
+      "studyroom"
     ]
   },
-  "Caldofrigo": {
+  "Zauberklinge Geisterspeer": {
     "source": [
-      "animatorium"
+      "arcanelabs"
     ]
   },
   "Traumgestalt": {
     "source": [
       "broodofhell",
       "magie2"
-    ]
-  },
-  "Arcanovi": {
-    "source": [
-      "core"
     ]
   },
   "Friedenslied": {
@@ -108,6 +108,16 @@
       "magie3"
     ]
   },
+  "Hartes schmelze": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
+  "Weiches Erstarre": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
   "Lied der Pflanzen": {
     "source": [
       "herbarium"
@@ -141,7 +151,8 @@
   "Melodie der Angriffslust": {
     "source": [
       "magie1",
-      "sevenwindscoast"
+      "sevenwindscoast",
+      "thorwal"
     ]
   },
   "Melodie der Erlösung": {
@@ -166,7 +177,8 @@
   },
   "Melodie der Versöhnung": {
     "source": [
-      "magie1"
+      "magie1",
+      "thorwal"
     ]
   },
   "Melodie des Bebens": {
@@ -182,7 +194,8 @@
   },
   "Melodie des Windes": {
     "source": [
-      "magie1"
+      "magie1",
+      "thorwal"
     ]
   },
   "Melodie des Zögerns": {
@@ -458,22 +471,20 @@
       "magie3"
     ]
   },
-  "Applicatus": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
-  "Infinitum Immerdar": {
-    "source": [
-      "magie3",
-      "studyroom"
-    ]
-  },
   "Lawinenfall und Trümmerfeld": {
     "source": [
       "magie3",
       "transmutarium"
+    ]
+  },
+  "Ruf der Feenwesen": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Zauberwesen der Natur": {
+    "source": [
+      "otherworld"
     ]
   },
   "Riesengestalt": {
@@ -484,6 +495,46 @@
   "Melodie der Tiere": {
     "source": [
       "suncoast"
+    ]
+  },
+  "Friedensrune (Fjöterlundruna)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Ottarune (Ottaruna)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Rüstrune (Verndunruna)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Schicksalsrune (Wyrdruna)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Schutzrune vor Zauberei (Galderbanruna)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Melodie der Täuschung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Wirbelform": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Xenographus": {
+    "source": [
+      "thorwal"
     ]
   },
   "Elementarer Verbündeter": {

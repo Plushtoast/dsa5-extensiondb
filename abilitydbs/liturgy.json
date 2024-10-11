@@ -116,7 +116,8 @@
   },
   "Besänftigung": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "thorwal"
     ]
   },
   "Dämonenwall": {
@@ -320,6 +321,26 @@
   "Die Heilige Laterne zu Angbar": {
     "source": [
       "riverlands"
+    ]
+  },
+  "Blutiger Zorn": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Heldenkraft": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Mammutruf": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tiere beruhigen": {
+    "source": [
+      "thorwal"
     ]
   }
 }

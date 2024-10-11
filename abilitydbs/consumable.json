@@ -1,7 +1,96 @@
 {
   "Synärethikon": {
     "source": [
-      "animatorium"
+      "animatorium",
+      "arcanelabs"
+    ]
+  },
+  "Alkahest": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Anderswelt-Lidschatten": {
+    "source": [
+      "arcanelabs",
+      "otherworld"
+    ]
+  },
+  "Bannstaub": {
+    "source": [
+      "arcanelabs",
+      "core"
+    ]
+  },
+  "Der Rote Leu": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Elixier der Stille": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Erdkraft-Lack": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Fatas-Tabak": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Feuerpulver": {
+    "source": [
+      "arcanelabs",
+      "herbarium2"
+    ]
+  },
+  "Göttlicher Balsam": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Nebelfarbe": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Peraines kleine Gnade": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Rachenputzer": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Respondarum": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Seifenblasen-Packesel": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Sonnenlicht-Elixier": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Trank der Gottesnähe": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Trank der tausend Augen": {
+    "source": [
+      "arcanelabs"
     ]
   },
   "Hylailer Feuer": {
@@ -10,6 +99,31 @@
       "herbarium",
       "magie2",
       "suncoast"
+    ]
+  },
+  "Eulentränen": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Kaltes Licht": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Leuchtkreide": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Pyrophor": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Trunk der ruhigen Hand": {
+    "source": [
+      "catacombs"
     ]
   },
   "Antidot": {
@@ -23,11 +137,6 @@
     ]
   },
   "Verwandlungselixier": {
-    "source": [
-      "core"
-    ]
-  },
-  "Bannstaub": {
     "source": [
       "core"
     ]
@@ -207,11 +316,6 @@
       "magie2"
     ]
   },
-  "Feuerpulver": {
-    "source": [
-      "herbarium2"
-    ]
-  },
   "Friedenswasser": {
     "source": [
       "herbarium2"
@@ -299,7 +403,8 @@
   },
   "Beschwörungskreide": {
     "source": [
-      "incorporealhorrors"
+      "incorporealhorrors",
+      "otherworld"
     ]
   },
   "Schwadenbeutel": {

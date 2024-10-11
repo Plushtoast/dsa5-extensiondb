@@ -18,16 +18,6 @@
       "animatorium"
     ]
   },
-  "Krafliniensensitiv": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Immobil": {
-    "source": [
-      "animatorium"
-    ]
-  },
   "Resistenz gegenüber göttlichem Willen": {
     "source": [
       "animatorium"
@@ -39,6 +29,7 @@
       "elementarium",
       "magie3",
       "nekromanthaeum",
+      "otherworld",
       "pandaemonium",
       "transmutarium"
     ]
@@ -50,33 +41,9 @@
       "incorporealhorrors",
       "magie3",
       "nekromanthaeum",
+      "otherworld",
       "pandaemonium",
       "transmutarium"
-    ]
-  },
-  "Selbstreparatur": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Sprechender Golem": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Tarnung": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Verbindung zum Erschaffer": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Zerbersten": {
-    "source": [
-      "animatorium"
     ]
   },
   "Zusätzliche Aktionen": {
@@ -86,286 +53,212 @@
       "incorporealhorrors",
       "magie3",
       "nekromanthaeum",
+      "otherworld",
       "pandaemonium",
       "transmutarium"
     ]
   },
-  "Blei": {
+  "Veredlung: Eisen": {
     "source": [
       "animatorium"
     ]
   },
-  "Eisen": {
+  "Veredlung: Zinn": {
     "source": [
       "animatorium"
     ]
   },
-  "Kobalt": {
+  "Veredlung: Chrom": {
     "source": [
       "animatorium"
     ]
   },
-  "Kupfer": {
+  "Veredlung: Epharit (Gumijok)": {
     "source": [
       "animatorium"
     ]
   },
-  "Zink": {
+  "Veredlung: Mondsilber (Platin)": {
     "source": [
       "animatorium"
     ]
   },
-  "Zinn": {
+  "Veredlung: Quecksilber": {
     "source": [
       "animatorium"
     ]
   },
-  "Antimon": {
+  "Veredlung: Silber": {
     "source": [
       "animatorium"
     ]
   },
-  "Bronze": {
+  "Veredlung: Arkanium": {
     "source": [
       "animatorium"
     ]
   },
-  "Chrom": {
+  "Veredlung: Endurium": {
     "source": [
       "animatorium"
     ]
   },
-  "Epharit (Gumijok)": {
+  "Veredlung: Mindorium": {
     "source": [
       "animatorium"
     ]
   },
-  "Stahl": {
+  "Veredlung: Titanium": {
     "source": [
       "animatorium"
     ]
   },
-  "Wismut": {
+  "Veredlung: Cupritan": {
     "source": [
       "animatorium"
     ]
   },
-  "Angrak (Zwergengold)": {
+  "Veredlung: Illuminium": {
     "source": [
       "animatorium"
     ]
   },
-  "Elektrum (Wassergold)": {
+  "Veredlung: Meteoreisen": {
     "source": [
       "animatorium"
     ]
   },
-  "Gold": {
+  "Veredlung: Brandbronze": {
     "source": [
       "animatorium"
     ]
   },
-  "Mondsilber (Platin)": {
+  "Veredlung: Fesselkies": {
     "source": [
       "animatorium"
     ]
   },
-  "Quecksilber": {
+  "Veredlung: Frostkristall": {
     "source": [
       "animatorium"
     ]
   },
-  "Silber": {
+  "Veredlung: Geisterblech": {
     "source": [
       "animatorium"
     ]
   },
-  "Toschkril (Zwergensilber)": {
+  "Veredlung: Hölleneisen": {
     "source": [
       "animatorium"
     ]
   },
-  "Arkanium": {
+  "Veredlung: Knochenblei": {
     "source": [
       "animatorium"
     ]
   },
-  "Endurium": {
+  "Veredlung: Krakensilber": {
     "source": [
       "animatorium"
     ]
   },
-  "Mindorium": {
+  "Veredlung: Mordstahl": {
     "source": [
       "animatorium"
     ]
   },
-  "Titanium": {
+  "Veredlung: Narrenglas": {
     "source": [
       "animatorium"
     ]
   },
-  "Cupritan": {
+  "Veredlung: Neidblende": {
     "source": [
       "animatorium"
     ]
   },
-  "Illuminium": {
+  "Veredlung: Qualkupfer": {
     "source": [
       "animatorium"
     ]
   },
-  "Meteoreisen": {
+  "Veredlung: Rattengold": {
     "source": [
       "animatorium"
     ]
   },
-  "Brandbronze": {
+  "Veredlung: Rauschgold": {
     "source": [
       "animatorium"
     ]
   },
-  "Fesselkies": {
+  "Veredlung: Schattenglanz": {
     "source": [
       "animatorium"
     ]
   },
-  "Frostkristall": {
+  "Veredlung: Seuchenerz": {
     "source": [
       "animatorium"
     ]
   },
-  "Geisterblech": {
+  "Veredlung: Zeitenmessing": {
     "source": [
       "animatorium"
     ]
   },
-  "Hölleneisen": {
+  "Veredlung: Zitterzinn": {
     "source": [
       "animatorium"
     ]
   },
-  "Knochenblei": {
+  "Veredlung: Diamant": {
     "source": [
       "animatorium"
     ]
   },
-  "Krakensilber": {
+  "Veredlung: Gwen-Petryl": {
     "source": [
       "animatorium"
     ]
   },
-  "Mordstahl": {
+  "Veredlung: Karfunkel": {
     "source": [
       "animatorium"
     ]
   },
-  "Narrenglas": {
+  "Veredlung: Kashra-Stein": {
     "source": [
       "animatorium"
     ]
   },
-  "Neidblende": {
+  "Veredlung: Sangurit-Kristall": {
     "source": [
       "animatorium"
     ]
   },
-  "Qualkupfer": {
+  "Veredlung: Schwarze Perle": {
     "source": [
       "animatorium"
     ]
   },
-  "Rattengold": {
+  "Veredlung: Topas": {
     "source": [
       "animatorium"
     ]
   },
-  "Rauschgold": {
+  "Veredlung: Haare": {
     "source": [
       "animatorium"
     ]
   },
-  "Schattenglanz": {
+  "Veredlung: Blutulme": {
     "source": [
       "animatorium"
     ]
   },
-  "Zeitenmessing": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Zitterzinn": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Bernstein": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Diamant": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Gwen-Petryl": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Karfunkel": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Kashra-Stein": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Lignolith": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Sangurit-Kristall": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Schwarze Perle": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Topas": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Fleisch": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Haare": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Knochen": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Blutulme": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Wachs": {
+  "Veredlung: Wachs": {
     "source": [
       "animatorium"
     ]
@@ -451,6 +344,7 @@
       "elementarium",
       "incorporealhorrors",
       "magie3",
+      "otherworld",
       "pandaemonium"
     ]
   },
@@ -460,6 +354,7 @@
       "incorporealhorrors",
       "magie3",
       "nekromanthaeum",
+      "otherworld",
       "pandaemonium",
       "transmutarium"
     ]
@@ -659,6 +554,26 @@
   "Nekrotischer Angriff": {
     "source": [
       "nekromanthaeum"
+    ]
+  },
+  "Immunität gegen kritische Treffer": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Regeneration": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Tarnung": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Verbindung zum Beschwörer/Erschaffer": {
+    "source": [
+      "otherworld"
     ]
   },
   "Materialisierung": {
