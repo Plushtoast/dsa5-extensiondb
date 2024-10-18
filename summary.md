@@ -1,5 +1,5 @@
 # Summary
-last_updated: 2024-10-18 09:48:00
+last_updated: 2024-10-18 17:37:03
 
 | Book | Status | % |
 | --- | --- | --- |
@@ -17,13 +17,13 @@ last_updated: 2024-10-18 09:48:00
 | [Companions](#companions) | 80/111 | 72.07% |
 | [Compendium](#compendium) | 228/288 | 79.17% |
 | [Compendium2](#compendium2) | 243/344 | 70.64% |
-| [Core](#core) | 374/527 | 70.97% |
+| [Core](#core) | 458/527 | 86.91% |
 | [Desertkingdom](#desertkingdom) | 78/113 | 69.03% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
 | [Goetterwirken](#goetterwirken) | 265/545 | 48.62% |
 | [Goetterwirken2](#goetterwirken2) | 226/404 | 55.94% |
 | [Goldenemperor](#goldenemperor) | 0/10 | 0.0% |
-| [Havena](#havena) | 31/103 | 30.1% |
+| [Havena](#havena) | 41/103 | 39.81% |
 | [Herbarium](#herbarium) | 97/143 | 67.83% |
 | [Herbarium2](#herbarium2) | 67/115 | 58.26% |
 | [Incorporealhorrors](#incorporealhorrors) | 49/84 | 58.33% |
@@ -41,37 +41,37 @@ last_updated: 2024-10-18 09:48:00
 | [Pandaemonium2](#pandaemonium2) | 23/31 | 74.19% |
 | [Rabenkrieg4](#rabenkrieg4) | 1/2 | 50.0% |
 | [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
-| [Realmofthethorns](#realmofthethorns) | 64/137 | 46.72% |
+| [Realmofthethorns](#realmofthethorns) | 76/136 | 55.88% |
 | [Retosarmory](#retosarmory) | 12/105 | 11.43% |
 | [Revelations](#revelations) | 3/3 | 100.0% |
 | [Riverlands](#riverlands) | 105/184 | 57.07% |
-| [Sevenwindscoast](#sevenwindscoast) | 91/186 | 48.92% |
+| [Sevenwindscoast](#sevenwindscoast) | 92/186 | 49.46% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
-| [Steamingjungles](#steamingjungles) | 100/185 | 54.05% |
+| [Steamingjungles](#steamingjungles) | 118/185 | 63.78% |
 | [Studyroom](#studyroom) | 135/232 | 58.19% |
-| [Suncoast](#suncoast) | 103/184 | 55.98% |
+| [Suncoast](#suncoast) | 125/184 | 67.93% |
 | [Thorwal](#thorwal) | 2/195 | 1.03% |
 | [Transmutarium](#transmutarium) | 53/81 | 65.43% |
 | [Warringkingdoms](#warringkingdoms) | 57/136 | 41.91% |
 | [Winterwatch](#winterwatch) | 108/189 | 57.14% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | --- | --- | --- |
-| Total | 4022/7282 | 55.23% |
+| Total | 4169/7281 | 57.26% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
 | Advantage | 148/226 | 65.49% |
-| Armors | 55/135 | 40.74% |
+| Armors | 76/135 | 56.3% |
 | Ceremony | 103/193 | 53.37% |
 | Consumable | 30/127 | 23.62% |
 | Disadvantage | 110/136 | 80.88% |
 | Liturgy | 241/323 | 74.61% |
-| Meleeweapons | 172/697 | 24.68% |
+| Meleeweapons | 268/696 | 38.51% |
 | Poison | 267/325 | 82.15% |
 | Praegung | 50/105 | 47.62% |
-| Rangeweapons | 39/122 | 31.97% |
+| Rangeweapons | 69/122 | 56.56% |
 | Ritual | 158/317 | 49.84% |
 | Specialability | 1953/3437 | 56.82% |
 | Spell | 423/641 | 65.99% |
@@ -1903,7 +1903,7 @@ Total status:  243/344 (70.64%)
 
 
 ## Core
-Total status:  374/527 (70.97%)
+Total status:  458/527 (86.91%)
 
 
 ### Advantage
@@ -2328,98 +2328,98 @@ Total status:  374/527 (70.97%)
 
 ### Meleeweapons
 
-- [ ] Basiliskenzunge
-- [ ] Dolch
-- [ ] Drachenzahn
-- [ ] Linkhand
-- [ ] Messer
-- [ ] Schwerer Dolch
-- [ ] Waqqif
-- [ ] Florett
-- [ ] Rapier
-- [ ] Wolfsmesser
-- [ ] Brabakbengel
-- [ ] Keule
-- [ ] Knüppel
-- [ ] Lindwurmschläger
-- [ ] Magierstab, kurz
-- [ ] Magierstab, mittel
-- [ ] Molokdeschnaja
-- [ ] Orknase
-- [ ] Rabenschnabel
-- [ ] Sonnenzepter
-- [ ] Streitaxt
-- [ ] Streitkolben
-- [ ] Morgenstern
-- [ ] Kriegslanze
-- [ ] Schlagring
-- [ ] Holzschild
-- [ ] Lederschild
-- [ ] Thorwalerschild
-- [ ] Großschild
-- [ ] Barbarenschwert
-- [ ] Entermesser
-- [ ] Haumesser
-- [ ] Khunchomer
-- [ ] Kurzschwert
-- [ ] Langschwert
-- [ ] Robbentöter
-- [ ] Säbel
-- [ ] Sklaventod
-- [ ] Dreizack (2H)
-- [ ] Dschadra (2H)
-- [ ] Hellebarde (2H)
-- [ ] Holzspeer (2H)
-- [ ] Kampfstab (2H)
-- [ ] Magierstab, lang (2H)
-- [ ] Speer (2H)
-- [ ] Zweililie (2H)
-- [ ] Anderthalbhänder (2H)
-- [ ] Doppelkhunchomer (2H)
-- [ ] Großer Sklaventod (2H)
-- [ ] Rondrakamm (2H)
-- [ ] Tuzakmesser (2H)
-- [ ] Zweihänder (2H)
-- [ ] Barbarenstreitaxt (2H)
-- [ ] Felsspalter (2H)
-- [ ] Kriegshammer (2H)
-- [ ] Zwergenschlägel (2H)
+- [x] Basiliskenzunge
+- [x] Dolch
+- [x] Drachenzahn
+- [x] Linkhand
+- [x] Messer
+- [x] Schwerer Dolch
+- [x] Waqqif
+- [x] Florett
+- [x] Rapier
+- [x] Wolfsmesser
+- [x] Brabakbengel
+- [x] Keule
+- [x] Knüppel
+- [x] Lindwurmschläger
+- [x] Magierstab, kurz
+- [x] Magierstab, mittel
+- [x] Molokdeschnaja
+- [x] Orknase
+- [x] Rabenschnabel
+- [x] Sonnenzepter
+- [x] Streitaxt
+- [x] Streitkolben
+- [x] Morgenstern
+- [x] Kriegslanze
+- [x] Schlagring
+- [x] Holzschild
+- [x] Lederschild
+- [x] Thorwalerschild
+- [x] Großschild
+- [x] Barbarenschwert
+- [x] Entermesser
+- [x] Haumesser
+- [x] Khunchomer
+- [x] Kurzschwert
+- [x] Langschwert
+- [x] Robbentöter
+- [x] Säbel
+- [x] Sklaventod
+- [x] Dreizack (2H)
+- [x] Dschadra (2H)
+- [x] Hellebarde (2H)
+- [x] Holzspeer (2H)
+- [x] Kampfstab (2H)
+- [x] Magierstab, lang (2H)
+- [x] Speer (2H)
+- [x] Zweililie (2H)
+- [x] Anderthalbhänder (2H)
+- [x] Doppelkhunchomer (2H)
+- [x] Großer Sklaventod (2H)
+- [x] Rondrakamm (2H)
+- [x] Tuzakmesser (2H)
+- [x] Zweihänder (2H)
+- [x] Barbarenstreitaxt (2H)
+- [x] Felsspalter (2H)
+- [x] Kriegshammer (2H)
+- [x] Zwergenschlägel (2H)
 
 
 ### Rangeweapons
 
-- [ ] Balestrina
-- [ ] Eisenwalder
-- [ ] Handarmbrust
-- [ ] Leichte Armbrust
-- [ ] Schwere Armbrust
-- [ ] Elfenbogen
-- [ ] Kompositbogen
-- [ ] Kurzbogen
-- [ ] Langbogen
-- [ ] Schneidzahn
-- [ ] Stein
-- [ ] Wurfbeil
-- [ ] Wurfdolch
-- [ ] Wurfkeule
-- [ ] Wurfring
-- [ ] Wurfscheibe
-- [ ] Wurfstern
-- [ ] Wurfspeer
+- [x] Balestrina
+- [x] Eisenwalder
+- [x] Handarmbrust
+- [x] Leichte Armbrust
+- [x] Schwere Armbrust
+- [x] Elfenbogen
+- [x] Kompositbogen
+- [x] Kurzbogen
+- [x] Langbogen
+- [x] Schneidzahn
+- [x] Stein
+- [x] Wurfbeil
+- [x] Wurfdolch
+- [x] Wurfkeule
+- [x] Wurfring
+- [x] Wurfscheibe
+- [x] Wurfstern
+- [x] Wurfspeer
 
 
 ### Armors
 
-- [ ] Normale Kleidung
-- [ ] Felle
-- [ ] Schwere Kleidung
-- [ ] Winterkleidung
-- [ ] Stoffrüstung
-- [ ] Gambeson
-- [ ] Lederrüstung
-- [ ] Kettenrüstung
-- [ ] Schuppenrüstung
-- [ ] Plattenrüstung
+- [x] Normale Kleidung
+- [x] Felle
+- [x] Schwere Kleidung
+- [x] Winterkleidung
+- [x] Stoffrüstung
+- [x] Gambeson
+- [x] Lederrüstung
+- [x] Kettenrüstung
+- [x] Schuppenrüstung
+- [x] Plattenrüstung
 
 
 
@@ -3754,7 +3754,7 @@ Total status:  0/10 (0.0%)
 
 
 ## Havena
-Total status:  31/103 (30.1%)
+Total status:  41/103 (39.81%)
 
 
 ### Specialability
@@ -3880,28 +3880,28 @@ Total status:  31/103 (30.1%)
 
 ### Meleeweapons
 
-- [ ] Albernischer Anderthalbhänder (2H)
-- [ ] Efferdbart (2H)
+- [x] Albernischer Anderthalbhänder (2H)
+- [x] Efferdbart (2H)
 - [ ] Harbener Säbel
 - [ ] Havener Buckler
 - [ ] Havener Messer
-- [ ] Neckerdreizack (2H)
-- [ ] Tiefendorn (2H)
-- [ ] Charib’Yzz-Dolch
-- [ ] Krakensilberspeer (2H)
+- [x] Neckerdreizack (2H)
+- [x] Tiefendorn (2H)
+- [x] Charib’Yzz-Dolch
+- [x] Krakensilberspeer (2H)
 
 
 ### Rangeweapons
 
-- [ ] Gaoraith (Albernische Wurfaxt)
-- [ ] Schnellfeuerarmbrust „Ucuri“
-- [ ] Schwere Armbrust „Leonardo Original“
+- [x] Gaoraith (Albernische Wurfaxt)
+- [x] Schnellfeuerarmbrust „Ucuri“
+- [x] Schwere Armbrust „Leonardo Original“
 
 
 ### Armors
 
 - [ ] Havener Lederharnisch
-- [ ] Schuppengewand
+- [x] Schuppengewand
 
 
 
@@ -6336,7 +6336,7 @@ Total status:  0/1 (0.0%)
 
 
 ## Realmofthethorns
-Total status:  64/137 (46.72%)
+Total status:  76/136 (55.88%)
 
 
 ### Praegung
@@ -6481,29 +6481,28 @@ Total status:  64/137 (46.72%)
 ### Armors
 
 - [ ] Elburische Tuchrüstung
-- [ ] Baburischer Spiegelpanzer
+- [x] Baburischer Spiegelpanzer
 - [ ] Zorganer Ringelpanzer
-- [ ] Skorpionrüstung
+- [x] Skorpionrüstung
 
 
 ### Meleeweapons
 
 - [ ] Aranischer Säbel
-- [ ] Chalukischer Kettenstab
+- [x] Chalukischer Kettenstab
 - [ ] Elburischer Lederschild
 - [ ] Elburumer Dornenfächer
-- [ ] Mendlicumer Stechhammer
+- [x] Mendlicumer Stechhammer
 - [ ] Llankaner Eisenfächer
-- [ ] Palmyrer Reitersäbel
-- [ ] Palmyrische Dschadra (2H)
-- [ ] Shariwaner Schnitter (2H)
-- [ ] Zorganer Dolch
-- [ ] Oronische Klingengeißel, Sichelklinge (2H)
-- [ ] Oronische Klingengeißel, Kettenkugel (2H)
+- [x] Palmyrer Reitersäbel
+- [x] Palmyrische Dschadra (2H)
+- [x] Shariwaner Schnitter (2H)
+- [x] Zorganer Dolch
+- [ ] Oronische Klingengeißel (2H)
 - [ ] Oronischer Scimitar (2H)
-- [ ] Oronischer Rahjafrevler (2H)
+- [x] Oronischer Rahjafrevler (2H)
 - [ ] Obstpflücker (2H, i)
-- [ ] Amethystlöwin
+- [x] Amethystlöwin
 - [ ] Belkelels Zuchtmeisterin
 - [ ] Die Dschadra al’Zul (2H)
 - [ ] Dornrosengerte
@@ -6513,10 +6512,10 @@ Total status:  64/137 (46.72%)
 ### Rangeweapons
 
 - [ ] Anchopaler Silberstern
-- [ ] Baburiner Streitwagenbogen
+- [x] Baburiner Streitwagenbogen
 - [ ] Baburischer Wurfspeer
 - [ ] Gorische Wurfscheibe
-- [ ] Yalaiadscher Schnepper
+- [x] Yalaiadscher Schnepper
 - [ ] Der Wurfstern des Phex
 
 
@@ -6903,7 +6902,7 @@ Total status:  105/184 (57.07%)
 
 
 ## Sevenwindscoast
-Total status:  91/186 (48.92%)
+Total status:  92/186 (49.46%)
 
 
 ### Specialability
@@ -7141,7 +7140,7 @@ Total status:  91/186 (48.92%)
 
 - [ ] Albernischer Langbogen
 - [ ] Windhager Schleuder
-- [ ] Albernisches Wurfbeil
+- [x] Albernisches Wurfbeil
 
 
 
@@ -7178,7 +7177,7 @@ Total status:  2/2 (100.0%)
 
 
 ## Steamingjungles
-Total status:  100/185 (54.05%)
+Total status:  118/185 (63.78%)
 
 
 ### Specialability
@@ -7372,10 +7371,10 @@ Total status:  100/185 (54.05%)
 
 ### Rangeweapons
 
-- [ ] Blasrohr, kurz
+- [x] Blasrohr, kurz
 - [ ] Blasrohr, lang
-- [ ] Harpune
-- [ ] Kurzbogen der Yakosh-Dey
+- [x] Harpune
+- [x] Kurzbogen der Yakosh-Dey
 - [ ] Wurfspeer der Anoiha
 - [ ] Zwille der Oijaniha
 - [ ] Netz der Keke-Wanaq
@@ -7383,30 +7382,30 @@ Total status:  100/185 (54.05%)
 
 ### Meleeweapons
 
-- [ ] Baccanaq
+- [x] Baccanaq
 - [ ] Entdeckerpeitsche
-- [ ] Jagdspeer der Mohaha (2H)
-- [ ] Karmulka
-- [ ] Katar der Eidechsenkrieger
-- [ ] Keulenbeil der Miniwatu
-- [ ] Bastschild
-- [ ] Leichter Lederschild
-- [ ] Panzerschild
+- [x] Jagdspeer der Mohaha (2H)
+- [x] Karmulka
+- [x] Katar der Eidechsenkrieger
+- [x] Keulenbeil der Miniwatu
+- [x] Bastschild
+- [x] Leichter Lederschild
+- [x] Panzerschild
 - [ ] Machete
 - [ ] Stachelkeule der Tschopukikuha
 - [ ] Tauchspeer der Napewanha
-- [ ] Epharit-Schild
-- [ ] Epharit-Schwert
-- [ ] Epharit-Speer
+- [x] Epharit-Schild
+- [x] Epharit-Schwert
+- [x] Epharit-Speer
 - [ ] Geisteraxt
-- [ ] Knochenkeule, kurz
-- [ ] Knochenkeule, mittel
-- [ ] Knochenkeule, lang (2H)
+- [x] Knochenkeule, kurz
+- [x] Knochenkeule, mittel
+- [x] Knochenkeule, lang (2H)
 
 
 ### Armors
 
-- [ ] Bastrüstung
+- [x] Bastrüstung
 - [ ] Keke-Chitinrüstung
 - [ ] Miniwatu-Lederharnisch
 - [ ] Epharit-Rüstung
@@ -7689,7 +7688,7 @@ Total status:  135/232 (58.19%)
 
 
 ## Suncoast
-Total status:  103/184 (55.98%)
+Total status:  125/184 (67.93%)
 
 
 ### Specialability
@@ -7883,45 +7882,45 @@ Total status:  103/184 (55.98%)
 
 ### Armors
 
-- [ ] Brigantina
-- [ ] Bronzeharnisch
-- [ ] Fünflagenharnisch
-- [ ] Neethaner Reiterharnisch
+- [x] Brigantina
+- [x] Bronzeharnisch
+- [x] Fünflagenharnisch
+- [x] Neethaner Reiterharnisch
 - [ ] Seekriegerrüstung
-- [ ] Tuchrüstung
-- [ ] Purpurne Gewänder
+- [x] Tuchrüstung
+- [x] Purpurne Gewänder
 - [ ] Der Krustenpanzer
-- [ ] Zyklopische Kettenrüstung
+- [x] Zyklopische Kettenrüstung
 
 
 ### Meleeweapons
 
 - [ ] Arkisischer Parazonium
-- [ ] Baltreïscher Pailos (2H)
-- [ ] Chababischer Waqqif
+- [x] Baltreïscher Pailos (2H)
+- [x] Chababischer Waqqif
 - [ ] Chirakah-Haumesser
-- [ ] Drôler Reiterhammer
-- [ ] Hirtenstab (2H)
+- [x] Drôler Reiterhammer
+- [x] Hirtenstab (2H)
 - [ ] Kopis
-- [ ] Neethaner Langaxt (2H)
-- [ ] Sarissa der Seekrieger (2H)
+- [x] Neethaner Langaxt (2H)
+- [x] Sarissa der Seekrieger (2H)
 - [ ] Sklaventreibergerte
 - [ ] Zyklopäischer Rundschild
-- [ ] Ay'Halam al'Rhondrachai
-- [ ] Opferdolch des Namenlosen
-- [ ] Das Monadenschwert Balgringa
-- [ ] Lavawut
-- [ ] Avesstab (2H)
-- [ ] Zyklopisches Langschwert
+- [x] Ay'Halam al'Rhondrachai (2H)
+- [x] Opferdolch des Namenlosen
+- [x] Das Monadenschwert Balgringa
+- [x] Lavawut
+- [x] Avesstab (2H)
+- [x] Zyklopisches Langschwert
 - [ ] Zauberinstrument (Flöte und ähnliche Instrumente) (i)
 - [ ] Zauberinstrument (Laute und ähnliche Instrumente) (i)
 
 
 ### Rangeweapons
 
-- [ ] Gastraphetes
-- [ ] Granatapfel
-- [ ] Hylaische Schleuder
+- [x] Gastraphetes
+- [x] Granatapfel
+- [x] Hylaische Schleuder
 - [ ] Phrygaischer Wurfspeer
 
 

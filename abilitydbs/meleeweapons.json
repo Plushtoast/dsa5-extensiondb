@@ -52,8 +52,7 @@
   },
   "Barbarenstreitaxt (2H)": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Faustschild": {
@@ -64,8 +63,7 @@
   },
   "Felsspalter (2H)": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Hakendolch": {
@@ -75,8 +73,7 @@
   },
   "Haumesser": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Jagdspieß (2H)": {
@@ -86,14 +83,12 @@
   },
   "Kurzschwert": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Lederschild": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Mengbilar": {
@@ -103,8 +98,7 @@
   },
   "Messer": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Ochsenherde (2H)": {
@@ -139,14 +133,12 @@
   },
   "Thorwalerschild": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Wolfsmesser": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Bratspieß (i)": {
@@ -210,7 +202,6 @@
   "Kriegslanze": {
     "source": [
       "armory2",
-      "core",
       "warringkingdoms"
     ]
   },
@@ -400,8 +391,7 @@
   },
   "Hirtenstab (2H)": {
     "source": [
-      "compendium",
-      "suncoast"
+      "compendium"
     ]
   },
   "Pailos (2H)": {
@@ -492,249 +482,7 @@
   },
   "Zwergenschlägel (2H)": {
     "source": [
-      "compendium2",
-      "core"
-    ]
-  },
-  "Basiliskenzunge": {
-    "source": [
-      "core"
-    ]
-  },
-  "Dolch": {
-    "source": [
-      "core"
-    ]
-  },
-  "Drachenzahn": {
-    "source": [
-      "core"
-    ]
-  },
-  "Linkhand": {
-    "source": [
-      "core"
-    ]
-  },
-  "Schwerer Dolch": {
-    "source": [
-      "core"
-    ]
-  },
-  "Waqqif": {
-    "source": [
-      "core"
-    ]
-  },
-  "Florett": {
-    "source": [
-      "core"
-    ]
-  },
-  "Rapier": {
-    "source": [
-      "core"
-    ]
-  },
-  "Brabakbengel": {
-    "source": [
-      "core"
-    ]
-  },
-  "Keule": {
-    "source": [
-      "core"
-    ]
-  },
-  "Knüppel": {
-    "source": [
-      "core"
-    ]
-  },
-  "Lindwurmschläger": {
-    "source": [
-      "core"
-    ]
-  },
-  "Magierstab, kurz": {
-    "source": [
-      "core",
-      "magie1",
-      "studyroom"
-    ]
-  },
-  "Magierstab, mittel": {
-    "source": [
-      "core",
-      "magie1",
-      "studyroom"
-    ]
-  },
-  "Molokdeschnaja": {
-    "source": [
-      "core"
-    ]
-  },
-  "Orknase": {
-    "source": [
-      "core"
-    ]
-  },
-  "Rabenschnabel": {
-    "source": [
-      "core",
-      "goetterwirken"
-    ]
-  },
-  "Sonnenzepter": {
-    "source": [
-      "core",
-      "goetterwirken"
-    ]
-  },
-  "Streitaxt": {
-    "source": [
-      "core",
-      "warringkingdoms"
-    ]
-  },
-  "Streitkolben": {
-    "source": [
-      "core",
-      "warringkingdoms"
-    ]
-  },
-  "Morgenstern": {
-    "source": [
-      "core"
-    ]
-  },
-  "Schlagring": {
-    "source": [
-      "core"
-    ]
-  },
-  "Holzschild": {
-    "source": [
-      "core"
-    ]
-  },
-  "Großschild": {
-    "source": [
-      "core"
-    ]
-  },
-  "Barbarenschwert": {
-    "source": [
-      "core"
-    ]
-  },
-  "Entermesser": {
-    "source": [
-      "core"
-    ]
-  },
-  "Khunchomer": {
-    "source": [
-      "core"
-    ]
-  },
-  "Langschwert": {
-    "source": [
-      "core"
-    ]
-  },
-  "Robbentöter": {
-    "source": [
-      "core"
-    ]
-  },
-  "Säbel": {
-    "source": [
-      "core"
-    ]
-  },
-  "Sklaventod": {
-    "source": [
-      "core"
-    ]
-  },
-  "Dreizack (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Dschadra (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Hellebarde (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Holzspeer (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Kampfstab (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Magierstab, lang (2H)": {
-    "source": [
-      "core",
-      "magie1",
-      "studyroom"
-    ]
-  },
-  "Speer (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Zweililie (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Anderthalbhänder (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Doppelkhunchomer (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Großer Sklaventod (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Rondrakamm (2H)": {
-    "source": [
-      "core",
-      "goetterwirken"
-    ]
-  },
-  "Tuzakmesser (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Zweihänder (2H)": {
-    "source": [
-      "core"
-    ]
-  },
-  "Kriegshammer (2H)": {
-    "source": [
-      "core"
+      "compendium2"
     ]
   },
   "Novadischer Schild": {
@@ -779,11 +527,20 @@
   },
   "Opferdolch des Namenlosen": {
     "source": [
-      "goetterwirken",
-      "suncoast"
+      "goetterwirken"
     ]
   },
   "Firunsmesser": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Rabenschnabel": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Sonnenzepter": {
     "source": [
       "goetterwirken"
     ]
@@ -795,14 +552,12 @@
   },
   "Avesstab (2H)": {
     "source": [
-      "goetterwirken",
-      "suncoast"
+      "goetterwirken"
     ]
   },
   "Efferdbart (2H)": {
     "source": [
-      "goetterwirken",
-      "havena"
+      "goetterwirken"
     ]
   },
   "Wanderstab (2H)": {
@@ -812,6 +567,11 @@
     ]
   },
   "Korspieß (2H)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Rondrakamm (2H)": {
     "source": [
       "goetterwirken"
     ]
@@ -853,14 +613,12 @@
   },
   "Knochenkeule, kurz": {
     "source": [
-      "goetterwirken2",
-      "steamingjungles"
+      "goetterwirken2"
     ]
   },
   "Knochenkeule, mittel": {
     "source": [
-      "goetterwirken2",
-      "steamingjungles"
+      "goetterwirken2"
     ]
   },
   "Widderkeule": {
@@ -900,8 +658,7 @@
   },
   "Knochenkeule, lang (2H)": {
     "source": [
-      "goetterwirken2",
-      "steamingjungles"
+      "goetterwirken2"
     ]
   },
   "Mohaknochenkeule, kurz": {
@@ -1007,11 +764,6 @@
       "goetterwirken2"
     ]
   },
-  "Albernischer Anderthalbhänder (2H)": {
-    "source": [
-      "havena"
-    ]
-  },
   "Harbener Säbel": {
     "source": [
       "havena",
@@ -1022,26 +774,6 @@
     "source": [
       "havena",
       "sevenwindscoast"
-    ]
-  },
-  "Neckerdreizack (2H)": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Tiefendorn (2H)": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Charib’Yzz-Dolch": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Krakensilberspeer (2H)": {
-    "source": [
-      "havena"
     ]
   },
   "Dornrosengerte": {
@@ -1130,6 +862,24 @@
     "source": [
       "magie1",
       "suncoast"
+    ]
+  },
+  "Magierstab, kurz": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Magierstab, mittel": {
+    "source": [
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Magierstab, lang (2H)": {
+    "source": [
+      "magie1",
+      "studyroom"
     ]
   },
   "Zauberkugel": {
@@ -1282,11 +1032,6 @@
       "realmofthethorns"
     ]
   },
-  "Chalukischer Kettenstab": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
   "Elburischer Lederschild": {
     "source": [
       "realmofthethorns"
@@ -1297,42 +1042,12 @@
       "realmofthethorns"
     ]
   },
-  "Mendlicumer Stechhammer": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
   "Llankaner Eisenfächer": {
     "source": [
       "realmofthethorns"
     ]
   },
-  "Palmyrer Reitersäbel": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Palmyrische Dschadra (2H)": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Shariwaner Schnitter (2H)": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Zorganer Dolch": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Oronische Klingengeißel, Sichelklinge (2H)": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Oronische Klingengeißel, Kettenkugel (2H)": {
+  "Oronische Klingengeißel (2H)": {
     "source": [
       "realmofthethorns"
     ]
@@ -1342,17 +1057,7 @@
       "realmofthethorns"
     ]
   },
-  "Oronischer Rahjafrevler (2H)": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
   "Obstpflücker (2H, i)": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Amethystlöwin": {
     "source": [
       "realmofthethorns"
     ]
@@ -1848,67 +1553,12 @@
       "sevenwindscoast"
     ]
   },
-  "Baccanaq": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Jagdspeer der Mohaha (2H)": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Karmulka": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Katar der Eidechsenkrieger": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Keulenbeil der Miniwatu": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Bastschild": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Leichter Lederschild": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Panzerschild": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
   "Stachelkeule der Tschopukikuha": {
     "source": [
       "steamingjungles"
     ]
   },
   "Tauchspeer der Napewanha": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Epharit-Schild": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Epharit-Schwert": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Epharit-Speer": {
     "source": [
       "steamingjungles"
     ]
@@ -1973,37 +1623,12 @@
       "suncoast"
     ]
   },
-  "Baltreïscher Pailos (2H)": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Chababischer Waqqif": {
-    "source": [
-      "suncoast"
-    ]
-  },
   "Chirakah-Haumesser": {
     "source": [
       "suncoast"
     ]
   },
-  "Drôler Reiterhammer": {
-    "source": [
-      "suncoast"
-    ]
-  },
   "Kopis": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Neethaner Langaxt (2H)": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Sarissa der Seekrieger (2H)": {
     "source": [
       "suncoast"
     ]
@@ -2014,26 +1639,6 @@
     ]
   },
   "Zyklopäischer Rundschild": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Ay'Halam al'Rhondrachai": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Das Monadenschwert Balgringa": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Lavawut": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Zyklopisches Langschwert": {
     "source": [
       "suncoast"
     ]
@@ -2229,6 +1834,16 @@
     ]
   },
   "Saufeder (2H)": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Streitaxt": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Streitkolben": {
     "source": [
       "warringkingdoms"
     ]

@@ -93,56 +93,6 @@
       "warringkingdoms"
     ]
   },
-  "Normale Kleidung": {
-    "source": [
-      "core"
-    ]
-  },
-  "Felle": {
-    "source": [
-      "core"
-    ]
-  },
-  "Schwere Kleidung": {
-    "source": [
-      "core"
-    ]
-  },
-  "Winterkleidung": {
-    "source": [
-      "core"
-    ]
-  },
-  "Stoffrüstung": {
-    "source": [
-      "core"
-    ]
-  },
-  "Gambeson": {
-    "source": [
-      "core"
-    ]
-  },
-  "Lederrüstung": {
-    "source": [
-      "core"
-    ]
-  },
-  "Kettenrüstung": {
-    "source": [
-      "core"
-    ]
-  },
-  "Schuppenrüstung": {
-    "source": [
-      "core"
-    ]
-  },
-  "Plattenrüstung": {
-    "source": [
-      "core"
-    ]
-  },
   "Mherweder Ringelpanzer": {
     "source": [
       "desertkingdom"
@@ -170,8 +120,7 @@
   },
   "Schuppengewand": {
     "source": [
-      "goetterwirken",
-      "havena"
+      "goetterwirken"
     ]
   },
   "Die Wundersame Rüstung": {
@@ -215,17 +164,7 @@
       "realmofthethorns"
     ]
   },
-  "Baburischer Spiegelpanzer": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
   "Zorganer Ringelpanzer": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Skorpionrüstung": {
     "source": [
       "realmofthethorns"
     ]
@@ -275,11 +214,6 @@
       "sevenwindscoast"
     ]
   },
-  "Bastrüstung": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
   "Keke-Chitinrüstung": {
     "source": [
       "steamingjungles"
@@ -295,47 +229,12 @@
       "steamingjungles"
     ]
   },
-  "Brigantina": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Bronzeharnisch": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Fünflagenharnisch": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Neethaner Reiterharnisch": {
-    "source": [
-      "suncoast"
-    ]
-  },
   "Seekriegerrüstung": {
     "source": [
       "suncoast"
     ]
   },
-  "Tuchrüstung": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Purpurne Gewänder": {
-    "source": [
-      "suncoast"
-    ]
-  },
   "Der Krustenpanzer": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Zyklopische Kettenrüstung": {
     "source": [
       "suncoast"
     ]

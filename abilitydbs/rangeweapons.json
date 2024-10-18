@@ -16,14 +16,12 @@
   },
   "Schneidzahn": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Wurfkeule": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Wurfnetz": {
@@ -33,14 +31,12 @@
   },
   "Wurfstern": {
     "source": [
-      "armory",
-      "core"
+      "armory"
     ]
   },
   "Wurfspeer": {
     "source": [
       "armory",
-      "core",
       "goetterwirken2"
     ]
   },
@@ -75,76 +71,6 @@
       "compendium2"
     ]
   },
-  "Balestrina": {
-    "source": [
-      "core"
-    ]
-  },
-  "Eisenwalder": {
-    "source": [
-      "core"
-    ]
-  },
-  "Handarmbrust": {
-    "source": [
-      "core"
-    ]
-  },
-  "Leichte Armbrust": {
-    "source": [
-      "core"
-    ]
-  },
-  "Schwere Armbrust": {
-    "source": [
-      "core"
-    ]
-  },
-  "Elfenbogen": {
-    "source": [
-      "core"
-    ]
-  },
-  "Kompositbogen": {
-    "source": [
-      "core"
-    ]
-  },
-  "Kurzbogen": {
-    "source": [
-      "core"
-    ]
-  },
-  "Langbogen": {
-    "source": [
-      "core"
-    ]
-  },
-  "Stein": {
-    "source": [
-      "core"
-    ]
-  },
-  "Wurfbeil": {
-    "source": [
-      "core"
-    ]
-  },
-  "Wurfdolch": {
-    "source": [
-      "core"
-    ]
-  },
-  "Wurfring": {
-    "source": [
-      "core"
-    ]
-  },
-  "Wurfscheibe": {
-    "source": [
-      "core"
-    ]
-  },
   "Efferdbart (2H)": {
     "source": [
       "goetterwirken"
@@ -169,21 +95,6 @@
   "Diskus": {
     "source": [
       "goetterwirken2"
-    ]
-  },
-  "Gaoraith (Albernische Wurfaxt)": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Schnellfeuerarmbrust „Ucuri“": {
-    "source": [
-      "havena"
-    ]
-  },
-  "Schwere Armbrust „Leonardo Original“": {
-    "source": [
-      "havena"
     ]
   },
   "Krähenfüße": {
@@ -222,22 +133,12 @@
       "realmofthethorns"
     ]
   },
-  "Baburiner Streitwagenbogen": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
   "Baburischer Wurfspeer": {
     "source": [
       "realmofthethorns"
     ]
   },
   "Gorische Wurfscheibe": {
-    "source": [
-      "realmofthethorns"
-    ]
-  },
-  "Yalaiadscher Schnepper": {
     "source": [
       "realmofthethorns"
     ]
@@ -277,27 +178,7 @@
       "sevenwindscoast"
     ]
   },
-  "Albernisches Wurfbeil": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Blasrohr, kurz": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
   "Blasrohr, lang": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Harpune": {
-    "source": [
-      "steamingjungles"
-    ]
-  },
-  "Kurzbogen der Yakosh-Dey": {
     "source": [
       "steamingjungles"
     ]
@@ -320,21 +201,6 @@
   "Kleine Magierkugel": {
     "source": [
       "studyroom"
-    ]
-  },
-  "Gastraphetes": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Granatapfel": {
-    "source": [
-      "suncoast"
-    ]
-  },
-  "Hylaische Schleuder": {
-    "source": [
-      "suncoast"
     ]
   },
   "Phrygaischer Wurfspeer": {
