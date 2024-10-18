@@ -44,19 +44,6 @@
       "goetterwirken2"
     ]
   },
-  "Balestra": {
-    "source": [
-      "armory2",
-      "compendium2"
-    ]
-  },
-  "Borndorn": {
-    "source": [
-      "armory2",
-      "compendium2",
-      "winterwatch"
-    ]
-  },
   "Fledermaus": {
     "source": [
       "armory2"
@@ -71,6 +58,16 @@
     "source": [
       "compendium",
       "goetterwirken"
+    ]
+  },
+  "Balestra": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Borndorn": {
+    "source": [
+      "compendium2"
     ]
   },
   "Gaoraith": {
@@ -146,26 +143,6 @@
   "Wurfscheibe": {
     "source": [
       "core"
-    ]
-  },
-  "Thalusische Rebellenarmbrust": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Beni-Geraut-Schie-Bogen": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Ferkina-Kurzbogen": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Unauer Kompositbogen": {
-    "source": [
-      "desertkingdom"
     ]
   },
   "Efferdbart (2H)": {
@@ -285,22 +262,7 @@
       "retosarmory"
     ]
   },
-  "Angbarer Mauerwehr": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Isenhager Armbrust": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Koscher Kurzbogen": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Waldwachter Armbrust": {
     "source": [
       "riverlands"
     ]
@@ -410,19 +372,14 @@
       "thorwal"
     ]
   },
+  "Gjalsker Kettenkugel (2H,i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
   "Nostrischer Langbogen": {
     "source": [
       "warringkingdoms"
-    ]
-  },
-  "Kutscherarmbrust": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Goblinschleuder": {
-    "source": [
-      "winterwatch"
     ]
   }
 }

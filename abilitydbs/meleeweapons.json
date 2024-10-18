@@ -107,11 +107,6 @@
       "core"
     ]
   },
-  "Nachtwind": {
-    "source": [
-      "armory"
-    ]
-  },
   "Ochsenherde (2H)": {
     "source": [
       "armory"
@@ -299,8 +294,7 @@
   },
   "Holzhammer (i)": {
     "source": [
-      "aventurian-taverns",
-      "riverlands"
+      "aventurian-taverns"
     ]
   },
   "Hügelzwergisches Kurzschwert": {
@@ -323,8 +317,7 @@
   },
   "Albernisches Langschwert": {
     "source": [
-      "aventurian-taverns",
-      "sevenwindscoast"
+      "aventurian-taverns"
     ]
   },
   "Lea Invicta": {
@@ -579,8 +572,7 @@
   },
   "Molokdeschnaja": {
     "source": [
-      "core",
-      "winterwatch"
+      "core"
     ]
   },
   "Orknase": {
@@ -745,72 +737,7 @@
       "core"
     ]
   },
-  "Amadah-Waqqif": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Krummdolch": {
-    "source": [
-      "desertkingdom",
-      "goetterwirken2"
-    ]
-  },
-  "Novadische Reiteraxt": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Thalusische Jitte": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Thalusische Sichel": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Knochenkeule, kurz": {
-    "source": [
-      "desertkingdom",
-      "goetterwirken2",
-      "steamingjungles"
-    ]
-  },
-  "Knochenkeule, mittel": {
-    "source": [
-      "desertkingdom",
-      "goetterwirken2",
-      "steamingjungles"
-    ]
-  },
-  "Thalusischer Panzerarm": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
   "Novadischer Schild": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Beni-Geraut-Schie-Säbel": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Novadischer Khunchomer": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Ferkina-Dschadra (2H)": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Kefter Dschadra (2H)": {
     "source": [
       "desertkingdom"
     ]
@@ -820,24 +747,7 @@
       "desertkingdom"
     ]
   },
-  "Knochenkeule, lang (2H)": {
-    "source": [
-      "desertkingdom",
-      "goetterwirken2",
-      "steamingjungles"
-    ]
-  },
-  "Mherweder Doppelkhunchomer (2H)": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
   "Thalusischer Kadikalam (2H)": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Esravun, Sternenschwert des Mautaban": {
     "source": [
       "desertkingdom"
     ]
@@ -892,8 +802,7 @@
   "Efferdbart (2H)": {
     "source": [
       "goetterwirken",
-      "havena",
-      "sevenwindscoast"
+      "havena"
     ]
   },
   "Wanderstab (2H)": {
@@ -927,6 +836,11 @@
       "goetterwirken2"
     ]
   },
+  "Krummdolch": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
   "Marbodolch": {
     "source": [
       "goetterwirken2"
@@ -935,6 +849,18 @@
   "Heroldsstab": {
     "source": [
       "goetterwirken2"
+    ]
+  },
+  "Knochenkeule, kurz": {
+    "source": [
+      "goetterwirken2",
+      "steamingjungles"
+    ]
+  },
+  "Knochenkeule, mittel": {
+    "source": [
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Widderkeule": {
@@ -970,6 +896,12 @@
   "Partisane (2H)": {
     "source": [
       "goetterwirken2"
+    ]
+  },
+  "Knochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2",
+      "steamingjungles"
     ]
   },
   "Mohaknochenkeule, kurz": {
@@ -1019,17 +951,20 @@
   },
   "Gjalskerknochenkeule, kurz": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "thorwal"
     ]
   },
   "Gjalskerknochenkeule, mittel": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "thorwal"
     ]
   },
   "Gjalskerknochenkeule, lang (2H)": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "thorwal"
     ]
   },
   "Fjarningerknochenkeule, kurz": {
@@ -1074,8 +1009,7 @@
   },
   "Albernischer Anderthalbhänder (2H)": {
     "source": [
-      "havena",
-      "sevenwindscoast"
+      "havena"
     ]
   },
   "Harbener Säbel": {
@@ -1092,8 +1026,7 @@
   },
   "Neckerdreizack (2H)": {
     "source": [
-      "havena",
-      "sevenwindscoast"
+      "havena"
     ]
   },
   "Tiefendorn (2H)": {
@@ -1179,14 +1112,12 @@
   },
   "Flöte und ähnliche Instrumente (i)": {
     "source": [
-      "magie1",
-      "sevenwindscoast"
+      "magie1"
     ]
   },
   "Laute und ähnliche Instrumente (i)": {
     "source": [
-      "magie1",
-      "sevenwindscoast"
+      "magie1"
     ]
   },
   "Zauberinstrument (Flöte und ähnliche Instrumente) (i)": {
@@ -1261,13 +1192,6 @@
   "Nivesischer Wolfsspeer (2H)": {
     "source": [
       "magie3"
-    ]
-  },
-  "Druidendolch": {
-    "source": [
-      "magie3",
-      "riverlands",
-      "warringkingdoms"
     ]
   },
   "Arbach": {
@@ -1833,22 +1757,18 @@
       "retosarmory"
     ]
   },
+  "Druidendolch": {
+    "source": [
+      "riverlands",
+      "warringkingdoms"
+    ]
+  },
   "Albenhuser Rossschinder (2H)": {
     "source": [
       "riverlands"
     ]
   },
-  "Angbarer Sappeursaxt": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Eisenhuetter Kriegshammer (2H)": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Elenviner Reiterhammer": {
     "source": [
       "riverlands"
     ]
@@ -1878,16 +1798,6 @@
       "riverlands"
     ]
   },
-  "Lûrer Lindwurmschläger": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Muroloscher Zwergenschlägel (2H)": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Senaloscher Sehnenschneider": {
     "source": [
       "riverlands"
@@ -1898,27 +1808,7 @@
       "riverlands"
     ]
   },
-  "Xorloscher Wurmspieß (2H)": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Koscher Grevenstecken (i)": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Schmiedewerkzeug (i)": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Vorschlaghammer (2H, i)": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Guldebrandt (2H)": {
     "source": [
       "riverlands"
     ]
@@ -1933,22 +1823,7 @@
       "sevenwindscoast"
     ]
   },
-  "Albernische Wurzelholzkeule": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
   "Albernischer Langdolch": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Albernische Spießaxt (2H)": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Seesäbel": {
     "source": [
       "sevenwindscoast"
     ]
@@ -1969,16 +1844,6 @@
     ]
   },
   "Torfgabel (i)": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Opallöwin (2H)": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Immanschläger": {
     "source": [
       "sevenwindscoast"
     ]
@@ -2268,6 +2133,61 @@
       "thorwal"
     ]
   },
+  "Gjalsker Barbarenstreitaxt (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Kettenkugel (2H,i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Barbarenhammer (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Thorwalscher Immanschläger (2H,i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Torstorsgarder Speer (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Varnheimer Dreizack (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Flöte (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Handtrommel (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Laute (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Leier (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tyrfing": {
+    "source": [
+      "thorwal"
+    ]
+  },
   "Hummerier-Speer (2H)": {
     "source": [
       "transmutarium"
@@ -2333,37 +2253,7 @@
       "warringkingdoms"
     ]
   },
-  "Goblinkeule, kurz": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Goblinkeule, mittel": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Goblinkeule, lang (2H)": {
-    "source": [
-      "winterwatch"
-    ]
-  },
   "Birkholter Drachenspeer (2H)": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Bornische Peitsche": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Bronnjarenschwert (2H)": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Festumer Säbel": {
     "source": [
       "winterwatch"
     ]
@@ -2378,27 +2268,7 @@
       "winterwatch"
     ]
   },
-  "Norbardische Setztartsche": {
-    "source": [
-      "winterwatch"
-    ]
-  },
   "Ranzengarbe (2H)": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Rattenfänger": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Romagh (2H)": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Sewerischer Reitersäbel": {
     "source": [
       "winterwatch"
     ]
@@ -2414,11 +2284,6 @@
     ]
   },
   "Eisschwert": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Schwert des Nordens": {
     "source": [
       "winterwatch"
     ]

@@ -67,8 +67,7 @@
   },
   "Koscher Gambeson": {
     "source": [
-      "aventurian-taverns",
-      "riverlands"
+      "aventurian-taverns"
     ]
   },
   "Holzrüstung": {
@@ -144,32 +143,12 @@
       "core"
     ]
   },
-  "Ferkina-Fellrüstung": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Ferkina-Chitinrüstung": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Lederrüstung der Beni Geraut Schie": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
   "Mherweder Ringelpanzer": {
     "source": [
       "desertkingdom"
     ]
   },
   "Novadischer Waffenrock": {
-    "source": [
-      "desertkingdom"
-    ]
-  },
-  "Spiegelpanzer": {
     "source": [
       "desertkingdom"
     ]
@@ -286,16 +265,6 @@
       "retosarmory"
     ]
   },
-  "Albenhuser Plattenharnisch": {
-    "source": [
-      "riverlands"
-    ]
-  },
-  "Nordmärker Ritterrüstung": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Isnatoscher Kettengeflecht": {
     "source": [
       "riverlands"
@@ -396,32 +365,7 @@
       "warringkingdoms"
     ]
   },
-  "Bornischer Eisenmantel": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Goblinische Fellweste": {
-    "source": [
-      "winterwatch"
-    ]
-  },
   "Märker Kettenhemd": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Neersander Gambeson": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Norbardischer Ledermantel": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Sewerischer Flügelharnisch": {
     "source": [
       "winterwatch"
     ]

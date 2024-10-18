@@ -1,13 +1,13 @@
 # Summary
-last_updated: 2024-10-11 21:48:26
+last_updated: 2024-10-18 09:48:00
 
 | Book | Status | % |
 | --- | --- | --- |
 | [Achaz](#achaz) | 82/178 | 46.07% |
 | [Animatorium](#animatorium) | 87/174 | 50.0% |
 | [Arcanelabs](#arcanelabs) | 18/73 | 24.66% |
-| [Armory](#armory) | 112/149 | 75.17% |
-| [Armory2](#armory2) | 117/153 | 76.47% |
+| [Armory](#armory) | 113/149 | 75.84% |
+| [Armory2](#armory2) | 119/153 | 77.78% |
 | [Aventurian-taverns](#aventurian-taverns) | 1/8 | 12.5% |
 | [Bannerofloyalty](#bannerofloyalty) | 9/21 | 42.86% |
 | [Bestiary](#bestiary) | 27/33 | 81.82% |
@@ -18,7 +18,7 @@ last_updated: 2024-10-11 21:48:26
 | [Compendium](#compendium) | 228/288 | 79.17% |
 | [Compendium2](#compendium2) | 243/344 | 70.64% |
 | [Core](#core) | 374/527 | 70.97% |
-| [Desertkingdom](#desertkingdom) | 55/113 | 48.67% |
+| [Desertkingdom](#desertkingdom) | 78/113 | 69.03% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
 | [Goetterwirken](#goetterwirken) | 265/545 | 48.62% |
 | [Goetterwirken2](#goetterwirken2) | 226/404 | 55.94% |
@@ -31,7 +31,7 @@ last_updated: 2024-10-11 21:48:26
 | [Library](#library) | 6/12 | 50.0% |
 | [Magie1](#magie1) | 204/383 | 53.26% |
 | [Magie2](#magie2) | 216/372 | 58.06% |
-| [Magie3](#magie3) | 157/394 | 39.85% |
+| [Magie3](#magie3) | 159/394 | 40.36% |
 | [Mastertools](#mastertools) | 97/105 | 92.38% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 68/96 | 70.83% |
@@ -44,36 +44,36 @@ last_updated: 2024-10-11 21:48:26
 | [Realmofthethorns](#realmofthethorns) | 64/137 | 46.72% |
 | [Retosarmory](#retosarmory) | 12/105 | 11.43% |
 | [Revelations](#revelations) | 3/3 | 100.0% |
-| [Riverlands](#riverlands) | 88/184 | 47.83% |
-| [Sevenwindscoast](#sevenwindscoast) | 80/186 | 43.01% |
+| [Riverlands](#riverlands) | 105/184 | 57.07% |
+| [Sevenwindscoast](#sevenwindscoast) | 91/186 | 48.92% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
 | [Steamingjungles](#steamingjungles) | 100/185 | 54.05% |
 | [Studyroom](#studyroom) | 135/232 | 58.19% |
 | [Suncoast](#suncoast) | 103/184 | 55.98% |
-| [Thorwal](#thorwal) | 2/179 | 1.12% |
+| [Thorwal](#thorwal) | 2/195 | 1.03% |
 | [Transmutarium](#transmutarium) | 53/81 | 65.43% |
 | [Warringkingdoms](#warringkingdoms) | 57/136 | 41.91% |
-| [Winterwatch](#winterwatch) | 88/189 | 46.56% |
+| [Winterwatch](#winterwatch) | 108/189 | 57.14% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | --- | --- | --- |
-| Total | 3946/7266 | 54.31% |
+| Total | 4022/7282 | 55.23% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
 | Advantage | 148/226 | 65.49% |
-| Armors | 43/135 | 31.85% |
+| Armors | 55/135 | 40.74% |
 | Ceremony | 103/193 | 53.37% |
 | Consumable | 30/127 | 23.62% |
 | Disadvantage | 110/136 | 80.88% |
-| Liturgy | 239/323 | 73.99% |
-| Meleeweapons | 123/683 | 18.01% |
+| Liturgy | 241/323 | 74.61% |
+| Meleeweapons | 172/697 | 24.68% |
 | Poison | 267/325 | 82.15% |
 | Praegung | 50/105 | 47.62% |
-| Rangeweapons | 27/121 | 22.31% |
+| Rangeweapons | 39/122 | 31.97% |
 | Ritual | 158/317 | 49.84% |
-| Specialability | 1952/3436 | 56.81% |
+| Specialability | 1953/3437 | 56.82% |
 | Spell | 423/641 | 65.99% |
 | Trait | 192/348 | 55.17% |
 | Wesenszug | 81/150 | 54.0% |
@@ -568,7 +568,7 @@ Total status:  18/73 (24.66%)
 
 
 ## Armory
-Total status:  112/149 (75.17%)
+Total status:  113/149 (75.84%)
 
 
 ### Specialability
@@ -652,7 +652,7 @@ Total status:  112/149 (75.17%)
 - [ ] Messer
 - [x] Molokdeschnaja
 - [x] Morgenstern
-- [ ] Nachtwind
+- [x] Nachtwind
 - [ ] Ochsenherde (2H)
 - [ ] Ogerfänger
 - [ ] Ogerschelle
@@ -736,7 +736,7 @@ Total status:  112/149 (75.17%)
 
 
 ## Armory2
-Total status:  117/153 (76.47%)
+Total status:  119/153 (77.78%)
 
 
 ### Specialability
@@ -839,8 +839,8 @@ Total status:  117/153 (76.47%)
 
 ### Rangeweapons
 
-- [ ] Balestra
-- [ ] Borndorn
+- [x] Balestra
+- [x] Borndorn
 - [ ] Fledermaus
 - [x] Granatapfel
 - [ ] Kriegsbogen
@@ -2426,7 +2426,7 @@ Total status:  374/527 (70.97%)
 
 
 ## Desertkingdom
-Total status:  55/113 (48.67%)
+Total status:  78/113 (69.03%)
 
 
 ### Spell
@@ -2539,24 +2539,24 @@ Total status:  55/113 (48.67%)
 
 ### Meleeweapons
 
-- [ ] Amadah-Waqqif
-- [ ] Krummdolch
-- [ ] Novadische Reiteraxt
-- [ ] Thalusische Jitte
-- [ ] Thalusische Sichel
-- [ ] Knochenkeule, kurz
-- [ ] Knochenkeule, mittel
-- [ ] Thalusischer Panzerarm
+- [x] Amadah-Waqqif
+- [x] Krummdolch
+- [x] Novadische Reiteraxt
+- [x] Thalusische Jitte
+- [x] Thalusische Sichel
+- [x] Knochenkeule, kurz
+- [x] Knochenkeule, mittel
+- [x] Thalusischer Panzerarm
 - [ ] Novadischer Schild
-- [ ] Beni-Geraut-Schie-Säbel
-- [ ] Novadischer Khunchomer
-- [ ] Ferkina-Dschadra (2H)
-- [ ] Kefter Dschadra (2H)
+- [x] Beni-Geraut-Schie-Säbel
+- [x] Novadischer Khunchomer
+- [x] Ferkina-Dschadra (2H)
+- [x] Kefter Dschadra (2H)
 - [ ] Ferkina-Barbarenstreitaxt (2H)
-- [ ] Knochenkeule, lang (2H)
-- [ ] Mherweder Doppelkhunchomer (2H)
+- [x] Knochenkeule, lang (2H)
+- [x] Mherweder Doppelkhunchomer (2H)
 - [ ] Thalusischer Kadikalam (2H)
-- [ ] Esravun, Sternenschwert des Mautaban
+- [x] Esravun, Sternenschwert des Mautaban
 - [ ] Der Tausendjährige Zweihänder (2H)
 - [ ] Dschadra Al’Abrah, die Träne Rastullahs
 - [ ] Echter Bernsteindolch
@@ -2566,20 +2566,20 @@ Total status:  55/113 (48.67%)
 
 ### Rangeweapons
 
-- [ ] Thalusische Rebellenarmbrust
-- [ ] Beni-Geraut-Schie-Bogen
-- [ ] Ferkina-Kurzbogen
-- [ ] Unauer Kompositbogen
+- [x] Thalusische Rebellenarmbrust
+- [x] Beni-Geraut-Schie-Bogen
+- [x] Ferkina-Kurzbogen
+- [x] Unauer Kompositbogen
 
 
 ### Armors
 
-- [ ] Ferkina-Fellrüstung
-- [ ] Ferkina-Chitinrüstung
-- [ ] Lederrüstung der Beni Geraut Schie
+- [x] Ferkina-Fellrüstung
+- [x] Ferkina-Chitinrüstung
+- [x] Lederrüstung der Beni Geraut Schie
 - [ ] Mherweder Ringelpanzer
 - [ ] Novadischer Waffenrock
-- [ ] Spiegelpanzer
+- [x] Spiegelpanzer
 
 
 
@@ -5221,7 +5221,7 @@ Total status:  216/372 (58.06%)
 
 
 ## Magie3
-Total status:  157/394 (39.85%)
+Total status:  159/394 (40.36%)
 
 
 ### Specialability
@@ -5326,7 +5326,7 @@ Total status:  157/394 (39.85%)
 - [x] Chimärenmeister
 - [x] Daimonidenkonstrukteur
 - [ ] Druidenrache
-- [ ] Golembauer
+- [x] Golembauer
 - [ ] Exzellenter Entschwörer
 - [x] Machtvoller Astralleib
 - [x] Nekromant
@@ -5651,7 +5651,7 @@ Total status:  157/394 (39.85%)
 - [ ] Harigastur-Bronzeschwert
 - [ ] Nipauka-Axt
 - [ ] Nivesischer Wolfsspeer (2H)
-- [ ] Druidendolch
+- [x] Druidendolch
 
 
 
@@ -6678,7 +6678,7 @@ Total status:  3/3 (100.0%)
 
 
 ## Riverlands
-Total status:  88/184 (47.83%)
+Total status:  105/184 (57.07%)
 
 
 ### Wesenszug
@@ -6803,8 +6803,8 @@ Total status:  88/184 (47.83%)
 - [x] Herr der Flammen
 - [x] Steinhaut
 - [ ] Versteinerung
-- [ ] Der Stein des Ingerimm
-- [ ] Die Heilige Laterne zu Angbar
+- [x] Der Stein des Ingerimm
+- [x] Die Heilige Laterne zu Angbar
 
 
 ### Ceremony
@@ -6861,9 +6861,9 @@ Total status:  88/184 (47.83%)
 - [ ] Druidensichel
 - [ ] Ingerimmshammer
 - [ ] Albenhuser Rossschinder (2H)
-- [ ] Angbarer Sappeursaxt
+- [x] Angbarer Sappeursaxt
 - [ ] Eisenhuetter Kriegshammer (2H)
-- [ ] Elenviner Reiterhammer
+- [x] Elenviner Reiterhammer
 - [ ] Ferdoker Kriegslanze
 - [ ] Gratenfelser Ahlspieß (2H)
 - [ ] Gratenfelser Malchus
@@ -6871,31 +6871,31 @@ Total status:  88/184 (47.83%)
 - [ ] Nordmärker Langschwert
 - [ ] Nordmärker Mordaxt (2H)
 - [ ] Hügelzwergisches Kurzschwert
-- [ ] Lûrer Lindwurmschläger
-- [ ] Muroloscher Zwergenschlägel (2H)
+- [x] Lûrer Lindwurmschläger
+- [x] Muroloscher Zwergenschlägel (2H)
 - [ ] Senaloscher Sehnenschneider
 - [ ] Waldwachter Felsspalter (2H)
-- [ ] Xorloscher Wurmspieß (2H)
-- [ ] Holzhammer (i)
+- [x] Xorloscher Wurmspieß (2H)
+- [x] Holzhammer (i)
 - [ ] Koscher Grevenstecken (i)
-- [ ] Schmiedewerkzeug (i)
-- [ ] Vorschlaghammer (2H, i)
-- [ ] Guldebrandt (2H)
+- [x] Schmiedewerkzeug (i)
+- [x] Vorschlaghammer (2H, i)
+- [x] Guldebrandt (2H)
 
 
 ### Rangeweapons
 
-- [ ] Angbarer Mauerwehr
+- [x] Angbarer Mauerwehr
 - [ ] Isenhager Armbrust
-- [ ] Koscher Kurzbogen
-- [ ] Waldwachter Armbrust
+- [x] Koscher Kurzbogen
+- [x] Waldwachter Armbrust
 
 
 ### Armors
 
-- [ ] Koscher Gambeson
-- [ ] Albenhuser Plattenharnisch
-- [ ] Nordmärker Ritterrüstung
+- [x] Koscher Gambeson
+- [x] Albenhuser Plattenharnisch
+- [x] Nordmärker Ritterrüstung
 - [ ] Isnatoscher Kettengeflecht
 
 
@@ -6903,7 +6903,7 @@ Total status:  88/184 (47.83%)
 
 
 ## Sevenwindscoast
-Total status:  80/186 (43.01%)
+Total status:  91/186 (48.92%)
 
 
 ### Specialability
@@ -7115,26 +7115,26 @@ Total status:  80/186 (43.01%)
 ### Meleeweapons
 
 - [ ] Albernische Bauernwehr
-- [ ] Albernischer Anderthalbhänder (2H)
-- [ ] Albernisches Langschwert
-- [ ] Efferdbart (2H)
-- [ ] Neckerdreizack (2H)
+- [x] Albernischer Anderthalbhänder (2H)
+- [x] Albernisches Langschwert
+- [x] Efferdbart (2H)
+- [x] Neckerdreizack (2H)
 - [ ] Albernisches Entermesser
 - [ ] Harbener Säbel
 - [ ] Havener Buckler
 - [ ] Havener Messer
-- [ ] Albernische Wurzelholzkeule
+- [x] Albernische Wurzelholzkeule
 - [ ] Albernischer Langdolch
-- [ ] Albernische Spießaxt (2H)
-- [ ] Seesäbel
+- [x] Albernische Spießaxt (2H)
+- [x] Seesäbel
 - [ ] Windhager Drachenmesser
 - [ ] Windhager Hakenaxt (2H)
 - [ ] Windhager Sichelspeer (2H, i)
 - [ ] Torfgabel (i)
-- [ ] Opallöwin (2H)
-- [ ] Immanschläger
-- [ ] Flöte und ähnliche Instrumente (i)
-- [ ] Laute und ähnliche Instrumente (i)
+- [x] Opallöwin (2H)
+- [x] Immanschläger
+- [x] Flöte und ähnliche Instrumente (i)
+- [x] Laute und ähnliche Instrumente (i)
 
 
 ### Rangeweapons
@@ -7929,7 +7929,7 @@ Total status:  103/184 (55.98%)
 
 
 ## Thorwal
-Total status:  2/179 (1.12%)
+Total status:  2/195 (1.03%)
 
 
 ### Meleeweapons
@@ -7954,6 +7954,20 @@ Total status:  2/179 (1.12%)
 - [ ] Uddahjaler Kriegsbeil
 - [ ] Varnheimer Dreizack
 - [ ] Walschild
+- [ ] Gjalsker Barbarenstreitaxt (2H)
+- [ ] Gjalsker Kettenkugel (2H,i)
+- [ ] Gjalskerknochenkeule, kurz
+- [ ] Gjalskerknochenkeule, mittel
+- [ ] Gjalskerknochenkeule, lang (2H)
+- [ ] Gjalsker Barbarenhammer (2H)
+- [ ] Thorwalscher Immanschläger (2H,i)
+- [ ] Torstorsgarder Speer (2H)
+- [ ] Varnheimer Dreizack (2H)
+- [ ] Flöte (i)
+- [ ] Handtrommel (i)
+- [ ] Laute (i)
+- [ ] Leier (i)
+- [ ] Tyrfing
 
 
 ### Rangeweapons
@@ -7964,6 +7978,7 @@ Total status:  2/179 (1.12%)
 - [ ] Ifirnshavener Hailanze
 - [ ] Virporter Schneidzahn
 - [ ] Findling
+- [ ] Gjalsker Kettenkugel (2H,i)
 
 
 ### Armors
@@ -8093,6 +8108,7 @@ Total status:  2/179 (1.12%)
 - [ ] Tapferkeit der Unsterblichen
 - [ ] Verbesserte Fokussierung
 - [ ] Geschütze bedienen
+- [ ] Anspringen
 
 
 ### Spell
@@ -8464,7 +8480,7 @@ Total status:  57/136 (41.91%)
 
 
 ## Winterwatch
-Total status:  88/189 (46.56%)
+Total status:  108/189 (57.14%)
 
 
 ### Advantage
@@ -8668,44 +8684,44 @@ Total status:  88/189 (46.56%)
 
 ### Meleeweapons
 
-- [ ] Goblinkeule, kurz
-- [ ] Goblinkeule, mittel
-- [ ] Goblinkeule, lang (2H)
+- [x] Goblinkeule, kurz
+- [x] Goblinkeule, mittel
+- [x] Goblinkeule, lang (2H)
 - [ ] Birkholter Drachenspeer (2H)
-- [ ] Bornische Peitsche
-- [ ] Bronnjarenschwert (2H)
-- [ ] Festumer Säbel
+- [x] Bornische Peitsche
+- [x] Bronnjarenschwert (2H)
+- [x] Festumer Säbel
 - [ ] Gebietigerlanze
 - [ ] Knute
-- [ ] Molokdeschnaja
-- [ ] Norbardische Setztartsche
+- [x] Molokdeschnaja
+- [x] Norbardische Setztartsche
 - [ ] Ranzengarbe (2H)
-- [ ] Rattenfänger
-- [ ] Romagh (2H)
-- [ ] Sewerischer Reitersäbel
+- [x] Rattenfänger
+- [x] Romagh (2H)
+- [x] Sewerischer Reitersäbel
 - [ ] Sturmsense (2H)
 - [ ] Flößerhaken (2H, i)
 - [ ] Blitzwender
 - [ ] Eisschwert
-- [ ] Schwert des Nordens
+- [x] Schwert des Nordens
 
 
 ### Armors
 
-- [ ] Bornischer Eisenmantel
-- [ ] Goblinische Fellweste
+- [x] Bornischer Eisenmantel
+- [x] Goblinische Fellweste
 - [ ] Märker Kettenhemd
-- [ ] Neersander Gambeson
-- [ ] Norbardischer Ledermantel
-- [ ] Sewerischer Flügelharnisch
+- [x] Neersander Gambeson
+- [x] Norbardischer Ledermantel
+- [x] Sewerischer Flügelharnisch
 - [ ] Geweihhelm des Orvai Kurim
 
 
 ### Rangeweapons
 
-- [ ] Kutscherarmbrust
-- [ ] Goblinschleuder
-- [ ] Borndorn
+- [x] Kutscherarmbrust
+- [x] Goblinschleuder
+- [x] Borndorn
 
 
 

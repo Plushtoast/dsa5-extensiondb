@@ -4584,11 +4584,6 @@
       "warringkingdoms"
     ]
   },
-  "Golembauer": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Exzellenter Entschwörer": {
     "source": [
       "magie3"
@@ -5755,6 +5750,11 @@
     ]
   },
   "Geschütze bedienen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Anspringen": {
     "source": [
       "thorwal"
     ]
