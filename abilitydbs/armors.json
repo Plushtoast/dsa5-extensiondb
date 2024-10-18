@@ -89,8 +89,7 @@
   },
   "Turnierrüstung": {
     "source": [
-      "compendium",
-      "warringkingdoms"
+      "compendium"
     ]
   },
   "Mherweder Ringelpanzer": {
@@ -257,11 +256,6 @@
   "Thorwalerhelm": {
     "source": [
       "thorwal"
-    ]
-  },
-  "Dragenhelm": {
-    "source": [
-      "warringkingdoms"
     ]
   },
   "Märker Kettenhemd": {

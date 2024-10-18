@@ -1,5 +1,5 @@
 # Summary
-last_updated: 2024-10-18 17:37:03
+last_updated: 2024-10-18 20:41:53
 
 | Book | Status | % |
 | --- | --- | --- |
@@ -53,22 +53,22 @@ last_updated: 2024-10-18 17:37:03
 | [Suncoast](#suncoast) | 125/184 | 67.93% |
 | [Thorwal](#thorwal) | 2/195 | 1.03% |
 | [Transmutarium](#transmutarium) | 53/81 | 65.43% |
-| [Warringkingdoms](#warringkingdoms) | 57/136 | 41.91% |
+| [Warringkingdoms](#warringkingdoms) | 72/136 | 52.94% |
 | [Winterwatch](#winterwatch) | 108/189 | 57.14% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | --- | --- | --- |
-| Total | 4169/7281 | 57.26% |
+| Total | 4184/7281 | 57.46% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
 | Advantage | 148/226 | 65.49% |
-| Armors | 76/135 | 56.3% |
+| Armors | 78/135 | 57.78% |
 | Ceremony | 103/193 | 53.37% |
 | Consumable | 30/127 | 23.62% |
 | Disadvantage | 110/136 | 80.88% |
 | Liturgy | 241/323 | 74.61% |
-| Meleeweapons | 268/696 | 38.51% |
+| Meleeweapons | 281/696 | 40.37% |
 | Poison | 267/325 | 82.15% |
 | Praegung | 50/105 | 47.62% |
 | Rangeweapons | 69/122 | 56.56% |
@@ -8299,7 +8299,7 @@ Total status:  53/81 (65.43%)
 
 
 ## Warringkingdoms
-Total status:  57/136 (41.91%)
+Total status:  72/136 (52.94%)
 
 
 ### Specialability
@@ -8440,33 +8440,33 @@ Total status:  57/136 (41.91%)
 
 ### Armors
 
-- [ ] Turnierrüstung
-- [ ] Dragenhelm
+- [x] Turnierrüstung
+- [x] Dragenhelm
 
 
 ### Meleeweapons
 
-- [ ] Andergaster / Nostrianer (2H)
+- [x] Andergaster / Nostrianer (2H)
 - [ ] Eichhafener / Harmlyner (2H)
-- [ ] Eberfänger
-- [ ] Hirschfänger
+- [x] Eberfänger
+- [x] Hirschfänger
 - [ ] Kriegsflegel (2H)
 - [ ] Kriegslanze
-- [ ] Andergaster Langschwert
-- [ ] Nostrisches Langschwert
+- [x] Andergaster Langschwert
+- [x] Nostrisches Langschwert
 - [ ] Saufeder (2H)
-- [ ] Streitaxt
-- [ ] Streitkolben
+- [x] Streitaxt der Streitenden Königreiche
+- [x] Streitkolben der Streitenden Königreiche
 - [ ] Sturmsense (2H)
-- [ ] Turnierlanze
-- [ ] Turnierschild
-- [ ] Turnierschwert
-- [ ] Turnierzweihänder (2H)
+- [x] Turnierlanze
+- [x] Turnierschild
+- [x] Turnierschwert
+- [x] Turnierzweihänder (2H)
 - [ ] Deichgabel (i)
-- [ ] Holzfälleraxt (2H, i)
+- [x] Holzfälleraxt (2H, i)
 - [ ] Sense (2H, i)
 - [ ] Stakaxt (2H, i)
-- [ ] Druidendolch
+- [x] Druidendolch
 - [ ] Zauberstab (2H)
 
 

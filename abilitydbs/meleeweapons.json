@@ -354,8 +354,7 @@
   },
   "Turnierlanze": {
     "source": [
-      "compendium",
-      "warringkingdoms"
+      "compendium"
     ]
   },
   "Fuhrmannspeitsche": {
@@ -380,8 +379,7 @@
   },
   "Turnierschwert": {
     "source": [
-      "compendium",
-      "warringkingdoms"
+      "compendium"
     ]
   },
   "Dreschflegel (2H, i)": {
@@ -401,8 +399,7 @@
   },
   "Turnierzweihänder (2H)": {
     "source": [
-      "compendium",
-      "warringkingdoms"
+      "compendium"
     ]
   },
   "Schlachtermesser (i)": {
@@ -476,8 +473,7 @@
   },
   "Holzfälleraxt (2H, i)": {
     "source": [
-      "compendium2",
-      "warringkingdoms"
+      "compendium2"
     ]
   },
   "Zwergenschlägel (2H)": {
@@ -1464,8 +1460,7 @@
   },
   "Druidendolch": {
     "source": [
-      "riverlands",
-      "warringkingdoms"
+      "riverlands"
     ]
   },
   "Albenhuser Rossschinder (2H)": {
@@ -1803,52 +1798,12 @@
       "transmutarium"
     ]
   },
-  "Andergaster / Nostrianer (2H)": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
   "Eichhafener / Harmlyner (2H)": {
     "source": [
       "warringkingdoms"
     ]
   },
-  "Eberfänger": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Hirschfänger": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Andergaster Langschwert": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Nostrisches Langschwert": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
   "Saufeder (2H)": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Streitaxt": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Streitkolben": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Turnierschild": {
     "source": [
       "warringkingdoms"
     ]
