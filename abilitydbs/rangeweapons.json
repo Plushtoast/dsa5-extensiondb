@@ -1,14 +1,4 @@
 {
-  "Kristallomantische Kristallkugel (geworfen)": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Wurfnetz der Lähmung": {
     "source": [
       "arcanelabs"
@@ -124,8 +114,7 @@
   },
   "Magierkugel": {
     "source": [
-      "magie2",
-      "studyroom"
+      "magie2"
     ]
   },
   "Anchopaler Silberstern": {
@@ -196,11 +185,6 @@
   "Netz der Keke-Wanaq": {
     "source": [
       "steamingjungles"
-    ]
-  },
-  "Kleine Magierkugel": {
-    "source": [
-      "studyroom"
     ]
   },
   "Phrygaischer Wurfspeer": {

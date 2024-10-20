@@ -1,9 +1,9 @@
 # Summary
-last_updated: 2024-10-18 20:41:53
+last_updated: 2024-10-20 12:13:40
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 82/178 | 46.07% |
+| [Achaz](#achaz) | 91/178 | 51.12% |
 | [Animatorium](#animatorium) | 87/174 | 50.0% |
 | [Arcanelabs](#arcanelabs) | 18/73 | 24.66% |
 | [Armory](#armory) | 113/149 | 75.84% |
@@ -34,7 +34,7 @@ last_updated: 2024-10-18 20:41:53
 | [Magie3](#magie3) | 159/394 | 40.36% |
 | [Mastertools](#mastertools) | 97/105 | 92.38% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
-| [Nekromanthaeum](#nekromanthaeum) | 68/96 | 70.83% |
+| [Nekromanthaeum](#nekromanthaeum) | 80/96 | 83.33% |
 | [Orcs](#orcs) | 56/109 | 51.38% |
 | [Otherworld](#otherworld) | 0/96 | 0.0% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
@@ -49,29 +49,29 @@ last_updated: 2024-10-18 20:41:53
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
 | [Steamingjungles](#steamingjungles) | 118/185 | 63.78% |
-| [Studyroom](#studyroom) | 135/232 | 58.19% |
+| [Studyroom](#studyroom) | 149/232 | 64.22% |
 | [Suncoast](#suncoast) | 125/184 | 67.93% |
 | [Thorwal](#thorwal) | 2/195 | 1.03% |
-| [Transmutarium](#transmutarium) | 53/81 | 65.43% |
+| [Transmutarium](#transmutarium) | 57/81 | 70.37% |
 | [Warringkingdoms](#warringkingdoms) | 72/136 | 52.94% |
 | [Winterwatch](#winterwatch) | 108/189 | 57.14% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | --- | --- | --- |
-| Total | 4184/7281 | 57.46% |
+| Total | 4223/7281 | 58.0% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
 | Advantage | 148/226 | 65.49% |
-| Armors | 78/135 | 57.78% |
+| Armors | 80/135 | 59.26% |
 | Ceremony | 103/193 | 53.37% |
 | Consumable | 30/127 | 23.62% |
 | Disadvantage | 110/136 | 80.88% |
 | Liturgy | 241/323 | 74.61% |
-| Meleeweapons | 281/696 | 40.37% |
+| Meleeweapons | 314/696 | 45.11% |
 | Poison | 267/325 | 82.15% |
 | Praegung | 50/105 | 47.62% |
-| Rangeweapons | 69/122 | 56.56% |
+| Rangeweapons | 73/122 | 59.84% |
 | Ritual | 158/317 | 49.84% |
 | Specialability | 1953/3437 | 56.82% |
 | Spell | 423/641 | 65.99% |
@@ -81,7 +81,7 @@ last_updated: 2024-10-18 20:41:53
 
 
 ## Achaz
-Total status:  82/178 (46.07%)
+Total status:  91/178 (51.12%)
 
 
 ### Advantage
@@ -275,23 +275,23 @@ Total status:  82/178 (46.07%)
 - [ ] Achaz-Knochenkeule, lang (2H)
 - [ ] Schlangenstab (2H)
 - [ ] Achfawar (2H)
-- [ ] Drash'kor (2H)
-- [ ] Mattenschild
-- [ ] Raz'Thon
-- [ ] Rimkur (2H)
-- [ ] Kristallomantische Kristallkugel
+- [x] Drash'kor (2H)
+- [x] Mattenschild
+- [x] Raz'Thon
+- [x] Rimkur (2H)
+- [x] Kristallomantische Kristallkugel
 
 
 ### Armors
 
-- [ ] Eidechsenkleidung
-- [ ] Iryanrüstung
+- [x] Eidechsenkleidung
+- [x] Iryanrüstung
 
 
 ### Rangeweapons
 
-- [ ] Kristallomantische Kristallkugel (geworfen)
-- [ ] Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)
+- [x] Kristallomantische Kristallkugel (geworfen)
+- [x] Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)
 
 
 
@@ -5801,7 +5801,7 @@ Total status:  0/4 (0.0%)
 
 
 ## Nekromanthaeum
-Total status:  68/96 (70.83%)
+Total status:  80/96 (83.33%)
 
 
 ### Specialability
@@ -5906,18 +5906,18 @@ Total status:  68/96 (70.83%)
 
 ### Meleeweapons
 
-- [ ] Arbach
-- [ ] Byakka
-- [ ] Gruufhai (2H)
-- [ ] Knochendolch
-- [ ] Maru-Säbel
-- [ ] Minotauren-Hammer
-- [ ] Oger-Keule
-- [ ] Priesterstab, lang (2H)
-- [ ] Rimkur (2H)
-- [ ] Skrechu-Säbel
-- [ ] Skrechu-Stab
-- [ ] Troll-Keule
+- [x] Arbach
+- [x] Byakka
+- [x] Gruufhai (2H)
+- [x] Knochendolch
+- [x] Maru-Säbel
+- [x] Minotauren-Hammer
+- [x] Oger-Keule
+- [x] Priesterstab, lang (2H)
+- [x] Rimkur (2H)
+- [x] Skrechu-Säbel
+- [x] Skrechu-Stab
+- [x] Troll-Keule
 
 
 
@@ -7415,7 +7415,7 @@ Total status:  118/185 (63.78%)
 
 
 ## Studyroom
-Total status:  135/232 (58.19%)
+Total status:  149/232 (64.22%)
 
 
 ### Spell
@@ -7659,18 +7659,18 @@ Total status:  135/232 (58.19%)
 
 ### Meleeweapons
 
-- [ ] Magierstab, kurz
-- [ ] Magierstab, mittel
-- [ ] Magierstab, lang (2H)
-- [ ] Kleine Magierkugel
-- [ ] Magierkugel
-- [ ] Bannschwert, klein
-- [ ] Bannschwert, mittel
-- [ ] Bannschwert, groß (2H)
-- [ ] Magierstab mit Magierkugel, kurz
-- [ ] Magierstab mit Magierkugel, mittel
-- [ ] Magierstab mit Magierkugel, lang (2H)
-- [ ] Zauberschale
+- [x] Magierstab, kurz
+- [x] Magierstab, mittel
+- [x] Magierstab, lang (2H)
+- [x] Kleine Magierkugel
+- [x] Magierkugel
+- [x] Bannschwert, klein
+- [x] Bannschwert, mittel
+- [x] Bannschwert, groß (2H)
+- [x] Magierstab mit Magierkugel, kurz
+- [x] Magierstab mit Magierkugel, mittel
+- [x] Magierstab mit Magierkugel, lang (2H)
+- [x] Zauberschale
 - [ ] Grauer Stab (2H) - Robureon
 - [ ] Grauer Stab (2H) - Sangulmeon
 - [ ] Grauer Stab (2H) - Ferruginion
@@ -7680,8 +7680,8 @@ Total status:  135/232 (58.19%)
 
 ### Rangeweapons
 
-- [ ] Kleine Magierkugel
-- [ ] Magierkugel
+- [x] Kleine Magierkugel
+- [x] Magierkugel
 
 
 
@@ -8176,7 +8176,7 @@ Total status:  2/195 (1.03%)
 
 
 ## Transmutarium
-Total status:  53/81 (65.43%)
+Total status:  57/81 (70.37%)
 
 
 ### Advantage
@@ -8289,10 +8289,10 @@ Total status:  53/81 (65.43%)
 
 ### Meleeweapons
 
-- [ ] Shakagra-Krummsäbel
-- [ ] Hummerier-Speer (2H)
-- [ ] Hummerier-Axt (2H)
-- [ ] Shakagra-Kriegshammer (2H)
+- [x] Shakagra-Krummsäbel
+- [x] Hummerier-Speer (2H)
+- [x] Hummerier-Axt (2H)
+- [x] Shakagra-Kriegshammer (2H)
 
 
 

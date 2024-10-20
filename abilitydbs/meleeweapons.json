@@ -24,32 +24,6 @@
       "achaz"
     ]
   },
-  "Drash'kor (2H)": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Mattenschild": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Raz'Thon": {
-    "source": [
-      "achaz"
-    ]
-  },
-  "Rimkur (2H)": {
-    "source": [
-      "achaz",
-      "nekromanthaeum"
-    ]
-  },
-  "Kristallomantische Kristallkugel": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Barbarenstreitaxt (2H)": {
     "source": [
       "armory"
@@ -805,8 +779,7 @@
   },
   "Shakagra-Krummsäbel": {
     "source": [
-      "klingendernacht",
-      "transmutarium"
+      "klingendernacht"
     ]
   },
   "Shakagra-Schwert": {
@@ -816,26 +789,22 @@
   },
   "Shakagra-Kriegshammer (2H)": {
     "source": [
-      "klingendernacht",
-      "transmutarium"
+      "klingendernacht"
     ]
   },
   "Bannschwert, klein": {
     "source": [
-      "magie1",
-      "studyroom"
+      "magie1"
     ]
   },
   "Bannschwert, mittel": {
     "source": [
-      "magie1",
-      "studyroom"
+      "magie1"
     ]
   },
   "Bannschwert, groß (2H)": {
     "source": [
-      "magie1",
-      "studyroom"
+      "magie1"
     ]
   },
   "Flöte und ähnliche Instrumente (i)": {
@@ -862,20 +831,17 @@
   },
   "Magierstab, kurz": {
     "source": [
-      "magie1",
-      "studyroom"
+      "magie1"
     ]
   },
   "Magierstab, mittel": {
     "source": [
-      "magie1",
-      "studyroom"
+      "magie1"
     ]
   },
   "Magierstab, lang (2H)": {
     "source": [
-      "magie1",
-      "studyroom"
+      "magie1"
     ]
   },
   "Zauberkugel": {
@@ -900,8 +866,7 @@
   },
   "Magierkugel": {
     "source": [
-      "magie2",
-      "studyroom"
+      "magie2"
     ]
   },
   "Druidensichel": {
@@ -940,64 +905,6 @@
       "magie3"
     ]
   },
-  "Arbach": {
-    "source": [
-      "nekromanthaeum",
-      "orcs"
-    ]
-  },
-  "Byakka": {
-    "source": [
-      "nekromanthaeum",
-      "orcs"
-    ]
-  },
-  "Gruufhai (2H)": {
-    "source": [
-      "nekromanthaeum",
-      "orcs"
-    ]
-  },
-  "Knochendolch": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
-  "Maru-Säbel": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
-  "Minotauren-Hammer": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
-  "Oger-Keule": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
-  "Priesterstab, lang (2H)": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
-  "Skrechu-Säbel": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
-  "Skrechu-Stab": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
-  "Troll-Keule": {
-    "source": [
-      "nekromanthaeum"
-    ]
-  },
   "Blutspeer (2H)": {
     "source": [
       "orcs"
@@ -1014,6 +921,21 @@
     ]
   },
   "Orkknochenkeule, lang (2H)": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Arbach": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Byakka": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Gruufhai (2H)": {
     "source": [
       "orcs"
     ]
@@ -1563,31 +1485,6 @@
       "steamingjungles"
     ]
   },
-  "Kleine Magierkugel": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Magierstab mit Magierkugel, kurz": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Magierstab mit Magierkugel, mittel": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Magierstab mit Magierkugel, lang (2H)": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Zauberschale": {
-    "source": [
-      "studyroom"
-    ]
-  },
   "Grauer Stab (2H) - Robureon": {
     "source": [
       "studyroom"
@@ -1786,16 +1683,6 @@
   "Tyrfing": {
     "source": [
       "thorwal"
-    ]
-  },
-  "Hummerier-Speer (2H)": {
-    "source": [
-      "transmutarium"
-    ]
-  },
-  "Hummerier-Axt (2H)": {
-    "source": [
-      "transmutarium"
     ]
   },
   "Eichhafener / Harmlyner (2H)": {
