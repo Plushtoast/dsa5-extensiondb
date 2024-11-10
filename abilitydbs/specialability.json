@@ -23,7 +23,8 @@
       "goetterwirken2",
       "realmofthethorns",
       "riverlands",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Formationsparade": {
@@ -41,6 +42,7 @@
       "orcs",
       "realmofthethorns",
       "steamingjungles",
+      "thorwal",
       "winterwatch"
     ]
   },
@@ -49,7 +51,8 @@
       "achaz",
       "compendium2",
       "orcs",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Leichter Beutel": {
@@ -169,11 +172,6 @@
       "achaz"
     ]
   },
-  "Beistand gegen Einflusszauberei (H'Szint-Kult)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Bollwerk gegen Magie (H'Szint-Kult)": {
     "source": [
       "achaz"
@@ -219,30 +217,160 @@
       "achaz"
     ]
   },
-  "Dauerhafte Golems": {
+  "Schild gegen Einflusszauberei (H'Szint-Kult)": {
     "source": [
-      "animatorium"
+      "achaz"
     ]
   },
-  "Golembauer": {
+  "Friedliche Ausstrahlung": {
     "source": [
-      "animatorium",
-      "magie3"
+      "achaz"
+    ]
+  },
+  "Lederhaut": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Heilpflanzenernte": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Pflanzenbestimmung": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Entspannender Schlaf": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Fürsorgliches Auftreten": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Behagliches Nest": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Sicheres Nest": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Zsahhs Einklang mit der Natur": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Tarnung der Vielgestaltigen": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Segen der Allesgebärenden": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Armband des Anführers": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Verwandlungsresistenz": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "H’Szints Giftresistenz": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schlangenfreundschaft": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Armband der Analyse": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schutz vor Verwandlungszauberei": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Macht der Schwingen": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schwingensturm": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schwingenwindstoß": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schwingensprung": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Gleitflug": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schwingenhochsprung": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Flugechsenfreundschaft": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schuppenpanzer": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Echsenschuppen": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Chr’Ssir’Ssrs Wissen": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Nebelfeld": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Blitzstrahl": {
+    "source": [
+      "achaz"
     ]
   },
   "Synärethiker": {
     "source": [
-      "animatorium"
-    ]
-  },
-  "Niederhöllischer Schmied": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Homunculusbindung": {
-    "source": [
-      "animatorium"
+      "animatorium",
+      "arcanelabs"
     ]
   },
   "Alraunenbeere": {
@@ -345,19 +473,10 @@
       "animatorium"
     ]
   },
-  "Golemprägung": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Kontrollobjekt": {
-    "source": [
-      "animatorium"
-    ]
-  },
   "Tradition (Intuitive Zauberer)": {
     "source": [
       "animatorium",
+      "arcanelabs",
       "magie1",
       "orcs",
       "studyroom"
@@ -369,22 +488,7 @@
       "compendium"
     ]
   },
-  "Letzte Reserve": {
-    "source": [
-      "animatorium"
-    ]
-  },
   "Prophezeihung": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Schicksalsmacht": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Unverstellter Blick": {
     "source": [
       "animatorium"
     ]
@@ -415,21 +519,6 @@
       "animatorium"
     ]
   },
-  "Angriff auf ungeschützte Stellen": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Flugangriff": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Trampeln": {
-    "source": [
-      "animatorium"
-    ]
-  },
   "Überrennen": {
     "source": [
       "animatorium",
@@ -454,34 +543,155 @@
       "transmutarium"
     ]
   },
-  "Berufsgeheimnis Homunculus (Alrauniger Homunculus": {
+  "Prophezeiung": {
     "source": [
-      "animatorium"
+      "animatorium",
+      "compendium",
+      "thorwal"
     ]
   },
-  "Berufsgeheimnis Homunculus (Salamandrischer Homunculus)": {
+  "Konkrete Artefaktthese ()": {
     "source": [
-      "animatorium"
+      "arcanelabs"
     ]
   },
-  "Berufsgeheimnis Homunculus (Homunculushündchen)": {
+  "Artefaktthese der Aufladung": {
     "source": [
-      "animatorium"
+      "arcanelabs"
     ]
   },
-  "Berufsgeheimnis Homunculus (Homunculus Lemmini)": {
+  "Artefaktthese der Effizienz": {
     "source": [
-      "animatorium"
+      "arcanelabs"
     ]
   },
-  "Berufsgeheimnis Homunculus (Flatter-Homunculus)": {
+  "Artefaktthese der Intelligenz": {
     "source": [
-      "animatorium"
+      "arcanelabs"
     ]
   },
-  "Berufsgeheimnis Homunculus (Alrauniger Homunculus)": {
+  "Artefaktthese des Mechanopathikus": {
     "source": [
-      "animatorium"
+      "arcanelabs"
+    ]
+  },
+  "Alchimie ohne Rücksicht auf Verluste": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Alchimieverstärkung": {
+    "source": [
+      "arcanelabs",
+      "magie1"
+    ]
+  },
+  "Alchimiezirkel": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Alchimistische Äquivalenzlehre": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Auxiliator": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Begnadeter Thaumaturg": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Einmalartefakt": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Flüssig-Artefakt": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Gefäß der Macht": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Gefäße der Macht aufzehren": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Genius der Alchimie": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Göttliche Alchimie": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Kleine Trankverdünnung": {
+    "source": [
+      "arcanelabs",
+      "magie2"
+    ]
+  },
+  "Magischer Meisterschmied": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Matrixgeber": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Meister der Elixiere": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Meister der Gifte": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Meister der Rauschmittel": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Niederhöllischer Schmied": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Ritual-Artefakt": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Vielfachartefakt": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Zauber bündeln": {
+    "source": [
+      "arcanelabs",
+      "magie1",
+      "studyroom"
+    ]
+  },
+  "Zaubertrick-Artefakt": {
+    "source": [
+      "arcanelabs"
     ]
   },
   "Ballistischer Schuss": {
@@ -525,6 +735,7 @@
       "compendium",
       "realmofthethorns",
       "sevenwindscoast",
+      "thorwal",
       "winterwatch"
     ]
   },
@@ -562,6 +773,7 @@
   "Orientierung unter Tage": {
     "source": [
       "bannerofloyalty",
+      "catacombs",
       "compendium"
     ]
   },
@@ -580,7 +792,8 @@
       "bannerofloyalty",
       "compendium2",
       "sevenwindscoast",
-      "suncoast"
+      "suncoast",
+      "thorwal"
     ]
   },
   "Vollkommener Beschützer": {
@@ -676,6 +889,31 @@
       "broodofhell"
     ]
   },
+  "Gespür für Himmelsrichtungen": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Fallen entschärfen": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Fallenbaumeisterin": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Fallentarnung": {
+    "source": [
+      "catacombs"
+    ]
+  },
+  "Fallen wieder scharfmachen": {
+    "source": [
+      "catacombs"
+    ]
+  },
   "Rastullahs Schwingen": {
     "source": [
       "companions"
@@ -735,15 +973,11 @@
   },
   "Höhere Prophezeiung": {
     "source": [
-      "compendium"
+      "compendium",
+      "thorwal"
     ]
   },
   "Magiegespür": {
-    "source": [
-      "compendium"
-    ]
-  },
-  "Prophezeiung": {
     "source": [
       "compendium"
     ]
@@ -790,7 +1024,8 @@
   },
   "Hammerfaust-Stil": {
     "source": [
-      "compendium"
+      "compendium",
+      "thorwal"
     ]
   },
   "Hruruzat": {
@@ -811,7 +1046,8 @@
   },
   "Prem-Stil": {
     "source": [
-      "compendium"
+      "compendium",
+      "thorwal"
     ]
   },
   "Rondras Trutz-Stil": {
@@ -822,6 +1058,7 @@
   "Kopfstoß": {
     "source": [
       "compendium",
+      "thorwal",
       "winterwatch"
     ]
   },
@@ -839,7 +1076,8 @@
   },
   "Schwinger": {
     "source": [
-      "compendium"
+      "compendium",
+      "thorwal"
     ]
   },
   "Verkürzte Waffenführung": {
@@ -1014,7 +1252,8 @@
   },
   "Thorwal-Stil": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "thorwal"
     ]
   },
   "Valaria-Stil": {
@@ -1030,7 +1269,8 @@
   },
   "Antäuschen": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "thorwal"
     ]
   },
   "Aufliegende Klinge": {
@@ -1048,12 +1288,14 @@
   "Drehschlag": {
     "source": [
       "compendium2",
-      "sevenwindscoast"
+      "sevenwindscoast",
+      "thorwal"
     ]
   },
   "Drehwurf": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "thorwal"
     ]
   },
   "Eisenfaust": {
@@ -1084,7 +1326,8 @@
   },
   "Riskanter Schuss": {
     "source": [
-      "compendium2"
+      "compendium2",
+      "thorwal"
     ]
   },
   "Taktik durchbrechen": {
@@ -1265,7 +1508,8 @@
     "source": [
       "desertkingdom",
       "magie1",
-      "sevenwindscoast"
+      "sevenwindscoast",
+      "thorwal"
     ]
   },
   "Faszinierende Kleidung": {
@@ -1333,29 +1577,34 @@
   },
   "Kraft des Lebens": {
     "source": [
-      "elementarium"
+      "elementarium",
+      "otherworld"
     ]
   },
   "Macht der Pflanzen": {
     "source": [
       "elementarium",
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Macht wider Dämonen": {
     "source": [
-      "elementarium"
+      "elementarium",
+      "otherworld"
     ]
   },
   "Ruf des Waldes": {
     "source": [
       "elementarium",
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Verformung des Elements": {
     "source": [
-      "elementarium"
+      "elementarium",
+      "otherworld"
     ]
   },
   "Weg durch den Fluss (Elementar)": {
@@ -1541,11 +1790,6 @@
     "source": [
       "goetterwirken",
       "suncoast"
-    ]
-  },
-  "Glückskind": {
-    "source": [
-      "goetterwirken"
     ]
   },
   "Macht des Schicksals": {
@@ -1787,12 +2031,14 @@
   },
   "Hüter der Walwütigen": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "thorwal"
     ]
   },
   "Jäger der Seeschlangen": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "thorwal"
     ]
   },
   "Geistkontrolle": {
@@ -1843,10 +2089,576 @@
     "source": [
       "goetterwirken",
       "sevenwindscoast",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Mantikor-Stil": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Glück mit dir": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Guter Schlaf": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Gleichklang von Körper und Seele": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Praios’ Magieentzug": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Kugelschild": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Autorität": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Praios’ gestählter Wille": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Kraft der Löwin": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Bollwerk des Schutzes": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Stahlhaut": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Mut der Sturmherrin": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Einschüchterndes Sturmgebrüll": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Zorn der Sturmherrin": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Wie ein Fisch im Wasser": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Efferds Tierfreundschaft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Gebet der Einsicht": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schützender Wirbelwind": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Auf See geboren": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Segen der Seeleute": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Friedliches Auftreten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Mütterliches Auftreten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Behagliches Heim": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Sicheres Heim": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schutz vor den Toten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Angsteinflößende Gestalt": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schlaf der Toten": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Buch der Träume": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schlaf der Träume": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Beruhigende Worte": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Analysestab": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Beistand gegen Verwandlungszauberei": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Hesindes Magieentzug": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Wissensvorteil": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Heilige Eingebung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Recherchehilfe": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Firuns Bogenweihe": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Eisiger Pfeil": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Frostiger Pfeil": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Auge des Adlers": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Weitschuss": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Heiliger Blattschuss": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Friedensaura": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Unbeirrbarkeit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Eidechsenfreundschaft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Gewand des Demagogen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Erholsame Nachtruhe": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Geschmeidiges Gewand": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schaffenskraft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Gespür für Geschäfte": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Bessere Argumente": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Unbeeinflussbar": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Tarnung des Ichs": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Geistige Umnachtung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Phexens Magieentzug": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Pflanzenkenner": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Erntezeit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Brot der Stärkung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Heilsames Saatgut": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Heilkräuter-Beutel": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Beutel der Widerstandskraft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Flammenschutz": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Hitze der Esse": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Lodernde Laterne": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Handwerksmeister": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Geschickter Handwerker": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Routinierter Handwerker": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Der eigene Wille": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Rahjas Fürsorge": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Reigen der Harmonie": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Genussmensch": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Rausch der Ekstase": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Meister der Ekstase": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Flöte der Friedfertigkeit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Lied des Sanftmuts": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Lied des Friedens": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Vogelflug": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schicksalslied": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Segenslied": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Ifirns Bogenweihe": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Geduldige Jägerin": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Kunstschuss": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Segen der Waldläuferin": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Segen der Schwanengleichen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Ifirns Fürsorge": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Mantikorpanzer": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Unfehlbarer Hieb": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Unaufhaltsam": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Unbeeindruckt": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Überlegene Taktik": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Befehlsgewalt": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Pfad des Phex": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Auge des Kryptographen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Verschleierung des Wissens": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Pfad der Hesinde": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Stärkung des Geistes": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Weisheit der Schlange": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schicksalsbund": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Langer Bund": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Eingeschworener Bund": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Kampfgemeinschaft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Angriffsgemeinschaft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schildgemeinschaft": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Larve des Demagogen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Larve der Unbeirrbarkeit": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Larve des Zauberschilds": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Larve des Schutzes": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Larve des unbeirrbaren Willens": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Larve der Tarnung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Liturgiebindung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schattenkrieger": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Verkünder des Schickals": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Die Alte Tradition": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Weisung der Sterne": {
     "source": [
       "goetterwirken"
     ]
@@ -2008,12 +2820,14 @@
   "Geisterführer": {
     "source": [
       "goetterwirken2",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Körperkontrolle": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "thorwal"
     ]
   },
   "Überträger des Leids": {
@@ -2084,12 +2898,209 @@
   "Bannmeister": {
     "source": [
       "goetterwirken2",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Aussaugen": {
     "source": [
+      "goetterwirken2",
+      "thorwal"
+    ]
+  },
+  "Lebemann": {
+    "source": [
       "goetterwirken2"
+    ]
+  },
+  "Trank der Begierde": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Trank des Verführers": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Füllhorn des Rausches": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Levthans Gelage": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Meister des Rausches": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Sanfte Worte": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Schlaf der Widerstandsfähigkeit": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Schlaf des Friedens": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Sanduhr der Visionen": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Sand der Zukunft": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Sand der Geheimnisse": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Mut der Legion": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Legionärsgeschick": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Legionärsformation": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Kompromisslose Taktik": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Drohnenopfer": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Legionärsbund": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Spitzer Stachel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hornissenstich": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Blutender Stich": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Shinxirs Standfestigkeit": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hornissenpanzer": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Schlachtfeldgeschick": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Geisterfetischweihe": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Gestählter Geist": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Unbezwingbarer Geist": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Gestählter Körper": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Unbezwingbarer Körper": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Unbeugsamkeit": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Meisterhandwerker": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hammer der Hitze": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Feuerresistenz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Angroschpanzer": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Geschärfter Stahl": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Durchdringender Schlag": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Tradition (Frühe Borbaradianer)": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
+  "Blutmagie (Fremdopfer)": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
+  "Borbaradianismus": {
+    "source": [
+      "goldenemperor"
     ]
   },
   "Seelotse (Region)": {
@@ -2220,6 +3231,36 @@
       "magie3"
     ]
   },
+  "Kiemenatmung": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Rochengift": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Numinorus Wissen": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Numinorus Prophezeiung": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Numinorus Zeichen": {
+    "source": [
+      "havena"
+    ]
+  },
+  "Numinorus Flutwelle": {
+    "source": [
+      "havena"
+    ]
+  },
   "Aufbewahrung": {
     "source": [
       "herbarium",
@@ -2288,36 +3329,6 @@
     ]
   },
   "Schnellschreiber": {
-    "source": [
-      "library"
-    ]
-  },
-  "Verschlüsselungen (Chorhoper Chiffrat)": {
-    "source": [
-      "library"
-    ]
-  },
-  "Verschlüsselungen (Elburumer Enigma)": {
-    "source": [
-      "library"
-    ]
-  },
-  "Verschlüsselungen (Kusliker Kode)": {
-    "source": [
-      "library"
-    ]
-  },
-  "Verschlüsselungen (Kusliker Kryptierung)": {
-    "source": [
-      "library"
-    ]
-  },
-  "Verschlüsselungen (Silaser Schlüsseltext)": {
-    "source": [
-      "library"
-    ]
-  },
-  "Verschlüsselungen (Vallusianische Verschlüsselung)": {
     "source": [
       "library"
     ]
@@ -2583,11 +3594,6 @@
       "winterwatch"
     ]
   },
-  "Alchimieverstärkung": {
-    "source": [
-      "magie1"
-    ]
-  },
   "Astrale Meditation": {
     "source": [
       "magie1",
@@ -2671,12 +3677,6 @@
   "Zauber bereithalten": {
     "source": [
       "magie1"
-    ]
-  },
-  "Zauber bündeln": {
-    "source": [
-      "magie1",
-      "studyroom"
     ]
   },
   "Zauber unterbrechen": {
@@ -2780,7 +3780,8 @@
     "source": [
       "magie1",
       "sevenwindscoast",
-      "studyroom"
+      "studyroom",
+      "thorwal"
     ]
   },
   "Illusionäre Undurchschaubarkeit": {
@@ -3058,11 +4059,6 @@
       "magie2"
     ]
   },
-  "Kleine Trankverdünnung": {
-    "source": [
-      "magie2"
-    ]
-  },
   "Lockeres Zaubern": {
     "source": [
       "magie2"
@@ -3333,14 +4329,16 @@
     "source": [
       "magie3",
       "orcs",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Kampfglück": {
     "source": [
       "magie3",
       "orcs",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Flug des Dolches": {
@@ -3678,7 +4676,8 @@
   },
   "Gegnerische Zauberpraxis ()": {
     "source": [
-      "magie3"
+      "magie3",
+      "thorwal"
     ]
   },
   "Golemformer": {
@@ -4048,24 +5047,28 @@
   "Bund der Gefühle": {
     "source": [
       "negotiationpeace",
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Kiemen des Barschs": {
     "source": [
       "negotiationpeace",
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Salbung der Haut": {
     "source": [
       "negotiationpeace",
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Weg durch den Fluss": {
     "source": [
       "negotiationpeace",
+      "otherworld",
       "sevenwindscoast"
     ]
   },
@@ -4092,6 +5095,173 @@
   "Wunden lecken": {
     "source": [
       "orcs"
+    ]
+  },
+  "Graveshs Beständigkeit": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Graveshs Geschick": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Graveshs Routine": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Brandimmunität": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Graveshs glühender Hammer": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Graveshs glühende Esse": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Graveshs Meisterhandwerk": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Geschärfte Klinge": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Durchdringende Klinge": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Handwerkshilfe": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Lodernde Klinge": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Brandresistenz": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Tradition (Feen)": {
+    "source": [
+      "otherworld",
+      "sevenwindscoast",
+      "suncoast",
+      "winterwatch"
+    ]
+  },
+  "Feenrettung": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Auge der Fee": {
+    "source": [
+      "otherworld",
+      "sevenwindscoast"
+    ]
+  },
+  "Blut der Anderswelt": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Dunkles Abbild der Bündnisgabe": {
+    "source": [
+      "otherworld",
+      "sevenwindscoast"
+    ]
+  },
+  "Durch Fels und Gestein": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Düsternis der Anderswelt": {
+    "source": [
+      "otherworld",
+      "sevenwindscoast"
+    ]
+  },
+  "Elementare Härte": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenflut": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenstärke": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Im Schatten der Bäume": {
+    "source": [
+      "otherworld",
+      "sevenwindscoast"
+    ]
+  },
+  "Licht der Kristalle": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Raub der Lebenskraft": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Bindung (Feen)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Entschwörung (Feen)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Machtvolle Entschwörung (Feen)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Rudelbeschwörung (Feen)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Zirkelmeister (Feen)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Blick des Gargyls": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Fressen für den Namenlosen": {
+    "source": [
+      "otherworld"
     ]
   },
   "Wahrer Name ()": {
@@ -4172,33 +5342,6 @@
     ]
   },
   "Scharfes Instrument": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Tradition (Feen)": {
-    "source": [
-      "sevenwindscoast",
-      "suncoast",
-      "winterwatch"
-    ]
-  },
-  "Auge der Fee": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Dunkles Abbild der Bündnisgabe": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Im Schatten der Bäume": {
-    "source": [
-      "sevenwindscoast"
-    ]
-  },
-  "Düsternis der Anderswelt": {
     "source": [
       "sevenwindscoast"
     ]
@@ -4299,6 +5442,321 @@
   "Stille Wanderer": {
     "source": [
       "suncoast"
+    ]
+  },
+  "Drohgebärden": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Ermutigender Gesang": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Navigation": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Palenkelübung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tätowierer": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Runenorakel": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Weg der Godi": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Weg der Sangara": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Weg des Skalden": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Weg des Runenschöpfers": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Allgemeinwissen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Ermutigende Darstellung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gute Verarbeitung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Handwerkskunst": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Kind der Natur": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Seemannsgarn": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Soziale Kompetenz": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Vertrauenswürdig": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Kettenkugelkampf": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Schildwall": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Wirbelangriff": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Ottajasko-Rekker-Stil": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Stammeskrieger-Stil": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tierkrieger-Stil": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Wulfgar-Stil": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Berserkerangriff": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Blitzreflexe": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Extremschuss": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Machtvoller Sturmangriff": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Machtvoller Wirbelangriff": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Meisterlicher Wurf": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Miese Tricks": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Nervös machen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Rückendeckung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Schilddeckung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tiefe Wunde": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Zertrümmern": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Bindung der Waffe": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Bindung des Zauberinstruments": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Stärkung der Kampfgefährten": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Blutrunen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Blutmagie": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Konzentrationsstärke": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Zauberrunenkunde": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Scholar des Halle des Windes zu Olport": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Scholar der Schule der Hellsicht zu Thorwal": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Artefaktanalytiker": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Eiserne Konzentrationsstärke": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Vollendeter Elementarist": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Vortrefflicher Hellseher": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Medizinleute": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tierpriester": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Verkünder des Schicksals": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Erzwungene Liturgie": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gebieter des ()": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Geistergefäß": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gesunder Geist, gesunder Körper": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Heilritus": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Schutz der Unsterblichen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tapferkeit der Unsterblichen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Verbesserte Fokussierung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Geschütze bedienen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Anspringen": {
+    "source": [
+      "thorwal"
     ]
   },
   "Seenritter-Stil": {

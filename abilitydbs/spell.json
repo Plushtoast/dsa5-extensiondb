@@ -13,21 +13,6 @@
       "magie1"
     ]
   },
-  "Frigisphaero": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Ignisphaero": {
-    "source": [
-      "animatorium"
-    ]
-  },
-  "Incendio": {
-    "source": [
-      "animatorium"
-    ]
-  },
   "Stillstand": {
     "source": [
       "animatorium",
@@ -41,6 +26,7 @@
       "broodofhell",
       "elementarium",
       "magie3",
+      "otherworld",
       "pandaemonium2"
     ]
   },
@@ -68,14 +54,16 @@
     "source": [
       "broodofhell",
       "elementarium",
-      "magie3"
+      "magie3",
+      "otherworld"
     ]
   },
   "Eiswand": {
     "source": [
       "broodofhell",
       "elementarium",
-      "magie3"
+      "magie3",
+      "otherworld"
     ]
   },
   "Foramen": {
@@ -156,11 +144,6 @@
     ]
   },
   "Odem Arcanum": {
-    "source": [
-      "core"
-    ]
-  },
-  "Radau": {
     "source": [
       "core"
     ]
@@ -246,20 +229,48 @@
     "source": [
       "desertkingdom",
       "elementarium",
-      "magie2"
+      "magie2",
+      "otherworld"
     ]
   },
   "Flammenwand": {
     "source": [
       "elementarium",
       "magie2",
+      "otherworld",
       "studyroom"
     ]
   },
   "Wellenwand": {
     "source": [
       "elementarium",
-      "magie3"
+      "magie3",
+      "otherworld"
+    ]
+  },
+  "Eigene Ängste": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
+  "Erinnerung verlasse dich": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
+  "Höllenpein": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
+  "Incendio": {
+    "source": [
+      "goldenemperor"
+    ]
+  },
+  "Schwarzer Schrecken": {
+    "source": [
+      "goldenemperor"
     ]
   },
   "Herr über das Tierreich": {
@@ -344,6 +355,7 @@
       "magie1",
       "studyroom",
       "suncoast",
+      "thorwal",
       "warringkingdoms",
       "winterwatch"
     ]
@@ -434,7 +446,8 @@
   },
   "Zauberpferd herbeirufen": {
     "source": [
-      "magie2"
+      "magie2",
+      "otherworld"
     ]
   },
   "Durch feste Materie": {
@@ -445,7 +458,8 @@
   "Großer Sprung": {
     "source": [
       "magie3",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Kampffähigkeiten verbessern": {
@@ -501,7 +515,8 @@
   },
   "Oktagramma": {
     "source": [
-      "magie3"
+      "magie3",
+      "otherworld"
     ]
   },
   "Pestilenz erspüren": {
@@ -551,6 +566,116 @@
       "orcs"
     ]
   },
+  "Frigifaxius": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Archofaxius": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Ignifaxius": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Humofaxius": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Orcanofaxius": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Aquafaxius": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Firnlauf": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Wüstenlauf": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Glutlauf": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Wipfellauf": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Himmelslauf": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Wellenlauf": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Frostleib": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Basaltleib": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Drachenleib": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Eichenleib": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Federleib": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Brandungsleib": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Band und Fessel": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Brennender Hass": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Chamaelioni": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenstaub": {
+    "source": [
+      "otherworld"
+    ]
+  },
   "Protectionis": {
     "source": [
       "studyroom"
@@ -579,6 +704,41 @@
   "Windstille": {
     "source": [
       "studyroom"
+    ]
+  },
+  "Patronruf": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Talentverbesserung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tierkräfte": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Aeolito": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Attributo (Mut)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Hexagramma": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Oculus Astralis": {
+    "source": [
+      "thorwal"
     ]
   }
 }

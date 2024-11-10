@@ -1,0 +1,1748 @@
+{
+  "Achaz-Knochenkeule, kurz": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Achaz-Knochenkeule, mittel": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Achaz-Knochenkeule, lang (2H)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Schlangenstab (2H)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Achfawar (2H)": {
+    "source": [
+      "achaz"
+    ]
+  },
+  "Barbarenstreitaxt (2H)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Faustschild": {
+    "source": [
+      "armory",
+      "compendium2"
+    ]
+  },
+  "Felsspalter (2H)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Hakendolch": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Haumesser": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Jagdspieß (2H)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Kurzschwert": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Lederschild": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Mengbilar": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Messer": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Ochsenherde (2H)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Ogerfänger": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Ogerschelle": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Orchidee": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Richtschwert (2H, i)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Stockdegen": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Thorwalerschild": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Wolfsmesser": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Bratspieß (i)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Brecheisen (i)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Brechstange (2H, i)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Fackel (i)": {
+    "source": [
+      "armory",
+      "compendium"
+    ]
+  },
+  "Spaten (2H, i)": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Spitzhacke (2H, i)": {
+    "source": [
+      "armory",
+      "compendium2"
+    ]
+  },
+  "Drachentöter (2H)": {
+    "source": [
+      "armory2",
+      "compendium2",
+      "riverlands"
+    ]
+  },
+  "Großer Lederschild": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Ingerimmshammer": {
+    "source": [
+      "armory2",
+      "goetterwirken",
+      "riverlands"
+    ]
+  },
+  "Kriegsflegel (2H)": {
+    "source": [
+      "armory2",
+      "compendium",
+      "warringkingdoms"
+    ]
+  },
+  "Kriegslanze": {
+    "source": [
+      "armory2",
+      "warringkingdoms"
+    ]
+  },
+  "Neunschwänzige": {
+    "source": [
+      "armory2",
+      "realmofthethorns"
+    ]
+  },
+  "Neunschwänzige mit Metallstücken/Dornen": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Pike (2H)": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Stoßspeer (2H)": {
+    "source": [
+      "armory2",
+      "goetterwirken2"
+    ]
+  },
+  "Sturmsense (2H)": {
+    "source": [
+      "armory2",
+      "compendium",
+      "warringkingdoms",
+      "winterwatch"
+    ]
+  },
+  "Verstärkter Holzschild": {
+    "source": [
+      "armory2",
+      "goetterwirken2"
+    ]
+  },
+  "Walschild": {
+    "source": [
+      "armory2",
+      "goetterwirken",
+      "thorwal"
+    ]
+  },
+  "Zwergenskraja": {
+    "source": [
+      "armory2",
+      "compendium2"
+    ]
+  },
+  "Schere (i)": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Schneiderschere (i)": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Fleischerbeil (i)": {
+    "source": [
+      "armory2",
+      "compendium2"
+    ]
+  },
+  "Sense (2H, i)": {
+    "source": [
+      "armory2",
+      "compendium",
+      "warringkingdoms"
+    ]
+  },
+  "Entdeckerpeitsche": {
+    "source": [
+      "aventurian-taverns",
+      "steamingjungles"
+    ]
+  },
+  "Holzhammer (i)": {
+    "source": [
+      "aventurian-taverns"
+    ]
+  },
+  "Hügelzwergisches Kurzschwert": {
+    "source": [
+      "aventurian-taverns",
+      "riverlands"
+    ]
+  },
+  "Machete": {
+    "source": [
+      "aventurian-taverns",
+      "steamingjungles"
+    ]
+  },
+  "Nordmärker Langschwert": {
+    "source": [
+      "aventurian-taverns",
+      "riverlands"
+    ]
+  },
+  "Albernisches Langschwert": {
+    "source": [
+      "aventurian-taverns"
+    ]
+  },
+  "Lea Invicta": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Drachenschwinger": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Zepter des Shinxirius Magnus": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Legionärsschild": {
+    "source": [
+      "bannerofloyalty"
+    ]
+  },
+  "Beil oder Handaxt (i)": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Nudel- oder Teigholz (i)": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Schmiedehammer (i)": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Sichel (i)": {
+    "source": [
+      "compendium",
+      "goetterwirken2"
+    ]
+  },
+  "Turnierlanze": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Fuhrmannspeitsche": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Breitschwert": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Parazonium": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Scimshar": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Turnierschwert": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Dreschflegel (2H, i)": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Hirtenstab (2H)": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Pailos (2H)": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Turnierzweihänder (2H)": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Schlachtermesser (i)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Kriegsfächer": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Elfendolch": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Degen": {
+    "source": [
+      "compendium2",
+      "goetterwirken2"
+    ]
+  },
+  "Aleeza": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Brillantzwergischer Buckler": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Amazonensäbel": {
+    "source": [
+      "compendium2",
+      "goetterwirken"
+    ]
+  },
+  "Brillantzwergisches Kurzschwert": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Hauswehr": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Havener Messer": {
+    "source": [
+      "compendium2",
+      "havena",
+      "sevenwindscoast"
+    ]
+  },
+  "Elfenspeer (2H)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Mistgabel (2H, i)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Wurmspieß (2H)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Holzfälleraxt (2H, i)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Zwergenschlägel (2H)": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Novadischer Schild": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Ferkina-Barbarenstreitaxt (2H)": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Thalusischer Kadikalam (2H)": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Der Tausendjährige Zweihänder (2H)": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Dschadra Al’Abrah, die Träne Rastullahs": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Echter Bernsteindolch": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Echtes Bernsteinschwert": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Funkelpieks": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Opferdolch des Namenlosen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Firunsmesser": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Rabenschnabel": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Sonnenzepter": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Amazonenschild": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Avesstab (2H)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Efferdbart (2H)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Wanderstab (2H)": {
+    "source": [
+      "goetterwirken",
+      "magie2"
+    ]
+  },
+  "Korspieß (2H)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Rondrakamm (2H)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Der Zweihänder Armalion (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Das heilige Schwert Rabenfeder": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Der Schwarze Speer (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Die Dschadra al'Zul (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Krummdolch": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Marbodolch": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Heroldsstab": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Knochenkeule, kurz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Knochenkeule, mittel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Widderkeule": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Geißel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Metallverstärkter Holzschild": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Sonnenschild": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hacksäbel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Maraskanischer Hakenspieß (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Partisane (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Knochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Mohaknochenkeule, kurz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Mohaknochenkeule, mittel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Mohaknochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Nivesenknochenkeule, kurz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Nivesenknochenkeule, mittel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Nivesenknochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Trollzackerknochenkeule, kurz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Trollzackerknochenkeule, mittel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Trollzackerknochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Gjalskerknochenkeule, kurz": {
+    "source": [
+      "goetterwirken2",
+      "thorwal"
+    ]
+  },
+  "Gjalskerknochenkeule, mittel": {
+    "source": [
+      "goetterwirken2",
+      "thorwal"
+    ]
+  },
+  "Gjalskerknochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2",
+      "thorwal"
+    ]
+  },
+  "Fjarningerknochenkeule, kurz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Fjarningerknochenkeule, mittel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Fjarningerknochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Ferkinaknochenkeule, kurz": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Ferkinaknochenkeule, mittel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Ferkinaknochenkeule, lang (2H)": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Hornissenstachel": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Angroschhammer": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Harbener Säbel": {
+    "source": [
+      "havena",
+      "sevenwindscoast"
+    ]
+  },
+  "Havener Buckler": {
+    "source": [
+      "havena",
+      "sevenwindscoast"
+    ]
+  },
+  "Dornrosengerte": {
+    "source": [
+      "herbarium",
+      "realmofthethorns"
+    ]
+  },
+  "Waldwebennetz": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Shakagra-Giftdolch": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Shakagra-Hammer": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Shakagra-Buckler": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Shakagra-Langschild": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Shakagra-Krummsäbel": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Shakagra-Schwert": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Shakagra-Kriegshammer (2H)": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Bannschwert, klein": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Bannschwert, mittel": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Bannschwert, groß (2H)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Flöte und ähnliche Instrumente (i)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Laute und ähnliche Instrumente (i)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauberinstrument (Flöte und ähnliche Instrumente) (i)": {
+    "source": [
+      "magie1",
+      "suncoast"
+    ]
+  },
+  "Zauberinstrument (Laute und ähnliche Instrumente) (i)": {
+    "source": [
+      "magie1",
+      "suncoast"
+    ]
+  },
+  "Magierstab, kurz": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Magierstab, mittel": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Magierstab, lang (2H)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauberkugel": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauberstecken, kurz": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauberstecken, mittel": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Zauberstecken, lang (2H)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Magierkugel": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Druidensichel": {
+    "source": [
+      "magie3",
+      "riverlands"
+    ]
+  },
+  "Bakka": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Chablak-Dolch": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Dagla-Schwert": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Harigastur-Bronzeschwert": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Nipauka-Axt": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Nivesischer Wolfsspeer (2H)": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Blutspeer (2H)": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Orkknochenkeule, kurz": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Orkknochenkeule, mittel": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Orkknochenkeule, lang (2H)": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Arbach": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Byakka": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Gruufhai (2H)": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Graveshhammer": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Aranischer Säbel": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Elburischer Lederschild": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Elburumer Dornenfächer": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Llankaner Eisenfächer": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Oronische Klingengeißel (2H)": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Oronischer Scimitar (2H)": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Obstpflücker (2H, i)": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Belkelels Zuchtmeisterin": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Die Dschadra al’Zul (2H)": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Kaiser Rauls Reitersäbel": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Patientia": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Humilitas (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Gratia": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Fortomblasch (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Gerbaldspieß (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Singende Klinge „Tag“": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Singende Klinge „Nacht“": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Kaisertöter": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Auripraedes-Sonnenschild": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Auripraedes-Streitkolben": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Skalsmader (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Langschwert des Admirals": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Bastardschwert des unbekannten Helden (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Magierstab des Gandolf von Gareth, lang (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Sphären-Magierstab, kurz": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Stab des Altumarn, lang": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Antimagie-Magierstab, mittel": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Orkenschreck": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Partisane der Bürgerlichen (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Chimärenschläger": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Casydrion": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Brusgalin": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Ay’Halam al’Rhondrachai (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Kaiser Bodars II Saufeder (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Kam’Arum (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Sägeschwert": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Rondharas Langschwert": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Immertreu-Bastardschwert (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Die ersten Pervalschen Schwerter": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Pervalscher Tunierstreitkolben": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Laternenschild": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Prunkschwert der Goldenen Lanze": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Grijomacons Tuzakmesser Mungobiss (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Harlijins Tuzakmesser Lotosdorn (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Achaz-Schwanzwaffe (Raz’Thon)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Reißer (Drash’kor) (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Schnitter aus Frumolds Heer (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Rebellen-Nachtwind": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Hal-Schwert": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Hal-Streitkolben": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Paligan-Prunkdolch": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Prunk-Partisane (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Ogerkeule (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Windhager Flotten-Säbel": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Khefu-Bengel": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Doppelkhunchomer der Murawidun (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Hal-Rapier": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Gwains Reitersäbel": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Arbach eines Tordochai-Kriegers": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Byakka der Garde des Roten Mondes": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Gruufhai des Olog Orchai (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Hellebarde der Garether Spießbürger (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Amazonensäbel aus Kurkum": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Piratensäbel aus der Blutigen See": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Seeschlangenzahn-Dolch": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Streitaxt der Wolfengarde": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Sagittas Bannschwert": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Gryphius": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Waldemars Ochsenherde (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Blutiger Zweihänder (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Schild der Panthergarde": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Stahlschwinge-Hellebarde (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Schattenstich-Rapier": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Löwinblitz-Streitaxt": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Leuinzahn-Zweihänder (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Knochenbrecher-Ogerschelle": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Tommeldorn-Anderthalbhänder (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Mauerbrecher-Sappeursaxt": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Rachtar’achan, Trollzacker-Barbarenstreitaxt (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Abilachter Reitersäbel": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Lange Mühle (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Finsterfang (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Amalidion (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Krieg (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Scharlachdorn (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Danos von Lurings Ritterschwert": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Schlangenbiss (2H)": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Druidendolch": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Albenhuser Rossschinder (2H)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Eisenhuetter Kriegshammer (2H)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Ferdoker Kriegslanze": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Gratenfelser Ahlspieß (2H)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Gratenfelser Malchus": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Koscher Langschwert": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Nordmärker Mordaxt (2H)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Senaloscher Sehnenschneider": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Waldwachter Felsspalter (2H)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Koscher Grevenstecken (i)": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Albernische Bauernwehr": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Albernisches Entermesser": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Albernischer Langdolch": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Windhager Drachenmesser": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Windhager Hakenaxt (2H)": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Windhager Sichelspeer (2H, i)": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Torfgabel (i)": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Stachelkeule der Tschopukikuha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Tauchspeer der Napewanha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Geisteraxt": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Grauer Stab (2H) - Robureon": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Grauer Stab (2H) - Sangulmeon": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Grauer Stab (2H) - Ferruginion": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Grauer Stab (2H) - Cedraion": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Famerlîn (2H)": {
+    "source": [
+      "studyroom"
+    ]
+  },
+  "Arkisischer Parazonium": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Chirakah-Haumesser": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Kopis": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Sklaventreibergerte": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Zyklopäischer Rundschild": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Gjalsker Barbarenschwert": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Barbarenstreitaxt": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Kettenkugel": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Knochenkeule": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Zackenspeer": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Große Tiergeistkralle": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Hjallander Entermesser": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Hjalskari-Rundschild": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Kurzes Nadertaler Hjalsmesser": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Langes Nadertaler Hjalsmesser": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Olportmesser": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Olporter Orknase": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Premer Langaxt": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Thorwalerschwert": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Thorwalscher Immanschläger": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tiergeistkralle": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Torstorsgarder Speer": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Uddahjaler Kriegsbeil": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Varnheimer Dreizack": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Barbarenstreitaxt (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Kettenkugel (2H,i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Barbarenhammer (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Thorwalscher Immanschläger (2H,i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Torstorsgarder Speer (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Varnheimer Dreizack (2H)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Flöte (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Handtrommel (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Laute (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Leier (i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tyrfing": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Eichhafener / Harmlyner (2H)": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Saufeder (2H)": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Deichgabel (i)": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Stakaxt (2H, i)": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Zauberstab (2H)": {
+    "source": [
+      "warringkingdoms"
+    ]
+  },
+  "Birkholter Drachenspeer (2H)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Gebietigerlanze": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Knute": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Ranzengarbe (2H)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Flößerhaken (2H, i)": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Blitzwender": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Eisschwert": {
+    "source": [
+      "winterwatch"
+    ]
+  }
+}

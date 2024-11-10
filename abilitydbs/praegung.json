@@ -70,19 +70,22 @@
   "Geisterseher": {
     "source": [
       "magie3",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Klingenmeister": {
     "source": [
       "magie3",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Zauberkrieger": {
     "source": [
       "magie3",
-      "steamingjungles"
+      "steamingjungles",
+      "thorwal"
     ]
   },
   "Diener der Natur": {
@@ -149,6 +152,56 @@
     "source": [
       "riverlands",
       "warringkingdoms"
+    ]
+  },
+  "Graue Gilde": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gildenlose": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Blutrunenschöpfer": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Runenhandwerker": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Menschenkenner": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Naturverbundene": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Moderne Sichtweise": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Mysterienkult": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Pragmatismus": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Traditionelle Denkrichtung": {
+    "source": [
+      "thorwal"
     ]
   },
   "Schwestern des Wissens": {

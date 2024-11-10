@@ -1,0 +1,235 @@
+{
+  "Wurfnetz der Lähmung": {
+    "source": [
+      "arcanelabs"
+    ]
+  },
+  "Schneidzahn": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Wurfkeule": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Wurfnetz": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Wurfstern": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Wurfspeer": {
+    "source": [
+      "armory",
+      "goetterwirken2"
+    ]
+  },
+  "Fledermaus": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Kriegsbogen": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Schleuder": {
+    "source": [
+      "compendium",
+      "goetterwirken"
+    ]
+  },
+  "Balestra": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Borndorn": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Gaoraith": {
+    "source": [
+      "compendium2"
+    ]
+  },
+  "Efferdbart (2H)": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Firunsbogen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Ifirnsbogen": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Der Wurfstern des Phex": {
+    "source": [
+      "goetterwirken2",
+      "realmofthethorns"
+    ]
+  },
+  "Diskus": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Krähenfüße": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Schlängelbeutel": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Blasrohr": {
+    "source": [
+      "herbarium"
+    ]
+  },
+  "Lichtnebler-Beutel": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Zauberkugel (geworfen)": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Magierkugel": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Anchopaler Silberstern": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Baburischer Wurfspeer": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Gorische Wurfscheibe": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Valvarandir": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Thuranstolz-Langbogen": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Kriegsdiskus aus Frumolds Heer": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Belen-Horas’ Wurfspeer": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Isenhager Armbrust": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Albernischer Langbogen": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Windhager Schleuder": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Blasrohr, lang": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Wurfspeer der Anoiha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Zwille der Oijaniha": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Netz der Keke-Wanaq": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Phrygaischer Wurfspeer": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Bodirtaler Kurzbogen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Kettenkugel": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Wurfspeer": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Ifirnshavener Hailanze": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Virporter Schneidzahn": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Findling": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Kettenkugel (2H,i)": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Nostrischer Langbogen": {
+    "source": [
+      "warringkingdoms"
+    ]
+  }
+}

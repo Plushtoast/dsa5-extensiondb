@@ -1,79 +1,87 @@
 # Summary
-last_updated: 2024-05-22 18:30:38
+last_updated: 2024-10-20 12:13:40
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 82/135 | 60.74% |
-| [Animatorium](#animatorium) | 5/136 | 3.68% |
-| [Armory](#armory) | 17/22 | 77.27% |
-| [Armory2](#armory2) | 19/25 | 76.0% |
-| [Aventurian-taverns](#aventurian-taverns) | 1/1 | 100.0% |
-| [Bannerofloyalty](#bannerofloyalty) | 9/17 | 52.94% |
+| [Achaz](#achaz) | 91/178 | 51.12% |
+| [Animatorium](#animatorium) | 87/174 | 50.0% |
+| [Arcanelabs](#arcanelabs) | 18/73 | 24.66% |
+| [Armory](#armory) | 113/149 | 75.84% |
+| [Armory2](#armory2) | 119/153 | 77.78% |
+| [Aventurian-taverns](#aventurian-taverns) | 1/8 | 12.5% |
+| [Bannerofloyalty](#bannerofloyalty) | 9/21 | 42.86% |
 | [Bestiary](#bestiary) | 27/33 | 81.82% |
 | [Bestiary2](#bestiary2) | 14/25 | 56.0% |
 | [Broodofhell](#broodofhell) | 48/67 | 71.64% |
+| [Catacombs](#catacombs) | 0/11 | 0.0% |
 | [Companions](#companions) | 80/111 | 72.07% |
-| [Compendium](#compendium) | 228/265 | 86.04% |
-| [Compendium2](#compendium2) | 243/321 | 75.7% |
-| [Core](#core) | 370/443 | 83.52% |
-| [Desertkingdom](#desertkingdom) | 55/80 | 68.75% |
+| [Compendium](#compendium) | 228/288 | 79.17% |
+| [Compendium2](#compendium2) | 243/344 | 70.64% |
+| [Core](#core) | 458/527 | 86.91% |
+| [Desertkingdom](#desertkingdom) | 78/113 | 69.03% |
 | [Elementarium](#elementarium) | 72/119 | 60.5% |
-| [Goetterwirken](#goetterwirken) | 264/411 | 64.23% |
-| [Goetterwirken2](#goetterwirken2) | 225/320 | 70.31% |
-| [Havena](#havena) | 30/82 | 36.59% |
-| [Herbarium](#herbarium) | 94/139 | 67.63% |
-| [Herbarium2](#herbarium2) | 63/112 | 56.25% |
-| [Incorporealhorrors](#incorporealhorrors) | 48/84 | 57.14% |
-| [Klingendernacht](#klingendernacht) | 6/14 | 42.86% |
-| [Library](#library) | 0/12 | 0.0% |
-| [Magie1](#magie1) | 204/368 | 55.43% |
-| [Magie2](#magie2) | 215/367 | 58.58% |
-| [Magie3](#magie3) | 157/386 | 40.67% |
+| [Goetterwirken](#goetterwirken) | 265/545 | 48.62% |
+| [Goetterwirken2](#goetterwirken2) | 226/404 | 55.94% |
+| [Goldenemperor](#goldenemperor) | 0/10 | 0.0% |
+| [Havena](#havena) | 41/103 | 39.81% |
+| [Herbarium](#herbarium) | 97/143 | 67.83% |
+| [Herbarium2](#herbarium2) | 67/115 | 58.26% |
+| [Incorporealhorrors](#incorporealhorrors) | 49/84 | 58.33% |
+| [Klingendernacht](#klingendernacht) | 6/23 | 26.09% |
+| [Library](#library) | 6/12 | 50.0% |
+| [Magie1](#magie1) | 204/383 | 53.26% |
+| [Magie2](#magie2) | 216/372 | 58.06% |
+| [Magie3](#magie3) | 159/394 | 40.36% |
 | [Mastertools](#mastertools) | 97/105 | 92.38% |
 | [Negotiationpeace](#negotiationpeace) | 0/4 | 0.0% |
-| [Nekromanthaeum](#nekromanthaeum) | 68/84 | 80.95% |
-| [Orcs](#orcs) | 56/87 | 64.37% |
+| [Nekromanthaeum](#nekromanthaeum) | 80/96 | 83.33% |
+| [Orcs](#orcs) | 56/109 | 51.38% |
+| [Otherworld](#otherworld) | 0/96 | 0.0% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
 | [Pandaemonium2](#pandaemonium2) | 23/31 | 74.19% |
 | [Rabenkrieg4](#rabenkrieg4) | 1/2 | 50.0% |
 | [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
-| [Realmofthethorns](#realmofthethorns) | 64/107 | 59.81% |
-| [Retosarmory](#retosarmory) | 12/16 | 75.0% |
+| [Realmofthethorns](#realmofthethorns) | 76/136 | 55.88% |
+| [Retosarmory](#retosarmory) | 12/105 | 11.43% |
 | [Revelations](#revelations) | 3/3 | 100.0% |
-| [Riverlands](#riverlands) | 88/151 | 58.28% |
-| [Sevenwindscoast](#sevenwindscoast) | 80/160 | 50.0% |
+| [Riverlands](#riverlands) | 105/184 | 57.07% |
+| [Sevenwindscoast](#sevenwindscoast) | 92/186 | 49.46% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
-| [Steamingjungles](#steamingjungles) | 100/155 | 64.52% |
-| [Studyroom](#studyroom) | 135/213 | 63.38% |
-| [Suncoast](#suncoast) | 102/151 | 67.55% |
-| [Transmutarium](#transmutarium) | 53/77 | 68.83% |
-| [Warringkingdoms](#warringkingdoms) | 57/111 | 51.35% |
-| [Winterwatch](#winterwatch) | 88/159 | 55.35% |
+| [Steamingjungles](#steamingjungles) | 118/185 | 63.78% |
+| [Studyroom](#studyroom) | 149/232 | 64.22% |
+| [Suncoast](#suncoast) | 125/184 | 67.93% |
+| [Thorwal](#thorwal) | 2/195 | 1.03% |
+| [Transmutarium](#transmutarium) | 57/81 | 70.37% |
+| [Warringkingdoms](#warringkingdoms) | 72/136 | 52.94% |
+| [Winterwatch](#winterwatch) | 108/189 | 57.14% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | --- | --- | --- |
-| Total | 3628/5751 | 63.08% |
+| Total | 4223/7281 | 58.0% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 148/199 | 74.37% |
-| Ceremony | 103/189 | 54.5% |
-| Consumable | 19/102 | 18.63% |
-| Disadvantage | 110/134 | 82.09% |
-| Liturgy | 239/318 | 75.16% |
-| Poison | 266/320 | 83.13% |
-| Praegung | 50/92 | 54.35% |
-| Ritual | 154/298 | 51.68% |
-| Specialability | 1894/3048 | 62.14% |
-| Spell | 419/597 | 70.18% |
-| Trait | 145/314 | 46.18% |
-| Wesenszug | 81/140 | 57.86% |
+| Advantage | 148/226 | 65.49% |
+| Armors | 80/135 | 59.26% |
+| Ceremony | 103/193 | 53.37% |
+| Consumable | 30/127 | 23.62% |
+| Disadvantage | 110/136 | 80.88% |
+| Liturgy | 241/323 | 74.61% |
+| Meleeweapons | 314/696 | 45.11% |
+| Poison | 267/325 | 82.15% |
+| Praegung | 50/105 | 47.62% |
+| Rangeweapons | 73/122 | 59.84% |
+| Ritual | 158/317 | 49.84% |
+| Specialability | 1953/3437 | 56.82% |
+| Spell | 423/641 | 65.99% |
+| Trait | 192/348 | 55.17% |
+| Wesenszug | 81/150 | 54.0% |
 
 
 
 ## Achaz
-Total status:  82/135 (60.74%)
+Total status:  91/178 (51.12%)
 
 
 ### Advantage
@@ -157,7 +165,6 @@ Total status:  82/135 (60.74%)
 - [x] Keulenwurf (Achaz)
 - [ ] Tradition (H'Szint-Kult)
 - [ ] Wall gegen Schadensmagie (H'Szint-Kult)
-- [ ] Beistand gegen Einflusszauberei (H'Szint-Kult)
 - [ ] Bollwerk gegen Magie (H'Szint-Kult)
 - [ ] Wandelstab (H'Szint-Kult)
 - [x] Schlangenhaut (H'Szint-Kult)
@@ -170,6 +177,36 @@ Total status:  82/135 (60.74%)
 - [x] Pflanzenerkennung (Zsahh-Kult)
 - [ ] Erholsamer Schlaf (Zsahh-Kult)
 - [ ] Tradition (Chr'Ssir'Ssr-Kult)
+- [ ] Schild gegen Einflusszauberei (H'Szint-Kult)
+- [ ] Friedliche Ausstrahlung
+- [ ] Lederhaut
+- [ ] Heilpflanzenernte
+- [ ] Pflanzenbestimmung
+- [ ] Entspannender Schlaf
+- [ ] Fürsorgliches Auftreten
+- [ ] Behagliches Nest
+- [ ] Sicheres Nest
+- [ ] Zsahhs Einklang mit der Natur
+- [ ] Tarnung der Vielgestaltigen
+- [ ] Segen der Allesgebärenden
+- [ ] Armband des Anführers
+- [ ] Verwandlungsresistenz
+- [ ] H’Szints Giftresistenz
+- [ ] Schlangenfreundschaft
+- [ ] Armband der Analyse
+- [ ] Schutz vor Verwandlungszauberei
+- [ ] Macht der Schwingen
+- [ ] Schwingensturm
+- [ ] Schwingenwindstoß
+- [ ] Schwingensprung
+- [ ] Gleitflug
+- [ ] Schwingenhochsprung
+- [ ] Flugechsenfreundschaft
+- [ ] Schuppenpanzer
+- [ ] Echsenschuppen
+- [ ] Chr’Ssir’Ssrs Wissen
+- [ ] Nebelfeld
+- [ ] Blitzstrahl
 
 
 ### Liturgy
@@ -231,29 +268,55 @@ Total status:  82/135 (60.74%)
 - [ ] Zzzt
 
 
+### Meleeweapons
+
+- [ ] Achaz-Knochenkeule, kurz
+- [ ] Achaz-Knochenkeule, mittel
+- [ ] Achaz-Knochenkeule, lang (2H)
+- [ ] Schlangenstab (2H)
+- [ ] Achfawar (2H)
+- [x] Drash'kor (2H)
+- [x] Mattenschild
+- [x] Raz'Thon
+- [x] Rimkur (2H)
+- [x] Kristallomantische Kristallkugel
+
+
+### Armors
+
+- [x] Eidechsenkleidung
+- [x] Iryanrüstung
+
+
+### Rangeweapons
+
+- [x] Kristallomantische Kristallkugel (geworfen)
+- [x] Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)
+
+
 
 
 
 ## Animatorium
-Total status:  5/136 (3.68%)
+Total status:  87/174 (50.0%)
 
 
 ### Ritual
 
 - [x] Stein wandle
-- [ ] Animatio
-- [ ] Transmutare
-- [ ] Planastrale
-- [ ] Caldofrigo
+- [x] Animatio
+- [x] Transmutare
+- [x] Planastrale
+- [x] Caldofrigo
 
 
 ### Specialability
 
-- [ ] Dauerhafte Golems
-- [ ] Golembauer
+- [x] Dauerhafte Golems
+- [x] Golembauer
 - [ ] Synärethiker
-- [ ] Niederhöllischer Schmied
-- [ ] Homunculusbindung
+- [x] Niederhöllischer Schmied
+- [x] Homunculusbindung
 - [ ] Alraunenbeere
 - [ ] Alraunenschrei
 - [ ] Blutkonserve
@@ -274,41 +337,36 @@ Total status:  5/136 (3.68%)
 - [ ] Personalisiertes Unheil
 - [ ] Ruhe der Gottlosen
 - [ ] Automatentüftler
-- [ ] Golemprägung
-- [ ] Kontrollobjekt
+- [x] Golemprägung
+- [x] Kontrollobjekt
 - [ ] Tradition (Intuitive Zauberer)
 - [ ] Fleischwunde
 - [x] Gift melken (Land- und Lufttiere)
 - [x] Gift melken (Wassertiere)
-- [ ] Letzte Reserve
+- [x] Letzte Reserve
 - [ ] Prophezeihung
-- [ ] Schicksalsmacht
-- [ ] Unverstellter Blick
+- [x] Schicksalsmacht
+- [x] Unverstellter Blick
 - [ ] Bastler
 - [ ] Konstruktsimulacrum
 - [ ] Magischer Meisterkonstrukteur
 - [ ] Mechanopathische Automaten
 - [ ] Zauberbindung
-- [ ] Angriff auf ungeschützte Stellen
-- [ ] Flugangriff
-- [ ] Trampeln
+- [x] Angriff auf ungeschützte Stellen
+- [x] Flugangriff
+- [x] Trampeln
 - [ ] Überrennen
 - [ ] Verbeißen
-- [ ] Berufsgeheimnis Homunculus (Alrauniger Homunculus
-- [ ] Berufsgeheimnis Homunculus (Salamandrischer Homunculus)
-- [ ] Berufsgeheimnis Homunculus (Homunculushündchen)
-- [ ] Berufsgeheimnis Homunculus (Homunculus Lemmini)
-- [ ] Berufsgeheimnis Homunculus (Flatter-Homunculus)
-- [ ] Berufsgeheimnis Homunculus (Alrauniger Homunculus)
+- [ ] Prophezeiung
 
 
 ### Spell
 
 - [ ] Dunkelheit
 - [ ] Favilludo
-- [ ] Frigisphaero
-- [ ] Ignisphaero
-- [ ] Incendio
+- [x] Frigisphaero
+- [x] Ignisphaero
+- [x] Incendio
 - [ ] Stillstand
 - [ ] Sturmwand
 
@@ -318,74 +376,99 @@ Total status:  5/136 (3.68%)
 - [ ] Angriff mit Substanz
 - [ ] Belebte Gliedmaßen
 - [ ] Flugfähiger Golem
-- [ ] Krafliniensensitiv
-- [ ] Immobil
+- [x] Krafliniensensitiv
+- [x] Immobil
 - [x] Immunität gegen kritische Treffer
 - [ ] Resistenz gegenüber göttlichem Willen
 - [ ] Scharfe Krallen
 - [ ] Schreckgestalt
-- [ ] Selbstreparatur
-- [ ] Sprechender Golem
-- [ ] Tarnung
-- [ ] Verbindung zum Erschaffer
-- [ ] Zerbersten
+- [x] Selbstreparatur
+- [x] Sprechender Golem
+- [x] Tarnung
+- [x] Verbindung zum Erschaffer
+- [x] Zerbersten
 - [ ] Zusätzliche Aktionen
-- [ ] Blei
-- [ ] Eisen
-- [ ] Kobalt
-- [ ] Kupfer
-- [ ] Zink
-- [ ] Zinn
-- [ ] Antimon
-- [ ] Bronze
-- [ ] Chrom
-- [ ] Epharit (Gumijok)
-- [ ] Stahl
-- [ ] Wismut
-- [ ] Angrak (Zwergengold)
-- [ ] Elektrum (Wassergold)
-- [ ] Gold
-- [ ] Mondsilber (Platin)
-- [ ] Quecksilber
-- [ ] Silber
-- [ ] Toschkril (Zwergensilber)
-- [ ] Arkanium
-- [ ] Endurium
-- [ ] Mindorium
-- [ ] Titanium
-- [ ] Cupritan
-- [ ] Illuminium
-- [ ] Meteoreisen
-- [ ] Brandbronze
-- [ ] Fesselkies
-- [ ] Frostkristall
-- [ ] Geisterblech
-- [ ] Hölleneisen
-- [ ] Knochenblei
-- [ ] Krakensilber
-- [ ] Mordstahl
-- [ ] Narrenglas
-- [ ] Neidblende
-- [ ] Qualkupfer
-- [ ] Rattengold
-- [ ] Rauschgold
-- [ ] Schattenglanz
-- [ ] Zeitenmessing
-- [ ] Zitterzinn
-- [ ] Bernstein
-- [ ] Diamant
-- [ ] Gwen-Petryl
-- [ ] Karfunkel
-- [ ] Kashra-Stein
-- [ ] Lignolith
-- [ ] Sangurit-Kristall
-- [ ] Schwarze Perle
-- [ ] Topas
-- [ ] Fleisch
-- [ ] Haare
-- [ ] Knochen
-- [ ] Blutulme
-- [ ] Wachs
+- [x] Veredlung: Blei
+- [ ] Veredlung: Eisen
+- [x] Veredlung: Kobalt
+- [x] Veredlung: Kupfer
+- [x] Veredlung: Zink
+- [ ] Veredlung: Zinn
+- [x] Veredlung: Antimon
+- [x] Veredlung: Bronze
+- [ ] Veredlung: Chrom
+- [ ] Veredlung: Epharit (Gumijok)
+- [x] Veredlung: Stahl
+- [x] Veredlung: Khunchomer Stahl
+- [x] Veredlung: Maraskanstahl
+- [x] Veredlung: Mirhamer Stahl
+- [x] Veredlung: Premer Stahl
+- [x] Veredlung: Uhdenberger Stahl
+- [x] Veredlung: Zwergenstahl
+- [x] Veredlung: Wismut
+- [x] Veredlung: Angrak (Zwergengold)
+- [x] Veredlung: Elektrum (Wassergold)
+- [x] Veredlung: Gold
+- [ ] Veredlung: Mondsilber (Platin)
+- [ ] Veredlung: Quecksilber
+- [ ] Veredlung: Silber
+- [x] Veredlung: Toschkril (Zwergensilber)
+- [ ] Veredlung: Arkanium
+- [ ] Veredlung: Endurium
+- [ ] Veredlung: Mindorium
+- [ ] Veredlung: Titanium
+- [ ] Veredlung: Cupritan
+- [ ] Veredlung: Illuminium
+- [ ] Veredlung: Meteoreisen
+- [ ] Veredlung: Brandbronze
+- [ ] Veredlung: Fesselkies
+- [ ] Veredlung: Frostkristall
+- [ ] Veredlung: Geisterblech
+- [ ] Veredlung: Hölleneisen
+- [ ] Veredlung: Knochenblei
+- [ ] Veredlung: Krakensilber
+- [ ] Veredlung: Mordstahl
+- [ ] Veredlung: Narrenglas
+- [ ] Veredlung: Neidblende
+- [ ] Veredlung: Qualkupfer
+- [ ] Veredlung: Rattengold
+- [ ] Veredlung: Rauschgold
+- [ ] Veredlung: Schattenglanz
+- [ ] Veredlung: Seuchenerz
+- [ ] Veredlung: Zeitenmessing
+- [ ] Veredlung: Zitterzinn
+- [x] Veredlung: Bernstein
+- [ ] Veredlung: Diamant
+- [ ] Veredlung: Gwen-Petryl
+- [ ] Veredlung: Karfunkel
+- [ ] Veredlung: Kashra-Stein
+- [x] Veredlung: Lignolith
+- [ ] Veredlung: Sangurit-Kristall
+- [ ] Veredlung: Schwarze Perle
+- [ ] Veredlung: Topas
+- [x] Veredlung: Fleisch
+- [ ] Veredlung: Haare
+- [x] Veredlung: Knochen
+- [ ] Veredlung: Blutulme
+- [ ] Veredlung: Wachs
+- [x] Veredlung: Achat
+- [x] Veredlung: Amethyst
+- [x] Veredlung: Aquamarin
+- [x] Veredlung: Bergkristall
+- [x] Veredlung: Chrysoberyll
+- [x] Veredlung: Granat
+- [x] Veredlung: Jaspis
+- [x] Veredlung: Karneol
+- [x] Veredlung: Lapislazuli
+- [x] Veredlung: Mondstein
+- [x] Veredlung: Opal
+- [x] Veredlung: Onyx
+- [x] Veredlung: Rosenquarz
+- [x] Veredlung: Rubin
+- [x] Veredlung: Saphir
+- [x] Veredlung: Schwarzer Topas
+- [x] Veredlung: Smaragd
+- [x] Veredlung: Türkis
 
 
 ### Consumable
@@ -393,11 +476,99 @@ Total status:  5/136 (3.68%)
 - [ ] Synärethikon
 
 
+### Poison
+
+- [ ] Quecksilbergift
+- [ ] Teiggift
+
+
+
+
+
+## Arcanelabs
+Total status:  18/73 (24.66%)
+
+
+### Consumable
+
+- [ ] Alkahest
+- [ ] Anderswelt-Lidschatten
+- [ ] Bannstaub
+- [ ] Der Rote Leu
+- [ ] Elixier der Stille
+- [ ] Erdkraft-Lack
+- [ ] Fatas-Tabak
+- [ ] Feuerpulver
+- [ ] Göttlicher Balsam
+- [ ] Nebelfarbe
+- [ ] Peraines kleine Gnade
+- [ ] Rachenputzer
+- [ ] Respondarum
+- [ ] Seifenblasen-Packesel
+- [ ] Sonnenlicht-Elixier
+- [ ] Synärethikon
+- [ ] Trank der Gottesnähe
+- [ ] Trank der tausend Augen
+
+
+### Rangeweapons
+
+- [ ] Wurfnetz der Lähmung
+
+
+### Ritual
+
+- [ ] Applicatus
+- [ ] Arcanovi
+- [ ] Infinitum Immerdar
+- [ ] Zauberklinge Geisterspeer
+
+
+### Poison
+
+- [ ] Chimärengift
+- [ ] Traumsand
+
+
+### Specialability
+
+- [ ] Konkrete Artefaktthese ()
+- [ ] Artefaktthese der Aufladung
+- [ ] Artefaktthese der Effizienz
+- [ ] Artefaktthese der Intelligenz
+- [ ] Artefaktthese des Mechanopathikus
+- [ ] Alchimie ohne Rücksicht auf Verluste
+- [ ] Alchimieverstärkung
+- [ ] Alchimiezirkel
+- [ ] Alchimistische Äquivalenzlehre
+- [ ] Auxiliator
+- [ ] Begnadeter Thaumaturg
+- [ ] Einmalartefakt
+- [ ] Flüssig-Artefakt
+- [ ] Gefäß der Macht
+- [ ] Gefäße der Macht aufzehren
+- [ ] Genius der Alchimie
+- [ ] Göttliche Alchimie
+- [ ] Kleine Trankverdünnung
+- [ ] Magischer Meisterschmied
+- [ ] Matrixgeber
+- [ ] Meister der Elixiere
+- [ ] Meister der Gifte
+- [ ] Meister der Rauschmittel
+- [ ] Niederhöllischer Schmied
+- [ ] Ritual-Artefakt
+- [ ] Synärethiker
+- [ ] Vielfachartefakt
+- [ ] Zauber bündeln
+- [ ] Zaubertrick-Artefakt
+- [ ] Tradition (Intuitive Zauberer)
+
+
 
 
 
 ## Armory
-Total status:  17/22 (77.27%)
+Total status:  113/149 (75.84%)
 
 
 ### Specialability
@@ -422,11 +593,150 @@ Total status:  17/22 (77.27%)
 - [x] Drohgebärden
 
 
+### Armors
+
+- [x] Iryanrüstung
+- [x] Kettenhemd
+- [ ] Krötenhaut
+- [ ] Lederharnisch
+- [x] Leichte Platte
+- [x] Schuppenpanzer
+- [x] Spiegelpanzer
+- [x] Tuchrüstung
+
+
+### Meleeweapons
+
+- [x] Amazonensäbel
+- [x] Anderthalbhänder (2H)
+- [x] Barbarenschwert
+- [ ] Barbarenstreitaxt (2H)
+- [x] Basiliskenzunge
+- [x] Brabakbengel
+- [x] Breitschwert
+- [x] Dolch
+- [x] Doppelkhunchomer (2H)
+- [x] Drachenzahn
+- [x] Dreizack (2H)
+- [x] Dschadra (2H)
+- [x] Entermesser
+- [ ] Faustschild
+- [ ] Felsspalter (2H)
+- [x] Florett
+- [x] Fuhrmannspeitsche
+- [x] Glefe (2H)
+- [x] Großer Sklaventod (2H)
+- [x] Großschild
+- [ ] Hakendolch
+- [ ] Haumesser
+- [x] Hellebarde (2H)
+- [x] Holzschild
+- [x] Holzspeer (2H)
+- [x] Jagdmesser
+- [ ] Jagdspieß (2H)
+- [x] Kampfstab (2H)
+- [x] Katar
+- [x] Keule
+- [x] Khunchomer
+- [x] Knüppel
+- [x] Kriegshammer (2H)
+- [ ] Kurzschwert
+- [x] Langschwert
+- [ ] Lederschild
+- [x] Lindwurmschläger
+- [x] Linkhand
+- [x] Magierstab, kurz
+- [x] Magierstab, mittel
+- [x] Magierstab, lang (2H)
+- [ ] Mengbilar
+- [ ] Messer
+- [x] Molokdeschnaja
+- [x] Morgenstern
+- [x] Nachtwind
+- [ ] Ochsenherde (2H)
+- [ ] Ogerfänger
+- [ ] Ogerschelle
+- [ ] Orchidee
+- [x] Orknase
+- [x] Panzerarm
+- [x] Rabenschnabel
+- [x] Rapier
+- [ ] Richtschwert (2H, i)
+- [x] Robbentöter
+- [x] Rondrakamm (2H)
+- [x] Säbel
+- [x] Schlagring
+- [x] Schnitter (2H)
+- [x] Schwerer Dolch
+- [x] Sklaventod
+- [x] Sonnenzepter
+- [x] Speer (2H)
+- [ ] Stockdegen
+- [x] Streitaxt
+- [x] Streitkolben
+- [ ] Thorwalerschild
+- [x] Tuzakmesser (2H)
+- [x] Waqqif
+- [x] Warunker Hammer (2H)
+- [ ] Wolfsmesser
+- [x] Zweihänder (2H)
+- [x] Zweililie (2H)
+- [x] Zwergenschlägel (2H)
+- [x] Besen (i)
+- [x] Bratpfanne (i)
+- [x] Bratpfanne, heiß (i)
+- [x] Eimer (i)
+- [x] Flasche (i)
+- [x] Stuhl (i)
+- [x] Stuhlbein (i)
+- [x] Tisch (i)
+- [x] Beil oder Handaxt (i)
+- [ ] Bratspieß (i)
+- [ ] Brecheisen (i)
+- [ ] Brechstange (2H, i)
+- [ ] Fackel (i)
+- [x] Nudel- oder Teigholz (i)
+- [x] Schmiedehammer (i)
+- [x] Sichel (i)
+- [ ] Spaten (2H, i)
+- [ ] Spitzhacke (2H, i)
+- [x] Wurfhaken mit Kletterseil (i)
+
+
+### Rangeweapons
+
+- [x] Balestrina
+- [x] Balläster-Armbrust
+- [x] Blasrohr
+- [x] Diskus
+- [x] Eisenwalder
+- [x] Elfenbogen
+- [x] Handarmbrust
+- [x] Kompositbogen
+- [x] Kurzbogen
+- [x] Langbogen
+- [x] Leichte Armbrust
+- [ ] Schneidzahn
+- [x] Schwere Armbrust
+- [x] Wurfbeil
+- [x] Wurfdolch
+- [ ] Wurfkeule
+- [ ] Wurfnetz
+- [x] Wurfring
+- [x] Wurfscheibe
+- [ ] Wurfstern
+- [ ] Wurfspeer
+- [x] Apfel/Steinchen (i)
+- [x] Bierkrug (i)
+- [x] Geschirr (i)
+- [x] Vase (i)
+
+
 
 
 
 ## Armory2
-Total status:  19/25 (76.0%)
+Total status:  119/153 (77.78%)
 
 
 ### Specialability
@@ -452,11 +762,151 @@ Total status:  19/25 (76.0%)
 - [ ] Hylailer Feuer
 
 
+### Meleeweapons
+
+- [x] Andergaster / Nostrianer (2H)
+- [x] Arbach
+- [x] Avesstab (2H)
+- [x] Bastardschwert (2H)
+- [x] Bock
+- [x] Boronssichel (2H)
+- [x] Byakka
+- [x] Degen
+- [x] Dornenkeule
+- [ ] Drachentöter (2H)
+- [x] Druidendolch aus Vulkanglas
+- [x] Eberfänger
+- [x] Efferdbart (2H)
+- [x] Firunsmesser
+- [x] Geißel
+- [ ] Großer Lederschild
+- [x] Gruufhai (2H)
+- [x] Hakenspieß (2H)
+- [x] Hauswehr
+- [ ] Ingerimmshammer
+- [x] Kettenstab
+- [x] Knochendolch
+- [x] Knochenkeule
+- [x] Korspieß (2H)
+- [x] Kriegsfächer
+- [ ] Kriegsflegel (2H)
+- [ ] Kriegslanze
+- [x] Kusliker Säbel
+- [x] Langdolch
+- [x] Magierdegen
+- [x] Neethaner Langaxt (2H)
+- [ ] Neunschwänzige
+- [ ] Neunschwänzige mit Metallstücken/Dornen
+- [x] Opferdolch
+- [x] Pailos (2H)
+- [x] Partisane (2H)
+- [ ] Pike (2H)
+- [x] Rimkur (2H)
+- [x] Scheibendolch
+- [x] Steinbeil
+- [x] Steinhammer
+- [ ] Stoßspeer (2H)
+- [ ] Sturmsense (2H)
+- [x] Turmschild
+- [x] Turnierschild
+- [x] Turnierschwert
+- [x] Turnierzweihänder (2H)
+- [ ] Verstärkter Holzschild
+- [x] Veteranenhand
+- [ ] Walschild
+- [x] Wurmspieß (2H)
+- [ ] Zwergenskraja
+- [x] Balestrina (i)
+- [x] Handarmbrust (i)
+- [x] Armbrust (2H, i)
+- [x] Bogen (2H, i)
+- [x] Bolzen (i)
+- [x] Pfeil (i)
+- [x] Oger-Keule
+- [x] Yeti-Keule
+- [x] Troll-Axt
+- [x] Zyklopen-Hammer
+- [x] Federmesser (i)
+- [ ] Schere (i)
+- [ ] Schneiderschere (i)
+- [x] Besen (i)
+- [ ] Fleischerbeil (i)
+- [x] Handspiegel (i)
+- [x] Kette (i)
+- [ ] Sense (2H, i)
+- [x] Vorschlaghammer (2H, i)
+
+
+### Rangeweapons
+
+- [x] Balestra
+- [x] Borndorn
+- [ ] Fledermaus
+- [x] Granatapfel
+- [ ] Kriegsbogen
+- [x] Schleuder
+- [x] Stabschleuder
+- [x] Windenarmbrust
+- [x] Wurfmesser
+- [x] Jonglierball (i)
+- [x] Jonglierball mit Gewichten (i)
+
+
+### Armors
+
+- [x] Amazonenrüstung
+- [x] Bronzeharnisch
+- [x] Eisenmantel
+- [x] Fellrüstung
+- [x] Fünflagenharnisch
+- [x] Gambeson
+- [ ] Garether Platte
+- [x] Gestechrüstung
+- [x] Gladiatorenrüstung
+- [x] Hartholzharnisch
+- [x] Hornrüstung
+- [x] Ifirnsmantel
+- [x] Kettenweste
+- [x] Kürass
+- [x] Kurbul
+- [ ] Lamellar
+- [x] Langes Kettenhemd
+- [ ] Lindwurmhaut
+- [ ] Mammutonpanzer
+- [x] Reiterharnisch
+- [x] Schuppengewand
+- [x] Schwere Platte
+- [x] Skorpionhemd
+- [x] Turnierrüstung
+- [ ] Wattierter Waffenrock
+- [x] Baburiner Hut
+- [x] Drachenhelm
+- [x] Flügelhelm
+- [x] Gladiatorenhelm
+- [x] Kettenhaube
+- [x] Lederhelm
+- [x] Maskenhelm
+- [x] Morion
+- [x] Schaller
+- [x] Sturmhaube
+- [ ] Tellerhelm
+- [x] Tobrischer Hut
+- [ ] Topfhelm
+- [ ] Wolfshelm
+- [ ] Zwergenhelm
+- [x] Armschienen, Leder
+- [x] Armschienen, Stahl
+- [x] Beinschienen, Leder
+- [x] Beinschienen, Stahl
+- [x] Kettenbeinlinge
+- [x] Panzerhandschuhe
+
+
 
 
 
 ## Aventurian-taverns
-Total status:  1/1 (100.0%)
+Total status:  1/8 (12.5%)
 
 
 ### Poison
@@ -464,11 +914,26 @@ Total status:  1/1 (100.0%)
 - [x] Grog (Becher)
 
 
+### Armors
+
+- [ ] Koscher Gambeson
+
+
+### Meleeweapons
+
+- [ ] Entdeckerpeitsche
+- [ ] Holzhammer (i)
+- [ ] Hügelzwergisches Kurzschwert
+- [ ] Machete
+- [ ] Nordmärker Langschwert
+- [ ] Albernisches Langschwert
+
+
 
 
 
 ## Bannerofloyalty
-Total status:  9/17 (52.94%)
+Total status:  9/21 (42.86%)
 
 
 ### Specialability
@@ -497,6 +962,14 @@ Total status:  9/17 (52.94%)
 - [x] Helles Ferdoker Gerstenbräu (Humpen)
 - [x] Nordasker Weizengold (Humpen)
 - [x] Vinsalter Altquell (Humpen)
+
+
+### Meleeweapons
+
+- [ ] Lea Invicta
+- [ ] Drachenschwinger
+- [ ] Zepter des Shinxirius Magnus
+- [ ] Legionärsschild
 
 
 
@@ -691,6 +1164,32 @@ Total status:  48/67 (71.64%)
 
 
 
+## Catacombs
+Total status:  0/11 (0.0%)
+
+
+### Specialability
+
+- [ ] Gespür für Himmelsrichtungen
+- [ ] Orientierung unter Tage
+- [ ] Fallen entschärfen
+- [ ] Fallenbaumeisterin
+- [ ] Fallentarnung
+- [ ] Fallen wieder scharfmachen
+
+
+### Consumable
+
+- [ ] Eulentränen
+- [ ] Kaltes Licht
+- [ ] Leuchtkreide
+- [ ] Pyrophor
+- [ ] Trunk der ruhigen Hand
+
+
+
+
+
 ## Companions
 Total status:  80/111 (72.07%)
 
@@ -826,7 +1325,7 @@ Total status:  80/111 (72.07%)
 
 
 ## Compendium
-Total status:  228/265 (86.04%)
+Total status:  228/288 (79.17%)
 
 
 ### Advantage
@@ -990,11 +1489,46 @@ Total status:  228/265 (86.04%)
 - [ ] Sunsura
 
 
+### Rangeweapons
+
+- [ ] Schleuder
+
+
+### Armors
+
+- [ ] Holzrüstung
+- [ ] Hornrüstung
+- [ ] Knochenrüstung
+- [ ] Turnierrüstung
+
+
+### Meleeweapons
+
+- [ ] Beil oder Handaxt (i)
+- [ ] Fackel (i)
+- [ ] Nudel- oder Teigholz (i)
+- [ ] Schmiedehammer (i)
+- [ ] Sichel (i)
+- [ ] Turnierlanze
+- [ ] Fuhrmannspeitsche
+- [ ] Breitschwert
+- [ ] Parazonium
+- [ ] Scimshar
+- [ ] Turnierschwert
+- [ ] Dreschflegel (2H, i)
+- [ ] Hirtenstab (2H)
+- [ ] Kriegsflegel (2H)
+- [ ] Pailos (2H)
+- [ ] Sense (2H, i)
+- [ ] Sturmsense (2H)
+- [ ] Turnierzweihänder (2H)
+
+
 
 
 
 ## Compendium2
-Total status:  243/321 (75.7%)
+Total status:  243/344 (70.64%)
 
 
 ### Trait
@@ -1334,11 +1868,42 @@ Total status:  243/321 (75.7%)
 - [x] Vogelspinnengift
 
 
+### Meleeweapons
+
+- [ ] Schlachtermesser (i)
+- [ ] Kriegsfächer
+- [ ] Elfendolch
+- [ ] Degen
+- [ ] Aleeza
+- [ ] Fleischerbeil (i)
+- [ ] Zwergenskraja
+- [ ] Brillantzwergischer Buckler
+- [ ] Faustschild
+- [ ] Amazonensäbel
+- [ ] Brillantzwergisches Kurzschwert
+- [ ] Hauswehr
+- [ ] Havener Messer
+- [ ] Drachentöter (2H)
+- [ ] Elfenspeer (2H)
+- [ ] Mistgabel (2H, i)
+- [ ] Wurmspieß (2H)
+- [ ] Holzfälleraxt (2H, i)
+- [ ] Spitzhacke (2H, i)
+- [ ] Zwergenschlägel (2H)
+
+
+### Rangeweapons
+
+- [ ] Balestra
+- [ ] Borndorn
+- [ ] Gaoraith
+
+
 
 
 
 ## Core
-Total status:  370/443 (83.52%)
+Total status:  458/527 (86.91%)
 
 
 ### Advantage
@@ -1523,7 +2088,7 @@ Total status:  370/443 (83.52%)
 - [x] Paralysis
 - [x] Penetrizzel
 - [x] Psychostabilis
-- [ ] Radau
+- [x] Radau
 - [x] Respondami
 - [ ] Salander
 - [x] Sanftmut
@@ -1741,13 +2306,13 @@ Total status:  370/443 (83.52%)
 - [ ] Antidot
 - [x] Heiltrank
 - [ ] Liebestrunk
-- [ ] Unsichtbarkeitselixier
+- [x] Unsichtbarkeitselixier
 - [ ] Verwandlungselixier
-- [ ] Waffenbalsam
+- [x] Waffenbalsam
 - [x] Willenstrunk
 - [x] Zaubertrank
 - [ ] Bannstaub
-- [ ] Pastillen gegen Schmerzen
+- [x] Pastillen gegen Schmerzen
 - [x] Zähigkeitstrunk
 
 
@@ -1761,11 +2326,107 @@ Total status:  370/443 (83.52%)
 - [x] Stabschlangengift
 
 
+### Meleeweapons
+
+- [x] Basiliskenzunge
+- [x] Dolch
+- [x] Drachenzahn
+- [x] Linkhand
+- [x] Messer
+- [x] Schwerer Dolch
+- [x] Waqqif
+- [x] Florett
+- [x] Rapier
+- [x] Wolfsmesser
+- [x] Brabakbengel
+- [x] Keule
+- [x] Knüppel
+- [x] Lindwurmschläger
+- [x] Magierstab, kurz
+- [x] Magierstab, mittel
+- [x] Molokdeschnaja
+- [x] Orknase
+- [x] Rabenschnabel
+- [x] Sonnenzepter
+- [x] Streitaxt
+- [x] Streitkolben
+- [x] Morgenstern
+- [x] Kriegslanze
+- [x] Schlagring
+- [x] Holzschild
+- [x] Lederschild
+- [x] Thorwalerschild
+- [x] Großschild
+- [x] Barbarenschwert
+- [x] Entermesser
+- [x] Haumesser
+- [x] Khunchomer
+- [x] Kurzschwert
+- [x] Langschwert
+- [x] Robbentöter
+- [x] Säbel
+- [x] Sklaventod
+- [x] Dreizack (2H)
+- [x] Dschadra (2H)
+- [x] Hellebarde (2H)
+- [x] Holzspeer (2H)
+- [x] Kampfstab (2H)
+- [x] Magierstab, lang (2H)
+- [x] Speer (2H)
+- [x] Zweililie (2H)
+- [x] Anderthalbhänder (2H)
+- [x] Doppelkhunchomer (2H)
+- [x] Großer Sklaventod (2H)
+- [x] Rondrakamm (2H)
+- [x] Tuzakmesser (2H)
+- [x] Zweihänder (2H)
+- [x] Barbarenstreitaxt (2H)
+- [x] Felsspalter (2H)
+- [x] Kriegshammer (2H)
+- [x] Zwergenschlägel (2H)
+
+
+### Rangeweapons
+
+- [x] Balestrina
+- [x] Eisenwalder
+- [x] Handarmbrust
+- [x] Leichte Armbrust
+- [x] Schwere Armbrust
+- [x] Elfenbogen
+- [x] Kompositbogen
+- [x] Kurzbogen
+- [x] Langbogen
+- [x] Schneidzahn
+- [x] Stein
+- [x] Wurfbeil
+- [x] Wurfdolch
+- [x] Wurfkeule
+- [x] Wurfring
+- [x] Wurfscheibe
+- [x] Wurfstern
+- [x] Wurfspeer
+
+
+### Armors
+
+- [x] Normale Kleidung
+- [x] Felle
+- [x] Schwere Kleidung
+- [x] Winterkleidung
+- [x] Stoffrüstung
+- [x] Gambeson
+- [x] Lederrüstung
+- [x] Kettenrüstung
+- [x] Schuppenrüstung
+- [x] Plattenrüstung
+
+
 
 
 
 ## Desertkingdom
-Total status:  55/80 (68.75%)
+Total status:  78/113 (69.03%)
 
 
 ### Spell
@@ -1874,6 +2535,51 @@ Total status:  55/80 (68.75%)
 - [x] Gigantulaegift
 - [x] Cheria-Kaktus (Berührung)
 - [x] Cheria-Kaktus (Verzehr)
+
+
+### Meleeweapons
+
+- [x] Amadah-Waqqif
+- [x] Krummdolch
+- [x] Novadische Reiteraxt
+- [x] Thalusische Jitte
+- [x] Thalusische Sichel
+- [x] Knochenkeule, kurz
+- [x] Knochenkeule, mittel
+- [x] Thalusischer Panzerarm
+- [ ] Novadischer Schild
+- [x] Beni-Geraut-Schie-Säbel
+- [x] Novadischer Khunchomer
+- [x] Ferkina-Dschadra (2H)
+- [x] Kefter Dschadra (2H)
+- [ ] Ferkina-Barbarenstreitaxt (2H)
+- [x] Knochenkeule, lang (2H)
+- [x] Mherweder Doppelkhunchomer (2H)
+- [ ] Thalusischer Kadikalam (2H)
+- [x] Esravun, Sternenschwert des Mautaban
+- [ ] Der Tausendjährige Zweihänder (2H)
+- [ ] Dschadra Al’Abrah, die Träne Rastullahs
+- [ ] Echter Bernsteindolch
+- [ ] Echtes Bernsteinschwert
+- [ ] Funkelpieks
+
+
+### Rangeweapons
+
+- [x] Thalusische Rebellenarmbrust
+- [x] Beni-Geraut-Schie-Bogen
+- [x] Ferkina-Kurzbogen
+- [x] Unauer Kompositbogen
+
+
+### Armors
+
+- [x] Ferkina-Fellrüstung
+- [x] Ferkina-Chitinrüstung
+- [x] Lederrüstung der Beni Geraut Schie
+- [ ] Mherweder Ringelpanzer
+- [ ] Novadischer Waffenrock
+- [x] Spiegelpanzer
 
 
 
@@ -2030,7 +2736,7 @@ Total status:  72/119 (60.5%)
 
 
 ## Goetterwirken
-Total status:  264/411 (64.23%)
+Total status:  265/545 (48.62%)
 
 
 ### Specialability
@@ -2123,7 +2829,6 @@ Total status:  264/411 (64.23%)
 - [x] Weg des Stabträgers
 - [ ] Gegenwehr des Stabträgers
 - [ ] Sicherer Schritt des Stabträgers
-- [ ] Glückskind
 - [ ] Macht des Schicksals
 - [ ] Zeichen der Vorsehung
 - [x] Tradition (Ifirnkirche)
@@ -2286,6 +2991,120 @@ Total status:  264/411 (64.23%)
 - [x] Angriff auf ungeschützte Stellen
 - [x] Anspringen
 - [ ] Unterwasserkampf
+- [ ] Glück mit dir
+- [ ] Guter Schlaf
+- [ ] Gleichklang von Körper und Seele
+- [ ] Praios’ Magieentzug
+- [ ] Kugelschild
+- [ ] Autorität
+- [x] Praiosschutz
+- [ ] Praios’ gestählter Wille
+- [ ] Kraft der Löwin
+- [ ] Bollwerk des Schutzes
+- [ ] Stahlhaut
+- [ ] Mut der Sturmherrin
+- [ ] Einschüchterndes Sturmgebrüll
+- [ ] Zorn der Sturmherrin
+- [ ] Wie ein Fisch im Wasser
+- [ ] Efferds Tierfreundschaft
+- [ ] Gebet der Einsicht
+- [ ] Schützender Wirbelwind
+- [ ] Auf See geboren
+- [ ] Segen der Seeleute
+- [ ] Friedliches Auftreten
+- [ ] Mütterliches Auftreten
+- [ ] Behagliches Heim
+- [ ] Sicheres Heim
+- [ ] Schutz vor den Toten
+- [ ] Angsteinflößende Gestalt
+- [ ] Schlaf der Toten
+- [ ] Buch der Träume
+- [ ] Schlaf der Träume
+- [ ] Beruhigende Worte
+- [ ] Analysestab
+- [ ] Beistand gegen Verwandlungszauberei
+- [ ] Hesindes Magieentzug
+- [ ] Wissensvorteil
+- [ ] Heilige Eingebung
+- [ ] Recherchehilfe
+- [ ] Firuns Bogenweihe
+- [ ] Eisiger Pfeil
+- [ ] Frostiger Pfeil
+- [ ] Auge des Adlers
+- [ ] Weitschuss
+- [ ] Heiliger Blattschuss
+- [ ] Friedensaura
+- [ ] Unbeirrbarkeit
+- [ ] Eidechsenfreundschaft
+- [ ] Gewand des Demagogen
+- [ ] Erholsame Nachtruhe
+- [ ] Geschmeidiges Gewand
+- [ ] Schaffenskraft
+- [ ] Gespür für Geschäfte
+- [ ] Bessere Argumente
+- [ ] Unbeeinflussbar
+- [ ] Tarnung des Ichs
+- [ ] Geistige Umnachtung
+- [ ] Phexens Magieentzug
+- [ ] Pflanzenkenner
+- [ ] Erntezeit
+- [ ] Brot der Stärkung
+- [ ] Heilsames Saatgut
+- [ ] Heilkräuter-Beutel
+- [ ] Beutel der Widerstandskraft
+- [ ] Flammenschutz
+- [ ] Hitze der Esse
+- [ ] Lodernde Laterne
+- [ ] Handwerksmeister
+- [ ] Geschickter Handwerker
+- [ ] Routinierter Handwerker
+- [ ] Der eigene Wille
+- [ ] Rahjas Fürsorge
+- [ ] Reigen der Harmonie
+- [ ] Genussmensch
+- [ ] Rausch der Ekstase
+- [ ] Meister der Ekstase
+- [ ] Flöte der Friedfertigkeit
+- [ ] Lied des Sanftmuts
+- [ ] Lied des Friedens
+- [ ] Vogelflug
+- [ ] Schicksalslied
+- [ ] Segenslied
+- [ ] Ifirns Bogenweihe
+- [ ] Geduldige Jägerin
+- [ ] Kunstschuss
+- [ ] Segen der Waldläuferin
+- [ ] Segen der Schwanengleichen
+- [ ] Ifirns Fürsorge
+- [ ] Mantikorpanzer
+- [ ] Unfehlbarer Hieb
+- [ ] Unaufhaltsam
+- [ ] Unbeeindruckt
+- [ ] Überlegene Taktik
+- [ ] Befehlsgewalt
+- [ ] Pfad des Phex
+- [ ] Auge des Kryptographen
+- [ ] Verschleierung des Wissens
+- [ ] Pfad der Hesinde
+- [ ] Stärkung des Geistes
+- [ ] Weisheit der Schlange
+- [ ] Schicksalsbund
+- [ ] Langer Bund
+- [ ] Eingeschworener Bund
+- [ ] Kampfgemeinschaft
+- [ ] Angriffsgemeinschaft
+- [ ] Schildgemeinschaft
+- [ ] Larve des Demagogen
+- [ ] Larve der Unbeirrbarkeit
+- [ ] Larve des Zauberschilds
+- [ ] Larve des Schutzes
+- [ ] Larve des unbeirrbaren Willens
+- [ ] Larve der Tarnung
+- [ ] Liturgiebindung
+- [ ] Schattenkrieger
+- [ ] Verkünder des Schickals
+- [ ] Die Alte Tradition
+- [ ] Weisung der Sterne
 
 
 ### Liturgy
@@ -2468,11 +3287,44 @@ Total status:  264/411 (64.23%)
 - [ ] Wolfsspinnengift
 
 
+### Meleeweapons
+
+- [ ] Opferdolch des Namenlosen
+- [ ] Firunsmesser
+- [ ] Ingerimmshammer
+- [ ] Rabenschnabel
+- [ ] Sonnenzepter
+- [ ] Amazonenschild
+- [ ] Walschild
+- [ ] Amazonensäbel
+- [ ] Avesstab (2H)
+- [ ] Efferdbart (2H)
+- [ ] Wanderstab (2H)
+- [ ] Korspieß (2H)
+- [ ] Rondrakamm (2H)
+
+
+### Rangeweapons
+
+- [ ] Schleuder
+- [ ] Efferdbart (2H)
+- [ ] Firunsbogen
+- [ ] Ifirnsbogen
+
+
+### Armors
+
+- [ ] Amazonenrüstung
+- [ ] Ifirnmantel
+- [ ] Pantherrüstung
+- [ ] Schuppengewand
+
+
 
 
 
 ## Goetterwirken2
-Total status:  225/320 (70.31%)
+Total status:  226/404 (55.94%)
 
 
 ### Specialability
@@ -2612,6 +3464,43 @@ Total status:  225/320 (70.31%)
 - [ ] Unterwasserkampf
 - [ ] Bannmeister
 - [ ] Aussaugen
+- [ ] Lebemann
+- [ ] Trank der Begierde
+- [ ] Trank des Verführers
+- [ ] Füllhorn des Rausches
+- [ ] Levthans Gelage
+- [ ] Meister des Rausches
+- [ ] Sanfte Worte
+- [ ] Schlaf der Widerstandsfähigkeit
+- [ ] Schlaf des Friedens
+- [ ] Sanduhr der Visionen
+- [ ] Sand der Zukunft
+- [ ] Sand der Geheimnisse
+- [x] Tradition (Shinxirkult)
+- [ ] Mut der Legion
+- [ ] Legionärsgeschick
+- [ ] Legionärsformation
+- [ ] Kompromisslose Taktik
+- [ ] Drohnenopfer
+- [ ] Legionärsbund
+- [ ] Spitzer Stachel
+- [ ] Hornissenstich
+- [ ] Blutender Stich
+- [ ] Shinxirs Standfestigkeit
+- [ ] Hornissenpanzer
+- [ ] Schlachtfeldgeschick
+- [ ] Geisterfetischweihe
+- [ ] Gestählter Geist
+- [ ] Unbezwingbarer Geist
+- [ ] Gestählter Körper
+- [ ] Unbezwingbarer Körper
+- [ ] Unbeugsamkeit
+- [ ] Meisterhandwerker
+- [ ] Hammer der Hitze
+- [ ] Feuerresistenz
+- [ ] Angroschpanzer
+- [ ] Geschärfter Stahl
+- [ ] Durchdringender Schlag
 
 
 ### Liturgy
@@ -2773,11 +3662,99 @@ Total status:  225/320 (70.31%)
 - [x] Moderne Sichtweise
 
 
+### Meleeweapons
+
+- [ ] Der Zweihänder Armalion (2H)
+- [ ] Das heilige Schwert Rabenfeder
+- [ ] Der Schwarze Speer (2H)
+- [ ] Die Dschadra al'Zul (2H)
+- [ ] Krummdolch
+- [ ] Marbodolch
+- [ ] Degen
+- [ ] Heroldsstab
+- [ ] Knochenkeule, kurz
+- [ ] Knochenkeule, mittel
+- [ ] Sichel (i)
+- [ ] Widderkeule
+- [ ] Geißel
+- [ ] Metallverstärkter Holzschild
+- [ ] Sonnenschild
+- [ ] Verstärkter Holzschild
+- [ ] Hacksäbel
+- [ ] Maraskanischer Hakenspieß (2H)
+- [ ] Partisane (2H)
+- [ ] Stoßspeer (2H)
+- [ ] Knochenkeule, lang (2H)
+- [ ] Mohaknochenkeule, kurz
+- [ ] Mohaknochenkeule, mittel
+- [ ] Mohaknochenkeule, lang (2H)
+- [ ] Nivesenknochenkeule, kurz
+- [ ] Nivesenknochenkeule, mittel
+- [ ] Nivesenknochenkeule, lang (2H)
+- [ ] Trollzackerknochenkeule, kurz
+- [ ] Trollzackerknochenkeule, mittel
+- [ ] Trollzackerknochenkeule, lang (2H)
+- [ ] Gjalskerknochenkeule, kurz
+- [ ] Gjalskerknochenkeule, mittel
+- [ ] Gjalskerknochenkeule, lang (2H)
+- [ ] Fjarningerknochenkeule, kurz
+- [ ] Fjarningerknochenkeule, mittel
+- [ ] Fjarningerknochenkeule, lang (2H)
+- [ ] Ferkinaknochenkeule, kurz
+- [ ] Ferkinaknochenkeule, mittel
+- [ ] Ferkinaknochenkeule, lang (2H)
+- [ ] Hornissenstachel
+- [ ] Angroschhammer
+
+
+### Armors
+
+- [ ] Die Wundersame Rüstung
+- [ ] Lamellar
+- [ ] Ringelpanzer
+
+
+### Rangeweapons
+
+- [ ] Der Wurfstern des Phex
+- [ ] Diskus
+- [ ] Wurfspeer
+
+
+
+
+
+## Goldenemperor
+Total status:  0/10 (0.0%)
+
+
+### Specialability
+
+- [ ] Tradition (Frühe Borbaradianer)
+- [ ] Blutmagie (Fremdopfer)
+- [ ] Borbaradianismus
+
+
+### Spell
+
+- [ ] Eigene Ängste
+- [ ] Erinnerung verlasse dich
+- [ ] Höllenpein
+- [ ] Incendio
+- [ ] Schwarzer Schrecken
+
+
+### Ritual
+
+- [ ] Hartes schmelze
+- [ ] Weiches Erstarre
+
+
 
 
 
 ## Havena
-Total status:  30/82 (36.59%)
+Total status:  41/103 (39.81%)
 
 
 ### Specialability
@@ -2818,6 +3795,12 @@ Total status:  30/82 (36.59%)
 - [x] Kleines Simulacrum
 - [ ] Unheiligtum errichten
 - [ ] Wasserbrücke
+- [ ] Kiemenatmung
+- [ ] Rochengift
+- [ ] Numinorus Wissen
+- [ ] Numinorus Prophezeiung
+- [ ] Numinorus Zeichen
+- [ ] Numinorus Flutwelle
 
 
 ### Liturgy
@@ -2892,13 +3875,40 @@ Total status:  30/82 (36.59%)
 - [x] Geisterquallengift
 - [x] Quallengift
 - [x] Schattenrochengift
+- [x] Rochengift
+
+
+### Meleeweapons
+
+- [x] Albernischer Anderthalbhänder (2H)
+- [x] Efferdbart (2H)
+- [ ] Harbener Säbel
+- [ ] Havener Buckler
+- [ ] Havener Messer
+- [x] Neckerdreizack (2H)
+- [x] Tiefendorn (2H)
+- [x] Charib’Yzz-Dolch
+- [x] Krakensilberspeer (2H)
+
+
+### Rangeweapons
+
+- [x] Gaoraith (Albernische Wurfaxt)
+- [x] Schnellfeuerarmbrust „Ucuri“
+- [x] Schwere Armbrust „Leonardo Original“
+
+
+### Armors
+
+- [ ] Havener Lederharnisch
+- [x] Schuppengewand
 
 
 
 
 
 ## Herbarium
-Total status:  94/139 (67.63%)
+Total status:  97/143 (67.83%)
 
 
 ### Spell
@@ -2947,9 +3957,9 @@ Total status:  94/139 (67.63%)
 - [x] 1001 Rausch
 - [ ] Alchimistensäure
 - [ ] Erscheinungspulver
-- [ ] Eulentränen
+- [x] Eulentränen
 - [x] Fingerfertigkeitselixier
-- [ ] Heilsalbe
+- [x] Heilsalbe
 - [ ] Hylailer Feuer
 - [x] Konstitutionselixier
 - [x] Körperkraftelixier
@@ -2967,7 +3977,7 @@ Total status:  94/139 (67.63%)
 - [ ] Brandsalbe
 - [ ] Horuschenöl
 - [ ] Jacopo-Süßigkeit
-- [ ] Liebesküchlein
+- [x] Liebesküchlein
 - [ ] Lulanientrunk
 - [ ] Praiosmilch
 - [ ] Sansaro-Essenz
@@ -3034,11 +4044,23 @@ Total status:  94/139 (67.63%)
 - [x] Rattenpilzgift (Verzehr)
 
 
+### Meleeweapons
+
+- [ ] Dornrosengerte
+
+
+### Rangeweapons
+
+- [ ] Krähenfüße
+- [ ] Schlängelbeutel
+- [ ] Blasrohr
+
+
 
 
 
 ## Herbarium2
-Total status:  63/112 (56.25%)
+Total status:  67/115 (58.26%)
 
 
 ### Specialability
@@ -3062,7 +4084,7 @@ Total status:  63/112 (56.25%)
 
 ### Consumable
 
-- [ ] Atmonbrei
+- [x] Atmonbrei
 - [ ] Dergolasch-Pulver
 - [ ] Egelschreckpaste
 - [ ] Fiebersaft
@@ -3076,13 +4098,13 @@ Total status:  63/112 (56.25%)
 - [x] Charismaelixier
 - [ ] Feuerpulver
 - [ ] Friedenswasser
-- [ ] Furchtlos-Tropfen
+- [x] Furchtlos-Tropfen
 - [x] Gewandtheitselixier
 - [ ] Ghulscheuche
 - [ ] Gnädiger Drachenodem
-- [ ] Hauch der Weissagung
+- [x] Hauch der Weissagung
 - [ ] Ifirnstrunk
-- [ ] Kaltes Licht
+- [x] Kaltes Licht
 - [x] Mutelixier
 - [ ] Neckergel
 - [ ] Pulver des Klaren Geistes
@@ -3145,11 +4167,26 @@ Total status:  63/112 (56.25%)
 - [x] Schwarzer Weinstock (Verzehr)
 
 
+### Meleeweapons
+
+- [ ] Waldwebennetz
+
+
+### Rangeweapons
+
+- [ ] Lichtnebler-Beutel
+
+
+### Armors
+
+- [ ] Menchal-Rüstung
+
+
 
 
 
 ## Incorporealhorrors
-Total status:  48/84 (57.14%)
+Total status:  49/84 (58.33%)
 
 
 ### Spell
@@ -3255,7 +4292,7 @@ Total status:  48/84 (57.14%)
 - [ ] Bannkreide
 - [ ] Beschwörungskreide
 - [ ] Tijakools Hauch
-- [ ] Waffenbalsam
+- [x] Waffenbalsam
 
 
 ### Poison
@@ -3268,7 +4305,7 @@ Total status:  48/84 (57.14%)
 
 
 ## Klingendernacht
-Total status:  6/14 (42.86%)
+Total status:  6/23 (26.09%)
 
 
 ### Ritual
@@ -3298,11 +4335,28 @@ Total status:  6/14 (42.86%)
 - [ ] Stillstand
 
 
+### Meleeweapons
+
+- [ ] Shakagra-Giftdolch
+- [ ] Shakagra-Hammer
+- [ ] Shakagra-Buckler
+- [ ] Shakagra-Langschild
+- [ ] Shakagra-Krummsäbel
+- [ ] Shakagra-Schwert
+- [ ] Shakagra-Kriegshammer (2H)
+
+
+### Armors
+
+- [ ] Leichte Shakagra-Platte
+- [ ] Schwere Shakagra-Plattenrüstung
+
+
 
 
 
 ## Library
-Total status:  0/12 (0.0%)
+Total status:  6/12 (50.0%)
 
 
 ### Specialability
@@ -3312,12 +4366,6 @@ Total status:  0/12 (0.0%)
 - [ ] Kalligraphie
 - [ ] Kryptographie
 - [ ] Schnellschreiber
-- [ ] Verschlüsselungen (Chorhoper Chiffrat)
-- [ ] Verschlüsselungen (Elburumer Enigma)
-- [ ] Verschlüsselungen (Kusliker Kode)
-- [ ] Verschlüsselungen (Kusliker Kryptierung)
-- [ ] Verschlüsselungen (Silaser Schlüsseltext)
-- [ ] Verschlüsselungen (Vallusianische Verschlüsselung)
 
 
 ### Spell
@@ -3329,7 +4377,7 @@ Total status:  0/12 (0.0%)
 
 
 ## Magie1
-Total status:  204/368 (55.43%)
+Total status:  204/383 (53.26%)
 
 
 ### Specialability
@@ -3728,11 +4776,34 @@ Total status:  204/368 (55.43%)
 - [ ] Seilschlangengift
 
 
+### Meleeweapons
+
+- [ ] Bannschwert, klein
+- [ ] Bannschwert, mittel
+- [ ] Bannschwert, groß (2H)
+- [ ] Flöte und ähnliche Instrumente (i)
+- [ ] Laute und ähnliche Instrumente (i)
+- [ ] Zauberinstrument (Flöte und ähnliche Instrumente) (i)
+- [ ] Zauberinstrument (Laute und ähnliche Instrumente) (i)
+- [ ] Magierstab, kurz
+- [ ] Magierstab, mittel
+- [ ] Magierstab, lang (2H)
+- [ ] Zauberkugel
+- [ ] Zauberstecken, kurz
+- [ ] Zauberstecken, mittel
+- [ ] Zauberstecken, lang (2H)
+
+
+### Rangeweapons
+
+- [ ] Zauberkugel (geworfen)
+
+
 
 
 
 ## Magie2
-Total status:  215/367 (58.58%)
+Total status:  216/372 (58.06%)
 
 
 ### Specialability
@@ -4130,11 +5201,27 @@ Total status:  215/367 (58.58%)
 - [x] Hexenhornissengift
 
 
+### Meleeweapons
+
+- [ ] Magierkugel
+- [ ] Wanderstab (2H)
+
+
+### Rangeweapons
+
+- [ ] Magierkugel
+
+
+### Armors
+
+- [ ] Holzrüstung
+
+
 
 
 
 ## Magie3
-Total status:  157/386 (40.67%)
+Total status:  159/394 (40.36%)
 
 
 ### Specialability
@@ -4239,7 +5326,7 @@ Total status:  157/386 (40.67%)
 - [x] Chimärenmeister
 - [x] Daimonidenkonstrukteur
 - [ ] Druidenrache
-- [ ] Golembauer
+- [x] Golembauer
 - [ ] Exzellenter Entschwörer
 - [x] Machtvoller Astralleib
 - [x] Nekromant
@@ -4555,6 +5642,18 @@ Total status:  157/386 (40.67%)
 - [x] Shaz-Man-Yat-Gift
 
 
+### Meleeweapons
+
+- [ ] Druidensichel
+- [ ] Bakka
+- [ ] Chablak-Dolch
+- [ ] Dagla-Schwert
+- [ ] Harigastur-Bronzeschwert
+- [ ] Nipauka-Axt
+- [ ] Nivesischer Wolfsspeer (2H)
+- [x] Druidendolch
+
+
 
 
 
@@ -4702,7 +5801,7 @@ Total status:  0/4 (0.0%)
 
 
 ## Nekromanthaeum
-Total status:  68/84 (80.95%)
+Total status:  80/96 (83.33%)
 
 
 ### Specialability
@@ -4805,11 +5904,27 @@ Total status:  68/84 (80.95%)
 - [x] Leichengift
 
 
+### Meleeweapons
+
+- [x] Arbach
+- [x] Byakka
+- [x] Gruufhai (2H)
+- [x] Knochendolch
+- [x] Maru-Säbel
+- [x] Minotauren-Hammer
+- [x] Oger-Keule
+- [x] Priesterstab, lang (2H)
+- [x] Rimkur (2H)
+- [x] Skrechu-Säbel
+- [x] Skrechu-Stab
+- [x] Troll-Keule
+
+
 
 
 
 ## Orcs
-Total status:  56/87 (64.37%)
+Total status:  56/109 (51.38%)
 
 
 ### Advantage
@@ -4866,6 +5981,18 @@ Total status:  56/87 (64.37%)
 - [x] Anspringen
 - [x] Angriff auf ungeschützte Stellen
 - [ ] Überrennen
+- [ ] Graveshs Beständigkeit
+- [ ] Graveshs Geschick
+- [ ] Graveshs Routine
+- [ ] Brandimmunität
+- [ ] Graveshs glühender Hammer
+- [ ] Graveshs glühende Esse
+- [ ] Graveshs Meisterhandwerk
+- [ ] Geschärfte Klinge
+- [ ] Durchdringende Klinge
+- [ ] Handwerkshilfe
+- [ ] Lodernde Klinge
+- [ ] Brandresistenz
 
 
 ### Spell
@@ -4925,6 +6052,151 @@ Total status:  56/87 (64.37%)
 - [x] Gharrachai
 - [x] Svelltlandorks
 - [x] Shurachai
+
+
+### Meleeweapons
+
+- [ ] Blutspeer (2H)
+- [ ] Orkknochenkeule, kurz
+- [ ] Orkknochenkeule, mittel
+- [ ] Orkknochenkeule, lang (2H)
+- [ ] Arbach
+- [ ] Byakka
+- [ ] Gruufhai (2H)
+- [ ] Graveshhammer
+
+
+### Armors
+
+- [ ] Fellrüstung
+- [ ] Hornrüstung
+
+
+
+
+
+## Otherworld
+Total status:  0/96 (0.0%)
+
+
+### Specialability
+
+- [ ] Tradition (Feen)
+- [ ] Feenrettung
+- [ ] Auge der Fee
+- [ ] Blut der Anderswelt
+- [ ] Bund der Gefühle
+- [ ] Dunkles Abbild der Bündnisgabe
+- [ ] Durch Fels und Gestein
+- [ ] Düsternis der Anderswelt
+- [ ] Elementare Härte
+- [ ] Feenflut
+- [ ] Feenstärke
+- [ ] Im Schatten der Bäume
+- [ ] Kiemen des Barschs
+- [ ] Kraft des Lebens
+- [ ] Licht der Kristalle
+- [ ] Macht der Pflanzen
+- [ ] Macht wider Dämonen
+- [ ] Ruf des Waldes
+- [ ] Salbung der Haut
+- [ ] Verformung des Elements
+- [ ] Weg durch den Fluss
+- [ ] Raub der Lebenskraft
+- [ ] Bindung (Feen)
+- [ ] Entschwörung (Feen)
+- [ ] Machtvolle Entschwörung (Feen)
+- [ ] Rudelbeschwörung (Feen)
+- [ ] Zirkelmeister (Feen)
+- [ ] Blick des Gargyls
+- [ ] Fressen für den Namenlosen
+
+
+### Consumable
+
+- [ ] Anderswelt-Lidschatten
+- [ ] Beschwörungskreide
+
+
+### Advantage
+
+- [ ] Feenblut (Blütenfee)
+- [ ] Feenblut (Dryade)
+- [ ] Feenblut (Großer Biestinger)
+- [ ] Feenblut (Holde)
+- [ ] Feenblut (Nixer)
+- [ ] Feenblut (Oreade)
+- [ ] Feenblut (Satyr)
+- [ ] Feenblut (Schwarzfee)
+- [ ] Animalische Kraft
+- [ ] Blumenduft
+- [ ] Dickes Fell
+- [ ] Einblicke ins Verborgene
+- [ ] Gabe der Sonne
+- [ ] Glatte Haut
+- [ ] Harmonie des Waldes
+- [ ] Kraft der Bäume
+- [ ] Leichter Gang
+- [ ] Muttererde
+- [ ] Seesprache
+- [ ] Unnachgiebigkeit der Berge
+- [ ] Tierische Kampfgefährten
+- [ ] Verführerische Gestalt
+- [ ] Wasser des Lebens
+- [ ] Wasserlebewesen
+
+
+### Spell
+
+- [ ] Frigifaxius
+- [ ] Archofaxius
+- [ ] Ignifaxius
+- [ ] Humofaxius
+- [ ] Orcanofaxius
+- [ ] Aquafaxius
+- [ ] Firnlauf
+- [ ] Wüstenlauf
+- [ ] Glutlauf
+- [ ] Wipfellauf
+- [ ] Himmelslauf
+- [ ] Wellenlauf
+- [ ] Frostleib
+- [ ] Basaltleib
+- [ ] Drachenleib
+- [ ] Eichenleib
+- [ ] Federleib
+- [ ] Brandungsleib
+- [ ] Eiswand
+- [ ] Steinwand
+- [ ] Flammenwand
+- [ ] Dornenwand
+- [ ] Sturmwand
+- [ ] Wellenwand
+- [ ] Band und Fessel
+- [ ] Brennender Hass
+- [ ] Chamaelioni
+- [ ] Feenstaub
+- [ ] Oktagramma
+- [ ] Zauberpferd herbeirufen
+
+
+### Ritual
+
+- [ ] Ruf der Feenwesen
+- [ ] Zauberwesen der Natur
+
+
+### Trait
+
+- [ ] Ausweichen in den Limbus
+- [ ] Immunität gegen kritische Treffer
+- [ ] Regeneration
+- [ ] Resistenz gegen göttliches Wirken
+- [ ] Scharfe Krallen
+- [ ] Schreckgestalt
+- [ ] Tarnung
+- [ ] Verbindung zum Beschwörer/Erschaffer
+- [ ] Zusätzliche Aktionen
 
 
 
@@ -5064,7 +6336,7 @@ Total status:  0/1 (0.0%)
 
 
 ## Realmofthethorns
-Total status:  64/107 (59.81%)
+Total status:  76/136 (55.88%)
 
 
 ### Praegung
@@ -5206,11 +6478,52 @@ Total status:  64/107 (59.81%)
 - [x] Schwarzer Pfeffer
 
 
+### Armors
+
+- [ ] Elburische Tuchrüstung
+- [x] Baburischer Spiegelpanzer
+- [ ] Zorganer Ringelpanzer
+- [x] Skorpionrüstung
+
+
+### Meleeweapons
+
+- [ ] Aranischer Säbel
+- [x] Chalukischer Kettenstab
+- [ ] Elburischer Lederschild
+- [ ] Elburumer Dornenfächer
+- [x] Mendlicumer Stechhammer
+- [ ] Llankaner Eisenfächer
+- [x] Palmyrer Reitersäbel
+- [x] Palmyrische Dschadra (2H)
+- [x] Shariwaner Schnitter (2H)
+- [x] Zorganer Dolch
+- [ ] Oronische Klingengeißel (2H)
+- [ ] Oronischer Scimitar (2H)
+- [x] Oronischer Rahjafrevler (2H)
+- [ ] Obstpflücker (2H, i)
+- [x] Amethystlöwin
+- [ ] Belkelels Zuchtmeisterin
+- [ ] Die Dschadra al’Zul (2H)
+- [ ] Dornrosengerte
+- [ ] Neunschwänzige
+
+
+### Rangeweapons
+
+- [ ] Anchopaler Silberstern
+- [x] Baburiner Streitwagenbogen
+- [ ] Baburischer Wurfspeer
+- [ ] Gorische Wurfscheibe
+- [x] Yalaiadscher Schnepper
+- [ ] Der Wurfstern des Phex
+
+
 
 
 
 ## Retosarmory
-Total status:  12/16 (75.0%)
+Total status:  12/105 (11.43%)
 
 
 ### Specialability
@@ -5245,6 +6558,107 @@ Total status:  12/16 (75.0%)
 - [x] Arcanum Interdictum
 
 
+### Meleeweapons
+
+- [ ] Kaiser Rauls Reitersäbel
+- [ ] Patientia
+- [ ] Humilitas (2H)
+- [ ] Gratia
+- [ ] Fortomblasch (2H)
+- [ ] Gerbaldspieß (2H)
+- [ ] Singende Klinge „Tag“
+- [ ] Singende Klinge „Nacht“
+- [ ] Kaisertöter
+- [ ] Auripraedes-Sonnenschild
+- [ ] Auripraedes-Streitkolben
+- [ ] Skalsmader (2H)
+- [ ] Langschwert des Admirals
+- [ ] Bastardschwert des unbekannten Helden (2H)
+- [ ] Magierstab des Gandolf von Gareth, lang (2H)
+- [ ] Sphären-Magierstab, kurz
+- [ ] Stab des Altumarn, lang
+- [ ] Antimagie-Magierstab, mittel
+- [ ] Orkenschreck
+- [ ] Partisane der Bürgerlichen (2H)
+- [ ] Chimärenschläger
+- [ ] Casydrion
+- [ ] Brusgalin
+- [ ] Ay’Halam al’Rhondrachai (2H)
+- [ ] Kaiser Bodars II Saufeder (2H)
+- [ ] Kam’Arum (2H)
+- [ ] Sägeschwert
+- [ ] Rondharas Langschwert
+- [ ] Immertreu-Bastardschwert (2H)
+- [ ] Die ersten Pervalschen Schwerter
+- [ ] Pervalscher Tunierstreitkolben
+- [ ] Laternenschild
+- [ ] Prunkschwert der Goldenen Lanze
+- [ ] Grijomacons Tuzakmesser Mungobiss (2H)
+- [ ] Harlijins Tuzakmesser Lotosdorn (2H)
+- [ ] Achaz-Schwanzwaffe (Raz’Thon)
+- [ ] Reißer (Drash’kor) (2H)
+- [ ] Schnitter aus Frumolds Heer (2H)
+- [ ] Rebellen-Nachtwind
+- [ ] Hal-Schwert
+- [ ] Hal-Streitkolben
+- [ ] Paligan-Prunkdolch
+- [ ] Prunk-Partisane (2H)
+- [ ] Ogerkeule (2H)
+- [ ] Windhager Flotten-Säbel
+- [ ] Khefu-Bengel
+- [ ] Doppelkhunchomer der Murawidun (2H)
+- [ ] Hal-Rapier
+- [ ] Gwains Reitersäbel
+- [ ] Arbach eines Tordochai-Kriegers
+- [ ] Byakka der Garde des Roten Mondes
+- [ ] Gruufhai des Olog Orchai (2H)
+- [ ] Hellebarde der Garether Spießbürger (2H)
+- [ ] Amazonensäbel aus Kurkum
+- [ ] Piratensäbel aus der Blutigen See
+- [ ] Seeschlangenzahn-Dolch
+- [ ] Streitaxt der Wolfengarde
+- [ ] Sagittas Bannschwert
+- [ ] Gryphius
+- [ ] Waldemars Ochsenherde (2H)
+- [ ] Blutiger Zweihänder (2H)
+- [ ] Schild der Panthergarde
+- [ ] Stahlschwinge-Hellebarde (2H)
+- [ ] Schattenstich-Rapier
+- [ ] Löwinblitz-Streitaxt
+- [ ] Leuinzahn-Zweihänder (2H)
+- [ ] Knochenbrecher-Ogerschelle
+- [ ] Tommeldorn-Anderthalbhänder (2H)
+- [ ] Mauerbrecher-Sappeursaxt
+- [ ] Rachtar’achan, Trollzacker-Barbarenstreitaxt (2H)
+- [ ] Abilachter Reitersäbel
+- [ ] Lange Mühle (2H)
+- [ ] Finsterfang (2H)
+- [ ] Amalidion (2H)
+- [ ] Krieg (2H)
+- [ ] Scharlachdorn (2H)
+- [ ] Danos von Lurings Ritterschwert
+- [ ] Schlangenbiss (2H)
+
+
+### Armors
+
+- [ ] Auripraedes-Kettenrüstung
+- [ ] Güldener Panzer
+- [ ] Hartholzharnisch
+- [ ] Heilender Kurbul
+- [ ] Flussgarde-Plattenrüstung
+- [ ] Ritter-der-Krone-Plattenrüstung
+- [ ] Argul-Vhor
+
+
+### Rangeweapons
+
+- [ ] Valvarandir
+- [ ] Thuranstolz-Langbogen
+- [ ] Kriegsdiskus aus Frumolds Heer
+- [ ] Belen-Horas’ Wurfspeer
+
+
 
 
 
@@ -5263,7 +6677,7 @@ Total status:  3/3 (100.0%)
 
 
 ## Riverlands
-Total status:  88/151 (58.28%)
+Total status:  105/184 (57.07%)
 
 
 ### Wesenszug
@@ -5388,8 +6802,8 @@ Total status:  88/151 (58.28%)
 - [x] Herr der Flammen
 - [x] Steinhaut
 - [ ] Versteinerung
-- [ ] Der Stein des Ingerimm
-- [ ] Die Heilige Laterne zu Angbar
+- [x] Der Stein des Ingerimm
+- [x] Die Heilige Laterne zu Angbar
 
 
 ### Ceremony
@@ -5439,11 +6853,56 @@ Total status:  88/151 (58.28%)
 - [x] Salamandergift
 
 
+### Meleeweapons
+
+- [ ] Drachentöter (2H)
+- [ ] Druidendolch
+- [ ] Druidensichel
+- [ ] Ingerimmshammer
+- [ ] Albenhuser Rossschinder (2H)
+- [x] Angbarer Sappeursaxt
+- [ ] Eisenhuetter Kriegshammer (2H)
+- [x] Elenviner Reiterhammer
+- [ ] Ferdoker Kriegslanze
+- [ ] Gratenfelser Ahlspieß (2H)
+- [ ] Gratenfelser Malchus
+- [ ] Koscher Langschwert
+- [ ] Nordmärker Langschwert
+- [ ] Nordmärker Mordaxt (2H)
+- [ ] Hügelzwergisches Kurzschwert
+- [x] Lûrer Lindwurmschläger
+- [x] Muroloscher Zwergenschlägel (2H)
+- [ ] Senaloscher Sehnenschneider
+- [ ] Waldwachter Felsspalter (2H)
+- [x] Xorloscher Wurmspieß (2H)
+- [x] Holzhammer (i)
+- [ ] Koscher Grevenstecken (i)
+- [x] Schmiedewerkzeug (i)
+- [x] Vorschlaghammer (2H, i)
+- [x] Guldebrandt (2H)
+
+
+### Rangeweapons
+
+- [x] Angbarer Mauerwehr
+- [ ] Isenhager Armbrust
+- [x] Koscher Kurzbogen
+- [x] Waldwachter Armbrust
+
+
+### Armors
+
+- [x] Koscher Gambeson
+- [x] Albenhuser Plattenharnisch
+- [x] Nordmärker Ritterrüstung
+- [ ] Isnatoscher Kettengeflecht
+
+
 
 
 
 ## Sevenwindscoast
-Total status:  80/160 (50.0%)
+Total status:  92/186 (49.46%)
 
 
 ### Specialability
@@ -5646,6 +7105,44 @@ Total status:  80/160 (50.0%)
 - [x] Schattenneblergift
 
 
+### Armors
+
+- [ ] Havener Lederharnisch
+- [ ] Matrosenkleidung
+
+
+### Meleeweapons
+
+- [ ] Albernische Bauernwehr
+- [x] Albernischer Anderthalbhänder (2H)
+- [x] Albernisches Langschwert
+- [x] Efferdbart (2H)
+- [x] Neckerdreizack (2H)
+- [ ] Albernisches Entermesser
+- [ ] Harbener Säbel
+- [ ] Havener Buckler
+- [ ] Havener Messer
+- [x] Albernische Wurzelholzkeule
+- [ ] Albernischer Langdolch
+- [x] Albernische Spießaxt (2H)
+- [x] Seesäbel
+- [ ] Windhager Drachenmesser
+- [ ] Windhager Hakenaxt (2H)
+- [ ] Windhager Sichelspeer (2H, i)
+- [ ] Torfgabel (i)
+- [x] Opallöwin (2H)
+- [x] Immanschläger
+- [x] Flöte und ähnliche Instrumente (i)
+- [x] Laute und ähnliche Instrumente (i)
+
+
+### Rangeweapons
+
+- [ ] Albernischer Langbogen
+- [ ] Windhager Schleuder
+- [x] Albernisches Wurfbeil
+
+
 
 
 
@@ -5680,7 +7177,7 @@ Total status:  2/2 (100.0%)
 
 
 ## Steamingjungles
-Total status:  100/155 (64.52%)
+Total status:  118/185 (63.78%)
 
 
 ### Specialability
@@ -5872,11 +7369,53 @@ Total status:  100/155 (64.52%)
 - [ ] Boronsotterngift
 
 
+### Rangeweapons
+
+- [x] Blasrohr, kurz
+- [ ] Blasrohr, lang
+- [x] Harpune
+- [x] Kurzbogen der Yakosh-Dey
+- [ ] Wurfspeer der Anoiha
+- [ ] Zwille der Oijaniha
+- [ ] Netz der Keke-Wanaq
+
+
+### Meleeweapons
+
+- [x] Baccanaq
+- [ ] Entdeckerpeitsche
+- [x] Jagdspeer der Mohaha (2H)
+- [x] Karmulka
+- [x] Katar der Eidechsenkrieger
+- [x] Keulenbeil der Miniwatu
+- [x] Bastschild
+- [x] Leichter Lederschild
+- [x] Panzerschild
+- [ ] Machete
+- [ ] Stachelkeule der Tschopukikuha
+- [ ] Tauchspeer der Napewanha
+- [x] Epharit-Schild
+- [x] Epharit-Schwert
+- [x] Epharit-Speer
+- [ ] Geisteraxt
+- [x] Knochenkeule, kurz
+- [x] Knochenkeule, mittel
+- [x] Knochenkeule, lang (2H)
+
+
+### Armors
+
+- [x] Bastrüstung
+- [ ] Keke-Chitinrüstung
+- [ ] Miniwatu-Lederharnisch
+- [ ] Epharit-Rüstung
+
+
 
 
 
 ## Studyroom
-Total status:  135/213 (63.38%)
+Total status:  149/232 (64.22%)
 
 
 ### Spell
@@ -6118,11 +7657,38 @@ Total status:  135/213 (63.38%)
 - [x] Hexenkrötengift
 
 
+### Meleeweapons
+
+- [x] Magierstab, kurz
+- [x] Magierstab, mittel
+- [x] Magierstab, lang (2H)
+- [x] Kleine Magierkugel
+- [x] Magierkugel
+- [x] Bannschwert, klein
+- [x] Bannschwert, mittel
+- [x] Bannschwert, groß (2H)
+- [x] Magierstab mit Magierkugel, kurz
+- [x] Magierstab mit Magierkugel, mittel
+- [x] Magierstab mit Magierkugel, lang (2H)
+- [x] Zauberschale
+- [ ] Grauer Stab (2H) - Robureon
+- [ ] Grauer Stab (2H) - Sangulmeon
+- [ ] Grauer Stab (2H) - Ferruginion
+- [ ] Grauer Stab (2H) - Cedraion
+- [ ] Famerlîn (2H)
+
+
+### Rangeweapons
+
+- [x] Kleine Magierkugel
+- [x] Magierkugel
+
+
 
 
 
 ## Suncoast
-Total status:  102/151 (67.55%)
+Total status:  125/184 (67.93%)
 
 
 ### Specialability
@@ -6314,11 +7880,303 @@ Total status:  102/151 (67.55%)
 - [x] Westliche Zyklopeninseln
 
 
+### Armors
+
+- [x] Brigantina
+- [x] Bronzeharnisch
+- [x] Fünflagenharnisch
+- [x] Neethaner Reiterharnisch
+- [ ] Seekriegerrüstung
+- [x] Tuchrüstung
+- [x] Purpurne Gewänder
+- [ ] Der Krustenpanzer
+- [x] Zyklopische Kettenrüstung
+
+
+### Meleeweapons
+
+- [ ] Arkisischer Parazonium
+- [x] Baltreïscher Pailos (2H)
+- [x] Chababischer Waqqif
+- [ ] Chirakah-Haumesser
+- [x] Drôler Reiterhammer
+- [x] Hirtenstab (2H)
+- [ ] Kopis
+- [x] Neethaner Langaxt (2H)
+- [x] Sarissa der Seekrieger (2H)
+- [ ] Sklaventreibergerte
+- [ ] Zyklopäischer Rundschild
+- [x] Ay'Halam al'Rhondrachai (2H)
+- [x] Opferdolch des Namenlosen
+- [x] Das Monadenschwert Balgringa
+- [x] Lavawut
+- [x] Avesstab (2H)
+- [x] Zyklopisches Langschwert
+- [ ] Zauberinstrument (Flöte und ähnliche Instrumente) (i)
+- [ ] Zauberinstrument (Laute und ähnliche Instrumente) (i)
+
+
+### Rangeweapons
+
+- [x] Gastraphetes
+- [x] Granatapfel
+- [x] Hylaische Schleuder
+- [ ] Phrygaischer Wurfspeer
+
+
+
+
+
+## Thorwal
+Total status:  2/195 (1.03%)
+
+
+### Meleeweapons
+
+- [ ] Gjalsker Barbarenschwert
+- [ ] Gjalsker Barbarenstreitaxt
+- [ ] Gjalsker Kettenkugel
+- [ ] Gjalsker Knochenkeule
+- [ ] Gjalsker Zackenspeer
+- [ ] Große Tiergeistkralle
+- [ ] Hjallander Entermesser
+- [ ] Hjalskari-Rundschild
+- [ ] Kurzes Nadertaler Hjalsmesser
+- [ ] Langes Nadertaler Hjalsmesser
+- [ ] Olportmesser
+- [ ] Olporter Orknase
+- [ ] Premer Langaxt
+- [ ] Thorwalerschwert
+- [ ] Thorwalscher Immanschläger
+- [ ] Tiergeistkralle
+- [ ] Torstorsgarder Speer
+- [ ] Uddahjaler Kriegsbeil
+- [ ] Varnheimer Dreizack
+- [ ] Walschild
+- [ ] Gjalsker Barbarenstreitaxt (2H)
+- [ ] Gjalsker Kettenkugel (2H,i)
+- [ ] Gjalskerknochenkeule, kurz
+- [ ] Gjalskerknochenkeule, mittel
+- [ ] Gjalskerknochenkeule, lang (2H)
+- [ ] Gjalsker Barbarenhammer (2H)
+- [ ] Thorwalscher Immanschläger (2H,i)
+- [ ] Torstorsgarder Speer (2H)
+- [ ] Varnheimer Dreizack (2H)
+- [ ] Flöte (i)
+- [ ] Handtrommel (i)
+- [ ] Laute (i)
+- [ ] Leier (i)
+- [ ] Tyrfing
+
+
+### Rangeweapons
+
+- [ ] Bodirtaler Kurzbogen
+- [ ] Gjalsker Kettenkugel
+- [ ] Gjalsker Wurfspeer
+- [ ] Ifirnshavener Hailanze
+- [ ] Virporter Schneidzahn
+- [ ] Findling
+- [ ] Gjalsker Kettenkugel (2H,i)
+
+
+### Armors
+
+- [ ] Olporter Krötenhaut
+- [ ] Gjalsker Lederrüstung
+- [ ] Premer Schuppenpanzer
+- [ ] Thorwalerhelm
+
+
+### Advantage
+
+- [ ] Gon
+- [ ] Sagaheld
+- [ ] Walwut
+
+
+### Disadvantage
+
+- [ ] Friedlos
+- [ ] Misslungene Reifeprüfung
+
+
+### Wesenszug
+
+- [ ] Typische/-r Thorwaler/-in
+- [ ] Typische/-r Gjalsker/-in
+- [ ] Bodirtal & Südthorwal
+- [ ] Brinasker Marschen
+- [ ] Donnerzacken & Gjalsker Hochland
+- [ ] Gjalsker Moorland
+- [ ] Küsten des Nordens
+- [ ] Olportsteine
+- [ ] Premer Halbinsel
+- [ ] Thorwaler Hinterland
+
+
+### Specialability
+
+- [ ] Drohgebärden
+- [ ] Ermutigender Gesang
+- [ ] Navigation
+- [ ] Palenkelübung
+- [ ] Tätowierer
+- [ ] Höhere Prophezeiung
+- [ ] Prophezeiung
+- [ ] Runenorakel
+- [ ] Weg der Godi
+- [ ] Weg der Sangara
+- [ ] Weg des Skalden
+- [ ] Weg des Runenschöpfers
+- [ ] Allgemeinwissen
+- [ ] Ermutigende Darstellung
+- [ ] Gute Verarbeitung
+- [ ] Handwerkskunst
+- [ ] Kind der Natur
+- [ ] Seemannsgarn
+- [ ] Soziale Kompetenz
+- [ ] Vertrauenswürdig
+- [ ] Kettenkugelkampf
+- [ ] Schildwall
+- [ ] Wirbelangriff
+- [ ] Hammerfaust-Stil
+- [ ] Ottajasko-Rekker-Stil
+- [ ] Prem-Stil
+- [ ] Stammeskrieger-Stil
+- [ ] Thorwal-Stil
+- [ ] Tierkrieger-Stil
+- [ ] Wulfgar-Stil
+- [ ] Antäuschen
+- [ ] Berserkerangriff
+- [ ] Blitzreflexe
+- [ ] Defensives Verhalten
+- [ ] Drehschlag
+- [ ] Drehwurf
+- [ ] Extremschuss
+- [ ] Kopfstoß
+- [ ] Machtvoller Sturmangriff
+- [ ] Machtvoller Wirbelangriff
+- [ ] Meisterlicher Wurf
+- [ ] Miese Tricks
+- [ ] Nervös machen
+- [ ] Offensives Verhalten
+- [ ] Riskanter Schuss
+- [ ] Rückendeckung
+- [ ] Schilddeckung
+- [ ] Schmerzwut
+- [ ] Schwinger
+- [ ] Taktische Befehle
+- [ ] Tiefe Wunde
+- [ ] Wuchtiger Wurf
+- [ ] Zertrümmern
+- [ ] Bindung der Waffe
+- [ ] Eins mit der Waffe
+- [ ] Kampfglück
+- [ ] Bindung des Zauberinstruments
+- [ ] Stärkung der Kampfgefährten
+- [ ] Störgeräusch
+- [ ] Blutrunen
+- [ ] Blutmagie
+- [ ] Konzentrationsstärke
+- [ ] Zauberrunenkunde
+- [ ] Scholar des Halle des Windes zu Olport
+- [ ] Scholar der Schule der Hellsicht zu Thorwal
+- [ ] Artefaktanalytiker
+- [ ] Eiserne Konzentrationsstärke
+- [ ] Gegnerische Zauberpraxis ()
+- [ ] Harmoniezauberei
+- [ ] Vollendeter Elementarist
+- [ ] Vortrefflicher Hellseher
+- [ ] Geisterführer
+- [ ] Hüter der Walwütigen
+- [ ] Jäger der Seeschlangen
+- [ ] Medizinleute
+- [ ] Tierpriester
+- [ ] Verkünder des Schicksals
+- [ ] Aussaugen
+- [ ] Bannmeister
+- [ ] Erzwungene Liturgie
+- [ ] Gebieter des ()
+- [ ] Geistergefäß
+- [ ] Gesunder Geist, gesunder Körper
+- [ ] Heilritus
+- [ ] Körperkontrolle
+- [ ] Omen
+- [ ] Schutz der Unsterblichen
+- [ ] Tapferkeit der Unsterblichen
+- [ ] Verbesserte Fokussierung
+- [ ] Geschütze bedienen
+- [ ] Anspringen
+
+
+### Spell
+
+- [ ] Großer Sprung
+- [ ] Patronruf
+- [ ] Talentverbesserung
+- [ ] Tierkräfte
+- [ ] Aeolito
+- [ ] Attributo (Mut)
+- [ ] Hexagramma
+- [ ] Oculus Astralis
+- [ ] Sensibar
+
+
+### Ritual
+
+- [ ] Friedensrune (Fjöterlundruna)
+- [ ] Ottarune (Ottaruna)
+- [ ] Rüstrune (Verndunruna)
+- [ ] Schicksalsrune (Wyrdruna)
+- [ ] Schutzrune vor Zauberei (Galderbanruna)
+- [ ] Melodie der Angriffslust
+- [ ] Melodie der Täuschung
+- [ ] Melodie der Versöhnung
+- [ ] Melodie des Windes
+- [ ] Wirbelform
+- [ ] Xenographus
+
+
+### Praegung
+
+- [ ] Geisterseher
+- [ ] Klingenmeister
+- [ ] Zauberkrieger
+- [ ] Graue Gilde
+- [ ] Gildenlose
+- [ ] Blutrunenschöpfer
+- [ ] Runenhandwerker
+- [ ] Menschenkenner
+- [ ] Naturverbundene
+- [ ] Moderne Sichtweise
+- [ ] Mysterienkult
+- [ ] Pragmatismus
+- [ ] Traditionelle Denkrichtung
+
+
+### Liturgy
+
+- [ ] Besänftigung
+- [ ] Blutiger Zorn
+- [ ] Heldenkraft
+- [ ] Mammutruf
+- [ ] Tiere beruhigen
+
+
+### Ceremony
+
+- [ ] Diener der Wellen
+- [ ] Diener der Wolken
+- [ ] Geistheilung
+- [ ] Herr der Meere
+
+
 
 
 
 ## Transmutarium
-Total status:  53/77 (68.83%)
+Total status:  57/81 (70.37%)
 
 
 ### Advantage
@@ -6429,11 +8287,19 @@ Total status:  53/77 (68.83%)
 - [ ] Giftige Transmutation
 
 
+### Meleeweapons
+
+- [x] Shakagra-Krummsäbel
+- [x] Hummerier-Speer (2H)
+- [x] Hummerier-Axt (2H)
+- [x] Shakagra-Kriegshammer (2H)
+
+
 
 
 
 ## Warringkingdoms
-Total status:  57/111 (51.35%)
+Total status:  72/136 (52.94%)
 
 
 ### Specialability
@@ -6572,11 +8438,48 @@ Total status:  57/111 (51.35%)
 - [x] Hollbeerenbrechmittel
 
 
+### Armors
+
+- [x] Turnierrüstung
+- [x] Dragenhelm
+
+
+### Meleeweapons
+
+- [x] Andergaster / Nostrianer (2H)
+- [ ] Eichhafener / Harmlyner (2H)
+- [x] Eberfänger
+- [x] Hirschfänger
+- [ ] Kriegsflegel (2H)
+- [ ] Kriegslanze
+- [x] Andergaster Langschwert
+- [x] Nostrisches Langschwert
+- [ ] Saufeder (2H)
+- [x] Streitaxt der Streitenden Königreiche
+- [x] Streitkolben der Streitenden Königreiche
+- [ ] Sturmsense (2H)
+- [x] Turnierlanze
+- [x] Turnierschild
+- [x] Turnierschwert
+- [x] Turnierzweihänder (2H)
+- [ ] Deichgabel (i)
+- [x] Holzfälleraxt (2H, i)
+- [ ] Sense (2H, i)
+- [ ] Stakaxt (2H, i)
+- [x] Druidendolch
+- [ ] Zauberstab (2H)
+
+
+### Rangeweapons
+
+- [ ] Nostrischer Langbogen
+
+
 
 
 
 ## Winterwatch
-Total status:  88/159 (55.35%)
+Total status:  108/189 (57.14%)
 
 
 ### Advantage
@@ -6776,6 +8679,48 @@ Total status:  88/159 (55.35%)
 
 - [ ] Kors Samen
 - [x] Knötergift
+
+
+### Meleeweapons
+
+- [x] Goblinkeule, kurz
+- [x] Goblinkeule, mittel
+- [x] Goblinkeule, lang (2H)
+- [ ] Birkholter Drachenspeer (2H)
+- [x] Bornische Peitsche
+- [x] Bronnjarenschwert (2H)
+- [x] Festumer Säbel
+- [ ] Gebietigerlanze
+- [ ] Knute
+- [x] Molokdeschnaja
+- [x] Norbardische Setztartsche
+- [ ] Ranzengarbe (2H)
+- [x] Rattenfänger
+- [x] Romagh (2H)
+- [x] Sewerischer Reitersäbel
+- [ ] Sturmsense (2H)
+- [ ] Flößerhaken (2H, i)
+- [ ] Blitzwender
+- [ ] Eisschwert
+- [x] Schwert des Nordens
+
+
+### Armors
+
+- [x] Bornischer Eisenmantel
+- [x] Goblinische Fellweste
+- [ ] Märker Kettenhemd
+- [x] Neersander Gambeson
+- [x] Norbardischer Ledermantel
+- [x] Sewerischer Flügelharnisch
+- [ ] Geweihhelm des Orvai Kurim
+
+
+### Rangeweapons
+
+- [x] Kutscherarmbrust
+- [x] Goblinschleuder
+- [x] Borndorn
 
 
 

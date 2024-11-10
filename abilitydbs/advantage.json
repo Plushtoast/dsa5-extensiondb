@@ -98,7 +98,8 @@
   },
   "Muttererde": {
     "source": [
-      "elementarium"
+      "elementarium",
+      "otherworld"
     ]
   },
   "Rankenfessel": {
@@ -176,44 +177,142 @@
       "mastertools"
     ]
   },
+  "Feenblut (Blütenfee)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenblut (Dryade)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenblut (Großer Biestinger)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenblut (Holde)": {
+    "source": [
+      "otherworld"
+    ]
+  },
   "Feenblut (Nixer)": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
+    ]
+  },
+  "Feenblut (Oreade)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenblut (Satyr)": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Feenblut (Schwarzfee)": {
+    "source": [
+      "otherworld"
     ]
   },
   "Animalische Kraft": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Blumenduft": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
+    ]
+  },
+  "Dickes Fell": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Einblicke ins Verborgene": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Gabe der Sonne": {
+    "source": [
+      "otherworld"
     ]
   },
   "Glatte Haut": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Harmonie des Waldes": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Kraft der Bäume": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
+    ]
+  },
+  "Leichter Gang": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Seesprache": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Unnachgiebigkeit der Berge": {
+    "source": [
+      "otherworld"
     ]
   },
   "Tierische Kampfgefährten": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
     ]
   },
   "Verführerische Gestalt": {
     "source": [
+      "otherworld",
       "sevenwindscoast"
+    ]
+  },
+  "Wasser des Lebens": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Wasserlebewesen": {
+    "source": [
+      "otherworld"
+    ]
+  },
+  "Gon": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Sagaheld": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Walwut": {
+    "source": [
+      "thorwal"
     ]
   },
   "Hass auf (Andergaster)": {

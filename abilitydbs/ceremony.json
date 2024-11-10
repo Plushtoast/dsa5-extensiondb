@@ -96,7 +96,8 @@
   },
   "Herr der Meere": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "thorwal"
     ]
   },
   "Inspiration": {
@@ -347,6 +348,21 @@
   "Tairachs machtvolle Erhebung von Untoten": {
     "source": [
       "orcs"
+    ]
+  },
+  "Diener der Wellen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Diener der Wolken": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Geistheilung": {
+    "source": [
+      "thorwal"
     ]
   }
 }

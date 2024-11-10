@@ -116,7 +116,8 @@
   },
   "Besänftigung": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "thorwal"
     ]
   },
   "Dämonenwall": {
@@ -312,14 +313,24 @@
       "orcs"
     ]
   },
-  "Der Stein des Ingerimm": {
+  "Blutiger Zorn": {
     "source": [
-      "riverlands"
+      "thorwal"
     ]
   },
-  "Die Heilige Laterne zu Angbar": {
+  "Heldenkraft": {
     "source": [
-      "riverlands"
+      "thorwal"
+    ]
+  },
+  "Mammutruf": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Tiere beruhigen": {
+    "source": [
+      "thorwal"
     ]
   }
 }

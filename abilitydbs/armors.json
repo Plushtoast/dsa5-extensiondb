@@ -1,0 +1,261 @@
+{
+  "Krötenhaut": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Lederharnisch": {
+    "source": [
+      "armory"
+    ]
+  },
+  "Garether Platte": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Lamellar": {
+    "source": [
+      "armory2",
+      "goetterwirken2"
+    ]
+  },
+  "Lindwurmhaut": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Mammutonpanzer": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Wattierter Waffenrock": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Tellerhelm": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Topfhelm": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Wolfshelm": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Zwergenhelm": {
+    "source": [
+      "armory2"
+    ]
+  },
+  "Koscher Gambeson": {
+    "source": [
+      "aventurian-taverns"
+    ]
+  },
+  "Holzrüstung": {
+    "source": [
+      "compendium",
+      "magie2"
+    ]
+  },
+  "Hornrüstung": {
+    "source": [
+      "compendium",
+      "orcs"
+    ]
+  },
+  "Knochenrüstung": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Turnierrüstung": {
+    "source": [
+      "compendium"
+    ]
+  },
+  "Mherweder Ringelpanzer": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Novadischer Waffenrock": {
+    "source": [
+      "desertkingdom"
+    ]
+  },
+  "Amazonenrüstung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Ifirnmantel": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Pantherrüstung": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Schuppengewand": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Die Wundersame Rüstung": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Ringelpanzer": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
+  "Havener Lederharnisch": {
+    "source": [
+      "havena",
+      "sevenwindscoast"
+    ]
+  },
+  "Menchal-Rüstung": {
+    "source": [
+      "herbarium2"
+    ]
+  },
+  "Leichte Shakagra-Platte": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Schwere Shakagra-Plattenrüstung": {
+    "source": [
+      "klingendernacht"
+    ]
+  },
+  "Fellrüstung": {
+    "source": [
+      "orcs"
+    ]
+  },
+  "Elburische Tuchrüstung": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Zorganer Ringelpanzer": {
+    "source": [
+      "realmofthethorns"
+    ]
+  },
+  "Auripraedes-Kettenrüstung": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Güldener Panzer": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Hartholzharnisch": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Heilender Kurbul": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Flussgarde-Plattenrüstung": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Ritter-der-Krone-Plattenrüstung": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Argul-Vhor": {
+    "source": [
+      "retosarmory"
+    ]
+  },
+  "Isnatoscher Kettengeflecht": {
+    "source": [
+      "riverlands"
+    ]
+  },
+  "Matrosenkleidung": {
+    "source": [
+      "sevenwindscoast"
+    ]
+  },
+  "Keke-Chitinrüstung": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Miniwatu-Lederharnisch": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Epharit-Rüstung": {
+    "source": [
+      "steamingjungles"
+    ]
+  },
+  "Seekriegerrüstung": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Der Krustenpanzer": {
+    "source": [
+      "suncoast"
+    ]
+  },
+  "Olporter Krötenhaut": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Gjalsker Lederrüstung": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Premer Schuppenpanzer": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Thorwalerhelm": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Märker Kettenhemd": {
+    "source": [
+      "winterwatch"
+    ]
+  },
+  "Geweihhelm des Orvai Kurim": {
+    "source": [
+      "winterwatch"
+    ]
+  }
+}
