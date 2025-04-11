@@ -2,8 +2,15 @@
   "Biss": {
     "source": [
       "achaz",
+      "lizardswamps",
       "orcs",
       "winterwatch"
+    ]
+  },
+  "Zusätzliche Gliedmaßen (Schwanz)": {
+    "source": [
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Basiliskentöter": {
@@ -96,12 +103,6 @@
       "elementarium"
     ]
   },
-  "Muttererde": {
-    "source": [
-      "elementarium",
-      "otherworld"
-    ]
-  },
   "Rankenfessel": {
     "source": [
       "elementarium"
@@ -115,6 +116,41 @@
   "Wasserheilung": {
     "source": [
       "elementarium"
+    ]
+  },
+  "Muttererde (Rosendschinn)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Greifschwanz": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Hauttasche": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Natürliche Waffe (Biss)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Natürliche Waffe (Schwanz)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Natürlicher Rüstungsschutz": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Wasserlebewesen": {
+    "source": [
+      "lizardswamps"
     ]
   },
   "Affinität zu Dämonen": {
@@ -177,21 +213,6 @@
       "mastertools"
     ]
   },
-  "Feenblut (Blütenfee)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Feenblut (Dryade)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Feenblut (Großer Biestinger)": {
-    "source": [
-      "otherworld"
-    ]
-  },
   "Feenblut (Holde)": {
     "source": [
       "otherworld"
@@ -203,39 +224,7 @@
       "sevenwindscoast"
     ]
   },
-  "Feenblut (Oreade)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Feenblut (Satyr)": {
-    "source": [
-      "otherworld"
-    ]
-  },
   "Feenblut (Schwarzfee)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Animalische Kraft": {
-    "source": [
-      "otherworld",
-      "sevenwindscoast"
-    ]
-  },
-  "Blumenduft": {
-    "source": [
-      "otherworld",
-      "sevenwindscoast"
-    ]
-  },
-  "Dickes Fell": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Einblicke ins Verborgene": {
     "source": [
       "otherworld"
     ]
@@ -263,17 +252,7 @@
       "sevenwindscoast"
     ]
   },
-  "Leichter Gang": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Seesprache": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Unnachgiebigkeit der Berge": {
+  "Muttererde": {
     "source": [
       "otherworld"
     ]
@@ -290,27 +269,7 @@
       "sevenwindscoast"
     ]
   },
-  "Wasser des Lebens": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Wasserlebewesen": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Gon": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Sagaheld": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Walwut": {
+  "Walwut (Swafskari)": {
     "source": [
       "thorwal"
     ]

@@ -2,7 +2,8 @@
   "Eidechsengestalt": {
     "source": [
       "achaz",
-      "goetterwirken"
+      "goetterwirken",
+      "lizardswamps"
     ]
   },
   "Flugechsengestalt": {
@@ -15,6 +16,7 @@
       "achaz",
       "goetterwirken",
       "havena",
+      "lizardswamps",
       "sevenwindscoast"
     ]
   },
@@ -340,6 +342,61 @@
       "havena"
     ]
   },
+  "Diener der Erde": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Diener der Wellen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Diener der Wolken": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Eidechsenregeneration": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Fruchtbarkeit": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Geistheilung": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Geschlechterwechsel": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Häutung": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Jugendlichkeit": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Rat der Ahnen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Regenkontrolle": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
   "Gnade des Vergessens": {
     "source": [
       "orcs"
@@ -348,21 +405,6 @@
   "Tairachs machtvolle Erhebung von Untoten": {
     "source": [
       "orcs"
-    ]
-  },
-  "Diener der Wellen": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Diener der Wolken": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Geistheilung": {
-    "source": [
-      "thorwal"
     ]
   }
 }

@@ -123,6 +123,14 @@
       "herbarium"
     ]
   },
+  "Nihilogravo": {
+    "source": [
+      "hiddendeep",
+      "magie2",
+      "studyroom",
+      "warringkingdoms"
+    ]
+  },
   "Kakophonie des Wahnsinns": {
     "source": [
       "klingendernacht"
@@ -146,6 +154,11 @@
   "Sklavenlied": {
     "source": [
       "klingendernacht"
+    ]
+  },
+  "Unberührt von Satinav": {
+    "source": [
+      "lizardswamps"
     ]
   },
   "Melodie der Angriffslust": {
@@ -357,13 +370,6 @@
       "suncoast"
     ]
   },
-  "Nihilogravo": {
-    "source": [
-      "magie2",
-      "studyroom",
-      "warringkingdoms"
-    ]
-  },
   "Seelenwanderung": {
     "source": [
       "magie2"
@@ -477,16 +483,6 @@
       "transmutarium"
     ]
   },
-  "Ruf der Feenwesen": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Zauberwesen der Natur": {
-    "source": [
-      "otherworld"
-    ]
-  },
   "Riesengestalt": {
     "source": [
       "studyroom"
@@ -497,42 +493,27 @@
       "suncoast"
     ]
   },
-  "Friedensrune (Fjöterlundruna)": {
+  "Friedensrune": {
     "source": [
       "thorwal"
     ]
   },
-  "Ottarune (Ottaruna)": {
+  "Ottarune": {
     "source": [
       "thorwal"
     ]
   },
-  "Rüstrune (Verndunruna)": {
+  "Rüstrune": {
     "source": [
       "thorwal"
     ]
   },
-  "Schicksalsrune (Wyrdruna)": {
+  "Schicksalsrune": {
     "source": [
       "thorwal"
     ]
   },
-  "Schutzrune vor Zauberei (Galderbanruna)": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Melodie der Täuschung": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Wirbelform": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Xenographus": {
+  "Schutzrune vor Zauberei": {
     "source": [
       "thorwal"
     ]

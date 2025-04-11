@@ -17,7 +17,8 @@
   },
   "Zansch’Jrr": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Zzzt": {
@@ -71,6 +72,56 @@
       "havena"
     ]
   },
+  "Typische/r Achaz": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Typische/r Selemer/in": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Achaz-Rha": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Ctki’Ssrr": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Stammesachaz": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Achaz-Rha von Ksir’Kuir": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Akrr’Tzr": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Chriaz Imxxiu": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Rrim’K’Ur Sar": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Zza’Astrrhan": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
   "Dämmerberge": {
     "source": [
       "orcs"
@@ -94,11 +145,6 @@
   "Tscharshai": {
     "source": [
       "orcs"
-    ]
-  },
-  "Baburien": {
-    "source": [
-      "realmofthethorns"
     ]
   },
   "Gorien": {
@@ -231,21 +277,6 @@
       "suncoast"
     ]
   },
-  "Typische/-r Thorwaler/-in": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Typische/-r Gjalsker/-in": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Bodirtal & Südthorwal": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Brinasker Marschen": {
     "source": [
       "thorwal"
@@ -257,26 +288,6 @@
     ]
   },
   "Gjalsker Moorland": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Küsten des Nordens": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Olportsteine": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Premer Halbinsel": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Thorwaler Hinterland": {
     "source": [
       "thorwal"
     ]
@@ -317,11 +328,6 @@
     ]
   },
   "Festenland": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Mark": {
     "source": [
       "winterwatch"
     ]

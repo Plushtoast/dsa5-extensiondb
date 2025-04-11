@@ -91,6 +91,7 @@
   "Krabbelnder Schrecken": {
     "source": [
       "broodofhell",
+      "hiddendeep",
       "magie2"
     ]
   },
@@ -105,6 +106,7 @@
   "Tempus Stasis": {
     "source": [
       "broodofhell",
+      "lizardswamps",
       "magie3"
     ]
   },
@@ -229,6 +231,7 @@
     "source": [
       "desertkingdom",
       "elementarium",
+      "hiddendeep",
       "magie2",
       "otherworld"
     ]
@@ -291,6 +294,39 @@
       "warringkingdoms"
     ]
   },
+  "Desintegratus": {
+    "source": [
+      "hiddendeep",
+      "magie1",
+      "transmutarium"
+    ]
+  },
+  "Fesselfeld": {
+    "source": [
+      "hiddendeep",
+      "magie3"
+    ]
+  },
+  "Fortifex": {
+    "source": [
+      "hiddendeep",
+      "magie1",
+      "studyroom",
+      "suncoast",
+      "warringkingdoms"
+    ]
+  },
+  "Sensibar": {
+    "source": [
+      "hiddendeep",
+      "magie1",
+      "studyroom",
+      "suncoast",
+      "thorwal",
+      "warringkingdoms",
+      "winterwatch"
+    ]
+  },
   "Besessenheit": {
     "source": [
       "incorporealhorrors"
@@ -313,6 +349,31 @@
       "library"
     ]
   },
+  "Band und Fessel": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Eispfeil": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Gifthaut": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Serpentialis": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Zorn der Elemente": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
   "Auge des Limbus": {
     "source": [
       "magie1",
@@ -326,38 +387,14 @@
       "studyroom"
     ]
   },
-  "Desintegratus": {
-    "source": [
-      "magie1",
-      "transmutarium"
-    ]
-  },
   "Fischflosse": {
     "source": [
       "magie1"
     ]
   },
-  "Fortifex": {
-    "source": [
-      "magie1",
-      "studyroom",
-      "suncoast",
-      "warringkingdoms"
-    ]
-  },
   "Schwarz und Rot": {
     "source": [
       "magie1"
-    ]
-  },
-  "Sensibar": {
-    "source": [
-      "magie1",
-      "studyroom",
-      "suncoast",
-      "thorwal",
-      "warringkingdoms",
-      "winterwatch"
     ]
   },
   "Wolfstatze": {
@@ -503,11 +540,6 @@
       "riverlands"
     ]
   },
-  "Fesselfeld": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Nebelform": {
     "source": [
       "magie3"
@@ -566,116 +598,6 @@
       "orcs"
     ]
   },
-  "Frigifaxius": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Archofaxius": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Ignifaxius": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Humofaxius": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Orcanofaxius": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Aquafaxius": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Firnlauf": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Wüstenlauf": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Glutlauf": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Wipfellauf": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Himmelslauf": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Wellenlauf": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Frostleib": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Basaltleib": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Drachenleib": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Eichenleib": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Federleib": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Brandungsleib": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Band und Fessel": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Brennender Hass": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Chamaelioni": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Feenstaub": {
-    "source": [
-      "otherworld"
-    ]
-  },
   "Protectionis": {
     "source": [
       "studyroom"
@@ -706,37 +628,32 @@
       "studyroom"
     ]
   },
-  "Patronruf": {
+  "Tiergeistsprache": {
     "source": [
       "thorwal"
     ]
   },
-  "Talentverbesserung": {
+  "Tierkräfte I ()": {
     "source": [
       "thorwal"
     ]
   },
-  "Tierkräfte": {
+  "Tierkräfte II ()": {
     "source": [
       "thorwal"
     ]
   },
-  "Aeolito": {
+  "Tierkräfte III ()": {
     "source": [
       "thorwal"
     ]
   },
-  "Attributo (Mut)": {
+  "Mächtiger Patronruf I ()": {
     "source": [
       "thorwal"
     ]
   },
-  "Hexagramma": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Oculus Astralis": {
+  "Mächtiger Patronruf II ()": {
     "source": [
       "thorwal"
     ]

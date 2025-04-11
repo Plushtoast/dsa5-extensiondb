@@ -2,18 +2,21 @@
   "Tradition (Kristallomanten)": {
     "source": [
       "achaz",
+      "lizardswamps",
       "studyroom"
     ]
   },
   "Beschützer": {
     "source": [
       "achaz",
-      "compendium"
+      "compendium",
+      "lizardswamps"
     ]
   },
   "Bruthüter-Stil": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Defensives Verhalten": {
@@ -21,6 +24,7 @@
       "achaz",
       "compendium2",
       "goetterwirken2",
+      "lizardswamps",
       "realmofthethorns",
       "riverlands",
       "steamingjungles",
@@ -31,6 +35,7 @@
     "source": [
       "achaz",
       "compendium2",
+      "lizardswamps",
       "sevenwindscoast"
     ]
   },
@@ -39,6 +44,7 @@
       "achaz",
       "compendium2",
       "goetterwirken2",
+      "lizardswamps",
       "orcs",
       "realmofthethorns",
       "steamingjungles",
@@ -50,6 +56,7 @@
     "source": [
       "achaz",
       "compendium2",
+      "lizardswamps",
       "orcs",
       "steamingjungles",
       "thorwal"
@@ -57,72 +64,86 @@
   },
   "Leichter Beutel": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Machtvolle Beutelzauber": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Riesiger Beutel": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schutz des Beutels": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schutz des Beutels 2": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Unheilvoller Inhalt": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Windbeutel": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Bilderspiel - Kristallomant": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Fernbild - Kristallomant": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Kleines Orbitarium - Kristallomant": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Kugel des Zauberschutzes - Kristallomant": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Machtvolle Kugelzauber - Kristallomant": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Mehrfaches Volumen - Kristallomant": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Zauberspeicher-Kristallkugel - Kristallomant": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Zauberspeicher-Kristallkugel - Kristallomant 2": {
@@ -132,64 +153,76 @@
   },
   "Astralspeicher-Haube": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Machtvolle Haubenzauber": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Merkmalsverstärkung": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schutz des Geistes": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Tradition (Meistertalentierte)": {
     "source": [
       "achaz",
+      "lizardswamps",
       "magie1",
       "orcs"
     ]
   },
   "Kältestrahl (Achaz)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Tradition (H'Szint-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Wall gegen Schadensmagie (H'Szint-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Bollwerk gegen Magie (H'Szint-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Wandelstab (H'Szint-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Giftbiss (H'Szint-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Tradition (Zsahh-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Aura der Friedfertigkeit (Zsahh-Kult)": {
@@ -199,7 +232,8 @@
   },
   "Echsenfreundschaft (Zsahh-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Pflanzensuche (Zsahh-Kult)": {
@@ -219,32 +253,38 @@
   },
   "Schild gegen Einflusszauberei (H'Szint-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Friedliche Ausstrahlung": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Lederhaut": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Heilpflanzenernte": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Pflanzenbestimmung": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Entspannender Schlaf": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Fürsorgliches Auftreten": {
@@ -309,32 +349,38 @@
   },
   "Macht der Schwingen": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schwingensturm": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schwingenwindstoß": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schwingensprung": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Gleitflug": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schwingenhochsprung": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Flugechsenfreundschaft": {
@@ -477,6 +523,7 @@
     "source": [
       "animatorium",
       "arcanelabs",
+      "lizardswamps",
       "magie1",
       "orcs",
       "studyroom"
@@ -525,9 +572,11 @@
       "bestiary",
       "broodofhell",
       "companions",
+      "lizardswamps",
       "nekromanthaeum",
       "orcs",
       "pandaemonium",
+      "thorwal",
       "transmutarium",
       "warringkingdoms"
     ]
@@ -539,6 +588,7 @@
       "broodofhell",
       "core",
       "incorporealhorrors",
+      "lizardswamps",
       "pandaemonium",
       "transmutarium"
     ]
@@ -644,7 +694,8 @@
   },
   "Magischer Meisterschmied": {
     "source": [
-      "arcanelabs"
+      "arcanelabs",
+      "lizardswamps"
     ]
   },
   "Matrixgeber": {
@@ -705,6 +756,7 @@
       "armory",
       "armory2",
       "compendium",
+      "lizardswamps",
       "retosarmory",
       "riverlands",
       "sevenwindscoast",
@@ -774,7 +826,8 @@
     "source": [
       "bannerofloyalty",
       "catacombs",
-      "compendium"
+      "compendium",
+      "hiddendeep"
     ]
   },
   "Myrmidonen-Stil": {
@@ -819,9 +872,11 @@
       "elementarium",
       "goetterwirken",
       "goetterwirken2",
+      "lizardswamps",
       "nekromanthaeum",
       "pandaemonium",
       "suncoast",
+      "thorwal",
       "transmutarium"
     ]
   },
@@ -891,7 +946,8 @@
   },
   "Gespür für Himmelsrichtungen": {
     "source": [
-      "catacombs"
+      "catacombs",
+      "hiddendeep"
     ]
   },
   "Fallen entschärfen": {
@@ -1095,6 +1151,7 @@
   "Kräutermischung": {
     "source": [
       "compendium2",
+      "lizardswamps",
       "suncoast"
     ]
   },
@@ -1478,7 +1535,8 @@
       "magie3",
       "orcs",
       "steamingjungles",
-      "studyroom"
+      "studyroom",
+      "thorwal"
     ]
   },
   "Tradition (Zauberbarden)": {
@@ -1575,23 +1633,11 @@
       "elementarium"
     ]
   },
-  "Kraft des Lebens": {
-    "source": [
-      "elementarium",
-      "otherworld"
-    ]
-  },
   "Macht der Pflanzen": {
     "source": [
       "elementarium",
       "otherworld",
       "sevenwindscoast"
-    ]
-  },
-  "Macht wider Dämonen": {
-    "source": [
-      "elementarium",
-      "otherworld"
     ]
   },
   "Ruf des Waldes": {
@@ -1623,6 +1669,11 @@
     ]
   },
   "Wahrer Name (Elementarer Meister)": {
+    "source": [
+      "elementarium"
+    ]
+  },
+  "Macht wider Dämonen (Elementar)": {
     "source": [
       "elementarium"
     ]
@@ -1677,7 +1728,8 @@
   },
   "Wall gegen Schadensmagie": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "lizardswamps"
     ]
   },
   "Beistand gegen Einflusszauberei": {
@@ -1687,7 +1739,8 @@
   },
   "Bollwerk gegen Magie": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "lizardswamps"
     ]
   },
   "Messer des Frosts": {
@@ -1918,7 +1971,8 @@
   },
   "Mauer des Geistes": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "lizardswamps"
     ]
   },
   "Schild des Glaubens": {
@@ -2057,7 +2111,8 @@
   },
   "Giftkenntnis": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "lizardswamps"
     ]
   },
   "Handwerksgespür": {
@@ -2074,6 +2129,7 @@
   "Langanhaltender Segen": {
     "source": [
       "goetterwirken",
+      "lizardswamps",
       "sevenwindscoast",
       "suncoast"
     ]
@@ -2088,6 +2144,7 @@
   "Omen": {
     "source": [
       "goetterwirken",
+      "lizardswamps",
       "sevenwindscoast",
       "steamingjungles",
       "thorwal"
@@ -2827,6 +2884,7 @@
   "Körperkontrolle": {
     "source": [
       "goetterwirken2",
+      "lizardswamps",
       "thorwal"
     ]
   },
@@ -2905,6 +2963,7 @@
   "Aussaugen": {
     "source": [
       "goetterwirken2",
+      "lizardswamps",
       "thorwal"
     ]
   },
@@ -3331,6 +3390,514 @@
   "Schnellschreiber": {
     "source": [
       "library"
+    ]
+  },
+  "Drohgebärden": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schlangenorakel": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Unterschlupf finden": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Wegkenntnis": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Weg des Okkultisten": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Weg des Echsenbändigers": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Weg des Echsenkundigen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Allgemeinwissen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Bedrohliche Aura": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Fachwissen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Gerüchte aufschnappen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Meister der Orientierung": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tierverbundenheit": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Auf Distanz halten": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Unterlaufen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Klingensturm": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Achazschleicher-Stil": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Chaz’Zchakrr-Stil": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Echsenreiter-Stil": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Gesichtslose-Stil": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Stammeskrieger-Stil": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Berserkerangriff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Blitzreflexe": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Breschenangriff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Machtvoller Sturmangriff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Reizen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Sprungangriff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tiefe Wunde": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Verbesserte Aufmerksamkeit": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Versteckte Klinge": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Waffenwurf": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Windmühle": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Zweifacher Reiterangriff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Beutel-Apport": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Bindung des Schuppenbeutels": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Ewige Wegzehrung": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Suchende Finger": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Unauffindbarer Inhalt": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Volumenerweiterung des Schuppenbeutels": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Bindung der Kristallkugel - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Brennglas - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Großer Hohlraum - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Kugel des Hellsehers - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Kugel-Apport - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Vergrößerungsglas - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Volumenerweiterung der Kristallkugel - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Wachendes Auge - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Warnendes Leuchten - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Zauberspeicher-Kristallkugel 2 - Kristallomant": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Bindung der Echsenhaube": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Hauben-Apport": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Meisterschliff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Volumenerweiterung der Echsenhaube": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Kristallkraft": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Madakristall": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Matrixkristall": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Meisterkristall": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Echsenforscher": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Kristallmeister": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Artefaktanalytiker": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Matrixzauberei": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Übertragung der Astralkräfte": {
+    "source": [
+      "lizardswamps",
+      "magie2",
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Übertragung der Lebenskraft": {
+    "source": [
+      "lizardswamps",
+      "magie2",
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Wissensaustausch": {
+    "source": [
+      "lizardswamps",
+      "magie2",
+      "warringkingdoms"
+    ]
+  },
+  "Tradition (Achazschamanen)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Keulenweihe (Achaz)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Freundschaft des Tieres (Achaz)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tierische Kraft (Achaz)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Vereisung (Achaz)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Keulenwurf (Achaz)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tradition (H’Szint-Kult)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schild gegen Einflusszauberei": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Wandelstab": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schlangenhaut": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Giftbiss": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Echsenfreundschaft": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tradition (Chr’Ssir’Ssr-Kult)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Furcht nehmen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Besänftiger der Großen Alten": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schlächter der H’Ranga": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Wächter der Wiedergeburt": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Wandler des Ewigen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Medizinleute": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tierpriester": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Einschüchternde Zurechtweisung": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Gebieter des ()": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Gespür für Drachenwerk": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Gesunder Geist, gesunder Körper": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Heilritus": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schutz der Unsterblichen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Stille Meditation": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Angriff auf ungeschützte Stellen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Anspringen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Klammergriff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schwanz- oder Tentakelschwung": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Trampeln": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Flugangriff": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Fachwissen ()": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tradition (Intuitiver Zauberer)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schlangenhaut (H'Szint-Kult)": {
+    "source": [
+      "lizardswamps"
     ]
   },
   "Tradition (Qabalyamagier)": {
@@ -4260,20 +4827,6 @@
       "winterwatch"
     ]
   },
-  "Übertragung der Astralkräfte": {
-    "source": [
-      "magie2",
-      "studyroom",
-      "winterwatch"
-    ]
-  },
-  "Übertragung der Lebenskraft": {
-    "source": [
-      "magie2",
-      "studyroom",
-      "winterwatch"
-    ]
-  },
   "Umfassende Telekinese": {
     "source": [
       "magie2"
@@ -4285,12 +4838,6 @@
     ]
   },
   "Weissagung": {
-    "source": [
-      "magie2",
-      "warringkingdoms"
-    ]
-  },
-  "Wissensaustausch": {
     "source": [
       "magie2",
       "warringkingdoms"
@@ -4677,6 +5224,7 @@
   "Gegnerische Zauberpraxis ()": {
     "source": [
       "magie3",
+      "studyroom",
       "thorwal"
     ]
   },
@@ -5051,20 +5599,6 @@
       "sevenwindscoast"
     ]
   },
-  "Kiemen des Barschs": {
-    "source": [
-      "negotiationpeace",
-      "otherworld",
-      "sevenwindscoast"
-    ]
-  },
-  "Salbung der Haut": {
-    "source": [
-      "negotiationpeace",
-      "otherworld",
-      "sevenwindscoast"
-    ]
-  },
   "Weg durch den Fluss": {
     "source": [
       "negotiationpeace",
@@ -5170,12 +5704,6 @@
       "otherworld"
     ]
   },
-  "Auge der Fee": {
-    "source": [
-      "otherworld",
-      "sevenwindscoast"
-    ]
-  },
   "Blut der Anderswelt": {
     "source": [
       "otherworld"
@@ -5198,16 +5726,6 @@
       "sevenwindscoast"
     ]
   },
-  "Elementare Härte": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Feenflut": {
-    "source": [
-      "otherworld"
-    ]
-  },
   "Feenstärke": {
     "source": [
       "otherworld"
@@ -5224,42 +5742,12 @@
       "otherworld"
     ]
   },
-  "Raub der Lebenskraft": {
+  "Macht wider Dämonen (Feen)": {
     "source": [
       "otherworld"
     ]
   },
-  "Bindung (Feen)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Entschwörung (Feen)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Machtvolle Entschwörung (Feen)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Rudelbeschwörung (Feen)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Zirkelmeister (Feen)": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Blick des Gargyls": {
-    "source": [
-      "otherworld"
-    ]
-  },
-  "Fressen für den Namenlosen": {
+  "Raub der Lebenskraft (Feen)": {
     "source": [
       "otherworld"
     ]
@@ -5385,7 +5873,8 @@
   },
   "Tradition (Runenschöpfer)": {
     "source": [
-      "studyroom"
+      "studyroom",
+      "thorwal"
     ]
   },
   "Tradition (Ysilische Bannzeichner)": {
@@ -5410,11 +5899,6 @@
     ]
   },
   "Hofzauberer": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Gegnerische Zauberpraxis (Element)": {
     "source": [
       "studyroom"
     ]
@@ -5444,92 +5928,12 @@
       "suncoast"
     ]
   },
-  "Drohgebärden": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Ermutigender Gesang": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Navigation": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Palenkelübung": {
     "source": [
       "thorwal"
     ]
   },
-  "Tätowierer": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Runenorakel": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Weg der Godi": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Weg der Sangara": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Weg des Skalden": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Weg des Runenschöpfers": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Allgemeinwissen": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Ermutigende Darstellung": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Gute Verarbeitung": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Handwerkskunst": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Kind der Natur": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Seemannsgarn": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Soziale Kompetenz": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Vertrauenswürdig": {
     "source": [
       "thorwal"
     ]
@@ -5544,97 +5948,7 @@
       "thorwal"
     ]
   },
-  "Wirbelangriff": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Ottajasko-Rekker-Stil": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Stammeskrieger-Stil": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Tierkrieger-Stil": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Wulfgar-Stil": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Berserkerangriff": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Blitzreflexe": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Extremschuss": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Machtvoller Sturmangriff": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Machtvoller Wirbelangriff": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Meisterlicher Wurf": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Miese Tricks": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Nervös machen": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Rückendeckung": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Schilddeckung": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Tiefe Wunde": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Zertrümmern": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Bindung der Waffe": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Bindung des Zauberinstruments": {
     "source": [
       "thorwal"
     ]
@@ -5644,97 +5958,7 @@
       "thorwal"
     ]
   },
-  "Blutrunen": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Blutmagie": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Konzentrationsstärke": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Zauberrunenkunde": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Scholar des Halle des Windes zu Olport": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Scholar der Schule der Hellsicht zu Thorwal": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Artefaktanalytiker": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Eiserne Konzentrationsstärke": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Vollendeter Elementarist": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Vortrefflicher Hellseher": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Medizinleute": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Tierpriester": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Verkünder des Schicksals": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Erzwungene Liturgie": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Gebieter des ()": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Geistergefäß": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Gesunder Geist, gesunder Körper": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Heilritus": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Schutz der Unsterblichen": {
     "source": [
       "thorwal"
     ]
@@ -5744,17 +5968,12 @@
       "thorwal"
     ]
   },
-  "Verbesserte Fokussierung": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Geschütze bedienen": {
     "source": [
       "thorwal"
     ]
   },
-  "Anspringen": {
+  "Blutmagie (Ottagalder)": {
     "source": [
       "thorwal"
     ]

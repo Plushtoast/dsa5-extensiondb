@@ -4,19 +4,22 @@
       "achaz",
       "goetterwirken",
       "havena",
+      "lizardswamps",
       "sevenwindscoast"
     ]
   },
   "Sturmruf": {
     "source": [
       "achaz",
-      "goetterwirken"
+      "goetterwirken",
+      "lizardswamps"
     ]
   },
   "Windhose": {
     "source": [
       "achaz",
-      "goetterwirken"
+      "goetterwirken",
+      "lizardswamps"
     ]
   },
   "Geist des Strategen": {
@@ -303,6 +306,81 @@
       "havena"
     ]
   },
+  "Angriffslust": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Bannzone": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Befehl des Schamanen": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Blitzschlag": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Flugechsenruf": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Friedfertigkeit": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Hauch des Elements": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Lebensschutz": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Magieanalyse": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schlangenruf": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Schlingerruf": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tiersprache": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Das Ding von Ssad’Navv": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Der Dorn des Chr’Ssir’Ssr": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Der ungeschliffene Kristall H’Szints": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
   "Nebelkrähenschwarm": {
     "source": [
       "orcs"
@@ -313,22 +391,12 @@
       "orcs"
     ]
   },
-  "Blutiger Zorn": {
+  "Das Ruderblatt der Jurga": {
     "source": [
       "thorwal"
     ]
   },
-  "Heldenkraft": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Mammutruf": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Tiere beruhigen": {
+  "Der Heilige Eiskristall": {
     "source": [
       "thorwal"
     ]

@@ -40,51 +40,10 @@
       "armory2"
     ]
   },
-  "Schleuder": {
-    "source": [
-      "compendium",
-      "goetterwirken"
-    ]
-  },
-  "Balestra": {
-    "source": [
-      "compendium2"
-    ]
-  },
-  "Borndorn": {
-    "source": [
-      "compendium2"
-    ]
-  },
-  "Gaoraith": {
-    "source": [
-      "compendium2"
-    ]
-  },
-  "Efferdbart (2H)": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Firunsbogen": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Ifirnsbogen": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
   "Der Wurfstern des Phex": {
     "source": [
       "goetterwirken2",
       "realmofthethorns"
-    ]
-  },
-  "Diskus": {
-    "source": [
-      "goetterwirken2"
     ]
   },
   "Krähenfüße": {
@@ -97,24 +56,19 @@
       "herbarium"
     ]
   },
-  "Blasrohr": {
+  "Kristallomantische Kristallkugel (geworfen)": {
     "source": [
-      "herbarium"
+      "lizardswamps"
     ]
   },
-  "Lichtnebler-Beutel": {
+  "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)": {
     "source": [
-      "herbarium2"
+      "lizardswamps"
     ]
   },
-  "Zauberkugel (geworfen)": {
+  "Lederschleuder": {
     "source": [
-      "magie1"
-    ]
-  },
-  "Magierkugel": {
-    "source": [
-      "magie2"
+      "lizardswamps"
     ]
   },
   "Anchopaler Silberstern": {
@@ -192,16 +146,6 @@
       "suncoast"
     ]
   },
-  "Bodirtaler Kurzbogen": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Gjalsker Kettenkugel": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Gjalsker Wurfspeer": {
     "source": [
       "thorwal"
@@ -213,11 +157,6 @@
     ]
   },
   "Virporter Schneidzahn": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Findling": {
     "source": [
       "thorwal"
     ]

@@ -60,28 +60,6 @@
       "aventurian-taverns"
     ]
   },
-  "Holzrüstung": {
-    "source": [
-      "compendium",
-      "magie2"
-    ]
-  },
-  "Hornrüstung": {
-    "source": [
-      "compendium",
-      "orcs"
-    ]
-  },
-  "Knochenrüstung": {
-    "source": [
-      "compendium"
-    ]
-  },
-  "Turnierrüstung": {
-    "source": [
-      "compendium"
-    ]
-  },
   "Mherweder Ringelpanzer": {
     "source": [
       "desertkingdom"
@@ -92,22 +70,7 @@
       "desertkingdom"
     ]
   },
-  "Amazonenrüstung": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Ifirnmantel": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Pantherrüstung": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Schuppengewand": {
+  "Ifirnsmantel": {
     "source": [
       "goetterwirken"
     ]
@@ -128,11 +91,6 @@
       "sevenwindscoast"
     ]
   },
-  "Menchal-Rüstung": {
-    "source": [
-      "herbarium2"
-    ]
-  },
   "Leichte Shakagra-Platte": {
     "source": [
       "klingendernacht"
@@ -143,9 +101,29 @@
       "klingendernacht"
     ]
   },
-  "Fellrüstung": {
+  "Flechtrüstung (Nry’drshk)": {
     "source": [
-      "orcs"
+      "lizardswamps"
+    ]
+  },
+  "Giftkammpanzer (Szint’ssitt)": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Iryanrüstung": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Selemer Spiegelpanzer": {
+    "source": [
+      "lizardswamps"
+    ]
+  },
+  "Tracht der Gesichtslosen": {
+    "source": [
+      "lizardswamps"
     ]
   },
   "Elburische Tuchrüstung": {
@@ -156,41 +134,6 @@
   "Zorganer Ringelpanzer": {
     "source": [
       "realmofthethorns"
-    ]
-  },
-  "Auripraedes-Kettenrüstung": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Güldener Panzer": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Hartholzharnisch": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Heilender Kurbul": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Flussgarde-Plattenrüstung": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Ritter-der-Krone-Plattenrüstung": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Argul-Vhor": {
-    "source": [
-      "retosarmory"
     ]
   },
   "Isnatoscher Kettengeflecht": {
@@ -229,16 +172,6 @@
     ]
   },
   "Olporter Krötenhaut": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Gjalsker Lederrüstung": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Premer Schuppenpanzer": {
     "source": [
       "thorwal"
     ]
