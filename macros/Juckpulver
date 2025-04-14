@@ -1,0 +1,19 @@
+    const ge = -1 * Math.round(qs / 2);
+                                                                let condition = {
+                                                                label: "Juckpulver",
+                                                                icon: "icons/svg/aura.svg",
+                                                                changes: [
+                                                                    { key: "system.rangeStats.attack", mode: 2, value: ge },
+                                                                    { key: "system.status.dodge.gearmodifier", mode: 2, value: ge },
+                                                                    { key: "system.meleeStats.attack", mode: 2, value: ge },
+                                                                    { key: "system.skillModifiers.global",mode: 0,  value: ge },
+                                                                    { key: "system.meleeStats.parry", mode: 2, value: ge }
+                                                                ],
+                                                                duration: { rounds: 5 },
+                                                                flags: {
+                                                                dsa5: {
+                                                                description: "Juckpulver"
+                                                                }
+                                                                }
+                                                                }
+                                                                actor.addCondition(condition);
