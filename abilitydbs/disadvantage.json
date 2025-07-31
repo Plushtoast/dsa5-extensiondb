@@ -61,12 +61,8 @@
   },
   "Empfindlichkeit (unedle Metalle)": {
     "source": [
-      "klingendernacht"
-    ]
-  },
-  "Kältestarre": {
-    "source": [
-      "lizardswamps"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Instabiler Zauberer": {

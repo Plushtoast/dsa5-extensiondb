@@ -128,37 +128,38 @@
       "hiddendeep",
       "magie2",
       "studyroom",
-      "warringkingdoms"
+      "warringkingdoms",
+      "wolfsfrost"
     ]
   },
   "Kakophonie des Wahnsinns": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Schlachtlied": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Sturmlied": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Lied des Schmerzes": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Sklavenlied": {
     "source": [
-      "klingendernacht"
-    ]
-  },
-  "Unberührt von Satinav": {
-    "source": [
-      "lizardswamps"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Melodie der Angriffslust": {
@@ -360,7 +361,8 @@
   "Eins mit der Natur": {
     "source": [
       "magie2",
-      "riverlands"
+      "riverlands",
+      "wolfsfrost"
     ]
   },
   "Körperlose Reise": {

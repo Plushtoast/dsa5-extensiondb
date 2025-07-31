@@ -86,11 +86,6 @@
       "realmofthethorns"
     ]
   },
-  "Valvarandir": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Thuranstolz-Langbogen": {
     "source": [
       "retosarmory"
@@ -169,6 +164,26 @@
   "Nostrischer Langbogen": {
     "source": [
       "warringkingdoms"
+    ]
+  },
+  "Nivesenbogen": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Nivesen-Wurfkeule": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Walspieß": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Pfähler": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }

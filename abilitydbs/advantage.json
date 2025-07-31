@@ -123,34 +123,9 @@
       "elementarium"
     ]
   },
-  "Greifschwanz": {
+  "Dschinnenblut (Humusdschinn)": {
     "source": [
-      "lizardswamps"
-    ]
-  },
-  "Hauttasche": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Natürliche Waffe (Biss)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Natürliche Waffe (Schwanz)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Natürlicher Rüstungsschutz": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Wasserlebewesen": {
-    "source": [
-      "lizardswamps"
+      "elementarium"
     ]
   },
   "Affinität zu Dämonen": {
@@ -195,7 +170,8 @@
   },
   "Wolfskind": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Blutzauberer": {
@@ -269,6 +245,116 @@
       "sevenwindscoast"
     ]
   },
+  "Drachenblut (Einhorndrache)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenblut (Gletscherwurm)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenblut (Höhlendrache)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenblut (Kaiserdrache)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenblut (Purpurwurm)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenblut (Riesenlindwurm)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Astralschutz": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenkontrolle": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenschwanz": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Drachenzaubermacht": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Dreistrahl": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Elementarhand": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Gedankensprache": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Kraft des Drachen": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Majestätsstimme": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Odemwaffe": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Schuppenkleid": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Schwingenpaar": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Telepathieüberflutung": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Temperaturimmunität (Hitze)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Temperaturimmunität (Kälte)": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
+  "Verpuppung": {
+    "source": [
+      "scalytyrants"
+    ]
+  },
   "Walwut (Swafskari)": {
     "source": [
       "thorwal"
@@ -282,6 +368,11 @@
   "Hass auf (Nostrier)": {
     "source": [
       "warringkingdoms"
+    ]
+  },
+  "Wolfsgebiss": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }

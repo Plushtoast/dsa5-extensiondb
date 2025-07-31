@@ -16,7 +16,8 @@
   },
   "Pragmatismus": {
     "source": [
-      "lizardswamps"
+      "lizardswamps",
+      "wolfsfrost"
     ]
   },
   "Traditionelle Denkrichtung": {
@@ -26,7 +27,8 @@
   },
   "Mysterienkult": {
     "source": [
-      "lizardswamps"
+      "lizardswamps",
+      "wolfsfrost"
     ]
   },
   "Moderne Sichtweise": {
@@ -79,7 +81,8 @@
   "Schwester des Wissens": {
     "source": [
       "magie2",
-      "realmofthethorns"
+      "realmofthethorns",
+      "warringkingdoms"
     ]
   },
   "Hofnarr": {
@@ -106,7 +109,8 @@
     "source": [
       "magie3",
       "steamingjungles",
-      "thorwal"
+      "thorwal",
+      "wolfsfrost"
     ]
   },
   "Klingenmeister": {
@@ -120,7 +124,8 @@
     "source": [
       "magie3",
       "steamingjungles",
-      "thorwal"
+      "thorwal",
+      "wolfsfrost"
     ]
   },
   "Diener der Natur": {
@@ -153,12 +158,14 @@
   },
   "Gnome": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Seelenhirten": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Sippenhüterinnen": {
@@ -199,14 +206,24 @@
       "thorwal"
     ]
   },
-  "Schwestern des Wissens": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
   "Sippenzauberin": {
     "source": [
       "winterwatch"
+    ]
+  },
+  "Kaltes Herz": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Eroberer": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Beherrscher der Kreaturen": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }

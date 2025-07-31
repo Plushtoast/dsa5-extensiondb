@@ -185,22 +185,12 @@
       "incorporealhorrors"
     ]
   },
-  "Hautgift": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Gelbzungen-Gift": {
     "source": [
       "lizardswamps"
     ]
   },
   "Eidechsengift": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Morfugift": {
     "source": [
       "lizardswamps"
     ]
@@ -280,6 +270,16 @@
   "Kors Samen": {
     "source": [
       "winterwatch"
+    ]
+  },
+  "Rantzenwasser": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Grüner Nektar": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }

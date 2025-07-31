@@ -1,4 +1,11 @@
 {
+  "Iryanrüstung": {
+    "source": [
+      "achaz",
+      "armory",
+      "lizardswamps"
+    ]
+  },
   "Krötenhaut": {
     "source": [
       "armory"
@@ -72,7 +79,8 @@
   },
   "Ifirnsmantel": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "wolfsfrost"
     ]
   },
   "Die Wundersame Rüstung": {
@@ -93,12 +101,14 @@
   },
   "Leichte Shakagra-Platte": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Schwere Shakagra-Plattenrüstung": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Flechtrüstung (Nry’drshk)": {
@@ -111,17 +121,7 @@
       "lizardswamps"
     ]
   },
-  "Iryanrüstung": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Selemer Spiegelpanzer": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Tracht der Gesichtslosen": {
+  "Eidechsenkleidung": {
     "source": [
       "lizardswamps"
     ]
@@ -189,6 +189,21 @@
   "Geweihhelm des Orvai Kurim": {
     "source": [
       "winterwatch"
+    ]
+  },
+  "Anaurak": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Eisenkragen": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Fellrüstung": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }

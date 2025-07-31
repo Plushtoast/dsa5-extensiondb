@@ -199,7 +199,8 @@
   },
   "Zuflucht": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "wolfsfrost"
     ]
   },
   "Zwergwalgestalt": {
@@ -308,7 +309,8 @@
   },
   "Wolfsgestalt": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Zwergische Verbrüderung": {
@@ -340,61 +342,6 @@
   "Seemonsterruf": {
     "source": [
       "havena"
-    ]
-  },
-  "Diener der Erde": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Diener der Wellen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Diener der Wolken": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Eidechsenregeneration": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Fruchtbarkeit": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Geistheilung": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Geschlechterwechsel": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Häutung": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Jugendlichkeit": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Rat der Ahnen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Regenkontrolle": {
-    "source": [
-      "lizardswamps"
     ]
   },
   "Gnade des Vergessens": {

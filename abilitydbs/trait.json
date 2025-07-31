@@ -277,7 +277,8 @@
   "Nächtlicher Lebensraub": {
     "source": [
       "companions",
-      "magie2"
+      "magie2",
+      "wolfsfrost"
     ]
   },
   "Ruhepol": {
@@ -335,6 +336,11 @@
     ]
   },
   "Tiersinne": {
+    "source": [
+      "core"
+    ]
+  },
+  "Tarnung (Vertrauter)": {
     "source": [
       "core"
     ]
@@ -522,7 +528,8 @@
   },
   "Teleportationsflug": {
     "source": [
-      "magie2"
+      "magie2",
+      "wolfsfrost"
     ]
   },
   "Lebenshauch": {
@@ -533,7 +540,8 @@
   },
   "Einschüchterndes Bellen": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Lebender Leichnam/Kadaver": {

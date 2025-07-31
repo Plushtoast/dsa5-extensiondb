@@ -1,90 +1,92 @@
 # Summary
-last_updated: 2025-03-04 06:36:05
+last_updated: 2025-07-31 09:21:08
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 91/179 | 50.84% |
+| [Achaz](#achaz) | 90/179 | 50.28% |
 | [Animatorium](#animatorium) | 89/175 | 50.86% |
 | [Arcanelabs](#arcanelabs) | 18/73 | 24.66% |
-| [Armory](#armory) | 113/149 | 75.84% |
+| [Armory](#armory) | 112/149 | 75.17% |
 | [Armory2](#armory2) | 119/153 | 77.78% |
 | [Aventurian-taverns](#aventurian-taverns) | 1/8 | 12.5% |
 | [Bannerofloyalty](#bannerofloyalty) | 13/21 | 61.9% |
-| [Bestiary](#bestiary) | 27/33 | 81.82% |
+| [Bestiary](#bestiary) | 28/33 | 84.85% |
 | [Bestiary2](#bestiary2) | 14/25 | 56.0% |
-| [Broodofhell](#broodofhell) | 48/67 | 71.64% |
+| [Broodofhell](#broodofhell) | 49/67 | 73.13% |
 | [Catacombs](#catacombs) | 0/11 | 0.0% |
-| [Companions](#companions) | 80/111 | 72.07% |
-| [Compendium](#compendium) | 245/288 | 85.07% |
-| [Compendium2](#compendium2) | 255/344 | 74.13% |
-| [Core](#core) | 458/527 | 86.91% |
+| [Companions](#companions) | 81/111 | 72.97% |
+| [Compendium](#compendium) | 247/288 | 85.76% |
+| [Compendium2](#compendium2) | 257/344 | 74.71% |
+| [Core](#core) | 459/528 | 86.93% |
 | [Desertkingdom](#desertkingdom) | 78/113 | 69.03% |
 | [Elementarium](#elementarium) | 73/120 | 60.83% |
 | [Goetterwirken](#goetterwirken) | 283/546 | 51.83% |
 | [Goetterwirken2](#goetterwirken2) | 258/404 | 63.86% |
 | [Goldenemperor](#goldenemperor) | 0/10 | 0.0% |
-| [Havena](#havena) | 41/103 | 39.81% |
+| [Havena](#havena) | 61/130 | 46.92% |
 | [Herbarium](#herbarium) | 100/144 | 69.44% |
 | [Herbarium2](#herbarium2) | 69/115 | 60.0% |
 | [Hiddendeep](#hiddendeep) | 23/32 | 71.88% |
-| [Incorporealhorrors](#incorporealhorrors) | 49/84 | 58.33% |
+| [Incorporealhorrors](#incorporealhorrors) | 50/84 | 59.52% |
 | [Klingendernacht](#klingendernacht) | 6/23 | 26.09% |
 | [Library](#library) | 6/12 | 50.0% |
-| [Lizardswamps](#lizardswamps) | 3/262 | 1.15% |
-| [Magie1](#magie1) | 219/383 | 57.18% |
-| [Magie2](#magie2) | 220/372 | 59.14% |
-| [Magie3](#magie3) | 165/394 | 41.88% |
+| [Lizardswamps](#lizardswamps) | 90/264 | 34.09% |
+| [Magie1](#magie1) | 220/383 | 57.44% |
+| [Magie2](#magie2) | 219/371 | 59.03% |
+| [Magie3](#magie3) | 166/394 | 42.13% |
 | [Mastertools](#mastertools) | 97/105 | 92.38% |
 | [Negotiationpeace](#negotiationpeace) | 2/4 | 50.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 80/96 | 83.33% |
 | [Orcs](#orcs) | 66/109 | 60.55% |
-| [Otherworld](#otherworld) | 57/99 | 57.58% |
+| [Otherworld](#otherworld) | 57/98 | 58.16% |
 | [Pandaemonium](#pandaemonium) | 22/34 | 64.71% |
 | [Pandaemonium2](#pandaemonium2) | 23/31 | 74.19% |
 | [Rabenkrieg4](#rabenkrieg4) | 1/2 | 50.0% |
 | [Rabenkrieg5](#rabenkrieg5) | 2/2 | 100.0% |
 | [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
 | [Realmofthethorns](#realmofthethorns) | 78/136 | 57.35% |
-| [Retosarmory](#retosarmory) | 22/105 | 20.95% |
+| [Retosarmory](#retosarmory) | 61/105 | 58.1% |
 | [Revelations](#revelations) | 3/3 | 100.0% |
-| [Riverlands](#riverlands) | 105/184 | 57.07% |
+| [Riverlands](#riverlands) | 106/184 | 57.61% |
+| [Scalytyrants](#scalytyrants) | 13/40 | 32.5% |
 | [Sevenwindscoast](#sevenwindscoast) | 97/186 | 52.15% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
-| [Steamingjungles](#steamingjungles) | 118/185 | 63.78% |
-| [Studyroom](#studyroom) | 149/232 | 64.22% |
-| [Suncoast](#suncoast) | 125/184 | 67.93% |
-| [Thorwal](#thorwal) | 118/214 | 55.14% |
-| [Transmutarium](#transmutarium) | 57/81 | 70.37% |
+| [Steamingjungles](#steamingjungles) | 119/185 | 64.32% |
+| [Studyroom](#studyroom) | 149/233 | 63.95% |
+| [Suncoast](#suncoast) | 124/183 | 67.76% |
+| [Thorwal](#thorwal) | 118/212 | 55.66% |
+| [Transmutarium](#transmutarium) | 58/81 | 71.6% |
 | [Warringkingdoms](#warringkingdoms) | 72/136 | 52.94% |
 | [Winterwatch](#winterwatch) | 109/189 | 57.67% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
+| [Wolfsfrost](#wolfsfrost) | 58/218 | 26.61% |
 | --- | --- | --- |
-| Total | 4570/7604 | 60.1% |
+| Total | 4797/7888 | 60.81% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 167/236 | 70.76% |
-| Armors | 101/141 | 71.63% |
-| Ceremony | 106/206 | 51.46% |
-| Consumable | 30/127 | 23.62% |
-| Disadvantage | 112/137 | 81.75% |
-| Liturgy | 245/343 | 71.43% |
-| Meleeweapons | 432/715 | 60.42% |
-| Poison | 276/339 | 81.42% |
-| Praegung | 58/112 | 51.79% |
-| Rangeweapons | 88/124 | 70.97% |
-| Ritual | 167/323 | 51.7% |
-| Specialability | 2041/3622 | 56.35% |
-| Spell | 459/668 | 68.71% |
-| Trait | 198/350 | 56.57% |
-| Wesenszug | 90/161 | 55.9% |
+| Advantage | 177/265 | 66.79% |
+| Armors | 101/148 | 68.24% |
+| Ceremony | 121/212 | 57.08% |
+| Consumable | 30/129 | 23.26% |
+| Disadvantage | 115/140 | 82.14% |
+| Liturgy | 259/346 | 74.86% |
+| Meleeweapons | 470/730 | 64.38% |
+| Poison | 278/341 | 81.52% |
+| Praegung | 58/121 | 47.93% |
+| Rangeweapons | 89/128 | 69.53% |
+| Ritual | 170/332 | 51.2% |
+| Specialability | 2149/3770 | 57.0% |
+| Spell | 484/699 | 69.24% |
+| Trait | 198/354 | 55.93% |
+| Wesenszug | 98/173 | 56.65% |
 
 
 
 ## Achaz
-Total status:  91/179 (50.84%)
+Total status:  90/179 (50.28%)
 
 
 ### Advantage
@@ -289,7 +291,7 @@ Total status:  91/179 (50.84%)
 ### Armors
 
 - [x] Eidechsenkleidung
-- [x] Iryanrüstung
+- [ ] Iryanrüstung
 
 
 ### Rangeweapons
@@ -380,7 +382,7 @@ Total status:  89/175 (50.86%)
 - [ ] Angriff mit Substanz
 - [ ] Belebte Gliedmaßen
 - [ ] Flugfähiger Golem
-- [x] Krafliniensensitiv
+- [x] Kraftliniensensitiv
 - [x] Immobil
 - [x] Immunität gegen kritische Treffer
 - [ ] Resistenz gegenüber göttlichem Willen
@@ -573,7 +575,7 @@ Total status:  18/73 (24.66%)
 
 
 ## Armory
-Total status:  113/149 (75.84%)
+Total status:  112/149 (75.17%)
 
 
 ### Specialability
@@ -600,7 +602,7 @@ Total status:  113/149 (75.84%)
 
 ### Armors
 
-- [x] Iryanrüstung
+- [ ] Iryanrüstung
 - [x] Kettenhemd
 - [ ] Krötenhaut
 - [ ] Lederharnisch
@@ -981,7 +983,7 @@ Total status:  13/21 (61.9%)
 
 
 ## Bestiary
-Total status:  27/33 (81.82%)
+Total status:  28/33 (84.85%)
 
 
 ### Specialability
@@ -990,7 +992,7 @@ Total status:  27/33 (81.82%)
 - [x] Anspringen
 - [x] Flugangriff
 - [x] Klammergriff
-- [ ] Mächtiger Schlag
+- [x] Mächtiger Schlag
 - [x] Schwanz- oder Tentakelschwung
 - [x] Trampeln
 - [ ] Überrennen
@@ -1080,7 +1082,7 @@ Total status:  14/25 (56.0%)
 
 
 ## Broodofhell
-Total status:  48/67 (71.64%)
+Total status:  49/67 (73.13%)
 
 
 ### Spell
@@ -1146,7 +1148,7 @@ Total status:  48/67 (71.64%)
 - [x] Klammergriff
 - [x] Klinge drehen
 - [x] Klingensturm
-- [ ] Mächtiger Schlag
+- [x] Mächtiger Schlag
 - [x] Schwanz- oder Tentakelschwung
 - [x] Trampeln
 - [ ] Überrennen
@@ -1196,7 +1198,7 @@ Total status:  0/11 (0.0%)
 
 
 ## Companions
-Total status:  80/111 (72.07%)
+Total status:  81/111 (72.97%)
 
 
 ### Advantage
@@ -1271,7 +1273,7 @@ Total status:  80/111 (72.07%)
 - [x] Befreiungstritt
 - [x] Corbetto
 - [x] Klammergriff
-- [ ] Mächtiger Schlag
+- [x] Mächtiger Schlag
 - [x] Schwanz- oder Tentakelschwung
 - [x] Trampeln
 - [ ] Überrennen
@@ -1330,7 +1332,7 @@ Total status:  80/111 (72.07%)
 
 
 ## Compendium
-Total status:  245/288 (85.07%)
+Total status:  247/288 (85.76%)
 
 
 ### Advantage
@@ -1436,11 +1438,11 @@ Total status:  245/288 (85.07%)
 - [x] Bornländisches Raufen
 - [x] Cendrasch-Stil
 - [x] Dajin-Stil
-- [ ] Elenvina-Stil
+- [x] Elenvina-Stil
 - [x] Fedorino-Stil
 - [x] Gladiatoren-Stil
 - [ ] Hammerfaust-Stil
-- [ ] Hruruzat
+- [x] Hruruzat-Stil
 - [x] Hylailos-Stil
 - [ ] Marwan Sahib-Stil
 - [x] Mengbilla-Stil
@@ -1533,7 +1535,7 @@ Total status:  245/288 (85.07%)
 
 
 ## Compendium2
-Total status:  255/344 (74.13%)
+Total status:  257/344 (74.71%)
 
 
 ### Trait
@@ -1732,7 +1734,7 @@ Total status:  255/344 (74.13%)
 - [x] Fasarer Blutgruben-Stil
 - [ ] Gardisten-Stil
 - [x] Gareth-Stil
-- [ ] Garether Gossen-Stil
+- [x] Garether Gossen-Stil
 - [x] Hand Borons-Stil
 - [x] Hardas-Stil
 - [ ] Irbrasch-Stil
@@ -1840,7 +1842,7 @@ Total status:  255/344 (74.13%)
 - [ ] Soldaten-Stil
 - [x] Söldner-Stil
 - [x] Tulamidischer Balayan-Stil
-- [ ] Hruruzat-Stil
+- [x] Hruruzat-Stil
 - [ ] Betäubendes Geschoss
 - [x] Machtvoller Ausfall
 - [x] Zweifacher Reiterangriff
@@ -1908,7 +1910,7 @@ Total status:  255/344 (74.13%)
 
 
 ## Core
-Total status:  458/527 (86.91%)
+Total status:  459/528 (86.93%)
 
 
 ### Advantage
@@ -2285,7 +2287,7 @@ Total status:  458/527 (86.91%)
 - [ ] Tradition (Perainekirche)
 - [x] Flugangriff
 - [ ] Verbeißen
-- [ ] Mächtiger Schlag
+- [x] Mächtiger Schlag
 
 
 ### Trait
@@ -2304,6 +2306,7 @@ Total status:  458/527 (86.91%)
 - [x] Ungesehener Beobachter
 - [x] Zwiegespräch
 - [x] Immun gegen Schmerzen
+- [ ] Tarnung (Vertrauter)
 
 
 ### Consumable
@@ -2687,7 +2690,6 @@ Total status:  73/120 (60.83%)
 - [x] Kraft des Lebens
 - [x] Lodernde Flammensäulen
 - [ ] Macht der Pflanzen
-- [ ] Macht wider Dämonen
 - [ ] Ruf des Waldes
 - [ ] Verformung des Elements
 - [ ] Weg durch den Fluss (Elementar)
@@ -2736,6 +2738,7 @@ Total status:  73/120 (60.83%)
 - [ ] Wasserheilung
 - [x] Wegwehen
 - [ ] Muttererde (Rosendschinn)
+- [ ] Dschinnenblut (Humusdschinn)
 
 
 
@@ -3761,7 +3764,7 @@ Total status:  0/10 (0.0%)
 
 
 ## Havena
-Total status:  41/103 (39.81%)
+Total status:  61/130 (46.92%)
 
 
 ### Specialability
@@ -3808,6 +3811,33 @@ Total status:  41/103 (39.81%)
 - [ ] Numinorus Prophezeiung
 - [ ] Numinorus Zeichen
 - [ ] Numinorus Flutwelle
+- [x] Angetäuschter Angriff
+- [x] Binden
+- [ ] Schildstoß
+- [x] Waffenwurf
+- [ ] Drehschlag
+- [ ] Provozieren
+- [x] Drohgebärden
+- [x] Scanlail ni Uinin-Stil
+- [x] Küstenwächter
+- [x] Gebieter/in der Wogen
+- [x] Gebieter/in des Winds
+- [x] Kältegewöhnung
+- [ ] Langanhaltender Segen
+- [ ] Missionierung
+- [ ] Weg des Schatzsuchers
+- [x] Gerüchte aufschnappen
+- [x] Seemannsgarn
+- [x] Meisterin der Tarnung
+- [x] Kind der Natur ()
+- [x] Körperliches Geschick ()
+- [x] Weg der Seefahrerin
+- [x] Weg der Schmugglerin
+- [x] Meereswächter
+- [ ] Flug des Dreizacks
+- [x] Transporteur
+- [x] Sprung mit dem Dreizack
+- [x] Macht des Dreizacks
 
 
 ### Liturgy
@@ -4249,7 +4279,7 @@ Total status:  23/32 (71.88%)
 
 
 ## Incorporealhorrors
-Total status:  49/84 (58.33%)
+Total status:  50/84 (59.52%)
 
 
 ### Spell
@@ -4288,7 +4318,7 @@ Total status:  49/84 (58.33%)
 - [ ] Geisterschreck
 - [x] Anspringen
 - [x] Flugangriff
-- [ ] Mächtiger Schlag
+- [x] Mächtiger Schlag
 - [ ] Verbeißen
 
 
@@ -4440,7 +4470,7 @@ Total status:  6/12 (50.0%)
 
 
 ## Lizardswamps
-Total status:  3/262 (1.15%)
+Total status:  90/264 (34.09%)
 
 
 ### Meleeweapons
@@ -4466,6 +4496,7 @@ Total status:  3/262 (1.15%)
 - [ ] Zahn-Sägeschwert (Trrah’ss)
 - [ ] Der Dorn des Chr’Ssir’Ssr (2H)
 - [ ] Kristallomantische Kristallkugel
+- [ ] Schlangenstab (2H)
 
 
 ### Rangeweapons
@@ -4480,25 +4511,26 @@ Total status:  3/262 (1.15%)
 - [ ] Flechtrüstung (Nry’drshk)
 - [ ] Giftkammpanzer (Szint’ssitt)
 - [ ] Iryanrüstung
-- [ ] Selemer Spiegelpanzer
-- [ ] Tracht der Gesichtslosen
+- [x] Selemer Spiegelpanzer
+- [x] Tracht der Gesichtslosen
+- [ ] Eidechsenkleidung
 
 
 ### Advantage
 
 - [ ] Biss
-- [ ] Greifschwanz
-- [ ] Hauttasche
-- [ ] Natürliche Waffe (Biss)
-- [ ] Natürliche Waffe (Schwanz)
-- [ ] Natürlicher Rüstungsschutz
+- [x] Greifschwanz
+- [x] Hauttasche
+- [x] Natürliche Waffe (Biss)
+- [x] Natürliche Waffe (Schwanz)
+- [x] Natürlicher Rüstungsschutz
 - [ ] Zusätzliche Gliedmaßen (Schwanz)
-- [ ] Wasserlebewesen
+- [x] Wasserlebewesen
 
 
 ### Disadvantage
 
-- [ ] Kältestarre
+- [x] Kältestarre
 
 
 ### Wesenszug
@@ -4518,51 +4550,51 @@ Total status:  3/262 (1.15%)
 
 ### Specialability
 
-- [ ] Drohgebärden
+- [x] Drohgebärden
 - [ ] Kräutermischung
 - [ ] Schlangenorakel
-- [ ] Unterschlupf finden
+- [x] Unterschlupf finden
 - [ ] Wegkenntnis
 - [ ] Weg des Okkultisten
 - [ ] Weg des Echsenbändigers
 - [ ] Weg des Echsenkundigen
-- [ ] Allgemeinwissen
-- [ ] Bedrohliche Aura
+- [x] Allgemeinwissen
+- [x] Bedrohliche Aura
 - [ ] Fachwissen
-- [ ] Gerüchte aufschnappen
-- [ ] Meister der Orientierung
-- [ ] Tierverbundenheit
-- [ ] Auf Distanz halten
+- [x] Gerüchte aufschnappen
+- [x] Meister der Orientierung
+- [x] Tierverbundenheit
+- [x] Auf Distanz halten
 - [ ] Beschützer
 - [ ] Festnageln
-- [ ] Unterlaufen
-- [ ] Klingensturm
+- [x] Unterlaufen
+- [x] Klingensturm
 - [ ] Achazschleicher-Stil
 - [ ] Bruthüter-Stil
 - [ ] Chaz’Zchakrr-Stil
 - [ ] Echsenreiter-Stil
 - [ ] Gesichtslose-Stil
-- [ ] Stammeskrieger-Stil
-- [ ] Berserkerangriff
-- [ ] Blitzreflexe
-- [ ] Breschenangriff
+- [x] Stammeskrieger-Stil
+- [x] Berserkerangriff
+- [x] Blitzreflexe
+- [x] Breschenangriff
 - [ ] Defensives Verhalten
 - [ ] Formationsparade
-- [ ] Machtvoller Sturmangriff
+- [x] Machtvoller Sturmangriff
 - [ ] Offensives Verhalten
-- [ ] Reizen
+- [x] Reizen
 - [ ] Schmerzwut
-- [ ] Sprungangriff
-- [ ] Tiefe Wunde
-- [ ] Verbesserte Aufmerksamkeit
-- [ ] Versteckte Klinge
-- [ ] Waffenwurf
-- [ ] Windmühle
-- [ ] Zweifacher Reiterangriff
+- [x] Sprungangriff
+- [x] Tiefe Wunde
+- [x] Verbesserte Aufmerksamkeit
+- [x] Versteckte Klinge
+- [x] Waffenwurf
+- [x] Windmühle
+- [x] Zweifacher Reiterangriff
 - [ ] Tradition (Kristallomanten)
-- [ ] Beutel-Apport
-- [ ] Bindung des Schuppenbeutels
-- [ ] Ewige Wegzehrung
+- [x] Beutel-Apport
+- [x] Bindung des Schuppenbeutels
+- [x] Ewige Wegzehrung
 - [ ] Leichter Beutel
 - [ ] Machtvolle Beutelzauber
 - [ ] Riesiger Beutel
@@ -4612,12 +4644,12 @@ Total status:  3/262 (1.15%)
 - [ ] Übertragung der Lebenskraft
 - [ ] Wissensaustausch
 - [ ] Tradition (Achazschamanen)
-- [ ] Keulenweihe (Achaz)
-- [ ] Freundschaft des Tieres (Achaz)
-- [ ] Tierische Kraft (Achaz)
+- [x] Keulenweihe (Achaz)
+- [x] Freundschaft des Tieres (Achaz)
+- [x] Tierische Kraft (Achaz)
 - [ ] Vereisung (Achaz)
 - [ ] Kältestrahl (Achaz)
-- [ ] Keulenwurf (Achaz)
+- [x] Keulenwurf (Achaz)
 - [ ] Tradition (H’Szint-Kult)
 - [ ] Wall gegen Schadensmagie
 - [ ] Schild gegen Einflusszauberei
@@ -4639,36 +4671,36 @@ Total status:  3/262 (1.15%)
 - [ ] Schwingensprung
 - [ ] Gleitflug
 - [ ] Schwingenhochsprung
-- [ ] Furcht nehmen
+- [x] Furcht nehmen
 - [ ] Mauer des Geistes
 - [ ] Besänftiger der Großen Alten
 - [ ] Schlächter der H’Ranga
 - [ ] Wächter der Wiedergeburt
 - [ ] Wandler des Ewigen
-- [ ] Medizinleute
-- [ ] Tierpriester
+- [x] Medizinleute
+- [x] Tierpriester
 - [ ] Aussaugen
-- [ ] Einschüchternde Zurechtweisung
-- [ ] Gebieter des ()
-- [ ] Gespür für Drachenwerk
-- [ ] Gesunder Geist, gesunder Körper
+- [x] Einschüchternde Zurechtweisung
+- [x] Gebieter des ()
+- [x] Gespür für Drachenwerk
+- [x] Gesunder Geist, gesunder Körper
 - [ ] Giftkenntnis
-- [ ] Heilritus
+- [x] Heilritus
 - [ ] Körperkontrolle
 - [ ] Langanhaltender Segen
-- [ ] Schutz der Unsterblichen
+- [x] Schutz der Unsterblichen
 - [ ] Omen
-- [ ] Stille Meditation
-- [ ] Angriff auf ungeschützte Stellen
-- [ ] Anspringen
-- [ ] Klammergriff
-- [ ] Schwanz- oder Tentakelschwung
-- [ ] Trampeln
+- [x] Stille Meditation
+- [x] Angriff auf ungeschützte Stellen
+- [x] Anspringen
+- [x] Klammergriff
+- [x] Schwanz- oder Tentakelschwung
+- [x] Trampeln
 - [ ] Überrennen
 - [ ] Unterwasserkampf
 - [ ] Verbeißen
-- [ ] Flugangriff
-- [ ] Fachwissen ()
+- [x] Flugangriff
+- [x] Fachwissen ()
 - [ ] Schutz des Beutels 2
 - [ ] Tradition (Intuitiver Zauberer)
 - [ ] Tradition (H'Szint-Kult)
@@ -4676,24 +4708,24 @@ Total status:  3/262 (1.15%)
 - [ ] Schild gegen Einflusszauberei (H'Szint-Kult)
 - [ ] Bollwerk gegen Magie (H'Szint-Kult)
 - [ ] Wandelstab (H'Szint-Kult)
-- [ ] Schlangenhaut (H'Szint-Kult)
+- [x] Schlangenhaut (H'Szint-Kult)
 - [ ] Giftbiss (H'Szint-Kult)
 - [ ] Echsenfreundschaft (Zsahh-Kult)
 
 
 ### Spell
 
-- [ ] Band und Fessel
-- [ ] Eispfeil
-- [ ] Gifthaut
-- [ ] Serpentialis
+- [x] Band und Fessel
+- [x] Eispfeil
+- [x] Gifthaut
+- [x] Serpentialis
 - [ ] Tempus Stasis
-- [ ] Zorn der Elemente
+- [x] Zorn der Elemente
 
 
 ### Ritual
 
-- [ ] Unberührt von Satinav
+- [x] Unberührt von Satinav
 
 
 ### Praegung
@@ -4709,20 +4741,20 @@ Total status:  3/262 (1.15%)
 
 ### Liturgy
 
-- [ ] Angriffslust
-- [ ] Bannzone
-- [ ] Befehl des Schamanen
-- [ ] Blitzschlag
-- [ ] Flugechsenruf
-- [ ] Friedfertigkeit
-- [ ] Hauch des Elements
+- [x] Angriffslust
+- [x] Bannzone
+- [x] Befehl des Schamanen
+- [x] Blitzschlag
+- [x] Flugechsenruf
+- [x] Friedfertigkeit
+- [x] Hauch des Elements
 - [ ] Kleine Windhose
 - [ ] Lebensschutz
-- [ ] Magieanalyse
-- [ ] Schlangenruf
-- [ ] Schlingerruf
+- [x] Magieanalyse
+- [x] Schlangenruf
+- [x] Schlingerruf
 - [ ] Sturmruf
-- [ ] Tiersprache
+- [x] Tiersprache
 - [ ] Windhose
 - [ ] Das Ding von Ssad’Navv
 - [ ] Der Dorn des Chr’Ssir’Ssr
@@ -4731,34 +4763,34 @@ Total status:  3/262 (1.15%)
 
 ### Ceremony
 
-- [ ] Diener der Erde
-- [ ] Diener der Wellen
-- [ ] Diener der Wolken
+- [x] Diener der Erde
+- [x] Diener der Wellen
+- [x] Diener der Wolken
 - [ ] Eidechsengestalt
-- [ ] Eidechsenregeneration
-- [ ] Fruchtbarkeit
-- [ ] Geistheilung
-- [ ] Geschlechterwechsel
-- [ ] Häutung
-- [ ] Jugendlichkeit
+- [x] Eidechsenregeneration
+- [x] Fruchtbarkeit
+- [x] Geistheilung
+- [x] Geschlechterwechsel
+- [x] Häutung
+- [x] Jugendlichkeit
 - [ ] Nebelschwaden
-- [ ] Rat der Ahnen
-- [ ] Regenkontrolle
+- [x] Rat der Ahnen
+- [x] Regenkontrolle
 
 
 ### Poison
 
-- [ ] Hautgift
+- [x] Hautgift
 - [ ] Gelbzungen-Gift
 - [ ] Eidechsengift
-- [ ] Morfugift
+- [x] Morfugift
 
 
 
 
 
 ## Magie1
-Total status:  219/383 (57.18%)
+Total status:  220/383 (57.44%)
 
 
 ### Specialability
@@ -4782,7 +4814,7 @@ Total status:  219/383 (57.18%)
 - [ ] Hammer des Magus
 - [x] Heilschlaf
 - [ ] Machtvolle Stabzauber
-- [ ] Modifikationsfokus
+- [x] Modifikationsfokus
 - [x] Seil des Magus
 - [ ] Seilpeitsche
 - [ ] Seilschlange
@@ -5184,7 +5216,7 @@ Total status:  219/383 (57.18%)
 
 
 ## Magie2
-Total status:  220/372 (59.14%)
+Total status:  219/371 (59.03%)
 
 
 ### Specialability
@@ -5602,7 +5634,7 @@ Total status:  220/372 (59.14%)
 
 
 ## Magie3
-Total status:  165/394 (41.88%)
+Total status:  166/394 (42.13%)
 
 
 ### Specialability
@@ -5945,7 +5977,7 @@ Total status:  165/394 (41.88%)
 - [x] Schuppenhaut
 - [ ] Sinesigil
 - [x] Sphärenbann
-- [ ] Sensattacco
+- [x] Sensattacco
 - [ ] Stillstand
 - [x] Sturm der Verunsicherung
 - [ ] Sturmwand
@@ -6457,7 +6489,7 @@ Total status:  66/109 (60.55%)
 
 
 ## Otherworld
-Total status:  57/99 (57.58%)
+Total status:  57/98 (58.16%)
 
 
 ### Specialability
@@ -6478,7 +6510,6 @@ Total status:  57/99 (57.58%)
 - [x] Kraft des Lebens
 - [ ] Licht der Kristalle
 - [ ] Macht der Pflanzen
-- [ ] Macht wider Dämonen
 - [ ] Ruf des Waldes
 - [x] Salbung der Haut
 - [ ] Verformung des Elements
@@ -6918,7 +6949,7 @@ Total status:  78/136 (57.35%)
 
 
 ## Retosarmory
-Total status:  22/105 (20.95%)
+Total status:  61/105 (58.1%)
 
 
 ### Specialability
@@ -6968,68 +6999,68 @@ Total status:  22/105 (20.95%)
 - [ ] Auripraedes-Streitkolben
 - [ ] Skalsmader (2H)
 - [ ] Langschwert des Admirals
-- [ ] Bastardschwert des unbekannten Helden (2H)
-- [ ] Magierstab des Gandolf von Gareth, lang (2H)
-- [ ] Sphären-Magierstab, kurz
-- [ ] Stab des Altumarn, lang
-- [ ] Antimagie-Magierstab, mittel
-- [ ] Orkenschreck
-- [ ] Partisane der Bürgerlichen (2H)
-- [ ] Chimärenschläger
-- [ ] Casydrion
-- [ ] Brusgalin
-- [ ] Ay’Halam al’Rhondrachai (2H)
+- [x] Bastardschwert des unbekannten Helden (2H)
+- [x] Magierstab des Gandolf von Gareth, lang (2H)
+- [x] Sphären-Magierstab, kurz
+- [x] Stab des Altumarn, lang
+- [x] Antimagie-Magierstab, mittel
+- [x] Orkenschreck
+- [x] Partisane der Bürgerlichen (2H)
+- [x] Chimärenschläger
+- [x] Casydrion
+- [x] Brusgalin
+- [x] Ay’Halam al’Rhondrachai (2H)
 - [ ] Kaiser Bodars II Saufeder (2H)
-- [ ] Kam’Arum (2H)
+- [x] Kam’Arum (2H)
 - [ ] Sägeschwert
-- [ ] Rondharas Langschwert
-- [ ] Immertreu-Bastardschwert (2H)
+- [x] Rondharas Langschwert
+- [x] Immertreu-Bastardschwert (2H)
 - [ ] Die ersten Pervalschen Schwerter
 - [ ] Pervalscher Tunierstreitkolben
 - [ ] Laternenschild
 - [ ] Prunkschwert der Goldenen Lanze
-- [ ] Grijomacons Tuzakmesser Mungobiss (2H)
-- [ ] Harlijins Tuzakmesser Lotosdorn (2H)
+- [x] Grijomacons Tuzakmesser Mungobiss (2H)
+- [x] Harlijins Tuzakmesser Lotosdorn (2H)
 - [ ] Achaz-Schwanzwaffe (Raz’Thon)
-- [ ] Reißer (Drash’kor) (2H)
-- [ ] Schnitter aus Frumolds Heer (2H)
+- [x] Reißer (Drash’kor) (2H)
+- [x] Schnitter aus Frumolds Heer (2H)
 - [ ] Rebellen-Nachtwind
 - [ ] Hal-Schwert
 - [ ] Hal-Streitkolben
-- [ ] Paligan-Prunkdolch
-- [ ] Prunk-Partisane (2H)
+- [x] Paligan-Prunkdolch
+- [x] Prunk-Partisane (2H)
 - [ ] Ogerkeule (2H)
-- [ ] Windhager Flotten-Säbel
-- [ ] Khefu-Bengel
-- [ ] Doppelkhunchomer der Murawidun (2H)
+- [x] Windhager Flotten-Säbel
+- [x] Khefu-Bengel
+- [x] Doppelkhunchomer der Murawidun (2H)
 - [ ] Hal-Rapier
-- [ ] Gwains Reitersäbel
-- [ ] Arbach eines Tordochai-Kriegers
-- [ ] Byakka der Garde des Roten Mondes
-- [ ] Gruufhai des Olog Orchai (2H)
-- [ ] Hellebarde der Garether Spießbürger (2H)
-- [ ] Amazonensäbel aus Kurkum
-- [ ] Piratensäbel aus der Blutigen See
+- [x] Gwains Reitersäbel
+- [x] Arbach eines Tordochai-Kriegers
+- [x] Byakka der Garde des Roten Mondes
+- [x] Gruufhai des Olog Orchai (2H)
+- [x] Hellebarde der Garether Spießbürger (2H)
+- [x] Amazonensäbel aus Kurkum
+- [x] Piratensäbel aus der Blutigen See
 - [ ] Seeschlangenzahn-Dolch
-- [ ] Streitaxt der Wolfengarde
+- [x] Streitaxt der Wolfengarde
 - [ ] Sagittas Bannschwert
 - [ ] Gryphius
 - [ ] Waldemars Ochsenherde (2H)
 - [ ] Blutiger Zweihänder (2H)
 - [ ] Schild der Panthergarde
-- [ ] Stahlschwinge-Hellebarde (2H)
-- [ ] Schattenstich-Rapier
+- [x] Stahlschwinge-Hellebarde (2H)
+- [x] Schattenstich-Rapier
 - [ ] Löwinblitz-Streitaxt
-- [ ] Leuinzahn-Zweihänder (2H)
+- [x] Leuinzahn-Zweihänder (2H)
 - [ ] Knochenbrecher-Ogerschelle
-- [ ] Tommeldorn-Anderthalbhänder (2H)
+- [x] Tommeldorn-Anderthalbhänder (2H)
 - [ ] Mauerbrecher-Sappeursaxt
 - [ ] Rachtar’achan, Trollzacker-Barbarenstreitaxt (2H)
-- [ ] Abilachter Reitersäbel
+- [x] Abilachter Reitersäbel
 - [ ] Lange Mühle (2H)
 - [ ] Finsterfang (2H)
-- [ ] Amalidion (2H)
-- [ ] Krieg (2H)
+- [x] Amalidion (2H)
+- [x] Krieg (2H)
 - [ ] Scharlachdorn (2H)
 - [ ] Danos von Lurings Ritterschwert
 - [ ] Schlangenbiss (2H)
@@ -7048,7 +7079,7 @@ Total status:  22/105 (20.95%)
 
 ### Rangeweapons
 
-- [ ] Valvarandir
+- [x] Valvarandir
 - [ ] Thuranstolz-Langbogen
 - [ ] Kriegsdiskus aus Frumolds Heer
 - [ ] Belen-Horas’ Wurfspeer
@@ -7072,7 +7103,7 @@ Total status:  3/3 (100.0%)
 
 
 ## Riverlands
-Total status:  105/184 (57.07%)
+Total status:  106/184 (57.61%)
 
 
 ### Wesenszug
@@ -7109,7 +7140,7 @@ Total status:  105/184 (57.07%)
 - [x] Drachenkampf-Taktik
 - [ ] Festnageln
 - [ ] Spießgespann
-- [ ] Elenvina-Stil
+- [x] Elenvina-Stil
 - [ ] Ferdoker Lanzerinnen-Stil
 - [x] Klippag-Stil
 - [ ] Xorlosch-Stil
@@ -7291,6 +7322,60 @@ Total status:  105/184 (57.07%)
 - [x] Albenhuser Plattenharnisch
 - [x] Nordmärker Ritterrüstung
 - [ ] Isnatoscher Kettengeflecht
+
+
+
+
+
+## Scalytyrants
+Total status:  13/40 (32.5%)
+
+
+### Specialability
+
+- [x] Abrichter
+- [x] Gefäß der Macht
+- [x] Drachenkampf-Taktik
+- [ ] Spießgespann
+- [x] Angriff auf ungeschützte Stellen
+- [x] Anspringen
+- [x] Flugangriff
+- [x] Klammergriff
+- [x] Mächtiger Schlag
+- [x] Schwanz- oder Tentakelschwung
+- [x] Trampeln
+- [ ] Überrennen
+- [ ] Unterwasserkampf
+- [ ] Verbeißen
+- [ ] Tradition (Drachen)
+
+
+### Advantage
+
+- [x] Drachentöter
+- [x] Wasserlebewesen
+- [ ] Drachenblut (Einhorndrache)
+- [ ] Drachenblut (Gletscherwurm)
+- [ ] Drachenblut (Höhlendrache)
+- [ ] Drachenblut (Kaiserdrache)
+- [ ] Drachenblut (Purpurwurm)
+- [ ] Drachenblut (Riesenlindwurm)
+- [ ] Astralschutz
+- [ ] Drachenkontrolle
+- [ ] Drachenschwanz
+- [ ] Drachenzaubermacht
+- [ ] Dreistrahl
+- [ ] Elementarhand
+- [ ] Gedankensprache
+- [ ] Kraft des Drachen
+- [ ] Majestätsstimme
+- [ ] Odemwaffe
+- [ ] Schuppenkleid
+- [ ] Schwingenpaar
+- [ ] Telepathieüberflutung
+- [ ] Temperaturimmunität (Hitze)
+- [ ] Temperaturimmunität (Kälte)
+- [ ] Verpuppung
 
 
 
@@ -7572,7 +7657,7 @@ Total status:  2/2 (100.0%)
 
 
 ## Steamingjungles
-Total status:  118/185 (63.78%)
+Total status:  119/185 (64.32%)
 
 
 ### Specialability
@@ -7586,7 +7671,7 @@ Total status:  118/185 (63.78%)
 - [x] Dschungelschleicher-Stil
 - [x] Eidechsenkrieger-Stil
 - [ ] Geisterkrieger-Stil
-- [ ] Hruruzat
+- [x] Hruruzat-Stil
 - [x] Stammeskrieger-Stil
 - [ ] Geisterseherinnen (Schwarze Witwen)
 - [ ] Reisende (Fahrende Schwester)
@@ -7810,7 +7895,7 @@ Total status:  118/185 (63.78%)
 
 
 ## Studyroom
-Total status:  149/232 (64.22%)
+Total status:  149/233 (63.95%)
 
 
 ### Spell
@@ -8009,6 +8094,7 @@ Total status:  149/232 (64.22%)
 - [x] Bindung des Bannschwerts (Dolche)
 - [x] Bindung des Bannschwerts (Schwerter)
 - [x] Bindung des Bannschwerts (Zweihandschwerter)
+- [ ] Goblinhexe
 
 
 ### Advantage
@@ -8083,7 +8169,7 @@ Total status:  149/232 (64.22%)
 
 
 ## Suncoast
-Total status:  125/184 (67.93%)
+Total status:  124/183 (67.76%)
 
 
 ### Specialability
@@ -8323,7 +8409,7 @@ Total status:  125/184 (67.93%)
 
 
 ## Thorwal
-Total status:  118/214 (55.14%)
+Total status:  118/212 (55.66%)
 
 
 ### Meleeweapons
@@ -8517,14 +8603,12 @@ Total status:  118/214 (55.14%)
 - [ ] Großer Sprung
 - [x] Patronruf
 - [x] Talentverbesserung
-- [ ] Tierkräfte
 - [x] Aeolito
 - [x] Attributo (Mut)
 - [x] Hexagramma
 - [x] Oculus Astralis
 - [ ] Sensibar
 - [ ] Tiergeistsprache
-- [ ] Mächtiger Patronruf
 - [ ] Tierkräfte I ()
 - [ ] Tierkräfte II ()
 - [ ] Tierkräfte III ()
@@ -8594,7 +8678,7 @@ Total status:  118/214 (55.14%)
 
 
 ## Transmutarium
-Total status:  57/81 (70.37%)
+Total status:  58/81 (71.6%)
 
 
 ### Advantage
@@ -8631,7 +8715,7 @@ Total status:  57/81 (70.37%)
 - [x] Flugangriff
 - [x] Klammergriff
 - [x] Kernschuss
-- [ ] Mächtiger Schlag
+- [x] Mächtiger Schlag
 - [x] Schwanz- oder Tentakelschwung
 - [x] Trampeln
 - [ ] Überrennen
@@ -8833,8 +8917,8 @@ Total status:  72/136 (52.94%)
 - [ ] Sumen
 - [x] Graue Gilde
 - [x] Weiße Gilde
-- [ ] Schwestern des Wissens
 - [x] Verschwiegene Schwester
+- [ ] Schwester des Wissens
 
 
 ### Wesenszug
@@ -9151,6 +9235,288 @@ Total status:  1/1 (100.0%)
 ### Poison
 
 - [x] Pilzgift
+
+
+
+
+
+## Wolfsfrost
+Total status:  58/218 (26.61%)
+
+
+### Advantage
+
+- [x] Wolfsblut
+- [ ] Wolfsgebiss
+- [ ] Wolfskind
+- [x] Natürlicher Rüstungsschutz
+
+
+### Disadvantage
+
+- [x] Hitzeempfindlich II
+- [x] Lichtempfindlich II
+- [ ] Empfindlichkeit (unedle Metalle)
+
+
+### Wesenszug
+
+- [ ] Typische/-r Nivese/-in
+- [ ] Typische/-r Nordaventurier/-in
+- [ ] Typische/-r Nuanaä-Lie
+- [x] Typische/-r Shakagra
+- [x] Typische/-r Wildzwerg/-in
+- [x] Atanja
+- [x] Bäreninseln
+- [x] Brydia
+- [x] Ehernes Schwert
+- [ ] Finsterfirn
+- [x] Herzogtum Paavi
+- [x] Nornja
+
+
+### Specialability
+
+- [ ] Fallenbaumeisterin
+- [ ] Gespür für Himmelsrichtungen
+- [ ] Silberguss
+- [x] Skifahren
+- [x] Weg des Fallenstellers
+- [x] Weg des Jägers
+- [x] Weg des Prospektors
+- [x] Weg der Seefahrerin
+- [x] Erfolgreicher Jäger
+- [x] Fährtenleser
+- [x] Gesteinskunde
+- [x] Gute Verarbeitung
+- [ ] Kind der Natur
+- [x] Meister der Orientierung
+- [x] Seemannsgarn
+- [ ] Betäubungswurf
+- [ ] Harpunieren
+- [ ] Ungeheuer-Schlächter
+- [ ] Ungeheuer-Taktik
+- [ ] Jäger der Verfluchten-Stil
+- [ ] Aufspießen
+- [x] Blitzreflexe
+- [ ] Erweiterte Ungeheuer-Taktik
+- [ ] Tradition (Brobim-Geoden)
+- [x] Bindung des Rings
+- [ ] Beherrscher der Flammen
+- [ ] Launen des Windes
+- [ ] Machtvoller wirbelnder Luftschild
+- [ ] Magnetismus
+- [ ] Pforte durch Sumus Leib
+- [ ] Seelenfeuer
+- [ ] Weg durch Sumus Leib
+- [ ] Wirbelnder Luftschild
+- [ ] Nächtlicher Lebensraub
+- [ ] Tradition (Animisten)
+- [ ] Bindung der Waffe
+- [x] Einschüchternde Waffe
+- [ ] Kreisende Wurfwaffe
+- [x] Leuchtkraft
+- [ ] Waffen-Apport
+- [ ] Tradition (Nachtalben)
+- [ ] Scholar der Thyella vom Gewitterturm
+- [ ] Eisgänger
+- [ ] Elementarist der Shakagra
+- [ ] Rufer der Diener
+- [ ] Schwarzer Tänzer
+- [ ] Geode der Wilden Zwerge
+- [ ] Alchimieanalytiker
+- [ ] Austreibung
+- [ ] Begnadeter Objektzauberer
+- [ ] Bewegungszauberei
+- [ ] Dämonenmeisterin
+- [ ] Elementarmeisterin
+- [ ] Erdkraft
+- [ ] Gegnerische Zauberpraxis ()
+- [ ] Geisterfreundin
+- [ ] Geistermedium
+- [ ] Kriegszauberer
+- [ ] Selbstverzauberer
+- [ ] Überragender Dämonologe
+- [ ] Unaufhaltsamkeit
+- [ ] Unverstellter Blick
+- [ ] Vollendeter Elementarist
+- [ ] Zauberkämpfer
+- [ ] Tradition (Ifirnkirche)
+- [ ] Tradition (Nivesenschamanen)
+- [ ] Warmer Mantel
+- [ ] Schutz gegen Kälte
+- [ ] Guter Schlaf
+- [ ] Keulenweihe (Nivesen)
+- [ ] Freundschaft des Tieres (Nivesen)
+- [ ] Keulenwurf (Nivesen)
+- [ ] Wolfskraft
+- [ ] Göttlicher Schutz
+- [ ] Karmale Meditation
+- [ ] Geisterführer
+- [ ] Hüterinnen der Schwänin
+- [ ] Jägerinnen der weißen Maid
+- [ ] Medizinleute
+- [ ] Bannmeister
+- [ ] Gebieter des ( )
+- [ ] Geistergefäß
+- [ ] Gesunder Geist, gesunder Körper
+- [ ] Harmonie der Seele
+- [ ] Heilritus
+- [ ] Kältegewöhnung
+- [ ] Wohlklang der Seele
+- [ ] Waffen versilbern
+- [ ] Zusammenarbeit
+- [ ] Tradition (Drachen)
+- [ ] Blick des Nachtmahrs
+- [ ] Blutdurst der Fledermaus
+- [ ] Kuss der Todesfee
+- [ ] Macht des Sukkubus
+- [ ] Fledermausschwarm des Schreckens
+- [ ] Griff des Pirschers
+- [ ] Nebelgestalt
+- [ ] Riesenfledermaus des Schreckens
+- [ ] Ruf des Vampirs
+- [ ] Sikaryan-Gespür
+- [ ] Sog des Purpurnen
+- [ ] Stärke des untoten Leibs
+- [ ] Ausdauerndes Werwesen
+- [ ] Intelligentes Werwesen
+- [ ] Selbstbestimmter Verwandlungszeitpunkt
+
+
+### Armors
+
+- [ ] Ifirnsmantel
+- [ ] Anaurak
+- [ ] Eisenkragen
+- [ ] Fellrüstung
+- [ ] Leichte Shakagra-Platte
+- [ ] Schwere Shakagra-Plattenrüstung
+
+
+### Trait
+
+- [ ] Einschüchterndes Bellen
+- [ ] Nächtlicher Lebensraub
+- [ ] Teleportationsflug
+
+
+### Poison
+
+- [ ] Rantzenwasser
+- [ ] Grüner Nektar
+
+
+### Consumable
+
+- [ ] Vampir-Suppressorium
+- [ ] Versilberungstrank
+
+
+### Spell
+
+- [ ] Großer Sprung
+- [ ] Immunität gegen Kälte
+- [x] Patronruf
+- [ ] Talentverbesserung
+- [ ] Tiergeistsprache
+- [ ] Tierkräfte I ()
+- [ ] Tierkräfte II ()
+- [ ] Tierkräfte III ()
+- [ ] Unerschöpflich
+- [x] Attributo (Körperkraft)
+- [x] Frigifaxius
+- [x] Archofaxius
+- [x] Humofaxius
+- [x] Orcanofaxius
+- [x] Aquafaxius
+- [x] Firnlauf
+- [x] Wüstenlauf
+- [x] Glutlauf
+- [x] Wipfellauf
+- [x] Himmelslauf
+- [x] Wellenlauf
+- [ ] Eiswand
+- [ ] Steinwand
+- [ ] Flammenwand
+- [ ] Dornenwand
+- [ ] Sturmwand
+- [ ] Wellenwand
+- [x] Exposami
+- [x] Geisteressenz
+- [x] Große Verwirrung
+- [x] Höllenpein
+- [x] Reflectimago
+- [x] Tiergedanken
+
+
+### Meleeweapons
+
+- [ ] Nivesischer Wolfsspeer (2H)
+- [ ] Brobim-Wurzelkeule
+- [ ] Brobim-Tiefenaxt
+- [ ] Nivesen-Knochenspeer
+- [ ] Werwolffänger (2H)
+- [ ] Shakagra-Giftdolch
+- [ ] Shakagra-Buckler
+- [ ] Shakagra-Langschild
+- [ ] Shakagra-Schwert
+- [ ] Shakagra-Hammer
+- [ ] Shakagra-Krummsäbel
+- [ ] Shakagra-Kriegshammer (2H)
+- [ ] Silberpflock (i)
+- [ ] Holzpflock (i)
+
+
+### Rangeweapons
+
+- [ ] Nivesenbogen
+- [ ] Nivesen-Wurfkeule
+- [ ] Walspieß
+- [ ] Pfähler
+
+
+### Ritual
+
+- [ ] Kakophonie des Wahnsinns
+- [ ] Schlachtlied
+- [ ] Sturmlied
+- [ ] Lied des Schmerzes
+- [ ] Sklavenlied
+- [ ] Eins mit der Natur
+- [x] Geisterruf
+- [x] Gletscherform
+- [ ] Nihilogravo
+
+
+### Praegung
+
+- [ ] Geisterseher
+- [ ] Zauberkrieger
+- [ ] Gnome
+- [ ] Seelenhirten
+- [ ] Kaltes Herz
+- [ ] Eroberer
+- [ ] Beherrscher der Kreaturen
+- [ ] Mysterienkult
+- [ ] Pragmatismus
+
+
+### Liturgy
+
+- [x] Geisterfalle
+- [x] Tiere beruhigen
+- [x] Tierleid lindern
+
+
+### Ceremony
+
+- [x] Geistersprache
+- [x] Geistheilung
+- [x] Hilfe in der Not
+- [x] Rat der Ahnen
+- [ ] Wolfsgestalt
+- [ ] Zuflucht
 
 
 

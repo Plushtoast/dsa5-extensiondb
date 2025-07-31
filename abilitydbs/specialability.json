@@ -576,6 +576,7 @@
       "nekromanthaeum",
       "orcs",
       "pandaemonium",
+      "scalytyrants",
       "thorwal",
       "transmutarium",
       "warringkingdoms"
@@ -590,6 +591,7 @@
       "incorporealhorrors",
       "lizardswamps",
       "pandaemonium",
+      "scalytyrants",
       "transmutarium"
     ]
   },
@@ -800,7 +802,8 @@
   "Spießgespann": {
     "source": [
       "armory2",
-      "riverlands"
+      "riverlands",
+      "scalytyrants"
     ]
   },
   "Aufspießen": {
@@ -812,7 +815,8 @@
       "realmofthethorns",
       "riverlands",
       "sevenwindscoast",
-      "winterwatch"
+      "winterwatch",
+      "wolfsfrost"
     ]
   },
   "Betäubendes Geschoss": {
@@ -854,16 +858,6 @@
       "bannerofloyalty"
     ]
   },
-  "Mächtiger Schlag": {
-    "source": [
-      "bestiary",
-      "broodofhell",
-      "companions",
-      "core",
-      "incorporealhorrors",
-      "transmutarium"
-    ]
-  },
   "Unterwasserkampf": {
     "source": [
       "bestiary",
@@ -875,6 +869,7 @@
       "lizardswamps",
       "nekromanthaeum",
       "pandaemonium",
+      "scalytyrants",
       "suncoast",
       "thorwal",
       "transmutarium"
@@ -888,49 +883,57 @@
   "Fledermausschwarm des Schreckens": {
     "source": [
       "bestiary2",
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Nebelgestalt": {
     "source": [
       "bestiary2",
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Riesenfledermaus des Schreckens": {
     "source": [
       "bestiary2",
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Ruf des Vampirs": {
     "source": [
       "bestiary2",
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Sog des Purpurnen": {
     "source": [
       "bestiary2",
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Stärke des untoten Leibs": {
     "source": [
       "bestiary2",
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Ausdauerndes Werwesen": {
     "source": [
       "bestiary2",
-      "pandaemonium2"
+      "pandaemonium2",
+      "wolfsfrost"
     ]
   },
   "Selbstbestimmter Verwandlungszeitpunkt": {
     "source": [
       "bestiary2",
-      "pandaemonium2"
+      "pandaemonium2",
+      "wolfsfrost"
     ]
   },
   "Reversalis ()": {
@@ -947,7 +950,8 @@
   "Gespür für Himmelsrichtungen": {
     "source": [
       "catacombs",
-      "hiddendeep"
+      "hiddendeep",
+      "wolfsfrost"
     ]
   },
   "Fallen entschärfen": {
@@ -957,7 +961,8 @@
   },
   "Fallenbaumeisterin": {
     "source": [
-      "catacombs"
+      "catacombs",
+      "wolfsfrost"
     ]
   },
   "Fallentarnung": {
@@ -1013,6 +1018,7 @@
   "Provozieren": {
     "source": [
       "compendium",
+      "havena",
       "sevenwindscoast",
       "suncoast"
     ]
@@ -1072,22 +1078,10 @@
       "compendium"
     ]
   },
-  "Elenvina-Stil": {
-    "source": [
-      "compendium",
-      "riverlands"
-    ]
-  },
   "Hammerfaust-Stil": {
     "source": [
       "compendium",
       "thorwal"
-    ]
-  },
-  "Hruruzat": {
-    "source": [
-      "compendium",
-      "steamingjungles"
     ]
   },
   "Marwan Sahib-Stil": {
@@ -1123,6 +1117,7 @@
       "compendium",
       "goetterwirken",
       "goetterwirken2",
+      "havena",
       "retosarmory",
       "sevenwindscoast",
       "steamingjungles",
@@ -1272,11 +1267,6 @@
       "compendium2"
     ]
   },
-  "Garether Gossen-Stil": {
-    "source": [
-      "compendium2"
-    ]
-  },
   "Irbrasch-Stil": {
     "source": [
       "compendium2"
@@ -1345,6 +1335,7 @@
   "Drehschlag": {
     "source": [
       "compendium2",
+      "havena",
       "sevenwindscoast",
       "thorwal"
     ]
@@ -1481,11 +1472,6 @@
       "compendium2"
     ]
   },
-  "Hruruzat-Stil": {
-    "source": [
-      "compendium2"
-    ]
-  },
   "Weg der Wandergesellin ()": {
     "source": [
       "compendium2",
@@ -1536,7 +1522,8 @@
       "orcs",
       "steamingjungles",
       "studyroom",
-      "thorwal"
+      "thorwal",
+      "wolfsfrost"
     ]
   },
   "Tradition (Zauberbarden)": {
@@ -1592,7 +1579,8 @@
   "Kreisende Wurfwaffe": {
     "source": [
       "desertkingdom",
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Scharfe Klinge": {
@@ -1713,6 +1701,7 @@
   "Flug des Dreizacks": {
     "source": [
       "goetterwirken",
+      "havena",
       "sevenwindscoast"
     ]
   },
@@ -1857,7 +1846,8 @@
   },
   "Warmer Mantel": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "wolfsfrost"
     ]
   },
   "Erholsamer Schlaf": {
@@ -2069,7 +2059,8 @@
   },
   "Hüterinnen der Schwänin": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "wolfsfrost"
     ]
   },
   "Anhänger des guten Kampfes": {
@@ -2129,6 +2120,7 @@
   "Langanhaltender Segen": {
     "source": [
       "goetterwirken",
+      "havena",
       "lizardswamps",
       "sevenwindscoast",
       "suncoast"
@@ -2137,6 +2129,7 @@
   "Missionierung": {
     "source": [
       "goetterwirken",
+      "havena",
       "sevenwindscoast",
       "suncoast"
     ]
@@ -2162,7 +2155,8 @@
   },
   "Guter Schlaf": {
     "source": [
-      "goetterwirken"
+      "goetterwirken",
+      "wolfsfrost"
     ]
   },
   "Gleichklang von Körper und Seele": {
@@ -2772,7 +2766,8 @@
   },
   "Tradition (Nivesenschamanen)": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Mondsicht": {
@@ -2825,7 +2820,8 @@
   "Karmale Meditation": {
     "source": [
       "goetterwirken2",
-      "winterwatch"
+      "winterwatch",
+      "wolfsfrost"
     ]
   },
   "Liturgie vereinen": {
@@ -2878,7 +2874,8 @@
     "source": [
       "goetterwirken2",
       "steamingjungles",
-      "thorwal"
+      "thorwal",
+      "wolfsfrost"
     ]
   },
   "Körperkontrolle": {
@@ -2935,7 +2932,8 @@
   },
   "Griff des Pirschers": {
     "source": [
-      "goetterwirken2"
+      "goetterwirken2",
+      "wolfsfrost"
     ]
   },
   "Hypnose": {
@@ -2957,7 +2955,8 @@
     "source": [
       "goetterwirken2",
       "steamingjungles",
-      "thorwal"
+      "thorwal",
+      "wolfsfrost"
     ]
   },
   "Aussaugen": {
@@ -3320,6 +3319,11 @@
       "havena"
     ]
   },
+  "Weg des Schatzsuchers": {
+    "source": [
+      "havena"
+    ]
+  },
   "Aufbewahrung": {
     "source": [
       "herbarium",
@@ -3364,7 +3368,8 @@
   },
   "Tradition (Nachtalben)": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Archivar": {
@@ -3392,17 +3397,7 @@
       "library"
     ]
   },
-  "Drohgebärden": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Schlangenorakel": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Unterschlupf finden": {
     "source": [
       "lizardswamps"
     ]
@@ -3427,47 +3422,7 @@
       "lizardswamps"
     ]
   },
-  "Allgemeinwissen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Bedrohliche Aura": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Fachwissen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Gerüchte aufschnappen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Meister der Orientierung": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Tierverbundenheit": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Auf Distanz halten": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Unterlaufen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Klingensturm": {
     "source": [
       "lizardswamps"
     ]
@@ -3488,86 +3443,6 @@
     ]
   },
   "Gesichtslose-Stil": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Stammeskrieger-Stil": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Berserkerangriff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Blitzreflexe": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Breschenangriff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Machtvoller Sturmangriff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Reizen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Sprungangriff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Tiefe Wunde": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Verbesserte Aufmerksamkeit": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Versteckte Klinge": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Waffenwurf": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Windmühle": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Zweifacher Reiterangriff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Beutel-Apport": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Bindung des Schuppenbeutels": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Ewige Wegzehrung": {
     "source": [
       "lizardswamps"
     ]
@@ -3725,27 +3600,7 @@
       "lizardswamps"
     ]
   },
-  "Keulenweihe (Achaz)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Freundschaft des Tieres (Achaz)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Tierische Kraft (Achaz)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Vereisung (Achaz)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Keulenwurf (Achaz)": {
     "source": [
       "lizardswamps"
     ]
@@ -3785,11 +3640,6 @@
       "lizardswamps"
     ]
   },
-  "Furcht nehmen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Besänftiger der Großen Alten": {
     "source": [
       "lizardswamps"
@@ -3810,92 +3660,7 @@
       "lizardswamps"
     ]
   },
-  "Medizinleute": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Tierpriester": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Einschüchternde Zurechtweisung": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Gebieter des ()": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Gespür für Drachenwerk": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Gesunder Geist, gesunder Körper": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Heilritus": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Schutz der Unsterblichen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Stille Meditation": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Angriff auf ungeschützte Stellen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Anspringen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Klammergriff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Schwanz- oder Tentakelschwung": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Trampeln": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Flugangriff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Fachwissen ()": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Tradition (Intuitiver Zauberer)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Schlangenhaut (H'Szint-Kult)": {
     "source": [
       "lizardswamps"
     ]
@@ -3931,11 +3696,6 @@
     ]
   },
   "Machtvolle Stabzauber": {
-    "source": [
-      "magie1"
-    ]
-  },
-  "Modifikationsfokus": {
     "source": [
       "magie1"
     ]
@@ -4361,7 +4121,8 @@
     "source": [
       "magie1",
       "studyroom",
-      "warringkingdoms"
+      "warringkingdoms",
+      "wolfsfrost"
     ]
   },
   "Langanhaltende Illusion": {
@@ -4392,7 +4153,8 @@
   },
   "Selbstverzauberer": {
     "source": [
-      "magie1"
+      "magie1",
+      "wolfsfrost"
     ]
   },
   "Urtulamidische Heilmagie": {
@@ -4764,7 +4526,8 @@
   "Alchimieanalytiker": {
     "source": [
       "magie2",
-      "winterwatch"
+      "winterwatch",
+      "wolfsfrost"
     ]
   },
   "Einlullende Zaubermusik": {
@@ -4776,7 +4539,8 @@
     "source": [
       "magie2",
       "riverlands",
-      "warringkingdoms"
+      "warringkingdoms",
+      "wolfsfrost"
     ]
   },
   "Erschaffer": {
@@ -4834,7 +4598,8 @@
   },
   "Unaufhaltsamkeit": {
     "source": [
-      "magie2"
+      "magie2",
+      "wolfsfrost"
     ]
   },
   "Weissagung": {
@@ -4850,7 +4615,8 @@
   },
   "Geode der Wilden Zwerge": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Tradition (Geoden)": {
@@ -4869,7 +4635,8 @@
   "Tradition (Brobim-Geoden)": {
     "source": [
       "magie3",
-      "studyroom"
+      "studyroom",
+      "wolfsfrost"
     ]
   },
   "Eins mit der Waffe": {
@@ -4956,7 +4723,8 @@
   },
   "Beherrscher der Flammen": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Eiskristalle": {
@@ -4971,7 +4739,8 @@
   },
   "Launen des Windes": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Machtvolle Heilkräfte der Natur": {
@@ -4986,17 +4755,20 @@
   },
   "Machtvoller wirbelnder Luftschild": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Magnetismus": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Pforte durch Sumus Leib": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Schutzzone vor Bösem": {
@@ -5006,17 +4778,20 @@
   },
   "Seelenfeuer": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Weg durch Sumus Leib": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Wirbelnder Luftschild": {
     "source": [
-      "magie3"
+      "magie3",
+      "wolfsfrost"
     ]
   },
   "Hammer des Erzmagus": {
@@ -5225,7 +5000,8 @@
     "source": [
       "magie3",
       "studyroom",
-      "thorwal"
+      "thorwal",
+      "wolfsfrost"
     ]
   },
   "Golemformer": {
@@ -5814,6 +5590,12 @@
       "riverlands"
     ]
   },
+  "Tradition (Drachen)": {
+    "source": [
+      "scalytyrants",
+      "wolfsfrost"
+    ]
+  },
   "Distelritter-Stil": {
     "source": [
       "sevenwindscoast"
@@ -5901,6 +5683,12 @@
   "Hofzauberer": {
     "source": [
       "studyroom"
+    ]
+  },
+  "Goblinhexe": {
+    "source": [
+      "studyroom",
+      "winterwatch"
     ]
   },
   "Zyklopenschmied": {
@@ -6018,11 +5806,6 @@
       "winterwatch"
     ]
   },
-  "Goblinhexe": {
-    "source": [
-      "winterwatch"
-    ]
-  },
   "Blutpfand": {
     "source": [
       "winterwatch"
@@ -6036,6 +5819,261 @@
   "Tierfreundschaft (Goblinkeule)": {
     "source": [
       "winterwatch"
+    ]
+  },
+  "Silberguss": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Kind der Natur": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Betäubungswurf": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Harpunieren": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Ungeheuer-Schlächter": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Ungeheuer-Taktik": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Jäger der Verfluchten-Stil": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Erweiterte Ungeheuer-Taktik": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Nächtlicher Lebensraub": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Bindung der Waffe": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Waffen-Apport": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Scholar der Thyella vom Gewitterturm": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Eisgänger": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Elementarist der Shakagra": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Rufer der Diener": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Schwarzer Tänzer": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Austreibung": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Begnadeter Objektzauberer": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Bewegungszauberei": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Dämonenmeisterin": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Elementarmeisterin": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Geisterfreundin": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Geistermedium": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Überragender Dämonologe": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Unverstellter Blick": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Vollendeter Elementarist": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Zauberkämpfer": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Tradition (Ifirnkirche)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Schutz gegen Kälte": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Keulenweihe (Nivesen)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Freundschaft des Tieres (Nivesen)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Keulenwurf (Nivesen)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Wolfskraft": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Göttlicher Schutz": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Jägerinnen der weißen Maid": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Medizinleute": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Gebieter des ( )": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Geistergefäß": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Gesunder Geist, gesunder Körper": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Harmonie der Seele": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Heilritus": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Kältegewöhnung": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Wohlklang der Seele": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Waffen versilbern": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Zusammenarbeit": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Blick des Nachtmahrs": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Blutdurst der Fledermaus": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Kuss der Todesfee": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Macht des Sukkubus": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Sikaryan-Gespür": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Intelligentes Werwesen": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }

@@ -19,7 +19,8 @@
   },
   "Schlangenstab (2H)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Achfawar (2H)": {
@@ -434,37 +435,44 @@
   },
   "Shakagra-Giftdolch": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Shakagra-Hammer": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Shakagra-Buckler": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Shakagra-Langschild": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Shakagra-Krummsäbel": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Shakagra-Schwert": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Shakagra-Kriegshammer (2H)": {
     "source": [
-      "klingendernacht"
+      "klingendernacht",
+      "wolfsfrost"
     ]
   },
   "Achazdreizack (Achfawar) (2H)": {
@@ -658,82 +666,12 @@
       "retosarmory"
     ]
   },
-  "Bastardschwert des unbekannten Helden (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Magierstab des Gandolf von Gareth, lang (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Sphären-Magierstab, kurz": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Stab des Altumarn, lang": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Antimagie-Magierstab, mittel": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Orkenschreck": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Partisane der Bürgerlichen (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Chimärenschläger": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Casydrion": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Brusgalin": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Ay’Halam al’Rhondrachai (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Kaiser Bodars II Saufeder (2H)": {
     "source": [
       "retosarmory"
     ]
   },
-  "Kam’Arum (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Sägeschwert": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Rondharas Langschwert": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Immertreu-Bastardschwert (2H)": {
     "source": [
       "retosarmory"
     ]
@@ -758,27 +696,7 @@
       "retosarmory"
     ]
   },
-  "Grijomacons Tuzakmesser Mungobiss (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Harlijins Tuzakmesser Lotosdorn (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Achaz-Schwanzwaffe (Raz’Thon)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Reißer (Drash’kor) (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Schnitter aus Frumolds Heer (2H)": {
     "source": [
       "retosarmory"
     ]
@@ -798,32 +716,7 @@
       "retosarmory"
     ]
   },
-  "Paligan-Prunkdolch": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Prunk-Partisane (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Ogerkeule (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Windhager Flotten-Säbel": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Khefu-Bengel": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Doppelkhunchomer der Murawidun (2H)": {
     "source": [
       "retosarmory"
     ]
@@ -833,47 +726,7 @@
       "retosarmory"
     ]
   },
-  "Gwains Reitersäbel": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Arbach eines Tordochai-Kriegers": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Byakka der Garde des Roten Mondes": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Gruufhai des Olog Orchai (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Hellebarde der Garether Spießbürger (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Amazonensäbel aus Kurkum": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Piratensäbel aus der Blutigen See": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Seeschlangenzahn-Dolch": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Streitaxt der Wolfengarde": {
     "source": [
       "retosarmory"
     ]
@@ -903,32 +756,12 @@
       "retosarmory"
     ]
   },
-  "Stahlschwinge-Hellebarde (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Schattenstich-Rapier": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Löwinblitz-Streitaxt": {
     "source": [
       "retosarmory"
     ]
   },
-  "Leuinzahn-Zweihänder (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Knochenbrecher-Ogerschelle": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Tommeldorn-Anderthalbhänder (2H)": {
     "source": [
       "retosarmory"
     ]
@@ -943,27 +776,12 @@
       "retosarmory"
     ]
   },
-  "Abilachter Reitersäbel": {
-    "source": [
-      "retosarmory"
-    ]
-  },
   "Lange Mühle (2H)": {
     "source": [
       "retosarmory"
     ]
   },
   "Finsterfang (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Amalidion (2H)": {
-    "source": [
-      "retosarmory"
-    ]
-  },
-  "Krieg (2H)": {
     "source": [
       "retosarmory"
     ]
@@ -1276,6 +1094,41 @@
   "Eisschwert": {
     "source": [
       "winterwatch"
+    ]
+  },
+  "Nivesischer Wolfsspeer (2H)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Brobim-Wurzelkeule": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Brobim-Tiefenaxt": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Nivesen-Knochenspeer": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Werwolffänger (2H)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Silberpflock (i)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Holzpflock (i)": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }
