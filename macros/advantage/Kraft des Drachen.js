@@ -19,20 +19,19 @@ actor
     const availableQs = res.result.qualityStep || 0;
     this.automatedAnimation(res.result.successLevel);
     if (availableQs > 0) {
-        const plus = (availableQs)
-        const condition = this.effectDummy(item.name, [
-            { key: "system.characteristics.kk.gearmodifier", mode: 2, value: plus  },
-{ key: "system.skillModifiers.FW", mode: 0, value: `Kraftakt ${plus}` }
-        ], { seconds: 60 })
-        
-        foundry.utils.mergeObject(condition, {
-            flags: {
-                dsa5: {
-                    hideOnToken: true,
-                    onRemove: "actor.addCondition('stunned')"
-                }
-            }
-        })
-        await actor.addCondition(condition)
+      const condition = this.effectDummy(item.name, [
+        { key: "system.characteristics.kk.gearmodifier", mode: 2, value: availableQs },
+        { key: "system.skillModifiers.FW", mode: 0, value: `Kraftakt ${availableQs}` }
+      ], { seconds: 60 })
+
+      foundry.utils.mergeObject(condition, {
+        flags: {
+          dsa5: {
+            hideOnToken: true,
+            onRemove: "actor.addCondition('stunned')"
+          }
+        }
+      })
+      await actor.addCondition(condition)
     }
   });
