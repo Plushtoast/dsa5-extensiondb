@@ -1,0 +1,38 @@
+// This is a system macro used for automation. It is disfunctional without the proper context.
+
+const lang = game.i18n.lang == "de" ? "de" : "en";
+const dict = {
+  de: {
+    skillName: "Selbstbeherrschung",
+  },
+}[lang];
+
+const skill = actor.items.find(
+  (x) => x.type == "skill" && x.name == dict["skillName"]
+);
+
+actor
+  .setupSkill(skill, { subtitle: ` (${item.name})` }, actor.sheet.getTokenId())
+  .then(async (setupData) => {
+    setupData.testData.opposable = false;
+    const res = await actor.basicTest(setupData);
+    const availableQs = res.result.qualityStep || 0;
+    this.automatedAnimation(res.result.successLevel);
+    if (availableQs > 0) {
+        const plus = (availableQs)
+        const condition = this.effectDummy(item.name, [
+            { key: "system.characteristics.kk.gearmodifier", mode: 2, value: plus  },
+{ key: "system.skillModifiers.FW", mode: 0, value: `Kraftakt ${plus}` }
+        ], { seconds: 60 })
+        
+        foundry.utils.mergeObject(condition, {
+            flags: {
+                dsa5: {
+                    hideOnToken: true,
+                    onRemove: "actor.addCondition('stunned')"
+                }
+            }
+        })
+        await actor.addCondition(condition)
+    }
+  });
