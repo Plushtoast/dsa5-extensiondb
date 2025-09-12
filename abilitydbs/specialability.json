@@ -4542,6 +4542,10 @@
       "warringkingdoms",
       "wolfsfrost"
     ]
+    "complete": true,
+    "changes": [
+                {"key": "system.status.regeneration.AsPConditional", "mode": 0, "value": Erdkraft 2}
+                ]
   },
   "Erschaffer": {
     "source": [
