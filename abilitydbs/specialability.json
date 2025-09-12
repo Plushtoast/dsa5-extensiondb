@@ -4968,6 +4968,11 @@
     "source": [
       "magie3"
     ]
+    "complete": true,
+    "changes": [
+                {"key": "system.status.regeneration.AsPConditional", "mode": 0, "value": Meister des Kreises 2},
+                {"key": "system.skillModifiers.spell.step", "mode": 0, "value": Meister des Kreises 2},
+                ]
   },
   "Wächter der Göttin": {
     "source": [
