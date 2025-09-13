@@ -1,0 +1,9 @@
+  const regenBonus = qs * 2;
+
+  const currentRegen = getProperty(actor.system, "status.regeneration.LePTemp") ?? 0;
+
+  await actor.update({
+    "system.status.regeneration.LePTemp": currentRegen + regenBonus,
+  });
+
+  ui.notifications.info(`${actor.name} erhält ${regenBonus} Punkte zusätzliche Lebensregeneration.`)
