@@ -1,0 +1,23 @@
+const targets = Array.from(game.user.targets);
+if (targets.length !== 1) {
+  ui.notifications.warn("Bitte genau ein Ziel anvisieren.");
+  return;
+}
+
+const target = targets[0];
+const targetActor = target.actor;
+
+if (!targetActor) {
+  ui.notifications.warn("Das Ziel ist kein Acteur.");
+  return;
+}
+
+const roll = await (new Roll("1d6")).evaluate({async: true});
+
+await targetActor.applyDamage(roll.total * -1);
+
+// Nachricht im Chat
+ChatMessage.create({
+  speaker: ChatMessage.getSpeaker({ actor: targetActor }),
+  content: `<p>${target.name} wird um <b>${roll.total}</b> Lebenspunkte geheilt.</p>`
+});
