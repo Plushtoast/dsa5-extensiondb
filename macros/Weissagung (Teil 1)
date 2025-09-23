@@ -1,5 +1,3 @@
-// Makro: Weissagung anbieten 
-
 const sourceActor = canvas.tokens.controlled[0]?.actor || game.user.character;
 if (!sourceActor) {
   ui.notifications.warn("Bitte zuerst deinen Token auswählen oder ein verknüpftes Charakter-Actor besitzen.");
@@ -23,33 +21,17 @@ if (targetUsers.length === 0) {
 
 const whisperRecipients = targetUsers.map(u => u.id);
 
+// UUID des Makros ( hier hab ich es als Platzhalter in Geschöpfe der Anderswelt hinterlegt)
+const macroUUID = "Compendium.dsa5-otherworld.otherworldabilitymacros.Macro.vl72iZIaQG4fVXkx";
+
+// Chat-Message mit Foundry-Makro-Link
 const messageContent = `
 <div style="text-align:center; font-style: italic; margin-bottom: 10px;">
-  ${senderName} möchte dir eine Weissagung machen.
-</div>
-<div style="display:flex; justify-content:center; margin-top: 10px;">
-  <button data-action="runMacro" style="padding:6px 12px; border:1px solid #888; border-radius:5px; cursor:pointer;">
-    Weissagung
-  </button>
+  ${senderName} möchte dir eine @UUID[${macroUUID}]{Weissagung} machen.
 </div>
 `;
 
-const msg = await ChatMessage.create({
+await ChatMessage.create({
   content: messageContent,
   whisper: whisperRecipients
-});
-
-Hooks.once("renderChatMessage", async (chatMessage, html) => {
-  if (chatMessage.id !== msg.id) return;
-
-// XXXPLATZHALTERXXX mit dem Verweis auf Weissagung (Teil 2) ersetzen
-
-  html.find('button[data-action="runMacro"]').on('click', async () => {
-    const macro = await fromUuid("XXXPLATZHALTERXXX"); 
-    if (macro) {
-      macro.execute();
-    } else {
-      ui.notifications.error("Makro im Compendium nicht gefunden!");
-    }
-  });
 });
