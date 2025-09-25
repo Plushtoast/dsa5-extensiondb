@@ -25,15 +25,15 @@ new Dialog({
 
         // Aktiver Effekt vorbereiten
         const effectData = {
-          name: "Weissagung",
+          name: "Weissagung: IN-Proben",
           icon: "icons/svg/aura.svg",
           origin: actor.uuid,
           duration: { rounds: null }, // unbegrenzt
           changes: [
             {
-              key: "system.characteristics.IN.check.modifier",
+              key: "system.skillModifiers.global",
               value: -1,
-              mode: CONST.ACTIVE_EFFECT_MODES.ADD,
+              mode: 0,
               priority: 20,
             }
           ],
