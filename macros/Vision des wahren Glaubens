@@ -1,0 +1,78 @@
+if (!actor) {
+  ui.notifications.error("Kein Actor gefunden – bitte Makro ausführen, während ein Actor ausgewählt ist.");
+  return;
+}
+
+(async () => {
+  // Schicksalspunkt prüfen
+  let currentFate = getProperty(actor.system, "status.fatePoints.value") ?? 0;
+  if (currentFate <= 0) {
+    ui.notifications.warn(`${actor.name} hat keinen Schicksalspunkt zur Verfügung.`);
+    return;
+  }
+
+  // Schicksalspunkt abziehen
+  await actor.update({ "system.status.fatePoints.value": currentFate - 1 });
+
+  // Fertigkeit "Götter & Kulte" suchen
+  const skill = actor.items.find(i => i.type === "skill" && i.name === "Götter & Kulte");
+  if (!skill) {
+    ui.notifications.error(`${actor.name} hat keine Fertigkeit "Götter & Kulte".`);
+    return;
+  }
+
+  // Skill-Test vorbereiten und ausführen
+  const setupData = await actor.setupSkill(skill, {}, actor.sheet.getTokenId());
+  setupData.testData.opposable = false;
+  const res = await actor.basicTest(setupData);
+
+  if (res.result.successLevel > 0) {
+    const qs = res.result.qs ?? res.result.qualityStep ?? 1;
+
+    // Boni berechnen
+    let willpowerBonus = 0;
+    let skBonus = 0;
+
+    if (qs >= 1) willpowerBonus += 1;
+    if (qs >= 2) willpowerBonus += 1;
+    if (qs >= 3) skBonus += 1;
+    if (qs >= 4) willpowerBonus += 1;
+    if (qs >= 5) willpowerBonus += 1;
+    if (qs >= 6) skBonus += 1;
+
+    // Active Effect vorbereiten
+    const effectData = {
+      name: "Vision des Wahren Glaubens",
+      icon: "icons/svg/aura.svg", // <-- Icon "aura"
+      origin: actor.uuid,
+      duration: { seconds: 12 * 3600 },
+      changes: []
+    };
+
+    if (willpowerBonus > 0) {
+      effectData.changes.push({
+        key: "system.skillModifiers.step",
+        mode: 0, // OVERRIDE
+        value: `Willenskraft ${willpowerBonus}`
+      });
+    }
+
+    if (skBonus > 0) {
+      effectData.changes.push({
+        key: "system.status.soulpower.modifier",
+        mode: 2, // ADD
+        value: skBonus
+      });
+    }
+
+    if (effectData.changes.length > 0) {
+      await actor.createEmbeddedDocuments("ActiveEffect", [effectData]);
+      ui.notifications.info(`${actor.name} erhält durch die Vision: Willenskraft +${willpowerBonus}, SK +${skBonus} (für 12 Stunden).`);
+    } else {
+      ui.notifications.info(`${actor.name} erhält keine zusätzlichen Boni (QS ${qs}).`);
+    }
+
+  } else {
+    ui.notifications.warn(`${actor.name} hat die Probe auf "Götter & Kulte" nicht bestanden.`);
+  }
+})();
