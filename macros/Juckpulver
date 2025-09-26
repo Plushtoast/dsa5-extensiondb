@@ -1,0 +1,97 @@
+if (!actor) {
+  ui.notifications.error("Kein Actor gefunden – bitte Makro ausführen, während ein Actor ausgewählt ist.");
+  return;
+}
+
+//Kontrolle für mich
+(async () => {
+  console.log(`QS des Zaubers initial: ${qs}`);
+
+  // Malus berechnen und als Flag speichern
+  const malus = Math.round(qs / 2) * -1;
+  console.log(`Berechneter Malus: ${malus}`);
+
+  // Effekt Juckpulver anwenden
+  async function applyJuckpulver() {
+    const juckpulver = {
+      name: "Juckpulver",
+      icon: "icons/svg/aura.svg",
+      changes: [
+        { key: "system.rangeStats.attack", mode: 2, value: malus },
+        { key: "system.status.dodge.gearmodifier", mode: 2, value: malus },
+        { key: "system.meleeStats.attack", mode: 2, value: malus },
+        { key: "system.skillModifiers.global", mode: 0, value: malus },
+        { key: "system.meleeStats.parry", mode: 2, value: malus }
+      ],
+      duration: { seconds: 30 }, // 30 Sekunden
+      flags: {
+        dsa5: { description: "Juckpulver", malus: malus }
+      }
+    };
+    await actor.addCondition(juckpulver);
+
+    ChatMessage.create({
+      speaker: { alias: actor.name },
+      content: `<b>${actor.name}</b> erliegt dem Juckpulver!`
+    });
+  }
+
+  // Selbstbeherrschungsprobe als Widerstand
+  const skill = actor.items.find(i => i.type === "skill" && i.name === "Selbstbeherrschung");
+  if (!skill) {
+    ui.notifications.warn(`${actor.name} kann nicht widerstehen und erleidet sofort den Effekt!`);
+    await applyJuckpulver();
+    return;
+  }
+
+  async function resistanceTest() {
+    const setupData = await actor.setupSkill(skill, {}, actor.sheet.getTokenId());
+    setupData.testData.opposable = false;
+    const res = await actor.basicTest(setupData);
+    return res.result.successLevel > 0;
+  }
+
+  // Erste Widerstandsprobe
+  if (await resistanceTest()) {
+    ui.notifications.info(`${actor.name} widersteht zunächst dem Juckpulver...`);
+
+    // Intervall starten
+    const intervalId = setInterval(async () => {
+      if (!(await resistanceTest())) {
+        clearInterval(intervalId);
+        await applyJuckpulver();
+
+        const effect = actor.effects.find(e => e.getFlag("dsa5", "juckpulverResistance"));
+        if (effect) await effect.delete();
+      } else {
+        ui.notifications.info(`${actor.name} widersteht weiterhin dem Juckpulver.`);
+      }
+    }, 60000);
+
+    // Widerstandseffekt unendlich
+    const resistanceEffect = {
+      name: "Juckpulver-Widerstand",
+      icon: "systems/dsa5/icons/spellicons/spells/juckpulver.webp",
+      flags: {
+        dsa5: {
+          description: "Widersteht periodischen Juckpulverproben",
+          juckpulverResistance: true
+        },
+        "juckpulver-interval": { id: intervalId }
+      }
+      // keine duration → unbegrenzt
+    };
+    await actor.createEmbeddedDocuments("ActiveEffect", [resistanceEffect]);
+
+    // Hook für Intervallstopp
+    Hooks.on("deleteActiveEffect", (effect) => {
+      if (effect?.flags?.["juckpulver-interval"]?.id) {
+        clearInterval(effect.flags["juckpulver-interval"].id);
+        ui.notifications.info(`Intervall für ${actor.name} wurde gestoppt (Effekt entfernt).`);
+      }
+    });
+  } else {
+    ui.notifications.warn(`${actor.name} hat die erste Widerstandsprobe nicht bestanden und erleidet sofort den Effekt!`);
+    await applyJuckpulver();
+  }
+})();
