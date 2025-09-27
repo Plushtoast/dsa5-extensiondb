@@ -1,0 +1,39 @@
+// actor wird direkt übergeben
+const itemName = "Licht";
+const lightID = "candle";
+const durationSeconds = 300;
+
+// --- Aktive Tokens prüfen ---
+const tokens = actor.getActiveTokens();
+if (!tokens || tokens.length === 0) {
+  ui.notifications.warn("Der Actor hat keine aktiven Tokens auf der Szene.");
+  return;
+}
+
+// --- 1 KaP abziehen ---
+let kap = getProperty(actor, "system.status.karmaenergy.value");
+if (kap === undefined) {
+  ui.notifications.warn("Dein kontrollierter Token verfügt nicht über Karmaenergie.");
+  return;
+}
+if (kap < 1) {
+  ui.notifications.warn("Nicht genügend Karmaenergie.");
+  return;
+}
+await actor.update({ "system.status.karmaenergy.value": kap - 1 });
+
+// --- Licht aktivieren ---
+await game.dsa5.apps.LightDialog.applyVisionOrLight(true, lightID, tokens, itemName);
+
+// --- Dauer des ActiveEffects nach kurzer Verzögerung setzen ---
+setTimeout(async () => {
+  const ae = actor.effects.find(e => e.name === itemName);
+  if (ae) {
+    await ae.update({
+      duration: {
+        seconds: durationSeconds,
+        startTime: game.time.worldTime
+      }
+    });
+  }
+}, 100); // 100ms warten, bis der Effekt erzeugt wurde
