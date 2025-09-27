@@ -3,11 +3,9 @@ if (!actor) {
   return;
 }
 
-//Kontrolle für mich
 (async () => {
   console.log(`QS des Zaubers initial: ${qs}`);
 
-  // Malus berechnen und als Flag speichern
   const malus = Math.round(qs / 2) * -1;
   console.log(`Berechneter Malus: ${malus}`);
 
@@ -23,10 +21,8 @@ if (!actor) {
         { key: "system.skillModifiers.global", mode: 0, value: malus },
         { key: "system.meleeStats.parry", mode: 2, value: malus }
       ],
-      duration: { seconds: 30 }, // 30 Sekunden
-      flags: {
-        dsa5: { description: "Juckpulver", malus: malus }
-      }
+      duration: { seconds: 30 },
+      flags: { dsa5: { description: "Juckpulver", malus: malus } }
     };
     await actor.addCondition(juckpulver);
 
@@ -36,7 +32,7 @@ if (!actor) {
     });
   }
 
-  // Selbstbeherrschungsprobe als Widerstand
+  // Widerstandsprobe
   const skill = actor.items.find(i => i.type === "skill" && i.name === "Selbstbeherrschung");
   if (!skill) {
     ui.notifications.warn(`${actor.name} kann nicht widerstehen und erleidet sofort den Effekt!`);
@@ -52,46 +48,41 @@ if (!actor) {
   }
 
   // Erste Widerstandsprobe
-  if (await resistanceTest()) {
-    ui.notifications.info(`${actor.name} widersteht zunächst dem Juckpulver...`);
+  if (!(await resistanceTest())) {
+    ui.notifications.warn(`${actor.name} hat die erste Widerstandsprobe nicht bestanden!`);
+    await applyJuckpulver();
+    return;
+  }
+  ui.notifications.info(`${actor.name} widersteht zunächst dem Juckpulver...`);
 
-    // Intervall starten
-    const intervalId = setInterval(async () => {
-      if (!(await resistanceTest())) {
-        clearInterval(intervalId);
-        await applyJuckpulver();
-
-        const effect = actor.effects.find(e => e.getFlag("dsa5", "juckpulverResistance"));
-        if (effect) await effect.delete();
-      } else {
-        ui.notifications.info(`${actor.name} widersteht weiterhin dem Juckpulver.`);
-      }
-    }, 60000);
-
-    // Widerstandseffekt unendlich
+  // Funktion, die den 1-Minuten-Effekt erstellt
+  async function createResistanceEffect() {
     const resistanceEffect = {
       name: "Juckpulver-Widerstand",
       icon: "systems/dsa5/icons/spellicons/spells/juckpulver.webp",
-      flags: {
-        dsa5: {
-          description: "Widersteht periodischen Juckpulverproben",
-          juckpulverResistance: true
-        },
-        "juckpulver-interval": { id: intervalId }
-      }
-      // keine duration → unbegrenzt
+      flags: { dsa5: { description: "Widersteht periodischen Juckpulverproben" } },
+      origin: actor.uuid,
+      duration: { seconds: 60 } // nur 1 Minute
     };
-    await actor.createEmbeddedDocuments("ActiveEffect", [resistanceEffect]);
 
-    // Hook für Intervallstopp
-    Hooks.on("deleteActiveEffect", (effect) => {
-      if (effect?.flags?.["juckpulver-interval"]?.id) {
-        clearInterval(effect.flags["juckpulver-interval"].id);
-        ui.notifications.info(`Intervall für ${actor.name} wurde gestoppt (Effekt entfernt).`);
+    const [effect] = await actor.createEmbeddedDocuments("ActiveEffect", [resistanceEffect]);
+
+    // Hook auf Ablauf des Effekts
+    Hooks.once("deleteActiveEffect", async (deletedEffect) => {
+      if (deletedEffect.id !== effect.id) return;
+
+      // Widerstandsprobe beim Ablauf
+      if (await resistanceTest()) {
+        ui.notifications.info(`${actor.name} widersteht erneut dem Juckpulver und der Effekt wird erneuert.`);
+        await createResistanceEffect(); // Effekt wieder hinzufügen
+      } else {
+        ui.notifications.warn(`${actor.name} scheitert an der Widerstandsprobe und erleidet den Effekt!`);
+        await applyJuckpulver();
       }
     });
-  } else {
-    ui.notifications.warn(`${actor.name} hat die erste Widerstandsprobe nicht bestanden und erleidet sofort den Effekt!`);
-    await applyJuckpulver();
   }
+
+  // Effekt initial erstellen
+  await createResistanceEffect();
+
 })();
