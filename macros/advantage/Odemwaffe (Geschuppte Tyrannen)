@@ -1,0 +1,124 @@
+if (!actor) {
+  ui.notifications.error("Kein Actor gefunden – bitte Makro ausführen, während ein Actor ausgewählt ist.");
+  return;
+}
+
+const target = Array.from(game.user.targets)[0];
+if (!target) {
+  ui.notifications.error("Kein Ziel ausgewählt! Bitte ein Token anvisieren.");
+  return;
+}
+
+const targetActor = target.actor;
+
+// --- 1. Kraftakt-Probe des Spielers ---
+const kraftakt = actor.items.find(i => i.type === "skill" && i.name === "Kraftakt");
+if (!kraftakt) {
+  ui.notifications.error(`${actor.name} besitzt keine Fertigkeit "Kraftakt".`);
+  return;
+}
+
+const kraftaktRes = await actor.basicTest(await actor.setupSkill(kraftakt));
+const qs = kraftaktRes.result.qualityStep ?? 0;
+
+// Wenn Kraftakt misslingt, passiert nichts
+if (kraftaktRes.result.successLevel <= 0) {
+  return;
+}
+
+// --- 2. Schaden berechnen (1W6 + QS) ---
+const dmgRoll = await new Roll("1d6").roll({async: true});
+const damage = dmgRoll.total + qs;
+
+// --- 3. Dummy-Angriff vorbereiten ---
+const weapon = new game.dsa5.entities.Itemdsa5({
+  name: "Odemwaffe",
+  type: "rangeweapon",
+  img: "systems/dsa5/icons/categories/Rangeweapon.webp",
+  system: {
+    damage: {
+      value: `${damage}`, // Schaden aus Schritt 2
+    },
+    reloadTime: {
+      value: 0,
+      progress: 0,
+    },
+    reach: {
+      value: "0/8/8", // angepasst
+    },
+    ammunitiongroup: {
+      value: "-",
+    },
+    combatskill: {
+      value: "Bögen",
+    },
+    worn: {
+      value: false,
+    },
+    structure: {
+      max: 0,
+      value: 0,
+    },
+    quantity: {
+      value: 1,
+    },
+    price: {
+      value: 0,
+    },
+    weight: {
+      value: 0,
+    },
+    effect: {
+      value: "",
+      attributes: "",
+    },
+  },
+  effects: [
+    {
+      name: "Feuerprobe",
+      type: "",
+      img: "icons/svg/aura.svg",
+      changes: [],
+      duration: { startTime: null, seconds: null, rounds: null },
+      flags: {
+        dsa5: {
+          advancedFunction: 2,
+          args3: `
+            const burnRoll = await new Roll("1d6").roll({async: true});
+            let burnMsg = "";
+            if (burnRoll.total <= 3) {
+              await actor.addCondition("burning");
+              burnMsg = actor.name + " steht in Flammen!";
+            } else {
+              burnMsg = actor.name + " wird nicht in Brand gesteckt.";
+            }
+            ChatMessage.create({
+              speaker: { alias: actor.name },
+              content: burnMsg
+            });
+          `
+        }
+      },
+      disabled: false,
+      transfer: false
+    }
+  ]
+});
+
+// --- 4. Dummy-Angriff ausführen ---
+const setupData = await game.dsa5.entities.Itemdsa5.getSubClass(weapon.type).setupDialog(
+  null,
+  { mode: "attack", bypass: true, cheat: true, predefinedResult: [{ val: 2, index: 0 }] },
+  weapon,
+  actor,
+  actor.getActiveTokens()[0]?.id
+);
+
+setupData.testData.situationalModifiers.push({
+  name: game.i18n.localize("MODS.defenseMalus"),
+  value: -4,
+  type: "defenseMalus",
+  selected: true,
+});
+
+await actor.basicTest(setupData);
