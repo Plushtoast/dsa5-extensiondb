@@ -1,0 +1,45 @@
+// 1) Eigener kontrollierten Token 
+const controlledTokens = canvas.tokens.controlled;
+if (!controlledTokens || controlledTokens.length !== 1) {
+  ui.notifications.warn("Bitte kontrolliere genau einen eigenen Token.");
+  return;
+}
+const userActor = controlledTokens[0].actor;
+if (!userActor) {
+  ui.notifications.warn("Der kontrollierte Token hat keinen Actor.");
+  return;
+}
+
+// 2) 1 KaP (Karmaenergie) abziehen
+let kap = getProperty(userActor, "system.status.karmaenergy.value");
+if (kap === undefined) {
+  ui.notifications.warn("Dein kontrollierter Token verfügt nicht über Karma");
+  return;
+}
+if (kap < 1) {
+  ui.notifications.warn("Nicht genügend Karmaenergie.");
+  return;
+}
+await userActor.update({ "system.status.karmaenergy.value": kap - 1 });
+
+// 3) Ziel prüfen und heilen
+const targets = Array.from(game.user.targets);
+if (targets.length !== 1) {
+  ui.notifications.warn("Bitte genau ein Ziel anvisieren.");
+  return;
+}
+const target = targets[0];
+const targetActor = target.actor;
+if (!targetActor) {
+  ui.notifications.warn("Das Ziel ist kein Akteur.");
+  return;
+}
+
+// Heilung anwenden
+await targetActor.applyDamage(-1);
+
+// Heilungsnachricht
+ChatMessage.create({
+  speaker: ChatMessage.getSpeaker({ actor: targetActor }),
+  content: `<p>${target.name} wird um 1 Lebenspunkt geheilt. (${userActor.name} hat 1 KaP ausgegeben)</p>`
+});
