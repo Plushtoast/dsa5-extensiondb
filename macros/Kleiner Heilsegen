@@ -41,5 +41,5 @@ await targetActor.applyDamage(-1);
 // Heilungsnachricht
 ChatMessage.create({
   speaker: ChatMessage.getSpeaker({ actor: targetActor }),
-  content: `<p>${target.name} wird um 1 Lebenspunkt geheilt. (${userActor.name} hat 1 KaP ausgegeben)</p>`
+  content: `<p>${userActor.name} wendet einen kleinen Heilsegen auf ${target.name} an.</p>`
 });
