@@ -1,0 +1,120 @@
+const skillName = "Alchimie";
+
+// Actor bestimmen: zuerst vorhandenes `actor`, sonst kontrolliertes Token
+let actorLocal = (typeof actor !== "undefined" && actor) ? actor : null;
+if (!actorLocal) {
+  const tok = canvas?.tokens?.controlled?.[0];
+  actorLocal = tok?.actor ?? null;
+}
+if (!actorLocal) return ui.notifications.warn("Kein Actor gefunden. Wähle ein Token oder setze actor vorher.");
+
+// Item-Namen und Brauschwierigkeit auslesen
+const itemName = item.name;
+const brauschwierigkeit = Number(item.system.difficulty) || 0;
+
+// Berufsgeheimnis prüfen
+const berufsgeheimnis = actorLocal.items.find(i =>
+  i.type === "specialability" &&
+  i.system.category?.value === "secret" &&
+  i.name === `Berufsgeheimnis (${itemName})`
+);
+
+if (berufsgeheimnis) {
+  console.log(`✅ Actor hat das Berufsgeheimnis: ${berufsgeheimnis.name}`);
+} else {
+  console.log(`❌ Actor besitzt kein Berufsgeheimnis für "${itemName}"`);
+}
+
+const contentHtml = `
+<div style="display:flex; flex-direction:column; gap:10px; margin-bottom:15px;">
+  <div style="display:flex; align-items:center; gap:10px;">
+    <label for="laborSelect" style="flex:1;">Welche Laborstufe ist vorhanden?</label>
+    <select id="laborSelect" style="flex:2; max-width:100%;">
+      <option value="1">Archaisches Labor</option>
+      <option value="2" selected>Hexenküche</option>
+      <option value="3">Alchimistisches Labor</option>
+    </select>
+  </div>
+</div>
+`;
+
+new Dialog({
+  title: `${skillName}-Probe`,
+  content: contentHtml,
+  buttons: {
+    roll: {
+      label: "Probe ausführen",
+      callback: async (html) => {
+        const selected = html.find("#laborSelect").val();
+
+        // Labor-Modifikator korrekt zuordnen
+        let laborMod = 0;
+        switch (selected) {
+          case "1": laborMod = -2; break; // Archaisches Labor
+          case "2": laborMod = 0; break;  // Hexenküche
+          case "3": laborMod = 1; break;  // Alchimistisches Labor
+        }
+
+        // Halbe Brauschwierigkeit korrekt runden, Vorzeichen erhalten
+        const brauMod = Math.round(Math.abs(brauschwierigkeit) / 2) * Math.sign(brauschwierigkeit);
+
+        // Gesamtmodifikator = Labor + gerundete halbe Brauschwierigkeit
+        let gesamtMod = laborMod + brauMod;
+
+        // Berufsgeheimnis vorhanden -> Probe erleichtern um +1
+        if (berufsgeheimnis) gesamtMod += 1;
+
+        // Ausgabe in der Konsole
+        console.log(`🔹 Item-Name: ${itemName}`);
+        console.log(`🔹 Brauschwierigkeit: ${brauschwierigkeit}`);
+        console.log(`🔹 Labor-Modifikator aus Dropdown: ${laborMod}`);
+        console.log(`🔹 Halbe Brauschwierigkeit (gerundet, Vorzeichen beibehalten): ${brauMod}`);
+        console.log(`🔹 Berufsgeheimnis vorhanden: ${berufsgeheimnis ? "Ja" : "Nein"}`);
+        console.log(`🔹 Gesamtmodifikator für die Probe: ${gesamtMod}`);
+
+        // Skill-Item suchen
+        const skillItem = actorLocal.items.find(i =>
+          i.name === skillName && ["skill","talent","ability"].includes(i.type)
+        );
+        if (!skillItem) {
+          return ui.notifications.warn(`Skill "${skillName}" nicht gefunden für ${actorLocal.name}`);
+        }
+
+        try {
+          // Skill-Setup mit Gesamtmodifikator direkt übergeben
+          const setupData = await actorLocal.setupSkill(
+            skillItem,
+            { subtitle: ` (${skillName})`, modifier: gesamtMod },
+            actorLocal.sheet.getTokenId()
+          );
+
+          // Test ausführen
+          const testResult = await actorLocal.basicTest(setupData);
+
+          console.log(`✅ Probe für ${actorLocal.name} abgeschlossen`, testResult);
+
+          // Quality Steps auswerten
+          const qs = testResult.result.qualityStep || 0;
+
+          // Nachricht für Chat vorbereiten
+          let chatMessage = "";
+          if (qs >= 1) chatMessage += "Der Alchimist kann die Art des Spagyrikas feststellen.\n";
+          if (qs >= 2) chatMessage += "Er kann außerdem bestimmen, welche Qualität es hat.";
+
+          if (chatMessage) {
+            ChatMessage.create({
+              speaker: ChatMessage.getSpeaker({ actor: actorLocal }),
+              content: chatMessage
+            });
+          }
+
+        } catch (e) {
+          console.error(`Fehler bei Probe für ${actorLocal.name}:`, e);
+        }
+      }
+    },
+    cancel: { label: "Abbrechen" }
+  },
+  default: "roll"
+}).render(true);
+
