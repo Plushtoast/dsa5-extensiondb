@@ -1,0 +1,40 @@
+const skillName = game.i18n.localize("Willenskraft");
+const skill = actor.items.find(i => i.type === "skill" && i.name === skillName);
+
+if (!skill) return ui.notifications.warn(`Fertigkeit "${skillName}" nicht gefunden.`);
+
+actor.setupSkill(skill, { subtitle: "(Sonderfähigkeit)" }, actor.sheet.getTokenId()).then(async (setupData) => {
+  const res = await actor.basicTest(setupData);
+
+  const availableQs = res.result.qualityStep || 0;
+  this.automatedAnimation?.(res.result.successLevel);
+
+  if (availableQs > 0) {
+    // Zusatzwurf 2W6
+    const roll = await (new Roll("2d6")).evaluate({ async: true });
+    const gainedAsp = availableQs + roll.total;
+
+    // AsP-Update
+    const currentAsp = getProperty(actor.system, "status.astralenergy.value") || 0;
+    const maxAsp = getProperty(actor.system, "status.astralenergy.max") || 0;
+    const newAsp = Math.min(currentAsp + gainedAsp, maxAsp);
+
+    await actor.update({ "system.status.astralenergy.value": newAsp });
+
+    // Chatmeldung bei Erfolg
+    ChatMessage.create({
+      content: `
+        <b>${actor.name}</b> besteht die Willenskraft-Probe!<br>
+        QS: <b>${availableQs}</b><br>
+        Zusatzwurf (2W6): <b>${roll.total}</b><br>
+        → Gewonnene AsP: <b>${gainedAsp}</b><br>
+        Neue AsP: <b>${newAsp} / ${maxAsp}</b>
+      `
+    });
+  } else {
+    // Chatmeldung bei QS 0
+    ChatMessage.create({
+      content: `<b>${actor.name}</b> scheitert an der Willenskraft-Probe. Keine AsP gewonnen.`
+    });
+  }
+});
