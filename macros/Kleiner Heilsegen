@@ -46,8 +46,6 @@ if (!targetActor) {
 
 // Heilung anwenden
 await userActor.update({ "system.status.karmaenergy.value": kapObject.value - 1 });
-await targetActor.applyDamage(-1);
-
 const newWounds = Math.min(targetActor.system.status.wounds.value + 1, targetActor.system.status.wounds.max);
 await this.socketedActorTransformation([target.id], { "system.status.wounds.value": newWounds });
 
