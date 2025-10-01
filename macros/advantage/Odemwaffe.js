@@ -162,13 +162,3 @@ setupData.testData.situationalModifiers.push({
 
 await actor.basicTest(setupData);
 
-/*
-Konformität:
-- Variable actor (klein) aus dem Original beibehalten.
-- Ziele mit const targets = Array.from(game.user.targets).
-- Vor Anwendung Zielprüfung.
-- args3 vereinfacht: nutzt direkt actor und ruft addCondition ohne Socket/Fallback.
-- Übersetzbare Texte im DICT (inkl. Kampftechnik).
-- foundry.utils.* Hinweis beachtet (hier nicht benötigt).
-*/
-
