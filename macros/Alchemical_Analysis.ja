@@ -33,7 +33,7 @@ const i18n = {
     qs2Text: "Er kann außerdem bestimmen, welche Qualität es hat."
   },
   en: {
-    skillName: "Alchemy", // aus Wissensdatenbank 【26-0】
+    skillName: "Alchemy", 
     noActor: "No Actor found. Select a token or set actor first.",
     title: "Alchemy Test",
     laborLabel: "Which lab tier is available?",
