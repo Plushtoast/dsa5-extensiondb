@@ -75,7 +75,7 @@ async function run() {
     if (willpowerBonus > 0) {
       effectData.changes.push({
         key: "system.skillModifiers.step",
-        mode: 0, // CUSTOM (dein Original)
+        mode: 0, 
         value: `${dict.willpowerLabel} ${willpowerBonus}`
       });
     }
@@ -83,7 +83,7 @@ async function run() {
     if (skBonus > 0) {
       effectData.changes.push({
         key: "system.status.soulpower.modifier",
-        mode: 2, // ADD (dein Original)
+        mode: 2,
         value: skBonus
       });
     }
