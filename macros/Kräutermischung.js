@@ -3,7 +3,6 @@
 (async () => {
   const { getProperty, setProperty } = foundry.utils;
 
-  // Sprachweiche + Dictionary
   const lang = game.i18n.lang == "de" ? "de" : "en";
   const dict = {
     de: {
@@ -22,19 +21,20 @@
       apothecarySF: "Weg des Apothekers",
       itemDesc:
         "Es muss nicht immer Tarnele oder Wirselkraut sein. Mit der richtigen Mischung kann ein Heiler auch aus anderen, einfachen Heilkräutern eine potente Kräutermischung herstellen.",
-      // Labels und Beträge
       payLabel: "5 Silbertaler",
       searchLabel: "selbst suchen",
-      payAmount: "5 Silbertaler", // exakt dieses Format funktioniert bei dir in canPay/payMoney
+      payAmount: "5 Silbertaler",
       payNotEnough: "hat nicht genug Geld!",
-      payInfo: "bezahlt",
-      // Dialogtext wird dynamisch zusammengebaut (Buttons werden eingefügt)
       qsText: `1: Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
-Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
-Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
-Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
-Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
-Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.`,
+2: Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
+3: Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
+4: Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
+5: Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
+6: Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.`,
+      dialogHeader:
+        "Die Heldin ist dazu in der Lage, eine Kräutermischung anzufertigen, die die Regeneration verbessert. Diese Mischung besteht nicht aus den üblichen Heilkräutern, die LeP regenerieren können, sondern aus einfachen, je nach Region unterschiedlichen Heilkräutern.",
+      dialogFooter:
+        "Sie benötigt dafür 4 Stunden, sofern es in der näheren Umgebung auch die nötigen Materialien gibt (z. B. in Sand- oder Eiswüsten).",
     },
     en: {
       title: "Special Ability: Herb Mixture",
@@ -48,25 +48,29 @@ Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphas
       itemMadeSuffix: "",
       effectName: "Herb Mixture Effect",
       skillName: "Plant Lore",
-      masterySF: "Masterful Herb Mixture", // Placeholder
-      apothecarySF: "Path of the Apothecary", // Placeholder
+      masterySF: "Masterful Herb Mixture", // placeholder
+      apothecarySF: "Path of the Apothecary", // placeholder
       itemDesc:
         "It doesn't always have to be Tarnele or Wirsel Herb. With the right blend, a healer can make a potent herb mixture from other, simple healing herbs.",
-      // Labels und Beträge (wir nutzen die DE-Zahlungsnotation, weil sie bei dir funktioniert)
-      payLabel: "5 Silbertaler",
+      // We keep DE payment string since it's verified working in your setup
+      payLabel: "5 Silver",
       searchLabel: "search themselves",
-      payAmount: "5 Silbertaler",
+      payAmount: "5 Silver",
       payNotEnough: "does not have enough money!",
-      payInfo: "pays",
       qsText: `1: Treating wounds with an herb mixture. The next regeneration phase may be increased.
-Treating wounds with an herb mixture. The next regeneration phase may be increased.
-Treating wounds with an herb mixture. The next regeneration phase may be increased.
-Treating wounds with an herb mixture. The next regeneration phase may be increased.
-Treating wounds with an herb mixture. The next regeneration phase may be increased.
-Treating wounds with an herb mixture. The next regeneration phase may be increased.`,
+2: Treating wounds with an herb mixture. The next regeneration phase may be increased.
+3: Treating wounds with an herb mixture. The next regeneration phase may be increased.
+4: Treating wounds with an herb mixture. The next regeneration phase may be increased.
+5: Treating wounds with an herb mixture. The next regeneration phase may be increased.
+6: Treating wounds with an herb mixture. The next regeneration phase may be increased.`,
+      dialogHeader:
+        "The hero can craft an herb mixture that improves regeneration. It does not consist of the usual healing herbs that regenerate HP, but of simple herbs differing by region.",
+      dialogFooter:
+        "It takes 4 hours to gather materials, if they are available in the area (e.g. not in sand or ice deserts).",
     },
   }[lang];
 
+  // SF-Kontext: actor ist der auslösende Charakter 
   if (!actor) {
     ui.notifications.warn(dict.needsActor);
     return;
@@ -80,24 +84,27 @@ Treating wounds with an herb mixture. The next regeneration phase may be increas
   // Prüfen, ob die SF "Weg des Apothekers" vorhanden ist
   const hasApothecary = actor.items.find((i) => i.name === dict.apothecarySF);
 
-  // Item-Makro-Text abhängig von den Sonderfertigkeiten
+  // Eingebettetes Item
   const herbMacroText = `
   // This is a system macro used for automation. It is disfunctional without the proper context.
   const { getProperty, setProperty } = foundry.utils;
   const currentTempHeal = getProperty(actor, "system.status.regeneration.LePTemp") ?? 0;
   const mapping = [1,2,3,4,5,6];
   const wuerfelziel = mapping[(typeof qs !== "undefined" ? qs : 0) - 1] ?? 0;
-  const roll = await new Roll("${hasApothecary ? "2d6kl1" : "1d6"}").roll({async: true});
-  await roll.toMessage({ flavor: "${dict.itemName} – Prüfwurf" });
-  if (roll.total <= wuerfelziel) {
+
+  const r = new Roll("${hasApothecary ? "2d6kl1" : "1d6"}");
+  await r.roll();
+  await r.toMessage({ flavor: "${dict.itemName} – Prüfwurf" });
+
+  if (r.total <= wuerfelziel) {
     const add = ${hasMastery ? 2 : 1};
     const newVal = (currentTempHeal || 0) + add;
     await actor.update({ "system.status.regeneration.LePTemp": newVal });
   }`;
 
-  // --- Prozess Kräutermischung ---
+  // Herstellprozess Kräutermischung
   async function processHerbMixing() {
-    // Talent finden 
+    // Talent finden
     const skill = actor.items.find((x) => x.type === "skill" && x.name === dict.skillName);
     if (!skill) {
       ui.notifications.error(`${actor.name} ${dict.noSkill}`);
@@ -107,7 +114,7 @@ Treating wounds with an herb mixture. The next regeneration phase may be increas
     // Probe vorbereiten und auslösen
     const setupData = await actor.setupSkill(
       skill,
-      { modifier: 2, subtitle: " (Kräutermischung)" },
+      { modifier: 2, subtitle: lang === "de" ? " (Kräutermischung)" : " (Herb Mixture)" },
       actor.sheet?.getTokenId?.()
     );
     setProperty(setupData, "testData.opposable", false);
@@ -119,7 +126,7 @@ Treating wounds with an herb mixture. The next regeneration phase may be increas
       return;
     }
 
-    // Neues Item vorbereiten
+    // Neues Item vorbereiten (QS-Text und Beschreibung)
     const newItem = {
       name: dict.itemName,
       type: "consumable",
@@ -161,64 +168,54 @@ Treating wounds with an herb mixture. The next regeneration phase may be increas
     );
   }
 
-  // --- Styles für ultrakompakte GUI-Buttons ---
-  const tinyBtnStyle = "padding:0 0.3rem; margin:0; border:1px solid var(--color-border-light-primary, #999); background:var(--color-bg-option, #ddd); line-height:1.2; font-size:0.85rem; max-width:fit-content; white-space:nowrap;";
+  // Kompakte GUI-Buttons (ursprünglich war mein Ziel, das "Mischen" solange inaktiv ist, bis man entweder auf selber sucht (aktivert direkt) oder auf "5 Silbertaler" klickt. letzteres sollte prüfen, ob wirklich 5 Silbertaler vorhanden sind und diese, wenn ja, dann abziehen und den Button aktivieren. Aber Der Button wurde leider immer aktiviert.
+  const tinyBtnStyle = "padding:0 0.25rem; margin:0; border:1px solid var(--color-border-light-primary,#999); background:var(--color-bg-option,#ddd); line-height:1.1; font-size:0.8rem; max-width:fit-content; white-space:nowrap;";
+  const dialogHtml = `
+    <p style="margin-bottom:0.4rem;">
+      ${dict.dialogHeader}
+      ${lang === "de"
+        ? `Die Materialien kosten pro Anwendung <button id="pay5" style="${tinyBtnStyle}">${dict.payLabel}</button>.`
+        : `Materials cost per use <button id="pay5" style="${tinyBtnStyle}">${dict.payLabel}</button>.`}
+      ${lang === "de"
+        ? `Alternativ kann die Heldin die Materialien auch <button id="selfSearch" style="${tinyBtnStyle}">${dict.searchLabel}</button>.`
+        : `Alternatively, the hero can <button id="selfSearch" style="${tinyBtnStyle}">${dict.searchLabel}</button>.`}
+      ${dict.dialogFooter}
+    </p>
+  `;
 
-  // --- Dialog für die Sonderfertigkeit ---
+  // Dialog für die Sonderfertigkeit
   const dlg = new Dialog({
     title: dict.title,
-    content: `<p style="margin-bottom:0.5rem;">
-      Die Heldin ist dazu in der Lage, eine Kräutermischung anzufertigen, die die Regeneration verbessert.
-      Diese Mischung besteht nicht aus den üblichen Heilkräutern, die LeP regenerieren können, sondern aus einfachen, je nach Region unterschiedlichen Heilkräutern,
-      die insgesamt pro Anwendung der Sonderfertigkeit
-      <button id="pay5" style="${tinyBtnStyle}">${dict.payLabel}</button>
-      kosten. Alternativ kann die Heldin die Materialien auch
-      <button id="selfSearch" style="${tinyBtnStyle}">${dict.searchLabel}</button>.
-      Sie benötigt dafür 4 Stunden, sofern es in der näheren Umgebung auch die nötigen Materialien gibt (was z. B. in Sand- oder Eiswüsten nicht der Fall ist).
-    </p>`,
+    content: dialogHtml,
     buttons: {
-      mischen: { label: dict.btnMix, callback: () => processHerbMixing(), disabled: true },
+      mischen: { label: dict.btnMix, callback: () => processHerbMixing() },
       abbrechen: { label: dict.btnCancel },
     },
     default: "abbrechen",
     render: (html) => {
-      const enableMix = () => {
-        const mixBtn = html.find('button[data-button="mischen"]');
-        mixBtn.prop("disabled", false);
-      };
-
       const payBtn = html.find("#pay5");
       const searchBtn = html.find("#selfSearch");
 
-      // Klick-Handler: Zahlung (prüfen & abziehen)
+      // Payment – nutzt die funktionierende String-Variante "5 Silbertaler"
       payBtn.on("click", async () => {
-        const amount = dict.payAmount; // exakt "5 Silbertaler"
         try {
           const payment = game.dsa5?.apps?.DSA5Payment;
-          if (!payment?.canPay?.(actor, amount)) {
+          if (!payment?.canPay?.(actor, dict.payAmount)) {
             ui.notifications.error(`${actor.name} ${dict.payNotEnough}`);
             return;
           }
-          await payment.payMoney(actor, amount);
-
-          await ChatMessage.create({
-            user: game.user.id,
-            speaker: ChatMessage.getSpeaker({ actor }),
-            content: `${actor.name} ${dict.payInfo} ${dict.payLabel}.`,
-          });
-
-          ui.notifications.info(`${actor.name} ${dict.payInfo} ${dict.payLabel}.`);
-          enableMix();
+          await payment.payMoney(actor, dict.payAmount);
         } catch (e) {
           console.error("Payment failed:", e);
         }
       });
 
-      // Klick-Handler: Selbst suchen (kein Kostenabzug, nur aktivieren)
+      // Selbst suchen – keine Logik nötig, nur als Info-Button, falls das mit dem Zahlen doch hinhauen sollte, könnte man "Mischen" wieder initial deaktivieren und beide Buttons im text "Mischen" wieder aktivschalten lassen.
       searchBtn.on("click", () => {
-        enableMix();
       });
     },
   });
+
   dlg.render(true);
 })();
+
