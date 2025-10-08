@@ -1,7 +1,5 @@
 // This is a system macro used for automation. It is disfunctional without the proper context.
 
-
-
 (async () => {
   const { getProperty, setProperty } = foundry.utils;
 
@@ -24,8 +22,13 @@
       apothecarySF: "Weg des Apothekers",
       itemDesc:
         "Es muss nicht immer Tarnele oder Wirselkraut sein. Mit der richtigen Mischung kann ein Heiler auch aus anderen, einfachen Heilkräutern eine potente Kräutermischung herstellen.",
-      dialogText:
-        "Die Heldin ist dazu in der Lage, eine Kräutermischung anzufertigen, die die Regeneration verbessert. Diese Mischung besteht nicht aus den üblichen Heilkräutern, die LeP regenerieren können, sondern aus einfachen, je nach Region unterschiedlichen Heilkräutern, die insgesamt pro Anwendung der Sonderfertigkeit 5 Silbertaler kosten. Alternativ kann die Heldin die Materialien auch selbst suchen. Sie benötigt dafür 4 Stunden, sofern es in der näheren Umgebung auch die nötigen Materialien gibt (was z. B. in Sand- oder Eiswüsten nicht der Fall ist).",
+      // Labels und Beträge
+      payLabel: "5 Silbertaler",
+      searchLabel: "selbst suchen",
+      payAmount: "5 Silbertaler", // exakt dieses Format funktioniert bei dir in canPay/payMoney
+      payNotEnough: "hat nicht genug Geld!",
+      payInfo: "bezahlt",
+      // Dialogtext wird dynamisch zusammengebaut (Buttons werden eingefügt)
       qsText: `1: Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
 Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
 Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphase ist ggf. erhöht.
@@ -45,12 +48,16 @@ Versorgung von Wunden mit einer Kräutermischung. Die nächste Regenerationsphas
       itemMadeSuffix: "",
       effectName: "Herb Mixture Effect",
       skillName: "Plant Lore",
-      masterySF: "Masterful Herb Mixture", //Platzhalter, Kräutermischung und verwandte SF sind nicht im Englischen vorhanden.
-      apothecarySF: "Path of the Apothecary", //Platzhalter, Kräutermischung und verwandte SF sind nicht im Englischen vorhanden.
+      masterySF: "Masterful Herb Mixture", // Placeholder
+      apothecarySF: "Path of the Apothecary", // Placeholder
       itemDesc:
         "It doesn't always have to be Tarnele or Wirsel Herb. With the right blend, a healer can make a potent herb mixture from other, simple healing herbs.",
-      dialogText:
-        "The hero can craft an herb mixture that improves regeneration. It costs 5 silver per use, or 4 hours to gather materials if available in the area.",
+      // Labels und Beträge (wir nutzen die DE-Zahlungsnotation, weil sie bei dir funktioniert)
+      payLabel: "5 Silbertaler",
+      searchLabel: "search themselves",
+      payAmount: "5 Silbertaler",
+      payNotEnough: "does not have enough money!",
+      payInfo: "pays",
       qsText: `1: Treating wounds with an herb mixture. The next regeneration phase may be increased.
 Treating wounds with an herb mixture. The next regeneration phase may be increased.
 Treating wounds with an herb mixture. The next regeneration phase may be increased.
@@ -154,14 +161,64 @@ Treating wounds with an herb mixture. The next regeneration phase may be increas
     );
   }
 
+  // --- Styles für ultrakompakte GUI-Buttons ---
+  const tinyBtnStyle = "padding:0 0.3rem; margin:0; border:1px solid var(--color-border-light-primary, #999); background:var(--color-bg-option, #ddd); line-height:1.2; font-size:0.85rem; max-width:fit-content; white-space:nowrap;";
+
   // --- Dialog für die Sonderfertigkeit ---
-  new Dialog({
+  const dlg = new Dialog({
     title: dict.title,
-    content: `<p>${dict.dialogText}</p>`,
+    content: `<p style="margin-bottom:0.5rem;">
+      Die Heldin ist dazu in der Lage, eine Kräutermischung anzufertigen, die die Regeneration verbessert.
+      Diese Mischung besteht nicht aus den üblichen Heilkräutern, die LeP regenerieren können, sondern aus einfachen, je nach Region unterschiedlichen Heilkräutern,
+      die insgesamt pro Anwendung der Sonderfertigkeit
+      <button id="pay5" style="${tinyBtnStyle}">${dict.payLabel}</button>
+      kosten. Alternativ kann die Heldin die Materialien auch
+      <button id="selfSearch" style="${tinyBtnStyle}">${dict.searchLabel}</button>.
+      Sie benötigt dafür 4 Stunden, sofern es in der näheren Umgebung auch die nötigen Materialien gibt (was z. B. in Sand- oder Eiswüsten nicht der Fall ist).
+    </p>`,
     buttons: {
-      mischen: { label: dict.btnMix, callback: () => processHerbMixing() },
+      mischen: { label: dict.btnMix, callback: () => processHerbMixing(), disabled: true },
       abbrechen: { label: dict.btnCancel },
     },
     default: "abbrechen",
-  }).render(true);
+    render: (html) => {
+      const enableMix = () => {
+        const mixBtn = html.find('button[data-button="mischen"]');
+        mixBtn.prop("disabled", false);
+      };
+
+      const payBtn = html.find("#pay5");
+      const searchBtn = html.find("#selfSearch");
+
+      // Klick-Handler: Zahlung (prüfen & abziehen)
+      payBtn.on("click", async () => {
+        const amount = dict.payAmount; // exakt "5 Silbertaler"
+        try {
+          const payment = game.dsa5?.apps?.DSA5Payment;
+          if (!payment?.canPay?.(actor, amount)) {
+            ui.notifications.error(`${actor.name} ${dict.payNotEnough}`);
+            return;
+          }
+          await payment.payMoney(actor, amount);
+
+          await ChatMessage.create({
+            user: game.user.id,
+            speaker: ChatMessage.getSpeaker({ actor }),
+            content: `${actor.name} ${dict.payInfo} ${dict.payLabel}.`,
+          });
+
+          ui.notifications.info(`${actor.name} ${dict.payInfo} ${dict.payLabel}.`);
+          enableMix();
+        } catch (e) {
+          console.error("Payment failed:", e);
+        }
+      });
+
+      // Klick-Handler: Selbst suchen (kein Kostenabzug, nur aktivieren)
+      searchBtn.on("click", () => {
+        enableMix();
+      });
+    },
+  });
+  dlg.render(true);
 })();
