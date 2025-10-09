@@ -35,6 +35,8 @@
         "Die Heldin ist dazu in der Lage, eine Kräutermischung anzufertigen, die die Regeneration verbessert. Diese Mischung besteht nicht aus den üblichen Heilkräutern, die LeP regenerieren können, sondern aus einfachen, je nach Region unterschiedlichen Heilkräutern.",
       dialogFooter:
         "Sie benötigt dafür 4 Stunden, sofern es in der näheren Umgebung auch die nötigen Materialien gibt (z. B. in Sand- oder Eiswüsten).",
+      mixDisabled: "Um die Kräutermischung zu erstellen zahle bitte für die notwendigen Zutaten oder suche diese selber.",
+      cannotPayDetail: "Zahlung nicht möglich: {msg}",
     },
     en: {
       title: "Special Ability: Herb Mixture",
@@ -52,9 +54,8 @@
       apothecarySF: "Path of the Apothecary", // placeholder
       itemDesc:
         "It doesn't always have to be Tarnele or Wirsel Herb. With the right blend, a healer can make a potent herb mixture from other, simple healing herbs.",
-      // We keep DE payment string since it's verified working in your setup
       payLabel: "5 Silver",
-      searchLabel: "search themselves",
+      searchLabel: "search himself",
       payAmount: "5 Silver",
       payNotEnough: "does not have enough money!",
       qsText: `1: Treating wounds with an herb mixture. The next regeneration phase may be increased.
@@ -67,6 +68,8 @@
         "The hero can craft an herb mixture that improves regeneration. It does not consist of the usual healing herbs that regenerate HP, but of simple herbs differing by region.",
       dialogFooter:
         "It takes 4 hours to gather materials, if they are available in the area (e.g. not in sand or ice deserts).",
+      mixDisabled: "To make the herbal mixture, please pay for the necessary ingredients or find them yourself.",
+      cannotPayDetail: "Payment not possible: {msg}",
     },
   }[lang];
 
@@ -91,11 +94,9 @@
   const currentTempHeal = getProperty(actor, "system.status.regeneration.LePTemp") ?? 0;
   const mapping = [1,2,3,4,5,6];
   const wuerfelziel = mapping[(typeof qs !== "undefined" ? qs : 0) - 1] ?? 0;
-
   const r = new Roll("${hasApothecary ? "2d6kl1" : "1d6"}");
   await r.roll();
   await r.toMessage({ flavor: "${dict.itemName} – Prüfwurf" });
-
   if (r.total <= wuerfelziel) {
     const add = ${hasMastery ? 2 : 1};
     const newVal = (currentTempHeal || 0) + add;
@@ -136,7 +137,7 @@
         quantity: 1,
         weight: 0.1,
         price: { value: 5, currency: "silver" },
-        QLList: dict.qsText,
+        QLList: dict.qsText, // unverändert: String, nicht Objekt
         QL: availableQs,
         description: { value: dict.itemDesc },
       },
@@ -168,7 +169,7 @@
     );
   }
 
-  // Kompakte GUI-Buttons (ursprünglich war mein Ziel, das "Mischen" solange inaktiv ist, bis man entweder auf selber sucht (aktivert direkt) oder auf "5 Silbertaler" klickt. letzteres sollte prüfen, ob wirklich 5 Silbertaler vorhanden sind und diese, wenn ja, dann abziehen und den Button aktivieren. Aber Der Button wurde leider immer aktiviert.
+  // Kompakte GUI-Buttons (nur GUI + Bezahlfunktion geändert)
   const tinyBtnStyle = "padding:0 0.25rem; margin:0; border:1px solid var(--color-border-light-primary,#999); background:var(--color-bg-option,#ddd); line-height:1.1; font-size:0.8rem; max-width:fit-content; white-space:nowrap;";
   const dialogHtml = `
     <p style="margin-bottom:0.4rem;">
@@ -181,6 +182,7 @@
         : `Alternatively, the hero can <button id="selfSearch" style="${tinyBtnStyle}">${dict.searchLabel}</button>.`}
       ${dict.dialogFooter}
     </p>
+    <p id="mixHint" style="margin-top:0.3rem; color:#a00; font-size:0.9rem;">${dict.mixDisabled}</p>
   `;
 
   // Dialog für die Sonderfertigkeit
@@ -188,7 +190,7 @@
     title: dict.title,
     content: dialogHtml,
     buttons: {
-      mischen: { label: dict.btnMix, callback: () => processHerbMixing() },
+      mischen: { label: dict.btnMix, callback: () => processHerbMixing(), disabled: true }, // initial deaktiviert
       abbrechen: { label: dict.btnCancel },
     },
     default: "abbrechen",
@@ -196,26 +198,58 @@
       const payBtn = html.find("#pay5");
       const searchBtn = html.find("#selfSearch");
 
-      // Payment – nutzt die funktionierende String-Variante "5 Silbertaler"
+      // Zugriff auf den "Mischen"-Button im Dialog und Hinweiszeile
+      const mixButton = html.closest(".dialog").find('button[data-button="mischen"]');
+      const mixHint = html.find("#mixHint");
+
+      const setMixEnabled = (enabled) => {
+        if (mixButton && mixButton.length) {
+          mixButton.prop("disabled", !enabled);
+          mixButton.toggleClass("disabled", !enabled);
+        }
+        if (mixHint && mixHint.length) {
+          mixHint.toggle(!enabled);
+        }
+      };
+      // initial deaktiviert
+      setMixEnabled(false);
+
+      // Pay
       payBtn.on("click", async () => {
         try {
           const payment = game.dsa5?.apps?.DSA5Payment;
-          if (!payment?.canPay?.(actor, dict.payAmount)) {
-            ui.notifications.error(`${actor.name} ${dict.payNotEnough}`);
+          if (!payment) {
+            console.warn("DSA5Payment API nicht verfügbar.");
             return;
           }
-          await payment.payMoney(actor, dict.payAmount);
+
+          let canPayRaw = await payment.canPay(actor, dict.payAmount);
+          const canPayObj = typeof canPayRaw === "boolean" ? { success: canPayRaw } : canPayRaw;
+
+          if (!canPayObj.success) {
+            ui.notifications.error(`${actor.name} ${dict.payNotEnough}`);
+            if (canPayObj.msg) {
+              console.warn(dict.cannotPayDetail.replace("{msg}", canPayObj.msg));
+            }
+            return;
+          }
+
+          const payResult = await payment.payMoney(actor, dict.payAmount);
+          console.debug("Ergebnis von payMoney:", payResult);
+
+          // Nur bei Erfolg den "Mischen"-Button aktivieren
+          setMixEnabled(true);
         } catch (e) {
           console.error("Payment failed:", e);
         }
       });
 
-      // Selbst suchen – keine Logik nötig, nur als Info-Button, falls das mit dem Zahlen doch hinhauen sollte, könnte man "Mischen" wieder initial deaktivieren und beide Buttons im text "Mischen" wieder aktivschalten lassen.
+      // Selbst suchen – direkt aktivieren ohne Zahlung
       searchBtn.on("click", () => {
+        setMixEnabled(true);
       });
     },
   });
 
   dlg.render(true);
 })();
-
