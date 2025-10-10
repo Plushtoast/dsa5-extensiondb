@@ -35,9 +35,9 @@ const dict = {
     logTotalMod: (mod) => `Gesamtmodifikator für die Probe: ${mod}`,
     logDone: (actorName) => `Probe für ${actorName} abgeschlossen`,
     logError: (actorName) => `Fehler bei Probe für ${actorName}:`,
-    // QS-Texte
-    qs1Text: "Der Alchimist kann die Art des Spagyrikas feststellen.",
-    qs2Text: "Er kann außerdem bestimmen, welche Qualität es hat.",
+    // QS-Texte (angepasst)
+    qs1TextItem: (itemName) => `Bei dem Spagyrika handelt es sich um ${itemName}.`,
+    qs2TextItemQs: (itemName, qs) => `Bei dem Spagyrika handelt es sich um ${itemName} der Qualitätsstufe ${qs}.`,
     // Optional
     noAspResource: "Astralenergie-Ressource nicht gefunden.",
     aspDeducted: (spent, newVal) => `Es wurden ${spent} AsP aufgewendet. Neuer AsP-Wert: ${newVal}.`
@@ -61,11 +61,11 @@ const dict = {
     aspLabel: "Infuse with AsP:",
     aspNone: "-",
     notEnoughAsp: (need, have) => `Not enough AsP: need ${need}, have ${have}.`,
-    chymWeddingName: "Chymical Wedding", // Platzhalter englische Version des Moduls ist noch nicht vorhanden
-    traditionZauberalchimistenName: "Tradition (Magical Alchemists)", // Platzhalter englische Version des Moduls ist noch nicht vorhanden
-    alchimieAnalytikerName: "Alchemy Analyst", // Platzhalter englische Version des Moduls ist noch nicht vorhanden
-    zauberalchimistDisplayName: "Magical Alchemist", // Platzhalter englische Version des Moduls ist noch nicht vorhanden
-    alchimieAnalytikerDisplayName: "Alchemy Analyst", // Platzhalter englische Version des Moduls ist noch nicht vorhanden
+    chymWeddingName: "Chymical Wedding",
+    traditionZauberalchimistenName: "Tradition (Magical Alchemists)",
+    alchimieAnalytikerName: "Alchemy Analyst",
+    zauberalchimistDisplayName: "Magical Alchemist",
+    alchimieAnalytikerDisplayName: "Alchemy Analyst",
     // Logging
     logItemName: (itemName) => `Item name: ${itemName}`,
     logBrewDiff: (diff) => `Brewing difficulty: ${diff}`,
@@ -75,8 +75,9 @@ const dict = {
     logTotalMod: (mod) => `Total modifier for the test: ${mod}`,
     logDone: (actorName) => `Test for ${actorName} finished`,
     logError: (actorName) => `Error during test for ${actorName}:`,
-    qs1Text: "The alchemist can determine the type of spagyric.",
-    qs2Text: "They can also determine its quality.",
+    // QS texts (adjusted)
+    qs1TextItem: (itemName) => `The spagyric is ${itemName}.`,
+    qs2TextItemQs: (itemName, qs) => `The spagyric is ${itemName} of quality level ${qs}.`,
     noAspResource: "Astral energy resource not found.",
     aspDeducted: (spent, newVal) => `${spent} AsP spent. New AsP value: ${newVal}.`
   }
@@ -254,10 +255,13 @@ new Dialog({
           // QS auswerten
           const qs = foundry.utils.getProperty(testResult, "result.qualityStep") || 0;
 
-          // Chat-Ausgabe
+          // Chat-Ausgabe 
           let chatMessage = "";
-          if (qs >= 1) chatMessage += dict.qs1Text;
-          if (qs >= 2) chatMessage += (chatMessage ? "<br>" : "") + dict.qs2Text;
+          if (qs >= 2) {
+            chatMessage = dict.qs2TextItemQs(itemName, qs);
+          } else if (qs >= 1) {
+            chatMessage = dict.qs1TextItem(itemName);
+          }
 
           if (chatMessage) {
             ChatMessage.create({
@@ -286,3 +290,4 @@ new Dialog({
   },
   default: "roll"
 }).render(true);
+
