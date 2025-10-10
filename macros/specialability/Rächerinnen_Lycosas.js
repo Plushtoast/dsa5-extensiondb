@@ -152,7 +152,7 @@ new Dialog({
         // Neues Step
         const newStep = Math.min(6, oldStep + 1);
 
-        // Menge reduzieren oder Item löschen (wie im „Große Trankverdünnung“-Muster)
+        // Menge reduzieren oder Item löschen
         if (qty > 1) {
           await actor.updateEmbeddedDocuments("Item", [
             { _id: embeddedPoison.id, [dict.qtyPath]: qty - 1 }
@@ -172,7 +172,7 @@ new Dialog({
 
         await actor.createEmbeddedDocuments("Item", [newItemData]);
 
-        // Anzeige aktualisieren: wir zeigen die Stufe des neu angelegten Items
+        // Anzeige aktualisieren
         const created = actor.items.find(i =>
           i.type === "poison" &&
           i.name === embeddedPoison.name &&
@@ -189,7 +189,7 @@ new Dialog({
         const msgHtml = dict.chatSuccess(embeddedPoison.name, oldStep, newStep, aspBefore, aspAfter, aspMax);
         ChatMessage.create({ speaker: ChatMessage.getSpeaker({ actor }), content: msgHtml });
 
-        // Eingebettetes Referenz-Item aktualisieren (zeigt nun auf das neue mit erhöhter Stufe)
+        // Eingebettetes Referenz-Item aktualisieren
         embeddedPoison = created ?? embeddedPoison;
 
         return false; // Dialog offen lassen
