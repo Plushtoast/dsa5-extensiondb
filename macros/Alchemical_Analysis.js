@@ -1,4 +1,4 @@
-// This is a system macro used for automation. It is disfunctional without the proper context.
+/// This is a system macro used for automation. It is disfunctional without the proper context.
 
 // Sprachweiche und Dictionary
 const lang = game.i18n.lang == "de" ? "de" : "en";
@@ -22,7 +22,6 @@ const dict = {
     aspLabel: "Aufladen mit AsP:",
     aspNone: "-",
     notEnoughAsp: (need, have) => `Nicht genug AsP: benötigt ${need}, vorhanden ${have}.`,
-    chymWeddingName: "Chymische Hochzeit",
     traditionZauberalchimistenName: "Tradition (Zauberalchimisten)",
     alchimieAnalytikerName: "Alchimieanalytiker",
     zauberalchimistDisplayName: "Zauberalchimist",
@@ -61,7 +60,6 @@ const dict = {
     aspLabel: "Infuse with AsP:",
     aspNone: "-",
     notEnoughAsp: (need, have) => `Not enough AsP: need ${need}, have ${have}.`,
-    chymWeddingName: "Chymical Wedding",
     traditionZauberalchimistenName: "Tradition (Magical Alchemists)",
     alchimieAnalytikerName: "Alchemy Analyst",
     zauberalchimistDisplayName: "Magical Alchemist",
@@ -84,7 +82,6 @@ const dict = {
 }[lang];
 
 const skillName = dict.skillName;
-
 
 let actorLocal = (typeof actor !== "undefined" && actor) ? actor : null;
 if (!actorLocal) {
@@ -110,7 +107,6 @@ else console.log(dict.noTradeSecretFor(itemName));
 // Tradition/SF prüfen
 const hasTraditionZauberalchimisten = !!actorLocal.items.find(i => i.type === "specialability" && i.name === dict.traditionZauberalchimistenName);
 const hasAlchimieAnalytiker = !!actorLocal.items.find(i => i.type === "specialability" && i.name === dict.alchimieAnalytikerName);
-const hasChymWedding = !!actorLocal.items.find(i => i.type === "specialability" && i.name === dict.chymWeddingName);
 
 // GUI-Content
 let contentHtml = `
@@ -186,9 +182,6 @@ new Dialog({
         // Berufsgeheimnis -> +1
         if (berufsgeheimnis) gesamtMod += 1;
 
-        // Chymische Hochzeit -> +2
-        if (hasChymWedding) gesamtMod += 2;
-
         // AsP-Infusion (nur wenn Tradition (Zauberalchimisten) oder Alchimieanalytiker vorhanden)
         let aspNeeded = 0;
         let aspEase = 0;
@@ -223,7 +216,6 @@ new Dialog({
         console.log(dict.logHasSecret(!!berufsgeheimnis));
         console.log(`SF/Tradition vorhanden - ${dict.traditionZauberalchimistenName}: ${hasTraditionZauberalchimisten ? "Ja" : "Nein"}`);
         console.log(`SF vorhanden - ${dict.alchimieAnalytikerName}: ${hasAlchimieAnalytiker ? "Ja" : "Nein"}`);
-        console.log(`SF vorhanden - ${dict.chymWeddingName}: ${hasChymWedding ? "Ja" : "Nein"}`);
         const aspObjectLogBefore = foundry.utils.getProperty(actorLocal, "system.status.astralenergy");
         const currentAspLogBefore = Number(aspObjectLogBefore?.value ?? 0);
         console.log(`AsP-Auswahl: ${infusionVal} (${aspNeeded} AsP, +${aspEase})`);
@@ -290,4 +282,3 @@ new Dialog({
   },
   default: "roll"
 }).render(true);
-
