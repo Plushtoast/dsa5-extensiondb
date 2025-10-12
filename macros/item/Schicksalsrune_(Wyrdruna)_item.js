@@ -1,5 +1,5 @@
 {
-  "name": "Fate Rune (Wyrdruna)",
+  "name": "Schicksalsrune (Wyrdruna)",
   "type": "equipment",
   "img": "systems/dsa5/icons/categories/magicalsign.webp",
   "system": {
@@ -104,115 +104,22 @@
   "folder": null,
   "flags": {
     "dsa5": {
-      "onUseEffect": "//This is a system macro used for automation. It is disfunctional without the proper context.
-const { getProperty: GP, setProperty: SP } = foundry.utils;
-const lang = game.i18n.lang == "de" ? "de" : "en";
-const dict = {
-  de: {
-    noActor: "Kein Akteur vorhanden.",
-    notifyMax: "Du hast bereits die maximale Anzahl an Schicksalspunkten.",
-    notifyAdded: "Schicksalspunkt hinzugefügt.",
-    notFoundSource: "Auslösendes Item (Gegenstand) nicht gefunden.",
-    notEquipment: "Auslösendes Dokument ist kein Gegenstand (equipment).",
-    depletedName: "Schicksalsrune (Wyrdruna) [erloschen]",
-    addDepletedFail: "Erloschene Rune konnte nicht hinzugefügt werden.",
-  },
-  en: {
-    noActor: "No actor present.",
-    notifyMax: "You already have the maximum number of Fate Points.",
-    notifyAdded: "Fate Point added.",
-    notFoundSource: "Triggering item (equipment) not found.",
-    notEquipment: "Triggering document is not an equipment item.",
-    depletedName: "Fate Rune (Wyrdruna) [depleted]",
-    addDepletedFail: "Could not add depleted rune.",
-  }
-}[lang];
-
-if (!actor) { ui.notifications.warn(dict.noActor); return; }
-
-// 1) Fate-Points prüfen/erhöhen
-const curFP = Number(GP(actor, "system.status.fatePoints.value")) || 0;
-const maxFP = Number(GP(actor, "system.status.fatePoints.max")) || 0;
-if (maxFP && curFP >= maxFP) { ui.notifications.info(dict.notifyMax); return; }
-
-await actor.update({ "system.status.fatePoints.value": (maxFP ? Math.min(curFP + 1, maxFP) : (curFP + 1)) });
-ui.notifications.info(dict.notifyAdded);
-
-// 2) Auslösendes GEGENSTANDS-Item bestimmen: strikt this.parent ODER this.item.id
-let sourceItem = null;
-if (this && this.parent && this.parent.documentName === "Item") {
-  sourceItem = this.parent;
-} else if (this?.item?.id) {
-  sourceItem = actor.items.get(this.item.id) ?? null;
-} else {
-  ui.notifications.warn(dict.notFoundSource);
-  return;
-}
-
-// 3) Verhindere Verwechslung: muss type === "equipment" sein
-if (!sourceItem || sourceItem.type !== "equipment") {
-  ui.notifications.warn(dict.notEquipment);
-  return;
-}
-
-// Strukturwert des verbrauchten Items merken
-const srcStructureValue = Number(GP(sourceItem, "system.structure.value")) || 0;
-
-// 4) Menge reduzieren oder löschen (ohne weitere Fallbacks)
-const qtyPath = "system.quantity.value";
-const curQty = Number(GP(sourceItem, qtyPath)) || 0;
-
-if (curQty > 1) {
-  await sourceItem.update({ [qtyPath]: curQty - 1 });
-} else if (curQty === 1) {
-  await sourceItem.delete();
-} else {
-  await sourceItem.delete();
-}
-
-// 5) Erloschene Rune (equipment) laden und hinzufügen, Strukturwert setzen
-async function getCompendiumEquipmentByName(name) {
-  const packs = Array.from(game.packs.values()).filter(p => p?.metadata?.system === "dsa5");
-  for (const p of packs) {
-    try {
-      const docs = await p.getDocuments({ name });
-      if (!docs?.length) continue;
-      const first = docs[0];
-      const raw = first.toObject();
-      if (raw?.type === "equipment") return raw; // nur Equipment zulassen
-      // wenn erster Treffer kein Equipment, keinen weiteren Fallback nutzen
-      return null;
-    } catch (e) {}
-  }
-  return null;
-}
-
-const depletedName = dict.depletedName;
-let depletedObj = await getCompendiumEquipmentByName(depletedName);
-if (!depletedObj) {
-  // keine Namens-/Typ-Fallbacks – abbrechen
-  ui.notifications.error(dict.addDepletedFail);
-  return;
-}
-
-// Strukturwert auf den des verbrauchten Items setzen
-SP(depletedObj, "system.structure.value", srcStructureValue);
-
-// Hinzufügen
-try {
-  await actor.sheet._addLoot(depletedObj);
-} catch (e) {
-  try {
-    await actor.createEmbeddedDocuments("Item", [depletedObj]);
-  } catch (e2) {
-    console.error(e2);
-    ui.notifications.error(dict.addDepletedFail);
-  }
-}
-"
+      "onUseEffect": "// This is a system macro used for automation. It is disfunctional without the proper context.\n\n/*\nSchicksalsrune (Wyrdruna) – onUseEffect (Gegenstand)\n- +1 Schicksalspunkt, falls nicht am Maximum\n- Danach ausschließlich den GEGENSTAND (type: \"equipment\") reduzieren (quantity -1) oder löschen, wenn Menge 1\n- Minimaler Quell-Check: this.parent ODER this.item.id (keine weiteren Fallbacks), strikt type===\"equipment\"\n- Füge anschließend die erloschene Rune (equipment) hinzu und setze deren Strukturwert auf den des verbrauchten Items\n*/\n\nconst { getProperty: GP, setProperty: SP } = foundry.utils;\nconst lang = game.i18n.lang == \"de\" ? \"de\" : \"en\";\nconst dict = {\n  de: {\n    noActor: \"Kein Akteur vorhanden.\",\n    notifyMax: \"Du hast bereits die maximale Anzahl an Schicksalspunkten.\",\n    notifyAdded: \"Schicksalspunkt hinzugefügt.\",\n    notFoundSource: \"Auslösendes Item (Gegenstand) nicht gefunden.\",\n    notEquipment: \"Auslösendes Dokument ist kein Gegenstand (equipment).\",\n    depletedName: \"Schicksalsrune (Wyrdruna) [erloschen]\",\n    addDepletedFail: \"Erloschene Rune konnte nicht hinzugefügt werden.\",\n  },\n  en: {\n    noActor: \"No actor present.\",\n    notifyMax: \"You already have the maximum number of Fate Points.\",\n    notifyAdded: \"Fate Point added.\",\n    notFoundSource: \"Triggering item (equipment) not found.\",\n    notEquipment: \"Triggering document is not an equipment item.\",\n    depletedName: \"Fate Rune (Wyrdruna) [depleted]\",\n    addDepletedFail: \"Could not add depleted rune.\",\n  }\n}[lang];\n\nif (!actor) { ui.notifications.warn(dict.noActor); return; }\n\n// 1) Fate-Points prüfen/erhöhen\nconst curFP = Number(GP(actor, \"system.status.fatePoints.value\")) || 0;\nconst maxFP = Number(GP(actor, \"system.status.fatePoints.max\")) || 0;\nif (maxFP && curFP >= maxFP) { ui.notifications.info(dict.notifyMax); return; }\n\nawait actor.update({ \"system.status.fatePoints.value\": (maxFP ? Math.min(curFP + 1, maxFP) : (curFP + 1)) });\nui.notifications.info(dict.notifyAdded);\n\n// 2) Auslösendes GEGENSTANDS-Item bestimmen: strikt this.parent ODER this.item.id\nlet sourceItem = null;\nif (this && this.parent && this.parent.documentName === \"Item\") {\n  sourceItem = this.parent;\n} else if (this?.item?.id) {\n  sourceItem = actor.items.get(this.item.id) ?? null;\n} else {\n  ui.notifications.warn(dict.notFoundSource);\n  return;\n}\n\n// 3) Verhindere Verwechslung: muss type === \"equipment\" sein\nif (!sourceItem || sourceItem.type !== \"equipment\") {\n  ui.notifications.warn(dict.notEquipment);\n  return;\n}\n\n// Strukturwert des verbrauchten Items merken\nconst srcStructureValue = Number(GP(sourceItem, \"system.structure.value\")) || 0;\n\n// 4) Menge reduzieren oder löschen (ohne weitere Fallbacks)\nconst qtyPath = \"system.quantity.value\";\nconst curQty = Number(GP(sourceItem, qtyPath)) || 0;\n\nif (curQty > 1) {\n  await sourceItem.update({ [qtyPath]: curQty - 1 });\n} else if (curQty === 1) {\n  await sourceItem.delete();\n} else {\n  await sourceItem.delete();\n}\n\n// 5) Erloschene Rune (equipment) laden und hinzufügen, Strukturwert setzen\nasync function getCompendiumEquipmentByName(name) {\n  const packs = Array.from(game.packs.values()).filter(p => p?.metadata?.system === \"dsa5\");\n  for (const p of packs) {\n    try {\n      const docs = await p.getDocuments({ name });\n      if (!docs?.length) continue;\n      const first = docs[0];\n      const raw = first.toObject();\n      if (raw?.type === \"equipment\") return raw; // nur Equipment zulassen\n      // wenn erster Treffer kein Equipment, keinen weiteren Fallback nutzen\n      return null;\n    } catch (e) {}\n  }\n  return null;\n}\n\nconst depletedName = dict.depletedName;\nlet depletedObj = await getCompendiumEquipmentByName(depletedName);\nif (!depletedObj) {\n  // keine Namens-/Typ-Fallbacks – abbrechen\n  ui.notifications.error(dict.addDepletedFail);\n  return;\n}\n\n// Strukturwert auf den des verbrauchten Items setzen\nSP(depletedObj, \"system.structure.value\", srcStructureValue);\n\n// Hinzufügen\ntry {\n  await actor.sheet._addLoot(depletedObj);\n} catch (e) {\n  try {\n    await actor.createEmbeddedDocuments(\"Item\", [depletedObj]);\n  } catch (e2) {\n    console.error(e2);\n    ui.notifications.error(dict.addDepletedFail);\n  }\n}\n"
     }
   },
   "_stats": {
+    "coreVersion": "13.348",
+    "systemId": "dsa5",
+    "systemVersion": "7.3.3",
+    "createdTime": 1760276764186,
+    "modifiedTime": 1760276764186,
+    "lastModifiedBy": "muiLafBEaPUcV6uM",
+    "exportSource": {
+      "worldId": "eng",
+      "uuid": "Item.5Yvf7QJqoCaA5j1f",
+      "coreVersion": "13.348",
+      "systemId": "dsa5",
+      "systemVersion": "7.3.3"
     }
   },
   "ownership": {
