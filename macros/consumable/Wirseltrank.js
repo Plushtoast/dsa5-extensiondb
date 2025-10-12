@@ -3,7 +3,7 @@
 if (!actor) {
     ui.notifications.error("Kein Akteur gefunden – bitte stelle sicher, dass der Wirseltrank von einem Charakter im Inventar benutzt wird.");
 } else {
-    const roll = await new Roll("1d3").roll({ async: true });
+    const roll = await new Roll("1d3").roll();
 
     const current = actor.system.status.regeneration.LePTemp ?? 0;
 
@@ -15,7 +15,7 @@ if (!actor) {
         flags: {
             dsa5: {
                 hideOnToken: true,
-                onRemove: 'const roll = await new Roll("1d3").roll({ async: true });await actor.applyRegeneration(roll.total, 0, 0);'
+                onRemove: 'const roll = await new Roll("1d3").roll();await actor.applyRegeneration(roll.total, 0, 0);'
             }
         }
     })

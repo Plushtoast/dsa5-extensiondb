@@ -1,17 +1,3 @@
-// --- Prüfen, ob sourceActor (Caster) vorhanden ist ---
-if (!sourceActor) {
-  ui.notifications.warn("Kein sourceActor übergeben.");
-  return;
-}
-if (!actor) {
-  ui.notifications.warn("Kein Ziel (actor) übergeben.");
-  return;
-}
-if (!source) {
-  ui.notifications.warn("Kein Zauber (source) übergeben.");
-  return;
-}
-
 // --- Grundkosten aus source ---
 const baseCost = source.system.AsPCost?.value || 0;
 

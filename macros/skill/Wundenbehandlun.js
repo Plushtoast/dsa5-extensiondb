@@ -1,23 +1,21 @@
-// Prüfung, ob die SF "Machtvoller Heiler" existiert
-const hasPowerfulHealer = actor.items.find(i => i.name === "Machtvoller Heiler");
-let healerBonus = 0;
-
-if (hasPowerfulHealer) {
-  const roll = await new Roll("1d3").roll({ async: true });
-  healerBonus = roll.total;
-  ui.notifications.info(`${actor.name} erhält zusätzlich +${healerBonus} LeP-Regeneration durch Machtvoller Heiler.`);
-}
-
 const dict = {
   de: {
+    powerFullHealer: 'Machtvoller Heiler',
     treatWounds: 'Wunden versorgen',
     treatPain: 'Schmerzen lindern',
-    description: `<b>Wunden versorgen</b>: Alle Ziele erhalten einen Bonus von <b>${qs}${healerBonus > 0 ? ` + ${healerBonus}` : ""}</b> auf die nächste Regeneration.</br><b>Schmerzen lindern</b>: Pro QS kann eine Stufe Schmerz bei allen Zielen gelindert werden.`,
+    tooltip: (bonus) => `Zusätzlich +${bonus} LeP-Regeneration durch Machtvoller Heiler.`,
+    description: (bonusString) => `<b>Wunden versorgen</b>: Alle Ziele erhalten einen Bonus von <b>${qs}${bonusString ?? ''}</b> auf die nächste Regeneration.</br><b>Schmerzen lindern</b>: Pro QS kann eine Stufe Schmerz bei allen Zielen gelindert werden.`,
+    woundsTreated: (names, qs, bonusString) => `<b>${names}</b> wurde/wurden versorgt und erhalten <b>${qs}${bonusString ?? ''}</b> LeP-Regeneration.`,
+    painTreated: (names, qs) => `<b>${names}</b> wurde/wurden versorgt und erhält/erhalten <b>${qs}</b> Stufe(n) Schmerzlinderung.`,
   },
   en: {
+    powerFullHealer: 'Powerful Healer',
     treatWounds: 'Treat Wounds',
     treatPain: 'Treat Pain',
-    description: `<b>Treat Wounds</b>: All targets receive a bonus of <b>${qs}${healerBonus > 0 ? ` + ${healerBonus}` : ""}</b> on the next regeneration.</br><b>Treat Pain</b>: For each QS, one level of pain can be treated on the targets.`,
+    tooltip: (bonus) => `Gains an additional +${bonus} health regeneration from Powerful Healer.`,
+    description: (bonusString) => `<b>Treat Wounds</b>: All targets receive a bonus of <b>${qs}${bonusString ?? ''}</b> on the next regeneration.</br><b>Treat Pain</b>: For each QS, one level of pain can be treated on the targets.`,
+    woundsTreated: (names, qs, bonusString) => `<b>${names}</b> has/have been treated and receive <b>${qs}${bonusString ?? ''}</b> health regeneration.`,
+    painTreated: (names, qs) => `<b>${names}</b> has/have been treated and receive <b>${qs}</b> level(s) of pain treatment.`,
   },
 }[game.i18n.lang == 'de' ? 'de' : 'en'];
 
@@ -25,11 +23,11 @@ class TreatWounds extends foundry.applications.api.HandlebarsApplicationMixin(fo
   constructor(actor, source, qs) {
     super();
     this.macroData = {
-      actor: actor,
-      source: source,
-      qs: qs,
+      actor,
+      source,
+      qs,
       item,
-      healerBonus: healerBonus
+      hasPowerfulHealer: actor.items.some(i => i.type == 'specialability' && i.name === dict.powerFullHealer),
     };
   }
 
@@ -70,9 +68,11 @@ class TreatWounds extends foundry.applications.api.HandlebarsApplicationMixin(fo
   }
 
   static async _onTreatPain(event, target) {
+    const names = [];
     for (let actor of this.targets) {
       if (!actor) continue;
 
+      names.push(actor.name);
       const ef = {
         name: `${dict.treatPain} (${this.macroData.qs})`,
         img: 'icons/svg/aura.svg',
@@ -92,6 +92,9 @@ class TreatWounds extends foundry.applications.api.HandlebarsApplicationMixin(fo
       };
       await actor.addCondition(ef);
     }
+    const msg = dict.painTreated(names.join(', '), this.macroData.qs);
+    const chatData = game.dsa5.apps.DSA5_Utility.chatDataSetup(msg);
+    await ChatMessage.create(chatData);
     this.close();
   }
 
@@ -102,17 +105,27 @@ class TreatWounds extends foundry.applications.api.HandlebarsApplicationMixin(fo
   }
 
   static async _onTreatWounds(event, target) {
+    let bonus = 0;
+
+    if (this.macroData.hasPowerfulHealer) {
+      const bonusRoll = await new Roll("1d3").roll();
+      bonus += bonusRoll.total;
+    }
+
+    const names = [];
+
     for (let actor of this.targets) {
       if (!actor) continue;
 
       const currentTemp = actor.system.status.regeneration.LePTemp || 0;
-      const bonus = this.macroData.qs + (this.macroData.healerBonus || 0);
-      const newValue = currentTemp + bonus;
-
-      await actor.update({
-        'system.status.regeneration.LePTemp': newValue,
-      });
+      const newValue = currentTemp + this.macroData.qs + bonus;
+      names.push(actor.name);
+      await actor.update({ 'system.status.regeneration.LePTemp': newValue, });
     }
+    const bonusString = bonus > 0 ? ` + <span data-tooltip="${dict.tooltip(bonus)}">${bonus}</span>` : "";
+    const msg = dict.woundsTreated(names.join(', '), this.macroData.qs, bonusString);
+    const chatData = game.dsa5.apps.DSA5_Utility.chatDataSetup(msg);
+    await ChatMessage.create(chatData);
     this.close();
   }
 
@@ -130,6 +143,7 @@ class TreatWounds extends foundry.applications.api.HandlebarsApplicationMixin(fo
     data.macroData = this.macroData;
     data.source = this.buildAnchors([args.sourceActor]);
     data.lang = dict;
+    data.description = dict.description(this.macroData.hasPowerfulHealer ? ` + <span data-tooltip="${dict.tooltip("1d3")}">1d3</span>` : "");
     data.targets = this.buildAnchors(this.targets);
     return data;
   }
