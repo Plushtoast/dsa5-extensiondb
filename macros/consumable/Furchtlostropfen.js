@@ -1,7 +1,6 @@
 // This is a system macro used for automation. It is disfunctional without the proper context.
 
 // QS-abhängige Werte
-const dropFear = [1, 1, 1, 2, 3, 4][qs - 1];
 const reduceBy = [1, 1, 1, 2, 3, 4][qs - 1];
 
 // Dauer ermitteln
@@ -46,7 +45,7 @@ const tempEffect = {
   img: "icons/svg/aura.svg",
   type: "base",
   changes: [
-    { key: "system.resistances.effects", mode: 0, value: `feared ${dropFear}` }
+    { key: "system.resistances.effects", mode: 0, value: `feared 4` }
   ],
   duration: { seconds },
   flags: { dsa5: { hideOnToken: true } }
