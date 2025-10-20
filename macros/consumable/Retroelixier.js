@@ -284,7 +284,7 @@ const guideHtml = `
       mit den entsprechenden Werten aus dem Modifikationspaket modifiziert.
     </p>
     <p style="margin:0 0 8px 0;">
-      Der Eintrag <b>neu</b> bedeutet, dass dieser Wert anstelle des alten Werts des Lebewesens eingesetzt wird.
+      Der Eintrag <b>neu</b> in den Paketbeschreibungen bedeutet, dass dieser Wert anstelle des alten Werts des Lebewesens eingesetzt wird.
     </p>
     <p style="margin:0;">
       Wenn ein Kadaver noch weitere Zustandsmerkmale aufweist, kommen noch die weiteren Modifikatoren hinzu
@@ -356,7 +356,7 @@ const extraPackHtml = `
 </fieldset>
 `;
 
-/* Voller Dialog-Inhalt (GUI unverändert) */
+/* Voller Dialog-Inhalt */
 const inspectorHtml = `
 <fieldset class="gap0px">
   <legend>${dict.legend}</legend>
