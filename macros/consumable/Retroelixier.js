@@ -447,7 +447,7 @@ const dlg = new Dialog({
             name: spawnedName,
             actorId: shownActor.id,
             x, y,
-            texture: { src: img },
+            texture: { src: img, tint: "#6b6b6b" },
             disposition: 0,
             hidden: true,
             delta: {
