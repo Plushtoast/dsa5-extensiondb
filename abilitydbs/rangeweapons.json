@@ -56,21 +56,6 @@
       "herbarium"
     ]
   },
-  "Kristallomantische Kristallkugel (geworfen)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Kristallomantische Kristallkugel (Mehrfaches Volumen) (geworfen)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Lederschleuder": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Anchopaler Silberstern": {
     "source": [
       "realmofthethorns"
@@ -184,6 +169,21 @@
   "Pfähler": {
     "source": [
       "wolfsfrost"
+    ]
+  },
+  "Drachenwehr": {
+    "source": [
+      "worldwanderer"
+    ]
+  },
+  "Zepter der elemitischen Kophta": {
+    "source": [
+      "worldwanderer"
+    ]
+  },
+  "Paltia der Gesichtslosen": {
+    "source": [
+      "worldwanderer"
     ]
   }
 }

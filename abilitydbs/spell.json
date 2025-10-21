@@ -359,7 +359,8 @@
     "source": [
       "magie1",
       "pandaemonium2",
-      "studyroom"
+      "studyroom",
+      "worldwanderer"
     ]
   },
   "Dämonenschild": {
@@ -641,9 +642,9 @@
       "thorwal"
     ]
   },
-  "Talentverbesserung": {
+  "Sphärenbann": {
     "source": [
-      "wolfsfrost"
+      "worldwanderer"
     ]
   }
 }

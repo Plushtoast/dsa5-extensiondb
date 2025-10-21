@@ -194,6 +194,21 @@
       "riverlands"
     ]
   },
+  "Peraines Gnade": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Travias Wachgänse": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
+  "Tsas Gedankenspiel": {
+    "source": [
+      "goetterwirken"
+    ]
+  },
   "Doppelgänger": {
     "source": [
       "goetterwirken2",
@@ -266,6 +281,11 @@
       "goetterwirken2"
     ]
   },
+  "Geiergestalt": {
+    "source": [
+      "goetterwirken2"
+    ]
+  },
   "Blick auf den Meeresgrund": {
     "source": [
       "havena"
@@ -304,11 +324,6 @@
   "Unsichtbare Flut": {
     "source": [
       "havena"
-    ]
-  },
-  "Lebensschutz": {
-    "source": [
-      "lizardswamps"
     ]
   },
   "Das Ding von Ssad’Navv": {

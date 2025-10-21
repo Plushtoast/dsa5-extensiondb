@@ -23,11 +23,6 @@
       "lizardswamps"
     ]
   },
-  "Achfawar (2H)": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Barbarenstreitaxt (2H)": {
     "source": [
       "armory"
@@ -439,19 +434,7 @@
       "wolfsfrost"
     ]
   },
-  "Shakagra-Hammer": {
-    "source": [
-      "klingendernacht",
-      "wolfsfrost"
-    ]
-  },
   "Shakagra-Buckler": {
-    "source": [
-      "klingendernacht",
-      "wolfsfrost"
-    ]
-  },
-  "Shakagra-Langschild": {
     "source": [
       "klingendernacht",
       "wolfsfrost"
@@ -460,29 +443,8 @@
   "Shakagra-Krummsäbel": {
     "source": [
       "klingendernacht",
+      "transmutarium",
       "wolfsfrost"
-    ]
-  },
-  "Shakagra-Schwert": {
-    "source": [
-      "klingendernacht",
-      "wolfsfrost"
-    ]
-  },
-  "Shakagra-Kriegshammer (2H)": {
-    "source": [
-      "klingendernacht",
-      "wolfsfrost"
-    ]
-  },
-  "Achazdreizack (Achfawar) (2H)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Achazreißer (Drash’kor) (2H)": {
-    "source": [
-      "lizardswamps"
     ]
   },
   "Echsenlederpeitsche": {
@@ -495,32 +457,7 @@
       "lizardswamps"
     ]
   },
-  "Achazaxt (Rimkur) (2H)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Achaz-Mattenschild": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Kristallzepter": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Fischspieß (Wyphygni’chch) (2H)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Maru-Säbel": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Achaz-Schwanzkeule (Raz’Thon)": {
     "source": [
       "lizardswamps"
     ]
@@ -530,22 +467,7 @@
       "lizardswamps"
     ]
   },
-  "Selemer Drachenklaue": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Selemer Hornechsenschild": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Selemer Goldsäbel": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Skorpionstachel": {
     "source": [
       "lizardswamps"
     ]
@@ -556,11 +478,6 @@
     ]
   },
   "Der Dorn des Chr’Ssir’Ssr (2H)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Kristallomantische Kristallkugel": {
     "source": [
       "lizardswamps"
     ]
@@ -1096,22 +1013,7 @@
       "winterwatch"
     ]
   },
-  "Nivesischer Wolfsspeer (2H)": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Brobim-Wurzelkeule": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
   "Brobim-Tiefenaxt": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Nivesen-Knochenspeer": {
     "source": [
       "wolfsfrost"
     ]
@@ -1129,6 +1031,31 @@
   "Holzpflock (i)": {
     "source": [
       "wolfsfrost"
+    ]
+  },
+  "Nivesen-Knochenspeer (2H)": {
+    "source": [
+      "wolfsfrost"
+    ]
+  },
+  "Frostaxt": {
+    "source": [
+      "worldwanderer"
+    ]
+  },
+  "Drachenwehr": {
+    "source": [
+      "worldwanderer"
+    ]
+  },
+  "Paltia der Gesichtslosen": {
+    "source": [
+      "worldwanderer"
+    ]
+  },
+  "Fehdehandschuh": {
+    "source": [
+      "worldwanderer"
     ]
   }
 }

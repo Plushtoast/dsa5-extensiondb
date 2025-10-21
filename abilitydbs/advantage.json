@@ -205,11 +205,6 @@
       "otherworld"
     ]
   },
-  "Gabe der Sonne": {
-    "source": [
-      "otherworld"
-    ]
-  },
   "Glatte Haut": {
     "source": [
       "otherworld",
@@ -217,12 +212,6 @@
     ]
   },
   "Harmonie des Waldes": {
-    "source": [
-      "otherworld",
-      "sevenwindscoast"
-    ]
-  },
-  "Kraft der Bäume": {
     "source": [
       "otherworld",
       "sevenwindscoast"
@@ -290,11 +279,6 @@
       "scalytyrants"
     ]
   },
-  "Drachenzaubermacht": {
-    "source": [
-      "scalytyrants"
-    ]
-  },
   "Dreistrahl": {
     "source": [
       "scalytyrants"
@@ -310,17 +294,7 @@
       "scalytyrants"
     ]
   },
-  "Kraft des Drachen": {
-    "source": [
-      "scalytyrants"
-    ]
-  },
   "Majestätsstimme": {
-    "source": [
-      "scalytyrants"
-    ]
-  },
-  "Odemwaffe": {
     "source": [
       "scalytyrants"
     ]
@@ -368,11 +342,6 @@
   "Hass auf (Nostrier)": {
     "source": [
       "warringkingdoms"
-    ]
-  },
-  "Wolfsgebiss": {
-    "source": [
-      "wolfsfrost"
     ]
   }
 }

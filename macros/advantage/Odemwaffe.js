@@ -9,7 +9,6 @@ const DICT = {
     burnStarted: "steht in Flammen!",
     burnNotStarted: "wird nicht in Brand gesteckt.",
     fireTest: "Feuerprobe",
-    dummyWeapon: "Odemwaffe",
     skill_Kraftakt: "Kraftakt",
     cs_Bows: "Bögen",
     defenseMalus: "MODS.defenseMalus",
@@ -21,7 +20,6 @@ const DICT = {
     burnStarted: "is ablaze!",
     burnNotStarted: "is not set on fire.",
     fireTest: "Fire Check",
-    dummyWeapon: "Breath Weapon",
     skill_Kraftakt: "Feat of Strength",
     cs_Bows: "Bows",
     defenseMalus: "MODS.defenseMalus",
@@ -54,6 +52,7 @@ if (!kraftakt) {
   return;
 }
 
+await actor.addCondition("stunned");
 const setup = await actor.setupSkill(kraftakt);
 const kraftaktRes = await actor.basicTest(setup);
 const qs = kraftaktRes?.result?.qualityStep ?? 0;
@@ -62,14 +61,14 @@ const qs = kraftaktRes?.result?.qualityStep ?? 0;
 if ((kraftaktRes?.result?.successLevel ?? 0) <= 0) return;
 
 // 3) Schaden berechnen: 1W6 + QS
-const dmgRoll = await (new Roll("1d6")).roll({ async: true });
+const dmgRoll = await (new Roll("1d6")).roll();
 const damage = Number(dmgRoll.total) + Number(qs || 0);
 
 // 4) Dummy-Angriff vorbereiten (Kampftechnik lokalisiert)
 const localizedCS = T("cs_Bows");
 
 const weaponData = {
-  name: T("dummyWeapon"),
+  name: item.name,
   type: "rangeweapon",
   img: "systems/dsa5/icons/categories/Rangeweapon.webp",
   system: {
@@ -79,16 +78,11 @@ const weaponData = {
     ammunitiongroup: { value: "-" },
     combatskill: { value: localizedCS },
     worn: { value: false },
-    structure: { max: 0, value: 0 },
     quantity: { value: 1 },
-    price: { value: 0 },
-    weight: { value: 0 },
-    effect: { value: "", attributes: "" },
   },
   effects: [
     {
       name: T("fireTest"),
-      type: "",
       img: "icons/svg/aura.svg",
       changes: [],
       duration: { startTime: null, seconds: null, rounds: null },
@@ -109,7 +103,7 @@ const weaponData = {
               }
 
               try {
-                const burnRoll = await (new Roll("1d6")).roll({ async: true });
+                const burnRoll = await (new Roll("1d6")).roll();
                 let content = "";
 
                 if (burnRoll.total <= 3) {
@@ -134,8 +128,6 @@ const weaponData = {
           `
         }
       },
-      disabled: false,
-      transfer: false
     }
   ]
 };

@@ -277,8 +277,7 @@
   "Nächtlicher Lebensraub": {
     "source": [
       "companions",
-      "magie2",
-      "wolfsfrost"
+      "magie2"
     ]
   },
   "Ruhepol": {
@@ -597,6 +596,11 @@
   "Extrem putzig": {
     "source": [
       "winterwatch"
+    ]
+  },
+  "Nächtlicher Lebensraub (Vertrauter)": {
+    "source": [
+      "wolfsfrost"
     ]
   }
 }

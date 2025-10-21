@@ -287,11 +287,6 @@
       "lizardswamps"
     ]
   },
-  "Fürsorgliches Auftreten": {
-    "source": [
-      "achaz"
-    ]
-  },
   "Behagliches Nest": {
     "source": [
       "achaz"
@@ -643,16 +638,6 @@
       "arcanelabs"
     ]
   },
-  "Alchimistische Äquivalenzlehre": {
-    "source": [
-      "arcanelabs"
-    ]
-  },
-  "Auxiliator": {
-    "source": [
-      "arcanelabs"
-    ]
-  },
   "Begnadeter Thaumaturg": {
     "source": [
       "arcanelabs"
@@ -664,11 +649,6 @@
     ]
   },
   "Flüssig-Artefakt": {
-    "source": [
-      "arcanelabs"
-    ]
-  },
-  "Gefäß der Macht": {
     "source": [
       "arcanelabs"
     ]
@@ -716,11 +696,6 @@
     ]
   },
   "Meister der Rauschmittel": {
-    "source": [
-      "arcanelabs"
-    ]
-  },
-  "Niederhöllischer Schmied": {
     "source": [
       "arcanelabs"
     ]
@@ -858,23 +833,6 @@
       "bannerofloyalty"
     ]
   },
-  "Unterwasserkampf": {
-    "source": [
-      "bestiary",
-      "broodofhell",
-      "companions",
-      "elementarium",
-      "goetterwirken",
-      "goetterwirken2",
-      "lizardswamps",
-      "nekromanthaeum",
-      "pandaemonium",
-      "scalytyrants",
-      "suncoast",
-      "thorwal",
-      "transmutarium"
-    ]
-  },
   "Tradition (Sphinx)": {
     "source": [
       "bestiary2"
@@ -1005,11 +963,6 @@
       "compendium"
     ]
   },
-  "Freiklettern": {
-    "source": [
-      "compendium"
-    ]
-  },
   "Leibdiener": {
     "source": [
       "compendium"
@@ -1054,12 +1007,6 @@
       "compendium",
       "realmofthethorns",
       "retosarmory"
-    ]
-  },
-  "Kampf im Wasser": {
-    "source": [
-      "compendium",
-      "suncoast"
     ]
   },
   "Schwitzkasten": {
@@ -1203,11 +1150,6 @@
       "compendium2",
       "steamingjungles",
       "warringkingdoms"
-    ]
-  },
-  "Machtvoller Heiler": {
-    "source": [
-      "compendium2"
     ]
   },
   "Erholsame Regeneration": {
@@ -1717,8 +1659,7 @@
   },
   "Wall gegen Schadensmagie": {
     "source": [
-      "goetterwirken",
-      "lizardswamps"
+      "goetterwirken"
     ]
   },
   "Beistand gegen Einflusszauberei": {
@@ -1728,8 +1669,7 @@
   },
   "Bollwerk gegen Magie": {
     "source": [
-      "goetterwirken",
-      "lizardswamps"
+      "goetterwirken"
     ]
   },
   "Messer des Frosts": {
@@ -2174,47 +2114,12 @@
       "goetterwirken"
     ]
   },
-  "Autorität": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
   "Praios’ gestählter Wille": {
     "source": [
       "goetterwirken"
     ]
   },
-  "Kraft der Löwin": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Bollwerk des Schutzes": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Stahlhaut": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Mut der Sturmherrin": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
   "Einschüchterndes Sturmgebrüll": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Zorn der Sturmherrin": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Wie ein Fisch im Wasser": {
     "source": [
       "goetterwirken"
     ]
@@ -2245,11 +2150,6 @@
     ]
   },
   "Friedliches Auftreten": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Mütterliches Auftreten": {
     "source": [
       "goetterwirken"
     ]
@@ -3153,7 +3053,8 @@
   },
   "Blutmagie (Fremdopfer)": {
     "source": [
-      "goldenemperor"
+      "goldenemperor",
+      "worldwanderer"
     ]
   },
   "Borbaradianismus": {
@@ -3402,11 +3303,6 @@
       "lizardswamps"
     ]
   },
-  "Wegkenntnis": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Weg des Okkultisten": {
     "source": [
       "lizardswamps"
@@ -3418,11 +3314,6 @@
     ]
   },
   "Weg des Echsenkundigen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Fachwissen": {
     "source": [
       "lizardswamps"
     ]
@@ -3447,87 +3338,7 @@
       "lizardswamps"
     ]
   },
-  "Suchende Finger": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Unauffindbarer Inhalt": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Volumenerweiterung des Schuppenbeutels": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Bindung der Kristallkugel - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Brennglas - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Großer Hohlraum - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Kugel des Hellsehers - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Kugel-Apport - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Vergrößerungsglas - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Volumenerweiterung der Kristallkugel - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Wachendes Auge - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Warnendes Leuchten - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Zauberspeicher-Kristallkugel 2 - Kristallomant": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Bindung der Echsenhaube": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Hauben-Apport": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Meisterschliff": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Volumenerweiterung der Echsenhaube": {
     "source": [
       "lizardswamps"
     ]
@@ -3562,16 +3373,6 @@
       "lizardswamps"
     ]
   },
-  "Artefaktanalytiker": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Matrixzauberei": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Übertragung der Astralkräfte": {
     "source": [
       "lizardswamps",
@@ -3595,42 +3396,7 @@
       "warringkingdoms"
     ]
   },
-  "Tradition (Achazschamanen)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Vereisung (Achaz)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Tradition (H’Szint-Kult)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Schild gegen Einflusszauberei": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Wandelstab": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Schlangenhaut": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Giftbiss": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Echsenfreundschaft": {
     "source": [
       "lizardswamps"
     ]
@@ -3656,11 +3422,6 @@
     ]
   },
   "Wandler des Ewigen": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Tradition (Intuitiver Zauberer)": {
     "source": [
       "lizardswamps"
     ]
@@ -4535,14 +4296,6 @@
       "magie2"
     ]
   },
-  "Erdkraft": {
-    "source": [
-      "magie2",
-      "riverlands",
-      "warringkingdoms",
-      "wolfsfrost"
-    ]
-  },
   "Erschaffer": {
     "source": [
       "magie2"
@@ -4964,11 +4717,6 @@
       "magie3"
     ]
   },
-  "Meister des Kreises": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Wächter der Göttin": {
     "source": [
       "magie3",
@@ -5344,6 +5092,11 @@
     ]
   },
   "Unwiderstehlicher Charme": {
+    "source": [
+      "magie3"
+    ]
+  },
+  "Weg des Jägers": {
     "source": [
       "magie3"
     ]
@@ -5751,11 +5504,6 @@
       "thorwal"
     ]
   },
-  "Tapferkeit der Unsterblichen": {
-    "source": [
-      "thorwal"
-    ]
-  },
   "Geschütze bedienen": {
     "source": [
       "thorwal"
@@ -5772,11 +5520,6 @@
     ]
   },
   "Sprung vom Reittier": {
-    "source": [
-      "warringkingdoms"
-    ]
-  },
-  "Machtvolle verbotene Pforten": {
     "source": [
       "warringkingdoms"
     ]
@@ -5826,11 +5569,6 @@
       "wolfsfrost"
     ]
   },
-  "Kind der Natur": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
   "Betäubungswurf": {
     "source": [
       "wolfsfrost"
@@ -5841,42 +5579,7 @@
       "wolfsfrost"
     ]
   },
-  "Ungeheuer-Schlächter": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Ungeheuer-Taktik": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
   "Jäger der Verfluchten-Stil": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Erweiterte Ungeheuer-Taktik": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Nächtlicher Lebensraub": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Bindung der Waffe": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Waffen-Apport": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Scholar der Thyella vom Gewitterturm": {
     "source": [
       "wolfsfrost"
     ]
@@ -5901,179 +5604,24 @@
       "wolfsfrost"
     ]
   },
-  "Austreibung": {
+  "Ungeheuer-Schlächter ()": {
     "source": [
       "wolfsfrost"
     ]
   },
-  "Begnadeter Objektzauberer": {
+  "Erweiterte Ungeheuer-Taktik ()": {
     "source": [
       "wolfsfrost"
     ]
   },
-  "Bewegungszauberei": {
+  "Geübter Weltenwanderer": {
     "source": [
-      "wolfsfrost"
+      "worldwanderer"
     ]
   },
-  "Dämonenmeisterin": {
+  "Derenanker": {
     "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Elementarmeisterin": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Geisterfreundin": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Geistermedium": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Überragender Dämonologe": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Unverstellter Blick": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Vollendeter Elementarist": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Zauberkämpfer": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Tradition (Ifirnkirche)": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Schutz gegen Kälte": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Keulenweihe (Nivesen)": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Freundschaft des Tieres (Nivesen)": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Keulenwurf (Nivesen)": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Wolfskraft": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Göttlicher Schutz": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Jägerinnen der weißen Maid": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Medizinleute": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Gebieter des ( )": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Geistergefäß": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Gesunder Geist, gesunder Körper": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Harmonie der Seele": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Heilritus": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Kältegewöhnung": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Wohlklang der Seele": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Waffen versilbern": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Zusammenarbeit": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Blick des Nachtmahrs": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Blutdurst der Fledermaus": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Kuss der Todesfee": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Macht des Sukkubus": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Sikaryan-Gespür": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
-  "Intelligentes Werwesen": {
-    "source": [
-      "wolfsfrost"
+      "worldwanderer"
     ]
   }
 }

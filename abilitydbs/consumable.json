@@ -175,7 +175,8 @@
   },
   "Atanax": {
     "source": [
-      "herbarium"
+      "herbarium",
+      "wolfsfrost"
     ]
   },
   "Brandsalbe": {
@@ -214,11 +215,6 @@
     ]
   },
   "Talaschin-Tinktur": {
-    "source": [
-      "herbarium"
-    ]
-  },
-  "Wirseltrank": {
     "source": [
       "herbarium"
     ]
@@ -348,7 +344,8 @@
   },
   "Tarnelixier": {
     "source": [
-      "herbarium2"
+      "herbarium2",
+      "worldwanderer"
     ]
   },
   "Techtals Elixier": {
@@ -440,6 +437,11 @@
   "Versilberungstrank": {
     "source": [
       "wolfsfrost"
+    ]
+  },
+  "Tarnelixier (Zze Tha)": {
+    "source": [
+      "worldwanderer"
     ]
   }
 }

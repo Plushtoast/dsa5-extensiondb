@@ -77,12 +77,6 @@
       "desertkingdom"
     ]
   },
-  "Ifirnsmantel": {
-    "source": [
-      "goetterwirken",
-      "wolfsfrost"
-    ]
-  },
   "Die Wundersame Rüstung": {
     "source": [
       "goetterwirken2"
@@ -99,13 +93,7 @@
       "sevenwindscoast"
     ]
   },
-  "Leichte Shakagra-Platte": {
-    "source": [
-      "klingendernacht",
-      "wolfsfrost"
-    ]
-  },
-  "Schwere Shakagra-Plattenrüstung": {
+  "Anaurak": {
     "source": [
       "klingendernacht",
       "wolfsfrost"
@@ -117,11 +105,6 @@
     ]
   },
   "Giftkammpanzer (Szint’ssitt)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Eidechsenkleidung": {
     "source": [
       "lizardswamps"
     ]
@@ -191,19 +174,29 @@
       "winterwatch"
     ]
   },
-  "Anaurak": {
-    "source": [
-      "wolfsfrost"
-    ]
-  },
   "Eisenkragen": {
     "source": [
       "wolfsfrost"
     ]
   },
-  "Fellrüstung": {
+  "Drachenschuppenrüstung": {
     "source": [
-      "wolfsfrost"
+      "worldwanderer"
+    ]
+  },
+  "Symbiontische Rüstung": {
+    "source": [
+      "worldwanderer"
+    ]
+  },
+  "Magische Lederrüstung der Gesichtslosen": {
+    "source": [
+      "worldwanderer"
+    ]
+  },
+  "Lederrüstung der Gesichtslosen": {
+    "source": [
+      "worldwanderer"
     ]
   }
 }
