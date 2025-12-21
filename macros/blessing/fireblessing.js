@@ -6,13 +6,13 @@ const lang = (game?.i18n?.lang === "en") ? "en" : "de";
 // --- Übersetzungs-Dictionary (deutsch/englisch) ---
 const dict = {
   de: {
-    itemName: "Licht",
+    itemName: "Feuersegen",
     noTokens: (name) => `Der Actor ${name} hat keine aktiven Tokens auf der Szene.`,
     noKap: (name) => `Dein kontrollierter Token (${name}) verfügt nicht über Karmaenergie.`,
     notEnoughKap: (name) => `Nicht genügend Karmaenergie bei ${name}.`
   },
   en: {
-    itemName: "Light",
+    itemName: "Fire Blessing",
     noTokens: (name) => `The actor ${name} has no active tokens on the scene.`,
     noKap: (name) => `Your controlled token (${name}) does not have karma energy.`,
     notEnoughKap: (name) => `Not enough karma energy for ${name}.`

@@ -52,18 +52,23 @@ if (!targetActor) {
 await userActor.update({ "system.status.karmaenergy.value": kapObject.value - 1 });
 
 const effectData = {
-    name: dict.effectName,
-    icon: "icons/svg/aura.svg",   
-    duration: {
-        seconds: 43200               
-    },
-    changes: [
-        {
-            key: "system.carryModifier", 
-            mode: 2,
-            value: "1, -1"
-        }
-    ]
+  name: dict.effectName,
+  icon: "icons/svg/aura.svg",
+  duration: {
+    seconds: 43200
+  },
+  changes: [
+    {
+      key: "system.skillModifiers.postRoll.reroll",
+      mode: 0,
+      value: `knowledge 1`
+    }
+  ],
+  flags: {
+    dsa5: {
+      charges: { max: 1, value: 1 }
+    }
+  }
 };
 
 await targetActor.createEmbeddedDocuments("ActiveEffect", [effectData]);

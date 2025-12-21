@@ -9,7 +9,8 @@ const dict = {
     onlySingleTarget: "Bitte genau ein Ziel anvisieren.",
     targetNoActor: "Das Ziel ist kein Akteur.",
     strengthMessage: (user, target) => { return `<p>${user} spricht einen Stärkungssegen auf ${target}.</p>` },
-    effectName: "Stärkungssegen"
+    effectName: "Stärkungssegen",
+    skillName: "Selbstbeherrschung"
   },
   en: {
     noKap: (name) => { return `${name} does not have karma energy.` },
@@ -17,7 +18,8 @@ const dict = {
     onlySingleTarget: "Please target exactly one target.",
     targetNoActor: "The target is not an actor.",
     strengthMessage: (user, target) => { return `<p>${user} casts a strength blessing on ${target}.</p>` },
-    effectName: "Strength Blessing"
+    effectName: "Strength Blessing",
+    skillName: "Self-Control"
   }
 }[lang];
 
@@ -52,18 +54,23 @@ if (!targetActor) {
 await userActor.update({ "system.status.karmaenergy.value": kapObject.value - 1 });
 
 const effectData = {
-    name: dict.effectName,
-    icon: "icons/svg/aura.svg",   
-    duration: {
-        seconds: 72               
-    },
-    changes: [
-        {
-            key: "system.carryModifier", 
-            mode: 2,
-            value: "1, -1"
-        }
-    ]
+  name: dict.effectName,
+  icon: "icons/svg/aura.svg",
+  duration: {
+    seconds: 43200
+  },
+  changes: [
+    {
+      key: "system.skillModifiers.postRoll.reroll",
+      mode: 0,
+      value: `${dict.skillName} 1`
+    }
+  ],
+  flags: {
+    dsa5: {
+      charges: { max: 1, value: 1 }
+    }
+  }
 };
 
 await targetActor.createEmbeddedDocuments("ActiveEffect", [effectData]);

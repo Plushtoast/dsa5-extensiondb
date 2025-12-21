@@ -1,5 +1,5 @@
 # Summary
-last_updated: 2025-10-21 09:33:45
+last_updated: 2025-10-21 19:12:35
 
 | Book | Status | % |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ last_updated: 2025-10-21 09:33:45
 | [Bestiary](#bestiary) | 29/33 | 87.88% |
 | [Bestiary2](#bestiary2) | 14/25 | 56.0% |
 | [Broodofhell](#broodofhell) | 50/67 | 74.63% |
-| [Catacombs](#catacombs) | 0/11 | 0.0% |
+| [Catacombs](#catacombs) | 2/11 | 18.18% |
 | [Companions](#companions) | 82/111 | 73.87% |
 | [Compendium](#compendium) | 249/288 | 86.46% |
 | [Compendium2](#compendium2) | 258/344 | 75.0% |
@@ -48,7 +48,7 @@ last_updated: 2025-10-21 09:33:45
 | [Retosarmory](#retosarmory) | 61/105 | 58.1% |
 | [Revelations](#revelations) | 3/3 | 100.0% |
 | [Riverlands](#riverlands) | 107/184 | 58.15% |
-| [Scalytyrants](#scalytyrants) | 17/41 | 41.46% |
+| [Scalytyrants](#scalytyrants) | 18/41 | 43.9% |
 | [Sevenwindscoast](#sevenwindscoast) | 98/186 | 52.69% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
@@ -63,15 +63,15 @@ last_updated: 2025-10-21 09:33:45
 | [Wolfsfrost](#wolfsfrost) | 117/222 | 52.7% |
 | [Worldwanderer](#worldwanderer) | 4/25 | 16.0% |
 | --- | --- | --- |
-| Total | 4959/7913 | 62.67% |
+| Total | 4962/7913 | 62.71% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 186/267 | 69.66% |
+| Advantage | 187/267 | 70.04% |
 | Armors | 108/152 | 71.05% |
 | Ceremony | 121/212 | 57.08% |
-| Consumable | 31/132 | 23.48% |
+| Consumable | 33/132 | 25.0% |
 | Disadvantage | 116/142 | 81.69% |
 | Liturgy | 260/350 | 74.29% |
 | Meleeweapons | 494/737 | 67.03% |
@@ -1173,7 +1173,7 @@ Total status:  50/67 (74.63%)
 
 
 ## Catacombs
-Total status:  0/11 (0.0%)
+Total status:  2/11 (18.18%)
 
 
 ### Specialability
@@ -1188,8 +1188,8 @@ Total status:  0/11 (0.0%)
 
 ### Consumable
 
-- [ ] Eulentränen
-- [ ] Kaltes Licht
+- [x] Eulentränen
+- [x] Kaltes Licht
 - [ ] Leuchtkreide
 - [ ] Pyrophor
 - [ ] Trunk der ruhigen Hand
@@ -7324,7 +7324,7 @@ Total status:  107/184 (58.15%)
 
 
 ## Scalytyrants
-Total status:  17/41 (41.46%)
+Total status:  18/41 (43.9%)
 
 
 ### Specialability
@@ -7361,7 +7361,7 @@ Total status:  17/41 (41.46%)
 - [ ] Drachenschwanz
 - [x] Drachenzaubermacht
 - [ ] Dreistrahl
-- [ ] Elementarhand
+- [x] Elementarhand
 - [ ] Gedankensprache
 - [x] Kraft des Drachen
 - [ ] Majestätsstimme
