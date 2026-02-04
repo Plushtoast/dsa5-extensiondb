@@ -1,9 +1,7 @@
 // This is a system macro used for automation. It is disfunctional without the proper context.
 
-
 const lang = game.i18n.lang == "de" ? "de" : "en";
 const { getProperty: getProp, duplicate: dup, mergeObject: mergeObj } = foundry.utils;
-
 
 const dict = {
   de: {
@@ -35,7 +33,22 @@ const dict = {
     mainRequired: "Bitte wähle zuerst ein Modifikationspaket (Lebender Leichnam, Skelett oder Mumie).",
     extraOnlyOne: "Bitte wähle höchstens ein Zusatzpaket.",
     pleaseDropUndead: "Bitte zuerst einen Untoten (Hirnloser) via Drag & Drop auswählen.",
-    createdMulti: (name, count) => `<b>${name}</b> wurde ${count}x beschworen.`
+    createdMulti: (name, count) => `<b>${name}</b> wurde ${count}x beschworen.`,
+    guideText: `<p style="margin:0 0 8px 0;">Zunächst musst du den Todeszustand der Leiche oder des Kadavers bestimmen. Entweder handelt es sich um die Kategorie <b>Lebender Leichnam</b> (es ist also noch ausreichend Fleisch auf den Knochen vorhanden), <b>Skelett</b> (nur noch Knochen) oder <b>Mumie</b> (konservierte Leiche).</p><p style="margin:0 0 8px 0;">Die Zustandspakete geben an, wie die Werte des lebendigen Wesens zu modifizieren sind. Möchte man also z. B. das Skelett eines Trolls erheben, so werden die Werte des Trolls mit den entsprechenden Werten aus dem Modifikationspaket modifiziert.</p><p style="margin:0 0 8px 0;">Der Eintrag <b>neu</b> in den Paketbeschreibungen bedeutet, dass dieser Wert anstelle des alten Werts des Lebewesens eingesetzt wird.</p><p style="margin:0;">Wenn ein Kadaver noch weitere Zustandsmerkmale aufweist, kommen noch die weiteren Modifikatoren hinzu (z. B. <b>Brandleichnam</b>).</p>`,
+    packLebender: "Lebender Leichnam",
+    packSkelett: "Skelett",
+    packMumie: "Mumie",
+    packBrand: "Brandleiche/Brandkadaver",
+    packEis: "Eisleiche/Eiskadaver",
+    packKadaver: "Lebender Leichnam/Kadaver",
+    packMoor: "Moorleiche/Moorkadaver",
+    packWasser: "Wasserleiche/Wasserkadaver",
+    packSkelettErhalten: "Erhaltenes Skelett",
+    packSkelettReste: "Skelett mit Sehnen und Fleischresten",
+    packBandagen: "Bandagenmumie",
+    packGetrocknet: "Getrocknete Mumie",
+    packWachs: "Wachsmumie",
+    packIncomplete: "Unvollständiger Körper"
   },
   en: {
     title: "Retro Elixir: Reanimation",
@@ -66,7 +79,22 @@ const dict = {
     mainRequired: "Please select a main modification package first (Living Corpse, Skeleton or Mummy).",
     extraOnlyOne: "Please select at most one extra package.",
     pleaseDropUndead: "Please drag & drop an Undead (Mindless) actor first.",
-    createdMulti: (name, count) => `<b>${name}</b> has been summoned ${count}x.`
+    createdMulti: (name, count) => `<b>${name}</b> has been summoned ${count}x.`,
+    guideText: `<p style="margin:0 0 8px 0;">First, you must determine the state of death of the corpse or carcass. It is either the category <b>Living Corpse</b> (there is still enough flesh on the bones), <b>Skeleton</b> (bones only) or <b>Mummy</b> (preserved corpse).</p><p style="margin:0 0 8px 0;">The state packages indicate how the values of the living being are to be modified. For example, if you want to raise the skeleton of a troll, the troll's values are modified with the corresponding values from the modification package.</p><p style="margin:0 0 8px 0;">The entry <b>new</b> in the package descriptions means that this value is used instead of the old value of the living being.</p><p style="margin:0;">If a carcass has other state characteristics, the other modifiers are added (e.g., <b>Burnt Corpse</b>).</p>`,
+    packLebender: "Living Corpse",
+    packSkelett: "Skeleton",
+    packMumie: "Mummy",
+    packBrand: "Burnt Corpse/Carcass",
+    packEis: "Ice Corpse/Carcass",
+    packKadaver: "Living Corpse/Carcass",
+    packMoor: "Bog Body/Carcass",
+    packWasser: "Drowned Corpse/Carcass",
+    packSkelettErhalten: "Preserved Skeleton",
+    packSkelettReste: "Skeleton with Tendons and Flesh Scraps",
+    packBandagen: "Bandaged Mummy",
+    packGetrocknet: "Dried Mummy",
+    packWachs: "Wax Mummy",
+    packIncomplete: "Incomplete Body"
   }
 }[lang];
 
@@ -192,7 +220,7 @@ function buildVisibilityToggleEffectForTokenWithSeconds(tokenDoc, seconds, willB
     "await game.socket.emit('world', { type: 'updateDocument', documentType: 'Token', scope: 'world', collection: 'tokens', data: { _id: tokenId, hidden: newHidden }, options: { diff: true }, parent: { type: 'Scene', id: sceneId } }); }";
 
   return {
-    name: lang === "de" ? "Zeit zur Reanimation" : "Zeit zur Reanimation",
+    name: lang === "de" ? "Zeit zur Reanimation" : "Time for Reanimation",
     icon: "icons/svg/clockwork.svg",
     duration: { seconds, startTime: game.time.worldTime },
     flags: { dsa5: { description: "Sichtbarkeitstimer", onRemove: onRemoveCode } },
@@ -208,11 +236,12 @@ const initialTargetActor = initialTarget?.actor || null;
 
 let initialIsDefeated = false;
 if (initialTargetActor) {
-  initialIsDefeated =
-    !!(initialTarget?.document?.combatant?.defeated ?? false) ||
-    !!initialTargetActor?.effects?.some(e =>
-      e?.getFlag?.("core", "statusId") === "defeated" ||
-      e?.name?.toLowerCase?.() === "besiegt"
+  initialIsDefeated = 
+    !!(initialTarget?.document?.combatant?.defeated) || 
+    (initialTargetActor.statuses && (initialTargetActor.statuses.has("dead") || initialTargetActor.statuses.has("defeated"))) ||
+    initialTargetActor.effects.some(e => 
+      e.getFlag("core", "statusId") === "defeated" || 
+      ["besiegt", "defeated", "dead"].includes(e.name?.toLowerCase())
     );
 }
 
@@ -234,29 +263,29 @@ const sizeOptionsHtml = sizeMap.map(({ value }) => {
 /* Paket-Definition */
 const PACKS = {
   main: [
-    { key: "lebender", name: "Lebender Leichnam",  uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.kLbStO87YJC1MGl9", hasBaseItem: true },
-    { key: "skelett",  name: "Skelett",            uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.fLsAlG18Irm33WbE", hasBaseItem: true },
-    { key: "mumie",    name: "Mumie",              uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.4up7Ds2u1bvNW4r0", hasBaseItem: true },
+    { key: "lebender", name: dict.packLebender,  uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.kLbStO87YJC1MGl9", hasBaseItem: true },
+    { key: "skelett",  name: dict.packSkelett,   uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.fLsAlG18Irm33WbE", hasBaseItem: true },
+    { key: "mumie",    name: dict.packMumie,     uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.4up7Ds2u1bvNW4r0", hasBaseItem: true },
   ],
   extraByMain: {
     lebender: [
-      { name: "Brandleiche/Brandkadaver",    uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.jLdazNiUxNrjUFUd" },
-      { name: "Eisleiche/Eiskadaver",        uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.QV0J2XQTPD2bpGw2" },
-      { name: "Lebender Leichnam/Kadaver",   uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.t5Qd4ZQSJdvR659n" },
-      { name: "Moorleiche/Moorkadaver",      uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.ZYsbRLmnahm5EW4o" },
-      { name: "Wasserleiche/Wasserkadaver",  uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.LtkGA5O3nQHtxMlC" },
+      { name: dict.packBrand,   uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.jLdazNiUxNrjUFUd" },
+      { name: dict.packEis,     uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.QV0J2XQTPD2bpGw2" },
+      { name: dict.packKadaver, uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.t5Qd4ZQSJdvR659n" },
+      { name: dict.packMoor,    uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.ZYsbRLmnahm5EW4o" },
+      { name: dict.packWasser,  uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.LtkGA5O3nQHtxMlC" },
     ],
     skelett: [
-      { name: "Erhaltenes Skelett",                   uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.W9mFlprSHb65Klud" },
-      { name: "Skelett mit Sehnen und Fleischresten", uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.ajUph5iJBrrN0896" },
+      { name: dict.packSkelettErhalten, uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.W9mFlprSHb65Klud" },
+      { name: dict.packSkelettReste,    uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.ajUph5iJBrrN0896" },
     ],
     mumie: [
-      { name: "Bandagenmumie",       uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.xDikAnIGFY8OD7jG" },
-      { name: "Getrocknete Mumie",   uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.pkXs6We3MAAy8qdD" },
-      { name: "Wachsmumie",          uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.nwRLzzP90kPw4rp4" },
+      { name: dict.packBandagen,    uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.xDikAnIGFY8OD7jG" },
+      { name: dict.packGetrocknet,  uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.pkXs6We3MAAy8qdD" },
+      { name: dict.packWachs,       uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.nwRLzzP90kPw4rp4" },
     ],
   },
-  incompleteBody: { name: "Unvollständiger Körper", uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.tlSRaMhVPBUBGz9Q" },
+  incompleteBody: { name: dict.packIncomplete, uuid: "Compendium.dsa5-necromantheum.necromantheumequipment.Item.tlSRaMhVPBUBGz9Q" },
 };
 
 /* Hinweis-Block */
@@ -363,12 +392,11 @@ const dlg = new Dialog({
         const sameAsTarget = !!currTargetActor && (guiActor?.uuid === currTargetActor?.uuid);
 
         if (sameAsTarget) {
-          // Kopie des Ziel-Akteurs: initial hidden (wie gehabt)
           const { x, y } = currTarget;
           let protoObj = {};
           try { protoObj = currTargetActor.prototypeToken?.toObject?.() ?? {}; } catch (e) {}
           const img = currTargetActor.prototypeToken?.texture?.src || currTargetActor.img || "icons/svg/mystery-man-black.svg";
-          const spawnedName = `${currTargetActor.name} (reanimiert)`;
+          const spawnedName = `${currTargetActor.name} (${lang === "de" ? "reanimiert" : "reanimated"})`;
 
           const tokenData = mergeObj(
             dup(protoObj),
@@ -435,9 +463,12 @@ const dlg = new Dialog({
 
           try {
             const originalClass = (readClassValueString(currTargetActor) || "").trim().toLowerCase();
-            let newClass = "Untoter (Hirnloser)";
-            if (originalClass === "tier, nicht humanoid") newClass = "Untoter (Hirnloser), nicht humanoid";
-            else if (originalClass === "kulturschaffender, humanoid") newClass = "Untoter (Hirnloser), humanoid";
+            let newClass = lang === "de" ? "Untoter (Hirnloser)" : "Undead (Mindless)";
+            if (originalClass.includes("humanoid") && originalClass.includes("nicht")) {
+               newClass += lang === "de" ? ", nicht humanoid" : ", non-humanoid";
+            } else if (originalClass.includes("humanoid")) {
+               newClass += lang === "de" ? ", humanoid" : ", humanoid";
+            }
             await updateActorWithSockets(newActor, { "system.creatureClass.value": newClass });
           } catch (e) {}
 
@@ -467,7 +498,6 @@ const dlg = new Dialog({
 
           return true;
         } else {
-          // GUI≠Ziel: initial hidden + Timer nach 1W6 KR sichtbar
           async function createCreature(actorDoc) {
             const currentActorToken = actor.token ? actor.token : actor.getActiveTokens()[0];
             const baseX = currentActorToken ? currentActorToken.x : (currTarget?.x ?? 0);
@@ -476,7 +506,7 @@ const dlg = new Dialog({
               name: actorDoc.name,
               x: baseX,
               y: baseY,
-              hidden: true,                                // NEU: initial unsichtbar
+              hidden: true,
               actorLink: false,
               texture: { src: actorDoc.prototypeToken?.texture?.src || actorDoc.img || "icons/svg/mystery-man-black.svg" },
               delta: { ownership: actor.ownership }
@@ -505,7 +535,6 @@ const dlg = new Dialog({
           }
           const creations = updates.length ? await canvas.scene.updateEmbeddedDocuments("Token", updates) : createdTokens;
 
-          // Pro Actor: Skill + QS-Effekt + LP Max
           for (let tok of creations) {
             const createdActor = tok.actor;
             try { await addSkillLoyalitaetUntot(createdActor); } catch (e) {}
@@ -520,7 +549,6 @@ const dlg = new Dialog({
               await updateActorWithSockets(createdActor, { "system.status.wounds.value": maxL });
             } catch (e) {}
 
-            // NEU: Sichtbarkeitstimer 1W6 KR -> danach sichtbar
             const rKR = await (new Roll("1d6")).evaluate();
             const visSeconds = rKR.total * 6;
             try {
@@ -571,6 +599,12 @@ const dlg = new Dialog({
         else if (v === "average" || v === "mittel") text = "Es wird eine Portion des Elixiers benötigt.";
         else if (v === "big" || v === "groß") text = "Es werden 2 Portionen des Elixiers benötigt.";
         else if (v === "giant" || v === "riesig") text = "Es werden 4 Portionen des Elixiers benötigt.";
+      } else {
+        if (v === "tiny") text = "0.25 portions of elixir required.";
+        else if (v === "small") text = "0.5 portions of elixir required.";
+        else if (v === "average") text = "1 portion of elixir required.";
+        else if (v === "big") text = "2 portions of elixir required.";
+        else if (v === "giant") text = "4 portions of elixir required.";
       }
       if (sizeDisplayEl) sizeDisplayEl.textContent = text;
     }
@@ -580,26 +614,7 @@ const dlg = new Dialog({
       const contEl = document.getElementById("guide-content");
       if (legendEl) legendEl.textContent = dict.infoLegend;
       if (contEl) {
-        contEl.innerHTML = `
-          <p style="margin:0 0 8px 0;">
-            Zunächst musst du den Todeszustand der Leiche oder des Kadavers bestimmen.
-            Entweder handelt es sich um die Kategorie <b>Lebender Leichnam</b> (es ist also
-            noch ausreichend Fleisch auf den Knochen vorhanden), <b>Skelett</b> (nur noch Knochen)
-            oder <b>Mumie</b> (konservierte Leiche).
-          </p>
-          <p style="margin:0 0 8px 0;">
-            Die Zustandspakete geben an, wie die Werte des lebendigen Wesens zu modifizieren sind.
-            Möchte man also z. B. das Skelett eines Trolls erheben, so werden die Werte des Trolls
-            mit den entsprechenden Werten aus dem Modifikationspaket modifiziert.
-          </p>
-          <p style="margin:0 0 8px 0;">
-            Der Eintrag <b>neu</b> in den Paketbeschreibungen bedeutet, dass dieser Wert anstelle des alten Werts des Lebewesens eingesetzt wird.
-          </p>
-          <p style="margin:0;">
-            Wenn ein Kadaver noch weitere Zustandsmerkmale aufweist, kommen noch die weiteren Modifikatoren hinzu
-            (z. B. <b>Brandleichnam</b>).
-          </p>
-        `;
+        contEl.innerHTML = dict.guideText;
       }
     }
 
@@ -622,11 +637,12 @@ const dlg = new Dialog({
               const t = tArr[0];
               const tActor = t?.actor;
               if (!tActor) { ui.notifications.warn(dict.targetNoActor); return; }
-              const defeated =
-                !!(t.document?.combatant?.defeated ?? false) ||
-                !!tActor?.effects?.some(e =>
-                  e?.getFlag?.("core", "statusId") === "defeated" ||
-                  e?.name?.toLowerCase?.() === "besiegt"
+              const defeated = 
+                !!(t.document?.combatant?.defeated) || 
+                (tActor.statuses && (tActor.statuses.has("dead") || tActor.statuses.has("defeated"))) ||
+                tActor.effects.some(e => 
+                  e.getFlag("core", "statusId") === "defeated" || 
+                  ["besiegt", "defeated", "dead"].includes(e.name?.toLowerCase())
                 );
               if (!defeated) { ui.notifications.info(dict.notDefeated); return; }
               shownActor = tActor;
@@ -675,7 +691,7 @@ const dlg = new Dialog({
     } else {
       if (imgEl) imgEl.src = "icons/svg/mystery-man-black.svg";
       if (nameEl) { nameEl.textContent = dict.nameEmpty; nameEl.dataset.uuid = ""; }
-      if (typeEl) typeEl.textContent = "";
+      if (typeEl) { typeEl.textContent = ""; }
       updateElixirPortionsText(sizeSelEl?.value);
       renderCreationGuideWithButton();
       if (mainPackFieldset) mainPackFieldset.style.display = "none";
@@ -742,7 +758,6 @@ const dlg = new Dialog({
     const incToggle = html.find("#incomplete-body-toggle")[0];
     if (incToggle) incToggle.checked = false;
 
-    // Drag & Drop: nur Untoter (Hirnloser)
     const dropZone = html.find("#drop-zone")[0];
     if (dropZone) {
       dropZone.addEventListener("dragover", ev => ev.preventDefault());
@@ -765,7 +780,7 @@ const dlg = new Dialog({
           if (!droppedActor) { ui.notifications.warn(dict.invalidDrop); return; }
 
           const ccv = (readClassValueString(droppedActor) || "").trim().toLowerCase();
-          const allowed = ccv.startsWith("untoter (hirnloser");
+          const allowed = ccv.startsWith(lang === "de" ? "untoter (hirnloser" : "undead (mindless");
           if (!allowed) { ui.notifications.warn(dict.invalidDropType); return; }
 
           shownActor = droppedActor;
