@@ -1,0 +1,43 @@
+<<style>
+    .savant-dialog .dieButton { border: 2px solid transparent; border-radius: 5px; padding: 2px; transition: all 0.2s ease; display: inline-block; }
+    .savant-dialog .dieButton.reroll-selected { border-color: #004a99; box-shadow: 0 0 10px #0073e6; background-color: rgba(0, 115, 230, 0.1); }
+    .savant-dialog .die-group { min-width: 60px; }
+</style>
+
+<div class="savant-dialog">
+    <div class="description">{{{description}}}</div>
+    <hr>
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item active" data-tab="reroll">{{localize "SAVANT.reroll"}}</a>
+        <a class="item" data-tab="addFP">{{localize "SAVANT.addFP"}}</a>
+        <a class="item" data-tab="improve">{{localize "SAVANT.improveRoll"}}</a>
+    </nav>
+    <section class="content" style="padding: 10px 0;">
+        <div class="dice-display" style="display: flex; justify-content: center; margin-bottom: 10px; gap: 10px;">
+            {{#each dice as |die|}}
+            <div class="die-group" data-index="{{die.index}}" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+                <input type="checkbox" class="reroll-checkbox" data-index="{{die.index}}" style="display:none;">
+                <a class="dieButton" data-index="{{die.index}}">
+                    <span data-tooltip="{{die.tooltip}}" class="{{die.cssClass}} die-{{die.attr}} d20">{{die.value}}</span>
+                </a>
+                <div class="improve-controls" style="display:none; margin-top: 5px;">
+                    <a class="improve-btn up" style="cursor:pointer;"><i class="fas fa-chevron-up"></i></a>
+                    <a class="improve-btn down" style="cursor:pointer;"><i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="add-fp-controls" style="display:none; text-align: center;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <label style="margin-right: 10px;">{{localize "MODS.FW"}}: </label>
+                <input type="number" class="fp-input" value="0" min="0" style="width: 50px; text-align: center;">
+            </div>
+        </div>
+        <div class="result-preview" style="margin-top: 15px; border-top: 1px solid #ccc; padding-top: 5px;">
+            <div><strong>{{localize "SAVANT.skillValuePreview"}}:</strong> <span class="fw-preview">{{result}}</span></div>
+            <div><strong>{{localize "SAVANT.qsPreview"}}:</strong> <span class="qs-preview">{{qualityStep}}</span></div>
+            <div style="color: darkred;"><strong>{{localize "SAVANT.cost"}}:</strong> <span class="asp-cost">0</span> {{localize "SAVANT.aspUnit"}}</div>
+            <div><strong>{{localize "SAVANT.currentAsP"}}:</strong> {{currentAsP}}</div>
+        </div>
+    </section>
+</div>
