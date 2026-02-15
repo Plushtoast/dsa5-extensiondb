@@ -1,51 +1,68 @@
+window.GK_ACTIVE_ROLL = false;
+
+Hooks.once('ready', () => {
+    if (!game.dsa5) return;
+    const originalRollTest = game.dsa5.apps.DiceDSA5.rollTest;
+
+    game.dsa5.apps.DiceDSA5.rollTest = function(testData, ...args) {
+        if (window.GK_ACTIVE_ROLL || (testData.extra && testData.extra.isCommonKnowledge)) {
+            testData.routine = true;
+            testData.fw = 0;
+            if (testData.source?.system?.talentValue) {
+                testData.source.system.talentValue.value = 0;
+            }
+            testData.modifier = 0;
+            testData.testDifficulty = 0;
+            testData.situationalModifiers = [];
+            
+            if (testData.extra?.skillModifiers) {
+                testData.extra.skillModifiers.ql = 0;
+                testData.extra.skillModifiers.step = 0;
+            }
+            window.GK_ACTIVE_ROLL = false;
+        }
+        return originalRollTest.apply(this, [testData, ...args]);
+    };
+});
+
 Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
-    const { actor, source, testData, formData, dialog } = dialogState;
-
+    const { actor, source, testData, dialog } = dialogState;
     const sfName = game.i18n.localize('COMMON_KNOWLEDGE.abilityName');
-    const menuLabel = game.i18n.localize('COMMON_KNOWLEDGE.menuLabel');
     
-    // Prüfung auf Wissenstalent und Sonderfertigkeit
     if (source?.type !== 'skill' || source.system?.group?.value !== 'knowledge') return;
-
-    const hasAbility = actor.items.some(item => 
-        item.type === "specialability" && item.name.includes(sfName)
-    );
-    if (!hasAbility) return;
-
-    // Erschwernis-Check (max -3)
-    const difficultyMod = game.dsa5.config.skillDifficultyModifiers[formData.testDifficulty] || 0;
-    const currentModifier = (Number(formData.modifier) || 0) + difficultyMod;
-    if (currentModifier < -3) return;
+    if (!actor.items.some(i => i.type === "specialability" && i.name.includes(sfName))) return;
 
     menuItems.push({
-        name: menuLabel,
-        icon: '<i class="fas fa-book"></i>',
+        name: game.i18n.localize('COMMON_KNOWLEDGE.menuLabel'),
+        icon: '<i class="fas fa-book-open"></i>',
         callback: async () => {
-            // Routine-Logik mit überschriebenem Talentwert (FW 0 für QS 1)
-            testData.routine = true;
-            testData.opposable = false;
-            testData.source.system.talentValue.value = 0; 
-            testData.title = `${source.name} (${sfName})`;
-
-            foundry.utils.mergeObject(testData.extra.options, {
-                cheat: true,
-                predefinedResult: [
-                    { val: 2, index: 0 },
-                    { val: 2, index: 1 },
-                    { val: 2, index: 2 }
-                ]
+            const html = $(dialog.element);
+            const diffKey = html.find('[name="testDifficulty"]').val();
+            const modBase = (game.dsa5.config.skillDifficultyModifiers && game.dsa5.config.skillDifficultyModifiers[diffKey]) || 0;
+            const manualMod = Number(html.find('[name="testModifier"]').val()) || 0;
+            const visionMod = Number(html.find('[name="vision"]').val()) || 0;
+            
+            let situationalMod = 0;
+            html.find('[name="situationalModifiers"] option:selected').each(function() {
+                const val = $(this).val();
+                if (val && !val.includes('|')) situationalMod += (Number(val) || 0);
             });
 
-            // Simulation des Klicks auf den echten Roll-Button
-            const rollButton = $(dialog.element).find('button[data-action="nonOpposedButton"], button[data-action="rollButton"]').first();
-            
-            if (rollButton.length > 0) {
-                rollButton.click();
-            } else {
-                $(dialog.element).find('form').submit();
+            if ((modBase + manualMod + visionMod + situationalMod) <= -3) {
+                const warnText = game.i18n.has('COMMON_KNOWLEDGE.tooDifficult') 
+                    ? game.i18n.localize('COMMON_KNOWLEDGE.tooDifficult') 
+                    : "Die Probe ist zu schwer.";
+                return ui.notifications.warn(warnText);
             }
 
-            setTimeout(() => dialog.close(), 100);
+            window.GK_ACTIVE_ROLL = true;
+            testData.extra.isCommonKnowledge = true;
+
+            const rollButton = html.find('button[data-action="nonOpposedButton"], button[data-action="rollButton"]').first();
+            if (rollButton.length > 0) rollButton.click();
+            else html.find('form').submit();
+
+            setTimeout(() => dialog.close(), 50);
         }
     });
 });
