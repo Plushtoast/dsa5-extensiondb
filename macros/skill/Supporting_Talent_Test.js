@@ -1,11 +1,3 @@
-/**
- * SUPPORTING_CHECK.js
- * Inklusive Überprüfung auf bereits vorhandene Boni.
- */
-
-console.error("%c >>> SUPPORT-SCRIPT: AKTIVIERT (Inkl. Dubletten-Check) <<< ", "background: #800; color: #fff; font-size: 14px;");
-
-// --- NEU: Hilfsfunktion zur Überprüfung des DOM ---
 function checkModifierApplied(dialogHtml, searchString) {
     return $(dialogHtml).find('select[name="situationalModifiers"] option').filter(function() {
         return $(this).text().includes(searchString);
