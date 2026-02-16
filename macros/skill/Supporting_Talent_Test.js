@@ -82,7 +82,7 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
         name: game.i18n.localize("SUPPORTING_TEST.menuLabel"),
         icon: '<i class="fas fa-hands-helping"></i>',
         callback: async () => {
-            // --- NEU: Vor dem Öffnen prüfen, ob der Bonus schon im Fenster ist ---
+            // Vor dem Öffnen prüfen, ob der Bonus schon im Fenster ist
             const modifierLabel = game.i18n.localize("SUPPORTING_TEST.modifierLabel");
             if (checkModifierApplied(parentDialog.element, modifierLabel)) {
                 ui.notifications.warn(game.i18n.localize("SUPPORTING_TEST.alreadyApplied"));
