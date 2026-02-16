@@ -1,3 +1,58 @@
+// Hilfsfunktion: Modifikator-Check (Damit nichts doppelt erscheint)
+function checkPraxisApplied(dialogHtml) {
+    return $(dialogHtml).find('select[name="situationalModifiers"] option').filter(function() {
+        return $(this).text().includes("Praxisbezug");
+    }).length > 0;
+}
+
+// Hilfsfunktion: Die robuste Injektion (Damit es interaktiv bleibt)
+function injectSituationalModifierField(targetDialog, value, tooltip, displayLabel) {
+    const html = $(targetDialog.element);
+    let select = html.find('select[name="situationalModifiers"]');
+
+    if (select.length === 0) {
+        const localizedLabel = game.i18n.localize("situationalModifiers");
+        const finalLabel = (localizedLabel === "situationalModifiers") ? "Bedingte Modifikatoren" : localizedLabel;
+
+        const fieldHtml = `
+            <div class="modifiers form-group" style="flex-grow: 1;">
+                <label>${finalLabel}</label>
+                <div class="form-fields height100">
+                    <select name="situationalModifiers" multiple="" class="height100">
+                        <option value="${value}" selected data-tooltip="${tooltip}" data-type="TPM">${displayLabel}</option>
+                    </select>
+                </div>
+            </div>
+        `;
+        
+        const visionField = html.find('select[name="vision"]').closest('.form-group');
+        if (visionField.length > 0) visionField.before(fieldHtml);
+        else html.find('.talent-test-modifier').append(fieldHtml);
+        
+        select = html.find('select[name="situationalModifiers"]');
+    } else {
+        select.find('option').filter((i, el) => $(el).text().includes("Praxisbezug")).remove();
+        select.append(`<option value="${value}" selected data-tooltip="${tooltip}" data-type="TPM">${displayLabel}</option>`);
+    }
+
+    // Toggle-Verhalten wie im System
+    select.off('mousedown', 'option').on('mousedown', 'option', function(ev) {
+        ev.preventDefault();
+        $(this).prop('selected', !$(this).prop('selected'));
+        if (typeof targetDialog.rememberFormData === "function") {
+            targetDialog.rememberFormData(ev);
+        } else {
+            html.find('form').trigger('change');
+        }
+        return false;
+    });
+
+    // Berechnung im Hauptfenster sofort auslösen
+    if (typeof targetDialog.rememberFormData === "function") {
+        targetDialog.rememberFormData();
+    }
+}
+
 class PracticalApplicationDialog extends Dialog {
     constructor(actor, parentDialog, parentTestData) {
         super({
@@ -11,7 +66,11 @@ class PracticalApplicationDialog extends Dialog {
         this.qs = 0;
         this.rolled = false;
         this.distributionData = [0, 0, 0];
-        this.data.content = `<div id="praxis-wrapper">${this._getInitialHTML()}</div>`;
+        this.updateContent();
+    }
+
+    updateContent() {
+        this.data.content = `<div id="praxis-wrapper">${this.rolled ? this._getDistributionHTML() : this._getInitialHTML()}</div>`;
     }
 
     static get defaultOptions() {
@@ -56,26 +115,24 @@ class PracticalApplicationDialog extends Dialog {
 
     activateListeners(html) {
         super.activateListeners(html);
-        const wrapper = html.find('#praxis-wrapper');
 
         if (!this.rolled) {
-            wrapper.html(this._getInitialHTML());
             html.find('.knowledge-roll-btn').click(async (ev) => {
                 const skillId = ev.currentTarget.dataset.id;
                 const skill = this.actor.items.get(skillId);
+                
                 Hooks.once("postProcessDSARoll", (chatOptions, testData) => {
-                    const rolledId = testData.source?._id || testData.source?.id || testData.preData?.source?._id;
-                    if (String(rolledId) === String(skillId) && testData.successLevel > 0) {
+                    if (testData.successLevel > 0) {
                         this.qs = testData.qualityStep || 0;
                         this.rolled = true;
-                        this.data.content = `<div id="praxis-wrapper">${this._getDistributionHTML()}</div>`;
+                        this.updateContent();
                         this.render(true);
-                    } else if (String(rolledId) === String(skillId)) { this.close(); }
+                    }
                 });
+                
                 this.actor.setupSkill(skill, {}, "roll").then(setupData => { if(setupData) this.actor.basicTest(setupData); });
             });
         } else {
-            wrapper.html(this._getDistributionHTML());
             html.find('.praxis-control').click((ev) => {
                 const idx = $(ev.currentTarget).data('idx');
                 const delta = $(ev.currentTarget).data('delta');
@@ -83,33 +140,21 @@ class PracticalApplicationDialog extends Dialog {
                 let totalUsed = this.distributionData.reduce((a, b) => a + b, 0) - this.distributionData[idx];
                 if (totalUsed + newVal <= this.qs || delta < 0) {
                     this.distributionData[idx] = newVal;
-                    html.find(`.praxis-input[data-idx="${idx}"]`).val(newVal);
+                    this.updateContent();
+                    this.render(true);
                 }
             });
+
+            html.find('.confirm-praxis').click(() => {
+                const tpm = `${this.distributionData[0]}|${this.distributionData[1]}|${this.distributionData[2]}`;
+                const label = `Praxisbezug [${tpm} TPM]`;
+                const tt = `Praxisbezug<br>Teilprobenmodifikator: ${tpm}<br>Quelle: Sonderfertigkeit`;
+                
+                injectSituationalModifierField(this.parentDialog, tpm, tt, label);
+                this.close(); 
+            });
+
             html.find('.cancel-praxis').click(() => this.close());
-            html.find('.confirm-praxis').click(() => this._applyBonuses());
-        }
-    }
-
-    _applyBonuses() {
-        const tpmValues = `${this.distributionData[0]}|${this.distributionData[1]}|${this.distributionData[2]}`;
-        const label = `Praxisbezug [${tpmValues} TPM]`;
-        const tooltip = `Praxisbezug<br>Teilprobenmodifikator: ${tpmValues}<br>Quelle: Sonderfertigkeit`;
-        const select = $(this.parentDialog.element).find('select[name="situationalModifiers"]');
-
-        if (select.length) {
-            select.find('option').filter((i, el) => $(el).text().includes("Praxisbezug")).remove();
-            const option = $('<option></option>')
-                .val(tpmValues)
-                .text(label)
-                .prop('selected', true)
-                .attr('data-type', 'TPM')
-                .attr('data-tooltip', tooltip);
-
-            select.append(option);
-            select.trigger('change');
-            $(this.parentDialog.element).find('form').trigger('change');
-            this.close();
         }
     }
 }
@@ -117,12 +162,19 @@ class PracticalApplicationDialog extends Dialog {
 Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
     const { actor, source, testData, dialog } = dialogState;
     if (source.system?.group?.value === 'knowledge' || source.type !== "skill") return;
+    
     const sfName = game.i18n.localize('LOCAL.praxisbezugAbility');
     if (actor.items.some(i => i.type === "specialability" && i.name.includes(sfName))) {
         menuItems.push({
             name: sfName,
             icon: '<i class="fas fa-lightbulb"></i>',
-            callback: () => new PracticalApplicationDialog(actor, dialog, testData).render(true)
+            callback: () => {
+                if (checkPraxisApplied(dialog.element)) {
+                    ui.notifications.warn(game.i18n.localize("LOCAL.PraxisbezugAlreadyApplied"));
+                    return;
+                }
+                new PracticalApplicationDialog(actor, dialog, testData).render(true);
+            }
         });
     }
 });
