@@ -161,6 +161,7 @@ class PracticalApplicationDialog extends Dialog {
 
 Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
     const { actor, source, testData, dialog } = dialogState;
+    if (!source) return;
     if (source.system?.group?.value === 'knowledge' || source.type !== "skill") return;
     
     const sfName = game.i18n.localize('LOCAL.praxisbezugAbility');
