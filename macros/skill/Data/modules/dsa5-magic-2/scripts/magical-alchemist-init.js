@@ -23,6 +23,11 @@ Hooks.on('getChatMessageContextOptions', (app, options, c) => {
             const data = message?.flags?.data;
             
             if (!data || data.postData?.rollType !== 'talent' || message.flags.dsa5?.magicalAlchemistUsed) return false;
+
+            const talentName = data.preData?.source?.name;
+			const localizedAlchemyName = game.i18n.localize("LocalizedIDs.alchemy");
+            
+            if (talentName !== localizedAlchemyName) return false;
             
             const level = data.postData.successLevel;
             if (level === -1 || level === -3) return false;
