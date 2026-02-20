@@ -11,7 +11,7 @@ Hooks.once('init', async function() {
 Hooks.on('getChatMessageContextOptions', (app, options, c) => {
     options.push({
         name: "SAVANT.name",
-        icon: '<i class="fas fa-magic"></i>',
+         icon: '<img src="systems/dsa5/icons/traditionen/magiedilettanten.webp" style="width: 10px; height: 10px; display: inline-block; vertical-align: middle; margin-left: 2px; margin-right: 10px; border: none; margin-bottom: 0;">',
         condition: (li) => {
             const el = li[0] || li; 
             const message = getMessageFromLi(el);
