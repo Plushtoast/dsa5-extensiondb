@@ -58,4 +58,3 @@ if (macroEffect) {
     };
     source.effects.push(newEffect);
 }
-}
