@@ -1,4 +1,4 @@
-// transform spell source data object
+// This is a system macro used for automation. It is disfunctional without the proper context.
 
 const lang = game.i18n.lang == "de" ? "de" : "en";
 const dict = {
@@ -18,12 +18,9 @@ const afterEffectScript = `
 {
     const effectName = "${dict.effectName}";
     const existing = actor.effects.find(e => e.name === effectName);
-
-    if (!existing) {
-        // Fallback für QS, falls Makro manuell getestet wird
-        const safeQs = (typeof qs !== "undefined") ? qs : 1;
         
-        const dmgVal = "1d3 + " + Math.floor(safeQs / 2);
+    if (!existing) {
+        const dmgVal = "1d3 + " + Math.ceil(qs / 2);
 
         const removeScript = "const damageRoll = await new Roll('" + dmgVal + "').evaluate(); " +
                              "await actor.applyDamage(damageRoll.total); " +
