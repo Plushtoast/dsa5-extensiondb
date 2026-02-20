@@ -1,4 +1,4 @@
-// transform spell source data object
+// This is a system macro used for automation. It is disfunctional without the proper context.
 
 const lang = game.i18n.lang == "de" ? "de" : "en";
 const dict = {
