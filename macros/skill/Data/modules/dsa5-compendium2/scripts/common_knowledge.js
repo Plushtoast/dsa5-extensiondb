@@ -34,7 +34,7 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
 
     menuItems.push({
         name: game.i18n.localize('COMMON_KNOWLEDGE.menuLabel'),
-        icon: '<i class="fas fa-book-open"></i>',
+        icon: '<i class="fa-solid fa-book-open"></i>',
         callback: async () => {
             const html = $(dialog.element);
             const diffKey = html.find('[name="testDifficulty"]').val();
