@@ -53,6 +53,20 @@ export default class MagicalAlchemistDSA5 {
             html.find('.improve-controls, .add-fp-controls').hide();
             if(tab === 'addFP') html.find('.add-fp-controls').show();
             else if (tab === 'improve') html.find('.improve-controls').show();
+
+			html.find('.dieButton').removeClass('reroll-selected');
+            html.find('.reroll-checkbox').prop('checked', false);
+
+            const d20s = roll.terms.filter(t => t.faces === 20);
+            html.find('.die-group').each((i, el) => {
+                const originalVal = d20s[i].results[0].result;
+                const target = postData.characteristics[i].tar;
+                const dieSpan = $(el).find('.dieButton span');
+                
+                dieSpan.text(originalVal);
+                dieSpan.removeClass('fail suc').addClass(originalVal <= target ? 'suc' : 'fail');
+            });
+
             this._updatePreview(html, postData, tab, roll);
         });
 
