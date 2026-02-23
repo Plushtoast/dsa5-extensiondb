@@ -66,14 +66,27 @@ export default class MagicalAlchemistDSA5 {
 
         html.find('.fp-input').on('change keyup', () => this._updatePreview(html, postData, 'addFP', roll));
 
-        html.find('.improve-btn').click(ev => {
+         html.find('.improve-btn').click(ev => {
             const group = $(ev.currentTarget).closest('.die-group');
             const index = group.data('index');
             const dieSpan = group.find('.dieButton span');
             let val = parseInt(dieSpan.text());
             const original = roll.terms.filter(t => t.faces === 20)[index].results[0].result;
+
+            let anotherDieModified = false;
+            html.find('.die-group').each((i, el) => {
+                if (i !== index) {
+                    const currentVal = parseInt($(el).find('.dieButton span').text());
+                    const originalVal = roll.terms.filter(t => t.faces === 20)[i].results[0].result;
+                    if (currentVal < originalVal) anotherDieModified = true;
+                }
+            });
+
+            if (anotherDieModified && $(ev.currentTarget).hasClass('down') && val === original) return;
+
             if ($(ev.currentTarget).hasClass('up') && val < original) val++;
             else if ($(ev.currentTarget).hasClass('down') && val > 1) val--;
+            
             dieSpan.text(val);
             dieSpan.removeClass('fail suc').addClass(val <= postData.characteristics[index].tar ? 'suc' : 'fail');
             this._updatePreview(html, postData, 'improve', roll);
