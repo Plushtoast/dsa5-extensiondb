@@ -49,6 +49,20 @@ export default class SavantDSA5 {
             html.find('.improve-controls, .add-fp-controls').hide();
             if(tab === 'addFP') html.find('.add-fp-controls').show();
             else if (tab === 'improve') html.find('.improve-controls').show();
+
+            html.find('.dieButton').removeClass('reroll-selected');
+            html.find('.reroll-checkbox').prop('checked', false);
+
+            const d20s = roll.terms.filter(t => t.faces === 20);
+            html.find('.die-group').each((i, el) => {
+                const originalVal = d20s[i].results[0].result;
+                const target = postData.characteristics[i].tar;
+                const dieSpan = $(el).find('.dieButton span');
+                
+                dieSpan.text(originalVal);
+                dieSpan.removeClass('fail suc').addClass(originalVal <= target ? 'suc' : 'fail');
+            });
+
             this._updatePreview(html, postData, tab, roll);
         });
 
@@ -64,13 +78,27 @@ export default class SavantDSA5 {
 
         html.find('.improve-btn').click(ev => {
             const group = $(ev.currentTarget).closest('.die-group');
+            const index = group.data('index');
             const dieSpan = group.find('.dieButton span');
             let val = parseInt(dieSpan.text());
-            const original = roll.terms.filter(t => t.faces === 20)[group.data('index')].results[0].result;
+            const original = roll.terms.filter(t => t.faces === 20)[index].results[0].result;
+            
+            let anotherDieModified = false;
+            html.find('.die-group').each((i, el) => {
+                if (i !== index) {
+                    const currentVal = parseInt($(el).find('.dieButton span').text());
+                    const originalVal = roll.terms.filter(t => t.faces === 20)[i].results[0].result;
+                    if (currentVal < originalVal) anotherDieModified = true;
+                }
+            });
+
+            if (anotherDieModified && $(ev.currentTarget).hasClass('down') && val === original) return;
+
             if ($(ev.currentTarget).hasClass('up') && val < original) val++;
             else if ($(ev.currentTarget).hasClass('down') && val > 1) val--;
+            
             dieSpan.text(val);
-            dieSpan.removeClass('fail suc').addClass(val <= postData.characteristics[group.data('index')].tar ? 'suc' : 'fail');
+            dieSpan.removeClass('fail suc').addClass(val <= postData.characteristics[index].tar ? 'suc' : 'fail');
             this._updatePreview(html, postData, 'improve', roll);
         });
     }
