@@ -27,7 +27,7 @@ const spitScript = `
                 { key: "system.status.dodge.gearmodifier", mode: 2, value: -1 },
                 { key: "system.meleeStats.attack", mode: 2, value: -1 },
                 { key: "system.meleeStats.parry", mode: 2, value: -1 },
-                { key: "system.skillModifiers.global", mode: 2, value: -1 }
+                { key: "system.skillModifiers.global", mode: 0, value: -1 }
             ],
             flags: {
                 dsa5: { description: effectName }
