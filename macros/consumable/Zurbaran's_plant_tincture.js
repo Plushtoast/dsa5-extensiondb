@@ -3,9 +3,7 @@ Hooks.once("init", () => {
 
     const TEMPLATE_PATH = "modules/dsa5-herbarium2/templates/zurbaran.hbs";
 
-    // --- HOOKS FÜR DAS ERNTEN (PLÜNDERN) VON PFLANZEN ---
-    
-    // Lauscht darauf, wenn die Menge eines Items reduziert wird (z. B. wenn der Spieler nur 1 Pflanze aus einem Stapel zieht)
+ 
     Hooks.on("preUpdateItem", (item, changes, options, userId) => {
         if (item.type !== "plant" || !item.parent || !item.parent.getFlag("dsa5", "isPlantChimera")) return;
         const newQty = foundry.utils.getProperty(changes, "system.quantity.value");
@@ -13,13 +11,11 @@ Hooks.once("init", () => {
             const oldQty = item.system.quantity.value || 0;
             const diff = oldQty - newQty;
             if (diff > 0) {
-                // Wir merken uns in den temporären Optionen, wie viele Pflanzen abgezogen wurden
                 options.chimeraHarvestDiff = diff;
             }
         }
     });
 
-    // Führt den tatsächlichen Schadensabzug nach der Mengenänderung aus
     Hooks.on("updateItem", async (item, changes, options, userId) => {
         if (game.user.id !== userId || !options.chimeraHarvestDiff) return;
         const diff = options.chimeraHarvestDiff;
@@ -36,13 +32,11 @@ Hooks.once("init", () => {
         ui.notifications.info(`Die Chimäre hat ${diff * 10} LeP durch die Ernte unwiderruflich verloren.`);
     });
 
-    // Lauscht darauf, wenn ein Item komplett gelöscht wird (z. B. wenn der Spieler den ganzen Stapel in sein Inventar zieht)
     Hooks.on("preDeleteItem", (item, options, userId) => {
         if (item.type !== "plant" || !item.parent || !item.parent.getFlag("dsa5", "isPlantChimera")) return;
         options.chimeraHarvestDiff = item.system.quantity.value || 1;
     });
 
-    // Führt den tatsächlichen Schadensabzug nach der Löschung aus
     Hooks.on("deleteItem", async (item, options, userId) => {
         if (game.user.id !== userId || !options.chimeraHarvestDiff) return;
         const diff = options.chimeraHarvestDiff;
@@ -350,9 +344,8 @@ Hooks.once("init", () => {
                     return;
                 }
 
-                // CHIMÄRE WIRD MIT IDENTIFIKATIONS-FLAG ERSTELLT
                 let actorUpdates = {
-                    "flags.dsa5.isPlantChimera": true // Das ist der Anker für die Hooks oben!
+                    "flags.dsa5.isPlantChimera": true
                 };
                 
                 const worldActor = await Actor.create(compendiumActor.toObject());
@@ -447,7 +440,6 @@ Hooks.once("init", () => {
                                 
                                 baseItemObj.system.quantity.value = amounts[i];
                                 
-                                // Fügt die Haltbarkeit (falls Fremdmodul vorhanden) hinzu
                                 if (foundry.utils.hasProperty(baseItemObj, "system.remaining.shelfLife.value")) {
                                     foundry.utils.setProperty(baseItemObj, "system.remaining.shelfLife.value", qs);
                                 }
