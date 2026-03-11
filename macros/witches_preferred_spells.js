@@ -1,16 +1,16 @@
+const WITCH_MAPPING = {
+    "sisterhoodApe": ["spellAffenhaende", "spellAffenruf", "spellHarmloseGestalt", "spellKraftDesTiers"],
+    "sisterhoodCat": ["spellGrosseGier", "spellHexenkrallen", "spellKatzenaugen", "spellKatzenruf"],
+    "sisterhoodSpider": ["spellHexengalle", "spellKrabbelnderSchrecken", "spellSpinnenlauf", "spellSpinnenruf"],
+    "sisterhoodSnake": ["spellGifthaut", "spellSchlangenruf", "spellSerpentialis", "spellVipernblick"],
+    "sisterhoodSeer": ["spellHexenkrallen", "spellGefunden", "spellKraehenruf", "spellMadasSpiegel"],
+    "sisterhoodToad": ["spellGifthaut", "spellHexenspeichel", "spellKroetensprung", "spellTiereBesprechen"],
+    "sisterhoodOwl": ["spellEulenruf", "spellKatzenaugen", "spellKraftDesTiers", "spellHexenkrallen"]
+};
+
 Hooks.once('ready', () => {
     const DiceDSA5 = game.dsa5.apps.DiceDSA5;
     const tradName = game.i18n.localize('customWitchTradition'); // der übliche lang key hat bei mir warum auch immer nicht geklappt
-
-    const WITCH_MAPPING = {
-        "sisterhoodApe": ["spellAffenhaende", "spellAffenruf", "spellHarmloseGestalt", "spellKraftDesTiers"],
-        "sisterhoodCat": ["spellGrosseGier", "spellHexenkrallen", "spellKatzenaugen", "spellKatzenruf"],
-        "sisterhoodSpider": ["spellHexengalle", "spellKrabbelnderSchrecken", "spellSpinnenlauf", "spellSpinnenruf"],
-        "sisterhoodSnake": ["spellGifthaut", "spellSchlangenruf", "spellSerpentialis", "spellVipernblick"],
-        "sisterhoodSeer": ["spellHexenkrallen", "spellGefunden", "spellKraehenruf", "spellMadasSpiegel"],
-        "sisterhoodToad": ["spellGifthaut", "spellHexenspeichel", "spellKroetensprung", "spellTiereBesprechen"],
-        "sisterhoodOwl": ["spellEulenruf", "spellKatzenaugen", "spellKraftDesTiers", "spellHexenkrallen"]
-    };
 
     if (DiceDSA5 && DiceDSA5.calculateEnergyCost) {
         const originalCalculateEnergyCost = DiceDSA5.calculateEnergyCost;
@@ -72,16 +72,6 @@ Hooks.on('renderDSA5SpellDialog', (app, html, data) => {
     const spellName = dialogData.source?.name;
     const actorImprints = actor.items.filter(i => i.type === "imprint").map(i => i.name);
 
-    const WITCH_MAPPING = {
-        "sisterhoodApe": ["spellAffenhaende", "spellAffenruf", "spellHarmloseGestalt", "spellKraftDesTiers"],
-        "sisterhoodCat": ["spellGrosseGier", "spellHexenkrallen", "spellKatzenaugen", "spellKatzenruf"],
-        "sisterhoodSpider": ["spellHexengalle", "spellKrabbelnderSchrecken", "spellSpinnenlauf", "spellSpinnenruf"],
-        "sisterhoodSnake": ["spellGifthaut", "spellSchlangenruf", "spellSerpentialis", "spellVipernblick"],
-        "sisterhoodSeer": ["spellHexenkrallen", "spellGefunden", "spellKraehenruf", "spellMadasSpiegel"],
-        "sisterhoodToad": ["spellGifthaut", "spellHexenspeichel", "spellKroetensprung", "spellTiereBesprechen"],
-        "sisterhoodOwl": ["spellEulenruf", "spellKatzenaugen", "spellKraftDesTiers", "spellHexenkrallen"]
-    };
-
     let isPreferred = false;
     for (const [sKey, spellKeys] of Object.entries(WITCH_MAPPING)) {
         if (actorImprints.includes(game.i18n.localize(sKey))) {
@@ -97,7 +87,6 @@ Hooks.on('renderDSA5SpellDialog', (app, html, data) => {
         const maxModsElement = $html.find('.maxMods');
         const newMax = (parseInt(maxModsElement.text()) || 0) + 1;
         maxModsElement.text(newMax);
-        maxModsElement.css('color', 'green');
     }
 
     const sitMods = $html.find('[name="situationalModifiers"]');
