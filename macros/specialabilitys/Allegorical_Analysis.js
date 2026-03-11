@@ -147,8 +147,8 @@ function makeReducedCopyData(item, newLevel) {
 
 // Dialog-Inhalt
 function buildDialogContent(dropId, droppedItem) {
-  const imgSrc = droppedItem?.img || "icons/svg/poison.svg";
-  const itemImgHtml = `<div style="width:96px; height:96px; margin:auto; background-image:url('icons/svg/poison.svg'); background-size:contain; background-repeat:no-repeat; background-position:center;"></div>`;
+  const imgSrc = droppedItem?.img;
+  const itemImgHtml = `<div style="width:96px; height:96px; margin:auto; background-size:contain; background-repeat:no-repeat; background-position:center;"></div>`;
   const previewImgHtml = droppedItem?.img ? `<img src="${imgSrc}" alt="item" style="width:96px; height:96px; object-fit:contain; margin:auto; display:block;">` : "";
 
   return `
@@ -162,7 +162,6 @@ function buildDialogContent(dropId, droppedItem) {
            min-height: 140px; 
            text-align:center; 
            color: var(--color-text-dark);
-           background-image:url('icons/svg/poison.svg');
            background-size: 64px 64px;
            background-repeat: no-repeat;
            background-position: center;
