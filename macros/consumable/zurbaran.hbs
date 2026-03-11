@@ -32,9 +32,20 @@
         .zurbaran-app .mini-icons { position: absolute; top: -14px; left: 0; width: 100%; display: flex; justify-content: center; gap: 3px; pointer-events: none; }
         .zurbaran-app .mini-icons img { width: 22px; height: 22px; background: rgba(255, 255, 255, 0.75); border-radius: 50%; border: 1px solid var(--sheet-border); padding: 1px; }
 
+        /* Klickbare Eigenschafts-Icons in der Mitte */
         .zurbaran-app .icon-center { display: flex; gap: 10px; }
-        .zurbaran-app .type-icon { width: 80px; height: 80px; border: none; background: transparent; filter: grayscale(100%) opacity(40%); transition: all 0.3s ease; }
-        .zurbaran-app .type-icon.active { filter: grayscale(0%) opacity(100%); transform: scale(1.1); }
+        .zurbaran-app .type-icon { 
+            width: 80px; height: 80px; border: none; border-radius: 50%; 
+            background: transparent; filter: grayscale(100%) opacity(40%); transition: all 0.3s ease; 
+        }
+        /* Wenn Eigenschaft verfügbar: Graufilter aus, 100% Sichtbarkeit (Farbig) */
+        .zurbaran-app .type-icon.available { filter: grayscale(0%) opacity(100%); cursor: pointer; }
+        .zurbaran-app .type-icon.available:hover { transform: scale(1.05); }
+        
+        /* Das runden, farbigen Leuchteffekte für die ausgewählten Eigenschaften (überschreibt sicherheitshalber den Filter nochmals) */
+        .zurbaran-app .type-icon.selected-healing { filter: grayscale(0%) opacity(100%); transform: scale(1.1); background: #eaf2e4; box-shadow: 0 0 15px 5px rgba(107, 148, 77, 0.9), inset 0 0 10px rgba(107, 148, 77, 0.5); }
+        .zurbaran-app .type-icon.selected-poison { filter: grayscale(0%) opacity(100%); transform: scale(1.1); background: #f7e4e4; box-shadow: 0 0 15px 5px rgba(168, 66, 66, 0.9), inset 0 0 10px rgba(168, 66, 66, 0.5); }
+        .zurbaran-app .type-icon.selected-crop { filter: grayscale(0%) opacity(100%); transform: scale(1.1); background: #ffebad; box-shadow: 0 0 15px 5px rgba(212, 176, 76, 0.9), inset 0 0 10px rgba(212, 176, 76, 0.5); }
         
         .zurbaran-app .plant-popover { display: none; position: absolute; background: var(--bg-color); border: 1px solid var(--sheet-border); z-index: 1000; max-height: 250px; overflow-y: auto; width: 260px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); list-style: none; margin: 0; padding: 0; }
         .zurbaran-app .plant-popover.show { display: block; }
@@ -75,34 +86,9 @@
             box-shadow: 0 1px 2px rgba(0,0,0,0.2); transition: all 0.3s ease; 
         }
         
-        /* -- Farb-Kodierung der erfüllten Voraussetzungen -- */
-        
-        /* Heilpflanze: Erd-Grün */
-        .zurbaran-app .btn-mini-icons img.met-healing {
-            border-color: #6b944d;
-            background: #eaf2e4;
-            box-shadow: 0 0 10px 3px rgba(107, 148, 77, 0.9), inset 0 0 4px rgba(107, 148, 77, 0.5);
-            transform: scale(1.2); 
-            z-index: 10;
-        }
-        
-        /* Giftpflanze: Dunkelrot / Karmesin */
-        .zurbaran-app .btn-mini-icons img.met-poison {
-            border-color: #a84242;
-            background: #f7e4e4;
-            box-shadow: 0 0 10px 3px rgba(168, 66, 66, 0.9), inset 0 0 4px rgba(168, 66, 66, 0.5);
-            transform: scale(1.2); 
-            z-index: 10;
-        }
-        
-        /* Nutzpflanze: Gold-Gelb */
-        .zurbaran-app .btn-mini-icons img.met-crop {
-            border-color: #c99a2e;
-            background: #ffebad;
-            box-shadow: 0 0 10px 3px rgba(212, 176, 76, 0.9), inset 0 0 4px rgba(212, 176, 76, 0.5);
-            transform: scale(1.2); 
-            z-index: 10;
-        }
+        .zurbaran-app .btn-mini-icons img.met-healing { border-color: #6b944d; background: #eaf2e4; box-shadow: 0 0 10px 3px rgba(107, 148, 77, 0.9), inset 0 0 4px rgba(107, 148, 77, 0.5); transform: scale(1.2); z-index: 10; }
+        .zurbaran-app .btn-mini-icons img.met-poison { border-color: #a84242; background: #f7e4e4; box-shadow: 0 0 10px 3px rgba(168, 66, 66, 0.9), inset 0 0 4px rgba(168, 66, 66, 0.5); transform: scale(1.2); z-index: 10; }
+        .zurbaran-app .btn-mini-icons img.met-crop { border-color: #c99a2e; background: #ffebad; box-shadow: 0 0 10px 3px rgba(212, 176, 76, 0.9), inset 0 0 4px rgba(212, 176, 76, 0.5); transform: scale(1.2); z-index: 10; }
         
         .zurbaran-app .cost-display { text-align: center; margin-bottom: 10px; font-size: 14px; color: var(--bg-contrast-color); }
         .zurbaran-app .dialog-buttons { display: flex; gap: 10px; justify-content: flex-end; margin-top: auto; padding-top: 15px; }
@@ -142,9 +128,9 @@
         </div>
 
         <div class="icon-center">
-            <img src="systems/dsa5/icons/categories/planthealing.webp" class="type-icon {{#if activeTypes.healing}}active{{/if}}" data-tooltip="{{localize 'PLANT.healing'}}" />
-            <img src="systems/dsa5/icons/categories/plantpoison.webp" class="type-icon {{#if activeTypes.poison}}active{{/if}}" data-tooltip="{{localize 'PLANT.poison'}}" />
-            <img src="systems/dsa5/icons/categories/plantcrop.webp" class="type-icon {{#if activeTypes.crop}}active{{/if}}" data-tooltip="{{localize 'PLANT.crop'}}" />
+            <img src="systems/dsa5/icons/categories/planthealing.webp" class="type-icon {{#if activeTypes.healing}}available{{/if}} {{#if isTypeHealing}}selected-healing{{/if}}" data-type="healing" data-tooltip="{{localize 'PLANT.healing'}}" />
+            <img src="systems/dsa5/icons/categories/plantpoison.webp" class="type-icon {{#if activeTypes.poison}}available{{/if}} {{#if isTypePoison}}selected-poison{{/if}}" data-type="poison" data-tooltip="{{localize 'PLANT.poison'}}" />
+            <img src="systems/dsa5/icons/categories/plantcrop.webp" class="type-icon {{#if activeTypes.crop}}available{{/if}} {{#if isTypeCrop}}selected-crop{{/if}}" data-type="crop" data-tooltip="{{localize 'PLANT.crop'}}" />
         </div>
 
         <div class="plant-slot" data-slot="2" data-tooltip="{{localize 'ZURBARAN.slotTooltip'}}" style="background-image: url('{{plant2.img}}');">
@@ -176,23 +162,29 @@
     </div>
 
     {{#if bothSelected}}
-        <h3>{{localize "ZURBARAN.improvementsTitle"}}</h3>
-        <div class="intro-text">{{{localize "ZURBARAN.improvementsText"}}}</div>
+        {{#if selectedType}}
+            <h3>{{localize "ZURBARAN.improvementsTitle"}}</h3>
+            <div class="intro-text">{{{localize "ZURBARAN.improvementsText"}}}</div>
 
-        <div class="cost-display">{{{costText}}}</div>
+            <div class="cost-display">{{{costText}}}</div>
 
-        <div class="improvements-grid">
-            {{#each improvements}}
-                <button class="imp-btn {{#if this.selected}}selected{{/if}}" data-id="{{this.id}}" data-tooltip="{{this.tooltip}}" {{#if this.disabled}}disabled{{/if}}>
-                    <div class="btn-mini-icons">
-                        {{#if this.reqHealing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}" class="{{#if this.metHealing}}met-healing{{/if}}"/>{{/if}}
-                        {{#if this.reqPoison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}" class="{{#if this.metPoison}}met-poison{{/if}}"/>{{/if}}
-                        {{#if this.reqCrop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}" class="{{#if this.metCrop}}met-crop{{/if}}"/>{{/if}}
-                    </div>
-                    {{this.name}}
-                </button>
-            {{/each}}
-        </div>
+            <div class="improvements-grid">
+                {{#each improvements}}
+                    <button class="imp-btn {{#if this.selected}}selected{{/if}}" data-id="{{this.id}}" data-tooltip="{{this.tooltip}}" {{#if this.disabled}}disabled{{/if}}>
+                        <div class="btn-mini-icons">
+                            {{#if this.reqHealing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}" class="{{#if this.metHealing}}met-healing{{/if}}"/>{{/if}}
+                            {{#if this.reqPoison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}" class="{{#if this.metPoison}}met-poison{{/if}}"/>{{/if}}
+                            {{#if this.reqCrop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}" class="{{#if this.metCrop}}met-crop{{/if}}"/>{{/if}}
+                        </div>
+                        {{this.name}}
+                    </button>
+                {{/each}}
+            </div>
+        {{else}}
+            <div class="intro-text" style="text-align: center; font-weight: bold; color: var(--button-color); border-top: 1px solid var(--border-color); padding-top: 15px;">
+                {{localize "ZURBARAN.selectTypePrompt"}}
+            </div>
+        {{/if}}
     {{/if}}
 
     <div class="dialog-buttons">
