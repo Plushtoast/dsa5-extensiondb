@@ -3,7 +3,6 @@ Hooks.once("init", () => {
 
     const TEMPLATE_PATH = "modules/dsa5-herbarium2/templates/zurbaran.hbs";
 
- 
     Hooks.on("preUpdateItem", (item, changes, options, userId) => {
         if (item.type !== "plant" || !item.parent || !item.parent.getFlag("dsa5", "isPlantChimera")) return;
         const newQty = foundry.utils.getProperty(changes, "system.quantity.value");
@@ -60,6 +59,7 @@ Hooks.once("init", () => {
             this.actor = actor;
             this.plant1 = null;
             this.plant2 = null;
+            this.selectedType = null;
             this.selectedImprovements = new Set();
             
             this.allImprovements = [
@@ -123,6 +123,26 @@ Hooks.once("init", () => {
             };
         }
 
+        _updateAutoSelection() {
+            const available = this._getActiveTypes();
+            const activeKeys = Object.keys(available).filter(k => available[k]);
+            
+            if (activeKeys.length === 1) {
+                if (this.selectedType !== activeKeys[0]) {
+                    this.selectedType = activeKeys[0];
+                    this.selectedImprovements.clear(); 
+                }
+            } else if (activeKeys.length === 0) {
+                this.selectedType = null;
+                this.selectedImprovements.clear();
+            } else {
+                if (this.selectedType && !available[this.selectedType]) {
+                    this.selectedType = null;
+                    this.selectedImprovements.clear();
+                }
+            }
+        }
+
         async getData() {
             const bothSelected = !!(this.plant1 && this.plant2);
             const activeTypes = this._getActiveTypes();
@@ -143,14 +163,9 @@ Hooks.once("init", () => {
 
             const mappedImprovements = [];
             
-            if (bothSelected) {
+            if (bothSelected && this.selectedType) {
                 for (let imp of this.allImprovements) {
-                    let matchesType = false;
-                    for (let req of imp.req) {
-                        if (activeTypes[req]) matchesType = true;
-                    }
-
-                    if (matchesType) {
+                    if (imp.req.includes(this.selectedType)) {
                         let isDisabled = false;
                         
                         if (this.selectedImprovements.has("langlebig") && imp.id !== "langlebig") {
@@ -171,9 +186,9 @@ Hooks.once("init", () => {
                             reqHealing: imp.req.includes("healing"),
                             reqPoison: imp.req.includes("poison"),
                             reqCrop: imp.req.includes("crop"),
-                            metHealing: imp.req.includes("healing") && activeTypes.healing,
-                            metPoison: imp.req.includes("poison") && activeTypes.poison,
-                            metCrop: imp.req.includes("crop") && activeTypes.crop
+                            metHealing: imp.req.includes("healing") && this.selectedType === "healing",
+                            metPoison: imp.req.includes("poison") && this.selectedType === "poison",
+                            metCrop: imp.req.includes("crop") && this.selectedType === "crop"
                         });
                     }
                 }
@@ -190,6 +205,10 @@ Hooks.once("init", () => {
                 plant1Types,
                 plant2Types,
                 activeTypes,
+                selectedType: this.selectedType,
+                isTypeHealing: this.selectedType === "healing",
+                isTypePoison: this.selectedType === "poison",
+                isTypeCrop: this.selectedType === "crop",
                 availablePlants,
                 improvements: mappedImprovements,
                 bothSelected,
@@ -226,6 +245,7 @@ Hooks.once("init", () => {
                     if (slotNum === "1") this.plant1 = droppedItem;
                     else this.plant2 = droppedItem;
                     
+                    this._updateAutoSelection();
                     this._resetInvalidImprovements();
                     this.render(false);
                     
@@ -259,6 +279,7 @@ Hooks.once("init", () => {
                 if (slotNum === "1") this.plant1 = null;
                 else this.plant2 = null;
                 
+                this._updateAutoSelection();
                 this._resetInvalidImprovements();
                 this.render(false);
             });
@@ -271,7 +292,25 @@ Hooks.once("init", () => {
                 if (slotNum === "1") this.plant1 = selectedItem;
                 else this.plant2 = selectedItem;
                 
+                this._updateAutoSelection();
                 this._resetInvalidImprovements();
+                this.render(false);
+            });
+
+            html.find('.type-icon.available').click(ev => {
+                const type = $(ev.currentTarget).data("type");
+                
+                const available = this._getActiveTypes();
+                const activeKeys = Object.keys(available).filter(k => available[k]);
+                
+                if (activeKeys.length === 1) return; 
+                
+                if (this.selectedType === type) {
+                    this.selectedType = null; 
+                } else {
+                    this.selectedType = type;
+                }
+                this.selectedImprovements.clear(); 
                 this.render(false);
             });
 
@@ -292,10 +331,13 @@ Hooks.once("init", () => {
 
             html.find('.btn-cancel').click(() => this.close());
             
-            // --- BESTÄTIGEN LOGIK ---
             html.find('.btn-confirm').click(async () => {
                 if (!this.plant1 || !this.plant2) {
                     ui.notifications.warn("Bitte weise zuerst zwei Pflanzen zu.");
+                    return;
+                }
+                if (!this.selectedType) {
+                    ui.notifications.warn(game.i18n.localize("ZURBARAN.selectTypeWarn"));
                     return;
                 }
 
@@ -421,11 +463,11 @@ Hooks.once("init", () => {
                     return null;
                 };
 
-                const distributePlants = async (typeStr) => {
+                const distributePlants = async () => {
                     let validPlants = [];
-                    if (this._getTypesOfPlant(this.plant1)[typeStr]) validPlants.push(this.plant1);
-                    if (this.plant2 && this.plant1.id !== this.plant2.id && this._getTypesOfPlant(this.plant2)[typeStr]) validPlants.push(this.plant2);
-                    if (validPlants.length === 0 && this._getTypesOfPlant(this.plant2)[typeStr]) validPlants.push(this.plant2); 
+                    if (this._getTypesOfPlant(this.plant1)[this.selectedType]) validPlants.push(this.plant1);
+                    if (this.plant2 && this.plant1.id !== this.plant2.id && this._getTypesOfPlant(this.plant2)[this.selectedType]) validPlants.push(this.plant2);
+                    if (validPlants.length === 0 && this._getTypesOfPlant(this.plant2)[this.selectedType]) validPlants.push(this.plant2); 
                     
                     if (validPlants.length > 0) {
                         let amounts = new Array(validPlants.length).fill(0);
@@ -443,6 +485,9 @@ Hooks.once("init", () => {
                                 if (foundry.utils.hasProperty(baseItemObj, "system.remaining.shelfLife.value")) {
                                     foundry.utils.setProperty(baseItemObj, "system.remaining.shelfLife.value", qs);
                                 }
+                                
+                                // HIER WIRD DAS UNSICHTBARE FLAG GESETZT
+                                foundry.utils.setProperty(baseItemObj, "flags.dsa5.tobetrashed", true);
 
                                 itemsToCreate.push(baseItemObj);
                             }
@@ -450,9 +495,9 @@ Hooks.once("init", () => {
                     }
                 };
 
-                if (this.selectedImprovements.has("bastler")) await distributePlants("crop");
-                if (this.selectedImprovements.has("giftmischer")) await distributePlants("poison");
-                if (this.selectedImprovements.has("heiler")) await distributePlants("healing");
+                if (this.selectedImprovements.has("bastler") || this.selectedImprovements.has("giftmischer") || this.selectedImprovements.has("heiler")) {
+                    await distributePlants();
+                }
 
                 if (Object.keys(actorUpdates).length > 0) await worldActor.update(actorUpdates);
                 if (itemsToUpdate.length > 0) await worldActor.updateEmbeddedDocuments("Item", itemsToUpdate);
@@ -489,10 +534,11 @@ Hooks.once("init", () => {
         }
 
         _resetInvalidImprovements() {
+            if (!this.selectedType) return;
             const activeTypes = this._getActiveTypes();
             for (let impId of this.selectedImprovements) {
                 const impDef = this.allImprovements.find(i => i.id === impId);
-                const stillValid = impDef.req.some(r => activeTypes[r]);
+                const stillValid = impDef.req.includes(this.selectedType) && activeTypes[this.selectedType];
                 
                 if (!stillValid) {
                     this.selectedImprovements.delete(impId);
