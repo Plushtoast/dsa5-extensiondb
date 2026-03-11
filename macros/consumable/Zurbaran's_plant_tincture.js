@@ -440,7 +440,8 @@ Hooks.once("init", () => {
                         type: "specialability",
                         img: "systems/dsa5/icons/categories/ability_general.webp",
                         system: {
-                            description: { value: "<p>Für jeden Liter Flüssigkeit oder für jede Anwendung eines flüssigen pflanzlichen oder alchimistischen Rezepts, mit dem die Chimäre gegossen wird, kann diese nach 1 Stunde 1W6 LeP regenerieren – allerdings nicht solche, die sie durch das Ernten von Anwendungen verloren hat.</p>" },
+                            // LOKALISIERUNG WURDE HIER ANGEWENDT
+                            description: { value: game.i18n.localize("ZURBARAN.traitWateringDesc") },
                             step: { value: 1 },
                             category: { value: "general", sub: 0 }
                         },
@@ -486,8 +487,7 @@ Hooks.once("init", () => {
                                     foundry.utils.setProperty(baseItemObj, "system.remaining.shelfLife.value", qs);
                                 }
                                 
-                                // HIER WIRD DAS UNSICHTBARE FLAG GESETZT
-                                foundry.utils.setProperty(baseItemObj, "flags.dsa5.tobetrashed", true);
+                                foundry.utils.setProperty(baseItemObj, "flags.dsa5.demonicfilth", true); // Flag für regulären verfallprozess
 
                                 itemsToCreate.push(baseItemObj);
                             }
