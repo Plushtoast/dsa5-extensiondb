@@ -72,7 +72,7 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
             </div>
             <div style="display: flex; gap: 5px; margin-top: 15px;">
                 <button class="care-action-btn" data-skill="${dict.metalworking}" style="flex: 1; cursor: pointer;" disabled>
-                    <i class="fas fa-gavel"></i> ${dict.metalworking}
+                    <i class="fas fa-hammer"></i> ${dict.metalworking}
                 </button>
                 <button class="care-action-btn" data-skill="${dict.woodworking}" style="flex: 1; cursor: pointer;" disabled>
                     <i class="fas fa-tree"></i> ${dict.woodworking}
