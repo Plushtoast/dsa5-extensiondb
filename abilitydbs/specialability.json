@@ -248,7 +248,8 @@
   },
   "Tradition (Chr'Ssir'Ssr-Kult)": {
     "source": [
-      "achaz"
+      "achaz",
+      "lizardswamps"
     ]
   },
   "Schild gegen Einflusszauberei (H'Szint-Kult)": {
@@ -3401,11 +3402,6 @@
       "lizardswamps"
     ]
   },
-  "Tradition (Chr’Ssir’Ssr-Kult)": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
   "Besänftiger der Großen Alten": {
     "source": [
       "lizardswamps"
@@ -4697,7 +4693,8 @@
   },
   "Scholar des Halib abu'l Ketab": {
     "source": [
-      "magie3"
+      "magie3",
+      "studyroom"
     ]
   },
   "Brecher des Willens": {
@@ -5390,7 +5387,7 @@
       "studyroom"
     ]
   },
-  "Tradition (Tahaya-Schamanen)": {
+  "Tradition (Tahayaschamanen)": {
     "source": [
       "steamingjungles"
     ]
@@ -5413,11 +5410,6 @@
     ]
   },
   "Tradition (Ysilische Bannzeichner)": {
-    "source": [
-      "studyroom"
-    ]
-  },
-  "Scholar des Halib abu’l Ketab": {
     "source": [
       "studyroom"
     ]

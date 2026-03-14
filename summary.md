@@ -4660,7 +4660,7 @@ Total status:  140/254 (55.12%)
 - [ ] Heilpflanzenernte
 - [ ] Pflanzenbestimmung
 - [ ] Entspannender Schlaf
-- [ ] Tradition (Chr’Ssir’Ssr-Kult)
+- [ ] Tradition (Chr'Ssir'Ssr-Kult)
 - [ ] Macht der Schwingen
 - [ ] Schwingensturm
 - [ ] Schwingenwindstoß
