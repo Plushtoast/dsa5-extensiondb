@@ -2,74 +2,78 @@
 
 const lang = game.i18n.lang === "de" ? "de" : "en";
 const KR = (r) => r * 6;
+const dict = {
+  de: {
+    bloodrush: "Blutrausch",
+    qualityLabel: "QS",
+  },
+  en: {
+    bloodrush: "Bloodrush",
+    qualityLabel: "QL",
+  },
+}[lang];
 
-(async () => {
-  const q = Number(typeof qs !== "undefined" ? qs : 0);
-  if (!q || q < 1 || q > 6) return;
+const berserkDurationsKR = { 3: 5, 4: 10, 5: 20, 6: 40 };
 
-  if (q === 1) {
-    // +1 AT, -2 VW für 5 KR; Betäubung via onRemove
-    const seconds = KR(5);
-    const condition = {
-      name: lang === "de" ? "Berserkerelixier (QS1)" : "Berserker Elixir (QS1)",
-      icon: "icons/svg/aura.svg",
+const q = Number(typeof qs !== "undefined" ? qs : 0);
+if (!q || q < 1 || q > 6) return;
+
+function createCondition({ name, description, changes = [], seconds, onRemove }) {
+  const condition = this.effectDummy(item.name, changes, { seconds });
+
+  foundry.utils.mergeObject(condition, {
+    name,
+    img: item.img ?? condition.img,
+    flags: {
+      dsa5: {
+        description,
+        hideOnToken: true,
+        ...(onRemove ? { onRemove } : {}),
+      },
+    },
+  });
+
+  return condition;
+}
+
+let condition;
+
+switch (q) {
+  case 1:
+    condition = createCondition.call(this, {
+      name: `${item.name} (${dict.qualityLabel}${q})`,
+      description: item.name,
       changes: [
         { key: "system.meleeStats.attack", mode: 2, value: 1 },
         { key: "system.meleeStats.parry", mode: 2, value: -2 },
       ],
-      duration: { seconds, startTime: game.time.worldTime },
-      flags: {
-        dsa5: {
-          description: lang === "de" ? "Berserkerelixier" : "Berserker Elixir",
-          onRemove: "actor.addCondition('stunned')" // Beim Entfernen Betäubung hinzufügen
-        }
-      },
-      type: "base",
-      disabled: false,
-      system: {}
-    };
-    await actor.addCondition(condition);
-    return;
-  }
-
-  if (q === 2) {
-    // +2 AT, -4 VW für 5 KR
-    const seconds = KR(5);
-    const condition = {
-      name: lang === "de" ? "Berserkerelixier (QS2)" : "Berserker Elixir (QS2)",
-      icon: "icons/svg/aura.svg",
+      seconds: KR(5),
+      onRemove: "actor.addCondition('stunned')",
+    });
+    break;
+  case 2:
+    condition = createCondition.call(this, {
+      name: `${item.name} (${dict.qualityLabel}${q})`,
+      description: item.name,
       changes: [
         { key: "system.meleeStats.attack", mode: 2, value: 2 },
         { key: "system.meleeStats.parry", mode: 2, value: -4 },
       ],
-      duration: { seconds, startTime: game.time.worldTime },
-      flags: { dsa5: { description: lang === "de" ? "Berserkerelixier" : "Berserker Elixir" } },
-      type: "base",
-      disabled: false,
-      system: {}
-    };
-    await actor.addCondition(condition);
+      seconds: KR(5),
+    });
+    break;
+  default:
+    await actor.addTimedCondition("bloodrush", 1, false, false, {
+      name: `${item.name} - ${dict.bloodrush}`,
+      duration: { seconds: KR(berserkDurationsKR[q]) },
+      flags: {
+        dsa5: {
+          description: dict.bloodrush,
+          hideOnToken: true,
+        },
+      },
+    });
     return;
-  }
+}
 
-  // QS3–QS6: Blutrausch mit Dauer über statuses
-  const berserkDurationsKR = { 3: 5, 4: 10, 5: 20, 6: 40 };
-  if (q >= 3 && q <= 6) {
-    const seconds = KR(berserkDurationsKR[q]);
-
-    const berserkEffect = {
-      name: lang === "de" ? "Berserkerelixier – Blutrausch" : "Berserker Elixir – Bloodrush",
-      icon: "icons/svg/aura.svg",
-      changes: [],
-      duration: { seconds, startTime: game.time.worldTime },
-      statuses: ["bloodrush"], // Inspector: Status-Bedingungen → Blutrausch
-      flags: { dsa5: { description: lang === "de" ? "Blutrausch" : "Bloodrush" } },
-      type: "base",
-      disabled: false,
-      system: {}
-    };
-
-    await actor.addCondition(berserkEffect);
-    return;
-  }
-})();
+await actor.addCondition(condition);

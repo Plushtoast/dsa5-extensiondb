@@ -1,8 +1,8 @@
 // transform spell source data object
 
 source.effects.push({
-  icon: "icons/svg/aura.svg",
-  label: effect.name,
+  img: "icons/svg/aura.svg",
+  name: effect.name,
   duration: {},
   changes: [],
   flags: {

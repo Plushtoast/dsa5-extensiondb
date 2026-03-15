@@ -1,6 +1,6 @@
 source.effects.push({
-    label: source.name,
-    icon: "icons/svg/aura.svg",
+    name: source.name,
+    img: "icons/svg/aura.svg",
     changes: [],
     duration: { },
     flags: {

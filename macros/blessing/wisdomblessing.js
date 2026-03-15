@@ -53,7 +53,7 @@ await userActor.update({ "system.status.karmaenergy.value": kapObject.value - 1 
 
 const effectData = {
   name: dict.effectName,
-  icon: "icons/svg/aura.svg",
+  img: "icons/svg/aura.svg",
   duration: {
     seconds: 43200
   },
