@@ -57,7 +57,7 @@ function findItems(names) {
 }
 
 const PIPE_TEMPLATE_STRING = `
-<div class="dsa5-smoking-macro" style="height: 100%; overflow-y: auto; overflow-x: hidden; padding-right: 5px; min-width: 400px;">
+<div id="dsa-pipe-macro-container" class="dsa5-smoking-macro" style="height: 100%; overflow-y: auto; overflow-x: hidden; padding-right: 5px; min-width: 400px;">
     <div style="margin-bottom: 10px;">
         <p style="font-family: 'Times New Roman', serif; font-size: 10pt; font-style: italic; margin-bottom: 5px;">{{dict.header}}</p>
     </div>
@@ -167,11 +167,11 @@ class PipeApp extends ApplicationV2 {
         if (!document.getElementById(styleId)) {
             document.head.insertAdjacentHTML("beforeend", `
                 <style id="${styleId}">
-                    .active-mode { background: #968678 !important; color: white !important; border-color: #7a7971 !important; box-shadow: inset 0 2px 4px rgba(0,0,0,0.15) !important; }
+                    #dsa-pipe-macro-container .active-mode { background: #968678 !important; color: white !important; border-color: #7a7971 !important; box-shadow: inset 0 2px 4px rgba(0,0,0,0.15) !important; }
                 </style>
             `);
         }
-    }
+   }
 
     async _renderHTML(context, options) {
         Handlebars.registerHelper('eq', function (a, b) { return a === b; });
