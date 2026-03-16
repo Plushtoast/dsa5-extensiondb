@@ -8,6 +8,17 @@ const getActorFromMessage = (message) => {
 };
 
 Hooks.once('init', async function() {
+    const styleId = "magical-alchemist-styles";
+    if (!document.getElementById(styleId)) {
+        document.head.insertAdjacentHTML("beforeend", `
+            <style id="${styleId}">
+                .magical-alchemist-dialog .dieButton { border: 2px solid transparent; border-radius: 5px; padding: 2px; transition: all 0.2s ease; display: inline-block; cursor: pointer; }
+                .magical-alchemist-dialog .dieButton.reroll-selected { border-color: #004a99; box-shadow: 0 0 10px #0073e6; background-color: rgba(0, 115, 230, 0.1); }
+                .magical-alchemist-dialog .die-group { min-width: 60px; }
+            </style>
+        `);
+    }
+
     await loadTemplates([
         "modules/dsa5-magic-2/templates/magical-alchemist-dialog.hbs"
     ]);
@@ -25,7 +36,7 @@ Hooks.on('getChatMessageContextOptions', (app, options, c) => {
             if (!data || data.postData?.rollType !== 'talent' || message.flags.dsa5?.magicalAlchemistUsed) return false;
 
             const talentName = data.preData?.source?.name;
-			const localizedAlchemyName = game.i18n.localize("LocalizedIDs.alchemy");
+            const localizedAlchemyName = game.i18n.localize("LocalizedIDs.alchemy");
             
             if (talentName !== localizedAlchemyName) return false;
             
