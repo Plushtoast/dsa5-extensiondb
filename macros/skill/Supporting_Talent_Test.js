@@ -86,7 +86,6 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
             const modifierLabel = game.i18n.localize("SUPPORTING_TEST.modifierLabel");
             if (checkModifierApplied(parentDialog.element, modifierLabel)) {
                 ui.notifications.warn(game.i18n.localize("SUPPORTING_TEST.alreadyApplied"));
-                console.error("DEBUG | Abbruch: Unterstützung bereits vorhanden.");
                 return;
             }
 
