@@ -36,16 +36,26 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
         name: game.i18n.localize('COMMON_KNOWLEDGE.menuLabel'),
         icon: '<i class="fa-solid fa-book-open"></i>',
         callback: async () => {
-            const html = $(dialog.element);
-            const diffKey = html.find('[name="testDifficulty"]').val();
-            const modBase = (game.dsa5.config.skillDifficultyModifiers && game.dsa5.config.skillDifficultyModifiers[diffKey]) || 0;
-            const manualMod = Number(html.find('[name="testModifier"]').val()) || 0;
-            const visionMod = Number(html.find('[name="vision"]').val()) || 0;
+            const element = dialog.element[0] || dialog.element;
+            
+            const diffInput = element.querySelector('[name="testDifficulty"]');
+            const diffKey = diffInput ? diffInput.value : null;
+            const modBase = (diffKey && game.dsa5.config.skillDifficultyModifiers && game.dsa5.config.skillDifficultyModifiers[diffKey]) || 0;
+            
+            const manualInput = element.querySelector('[name="testModifier"]');
+            const manualMod = manualInput ? (Number(manualInput.value) || 0) : 0;
+            
+            const visionInput = element.querySelector('[name="vision"]');
+            const visionMod = visionInput ? (Number(visionInput.value) || 0) : 0;
             
             let situationalMod = 0;
-            html.find('[name="situationalModifiers"] option:selected').each(function() {
-                const val = $(this).val();
-                if (val && !val.includes('|')) situationalMod += (Number(val) || 0);
+            
+            const selectedOptions = element.querySelectorAll('[name="situationalModifiers"] option:checked');
+            selectedOptions.forEach(option => {
+                const val = option.value;
+                if (val && !val.includes('|')) {
+                    situationalMod += (Number(val) || 0);
+                }
             });
 
             if ((modBase + manualMod + visionMod + situationalMod) <= -3) {
@@ -56,11 +66,23 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
             }
 
             window.GK_ACTIVE_ROLL = true;
+            if (!testData.extra) testData.extra = {};
             testData.extra.isCommonKnowledge = true;
 
-            const rollButton = html.find('button[data-action="nonOpposedButton"], button[data-action="rollButton"]').first();
-            if (rollButton.length > 0) rollButton.click();
-            else html.find('form').submit();
+            const rollButton = element.querySelector('button[data-action="nonOpposedButton"], button[data-action="rollButton"]');
+            
+            if (rollButton) {
+                rollButton.click();
+            } else {
+                const form = element.querySelector('form');
+                if (form) {
+                    if (typeof form.requestSubmit === "function") {
+                        form.requestSubmit();
+                    } else {
+                        form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }));
+                    }
+                }
+            }
 
             setTimeout(() => dialog.close(), 50);
         }
