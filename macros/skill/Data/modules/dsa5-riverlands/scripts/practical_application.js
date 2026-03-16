@@ -1,16 +1,14 @@
-// Hilfsfunktion: Modifikator-Check (Damit nichts doppelt erscheint)
-function checkPraxisApplied(dialogHtml) {
-    return $(dialogHtml).find('select[name="situationalModifiers"] option').filter(function() {
-        return $(this).text().includes("Praxisbezug");
-    }).length > 0;
+function checkPraxisApplied(dialogElement) {
+    const element = dialogElement[0] || dialogElement;
+    const options = element.querySelectorAll('select[name="situationalModifiers"] option');
+    return Array.from(options).some(opt => opt.textContent.includes("Praxisbezug"));
 }
 
-// Hilfsfunktion: Die robuste Injektion (Damit es interaktiv bleibt)
 function injectSituationalModifierField(targetDialog, value, tooltip, displayLabel) {
-    const html = $(targetDialog.element);
-    let select = html.find('select[name="situationalModifiers"]');
+    const parentElement = targetDialog.element[0] || targetDialog.element;
+    let modifierContainer = parentElement.querySelector('.modifiers');
 
-    if (select.length === 0) {
+    if (!modifierContainer) {
         const localizedLabel = game.i18n.localize("situationalModifiers");
         const finalLabel = (localizedLabel === "situationalModifiers") ? "Bedingte Modifikatoren" : localizedLabel;
 
@@ -25,137 +23,189 @@ function injectSituationalModifierField(targetDialog, value, tooltip, displayLab
             </div>
         `;
         
-        const visionField = html.find('select[name="vision"]').closest('.form-group');
-        if (visionField.length > 0) visionField.before(fieldHtml);
-        else html.find('.talent-test-modifier').append(fieldHtml);
+        const visionField = parentElement.querySelector('select[name="vision"]')?.closest('.form-group');
+        if (visionField) {
+            visionField.insertAdjacentHTML('beforebegin', fieldHtml);
+        } else {
+            parentElement.querySelector('.talent-test-modifier')?.insertAdjacentHTML('beforeend', fieldHtml);
+        }
         
-        select = html.find('select[name="situationalModifiers"]');
+        modifierContainer = parentElement.querySelector('.modifiers');
     } else {
-        select.find('option').filter((i, el) => $(el).text().includes("Praxisbezug")).remove();
-        select.append(`<option value="${value}" selected data-tooltip="${tooltip}" data-type="TPM">${displayLabel}</option>`);
+        const select = modifierContainer.querySelector('select[name="situationalModifiers"]');
+        
+        // Alte Praxisbezug-Einträge sauber entfernen
+        Array.from(select.options).forEach(opt => {
+            if (opt.textContent.includes("Praxisbezug")) opt.remove();
+        });
+        
+        select.insertAdjacentHTML('beforeend', `<option value="${value}" selected data-tooltip="${tooltip}" data-type="TPM">${displayLabel}</option>`);
     }
 
-    // Toggle-Verhalten wie im System
-    select.off('mousedown', 'option').on('mousedown', 'option', function(ev) {
-        ev.preventDefault();
-        $(this).prop('selected', !$(this).prop('selected'));
-        if (typeof targetDialog.rememberFormData === "function") {
-            targetDialog.rememberFormData(ev);
-        } else {
-            html.find('form').trigger('change');
+    const select = modifierContainer.querySelector('select[name="situationalModifiers"]');
+
+    select.addEventListener('mousedown', function(ev) {
+        if (ev.target.tagName === 'OPTION') {
+            ev.preventDefault();
+            ev.target.selected = !ev.target.selected;
+            if (typeof targetDialog.rememberFormData === "function") {
+                targetDialog.rememberFormData(ev);
+            } else {
+                const form = parentElement.querySelector('form');
+                if (form) form.dispatchEvent(new Event('change', { bubbles: true }));
+            }
         }
-        return false;
     });
 
-    // Berechnung im Hauptfenster sofort auslösen
-    if (typeof targetDialog.rememberFormData === "function") {
-        targetDialog.rememberFormData();
-    }
+    if (typeof targetDialog.rememberFormData === "function") targetDialog.rememberFormData();
 }
 
-class PracticalApplicationDialog extends Dialog {
-    constructor(actor, parentDialog, parentTestData) {
-        super({
-            title: game.i18n.localize('LOCAL.PraxisbezugTitle'),
-            content: `<div id="praxis-wrapper"></div>`,
-            buttons: {}
-        });
-        this.actor = actor;
+const PRAXIS_TEMPLATE_STRING = `
+<div id="praxis-wrapper">
+    {{#if rolled}}
+        <div style="text-align: center; margin-bottom: 10px;">
+            <p>{{{instruction}}}</p>
+        </div>
+        <div style="display: flex; justify-content: space-around; margin: 15px 0;">
+            {{#each distribution}}
+            <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+                <label style="font-weight: bold;">{{this.label}}</label>
+                <a data-action="adjustPraxis" data-idx="{{this.idx}}" data-delta="1" style="cursor:pointer;"><i class="fas fa-chevron-up"></i></a>
+                <input type="number" value="{{this.value}}" readonly style="width: 45px; text-align: center; height: 30px; border: 1px solid #7a7971;">
+                <a data-action="adjustPraxis" data-idx="{{this.idx}}" data-delta="-1" style="cursor:pointer;"><i class="fas fa-chevron-down"></i></a>
+            </div>
+            {{/each}}
+        </div>
+        <hr>
+        <div style="display: flex; gap: 5px;">
+            <button type="button" data-action="confirmPraxis" class="dsa5 button" style="flex:1"><i class="fas fa-check"></i> {{localize "LOCAL.confirm"}}</button>
+            <button type="button" data-action="cancelPraxis" class="dsa5 button" style="flex:1"><i class="fas fa-times"></i> {{localize "LOCAL.cancel"}}</button>
+        </div>
+    {{else}}
+        <p>{{description}}</p><hr>
+        <div class="form-group knowledge-buttons" style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+            {{#each skills}}
+            <button type="button" data-action="rollKnowledge" data-id="{{this.id}}" class="knowledge-roll-btn dsa5 button">{{this.name}}</button>
+            {{/each}}
+        </div>
+    {{/if}}
+</div>
+`;
+
+const { ApplicationV2 } = foundry.applications.api;
+
+class PracticalApplicationApp extends ApplicationV2 {
+    static DEFAULT_OPTIONS = {
+        id: "praxisbezug-app",
+        classes: ["dsa5", "praxis-window"],
+        window: {
+            resizable: true 
+        },
+        position: {
+            width: 500,
+            height: "auto"
+        },
+
+        actions: {
+            rollKnowledge: function(event, target) { this._onRollKnowledge(event, target); },
+            adjustPraxis: function(event, target) { this._onAdjustPraxis(event, target); },
+            confirmPraxis: function() { this._onConfirmPraxis(); },
+            cancelPraxis: function() { this.close(); }
+        }
+    };
+
+    constructor(actor, parentDialog, parentTestData, options) {
+        super(options);
+        this.dsaActor = actor;
         this.parentDialog = parentDialog;
         this.parentTestData = parentTestData;
+        
         this.qs = 0;
         this.rolled = false;
         this.distributionData = [0, 0, 0];
-        this.updateContent();
     }
 
-    updateContent() {
-        this.data.content = `<div id="praxis-wrapper">${this.rolled ? this._getDistributionHTML() : this._getInitialHTML()}</div>`;
+    get title() {
+        return game.i18n.localize("LOCAL.PraxisbezugTitle");
     }
 
-    static get defaultOptions() {
-        return foundry.utils.mergeObject(super.defaultOptions, {
-            width: 500,
-            classes: ["dsa5", "dialog", "praxis-window"],
-            resizable: true
-        });
+    async _renderHTML(context, options) {
+        const template = Handlebars.compile(PRAXIS_TEMPLATE_STRING);
+        return template(context);
     }
 
-    _getInitialHTML() {
-        let html = `<p>${game.i18n.localize("LOCAL.PraxisbezugDescription")}</p><hr>`;
-        html += `<div class="form-group knowledge-buttons" style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">`;
-        const skills = this.actor.items.filter(i => i.type === "skill" && i.system.group?.value === "knowledge").sort((a, b) => a.name.localeCompare(b.name));
-        for (let skill of skills) {
-            html += `<button class="knowledge-roll-btn dsa5 button" data-id="${skill.id}">${skill.name}</button>`;
-        }
-        html += `</div>`;
-        return html;
+    _replaceHTML(result, content, options) {
+        content.innerHTML = result;
     }
 
-    _getDistributionHTML() {
-        const source = this.parentTestData.source;
-        const attrs = [source.system.characteristic1.value, source.system.characteristic2.value, source.system.characteristic3.value];
-        let html = `<div style="text-align: center; margin-bottom: 10px;"><p>${game.i18n.format("LOCAL.PraxisbezugInstruction", {qs: this.qs})}</p></div>`;
-        html += `<div style="display: flex; justify-content: space-around; margin: 15px 0;">`;
-        attrs.forEach((attr, idx) => {
-            const label = game.i18n.localize(`CHARAbbrev.${attr.toUpperCase()}`);
-            html += `<div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
-                <label style="font-weight: bold;">${label}</label>
-                <a class="praxis-control" data-idx="${idx}" data-delta="1" style="cursor:pointer;"><i class="fas fa-chevron-up"></i></a>
-                <input type="number" class="praxis-input" data-idx="${idx}" value="${this.distributionData[idx]}" readonly style="width: 45px; text-align: center; height: 30px; border: 1px solid #7a7971;">
-                <a class="praxis-control" data-idx="${idx}" data-delta="-1" style="cursor:pointer;"><i class="fas fa-chevron-down"></i></a>
-            </div>`;
-        });
-        html += `</div><hr><div style="display: flex; gap: 5px;">
-            <button class="confirm-praxis dsa5 button" style="flex:1"><i class="fas fa-check"></i> ${game.i18n.localize("LOCAL.confirm")}</button>
-            <button class="cancel-praxis dsa5 button" style="flex:1"><i class="fas fa-times"></i> ${game.i18n.localize("LOCAL.cancel")}</button>
-        </div>`;
-        return html;
-    }
+    async _prepareContext(options) {
+        if (this.rolled) {
+            const source = this.parentTestData.source;
+            const attrs = [source.system.characteristic1.value, source.system.characteristic2.value, source.system.characteristic3.value];
+            
+            const distribution = attrs.map((attr, idx) => ({
+                idx: idx,
+                label: game.i18n.localize(`CHARAbbrev.${attr.toUpperCase()}`),
+                value: this.distributionData[idx]
+            }));
 
-    activateListeners(html) {
-        super.activateListeners(html);
-
-        if (!this.rolled) {
-            html.find('.knowledge-roll-btn').click(async (ev) => {
-                const skillId = ev.currentTarget.dataset.id;
-                const skill = this.actor.items.get(skillId);
-                
-                Hooks.once("postProcessDSARoll", (chatOptions, testData) => {
-                    if (testData.successLevel > 0) {
-                        this.qs = testData.qualityStep || 0;
-                        this.rolled = true;
-                        this.updateContent();
-                        this.render(true);
-                    }
-                });
-                
-                this.actor.setupSkill(skill, {}, "roll").then(setupData => { if(setupData) this.actor.basicTest(setupData); });
-            });
+            return {
+                rolled: true,
+                qs: this.qs,
+                instruction: game.i18n.format("LOCAL.PraxisbezugInstruction", {qs: this.qs}),
+                distribution: distribution
+            };
         } else {
-            html.find('.praxis-control').click((ev) => {
-                const idx = $(ev.currentTarget).data('idx');
-                const delta = $(ev.currentTarget).data('delta');
-                let newVal = Math.clamp(this.distributionData[idx] + delta, 0, 2);
-                let totalUsed = this.distributionData.reduce((a, b) => a + b, 0) - this.distributionData[idx];
-                if (totalUsed + newVal <= this.qs || delta < 0) {
-                    this.distributionData[idx] = newVal;
-                    this.updateContent();
-                    this.render(true);
-                }
-            });
-
-            html.find('.confirm-praxis').click(() => {
-                const tpm = `${this.distributionData[0]}|${this.distributionData[1]}|${this.distributionData[2]}`;
-                const label = `Praxisbezug [${tpm} TPM]`;
-                const tt = `Praxisbezug<br>Teilprobenmodifikator: ${tpm}<br>Quelle: Sonderfertigkeit`;
-                
-                injectSituationalModifierField(this.parentDialog, tpm, tt, label);
-                this.close(); 
-            });
-
-            html.find('.cancel-praxis').click(() => this.close());
+            const skills = this.dsaActor.items
+                .filter(i => i.type === "skill" && i.system.group?.value === "knowledge")
+                .sort((a, b) => a.name.localeCompare(b.name));
+            
+            return {
+                rolled: false,
+                description: game.i18n.localize("LOCAL.PraxisbezugDescription"),
+                skills: skills.map(s => ({ id: s.id, name: s.name }))
+            };
         }
+    }
+
+
+    async _onRollKnowledge(event, target) {
+        const skillId = target.dataset.id;
+        const skill = this.dsaActor.items.get(skillId);
+        
+        Hooks.once("postProcessDSARoll", (chatOptions, testData) => {
+            if (testData.successLevel > 0) {
+                this.qs = testData.qualityStep || 0;
+                this.rolled = true;
+                this.render();
+            }
+        });
+        
+        this.dsaActor.setupSkill(skill, {}, "roll").then(setupData => { 
+            if(setupData) this.dsaActor.basicTest(setupData); 
+        });
+    }
+
+    _onAdjustPraxis(event, target) {
+        const idx = parseInt(target.dataset.idx);
+        const delta = parseInt(target.dataset.delta);
+        
+        let newVal = Math.clamp(this.distributionData[idx] + delta, 0, 2);
+        let totalUsed = this.distributionData.reduce((a, b) => a + b, 0) - this.distributionData[idx];
+        
+        if (totalUsed + newVal <= this.qs || delta < 0) {
+            this.distributionData[idx] = newVal;
+            this.render();
+        }
+    }
+
+    _onConfirmPraxis() {
+        const tpm = `${this.distributionData[0]}|${this.distributionData[1]}|${this.distributionData[2]}`;
+        const label = `Praxisbezug [${tpm} TPM]`;
+        const tt = `Praxisbezug<br>Teilprobenmodifikator: ${tpm}<br>Quelle: Sonderfertigkeit`;
+        
+        injectSituationalModifierField(this.parentDialog, tpm, tt, label);
+        this.close(); 
     }
 }
 
@@ -174,7 +224,7 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
                     ui.notifications.warn(game.i18n.localize("LOCAL.PraxisbezugAlreadyApplied"));
                     return;
                 }
-                new PracticalApplicationDialog(actor, dialog, testData).render(true);
+                new PracticalApplicationApp(actor, dialog, testData).render(true);
             }
         });
     }
