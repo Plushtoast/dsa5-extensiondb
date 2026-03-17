@@ -33,13 +33,55 @@ if (!actor) return ui.notifications.warn(dict.noActor);
 class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
     static DEFAULT_OPTIONS = {
         id: "weapon-care-app",
-        window: { title: dict.title },
-        position: { width: 420, height: "auto" }
+        classes: ["dsa5"],
+        window: { title: dict.title, resizable: true },
+        position: { width: 420, height: "auto" },
+        actions: {
+            selectWeapon: function(event, target) { this._onSelectWeapon(event, target); },
+            repair: function(event, target) { this._onRepair(event, target); }
+        }
     };
 
-    selectedWeaponId = null;
+    constructor(options) {
+        super(options);
+        this.selectedWeaponId = null;
 
-    _prepareContext() {
+        const styleId = "weapon-care-styles";
+        if (!document.getElementById(styleId)) {
+            document.head.insertAdjacentHTML("beforeend", `
+                <style id="${styleId}">
+                    #dsa-weapon-care-container .weapon-care-item { 
+                        display: flex; align-items: center; padding: 5px; cursor: pointer; 
+                        border-bottom: 1px solid var(--color-border-light-2); 
+                        transition: background 0.2s, max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease; 
+                        max-height: 50px;
+                        opacity: 1;
+                        overflow: hidden;
+                    }
+                    #dsa-weapon-care-container .weapon-care-item:hover { background: rgba(0,0,0,0.05); }
+                    #dsa-weapon-care-container .weapon-care-item.selected { 
+                        background: rgba(147, 123, 72, 0.3) !important; 
+                        font-weight: bold; 
+                    }
+                    /* Animations-Klasse für das erfolgreiche Reparieren */
+                    #dsa-weapon-care-container .weapon-care-item.repaired-anim {
+                        max-height: 0px;
+                        opacity: 0;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        border-bottom: none;
+                    }
+                    #dsa-weapon-care-container .weapon-care-list { 
+                        border: 1px solid var(--color-border-dark); border-radius: 5px; padding: 5px; 
+                        max-height: 200px; overflow-y: auto; background: var(--color-bg-light); margin-top: 10px; 
+                    }
+                    #dsa-weapon-care-container .care-action-btn { flex: 1; }
+                </style>
+            `);
+        }
+    }
+
+    async _prepareContext() {
         const eligibleWeapons = actor.items.filter(i => {
             if (!["meleeweapon", "rangeweapon"].includes(i.type)) return false;
             const max = foundry.utils.getProperty(i, "system.structure.max");
@@ -55,28 +97,32 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
 
     async _renderHTML(context, options) {
         if (!context.hasWeapons) {
-            return `<div style="padding: 10px; text-align: center; font-style: italic;">${dict.noWeapons}</div>`;
+            return `<div id="dsa-weapon-care-container" style="padding: 10px; text-align: center; font-style: italic;">${dict.noWeapons}</div>`;
         }
 
-        const weaponHtml = context.weapons.map(w => `
-            <div class="weapon-care-item" data-id="${w.id}" style="display: flex; align-items: center; padding: 5px; cursor: pointer; border-bottom: 1px solid var(--color-border-light-2); transition: background 0.2s;">
-                <img src="${w.img}" width="30" height="30" style="min-width: 30px; margin-right: 10px; border: none; border-radius: 3px;" />
+        const weaponHtml = context.weapons.map(w => {
+            const isSelected = this.selectedWeaponId === w.id;
+            return `
+            <div class="weapon-care-item ${isSelected ? 'selected' : ''}" data-action="selectWeapon" data-id="${w.id}">
+                <img src="${w.img}" width="30" height="30" style="min-width: 30px; margin-right: 10px; border: 1px solid #777; border-radius: 3px;" />
                 <span class="weapon-name" style="flex-grow: 1;">${w.name}</span>
-            </div>
-        `).join("");
+            </div>`;
+        }).join("");
 
         return `
-            <div style="margin-bottom: 10px; font-style: italic;">${dict.desc}</div>
-            <div class="weapon-care-list" style="border: 1px solid var(--color-border-dark); border-radius: 5px; padding: 5px; max-height: 200px; overflow-y: auto; background: var(--color-bg-light); margin-top: 10px;">
-                ${weaponHtml}
-            </div>
-            <div style="display: flex; gap: 5px; margin-top: 15px;">
-                <button class="care-action-btn" data-skill="${dict.metalworking}" style="flex: 1; cursor: pointer;" disabled>
-                    <i class="fas fa-hammer"></i> ${dict.metalworking}
-                </button>
-                <button class="care-action-btn" data-skill="${dict.woodworking}" style="flex: 1; cursor: pointer;" disabled>
-                    <i class="fas fa-tree"></i> ${dict.woodworking}
-                </button>
+            <div id="dsa-weapon-care-container">
+                <div style="margin-bottom: 10px; font-style: italic;">${dict.desc}</div>
+                <div class="weapon-care-list">
+                    ${weaponHtml}
+                </div>
+                <div style="display: flex; gap: 5px; margin-top: 15px;">
+                    <button class="care-action-btn dsa5 button" data-action="repair" data-skill="${dict.metalworking}" ${!this.selectedWeaponId ? 'disabled' : ''}>
+                        <i class="fas fa-hammer"></i> ${dict.metalworking}
+                    </button>
+                    <button class="care-action-btn dsa5 button" data-action="repair" data-skill="${dict.woodworking}" ${!this.selectedWeaponId ? 'disabled' : ''}>
+                        <i class="fas fa-tree"></i> ${dict.woodworking}
+                    </button>
+                </div>
             </div>
         `;
     }
@@ -85,59 +131,15 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
         content.innerHTML = result;
     }
 
-    _onRender(context, options) {
-        const html = this.element;
-        const items = html.querySelectorAll('.weapon-care-item');
-        const buttons = html.querySelectorAll('.care-action-btn');
+    _onSelectWeapon(event, target) {
+        const id = target.dataset.id;
+        this.selectedWeaponId = (this.selectedWeaponId === id) ? null : id;
+        this.render(); 
+    }
 
-        items.forEach(item => {
-            const id = item.dataset.id;
-
-            item.addEventListener('mouseenter', () => {
-                if (this.selectedWeaponId !== id) item.style.background = 'rgba(0,0,0,0.05)';
-            });
-            item.addEventListener('mouseleave', () => {
-                if (this.selectedWeaponId !== id) item.style.background = 'transparent';
-            });
-
-            item.addEventListener('click', () => {
-                items.forEach(i => {
-                    i.style.background = 'transparent';
-                    i.style.fontWeight = 'normal';
-                    i.style.borderLeft = 'none';
-                });
-
-                if (this.selectedWeaponId === id) {
-                    this.selectedWeaponId = null;
-                    buttons.forEach(b => b.disabled = true);
-                } else {
-                    item.style.background = 'rgba(147, 123, 72, 0.3)';
-                    item.style.fontWeight = 'bold';
-                    item.style.borderLeft = '3px solid #937b48';
-                    this.selectedWeaponId = id;
-                    buttons.forEach(b => b.disabled = false);
-                }
-            });
-
-            item.addEventListener('contextmenu', (ev) => {
-                ev.preventDefault();
-                if (this.selectedWeaponId === id) {
-                    item.style.background = 'transparent';
-                    item.style.fontWeight = 'normal';
-                    item.style.borderLeft = 'none';
-                    this.selectedWeaponId = null;
-                    buttons.forEach(b => b.disabled = true);
-                }
-            });
-        });
-
-        buttons.forEach(btn => {
-            btn.addEventListener('click', async () => {
-                buttons.forEach(b => b.disabled = true); 
-                await this.executeRepair(btn.dataset.skill);
-                if (this.selectedWeaponId) buttons.forEach(b => b.disabled = false); 
-            });
-        });
+    async _onRepair(event, target) {
+        target.disabled = true; 
+        await this.executeRepair(target.dataset.skill);
     }
 
     async executeRepair(skillName) {
@@ -147,30 +149,41 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
         if (!skill) return ui.notifications.error(dict.noSkill(skillName));
 
         try {
-            const setupData = await actor.setupSkill(skill.toObject(), {}, "xyz");
+            const tokenId = actor.getActiveTokens()[0]?.id || "";
+            const setupData = await actor.setupSkill(skill.toObject(), {}, tokenId);
+            
             const testResult = await actor.basicTest(setupData);
             const successLevel = testResult?.result?.successLevel ?? 0;
             
-            const currentActor = fromUuidSync(actor.uuid);
-            if (!currentActor) return;
-
-            const weapon = currentActor.items.get(this.selectedWeaponId);
+            const weapon = actor.items.get(this.selectedWeaponId);
             if (!weapon) return;
 
             if (successLevel > 0) {
-                await currentActor.updateEmbeddedDocuments("Item", [{
+                await actor.updateEmbeddedDocuments("Item", [{
                     _id: weapon.id,
                     "system.structure.value": weapon.system.structure.max
                 }]);
                 
                 ui.notifications.info(dict.success(weapon.name));
                 
-                this.selectedWeaponId = null;
-                this.render({ force: true }); 
+                const itemElement = this.element.querySelector(`.weapon-care-item[data-id="${weapon.id}"]`);
+                if (itemElement) {
+                    itemElement.classList.add("repaired-anim");
+                    
+                    setTimeout(() => {
+                        this.selectedWeaponId = null;
+                        this.render(); 
+                    }, 400);
+                } else {
+                    this.selectedWeaponId = null;
+                    this.render();
+                }
+
             } else {
                 ui.notifications.warn(dict.fail(weapon.name));
             }
         } catch (err) {
+            console.warn("Waffenpflege: Fehler bei der Probe.", err);
         }
     }
 }
