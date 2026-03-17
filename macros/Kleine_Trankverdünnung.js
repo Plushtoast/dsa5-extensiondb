@@ -28,7 +28,7 @@
         en: {
             title: "Alchemical Dilution",
             infoHeader: "Alchemical Dilution",
-            infoText: "The caster can dilute an alchemical elixir, creating two elixirs. Each has 3 lower QS. If QS drops to 0 or below, the dilution fails and the elixir becomes unusable.",
+            infoText: "The caster can dilute an alchemical elixir, creating two elixirs. Each has 3 lower QL. If QL drops to 0 or below, the dilution fails and the elixir becomes unusable.",
             dropHint: "Click the box to select or drag an elixir into it.",
             aspCostText: "It costs 4 AsP.",
             dragDropZone: "Click or Drag & Drop",
@@ -42,7 +42,7 @@
             onlyHealingAlchemyError: "Only healing remedies or elixirs can be diluted.",
             success: "The elixir was successfully diluted!",
             fail: "The dilution failed!",
-            qsLabel: "QS"
+            qsLabel: "QL"
         }
     };
 
