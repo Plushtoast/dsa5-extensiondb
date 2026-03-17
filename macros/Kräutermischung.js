@@ -136,7 +136,7 @@
         const created = Array.from({ length: itemCount }, () => newItem);
 
         await actor.createEmbeddedDocuments("Item", created);
-        ui.notifications.info(`${actor.name} ${dict.made} ${itemCount} ${dict.itemName}${itemCount > 1 ? (lang === "de" ? "en" : "s") : ""} ${dict.itemMadeSuffix} (QS=${availableQs}).`);
+        ui.notifications.info(`${actor.name} ${dict.made} ${itemCount} ${dict.itemName}${itemCount > 1 ? (lang === "de" ? "en" : "s") : ""} ${dict.itemMadeSuffix}.`);
     }
 
     const tinyBtnStyle = "display: inline-block; padding: 1px 6px; margin: 0 2px; border: 1px solid #968678; background: #e2d8c9; border-radius: 3px; cursor: pointer; font-weight: bold; color: inherit; text-decoration: none; line-height: 1.2;";
