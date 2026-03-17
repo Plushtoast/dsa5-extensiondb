@@ -19,11 +19,6 @@
       "studyroom"
     ]
   },
-  "Zauberklinge Geisterspeer": {
-    "source": [
-      "arcanelabs"
-    ]
-  },
   "Traumgestalt": {
     "source": [
       "broodofhell",
@@ -369,7 +364,8 @@
     "source": [
       "magie2",
       "realmofthethorns",
-      "suncoast"
+      "suncoast",
+      "worldwanderer"
     ]
   },
   "Seelenwanderung": {
@@ -543,6 +539,11 @@
   "Orvai Kurims Kriegstrommel": {
     "source": [
       "winterwatch"
+    ]
+  },
+  "Planastrale": {
+    "source": [
+      "worldwanderer"
     ]
   }
 }

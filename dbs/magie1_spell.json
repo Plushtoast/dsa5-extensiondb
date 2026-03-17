@@ -3638,23 +3638,35 @@
     },
     {
       "name": "Nachwirkung",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Hexengalle-Nachwirkung"
+        }
       ]
     },
     {
       "name": "Hinderliche Spucke",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Hexengalle-HinderlicheSpucke"
+        }
       ]
     },
     {
       "name": "Brennende Spucke",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Hexengalle-BrennendeSpucke"
+        }
       ]
     }
   ],

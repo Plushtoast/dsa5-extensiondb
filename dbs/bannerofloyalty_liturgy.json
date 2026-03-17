@@ -1,7 +1,27 @@
 {
     "Geist des Strategen": [
         {
-            "name": "Schnelles Handeln",
+            "name": "Schnelles Handeln 1",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Wie ein Leib 1",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Schnelles Handeln 2",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Wie ein Leib 2",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Schnelles Handeln 3",
             "complete": false,
             "changes": []
         }
@@ -11,11 +31,51 @@
             "name": "Geteiltes Leid ist halbes Leid",
             "complete": false,
             "changes": []
+        },
+        {
+            "name": "Schneller Schutz",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Längere Wirkungsdauer",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Hornissenpanzer",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Stich der Hornisse",
+            "complete": false,
+            "changes": []
         }
     ],
     "Speer des Athleten": [
         {
             "name": "Größere Reichweite",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Windender Flug",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Schwächender Speer",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Hornissenstich",
+            "complete": false,
+            "changes": []
+        },
+        {
+            "name": "Mächtiger Wurf",
             "complete": false,
             "changes": []
         }
