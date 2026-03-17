@@ -32,11 +32,29 @@ Hooks.once("init", () => {
             actions: {
                 cancel: function () { this.close(); },
                 reanimate: async function () { await this._onReanimate(); },
-                selectMainPack: function (e, t) { this.selectedMainKey = (this.selectedMainKey === t.dataset.key) ? null : t.dataset.key; this.selectedExtraUuid = null; this.render(); },
-                selectExtraPack: function (e, t) { this.selectedExtraUuid = (this.selectedExtraUuid === t.dataset.uuid) ? null : t.dataset.uuid; this.render(); },
+                selectMainPack: function (e, t) { 
+                    if (e.target.closest('.info-link') || e.target.closest('.info-link-inline')) return; 
+                    this.selectedMainKey = (this.selectedMainKey === t.dataset.key) ? null : t.dataset.key; 
+                    this.selectedExtraUuid = null; 
+                    this.render(); 
+                },
+                selectExtraPack: function (e, t) { 
+                    if (e.target.closest('.info-link') || e.target.closest('.info-link-inline')) return; 
+                    this.selectedExtraUuid = (this.selectedExtraUuid === t.dataset.uuid) ? null : t.dataset.uuid; 
+                    this.render(); 
+                },
                 toggleIncomplete: function (e, t) { this.incompleteChecked = t.checked; this.render(); },
                 checkTarget: function () { this._onCheckTarget(); },
-                showItem: async function (e, t) { e.stopPropagation(); const d = await fromUuid(t.dataset.uuid); d?.sheet.render(true); },
+                
+                showItem: async function (e, t) { 
+                    e.stopPropagation(); 
+                    const uuid = t.dataset?.uuid || t.closest('[data-uuid]')?.dataset?.uuid;
+                    if (uuid) {
+                        const doc = await fromUuid(uuid); 
+                        if (doc && doc.sheet) doc.sheet.render(true);
+                    }
+                },
+                
                 showActor: function () { this.shownActor?.sheet.render(true); }
             }
         };
@@ -81,7 +99,6 @@ Hooks.once("init", () => {
                         #dsa-retroelixier-container fieldset { border: 1px solid var(--border-color); border-radius: 5px; padding: 10px; margin-bottom: 10px; }
                         #dsa-retroelixier-container legend { font-family: var(--boldFont); font-weight: bold; padding: 0 5px; }
                         
-                        /* Kugelsichere Drop-Zone & Bild Zentrierung */
                         #dsa-retroelixier-container .drop-zone { border: 2px dashed var(--sheet-border); border-radius: 5px; padding: 10px; text-align: center; cursor: pointer; display: flex; justify-content: center; align-items: center; }
                         #dsa-retroelixier-container .profile { width: 80px; height: 80px; object-fit: cover; border: 1px solid var(--sheet-border); display: block; margin: 0 auto; }
                         
@@ -98,13 +115,12 @@ Hooks.once("init", () => {
                         }
                         #dsa-retroelixier-container .imp-btn:hover { background: rgba(0, 0, 0, 0.1); }
                         #dsa-retroelixier-container .imp-btn.selected { background: #e2d6c6; border: 1px solid #736953; font-weight: bold; }
-                        #dsa-retroelixier-container .info-link { position: absolute; right: 5px; top: 50%; transform: translateY(-50%); color: #7a7971; }
-                        #dsa-retroelixier-container .info-link:hover { color: var(--dsadesign1); }
+                        #dsa-retroelixier-container .info-link { position: absolute; right: 5px; top: 50%; transform: translateY(-50%); color: #7a7971; z-index: 10; }
+                        #dsa-retroelixier-container .info-link:hover, #dsa-retroelixier-container .info-link-inline:hover { color: var(--dsadesign1); }
                         
                         #dsa-retroelixier-container .incomplete-label { display: flex; align-items: center; gap: 10px; padding: 8px; border: 1px solid var(--border-color); border-radius: 3px; cursor: pointer; }
                         #dsa-retroelixier-container .incomplete-label.active { background: #e2d6c6; }
 
-                        /* Kugelsichere Zentrierung des Ziel Prüfen Buttons */
                         #dsa-retroelixier-container .check-btn { 
                             padding: 6px 15px; font-family: var(--boldFont); background: #e2d8c9; border: 1px solid #8e806b; 
                             border-radius: 3px; cursor: pointer; transition: 0.2s; 
@@ -217,8 +233,7 @@ Hooks.once("init", () => {
             actorData.effects = actorData.effects.filter(e => {
                 const hasStatusSet = Array.isArray(e.statuses) ? e.statuses.length > 0 : (e.statuses?.size > 0);
                 const hasCoreStatus = e.flags?.core?.statusId;
-                const isManualDefeat = ["besiegt", "tot", "toth", "dead", "defeated", "handlungsunfähig", "incapacitated"].includes((e.name || "").toLowerCase());
-                return !(hasStatusSet || hasCoreStatus || isManualDefeat);
+                return !(hasStatusSet || hasCoreStatus);
             });
 
             const worldActor = await Actor.create(actorData);
