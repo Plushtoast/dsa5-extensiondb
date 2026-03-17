@@ -1,3 +1,4 @@
+
 Hooks.once("init", () => {
     game.dsa5Magic2 = game.dsa5Magic2 || {};
 
@@ -27,10 +28,11 @@ Hooks.once("init", () => {
         const actionLabel = game.i18n.localize("DIVINATION.actionLabel");
         const wantsToDo = game.i18n.localize("DIVINATION.wantsToDo");
 
+
         const messageContent = `
             <div class="dsa5 chat-card">
-                <header class="card-header">
-                    <h3 class="item-name">${actionLabel}</h3>
+                <header class="card-header" style="justify-content: center;">
+                    <h3 class="item-name" style="text-align: center; margin: 0;">${actionLabel}</h3>
                 </header>
                 <div class="card-content" style="padding: 5px;">
                     <button class="divination-open-btn button" data-target="${targetActor.id}" style="width: 100%; padding: 8px; line-height: 1.3; height: auto;">
@@ -48,9 +50,13 @@ Hooks.once("init", () => {
     };
 });
 
-
 Hooks.on("renderChatMessage", (message, html, data) => {
-    html.find('.divination-open-btn').click(async (ev) => {
+    const htmlElement = html instanceof jQuery ? html[0] : html;
+    const btn = htmlElement.querySelector('.divination-open-btn');
+    
+    if (!btn) return;
+
+    btn.addEventListener('click', async (ev) => {
         ev.preventDefault();
         
         const targetId = ev.currentTarget.dataset.target;
@@ -67,18 +73,23 @@ Hooks.on("renderChatMessage", (message, html, data) => {
         const acceptLabel = game.i18n.localize("DIVINATION.acceptLabel");
         const declineLabel = game.i18n.localize("DIVINATION.declineLabel");
 
-        new Dialog({
-            title: actionLabel,
+        const { DialogV2 } = foundry.applications.api;
+
+        DialogV2.wait({
+            window: { title: actionLabel },
+            position: { width: 450 },
             content: `
                 <div style="margin-bottom: 15px;">
                     <p style="font-style: italic; margin-bottom: 10px;">${dialogText}</p>
                     <p style="font-size: 0.95em;"><strong>${rulesText}</strong></p>
                 </div>
             `,
-            buttons: {
-                accept: {
-                    icon: '<i class="fas fa-check"></i>',
+            buttons: [
+                {
+                    action: "accept",
                     label: acceptLabel,
+                    icon: "fas fa-check",
+                    default: true,
                     callback: async () => {
                         let current = foundry.utils.getProperty(targetActor, "system.status.fatePoints.value") ?? 0;
                         let max = foundry.utils.getProperty(targetActor, "system.status.fatePoints.max") ?? 0;
@@ -132,15 +143,15 @@ Hooks.on("renderChatMessage", (message, html, data) => {
                         }));
                     }
                 },
-                decline: {
-                    icon: '<i class="fas fa-times"></i>',
+                {
+                    action: "decline",
                     label: declineLabel,
+                    icon: "fas fa-times",
                     callback: () => {
                         ui.notifications.info(game.i18n.localize("DIVINATION.declinedInfo"));
                     }
                 }
-            },
-            default: "accept"
-        }, { width: 400 }).render(true);
+            ]
+        });
     });
 });
