@@ -1,106 +1,9 @@
-<div class="zurbaran-app dsa5">
-    <style>
-        .zurbaran-app {
-            --border-color: #736953a6;
-            --bg-color: #e1d3c6;
-            --bg-contrast-color: #333333;
-            --button-color: #532902e7;
-            --sheet-bg: #2e2c2a15;
-            --sheet-border: #968678;
-            --boldFont: "Signika";
-            --normalFont: "Signika";
-            --dsadesign1: #937b48;
-            --oddColor: rgba(0, 0, 0, 0.1);
-            --copiedBG: rgba(255, 255, 255, 0.6);
-            
-            font-size: 14px;
-            font-family: var(--normalFont), "Signika", sans-serif; 
-            color: var(--bg-contrast-color);
-            padding: 5px 15px 15px 15px;
-            height: 100%;
-            box-sizing: border-box;
-        }
-
-        .zurbaran-app h3 { font-family: var(--boldFont), "Signika", sans-serif; border-bottom: 1px solid var(--border-color); margin-bottom: 5px; }
-        .zurbaran-app .intro-text { margin-bottom: 15px; font-style: italic; }
-        
-        .zurbaran-app .drag-area { display: flex; justify-content: center; gap: 40px; align-items: center; padding: 25px 0 15px 0; margin-bottom: 15px; transition: padding-bottom 0.2s ease; }
-
-        .zurbaran-app .plant-slot { width: 80px; height: 80px; border: 2px dashed var(--sheet-border); border-radius: 5px; display: flex; justify-content: center; align-items: center; cursor: pointer; position: relative; background-size: cover; background-position: center; }
-        .zurbaran-app .plant-slot:hover { border-color: var(--bg-contrast-color); background-color: var(--oddColor); }
-        
-        .zurbaran-app .mini-icons { position: absolute; top: -14px; left: 0; width: 100%; display: flex; justify-content: center; gap: 3px; pointer-events: none; }
-        .zurbaran-app .mini-icons img { width: 22px; height: 22px; background: rgba(255, 255, 255, 0.75); border-radius: 50%; border: 1px solid var(--sheet-border); padding: 1px; }
-
-        /* Klickbare Eigenschafts-Icons in der Mitte */
-        .zurbaran-app .icon-center { display: flex; gap: 10px; }
-        .zurbaran-app .type-icon { 
-            width: 80px; height: 80px; border: none; border-radius: 50%; 
-            background: transparent; filter: grayscale(100%) opacity(40%); transition: all 0.3s ease; 
-        }
-        /* Wenn Eigenschaft verfügbar: Graufilter aus, 100% Sichtbarkeit (Farbig) */
-        .zurbaran-app .type-icon.available { filter: grayscale(0%) opacity(100%); cursor: pointer; }
-        .zurbaran-app .type-icon.available:hover { transform: scale(1.05); }
-        
-        /* Das runden, farbigen Leuchteffekte für die ausgewählten Eigenschaften (überschreibt sicherheitshalber den Filter nochmals) */
-        .zurbaran-app .type-icon.selected-healing { filter: grayscale(0%) opacity(100%); transform: scale(1.1); background: #eaf2e4; box-shadow: 0 0 15px 5px rgba(107, 148, 77, 0.9), inset 0 0 10px rgba(107, 148, 77, 0.5); }
-        .zurbaran-app .type-icon.selected-poison { filter: grayscale(0%) opacity(100%); transform: scale(1.1); background: #f7e4e4; box-shadow: 0 0 15px 5px rgba(168, 66, 66, 0.9), inset 0 0 10px rgba(168, 66, 66, 0.5); }
-        .zurbaran-app .type-icon.selected-crop { filter: grayscale(0%) opacity(100%); transform: scale(1.1); background: #ffebad; box-shadow: 0 0 15px 5px rgba(212, 176, 76, 0.9), inset 0 0 10px rgba(212, 176, 76, 0.5); }
-        
-        .zurbaran-app .plant-popover { display: none; position: absolute; background: var(--bg-color); border: 1px solid var(--sheet-border); z-index: 1000; max-height: 250px; overflow-y: auto; width: 260px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); list-style: none; margin: 0; padding: 0; }
-        .zurbaran-app .plant-popover.show { display: block; }
-        .zurbaran-app .plant-popover li { padding: 5px; cursor: pointer; border-bottom: 1px solid var(--border-color); display: flex; align-items: center; gap: 5px; }
-        .zurbaran-app .plant-popover li:hover { background: var(--copiedBG); }
-        .zurbaran-app .plant-popover img.plant-img { width: 24px; height: 24px; border: none; flex-shrink: 0; }
-        
-        .zurbaran-app .list-mini-icons { display: flex; gap: 2px; margin-left: auto; }
-        .zurbaran-app .list-mini-icons img { width: 18px; height: 18px; background: rgba(255, 255, 255, 0.75); border-radius: 50%; border: 1px solid var(--sheet-border); padding: 1px; }
-
-        .zurbaran-app .plant-slot[data-slot="1"] .plant-popover { bottom: 80px; left: 80px; top: auto; }
-        .zurbaran-app .plant-slot[data-slot="2"] .plant-popover { bottom: 80px; right: 80px; top: auto; left: auto; }
-
-        .zurbaran-app .improvements-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 8px; margin-bottom: 20px; margin-top: 15px; }
-        
-        .zurbaran-app .imp-btn { 
-            position: relative; 
-            padding: 8px 6px 6px 6px; 
-            cursor: pointer; text-align: center; font-size: 14px; font-family: var(--normalFont), "Signika", sans-serif;
-            background: rgba(0, 0, 0, 0.05); border: 1px solid var(--sheet-border); border-radius: 3px; color: var(--bg-contrast-color);
-            transition: all 0.2s;
-        }
-        .zurbaran-app .imp-btn:hover:not(:disabled) { background: rgba(0, 0, 0, 0.1); border-color: var(--dsadesign1); }
-        .zurbaran-app .imp-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-        
-        .zurbaran-app .imp-btn.selected { 
-            background: #e2d6c6; 
-            color: var(--bg-contrast-color); 
-            border: 1px solid #736953; 
-            font-family: var(--boldFont), "Signika", sans-serif; 
-            box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
-        }
-
-        .zurbaran-app .btn-mini-icons { position: absolute; top: -11px; left: 50%; transform: translateX(-50%); display: flex; gap: 4px; pointer-events: none; z-index: 5; }
-        .zurbaran-app .btn-mini-icons img { 
-            width: 20px; height: 20px; background: #ece4d9; border-radius: 50%; 
-            border: 1px solid var(--sheet-border); padding: 1px; 
-            box-shadow: 0 1px 2px rgba(0,0,0,0.2); transition: all 0.3s ease; 
-        }
-        
-        .zurbaran-app .btn-mini-icons img.met-healing { border-color: #6b944d; background: #eaf2e4; box-shadow: 0 0 10px 3px rgba(107, 148, 77, 0.9), inset 0 0 4px rgba(107, 148, 77, 0.5); transform: scale(1.2); z-index: 10; }
-        .zurbaran-app .btn-mini-icons img.met-poison { border-color: #a84242; background: #f7e4e4; box-shadow: 0 0 10px 3px rgba(168, 66, 66, 0.9), inset 0 0 4px rgba(168, 66, 66, 0.5); transform: scale(1.2); z-index: 10; }
-        .zurbaran-app .btn-mini-icons img.met-crop { border-color: #c99a2e; background: #ffebad; box-shadow: 0 0 10px 3px rgba(212, 176, 76, 0.9), inset 0 0 4px rgba(212, 176, 76, 0.5); transform: scale(1.2); z-index: 10; }
-        
-        .zurbaran-app .cost-display { text-align: center; margin-bottom: 10px; font-size: 14px; color: var(--bg-contrast-color); }
-        .zurbaran-app .dialog-buttons { display: flex; gap: 10px; justify-content: flex-end; margin-top: auto; padding-top: 15px; }
-        .zurbaran-app .dialog-buttons button { font-family: var(--boldFont), "Signika", sans-serif; border: 1px solid var(--sheet-border); background: rgba(0, 0, 0, 0.05); cursor: pointer; transition: 0.2s; }
-        .zurbaran-app .dialog-buttons button:hover { background: rgba(0, 0, 0, 0.1); border-color: var(--dsadesign1); }
-    </style>
-
+<div class="zurbaran-app dsa5" id="dsa-zurbaran-container">
     <h3>{{localize "ZURBARAN.introTitle"}}</h3>
     <div class="intro-text">{{{localize "ZURBARAN.introText"}}}</div>
 
     <div class="drag-area">
-        <div class="plant-slot" data-slot="1" data-tooltip="{{localize 'ZURBARAN.slotTooltip'}}" style="background-image: url('{{plant1.img}}');">
+        <div class="plant-slot" data-slot="1" data-tooltip="<b>Linksklick:</b> Verfügbare Pflanzen anzeigen/öffnen.<br><b>Rechtsklick:</b> Pflanze entfernen.<br><b>Drag &amp; Drop:</b> Pflanze hier ablegen." style="background-image: url('{{plant1.img}}');">
             {{#if plant1}}
                 <div class="mini-icons">
                     {{#if plant1Types.healing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}"/>{{/if}}
@@ -128,12 +31,12 @@
         </div>
 
         <div class="icon-center">
-            <img src="systems/dsa5/icons/categories/planthealing.webp" class="type-icon {{#if activeTypes.healing}}available{{/if}} {{#if isTypeHealing}}selected-healing{{/if}}" data-type="healing" data-tooltip="{{localize 'PLANT.healing'}}" />
-            <img src="systems/dsa5/icons/categories/plantpoison.webp" class="type-icon {{#if activeTypes.poison}}available{{/if}} {{#if isTypePoison}}selected-poison{{/if}}" data-type="poison" data-tooltip="{{localize 'PLANT.poison'}}" />
-            <img src="systems/dsa5/icons/categories/plantcrop.webp" class="type-icon {{#if activeTypes.crop}}available{{/if}} {{#if isTypeCrop}}selected-crop{{/if}}" data-type="crop" data-tooltip="{{localize 'PLANT.crop'}}" />
+            <img src="systems/dsa5/icons/categories/planthealing.webp" class="type-icon {{#if activeTypes.healing}}available{{/if}} {{#if isTypeHealing}}selected-healing{{/if}}" data-action="selectType" data-type="healing" data-tooltip="{{localize 'PLANT.healing'}}" />
+            <img src="systems/dsa5/icons/categories/plantpoison.webp" class="type-icon {{#if activeTypes.poison}}available{{/if}} {{#if isTypePoison}}selected-poison{{/if}}" data-action="selectType" data-type="poison" data-tooltip="{{localize 'PLANT.poison'}}" />
+            <img src="systems/dsa5/icons/categories/plantcrop.webp" class="type-icon {{#if activeTypes.crop}}available{{/if}} {{#if isTypeCrop}}selected-crop{{/if}}" data-action="selectType" data-type="crop" data-tooltip="{{localize 'PLANT.crop'}}" />
         </div>
 
-        <div class="plant-slot" data-slot="2" data-tooltip="{{localize 'ZURBARAN.slotTooltip'}}" style="background-image: url('{{plant2.img}}');">
+        <div class="plant-slot" data-slot="2" data-tooltip="<b>Linksklick:</b> Verfügbare Pflanzen anzeigen/öffnen.<br><b>Rechtsklick:</b> Pflanze entfernen.<br><b>Drag &amp; Drop:</b> Pflanze hier ablegen." style="background-image: url('{{plant2.img}}');">
             {{#if plant2}}
                 <div class="mini-icons">
                     {{#if plant2Types.healing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}"/>{{/if}}
@@ -158,7 +61,7 @@
                     <li>{{localize "ZURBARAN.noPlants"}}</li>
                 {{/each}}
             </ul>
-        </div>
+         </div>
     </div>
 
     {{#if bothSelected}}
@@ -170,14 +73,14 @@
 
             <div class="improvements-grid">
                 {{#each improvements}}
-                    <button class="imp-btn {{#if this.selected}}selected{{/if}}" data-id="{{this.id}}" data-tooltip="{{this.tooltip}}" {{#if this.disabled}}disabled{{/if}}>
+                     <button class="imp-btn {{#if this.selected}}selected{{/if}}" data-action="toggleImp" data-id="{{this.id}}" data-tooltip="{{this.tooltip}}" {{#if this.disabled}}disabled{{/if}}>
                         <div class="btn-mini-icons">
                             {{#if this.reqHealing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}" class="{{#if this.metHealing}}met-healing{{/if}}"/>{{/if}}
                             {{#if this.reqPoison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}" class="{{#if this.metPoison}}met-poison{{/if}}"/>{{/if}}
                             {{#if this.reqCrop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}" class="{{#if this.metCrop}}met-crop{{/if}}"/>{{/if}}
                         </div>
                         {{this.name}}
-                    </button>
+                     </button>
                 {{/each}}
             </div>
         {{else}}
@@ -188,7 +91,7 @@
     {{/if}}
 
     <div class="dialog-buttons">
-        <button class="btn-confirm"><i class="fas fa-check"></i> {{localize "ZURBARAN.btnConfirm"}}</button>
-        <button class="btn-cancel"><i class="fas fa-times"></i> {{localize "ZURBARAN.btnCancel"}}</button>
+        <button class="btn-confirm" data-action="confirm"><i class="fas fa-check"></i> {{localize "ZURBARAN.btnConfirm"}}</button>
+        <button class="btn-cancel" data-action="cancel"><i class="fas fa-times"></i> {{localize "ZURBARAN.btnCancel"}}</button>
     </div>
 </div>
