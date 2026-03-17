@@ -4,75 +4,63 @@ const lang = game.i18n.lang == "de" ? "de" : "en";
 const dict = {
   de: {
     noTarget: "Kein Ziel ausgewählt! Bitte ein Token anvisieren.",
+    noItemClass: "Die DSA5-Itemklasse ist nicht verfügbar.",
     nameBreath: "Rachenputzer",
     burning: "Brennend",
     ctxMissing: "Kontext fehlt: Actor nicht gesetzt.",
     qsInvalid: "Qualitätsstufe (QS) fehlt oder ist ungültig (1–6).",
-    noToken: "Kein aktives Token des Auslösers gefunden.",
-    noScene: "Keine aktive Szene gefunden.",
     combatSkill: "Bögen",
   },
   en: {
     noTarget: "No target selected! Please aim at a token.",
+    noItemClass: "The DSA5 item class is not available.",
     nameBreath: "Throat Scrubber",
     burning: "Burning",
     ctxMissing: "Context missing: Actor not set.",
     qsInvalid: "Quality level (QS) missing or invalid (1–6).",
-    noToken: "No active token of the source actor found.",
-    noScene: "No active scene found.",
     combatSkill: "Bows",
   },
+}[lang];
+
+const sendMessage = async (message) => {
+  await ChatMessage.create(game.dsa5.apps.DSA5_Utility.chatDataSetup(message));
 };
 
-
-const L = (key) => (dict?.[lang]?.[key]) ?? key;
-
-
-if (!Actor) {
-  ui.notifications.error(L("ctxMissing"));
+if (!actor) {
+  await sendMessage(dict.ctxMissing);
   return;
 }
-if (typeof qs === "undefined" || qs < 1 || qs > 6) {
-  ui.notifications.error(L("qsInvalid"));
+
+const qualityStep = Number(qs) || 0;
+if (qualityStep < 1 || qualityStep > 6) {
+  await sendMessage(dict.qsInvalid);
   return;
 }
 
 const target = Array.from(game.user.targets)[0];
 if (!target) {
-  ui.notifications.error(L("noTarget"));
+  await sendMessage(dict.noTarget);
   return;
 }
-const targetActor = target.actor;
 
-
-const scene = game.scenes?.active;
-if (!scene) {
-  ui.notifications.error(L("noScene"));
+const Itemdsa5 = game?.dsa5?.entities?.Itemdsa5;
+if (!Itemdsa5) {
+  await sendMessage(dict.noItemClass);
   return;
 }
-const sourceTokenDoc = canvas?.tokens?.controlled?.[0]?.document;
-if (!sourceTokenDoc) {
-  ui.notifications.error(L("noToken"));
-  return;
-}
-const sourceActorDoc = sourceTokenDoc.actor;
 
-//  Schaden und Reichweite nach QS
+const sourceTokenId = actor.getActiveTokens()[0]?.id;
+
 const dieTable = ["1d6", "1d6+2", "2d6", "2d6+2", "2d6+6", "2d6+6"];
 const ranges = ["0/3/3", "0/6/6", "0/8/8", "0/12/12", "0/16/16", "0/32/32"];
-const die = dieTable[qs - 1];
-const reach = ranges[qs - 1];
+const die = dieTable[qualityStep - 1];
+const reach = ranges[qualityStep - 1];
 
-let damage = 0;
-{
-  const roll = new Roll(die);
-  await roll.evaluate();
-  damage = roll.total ?? 0;
-}
+const roll = await new Roll(die).evaluate();
+const damage = roll.total ?? 0;
 
-//  Dummywaffe - Kampftechnik ist sprachabhängig
 const weaponData = {
-  name: L("nameBreath"), // Rachenputzer / Throat Scrubber
+  name: dict.nameBreath,
   type: "rangeweapon",
   img: "systems/dsa5/icons/categories/Rangeweapon.webp",
   system: {
@@ -80,7 +68,7 @@ const weaponData = {
     reloadTime: { value: 0, progress: 0 },
     reach: { value: reach },
     ammunitiongroup: { value: "-" },
-    combatskill: { value: L("combatSkill") }, // DE: "Bögen", EN: "Bows"
+    combatskill: { value: dict.combatSkill },
     worn: { value: false },
     structure: { max: 0, value: 0 },
     quantity: { value: 1 },
@@ -91,10 +79,9 @@ const weaponData = {
   effects: [],
 };
 
-//  Brennend-Effekt ab QS 3
-if (qs >= 3) {
+if (qualityStep >= 3) {
   weaponData.effects.push({
-    name: L("burning"),
+    name: dict.burning,
     type: "",
     img: "icons/svg/aura.svg",
     changes: [],
@@ -105,8 +92,6 @@ if (qs >= 3) {
   });
 }
 
-// Dummywaffe
-const Itemdsa5 = game?.dsa5?.entities?.Itemdsa5;
 const weapon = new Itemdsa5(weaponData);
 
 const dialogOptions = {
@@ -121,13 +106,12 @@ const setupData = await sub.setupDialog(
   null,
   dialogOptions,
   weapon,
-  sourceActorDoc,
-  sourceTokenDoc.id
+  actor,
+  sourceTokenId
 );
 
-//  Ziel und Modifikator ergänzen
 setupData.testData.targets = [target.id];
-const defenseMalus = qs === 6 ? 2 : 0;
+const defenseMalus = qualityStep === 6 ? -2 : 0;
 if (Array.isArray(setupData.testData.situationalModifiers)) {
   setupData.testData.situationalModifiers.push({
     name: game.i18n.localize("MODS.defenseMalus"),
@@ -137,5 +121,4 @@ if (Array.isArray(setupData.testData.situationalModifiers)) {
   });
 }
 
-// Test ausführen
-await sourceActorDoc.basicTest(setupData);
+await actor.basicTest(setupData);
