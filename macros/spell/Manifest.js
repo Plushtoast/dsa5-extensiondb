@@ -1,6 +1,5 @@
 // This is a system macro used for automation. It is disfunctional without the proper context.
 
-
 const lang = game.i18n.lang == "de" ? "de" : "en";
 
 const dict = {
@@ -45,27 +44,27 @@ if (!actor) {
     return;
 }
 
-// CSS 
 const styleId = "em-macro-styles";
 
 if (!document.getElementById(styleId)) {
     document.head.insertAdjacentHTML("beforeend", `
       <style id="${styleId}">
-        .em-dialog-text { font-size: 1.1em; margin-bottom: 10px; line-height: 1.4; }
-        .em-element-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; margin-bottom: 10px; }
-        .em-element-col { display: flex; flex-direction: column; gap: 5px; }
-        .em-hidden-radio { position: absolute !important; left: -9999px !important; opacity: 0 !important; }
+        #dsa-manifest-container .em-dialog-text { font-size: 1.1em; margin-bottom: 10px; line-height: 1.4; }
+        #dsa-manifest-container .em-element-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; margin-bottom: 10px; }
+        #dsa-manifest-container .em-element-col { display: flex; flex-direction: column; gap: 5px; }
+        #dsa-manifest-container .em-hidden-radio { position: absolute !important; left: -9999px !important; opacity: 0 !important; }
         
-        .em-element-btn { 
+        #dsa-manifest-container .em-element-btn { 
           display: block; padding: 8px; text-align: center; border: 1px solid #7a7971; 
           background: rgba(0, 0, 0, 0.05); cursor: pointer; border-radius: 3px; 
           font-weight: bold; transition: all 0.2s; margin: 0; 
         }
         
-        .em-element-btn::before, .em-element-btn::after { display: none !important; content: none !important; }
-        .em-element-btn:hover { background: rgba(0, 0, 0, 0.1); }
+        #dsa-manifest-container .em-element-btn::before, 
+        #dsa-manifest-container .em-element-btn::after { display: none !important; content: none !important; }
+        #dsa-manifest-container .em-element-btn:hover { background: rgba(0, 0, 0, 0.1); }
         
-        .em-hidden-radio:checked + .em-element-btn { 
+        #dsa-manifest-container .em-hidden-radio:checked + .em-element-btn { 
           background: #968678 !important; 
           color: white !important; 
           border-color: #7a7971 !important; 
@@ -76,6 +75,7 @@ if (!document.getElementById(styleId)) {
 }
 
 const content = `
+<div id="dsa-manifest-container">
   <div class="em-dialog-text">${dict.dialogText}</div>
   <form>
     <div class="em-element-grid">
@@ -101,10 +101,12 @@ const content = `
       </div>
     </div>
   </form>
+</div>
 `;
 
 const selectedKey = await foundry.applications.api.DialogV2.wait({
     window: { title: dict.dialogTitle },
+    classes: ["dsa5"],
     content: content,
     rejectClose: false,
     buttons: [
