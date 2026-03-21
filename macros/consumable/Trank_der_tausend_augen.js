@@ -25,13 +25,13 @@ if (!actor) {
   const needsConf  = [false, false, false, false, false, true][qs - 1]; // Verwirrung bei QS 6
 
   const changes = [];
-  //  if (sightMod > 0)    changes.push({ key: "system.sightModifier", mode: 2, value: sightMod });
+  // if (sightMod > 0)    changes.push({ key: "system.sightModifier", mode: 2, value: sightMod });
   if (sightbonus > 0)  changes.push({ key: "system.skillModifiers.step", mode: 0, value: `${dict.perception} ${sightbonus}` });
   if (awBonus > 0)     changes.push({ key: "system.status.dodge.gearmodifier", mode: 2, value: awBonus }); 
   if (needsConf)       changes.push({ key: "system.condition.confused", mode: 2, value: 1 });
 
   actor.createEmbeddedDocuments("ActiveEffect", [{
-    name: (typeof item !== "undefined" && item?.name) ? item.name : dict.name,
+    name: dict.name,
     icon: "icons/svg/aura.svg",
     duration: { seconds: DURATION, startTime: game.time.worldTime },
     changes
