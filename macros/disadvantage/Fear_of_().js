@@ -1,3 +1,14 @@
+const lang = game.i18n.lang == "de" ? "de" : "en";
+const dict = {
+    de: { noActor: "Kein Actor gefunden." },
+    en: { noActor: "No actor found." }
+}[lang];
+
+if (!actor) {
+    ui.notifications.warn(dict.noActor);
+    return;
+}
+
 const stepValue = item.system.step?.value || 0;
 
 if (stepValue > 0) {
@@ -18,5 +29,4 @@ if (stepValue > 0) {
     };
 
     await actor.createEmbeddedDocuments("ActiveEffect", [effectData]);
-
 }
