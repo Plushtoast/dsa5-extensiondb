@@ -58,19 +58,19 @@ if (!existingEffect) {
   
   //  "Kraftakt" bereits vorhanden?
   const kraftaktChange = changes.find(c => c.key === "system.skillModifiers.step" && c.value.includes(dict.kraftakt));
-  let newBonus = 1;
+  let newBonus = 2;
 
   if (kraftaktChange) {
     // Kraftakt da
     const currentBonus = Number(kraftaktChange.value.replace(`${dict.kraftakt} `, ""));
-    newBonus = (isNaN(currentBonus) ? 0 : currentBonus) + 1;
+    newBonus = (isNaN(currentBonus) ? 0 : currentBonus) + 2;
     kraftaktChange.value = `${dict.kraftakt} ${newBonus}`;
   } else {
     // Kraftakt nicht da
     changes.push({
       key: "system.skillModifiers.step",
       mode: 0,
-      value: `${dict.kraftakt} 1`
+      value: `${dict.kraftakt} 2`
     });
   }
 
@@ -78,6 +78,6 @@ if (!existingEffect) {
   await existingEffect.update({ changes: changes });
   
   // exponentiellenr Schaden
-  const damageAmount = Math.pow(2, newBonus);
+  const damageAmount = Math.pow(2, newBonus / 2);
   await actor.applyDamage(damageAmount); 
 }
