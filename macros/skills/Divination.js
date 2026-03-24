@@ -1,4 +1,3 @@
-
 Hooks.once("init", () => {
     game.dsa5Magic2 = game.dsa5Magic2 || {};
 
@@ -28,15 +27,12 @@ Hooks.once("init", () => {
         const actionLabel = game.i18n.localize("DIVINATION.actionLabel");
         const wantsToDo = game.i18n.localize("DIVINATION.wantsToDo");
 
-
         const messageContent = `
             <div class="dsa5 chat-card">
-                <header class="card-header" style="justify-content: center;">
-                    <h3 class="item-name" style="text-align: center; margin: 0;">${actionLabel}</h3>
-                </header>
-                <div class="card-content" style="padding: 5px;">
-                    <button class="divination-open-btn button" data-target="${targetActor.id}" style="width: 100%; padding: 8px; line-height: 1.3; height: auto;">
-                        ${senderName} ${wantsToDo}
+                <div class="message-content">
+                    <p class="center">${senderName} ${wantsToDo}</p>
+                    <button class="divination-open-btn chatButton width100 margin-top" data-target="${targetActor.id}">
+                        ${actionLabel}
                     </button>
                 </div>
             </div>
@@ -77,11 +73,11 @@ Hooks.on("renderChatMessage", (message, html, data) => {
 
         DialogV2.wait({
             window: { title: actionLabel },
-            position: { width: 450 },
+            position: { width: 650 },
             content: `
-                <div style="margin-bottom: 15px;">
-                    <p style="font-style: italic; margin-bottom: 10px;">${dialogText}</p>
-                    <p style="font-size: 0.95em;"><strong>${rulesText}</strong></p>
+                <div class="groupbox paddingBox marginBottom">
+                    <p><i>${dialogText}</i></p>
+                    <p><b>${rulesText}</b></p>
                 </div>
             `,
             buttons: [
