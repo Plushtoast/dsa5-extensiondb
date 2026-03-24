@@ -21,7 +21,7 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
 
     menuItems.push({
         name: effectName,
-        icon: '<img src="systems/dsa5/icons/schip.webp" style="height: 1.1em; width: 1.1em; display: inline-block; vertical-align: middle; border: none; margin: 0 5px 0 0;" />',
+        icon: '<span class="schip tiny fullSchip vision-menu-icon"></span>',
         callback: async () => {
             await runVisionOfTheDeity(actor, dialog);
         }
