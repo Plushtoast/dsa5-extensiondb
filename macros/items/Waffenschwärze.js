@@ -6,13 +6,15 @@ const dict = {
     descr: "Welche Waffe soll geschwärzt werden?",
     msg: (actor, name) => `${actor} hat ${name} geschwärzt.`,
     effectName: "Geschwärzt Waffe",
-    skillHide: "Verbergen"
+    skillHide: "Verbergen",
+    btnLabel: "Schwärzen"
   },
   en: {
     descr: "Which weapon should be treated with 'Blackened'?",
     msg: (actor, name) => `${actor} has blackened ${name}.`,
     effectName: "Blackened Weapon",
-    skillHide: "Stealth" 
+    skillHide: "Stealth",
+    btnLabel: "Blacken"
   }
 }[lang]
 
@@ -21,7 +23,6 @@ if (!actor) {
     return;
 }
 
-// Nur Nahkampfwaffen erlauben, die aktuell KEINEN AKTIVEN Geschwärzt-Effekt haben.
 const weapons = actor.items.filter(it => {
   if (it.type !== "meleeweapon") return false
   const hasActiveBlackened = (it.effects ?? []).some(e => 
@@ -35,42 +36,17 @@ if (weapons.length === 0) {
     return;
 }
 
-const styleId = "blackened-weapon-styles";
-if (!document.getElementById(styleId)) {
-    document.head.insertAdjacentHTML("beforeend", `
-        <style id="${styleId}">
-            /* Alle Regeln greifen NUR innerhalb unseres speziellen Containers */
-            #dsa-blackened-weapon-container .weapon-choice { display: inline-block; cursor: pointer; margin: 8px; }
-            #dsa-blackened-weapon-container .weapon-choice input[type="radio"] { display: none !important; }
-            #dsa-blackened-weapon-container .weapon-img {
-                width: 50px; height: 50px; background-size: cover; background-position: center;
-                border: 1px solid #7a7971; 
-                border-radius: 3px; 
-                box-shadow: 0 0 3px rgba(0,0,0,0.3);
-                transition: all 0.2s ease-in-out; 
-                opacity: 0.8;
-            }
-            #dsa-blackened-weapon-container .weapon-choice:hover .weapon-img { opacity: 1.0; }
-            #dsa-blackened-weapon-container .weapon-choice input[type="radio"]:checked + .weapon-img {
-                border: 2px solid #000000 !important; 
-                box-shadow: inset 0 0 8px rgba(0,0,0,0.7) !important;
-                opacity: 1.0 !important;
-            }
-            #dsa-blackened-weapon-container .weapon-wrap { 
-                display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-top: 15px; margin-bottom: 10px; 
-            }
-        </style>
-    `);
-}
-
 const options = []
 let index = 0
 for (let item of weapons) {
   const el = `
-  <label class="weapon-choice" data-tooltip="${item.name}">
-      <input type="radio" name="choice" value="${item.id}" ${index === 0 ? "checked" : ""} />
-      <div class="weapon-img" style="background-image:url('${item.img}')"></div>
-  </label>`
+  <li>
+      <label data-tooltip="${item.name}">
+          <input type="radio" name="choice" value="${item.id}" ${index === 0 ? "checked" : ""} />
+          <img src="${item.img}" width="40" height="40" style="object-fit: contain; border: none;"/>
+          <span>${item.name}</span>
+      </label>
+  </li>`
   options.push(el)
   index += 1
 }
@@ -121,18 +97,28 @@ const finishBlackened = async (choice) => {
 }
 
 new foundry.applications.api.DialogV2({
-  window: { title: dict.effectName },
+  window: { 
+      title: dict.effectName,
+      resizable: true 
+  },
+  position: {
+      width: 450,
+      height: "auto"
+  },
   classes: ["dsa5"], 
   content: `
-  <div id="dsa-blackened-weapon-container">
-      <p style="text-align: center; font-style: italic;">${dict.descr}</p>
-      <div class="weapon-wrap">
-          ${options.join("")}
+  <div class="marginBottom">
+      <p class="center"><i>${dict.descr}</i></p>
+      
+      <div class="dsa-card-list thinscroll" style="max-height: 40vh; overflow-y: auto; padding-right: 5px;">
+          <ul>
+              ${options.join("")}
+          </ul>
       </div>
   </div>`,
   buttons: [{
     action: "ok",
-    label: "ok",
+    label: dict.btnLabel,
     default: true,
     callback: (event, button, dialog) => {
         const checked = dialog.element.querySelector('input[name="choice"]:checked');
