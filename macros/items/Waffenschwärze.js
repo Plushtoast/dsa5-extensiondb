@@ -43,7 +43,7 @@ for (let item of weapons) {
   <li>
       <label data-tooltip="${item.name}">
           <input type="radio" name="choice" value="${item.id}" ${index === 0 ? "checked" : ""} />
-          <img src="${item.img}" width="40" height="40" style="object-fit: contain; border: none;"/>
+          <img src="${item.img}" width="40" height="40" class="dsa-card-icon-img"/>
           <span>${item.name}</span>
       </label>
   </li>`
@@ -97,20 +97,14 @@ const finishBlackened = async (choice) => {
 }
 
 new foundry.applications.api.DialogV2({
-  window: { 
-      title: dict.effectName,
-      resizable: true 
-  },
-  position: {
-      width: 450,
-      height: "auto"
-  },
+  window: { title: dict.effectName, resizable: true },
+  position: { width: 450, height: "auto" },
   classes: ["dsa5"], 
   content: `
   <div class="marginBottom">
       <p class="center"><i>${dict.descr}</i></p>
       
-      <div class="dsa-card-list thinscroll" style="max-height: 40vh; overflow-y: auto; padding-right: 5px;">
+      <div class="dsa-card-list thinscroll dsa-card-scroll-box">
           <ul>
               ${options.join("")}
           </ul>
