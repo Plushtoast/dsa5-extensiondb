@@ -34,7 +34,6 @@ function injectSituationalModifierField(targetDialog, value, tooltip, displayLab
     } else {
         const select = modifierContainer.querySelector('select[name="situationalModifiers"]');
         
-        // Alte Praxisbezug-Einträge sauber entfernen
         Array.from(select.options).forEach(opt => {
             if (opt.textContent.includes("Praxisbezug")) opt.remove();
         });
@@ -63,29 +62,31 @@ function injectSituationalModifierField(targetDialog, value, tooltip, displayLab
 const PRAXIS_TEMPLATE_STRING = `
 <div id="praxis-wrapper">
     {{#if rolled}}
-        <div style="text-align: center; margin-bottom: 10px;">
+        <div class="center marginBottom">
             <p>{{{instruction}}}</p>
         </div>
-        <div style="display: flex; justify-content: space-around; margin: 15px 0;">
+        
+        <div class="row-section marginBottom praxis-distribution-row">
             {{#each distribution}}
-            <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
-                <label style="font-weight: bold;">{{this.label}}</label>
-                <a data-action="adjustPraxis" data-idx="{{this.idx}}" data-delta="1" style="cursor:pointer;"><i class="fas fa-chevron-up"></i></a>
-                <input type="number" value="{{this.value}}" readonly style="width: 45px; text-align: center; height: 30px; border: 1px solid #7a7971;">
-                <a data-action="adjustPraxis" data-idx="{{this.idx}}" data-delta="-1" style="cursor:pointer;"><i class="fas fa-chevron-down"></i></a>
+            <div class="columnFlex center praxis-attribute-col">
+                <b>{{this.label}}</b>
+                <a data-action="adjustPraxis" data-idx="{{this.idx}}" data-delta="1"><i class="fas fa-chevron-up"></i></a>
+                <input type="number" class="input-text praxis-input-small" value="{{this.value}}" readonly>
+                <a data-action="adjustPraxis" data-idx="{{this.idx}}" data-delta="-1"><i class="fas fa-chevron-down"></i></a>
             </div>
             {{/each}}
         </div>
         <hr>
-        <div style="display: flex; gap: 5px;">
-            <button type="button" data-action="confirmPraxis" class="dsa5 button" style="flex:1"><i class="fas fa-check"></i> {{localize "LOCAL.confirm"}}</button>
-            <button type="button" data-action="cancelPraxis" class="dsa5 button" style="flex:1"><i class="fas fa-times"></i> {{localize "LOCAL.cancel"}}</button>
+        <div class="row-section gap5px">
+            <button type="button" data-action="confirmPraxis" class="col two dsa5 button"><i class="fas fa-check"></i> {{localize "LOCAL.confirm"}}</button>
+            <button type="button" data-action="cancelPraxis" class="col two dsa5 button"><i class="fas fa-times"></i> {{localize "LOCAL.cancel"}}</button>
         </div>
     {{else}}
-        <p>{{description}}</p><hr>
-        <div class="form-group knowledge-buttons" style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+        <p class="center marginBottom">{{description}}</p>
+        
+        <div class="row-section gap5px wrap">
             {{#each skills}}
-            <button type="button" data-action="rollKnowledge" data-id="{{this.id}}" class="knowledge-roll-btn dsa5 button">{{this.name}}</button>
+            <button type="button" data-action="rollKnowledge" data-id="{{this.id}}" class="col two dsa5 button" style="margin-bottom: 5px;">{{this.name}}</button>
             {{/each}}
         </div>
     {{/if}}
