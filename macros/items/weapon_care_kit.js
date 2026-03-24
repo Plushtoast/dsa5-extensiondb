@@ -88,11 +88,11 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
                     </ul>
                 </div>
 
-                <div style="display: flex; gap: 5px; margin-top: 15px;">
-                    <button class="dsa5 button" data-action="repair" data-skill="${dict.metalworking}" ${!this.selectedWeaponId ? 'disabled' : ''} style="flex: 1;">
+                <div class="row-section gap5px margin-top">
+                    <button class="col two dsa5 button" data-action="repair" data-skill="${dict.metalworking}" ${!this.selectedWeaponId ? 'disabled' : ''}>
                         <i class="fas fa-hammer"></i> ${dict.metalworking}
                     </button>
-                    <button class="dsa5 button" data-action="repair" data-skill="${dict.woodworking}" ${!this.selectedWeaponId ? 'disabled' : ''} style="flex: 1;">
+                    <button class="col two dsa5 button" data-action="repair" data-skill="${dict.woodworking}" ${!this.selectedWeaponId ? 'disabled' : ''}>
                         <i class="fas fa-tree"></i> ${dict.woodworking}
                     </button>
                 </div>
