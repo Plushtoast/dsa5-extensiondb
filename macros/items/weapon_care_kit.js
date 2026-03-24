@@ -45,40 +45,6 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
     constructor(options) {
         super(options);
         this.selectedWeaponId = null;
-
-        const styleId = "weapon-care-styles";
-        if (!document.getElementById(styleId)) {
-            document.head.insertAdjacentHTML("beforeend", `
-                <style id="${styleId}">
-                    #dsa-weapon-care-container .weapon-care-item { 
-                        display: flex; align-items: center; padding: 5px; cursor: pointer; 
-                        border-bottom: 1px solid var(--color-border-light-2); 
-                        transition: background 0.2s, max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease; 
-                        max-height: 50px;
-                        opacity: 1;
-                        overflow: hidden;
-                    }
-                    #dsa-weapon-care-container .weapon-care-item:hover { background: rgba(0,0,0,0.05); }
-                    #dsa-weapon-care-container .weapon-care-item.selected { 
-                        background: rgba(147, 123, 72, 0.3) !important; 
-                        font-weight: bold; 
-                    }
-                    /* Animations-Klasse für das erfolgreiche Reparieren */
-                    #dsa-weapon-care-container .weapon-care-item.repaired-anim {
-                        max-height: 0px;
-                        opacity: 0;
-                        padding-top: 0;
-                        padding-bottom: 0;
-                        border-bottom: none;
-                    }
-                    #dsa-weapon-care-container .weapon-care-list { 
-                        border: 1px solid var(--color-border-dark); border-radius: 5px; padding: 5px; 
-                        max-height: 200px; overflow-y: auto; background: var(--color-bg-light); margin-top: 10px; 
-                    }
-                    #dsa-weapon-care-container .care-action-btn { flex: 1; }
-                </style>
-            `);
-        }
     }
 
     async _prepareContext() {
@@ -97,29 +63,36 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
 
     async _renderHTML(context, options) {
         if (!context.hasWeapons) {
-            return `<div id="dsa-weapon-care-container" style="padding: 10px; text-align: center; font-style: italic;">${dict.noWeapons}</div>`;
+            return `<div class="paddingBox center"><i>${dict.noWeapons}</i></div>`;
         }
 
         const weaponHtml = context.weapons.map(w => {
             const isSelected = this.selectedWeaponId === w.id;
             return `
-            <div class="weapon-care-item ${isSelected ? 'selected' : ''}" data-action="selectWeapon" data-id="${w.id}">
-                <img src="${w.img}" width="30" height="30" style="min-width: 30px; margin-right: 10px; border: 1px solid #777; border-radius: 3px;" />
-                <span class="weapon-name" style="flex-grow: 1;">${w.name}</span>
-            </div>`;
+            <li>
+                <label data-action="selectWeapon" data-id="${w.id}">
+                    <input type="radio" name="weaponChoice" value="${w.id}" ${isSelected ? 'checked' : ''} />
+                    <img src="${w.img}" width="40" height="40" style="object-fit: contain; border: none;"/>
+                    <span>${w.name}</span>
+                </label>
+            </li>`;
         }).join("");
 
         return `
-            <div id="dsa-weapon-care-container">
-                <div style="margin-bottom: 10px; font-style: italic;">${dict.desc}</div>
-                <div class="weapon-care-list">
-                    ${weaponHtml}
+            <div class="marginBottom">
+                <p class="center"><i>${dict.desc}</i></p>
+                
+                <div class="dsa-card-list thinscroll" style="max-height: 40vh; overflow-y: auto; padding-right: 5px;">
+                    <ul>
+                        ${weaponHtml}
+                    </ul>
                 </div>
+
                 <div style="display: flex; gap: 5px; margin-top: 15px;">
-                    <button class="care-action-btn dsa5 button" data-action="repair" data-skill="${dict.metalworking}" ${!this.selectedWeaponId ? 'disabled' : ''}>
+                    <button class="dsa5 button" data-action="repair" data-skill="${dict.metalworking}" ${!this.selectedWeaponId ? 'disabled' : ''} style="flex: 1;">
                         <i class="fas fa-hammer"></i> ${dict.metalworking}
                     </button>
-                    <button class="care-action-btn dsa5 button" data-action="repair" data-skill="${dict.woodworking}" ${!this.selectedWeaponId ? 'disabled' : ''}>
+                    <button class="dsa5 button" data-action="repair" data-skill="${dict.woodworking}" ${!this.selectedWeaponId ? 'disabled' : ''} style="flex: 1;">
                         <i class="fas fa-tree"></i> ${dict.woodworking}
                     </button>
                 </div>
@@ -166,18 +139,8 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
                 
                 ui.notifications.info(dict.success(weapon.name));
                 
-                const itemElement = this.element.querySelector(`.weapon-care-item[data-id="${weapon.id}"]`);
-                if (itemElement) {
-                    itemElement.classList.add("repaired-anim");
-                    
-                    setTimeout(() => {
-                        this.selectedWeaponId = null;
-                        this.render(); 
-                    }, 400);
-                } else {
-                    this.selectedWeaponId = null;
-                    this.render();
-                }
+                this.selectedWeaponId = null;
+                this.render();
 
             } else {
                 ui.notifications.warn(dict.fail(weapon.name));
