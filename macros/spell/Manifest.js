@@ -44,63 +44,50 @@ if (!actor) {
     return;
 }
 
-const styleId = "em-macro-styles";
-
-if (!document.getElementById(styleId)) {
-    document.head.insertAdjacentHTML("beforeend", `
-      <style id="${styleId}">
-        #dsa-manifest-container .em-dialog-text { font-size: 1.1em; margin-bottom: 10px; line-height: 1.4; }
-        #dsa-manifest-container .em-element-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; margin-bottom: 10px; }
-        #dsa-manifest-container .em-element-col { display: flex; flex-direction: column; gap: 5px; }
-        #dsa-manifest-container .em-hidden-radio { position: absolute !important; left: -9999px !important; opacity: 0 !important; }
-        
-        #dsa-manifest-container .em-element-btn { 
-          display: block; padding: 8px; text-align: center; border: 1px solid #7a7971; 
-          background: rgba(0, 0, 0, 0.05); cursor: pointer; border-radius: 3px; 
-          font-weight: bold; transition: all 0.2s; margin: 0; 
-        }
-        
-        #dsa-manifest-container .em-element-btn::before, 
-        #dsa-manifest-container .em-element-btn::after { display: none !important; content: none !important; }
-        #dsa-manifest-container .em-element-btn:hover { background: rgba(0, 0, 0, 0.1); }
-        
-        #dsa-manifest-container .em-hidden-radio:checked + .em-element-btn { 
-          background: #968678 !important; 
-          color: white !important; 
-          border-color: #7a7971 !important; 
-          box-shadow: inset 0 2px 4px rgba(0,0,0,0.15) !important; 
-        }
-      </style>
-    `);
-}
-
 const content = `
-<div id="dsa-manifest-container">
-  <div class="em-dialog-text">${dict.dialogText}</div>
-  <form>
-    <div class="em-element-grid">
-      <div class="em-element-col">
-        <input type="radio" id="elem-humus" name="element" value="humus" class="em-hidden-radio">
-        <label for="elem-humus" class="em-element-btn">${dict.elements.humus.name}</label>
-        
-        <input type="radio" id="elem-fire" name="element" value="fire" class="em-hidden-radio">
-        <label for="elem-fire" class="em-element-btn">${dict.elements.fire.name}</label>
-        
-        <input type="radio" id="elem-air" name="element" value="air" class="em-hidden-radio">
-        <label for="elem-air" class="em-element-btn">${dict.elements.air.name}</label>
-      </div>
-      <div class="em-element-col">
-        <input type="radio" id="elem-ice" name="element" value="ice" class="em-hidden-radio">
-        <label for="elem-ice" class="em-element-btn">${dict.elements.ice.name}</label>
-        
-        <input type="radio" id="elem-water" name="element" value="water" class="em-hidden-radio">
-        <label for="elem-water" class="em-element-btn">${dict.elements.water.name}</label>
-        
-        <input type="radio" id="elem-ore" name="element" value="ore" class="em-hidden-radio">
-        <label for="elem-ore" class="em-element-btn">${dict.elements.ore.name}</label>
-      </div>
-    </div>
-  </form>
+<div class="marginBottom">
+  <p class="center">${dict.dialogText}</p>
+  
+  <div class="dsa-card-list">
+    <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+      <li style="margin: 0;">
+        <label>
+          <input type="radio" name="element" value="humus">
+          <span class="center" style="width: 100%;">${dict.elements.humus.name}</span>
+        </label>
+      </li>
+      <li style="margin: 0;">
+        <label>
+          <input type="radio" name="element" value="fire">
+          <span class="center" style="width: 100%;">${dict.elements.fire.name}</span>
+        </label>
+      </li>
+      <li style="margin: 0;">
+        <label>
+          <input type="radio" name="element" value="air">
+          <span class="center" style="width: 100%;">${dict.elements.air.name}</span>
+        </label>
+      </li>
+      <li style="margin: 0;">
+        <label>
+          <input type="radio" name="element" value="ice">
+          <span class="center" style="width: 100%;">${dict.elements.ice.name}</span>
+        </label>
+      </li>
+      <li style="margin: 0;">
+        <label>
+          <input type="radio" name="element" value="water">
+          <span class="center" style="width: 100%;">${dict.elements.water.name}</span>
+        </label>
+      </li>
+      <li style="margin: 0;">
+        <label>
+          <input type="radio" name="element" value="ore">
+          <span class="center" style="width: 100%;">${dict.elements.ore.name}</span>
+        </label>
+      </li>
+    </ul>
+  </div>
 </div>
 `;
 
