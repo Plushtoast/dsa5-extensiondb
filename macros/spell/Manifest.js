@@ -53,37 +53,37 @@ const content = `
       <li style="margin: 0;">
         <label>
           <input type="radio" name="element" value="humus">
-          <span class="center" style="width: 100%;">${dict.elements.humus.name}</span>
+          <span class="center width100">${dict.elements.humus.name}</span>
         </label>
       </li>
       <li style="margin: 0;">
         <label>
           <input type="radio" name="element" value="fire">
-          <span class="center" style="width: 100%;">${dict.elements.fire.name}</span>
+          <span class="center width100">${dict.elements.fire.name}</span>
         </label>
       </li>
       <li style="margin: 0;">
         <label>
           <input type="radio" name="element" value="air">
-          <span class="center" style="width: 100%;">${dict.elements.air.name}</span>
+          <span class="center width100">${dict.elements.air.name}</span>
         </label>
       </li>
       <li style="margin: 0;">
         <label>
           <input type="radio" name="element" value="ice">
-          <span class="center" style="width: 100%;">${dict.elements.ice.name}</span>
+          <span class="center width100">${dict.elements.ice.name}</span>
         </label>
       </li>
       <li style="margin: 0;">
         <label>
           <input type="radio" name="element" value="water">
-          <span class="center" style="width: 100%;">${dict.elements.water.name}</span>
+          <span class="center width100">${dict.elements.water.name}</span>
         </label>
       </li>
       <li style="margin: 0;">
         <label>
           <input type="radio" name="element" value="ore">
-          <span class="center" style="width: 100%;">${dict.elements.ore.name}</span>
+          <span class="center width100">${dict.elements.ore.name}</span>
         </label>
       </li>
     </ul>
