@@ -49,38 +49,38 @@ const content = `
   <p class="center">${dict.dialogText}</p>
   
   <div class="dsa-card-list">
-    <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
-      <li style="margin: 0;">
+    <ul class="dsa-grid-2col">
+      <li class="dsa-list-no-margin">
         <label>
           <input type="radio" name="element" value="humus">
           <span class="center width100">${dict.elements.humus.name}</span>
         </label>
       </li>
-      <li style="margin: 0;">
+      <li class="dsa-list-no-margin">
         <label>
           <input type="radio" name="element" value="fire">
           <span class="center width100">${dict.elements.fire.name}</span>
         </label>
       </li>
-      <li style="margin: 0;">
+      <li class="dsa-list-no-margin">
         <label>
           <input type="radio" name="element" value="air">
           <span class="center width100">${dict.elements.air.name}</span>
         </label>
       </li>
-      <li style="margin: 0;">
+      <li class="dsa-list-no-margin">
         <label>
           <input type="radio" name="element" value="ice">
           <span class="center width100">${dict.elements.ice.name}</span>
         </label>
       </li>
-      <li style="margin: 0;">
+      <li class="dsa-list-no-margin">
         <label>
           <input type="radio" name="element" value="water">
           <span class="center width100">${dict.elements.water.name}</span>
         </label>
       </li>
-      <li style="margin: 0;">
+      <li class="dsa-list-no-margin">
         <label>
           <input type="radio" name="element" value="ore">
           <span class="center width100">${dict.elements.ore.name}</span>
