@@ -72,7 +72,7 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
             <li>
                 <label data-action="selectWeapon" data-id="${w.id}">
                     <input type="radio" name="weaponChoice" value="${w.id}" ${isSelected ? 'checked' : ''} />
-                    <img src="${w.img}" width="40" height="40" style="object-fit: contain; border: none;"/>
+                    <img src="${w.img}" width="40" height="40" class="dsa-card-icon-img"/>
                     <span>${w.name}</span>
                 </label>
             </li>`;
@@ -82,7 +82,7 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
             <div class="marginBottom">
                 <p class="center"><i>${dict.desc}</i></p>
                 
-                <div class="dsa-card-list thinscroll" style="max-height: 40vh; overflow-y: auto; padding-right: 5px;">
+                <div class="dsa-card-list thinscroll dsa-card-scroll-box">
                     <ul>
                         ${weaponHtml}
                     </ul>
