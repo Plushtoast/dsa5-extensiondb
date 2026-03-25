@@ -57,22 +57,32 @@ function injectSupportingModifier(targetDialog, value, tooltip, displayLabel) {
 }
 
 const SUPPORT_TEMPLATE_STRING = `
-<div style="margin-bottom: 10px; font-style: italic; font-size: 0.95em; padding: 8px; background: rgba(0,0,0,0.05); line-height: 1.3;">
-    {{localize "SUPPORTING_TEST.description"}}
+<div class="marginBottom">
+    <p class="center"><i>{{localize "SUPPORTING_TEST.description"}}</i></p>
 </div>
-<nav class="sheet-tabs tabs" style="display:flex; border-bottom: 1px solid #777; margin-bottom: 10px;">
-    {{#each groups}}
-    <a class="item {{#if this.active}}active{{/if}}" data-action="switchTab" data-tab="{{this.id}}" style="flex:1; text-align:center; padding: 5px; cursor:pointer; font-weight: {{#if this.active}}bold{{else}}normal{{/if}};">{{this.label}}</a>
+
+<nav class="sheet-tabs tabs">
+    {{#each topGroups}}
+    <a class="item tabelement {{#if this.active}}active{{/if}}" data-action="switchTab" data-tab="{{this.id}}">{{this.label}}</a>
     {{/each}}
 </nav>
-<section class="content supporting-test-content" style="max-height: 400px; overflow-y: auto; padding: 5px;">
-    {{#each groups}}
+
+<nav class="sheet-tabs tabs marginBottom">
+    {{#each bottomGroups}}
+    <a class="item tabelement {{#if this.active}}active{{/if}}" data-action="switchTab" data-tab="{{this.id}}">{{this.label}}</a>
+    {{/each}}
+</nav>
+
+<section class="content scrollable supporting-test-content">
+    {{#each allGroups}}
     <div class="tab {{this.id}} {{#if this.active}}active{{/if}}" style="display: {{#if this.active}}block{{else}}none{{/if}};">
-        <div class="form-group knowledge-buttons" style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+        
+        <div class="dsa-skill-grid-3x2">
             {{#each this.talents}}
-            <button type="button" class="support-roll-btn dsa5 button" data-action="rollSupport" data-id="{{this.id}}" style="font-size: 1.1em; height: auto; padding: 5px;">{{this.name}}</button>
+            <button type="button" class="dsa5 button support-roll-btn" data-action="rollSupport" data-id="{{this.id}}" data-tooltip="{{this.name}}">{{this.name}}</button>
             {{/each}}
         </div>
+
     </div>
     {{/each}}
 </section>
@@ -83,12 +93,13 @@ const { ApplicationV2 } = foundry.applications.api;
 class SupportingTestApp extends ApplicationV2 {
     static DEFAULT_OPTIONS = {
         id: "supporting-test-app",
+        classes: ["dsa5"],
         window: {
             resizable: true 
         },
         position: {
-            width: 705,
-            height: 575
+            width: 565,
+            height: 520 
         },
         actions: {
             switchTab: function(event, target) { this._onSwitchTab(event, target); },
@@ -120,14 +131,16 @@ class SupportingTestApp extends ApplicationV2 {
         const prepare = (l) => l.map(i => ({ id: i.id || i._id, name: i.name })).sort((a, b) => a.name.localeCompare(b.name));
         const talents = this.dsaActor.items.filter(i => i.type === "skill");
         
+        const body = { id: "body", label: game.i18n.localize("SKILL.body"), active: this.activeTab === "body", talents: prepare(talents.filter(i => i.system.group?.value === "body")) };
+        const social = { id: "social", label: game.i18n.localize("SKILL.social"), active: this.activeTab === "social", talents: prepare(talents.filter(i => i.system.group?.value === "social")) };
+        const nature = { id: "nature", label: game.i18n.localize("SKILL.nature"), active: this.activeTab === "nature", talents: prepare(talents.filter(i => i.system.group?.value === "nature")) };
+        const knowledge = { id: "knowledge", label: game.i18n.localize("SKILL.knowledge"), active: this.activeTab === "knowledge", talents: prepare(talents.filter(i => i.system.group?.value === "knowledge")) };
+        const trade = { id: "trade", label: game.i18n.localize("SKILL.trade"), active: this.activeTab === "trade", talents: prepare(talents.filter(i => i.system.group?.value === "trade")) };
+        
         return {
-            groups: [
-                { id: "body", label: game.i18n.localize("SKILL.body"), active: this.activeTab === "body", talents: prepare(talents.filter(i => i.system.group?.value === "body")) },
-                { id: "social", label: game.i18n.localize("SKILL.social"), active: this.activeTab === "social", talents: prepare(talents.filter(i => i.system.group?.value === "social")) },
-                { id: "nature", label: game.i18n.localize("SKILL.nature"), active: this.activeTab === "nature", talents: prepare(talents.filter(i => i.system.group?.value === "nature")) },
-                { id: "knowledge", label: game.i18n.localize("SKILL.knowledge"), active: this.activeTab === "knowledge", talents: prepare(talents.filter(i => i.system.group?.value === "knowledge")) },
-                { id: "trade", label: game.i18n.localize("SKILL.trade"), active: this.activeTab === "trade", talents: prepare(talents.filter(i => i.system.group?.value === "trade")) }
-            ]
+            topGroups: [body, social, nature],
+            bottomGroups: [knowledge, trade],
+            allGroups: [body, social, nature, knowledge, trade]
         };
     }
     
