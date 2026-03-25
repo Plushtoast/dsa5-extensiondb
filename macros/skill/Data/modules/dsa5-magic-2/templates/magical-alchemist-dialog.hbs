@@ -1,36 +1,54 @@
-<div class="magical-alchemist-dialog" style="height: 100%; overflow-y: auto; padding-right: 5px; box-sizing: border-box;">
-    <div class="description">{{{description}}}</div>
+<div class="magical-alchemist-dialog scrollable" style="padding-right: 5px;">
+    
+    <div class="description">
+        <strong>{{localize "MAGICAL_ALCHEMIST.descTitle"}}</strong>
+        
+        <div class="magictradition-opt-row">
+            <i class="fas fa-dsa5 magictradition-opt-icon"></i>
+            <div>{{localize "MAGICAL_ALCHEMIST.descOpt1"}}</div>
+        </div>
+        
+        <div class="magictradition-opt-row">
+            <i class="fas fa-dsa5 magictradition-opt-icon"></i>
+            <div>{{localize "MAGICAL_ALCHEMIST.descOpt2"}}</div>
+        </div>
+        
+        <div class="magictradition-opt-row">
+            <i class="fas fa-dsa5 magictradition-opt-icon"></i>
+            <div>{{localize "MAGICAL_ALCHEMIST.descOpt3"}}</div>
+        </div>
+    </div>
     <hr>
     
-    <nav class="sheet-tabs tabs" style="display:flex; border-bottom: 1px solid #777; margin-bottom: 10px;">
-        <a class="item {{#if isRerollTab}}active{{/if}}" data-action="switchTab" data-tab="reroll" style="flex:1; text-align:center; padding: 5px; cursor:pointer;">{{localize "MAGICAL_ALCHEMIST.reroll"}}</a>
-        <a class="item {{#if isAddFPTab}}active{{/if}}" data-action="switchTab" data-tab="addFP" style="flex:1; text-align:center; padding: 5px; cursor:pointer;">{{localize "MAGICAL_ALCHEMIST.addFP"}}</a>
-        <a class="item {{#if isImproveTab}}active{{/if}}" data-action="switchTab" data-tab="improve" style="flex:1; text-align:center; padding: 5px; cursor:pointer;">{{localize "MAGICAL_ALCHEMIST.improveRoll"}}</a>
+    <nav class="sheet-tabs tabs marginBottom">
+        <a class="item tabelement {{#if isRerollTab}}active{{/if}}" data-action="switchTab" data-tab="reroll">{{localize "MAGICAL_ALCHEMIST.reroll"}}</a>
+        <a class="item tabelement {{#if isAddFPTab}}active{{/if}}" data-action="switchTab" data-tab="addFP">{{localize "MAGICAL_ALCHEMIST.addFP"}}</a>
+        <a class="item tabelement {{#if isImproveTab}}active{{/if}}" data-action="switchTab" data-tab="improve">{{localize "MAGICAL_ALCHEMIST.improveRoll"}}</a>
     </nav>
     
-    <section class="content" style="padding: 10px 0;">
-        <div style="display: flex; flex-direction: row; align-items: center; gap: 20px;">
+    <section class="content">
+        <div class="row-section flexgap" style="align-items: flex-start;">
             
-            <div class="result-preview" style="flex: 0 0 auto; padding-right: 20px;">
+            <div class="result-preview" style="flex: 0 0 auto;">
                 <div><strong>{{localize "MAGICAL_ALCHEMIST.skillValuePreview"}}:</strong> <span class="fw-preview">{{previewFW}}</span></div>
                 <div><strong>{{localize "MAGICAL_ALCHEMIST.qsPreview"}}:</strong> <span class="qs-preview">{{previewQS}}</span></div>
                 <div style="color: darkred;"><strong>{{localize "MAGICAL_ALCHEMIST.cost"}}:</strong> <span class="asp-cost">{{cost}}</span> {{localize "MAGICAL_ALCHEMIST.aspUnit"}}</div>
                 <div><strong>{{localize "MAGICAL_ALCHEMIST.currentAsP"}}:</strong> {{currentAsP}}</div>
             </div>
 
-            <div style="flex: 1 1 auto; display: flex; flex-direction: column; align-items: center;">
+            <div class="columnFlex center" style="flex: 1 1 auto; align-items: center;">
                 
-                <div class="dice-display" style="display: flex; justify-content: center; gap: 10px;">
+                <div class="dice-display row-section gap10px center" style="justify-content: center;">
                     {{#each dice as |die|}}
-                    <div class="die-group" data-index="{{die.index}}" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+                    <div class="die-group columnFlex center" data-index="{{die.index}}" style="align-items: center;">
                         <a class="dieButton {{#if die.selected}}reroll-selected{{/if}}" data-action="toggleDie" data-index="{{die.index}}">
                             <span data-tooltip="{{die.tooltip}}" class="{{die.cssClass}} die-{{die.attr}} d20">{{die.currentValue}}</span>
                         </a>
                         
                         {{#if ../isImproveTab}}
-                        <div class="improve-controls" style="margin-top: 5px;">
-                            <a class="improve-btn up" data-action="adjustDie" data-delta="1" data-index="{{die.index}}" style="cursor:pointer;"><i class="fas fa-chevron-up"></i></a>
-                            <a class="improve-btn down" data-action="adjustDie" data-delta="-1" data-index="{{die.index}}" style="cursor:pointer;"><i class="fas fa-chevron-down"></i></a>
+                        <div class="improve-controls columnFlex center" style="margin-top: 5px;">
+                            <a class="improve-btn up" data-action="adjustDie" data-delta="1" data-index="{{die.index}}"><i class="fas fa-chevron-up"></i></a>
+                            <a class="improve-btn down" data-action="adjustDie" data-delta="-1" data-index="{{die.index}}"><i class="fas fa-chevron-down"></i></a>
                         </div>
                         {{/if}}
                     </div>
@@ -38,13 +56,13 @@
                 </div>
                 
                 {{#if isAddFPTab}}
-                <div class="add-fp-controls" style="text-align: center; margin-top: 15px;">
-                    <div style="display: flex; justify-content: center; align-items: center;">
+                <div class="add-fp-controls center" style="margin-top: 15px; width: 100%;">
+                    <div class="row-section center" style="align-items: center; justify-content: center;">
                         <label style="margin-right: 10px;">{{localize "MODS.FW"}}: </label>
-                        <div style="display: flex; flex-direction: column; align-items: center;">
-                            <a data-action="adjustFP" data-delta="1" style="cursor:pointer;"><i class="fas fa-chevron-up"></i></a>
-                            <input type="number" class="fp-input" value="{{addedFP}}" readonly style="width: 50px; text-align: center; height: 30px; border: 1px solid #7a7971;">
-                            <a data-action="adjustFP" data-delta="-1" style="cursor:pointer;"><i class="fas fa-chevron-down"></i></a>
+                        <div class="columnFlex center" style="align-items: center;">
+                            <a data-action="adjustFP" data-delta="1"><i class="fas fa-chevron-up"></i></a>
+                            <input type="number" class="fp-input input-text" value="{{addedFP}}" readonly style="width: 50px; text-align: center;">
+                            <a data-action="adjustFP" data-delta="-1"><i class="fas fa-chevron-down"></i></a>
                         </div>
                     </div>
                 </div>
@@ -54,8 +72,8 @@
         </div>
     </section>
     
-    <footer class="form-footer" style="display: flex; gap: 5px; margin-top: 15px;">
-        <button type="button" data-action="confirm" class="dsa5 button" style="flex:1"><i class="fas fa-check"></i> {{localize "MAGICAL_ALCHEMIST.confirm"}}</button>
-        <button type="button" data-action="cancel" class="dsa5 button" style="flex:1"><i class="fas fa-times"></i> {{localize "MAGICAL_ALCHEMIST.cancel"}}</button>
+    <footer class="row-section gap5px" style="margin-top: 15px;">
+        <button type="button" data-action="confirm" class="col two dsa5 button"><i class="fas fa-check"></i> {{localize "MAGICAL_ALCHEMIST.confirm"}}</button>
+        <button type="button" data-action="cancel" class="col two dsa5 button"><i class="fas fa-times"></i> {{localize "MAGICAL_ALCHEMIST.cancel"}}</button>
     </footer>
 </div>
