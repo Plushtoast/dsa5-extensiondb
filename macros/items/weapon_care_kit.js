@@ -138,9 +138,23 @@ class WeaponCareApp extends foundry.applications.api.ApplicationV2 {
                 }]);
                 
                 ui.notifications.info(dict.success(weapon.name));
-                
                 this.selectedWeaponId = null;
-                this.render();
+                
+                const remainingWeapons = actor.items.filter(i => {
+                    if (!["meleeweapon", "rangeweapon"].includes(i.type)) return false;
+                    const max = foundry.utils.getProperty(i, "system.structure.max");
+                    const val = foundry.utils.getProperty(i, "system.structure.value");
+                    if (!max || max <= 0 || val === undefined) return false;
+                    const ratio = val / max;
+                    if (ratio >= 1.0) return false;
+                    return max <= 4 ? ratio > 0.65 : ratio >= 0.8;
+                });
+
+                if (remainingWeapons.length === 0) {
+                    this.close();
+                } else {
+                    this.render();
+                }
 
             } else {
                 ui.notifications.warn(dict.fail(weapon.name));
