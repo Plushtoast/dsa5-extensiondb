@@ -41,7 +41,7 @@
                 <div class="dice-display row-section gap10px center" style="justify-content: center;">
                     {{#each dice as |die|}}
                     <div class="die-group columnFlex center" data-index="{{die.index}}" style="align-items: center;">
-                        <a class="dieButton {{#if die.selected}}reroll-selected{{/if}}" data-action="toggleDie" data-index="{{die.index}}">
+                        <a class="dieButton {{#if die.selected}}dieSelected{{/if}}" data-action="toggleDie" data-index="{{die.index}}">
                             <span data-tooltip="{{die.tooltip}}" class="{{die.cssClass}} die-{{die.attr}} d20">{{die.currentValue}}</span>
                         </a>
                         
