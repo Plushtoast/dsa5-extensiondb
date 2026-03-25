@@ -8,17 +8,6 @@ const getActorFromMessage = (message) => {
 };
 
 Hooks.once('init', async function() {
-    const styleId = "magical-alchemist-styles";
-    if (!document.getElementById(styleId)) {
-        document.head.insertAdjacentHTML("beforeend", `
-            <style id="${styleId}">
-                .magical-alchemist-dialog .dieButton { border: 2px solid transparent; border-radius: 5px; padding: 2px; transition: all 0.2s ease; display: inline-block; cursor: pointer; }
-                .magical-alchemist-dialog .dieButton.reroll-selected { border-color: #004a99; box-shadow: 0 0 10px #0073e6; background-color: rgba(0, 115, 230, 0.1); }
-                .magical-alchemist-dialog .die-group { min-width: 60px; }
-            </style>
-        `);
-    }
-
     await loadTemplates([
         "modules/dsa5-magic-2/templates/magical-alchemist-dialog.hbs"
     ]);
@@ -27,7 +16,7 @@ Hooks.once('init', async function() {
 Hooks.on('getChatMessageContextOptions', (app, options, c) => {
     options.push({
         name: "MAGICAL_ALCHEMIST.alchemistName",
-        icon: '<img src="systems/dsa5/icons/traditionen/zauberalchimisten.webp" style="width: 10px; height: 10px; display: inline-block; vertical-align: middle; margin-left: 2px; margin-right: 10px; border: none; margin-bottom: 0;">',
+        icon: '<img src="systems/dsa5/icons/traditionen/zauberalchimisten.webp" class="magictradition-context-icon">',
         condition: (li) => {
             const el = li[0] || li; 
             const message = getMessageFromLi(el);
