@@ -10,9 +10,7 @@ function injectEffortModifier(targetDialog, value, tooltip, displayLabel) {
 
     if (!modifierContainer) {
         const systemLabel = game.i18n.localize("DIALOG.SituationalModifiers");
-        const finalLabel = systemLabel !== "DIALOG.SituationalModifiers" 
-            ? systemLabel 
-            : (game.i18n.lang === "de" ? "Bedingte Modifikatoren" : "Situational Modifiers");
+        const finalLabel = game.i18n.localize("DIALOG.SituationalModifiers");
 
         const fieldHtml = `
             <div class="modifiers form-group" style="flex-grow: 1;">
