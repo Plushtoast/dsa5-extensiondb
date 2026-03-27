@@ -1,3 +1,5 @@
+// This is a system macro used for automation. It is disfunctional without the proper context.
+
 if (typeof testData === "undefined" || !testData) return;
 if (testData.mode !== "attack") return;
 
