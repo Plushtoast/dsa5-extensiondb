@@ -1,3 +1,5 @@
+// This is a system macro used for automation. It is disfunctional without the proper context.
+
 if (!testData || !testData.source || !testData.source.system) return;
 if (!["spell", "ritual"].includes(testData.source.type)) return;
 
