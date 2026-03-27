@@ -1,3 +1,5 @@
+// This is a system macro used for automation. It is disfunctional without the proper context.
+
 const activeActor = actor;
 const activeItem = source;
 const lang = game.i18n.lang === "de" ? "de" : "en";
