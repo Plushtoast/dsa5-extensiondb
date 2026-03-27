@@ -4,11 +4,11 @@ const lang = game.i18n.lang === "de" ? "de" : "en";
 const dict = {
     de: {
         title: "Ratte - Angst vor Feuer",
-        panicText: "Panik vor Feuer: Wenn Riesenratten mit einer größeren Menge von Feuer konfrontiert werden (etwa Fackelgröße), fliehen sie bei 1–3 auf 1W6."
+        panicText: "Panik vor Feuer: Wenn Ratten mit einer größeren Menge von Feuer konfrontiert werden (etwa Fackelgröße), fliehen sie bei 1–3 auf 1W6."
     },
     en: {
         title: "Rat - Fear of Fire",
-        panicText: "Panic from Fire: When giant rats are confronted with a larger amount of fire (about torch size), they flee on a 1-3 on 1d6."
+        panicText: "Panic from Fire: When rats are confronted with a larger amount of fire (about torch size), they flee on a 1-3 on 1d6."
     }
 }[lang];
 
