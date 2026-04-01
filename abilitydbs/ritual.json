@@ -282,14 +282,6 @@
       "magie1"
     ]
   },
-  "Ruhe Körper": {
-    "source": [
-      "magie1",
-      "realmofthethorns",
-      "studyroom",
-      "winterwatch"
-    ]
-  },
   "Widerwille": {
     "source": [
       "magie1",
@@ -456,6 +448,7 @@
   "Sicheres Lager": {
     "source": [
       "magie3",
+      "studyroom",
       "winterwatch"
     ]
   },
@@ -486,9 +479,38 @@
       "studyroom"
     ]
   },
+  "Aufmerksamer Wächter": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblin-Regentanz": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblin-Tabuzone": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
   "Melodie der Tiere": {
     "source": [
       "suncoast"
+    ]
+  },
+  "Ruf des Bienenstocks": {
+    "source": [
+      "theaterknights1"
+    ]
+  },
+  "Orvai Kurims Kriegstrommel": {
+    "source": [
+      "theaterknights1",
+      "winterwatch"
     ]
   },
   "Friedensrune": {
@@ -516,6 +538,21 @@
       "thorwal"
     ]
   },
+  "Melodie der Beleidigungen": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Melodie der Motivation": {
+    "source": [
+      "thorwal"
+    ]
+  },
+  "Melodie des Verbergens": {
+    "source": [
+      "thorwal"
+    ]
+  },
   "Elementarer Verbündeter": {
     "source": [
       "winterwatch"
@@ -526,24 +563,9 @@
       "winterwatch"
     ]
   },
-  "Goblin-Geistheilung": {
-    "source": [
-      "winterwatch"
-    ]
-  },
   "Goblin-Zuflucht": {
     "source": [
       "winterwatch"
-    ]
-  },
-  "Orvai Kurims Kriegstrommel": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Planastrale": {
-    "source": [
-      "worldwanderer"
     ]
   }
 }

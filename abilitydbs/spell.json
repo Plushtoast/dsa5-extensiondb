@@ -350,11 +350,6 @@
       "studyroom"
     ]
   },
-  "Cryptographo": {
-    "source": [
-      "library"
-    ]
-  },
   "Auge des Limbus": {
     "source": [
       "magie1",
@@ -467,6 +462,11 @@
     "source": [
       "magie2",
       "otherworld"
+    ]
+  },
+  "Fellwechsel": {
+    "source": [
+      "magie2"
     ]
   },
   "Durch feste Materie": {
@@ -608,6 +608,47 @@
       "studyroom"
     ]
   },
+  "Goblin-Bannzone": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblin-Geisterfalle": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblin-Hauch": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblin-Kriegsmatsch": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblin-Pflanzenwuchs": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Wildschweineruf": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Einfahren": {
+    "source": [
+      "theaterknights1"
+    ]
+  },
   "Tiergeistsprache": {
     "source": [
       "thorwal",
@@ -640,11 +681,6 @@
   "Mächtiger Patronruf II ()": {
     "source": [
       "thorwal"
-    ]
-  },
-  "Sphärenbann": {
-    "source": [
-      "worldwanderer"
     ]
   }
 }

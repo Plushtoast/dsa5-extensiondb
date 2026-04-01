@@ -743,11 +743,6 @@
       "riverlands"
     ]
   },
-  "Gratenfelser Malchus": {
-    "source": [
-      "riverlands"
-    ]
-  },
   "Koscher Langschwert": {
     "source": [
       "riverlands"
@@ -881,6 +876,11 @@
   "Zauberinstrument (Laute und ähnliche Instrumente) (i)": {
     "source": [
       "suncoast"
+    ]
+  },
+  "Argentalis": {
+    "source": [
+      "theaterknights1"
     ]
   },
   "Gjalsker Zackenspeer": {

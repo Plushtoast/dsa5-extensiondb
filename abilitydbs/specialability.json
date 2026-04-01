@@ -409,6 +409,12 @@
       "achaz"
     ]
   },
+  "Zauberspeicher-Kristallkugel 2 - Kristallomant": {
+    "source": [
+      "achaz",
+      "lizardswamps"
+    ]
+  },
   "Synärethiker": {
     "source": [
       "animatorium",
@@ -669,12 +675,6 @@
       "arcanelabs"
     ]
   },
-  "Kleine Trankverdünnung": {
-    "source": [
-      "arcanelabs",
-      "magie2"
-    ]
-  },
   "Magischer Meisterschmied": {
     "source": [
       "arcanelabs",
@@ -903,7 +903,8 @@
   },
   "Rudelbeschwörung (Dämonen)": {
     "source": [
-      "broodofhell"
+      "broodofhell",
+      "pandaemonium"
     ]
   },
   "Gespür für Himmelsrichtungen": {
@@ -1089,13 +1090,6 @@
       "compendium",
       "elementarium",
       "transmutarium"
-    ]
-  },
-  "Kräutermischung": {
-    "source": [
-      "compendium2",
-      "lizardswamps",
-      "suncoast"
     ]
   },
   "Weg der Prostituierten": {
@@ -1859,22 +1853,7 @@
       "goetterwirken"
     ]
   },
-  "Vision der Bestimmung": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Vision der Entrückung": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
   "Vision der Gottheit": {
-    "source": [
-      "goetterwirken"
-    ]
-  },
-  "Vision des Schicksals": {
     "source": [
       "goetterwirken"
     ]
@@ -2615,6 +2594,12 @@
       "goetterwirken"
     ]
   },
+  "Verkünder des Schicksals": {
+    "source": [
+      "goetterwirken",
+      "thorwal"
+    ]
+  },
   "Hitzewall": {
     "source": [
       "goetterwirken2"
@@ -3274,31 +3259,6 @@
       "wolfsfrost"
     ]
   },
-  "Archivar": {
-    "source": [
-      "library"
-    ]
-  },
-  "Buchdrucker": {
-    "source": [
-      "library"
-    ]
-  },
-  "Kalligraphie": {
-    "source": [
-      "library"
-    ]
-  },
-  "Kryptographie": {
-    "source": [
-      "library"
-    ]
-  },
-  "Schnellschreiber": {
-    "source": [
-      "library"
-    ]
-  },
   "Schlangenorakel": {
     "source": [
       "lizardswamps"
@@ -3335,11 +3295,6 @@
     ]
   },
   "Gesichtslose-Stil": {
-    "source": [
-      "lizardswamps"
-    ]
-  },
-  "Zauberspeicher-Kristallkugel 2 - Kristallomant": {
     "source": [
       "lizardswamps"
     ]
@@ -3678,15 +3633,6 @@
       "winterwatch"
     ]
   },
-  "Astrale Meditation": {
-    "source": [
-      "magie1",
-      "riverlands",
-      "studyroom",
-      "suncoast",
-      "warringkingdoms"
-    ]
-  },
   "Aurapanzer": {
     "source": [
       "magie1"
@@ -3967,6 +3913,21 @@
       "studyroom"
     ]
   },
+  "Volumenerweiterung des Zauberstabes": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Brennglas - Zauberkugel": {
+    "source": [
+      "magie1"
+    ]
+  },
+  "Machtvolle Kugelzauber - Zauberkugel": {
+    "source": [
+      "magie1"
+    ]
+  },
   "Tradition (Schelme)": {
     "source": [
       "magie2",
@@ -4119,16 +4080,6 @@
       "magie2"
     ]
   },
-  "Blutmagie (Selbstopfer)": {
-    "source": [
-      "magie2"
-    ]
-  },
-  "Große Trankverdünnung": {
-    "source": [
-      "magie2"
-    ]
-  },
   "Hexentanz": {
     "source": [
       "magie2",
@@ -4219,11 +4170,6 @@
     "source": [
       "magie2",
       "steamingjungles"
-    ]
-  },
-  "Rächerinnen Lycosas (Schwarze Witwen)": {
-    "source": [
-      "magie2"
     ]
   },
   "Rote Jungfern (Schwarze Witwen)": {
@@ -4358,6 +4304,11 @@
     ]
   },
   "Zauberobjekte": {
+    "source": [
+      "magie2"
+    ]
+  },
+  "Brennglas - Magierkugel": {
     "source": [
       "magie2"
     ]
@@ -5093,11 +5044,6 @@
       "magie3"
     ]
   },
-  "Weg des Jägers": {
-    "source": [
-      "magie3"
-    ]
-  },
   "Kampftrinker": {
     "source": [
       "mastertools"
@@ -5283,6 +5229,21 @@
       "pandaemonium"
     ]
   },
+  "Wahrer Name (spezieller Dämon, niederer)": {
+    "source": [
+      "pandaemonium"
+    ]
+  },
+  "Wahrer Name (spezieller Dämon, bis zu 5-gehörnte)": {
+    "source": [
+      "pandaemonium"
+    ]
+  },
+  "Wahrer Name (spezieller Dämon, ab 6 Hörnern)": {
+    "source": [
+      "pandaemonium"
+    ]
+  },
   "Tradition (Dämonen)": {
     "source": [
       "pandaemonium2"
@@ -5436,6 +5397,138 @@
       "winterwatch"
     ]
   },
+  "Machtvolle Keulenzauber": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Volumenerweiterung der Goblinkeule": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Wirbelsteine": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblinkeulen-Apport": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Bindung der Schweinetrommel": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Geschrei der Schweinetrommel": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblingelage": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblins, die auf Schweine starren": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Mutiges Grunzen": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Machtvolle Schweinetrommelzauber": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Schweinetanz": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Schweinetrommel-Apport": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Volumenerweiterung der Schweinetrommel": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Fruchtbarkeitsritus": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Goblinnahrung": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Bindung der Hauerkette": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Hauerketten-Apport": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Machtvolle Hauerkettenzauber": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Mahlzeit der Meute": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Schutz der Muttersau": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Trüffelsinn": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
+  "Volumenerweiterung der Hauerkette": {
+    "source": [
+      "studyroom",
+      "winterwatch"
+    ]
+  },
   "Zyklopenschmied": {
     "source": [
       "suncoast"
@@ -5459,6 +5552,12 @@
   "Stille Wanderer": {
     "source": [
       "suncoast"
+    ]
+  },
+  "Blutpfand": {
+    "source": [
+      "theaterknights1",
+      "winterwatch"
     ]
   },
   "Palenkelübung": {
@@ -5487,11 +5586,6 @@
     ]
   },
   "Stärkung der Kampfgefährten": {
-    "source": [
-      "thorwal"
-    ]
-  },
-  "Verkünder des Schicksals": {
     "source": [
       "thorwal"
     ]
@@ -5537,11 +5631,6 @@
     ]
   },
   "Schweinekraft": {
-    "source": [
-      "winterwatch"
-    ]
-  },
-  "Blutpfand": {
     "source": [
       "winterwatch"
     ]

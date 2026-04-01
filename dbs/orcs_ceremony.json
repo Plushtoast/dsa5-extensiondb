@@ -1,0 +1,83 @@
+{
+  "Gnade des Vergessens": [
+    {
+      "name": "Reichweite Berührung",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Kürzere Zeremoniedauer",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Längere Wirkungsdauer 3",
+      "complete": false,
+      "changes": []
+    }
+  ],
+  "Ogerbindung": [
+    {
+      "name": "Tairachs Schutz",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Streitoger 1",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Narbenschwarte",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Streitoger 2",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Streitoger 3",
+      "complete": false,
+      "changes": []
+    }
+  ],
+  "Tairachs machtvolle Erhebung von Untoten": [
+    {
+      "name": "Kürzere Zeremoniedauer",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Tairachs Streiter 1",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Tairachs Streiter 2",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Mächtige Wesen",
+      "complete": false,
+      "changes": []
+    }
+  ]
+}

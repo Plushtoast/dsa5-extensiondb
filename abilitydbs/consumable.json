@@ -16,12 +16,6 @@
       "otherworld"
     ]
   },
-  "Bannstaub": {
-    "source": [
-      "arcanelabs",
-      "core"
-    ]
-  },
   "Der Rote Leu": {
     "source": [
       "arcanelabs"
@@ -63,11 +57,6 @@
       "arcanelabs"
     ]
   },
-  "Rachenputzer": {
-    "source": [
-      "arcanelabs"
-    ]
-  },
   "Respondarum": {
     "source": [
       "arcanelabs"
@@ -102,16 +91,6 @@
     ]
   },
   "Leuchtkreide": {
-    "source": [
-      "catacombs"
-    ]
-  },
-  "Pyrophor": {
-    "source": [
-      "catacombs"
-    ]
-  },
-  "Trunk der ruhigen Hand": {
     "source": [
       "catacombs"
     ]
@@ -294,17 +273,6 @@
     "source": [
       "herbarium2",
       "incorporealhorrors"
-    ]
-  },
-  "Berserkerelixier": {
-    "source": [
-      "herbarium2",
-      "magie2"
-    ]
-  },
-  "Friedenswasser": {
-    "source": [
-      "herbarium2"
     ]
   },
   "Ghulscheuche": {

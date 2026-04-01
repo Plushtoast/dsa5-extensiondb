@@ -1,11 +1,11 @@
 # Summary
-last_updated: 2025-10-21 19:12:35
+last_updated: 2026-03-17 23:19:36
 
 | Book | Status | % |
 | --- | --- | --- |
-| [Achaz](#achaz) | 92/179 | 51.4% |
+| [Achaz](#achaz) | 92/180 | 51.11% |
 | [Animatorium](#animatorium) | 89/175 | 50.86% |
-| [Arcanelabs](#arcanelabs) | 23/73 | 31.51% |
+| [Arcanelabs](#arcanelabs) | 26/73 | 35.62% |
 | [Armory](#armory) | 112/149 | 75.17% |
 | [Armory2](#armory2) | 119/153 | 77.78% |
 | [Aventurian-taverns](#aventurian-taverns) | 1/8 | 12.5% |
@@ -13,81 +13,82 @@ last_updated: 2025-10-21 19:12:35
 | [Bestiary](#bestiary) | 29/33 | 87.88% |
 | [Bestiary2](#bestiary2) | 14/25 | 56.0% |
 | [Broodofhell](#broodofhell) | 50/67 | 74.63% |
-| [Catacombs](#catacombs) | 2/11 | 18.18% |
+| [Catacombs](#catacombs) | 4/11 | 36.36% |
 | [Companions](#companions) | 82/111 | 73.87% |
 | [Compendium](#compendium) | 249/288 | 86.46% |
-| [Compendium2](#compendium2) | 258/344 | 75.0% |
-| [Core](#core) | 459/528 | 86.93% |
+| [Compendium2](#compendium2) | 258/343 | 75.22% |
+| [Core](#core) | 460/528 | 87.12% |
 | [Desertkingdom](#desertkingdom) | 78/113 | 69.03% |
-| [Elementarium](#elementarium) | 74/120 | 61.67% |
-| [Goetterwirken](#goetterwirken) | 292/548 | 53.28% |
-| [Goetterwirken2](#goetterwirken2) | 259/405 | 63.95% |
+| [Elementarium](#elementarium) | 75/120 | 62.5% |
+| [Goetterwirken](#goetterwirken) | 335/598 | 56.02% |
+| [Goetterwirken2](#goetterwirken2) | 259/406 | 63.79% |
 | [Goldenemperor](#goldenemperor) | 0/10 | 0.0% |
 | [Havena](#havena) | 61/130 | 46.92% |
 | [Herbarium](#herbarium) | 101/144 | 70.14% |
-| [Herbarium2](#herbarium2) | 69/115 | 60.0% |
+| [Herbarium2](#herbarium2) | 71/115 | 61.74% |
 | [Hiddendeep](#hiddendeep) | 23/32 | 71.88% |
 | [Incorporealhorrors](#incorporealhorrors) | 50/84 | 59.52% |
 | [Klingendernacht](#klingendernacht) | 12/24 | 50.0% |
-| [Library](#library) | 6/12 | 50.0% |
-| [Lizardswamps](#lizardswamps) | 140/254 | 55.12% |
-| [Magie1](#magie1) | 220/383 | 57.44% |
-| [Magie2](#magie2) | 220/371 | 59.3% |
-| [Magie3](#magie3) | 167/395 | 42.28% |
+| [Library](#library) | 12/12 | 100.0% |
+| [Lizardswamps](#lizardswamps) | 141/254 | 55.51% |
+| [Magie1](#magie1) | 222/386 | 57.51% |
+| [Magie2](#magie2) | 225/373 | 60.32% |
+| [Magie3](#magie3) | 168/395 | 42.53% |
 | [Mastertools](#mastertools) | 97/105 | 92.38% |
 | [Negotiationpeace](#negotiationpeace) | 2/4 | 50.0% |
 | [Nekromanthaeum](#nekromanthaeum) | 81/96 | 84.38% |
-| [Orcs](#orcs) | 66/109 | 60.55% |
+| [Orcs](#orcs) | 66/111 | 59.46% |
 | [Otherworld](#otherworld) | 59/98 | 60.2% |
-| [Pandaemonium](#pandaemonium) | 23/34 | 67.65% |
+| [Pandaemonium](#pandaemonium) | 23/38 | 60.53% |
 | [Pandaemonium2](#pandaemonium2) | 23/31 | 74.19% |
 | [Rabenkrieg4](#rabenkrieg4) | 1/2 | 50.0% |
 | [Rabenkrieg5](#rabenkrieg5) | 2/2 | 100.0% |
 | [Rahjasservants](#rahjasservants) | 0/1 | 0.0% |
-| [Realmofthethorns](#realmofthethorns) | 78/136 | 57.35% |
+| [Realmofthethorns](#realmofthethorns) | 79/136 | 58.09% |
 | [Retosarmory](#retosarmory) | 61/105 | 58.1% |
 | [Revelations](#revelations) | 3/3 | 100.0% |
-| [Riverlands](#riverlands) | 107/184 | 58.15% |
+| [Riverlands](#riverlands) | 109/184 | 59.24% |
 | [Scalytyrants](#scalytyrants) | 18/41 | 43.9% |
 | [Sevenwindscoast](#sevenwindscoast) | 98/186 | 52.69% |
 | [Shared](#shared) | 0/2 | 0.0% |
 | [Soms](#soms) | 2/2 | 100.0% |
 | [Steamingjungles](#steamingjungles) | 119/185 | 64.32% |
-| [Studyroom](#studyroom) | 149/233 | 63.95% |
-| [Suncoast](#suncoast) | 126/183 | 68.85% |
-| [Thorwal](#thorwal) | 120/212 | 56.6% |
+| [Studyroom](#studyroom) | 154/268 | 57.46% |
+| [Suncoast](#suncoast) | 128/183 | 69.95% |
+| [Theaterknights1](#theaterknights1) | 0/6 | 0.0% |
+| [Thorwal](#thorwal) | 120/215 | 55.81% |
 | [Transmutarium](#transmutarium) | 58/81 | 71.6% |
-| [Warringkingdoms](#warringkingdoms) | 74/136 | 54.41% |
-| [Winterwatch](#winterwatch) | 109/189 | 57.67% |
+| [Warringkingdoms](#warringkingdoms) | 75/136 | 55.15% |
+| [Winterwatch](#winterwatch) | 111/220 | 50.45% |
 | [Witchsdance](#witchsdance) | 1/1 | 100.0% |
 | [Wolfsfrost](#wolfsfrost) | 117/222 | 52.7% |
-| [Worldwanderer](#worldwanderer) | 4/25 | 16.0% |
+| [Worldwanderer](#worldwanderer) | 6/25 | 24.0% |
 | --- | --- | --- |
-| Total | 4962/7913 | 62.71% |
+| Total | 5044/8050 | 62.66% |
 
 
 | Category | Status | % |
 | --- | --- | --- |
-| Advantage | 187/267 | 70.04% |
+| Advantage | 188/267 | 70.41% |
 | Armors | 108/152 | 71.05% |
-| Ceremony | 121/212 | 57.08% |
-| Consumable | 33/132 | 25.0% |
+| Ceremony | 121/218 | 55.5% |
+| Consumable | 41/132 | 31.06% |
 | Disadvantage | 116/142 | 81.69% |
-| Liturgy | 260/350 | 74.29% |
-| Meleeweapons | 494/737 | 67.03% |
+| Liturgy | 261/358 | 72.91% |
+| Meleeweapons | 498/741 | 67.21% |
 | Poison | 278/342 | 81.29% |
 | Praegung | 64/121 | 52.89% |
 | Rangeweapons | 92/131 | 70.23% |
-| Ritual | 171/334 | 51.2% |
-| Specialability | 2248/3765 | 59.71% |
-| Spell | 485/701 | 69.19% |
+| Ritual | 177/346 | 51.16% |
+| Specialability | 2308/3858 | 59.82% |
+| Spell | 487/715 | 68.11% |
 | Trait | 198/354 | 55.93% |
 | Wesenszug | 107/173 | 61.85% |
 
 
 
 ## Achaz
-Total status:  92/179 (51.4%)
+Total status:  92/180 (51.11%)
 
 
 ### Advantage
@@ -214,6 +215,7 @@ Total status:  92/179 (51.4%)
 - [ ] Chr’Ssir’Ssrs Wissen
 - [ ] Nebelfeld
 - [ ] Blitzstrahl
+- [ ] Zauberspeicher-Kristallkugel 2 - Kristallomant
 
 
 ### Liturgy
@@ -494,14 +496,14 @@ Total status:  89/175 (50.86%)
 
 
 ## Arcanelabs
-Total status:  23/73 (31.51%)
+Total status:  26/73 (35.62%)
 
 
 ### Consumable
 
 - [ ] Alkahest
 - [ ] Anderswelt-Lidschatten
-- [ ] Bannstaub
+- [x] Bannstaub
 - [ ] Der Rote Leu
 - [ ] Elixier der Stille
 - [ ] Erdkraft-Lack
@@ -510,7 +512,7 @@ Total status:  23/73 (31.51%)
 - [ ] Göttlicher Balsam
 - [ ] Nebelfarbe
 - [ ] Peraines kleine Gnade
-- [ ] Rachenputzer
+- [x] Rachenputzer
 - [ ] Respondarum
 - [ ] Seifenblasen-Packesel
 - [ ] Sonnenlicht-Elixier
@@ -557,7 +559,7 @@ Total status:  23/73 (31.51%)
 - [ ] Gefäße der Macht aufzehren
 - [ ] Genius der Alchimie
 - [ ] Göttliche Alchimie
-- [ ] Kleine Trankverdünnung
+- [x] Kleine Trankverdünnung
 - [ ] Magischer Meisterschmied
 - [ ] Matrixgeber
 - [ ] Meister der Elixiere
@@ -1173,7 +1175,7 @@ Total status:  50/67 (74.63%)
 
 
 ## Catacombs
-Total status:  2/11 (18.18%)
+Total status:  4/11 (36.36%)
 
 
 ### Specialability
@@ -1191,8 +1193,8 @@ Total status:  2/11 (18.18%)
 - [x] Eulentränen
 - [x] Kaltes Licht
 - [ ] Leuchtkreide
-- [ ] Pyrophor
-- [ ] Trunk der ruhigen Hand
+- [x] Pyrophor
+- [x] Trunk der ruhigen Hand
 
 
 
@@ -1319,7 +1321,6 @@ Total status:  82/111 (73.87%)
 - [ ] Gefährte in neuer Gestalt
 - [x] Hexenstimme
 - [ ] Kleiner Spion
-- [ ] Nächtlicher Lebensraub
 - [ ] Ruhepol
 - [ ] Schlafender Freund
 - [ ] Schwächenkuckuck
@@ -1327,6 +1328,7 @@ Total status:  82/111 (73.87%)
 - [ ] Streicheleinheiten
 - [ ] Wachsame Augen
 - [ ] Wunderbeutel Krötenleib
+- [ ] Nächtlicher Lebensraub (Vertrauter)
 
 
 
@@ -1536,7 +1538,7 @@ Total status:  249/288 (86.46%)
 
 
 ## Compendium2
-Total status:  258/344 (75.0%)
+Total status:  258/343 (75.22%)
 
 
 ### Trait
@@ -1594,7 +1596,7 @@ Total status:  258/344 (75.0%)
 - [x] Hinterhaltsspezialist
 - [x] Hofzeremoniell
 - [x] Holzkenntnis
-- [ ] Kräutermischung
+- [x] Kräutermischung
 - [x] Kryptographie
 - [x] Kunstflug
 - [x] Kunstreiten
@@ -1804,7 +1806,6 @@ Total status:  258/344 (75.0%)
 - [x] Verbesserter Doppelangriff
 - [ ] Verbesserter Schwitzkasten
 - [x] Versteckte Klinge
-- [x] Zweifacher Angriff
 - [ ] Heilungsspezialgebiet (Amputieren und Verbrennungen)
 - [ ] Heilungsspezialgebiet (Chirurgie)
 - [ ] Heilungsspezialgebiet (Knochenbrüche)
@@ -1911,7 +1912,7 @@ Total status:  258/344 (75.0%)
 
 
 ## Core
-Total status:  459/528 (86.93%)
+Total status:  460/528 (87.12%)
 
 
 ### Advantage
@@ -2320,7 +2321,7 @@ Total status:  459/528 (86.93%)
 - [x] Waffenbalsam
 - [x] Willenstrunk
 - [x] Zaubertrank
-- [ ] Bannstaub
+- [x] Bannstaub
 - [x] Pastillen gegen Schmerzen
 - [x] Zähigkeitstrunk
 
@@ -2595,7 +2596,7 @@ Total status:  78/113 (69.03%)
 
 
 ## Elementarium
-Total status:  74/120 (61.67%)
+Total status:  75/120 (62.5%)
 
 
 ### Trait
@@ -2736,7 +2737,7 @@ Total status:  74/120 (61.67%)
 - [x] Flammenhand
 - [ ] Rankenfessel
 - [ ] Unumstößlich
-- [ ] Wasserheilung
+- [x] Wasserheilung
 - [x] Wegwehen
 - [ ] Muttererde (Rosendschinn)
 - [ ] Dschinnenblut (Humusdschinn)
@@ -2746,7 +2747,7 @@ Total status:  74/120 (61.67%)
 
 
 ## Goetterwirken
-Total status:  292/548 (53.28%)
+Total status:  335/598 (56.02%)
 
 
 ### Specialability
@@ -2876,10 +2877,10 @@ Total status:  292/548 (53.28%)
 - [ ] Predigt des Gottvertrauens
 - [ ] Predigt des Wohlgefallens
 - [ ] Predigt wider Missgeschicke
-- [ ] Vision der Bestimmung
-- [ ] Vision der Entrückung
+- [x] Vision der Bestimmung
+- [x] Vision der Entrückung
 - [ ] Vision der Gottheit
-- [ ] Vision des Schicksals
+- [x] Vision des Schicksals
 - [ ] Vision des Wahren Glaubens
 - [x] Abgeschwächte Liturgie
 - [x] Daimonidenschreck
@@ -3115,6 +3116,46 @@ Total status:  292/548 (53.28%)
 - [ ] Verkünder des Schickals
 - [ ] Die Alte Tradition
 - [ ] Weisung der Sterne
+- [x] Gebieter/in der Wogen
+- [x] Gebieter/in des Winds
+- [x] Gebieter/in der Reise
+- [x] Gebieter/in der Antimagie
+- [x] Gebieter/in der Begierde
+- [x] Gebieter/in der Bildung
+- [x] Gebieter/in der Ekstase
+- [x] Gebieter/in der Erkenntnis
+- [x] Gebieter/in der Flammen
+- [x] Gebieter/in der Freiheit
+- [x] Gebieter/in der Freundschaft
+- [x] Gebieter/in der Harmonie
+- [x] Gebieter/in der Heilung
+- [x] Gebieter/in der Hilfsbereitschaft
+- [x] Gebieter/in der Jagd
+- [x] Gebieter/in der Kraft
+- [x] Gebieter/in der Kälte
+- [x] Gebieter/in der Landwirtschaft
+- [x] Gebieter/in der Magie
+- [x] Gebieter/in der Natur
+- [x] Gebieter/in der Ordnung
+- [x] Gebieter/in der Schatten
+- [x] Gebieter/in der Tapferkeit
+- [x] Gebieter/in der Träume
+- [x] Gebieter/in der Vergänglichkeit
+- [x] Gebieter/in der Vision
+- [x] Gebieter/in des Erzes
+- [x] Gebieter/in des Feuers
+- [x] Gebieter/in des Handels
+- [x] Gebieter/in des Heims
+- [x] Gebieter/in des Rausches
+- [x] Gebieter/in des Schicksals
+- [x] Gebieter/in des Schilds
+- [x] Gebieter/in des Sturms
+- [x] Gebieter/in des Todes
+- [x] Gebieter/in des Wandels
+- [x] Gebieter/in des Wissens
+- [x] Gebieter/in des guten Goldes
+- [x] Gebieter/in des guten Kampfes
+- [ ] Verkünder des Schicksals
 
 
 ### Liturgy
@@ -3208,6 +3249,12 @@ Total status:  292/548 (53.28%)
 - [ ] Peraines Gnade
 - [ ] Travias Wachgänse
 - [ ] Tsas Gedankenspiel
+- [ ] Blutiges Siegel
+- [ ] Gespür für das Göttliche
+- [ ] Hoftag der Sprachen
+- [ ] Schleichende Fäulnis (Pflanzen)
+- [ ] Trankfluch
+- [x] Zauberschutz
 
 
 ### Ceremony
@@ -3278,6 +3325,10 @@ Total status:  292/548 (53.28%)
 - [ ] Zuflucht
 - [ ] Zwergwalgestalt
 - [ ] Eisbärengestalt
+- [ ] Travias Wachgänse
+- [ ] Eingeschworene Mannschaft
+- [ ] Einhorngestalt (Mächtige Tiergestalt)
+- [ ] Empfängnis des Korsmals
 
 
 ### Advantage
@@ -3337,7 +3388,7 @@ Total status:  292/548 (53.28%)
 
 
 ## Goetterwirken2
-Total status:  259/405 (63.95%)
+Total status:  259/406 (63.79%)
 
 
 ### Specialability
@@ -3661,6 +3712,7 @@ Total status:  259/405 (63.95%)
 - [ ] Wolfsgestalt
 - [ ] Zwergische Verbrüderung
 - [ ] Jaguargestalt
+- [ ] Geiergestalt
 
 
 ### Disadvantage
@@ -4102,7 +4154,7 @@ Total status:  101/144 (70.14%)
 
 
 ## Herbarium2
-Total status:  69/115 (60.0%)
+Total status:  71/115 (61.74%)
 
 
 ### Specialability
@@ -4136,10 +4188,10 @@ Total status:  69/115 (60.0%)
 - [ ] Kairantrunk
 - [ ] Tarntinktur
 - [ ] Bannkreide
-- [ ] Berserkerelixier
+- [x] Berserkerelixier
 - [x] Charismaelixier
 - [ ] Feuerpulver
-- [ ] Friedenswasser
+- [x] Friedenswasser
 - [x] Furchtlos-Tropfen
 - [x] Gewandtheitselixier
 - [ ] Ghulscheuche
@@ -4454,28 +4506,28 @@ Total status:  12/24 (50.0%)
 
 
 ## Library
-Total status:  6/12 (50.0%)
+Total status:  12/12 (100.0%)
 
 
 ### Specialability
 
-- [ ] Archivar
-- [ ] Buchdrucker
-- [ ] Kalligraphie
-- [ ] Kryptographie
-- [ ] Schnellschreiber
+- [x] Archivar
+- [x] Buchdrucker
+- [x] Kalligraphie
+- [x] Kryptographie
+- [x] Schnellschreiber
 
 
 ### Spell
 
-- [ ] Cryptographo
+- [x] Cryptographo
 
 
 
 
 
 ## Lizardswamps
-Total status:  140/254 (55.12%)
+Total status:  141/254 (55.51%)
 
 
 ### Meleeweapons
@@ -4556,7 +4608,7 @@ Total status:  140/254 (55.12%)
 ### Specialability
 
 - [x] Drohgebärden
-- [ ] Kräutermischung
+- [x] Kräutermischung
 - [ ] Schlangenorakel
 - [x] Unterschlupf finden
 - [x] Wegkenntnis
@@ -4785,7 +4837,7 @@ Total status:  140/254 (55.12%)
 
 
 ## Magie1
-Total status:  220/383 (57.44%)
+Total status:  222/386 (57.51%)
 
 
 ### Specialability
@@ -4889,7 +4941,7 @@ Total status:  220/383 (57.44%)
 - [ ] Abgeschwächter Zauber
 - [x] Adaption ()
 - [ ] Alchimieverstärkung
-- [ ] Astrale Meditation
+- [x] Astrale Meditation
 - [ ] Aurapanzer
 - [ ] Eisen- und Stahlverzauberung
 - [x] Entschwörung (Dämonen)
@@ -4980,6 +5032,9 @@ Total status:  220/383 (57.44%)
 - [x] Bindung des Bannschwerts (Dolche)
 - [x] Bindung des Bannschwerts (Schwerter)
 - [x] Bindung des Bannschwerts (Zweihandschwerter)
+- [ ] Volumenerweiterung des Zauberstabes
+- [ ] Brennglas - Zauberkugel
+- [ ] Machtvolle Kugelzauber - Zauberkugel
 
 
 ### Ritual
@@ -5042,7 +5097,7 @@ Total status:  220/383 (57.44%)
 - [ ] Magischer Raub
 - [x] Memorabia Falsifir
 - [x] Movimento
-- [ ] Ruhe Körper
+- [x] Ruhe Körper
 - [x] Unberührt von Satinav
 - [ ] Widerwille
 - [x] Wirbelform
@@ -5211,7 +5266,7 @@ Total status:  220/383 (57.44%)
 
 
 ## Magie2
-Total status:  220/371 (59.3%)
+Total status:  225/373 (60.32%)
 
 
 ### Specialability
@@ -5288,16 +5343,16 @@ Total status:  220/371 (59.3%)
 - [x] Volumenerweiterung der Alchimistenschale
 - [x] Zersetzende Schale
 - [x] Abnehmbare Magierkugel
-- [ ] Blutmagie (Selbstopfer)
+- [x] Blutmagie (Selbstopfer)
 - [x] Gegenstände verfluchen
 - [x] Gemeinsamer Fluch
 - [x] Große Meditation
-- [ ] Große Trankverdünnung
+- [x] Große Trankverdünnung
 - [ ] Hexentanz
 - [x] Imitationszauberei
 - [ ] Koboldruf
 - [ ] Koboldvision
-- [ ] Kleine Trankverdünnung
+- [x] Kleine Trankverdünnung
 - [x] Kleines Salasandra
 - [x] Kraftknotennutzung
 - [x] Kraftliniennutzung
@@ -5331,7 +5386,7 @@ Total status:  220/371 (59.3%)
 - [ ] Scholar des Rafim Bey
 - [x] Scholar des Stoerrebrandt-Kollegs zu Riva
 - [ ] Geisterseherinnen (Schwarze Witwen)
-- [ ] Rächerinnen Lycosas (Schwarze Witwen)
+- [x] Rächerinnen Lycosas (Schwarze Witwen)
 - [ ] Rote Jungfern (Schwarze Witwen)
 - [ ] Artisten (Fahrende Schwester)
 - [ ] Reisende (Fahrende Schwester)
@@ -5378,6 +5433,7 @@ Total status:  220/371 (59.3%)
 - [ ] Wissensaustausch
 - [x] Zauberkämpfer
 - [ ] Zauberobjekte
+- [ ] Brennglas - Magierkugel
 
 
 ### Ritual
@@ -5539,6 +5595,7 @@ Total status:  220/371 (59.3%)
 - [x] Wüstenlauf
 - [ ] Zauberpferd herbeirufen
 - [x] Zitterfinger
+- [ ] Fellwechsel
 
 
 ### Advantage
@@ -5565,13 +5622,13 @@ Total status:  220/371 (59.3%)
 - [ ] Streicheleinheiten
 - [ ] Teleportationsflug
 - [ ] Wachsame Augen
-- [ ] Nächtlicher Lebensraub
+- [ ] Nächtlicher Lebensraub (Vertrauter)
 
 
 ### Consumable
 
 - [ ] Alchimistensäure
-- [ ] Berserkerelixier
+- [x] Berserkerelixier
 - [ ] Hylailer Feuer
 - [ ] Schwadenbeutel
 - [ ] Stinktöpfchen
@@ -5629,7 +5686,7 @@ Total status:  220/371 (59.3%)
 
 
 ## Magie3
-Total status:  167/395 (42.28%)
+Total status:  168/395 (42.53%)
 
 
 ### Specialability
@@ -5879,7 +5936,7 @@ Total status:  167/395 (42.28%)
 - [ ] Tierwandlung - Nagerpfad Biber
 - [ ] Tierwandlung - Vogelpfad Taube
 - [ ] Tierwandlung - Vogelpfad Rabe
-- [ ] Weg des Jägers
+- [x] Weg des Jägers
 
 
 ### Ritual
@@ -6333,7 +6390,7 @@ Total status:  81/96 (84.38%)
 
 
 ## Orcs
-Total status:  66/109 (60.55%)
+Total status:  66/111 (59.46%)
 
 
 ### Advantage
@@ -6430,6 +6487,8 @@ Total status:  66/109 (60.55%)
 - [x] Rinderruf
 - [x] Steinhaut
 - [x] Untotenerhebung
+- [ ] Brazoraghs Krieger
+- [ ] Herbeirufung von Tairachs Dienern (Nebelkrähen)
 
 
 ### Ceremony
@@ -6612,7 +6671,7 @@ Total status:  59/98 (60.2%)
 
 
 ## Pandaemonium
-Total status:  23/34 (67.65%)
+Total status:  23/38 (60.53%)
 
 
 ### Spell
@@ -6663,6 +6722,10 @@ Total status:  23/34 (67.65%)
 - [ ] Überrennen
 - [x] Unterwasserkampf
 - [ ] Verbeißen
+- [ ] Rudelbeschwörung (Dämonen)
+- [ ] Wahrer Name (spezieller Dämon, niederer)
+- [ ] Wahrer Name (spezieller Dämon, bis zu 5-gehörnte)
+- [ ] Wahrer Name (spezieller Dämon, ab 6 Hörnern)
 
 
 
@@ -6758,7 +6821,7 @@ Total status:  0/1 (0.0%)
 
 
 ## Realmofthethorns
-Total status:  78/136 (57.35%)
+Total status:  79/136 (58.09%)
 
 
 ### Praegung
@@ -6871,7 +6934,7 @@ Total status:  78/136 (57.35%)
 - [ ] Körperlose Reise
 - [ ] Leidensbund
 - [x] Nekropathia
-- [ ] Ruhe Körper
+- [x] Ruhe Körper
 - [ ] Widerwille
 - [x] Xenographus
 - [ ] Zauberschnurren
@@ -7099,7 +7162,7 @@ Total status:  3/3 (100.0%)
 
 
 ## Riverlands
-Total status:  107/184 (58.15%)
+Total status:  109/184 (59.24%)
 
 
 ### Wesenszug
@@ -7178,7 +7241,7 @@ Total status:  107/184 (58.15%)
 - [x] Ernte der Sichel
 - [x] Sichel-Apport
 - [x] Sichel wider Übernatürliches
-- [ ] Astrale Meditation
+- [x] Astrale Meditation
 - [ ] Druidenrache
 - [ ] Materielle Verbindung
 - [x] Zauber abbrechen
@@ -7287,7 +7350,7 @@ Total status:  107/184 (58.15%)
 - [x] Elenviner Reiterhammer
 - [ ] Ferdoker Kriegslanze
 - [ ] Gratenfelser Ahlspieß (2H)
-- [ ] Gratenfelser Malchus
+- [x] Gratenfelser Malchus
 - [ ] Koscher Langschwert
 - [ ] Nordmärker Langschwert
 - [ ] Nordmärker Mordaxt (2H)
@@ -7425,7 +7488,7 @@ Total status:  98/186 (52.69%)
 - [ ] Taktische Befehle
 - [x] Waffenwurf
 - [ ] Wuchtiger Wurf
-- [x] Zweifacher Angriff
+- [x] Zweifacher Reiterangriff
 - [x] Scholar des Magierkollegs zu Honingen
 - [ ] Harmoniezauberei
 - [x] Matrixzauberei
@@ -7732,7 +7795,7 @@ Total status:  119/185 (64.32%)
 - [x] Waffe gegen böse Wesen
 - [ ] Tradition (Animisten)
 - [ ] Tradition (Darna)
-- [ ] Tradition (Tahaya-Schamanen)
+- [ ] Tradition (Tahayaschamanen)
 - [x] Dschungel-Zeichensprache
 - [x] Gift melken (Land- und Lufttiere)
 - [x] Gift melken (Wassertiere)
@@ -7896,7 +7959,7 @@ Total status:  119/185 (64.32%)
 
 
 ## Studyroom
-Total status:  149/233 (63.95%)
+Total status:  154/268 (57.46%)
 
 
 ### Spell
@@ -7957,6 +8020,12 @@ Total status:  149/233 (63.95%)
 - [ ] Warmes gefriere
 - [ ] Windhose
 - [ ] Windstille
+- [ ] Goblin-Bannzone
+- [ ] Goblin-Geisterfalle
+- [ ] Goblin-Hauch
+- [ ] Goblin-Kriegsmatsch
+- [ ] Goblin-Pflanzenwuchs
+- [ ] Wildschweineruf
 
 
 ### Ritual
@@ -7970,13 +8039,17 @@ Total status:  149/233 (63.95%)
 - [x] Movimento
 - [ ] Nihilogravo
 - [x] Planastrale
-- [ ] Ruhe Körper
+- [x] Ruhe Körper
 - [x] Totes handle
 - [x] Wirbelform
 - [x] Xenographus
 - [x] Transformatio
 - [x] Aurum Argentor
 - [ ] Riesengestalt
+- [ ] Sicheres Lager
+- [ ] Aufmerksamer Wächter
+- [ ] Goblin-Regentanz
+- [ ] Goblin-Tabuzone
 
 
 ### Specialability
@@ -8046,7 +8119,7 @@ Total status:  149/233 (63.95%)
 - [x] Bindung der Magierkugel
 - [ ] Geschossschutz
 - [x] Vergrößerungsglas
-- [ ] Astrale Meditation
+- [x] Astrale Meditation
 - [x] Astralmatrixvisualisierung
 - [x] Große Meditation
 - [x] Magiersiegelstock
@@ -8076,7 +8149,7 @@ Total status:  149/233 (63.95%)
 - [ ] Tradition (Zauberbarden)
 - [x] Tradition (Zaubertänzer)
 - [ ] Tradition (Zibiljas)
-- [ ] Scholar des Halib abu’l Ketab
+- [ ] Scholar des Halib abu'l Ketab
 - [ ] Scholar aus Mendena
 - [ ] Scholar der Erben der Gräber
 - [x] Auxiliator
@@ -8096,6 +8169,28 @@ Total status:  149/233 (63.95%)
 - [x] Bindung des Bannschwerts (Schwerter)
 - [x] Bindung des Bannschwerts (Zweihandschwerter)
 - [ ] Goblinhexe
+- [ ] Machtvolle Keulenzauber
+- [ ] Volumenerweiterung der Goblinkeule
+- [ ] Wirbelsteine
+- [ ] Goblinkeulen-Apport
+- [ ] Bindung der Schweinetrommel
+- [ ] Geschrei der Schweinetrommel
+- [ ] Goblingelage
+- [ ] Goblins, die auf Schweine starren
+- [ ] Mutiges Grunzen
+- [ ] Machtvolle Schweinetrommelzauber
+- [ ] Schweinetanz
+- [ ] Schweinetrommel-Apport
+- [ ] Volumenerweiterung der Schweinetrommel
+- [ ] Fruchtbarkeitsritus
+- [ ] Goblinnahrung
+- [ ] Bindung der Hauerkette
+- [ ] Hauerketten-Apport
+- [ ] Machtvolle Hauerkettenzauber
+- [ ] Mahlzeit der Meute
+- [ ] Schutz der Muttersau
+- [ ] Trüffelsinn
+- [ ] Volumenerweiterung der Hauerkette
 
 
 ### Advantage
@@ -8158,6 +8253,9 @@ Total status:  149/233 (63.95%)
 - [ ] Grauer Stab (2H) - Ferruginion
 - [ ] Grauer Stab (2H) - Cedraion
 - [ ] Famerlîn (2H)
+- [x] Goblinkeule, kurz
+- [x] Goblinkeule, mittel
+- [x] Goblinkeule, lang (2H)
 
 
 ### Rangeweapons
@@ -8170,7 +8268,7 @@ Total status:  149/233 (63.95%)
 
 
 ## Suncoast
-Total status:  126/183 (68.85%)
+Total status:  128/183 (69.95%)
 
 
 ### Specialability
@@ -8178,7 +8276,7 @@ Total status:  126/183 (68.85%)
 - [ ] Zyklopenschmied
 - [x] Ermutigender Gesang
 - [x] Faszinierender Gesang
-- [ ] Kräutermischung
+- [x] Kräutermischung
 - [ ] Zeichen des Schicksals
 - [x] Weg der Bardin
 - [x] Weg der Gelehrten ()
@@ -8208,7 +8306,7 @@ Total status:  126/183 (68.85%)
 - [ ] Schildstoß
 - [x] Sprungangriff
 - [ ] Taktische Befehle
-- [x] Zweifacher Angriff
+- [x] Zweifacher Reiterangriff
 - [ ] Scholar der Kalliomathëa Dorikeikos von Sorabis
 - [x] Kundiger Sphärologe
 - [x] Machtvolle Verbotene Pforten
@@ -8251,7 +8349,7 @@ Total status:  126/183 (68.85%)
 - [ ] Emotionsübernahme
 - [x] Hilferuf
 - [ ] Weiter Klang
-- [ ] Astrale Meditation
+- [x] Astrale Meditation
 - [x] Kraftknotenmagie
 - [x] Kraftknotennutzung
 - [x] Kraftlinienmagie
@@ -8409,8 +8507,41 @@ Total status:  126/183 (68.85%)
 
 
 
+## Theaterknights1
+Total status:  0/6 (0.0%)
+
+
+### Spell
+
+- [ ] Einfahren
+
+
+### Meleeweapons
+
+- [ ] Argentalis
+
+
+### Specialability
+
+- [ ] Blutpfand
+
+
+### Ceremony
+
+- [ ] Empfängnis des Korsmals
+
+
+### Ritual
+
+- [ ] Ruf des Bienenstocks
+- [ ] Orvai Kurims Kriegstrommel
+
+
+
+
+
 ## Thorwal
-Total status:  120/212 (56.6%)
+Total status:  120/215 (55.81%)
 
 
 ### Meleeweapons
@@ -8630,6 +8761,9 @@ Total status:  120/212 (56.6%)
 - [ ] Rüstrune
 - [ ] Schicksalsrune
 - [ ] Schutzrune vor Zauberei
+- [ ] Melodie der Beleidigungen
+- [ ] Melodie der Motivation
+- [ ] Melodie des Verbergens
 
 
 ### Praegung
@@ -8802,7 +8936,7 @@ Total status:  58/81 (71.6%)
 
 
 ## Warringkingdoms
-Total status:  74/136 (54.41%)
+Total status:  75/136 (55.15%)
 
 
 ### Specialability
@@ -8846,7 +8980,7 @@ Total status:  74/136 (54.41%)
 - [ ] Wissensaustausch
 - [x] Deichbauer
 - [ ] Abgeschwächter Zauber
-- [ ] Astrale Meditation
+- [x] Astrale Meditation
 - [x] Tradition (Druiden)
 - [ ] Druidenrache
 - [ ] Fernzaubern
@@ -8982,7 +9116,7 @@ Total status:  74/136 (54.41%)
 
 
 ## Winterwatch
-Total status:  109/189 (57.67%)
+Total status:  111/220 (50.45%)
 
 
 ### Advantage
@@ -9122,6 +9256,28 @@ Total status:  109/189 (57.67%)
 - [ ] Anhänger des guten Kampfes
 - [x] Kamerad des guten Goldes
 - [x] Gebieter des ()
+- [ ] Machtvolle Keulenzauber
+- [ ] Volumenerweiterung der Goblinkeule
+- [ ] Wirbelsteine
+- [ ] Goblinkeulen-Apport
+- [ ] Bindung der Schweinetrommel
+- [ ] Geschrei der Schweinetrommel
+- [ ] Goblingelage
+- [ ] Goblins, die auf Schweine starren
+- [ ] Mutiges Grunzen
+- [ ] Machtvolle Schweinetrommelzauber
+- [ ] Schweinetanz
+- [ ] Schweinetrommel-Apport
+- [ ] Volumenerweiterung der Schweinetrommel
+- [ ] Fruchtbarkeitsritus
+- [ ] Goblinnahrung
+- [ ] Bindung der Hauerkette
+- [ ] Hauerketten-Apport
+- [ ] Machtvolle Hauerkettenzauber
+- [ ] Mahlzeit der Meute
+- [ ] Schutz der Muttersau
+- [ ] Trüffelsinn
+- [ ] Volumenerweiterung der Hauerkette
 
 
 ### Spell
@@ -9136,6 +9292,12 @@ Total status:  109/189 (57.67%)
 - [x] Objectofixo
 - [ ] Sensibar
 - [x] Verwandlungsbann
+- [ ] Goblin-Bannzone
+- [ ] Goblin-Geisterfalle
+- [ ] Goblin-Hauch
+- [ ] Goblin-Kriegsmatsch
+- [ ] Goblin-Pflanzenwuchs
+- [ ] Wildschweineruf
 
 
 ### Ritual
@@ -9148,13 +9310,16 @@ Total status:  109/189 (57.67%)
 - [x] Warenchronik
 - [ ] Elementarer Verbündeter
 - [ ] Goblin-Exorzismus
-- [ ] Goblin-Geistheilung
+- [x] Goblin-Geistheilung
 - [ ] Goblin-Zuflucht
 - [ ] Orvai Kurims Kriegstrommel
 - [x] Adamantium
 - [x] Caldofrigo
-- [ ] Ruhe Körper
+- [x] Ruhe Körper
 - [ ] Sicheres Lager
+- [ ] Aufmerksamer Wächter
+- [ ] Goblin-Regentanz
+- [ ] Goblin-Tabuzone
 
 
 ### Trait
@@ -9527,7 +9692,7 @@ Total status:  117/222 (52.7%)
 
 
 ## Worldwanderer
-Total status:  4/25 (16.0%)
+Total status:  6/25 (24.0%)
 
 
 ### Consumable
@@ -9580,13 +9745,13 @@ Total status:  4/25 (16.0%)
 ### Spell
 
 - [ ] Auge des Limbus
-- [ ] Sphärenbann
+- [x] Sphärenbann
 
 
 ### Ritual
 
 - [ ] Körperlose Reise
-- [ ] Planastrale
+- [x] Planastrale
 
 
 

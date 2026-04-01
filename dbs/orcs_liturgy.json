@@ -1,0 +1,613 @@
+{
+  "Befehl des Schamanen": [
+    {
+      "name": "Größere Reichweite",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "8 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Eiliger Befehl",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Minuten"
+        }
+      ]
+    },
+    {
+      "name": "Brechen des Widerstandes",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": true,
+      "changes": [
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ]
+    }
+  ],
+  "Feuerwall": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Minuten"
+        }
+      ]
+    },
+    {
+      "name": "Deckel",
+      "complete": true,
+      "changes": []
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*1"
+        }
+      ]
+    },
+    {
+      "name": "Heiliges Feuer",
+      "complete": false,
+      "changes": [
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "2d6+QS"
+        }
+      ]
+    },
+    {
+      "name": "Intensive Flammen",
+      "complete": false,
+      "changes": [
+        {
+          "key": "system.AsPCost.value",
+          "mode": 5,
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "Furchteinflößende Tiergeister": [
+    {
+      "name": "Angsteinflößende Tiergeister",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Noch Furchteinflößender",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Gefährliche Geister",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Zornige Geister",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": false,
+      "changes": []
+    }
+  ],
+  "Gebieter der Flammen": [
+    {
+      "name": "Keine Aufrechterhaltung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.maintainCost.value",
+          "mode": 5,
+          "value": "0"
+        },
+        {
+          "key": "system.variableBaseCost",
+          "mode": 5,
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "Wandernde Zone",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Größerer Radius",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.target.value",
+          "mode": 5,
+          "value": "QS*3"
+        }
+      ]
+    },
+    {
+      "name": "Große Brandherde",
+      "complete": true,
+      "changes": []
+    }
+  ],
+  "Hauch des Elements": [
+    {
+      "name": "Schwieriges Ausweichen",
+      "complete": true,
+      "changes": [
+        {
+          "key": "defenseMalus",
+          "mode": 2,
+          "value": -2
+        }
+      ]
+    },
+    {
+      "name": "Größere Reichweite",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "16 Schritt"
+        }
+      ]
+    },
+    {
+      "name": "Harter Aufprall",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.effectFormula.value",
+          "mode": 5,
+          "value": "+1d6+6"
+        }
+      ]
+    },
+    {
+      "name": "Niederschmetternd",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "Heldenkraft": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "15 KR"
+        }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Monstrentöter",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Mehrere Ziele",
+      "complete": true,
+      "changes": [
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-8AsP_per_target"
+        }
+      ]
+    }
+  ],
+  "Herr der Flammen": [
+    {
+      "name": "Auch Gegenstände",
+      "complete": true,
+      "changes": []
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Weniger Feuerschaden",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Kein Feuerschaden",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    }
+  ],
+  "Kriegsfarben": [
+    {
+      "name": "Stärke des Tieres 1",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Unermüdliche Kraft",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 KR"
+        }
+      ]
+    },
+    {
+      "name": "Wirklich stark",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Gemeinsamer Kriegszug",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Stärke des Tieres 2",
+      "complete": false,
+      "changes": []
+    }
+  ],
+  "Nebelkrähenschwarm": [
+    {
+      "name": "Kosten modifizierbar",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Gewandte Krähen",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Mehr Krähen",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Kleidungsmitnahme",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Nur eine letzte Krähe",
+      "complete": false,
+      "changes": []
+    }
+  ],
+  "Ogerruf": [
+    {
+      "name": "Schnellere Verstärkung",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Kräftiger Oger",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Sofortige Verstärkung",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Mehr Wesen",
+      "complete": false,
+      "changes": []
+    }
+  ],
+  "Rinderruf": [
+    {
+      "name": "Schnellere Verstärkung",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Kürzere Liturgiedauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Kräftige Rinder",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Sofortige Verstärkung",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Mehr Wesen",
+      "complete": true,
+      "changes": []
+    }
+  ],
+  "Steinhaut": [
+    {
+      "name": "Längere Wirkungsdauer 1",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 3 KR"
+        }
+      ]
+    },
+    {
+      "name": "Schneller Schutz",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Reichweite Berührung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.targetCategory.value",
+          "mode": 5,
+          "value": "Kulturschaffende"
+        },
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "berühren"
+        }
+      ]
+    },
+    {
+      "name": "Harter Fels",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Längere Wirkungsdauer 2",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS * 5 KR"
+        }
+      ]
+    }
+  ],
+  "Untotenerhebung": [
+    {
+      "name": "Mehr Dienste",
+      "complete": true,
+      "changes": []
+    },
+    {
+      "name": "Zweifache Erhebung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS x 5 KR"
+        }
+      ]
+    },
+    {
+      "name": "Vierfache Erhebung",
+      "complete": true,
+      "changes": [
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "multitarget-4AsP_per_target"
+        }
+      ]
+    },
+    {
+      "name": "Mächtiges Wesen",
+      "complete": true,
+      "changes": []
+    }
+  ],
+  "Brazoraghs Krieger": [
+    {
+      "name": "Längere Wirkungsdauer",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Zwei Ziele",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Drei Ziele",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Brazoraghs Erwählte",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Kräftige Hiebe",
+      "complete": false,
+      "changes": []
+    }
+  ],
+  "Herbeirufung von Tairachs Dienern (Nebelkrähen)": [
+    {
+      "name": "Angriffslustig",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Scharfe Schnäbel",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Nebelkrähenschar",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Mehr Nebelkrähen",
+      "complete": false,
+      "changes": []
+    },
+    {
+      "name": "Loyal bis in den Tod",
+      "complete": false,
+      "changes": []
+    }
+  ]
+}

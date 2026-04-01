@@ -274,12 +274,6 @@
       "companions"
     ]
   },
-  "Nächtlicher Lebensraub": {
-    "source": [
-      "companions",
-      "magie2"
-    ]
-  },
   "Ruhepol": {
     "source": [
       "companions"
@@ -317,6 +311,13 @@
   "Wunderbeutel Krötenleib": {
     "source": [
       "companions"
+    ]
+  },
+  "Nächtlicher Lebensraub (Vertrauter)": {
+    "source": [
+      "companions",
+      "magie2",
+      "wolfsfrost"
     ]
   },
   "Krötengift": {
@@ -596,11 +597,6 @@
   "Extrem putzig": {
     "source": [
       "winterwatch"
-    ]
-  },
-  "Nächtlicher Lebensraub (Vertrauter)": {
-    "source": [
-      "wolfsfrost"
     ]
   }
 }
