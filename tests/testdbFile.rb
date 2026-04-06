@@ -5,7 +5,7 @@ require 'json'
 targetCategories = ["Selbst", "Kulturschaffende", "Objekte", "Wesen", "Lebewesen", "Objekte (magische Objekte)", "Objekte (karmale Objekte)", "Tiere", "Übernatürliche Wesen", "Chimären", "Daimonide", "Elementare", "Untote", "Dämonen", "Geister"]
 
 directory_name = "./log"
-Dir.mkdir(directory_name) unless File.exists?(directory_name)
+Dir.mkdir(directory_name) unless File.exist?(directory_name)
 
 rollPattern = /^(\+|-)?\d{1,3}[wWdD]\d{1,3}((\+|-)(\d|QS))?(\*(\d|QS))?$/
 
@@ -29,7 +29,7 @@ Dir["../dbs/*.json"].each do |r|
                 when "system.variableBaseCost"
                 when "system.canChangeCastingTime.value"
                     output << "#{name}: #{key} can only be true/false" unless change["value"] =~ /(true|false)/
-                when "system.AsPCost.value", "defenseMalus", "system.castingTime.value", "decreaseCastingTime.mod", "reduceCostSpell.mod", "increaseRangeSpell.mod", "reduceCostSpell.mod", "system.target.width", "system.target.angle"
+                when "system.AsPCost.value", "defenseMalus", "system.castingTime.value", "decreaseCastingTime.mod", "reduceCostSpell.mod", "increaseRangeSpell.mod", "system.target.width", "system.target.angle"
                     output << "#{name}: #{key} needs to be a number" unless change["value"].is_a? Numeric
                 when "system.targetCategory.value"
                     #replace all content within brackets
@@ -48,13 +48,11 @@ Dir["../dbs/*.json"].each do |r|
                 when "system.duration.value"
                     output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(\d{1,3}|QS) (Kampfrunde(n)?|KR(s)?|Sekunden(n)?|Minute(n)?|min|Stunde(n)?|Tag(e)?|Woche(n)?|Monat(e)?|Jahr(e)?)/
                 when "macro.transform"
-                    output << "#{name}: #{key} <#{change["value"]}> file missing" unless File.exists?("../macros/#{change["value"]}.js")
+                    output << "#{name}: #{key} <#{change["value"]}> file missing" unless File.exist?("../macros/#{change["value"]}.js")
                 when "extensionModifier.mod"
                     output << "#{name}: #{key} <#{change["value"]}> not a number or wrong mode" if !(change["value"].is_a?(Numeric) && change["mode"] == 2)
                 when "system.target.type"
                     output << "#{name}: #{key} <#{change["value"]}> unknown area type" unless change["value"] =~ /(sphere|cone|line|cube)/
-                when "system.target.value"
-                    output << "#{name}: #{key} <#{change["value"]}> does not match pattern" unless change["value"] =~ /(qs\*|ql\*)?\d{1,3}/
                 else
 
                     output << "#{name}: uncovered key <#{key}>"
@@ -64,7 +62,7 @@ Dir["../dbs/*.json"].each do |r|
     end
     if output.any?
         File.open("./log/#{fname}.txt", "w") {|f| f.write(output.join("\n"))} 
-    elsif File.exists?("./log/#{fname}.txt")
+    elsif File.exist?("./log/#{fname}.txt")
         File.delete("./log/#{fname}.txt")
     end
 

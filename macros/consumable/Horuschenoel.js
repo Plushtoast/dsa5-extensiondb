@@ -1,83 +1,83 @@
 // This is a system macro used for automation. It is disfunctional without the proper context.
 
-const lang = game.i18n.lang === "de" ? "de" : "en";
+const lang = game.i18n.lang == "de" ? "de" : "en";
 const dict = {
   de: {
     noActor: "Kein gültiger Akteur gefunden.",
     effectName: "Horuschenöl",
-    kraftakt: "Kraftakt"
+    kraftakt: "Kraftakt",
   },
   en: {
     noActor: "No valid actor found.",
-    effectName: "Horus Oil", //Platzhalter
-    kraftakt: "Feat of Strength"
+    effectName: "Horus Oil",
+    kraftakt: "Feat of Strength",
   },
 }[lang];
 
 if (!actor) {
-  ui.notifications.warn(dict.noActor);
+  ui.notifications?.error(dict.noActor);
   return;
 }
 
-const durationSeconds = 36000
+const durationSeconds = 10 * 60 * 60;
+const effectName = item?.name ?? dict.effectName;
 
-// Prüfen, ob der Effekt bereits auf dem Actor liegt
-const existingEffect = actor.effects.find(e => e.name === dict.effectName);
+function createCondition(changes) {
+  const condition = this.effectDummy(effectName, changes, { seconds: durationSeconds });
+
+  foundry.utils.mergeObject(condition, {
+    img: item?.img ?? "icons/svg/aura.svg",
+    flags: {
+      dsa5: {
+        description: effectName,
+        hideOnToken: true,
+      },
+    },
+  });
+
+  return condition;
+}
+
+function parseSkillBonus(value) {
+  const match = String(value ?? "").match(new RegExp(`^${dict.kraftakt}\\s+(\\d+)$`));
+  return Number(match?.[1] ?? 0);
+}
+
+const existingEffect = actor.effects.find(
+  (effect) => effect.name === effectName || effect.name === dict.effectName,
+);
 
 if (!existingEffect) {
-  // Fall 1: Effekt existiert noch nicht
-  const changes = [
+  const condition = createCondition.call(this, [
     {
       key: "system.characteristics.kk.gearmodifier",
       mode: 2,
-      value: 1
-    }
-  ];
+      value: 1,
+    },
+  ]);
 
-  const effectData = {
-    name: dict.effectName,
-    icon: "icons/svg/aura.svg", 
-    changes: changes,
-    duration: { seconds: durationSeconds, startTime: game.time.worldTime },
-    flags: {
-      dsa5: {
-        description: dict.effectName,
-        hideOnToken: true,
-      }
-    }
-  };
-
-  await actor.createEmbeddedDocuments("ActiveEffect", [effectData]);
-  
-  // Erste Einnahme: 1 Schadenspunkt
-  await actor.applyDamage(1); 
-
-} else {
-  // Fall 2: Effekt existiert 
-  const changes = foundry.utils.duplicate(existingEffect.changes || []);
-  
-  //  "Kraftakt" bereits vorhanden?
-  const kraftaktChange = changes.find(c => c.key === "system.skillModifiers.step" && c.value.includes(dict.kraftakt));
-  let newBonus = 2;
-
-  if (kraftaktChange) {
-    // Kraftakt da
-    const currentBonus = Number(kraftaktChange.value.replace(`${dict.kraftakt} `, ""));
-    newBonus = (isNaN(currentBonus) ? 0 : currentBonus) + 2;
-    kraftaktChange.value = `${dict.kraftakt} ${newBonus}`;
-  } else {
-    // Kraftakt nicht da
-    changes.push({
-      key: "system.skillModifiers.step",
-      mode: 0,
-      value: `${dict.kraftakt} 2`
-    });
-  }
-
-  // Den existierenden Effekt überschreiben
-  await existingEffect.update({ changes: changes });
-  
-  // exponentiellenr Schaden
-  const damageAmount = Math.pow(2, newBonus / 2);
-  await actor.applyDamage(damageAmount); 
+  await actor.addCondition(condition);
+  await actor.applyDamage(1);
+  return;
 }
+
+const changes = foundry.utils.duplicate(existingEffect.changes || []);
+const kraftaktChange = changes.find(
+  (change) => change.key === "system.skillModifiers.step" && String(change.value ?? "").startsWith(`${dict.kraftakt} `),
+);
+
+const currentBonus = parseSkillBonus(kraftaktChange?.value);
+const newBonus = currentBonus + 2;
+
+if (kraftaktChange) {
+  kraftaktChange.value = `${dict.kraftakt} ${newBonus}`;
+} else {
+  changes.push({
+    key: "system.skillModifiers.step",
+    mode: 0,
+    value: `${dict.kraftakt} ${newBonus}`,
+  });
+}
+
+await existingEffect.update({ changes });
+await actor.applyDamage(Math.pow(2, newBonus / 2));

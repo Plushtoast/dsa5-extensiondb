@@ -194,7 +194,7 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |name|status| % |
 | -- | ---- | - |
 |arcanelabs_ritual|0/0|NaN|
-|bannerofloyalty_liturgy|0/15|0.0|
+|bannerofloyalty_liturgy|5/15|33.3|
 |elementarium_ceremony|30/30|100.0|
 |elementarium_ritual|42/80|52.5|
 |elementarium_spell|136/175|77.7|
@@ -213,10 +213,10 @@ The automation is barely possible or the effect is fluff. Complete should be tru
 |nekromanthaeum_liturgy|5/6|83.3|
 |nekromanthaeum_ritual|9/10|90.0|
 |nekromanthaeum_spell|27/37|73.0|
-|orcs_ceremony|0/15|0.0|
+|orcs_ceremony|7/15|46.7|
 |orcs_liturgy|35/75|46.7|
 |studyroom_ritual|60/81|74.1|
 |studyroom_spell|193/280|68.9|
-|partly done|2994/3998|74.9|
-|progress|2795/3998|69.9|
+|partly done|3006/3998|75.2|
+|progress|2807/3998|70.2|
 
