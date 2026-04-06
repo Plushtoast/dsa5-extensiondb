@@ -2,28 +2,58 @@
   "Gnade des Vergessens": [
     {
       "name": "Reichweite Berührung",
-      "complete": false,
-      "changes": []
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.range.value",
+          "mode": 5,
+          "value": "4 Schritt"
+        }
+      ]
     },
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
-      "changes": []
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 5
+        }
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 1",
-      "complete": false,
-      "changes": []
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "2 Jahre"
+        }
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 2",
-      "complete": false,
-      "changes": []
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "5 Jahre"
+        }
+      ]
     },
     {
       "name": "Längere Wirkungsdauer 3",
-      "complete": false,
-      "changes": []
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10 Jahre"
+        }
+      ]
     }
   ],
   "Ogerbindung": [
@@ -56,8 +86,14 @@
   "Tairachs machtvolle Erhebung von Untoten": [
     {
       "name": "Kürzere Zeremoniedauer",
-      "complete": false,
-      "changes": []
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 16
+        }
+      ]
     },
     {
       "name": "Tairachs Streiter 1",
@@ -66,8 +102,14 @@
     },
     {
       "name": "Längere Wirkungsdauer",
-      "complete": false,
-      "changes": []
+      "complete": true,
+      "changes": [
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "QS Jahre"
+        }
+      ]
     },
     {
       "name": "Tairachs Streiter 2",

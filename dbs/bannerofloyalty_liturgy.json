@@ -34,13 +34,25 @@
         },
         {
             "name": "Schneller Schutz",
-            "complete": false,
-            "changes": []
+            "complete": true,
+            "changes": [
+                {
+                    "key": "system.castingTime.value",
+                    "mode": 5,
+                    "value": 1
+                }
+            ]
         },
         {
             "name": "Längere Wirkungsdauer",
-            "complete": false,
-            "changes": []
+            "complete": true,
+            "changes": [
+                {
+                    "key": "system.duration.value",
+                    "mode": 5,
+                    "value": "15 KR"
+                }
+            ]
         },
         {
             "name": "Hornissenpanzer",
@@ -56,13 +68,25 @@
     "Speer des Athleten": [
         {
             "name": "Größere Reichweite",
-            "complete": false,
-            "changes": []
+            "complete": true,
+            "changes": [
+                {
+                    "key": "system.range.value",
+                    "mode": 5,
+                    "value": "32 Schritt"
+                }
+            ]
         },
         {
             "name": "Windender Flug",
-            "complete": false,
-            "changes": []
+            "complete": true,
+            "changes": [
+                {
+                    "key": "defenseMalus",
+                    "mode": 2,
+                    "value": -2
+                }
+            ]
         },
         {
             "name": "Schwächender Speer",
@@ -76,8 +100,14 @@
         },
         {
             "name": "Mächtiger Wurf",
-            "complete": false,
-            "changes": []
+            "complete": true,
+            "changes": [
+                {
+                    "key": "system.effectFormula.value",
+                    "mode": 5,
+                    "value": "2d6+3*QS"
+                }
+            ]
         }
     ]
 }
