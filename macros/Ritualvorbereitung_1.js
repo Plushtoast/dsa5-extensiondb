@@ -1,0 +1,27 @@
+// transform spell source data object
+
+let macroEffect = source.effects.find(x => x.flags?.dsa5?.args3 && x.flags.dsa5.args3.includes("createEmbeddedDocuments"));
+
+if(!macroEffect) return;
+
+macroEffect = foundry.utils.duplicate(macroEffect);
+source.effects = source.effects.filter(x => x._id != macroEffect._id);
+
+let code = macroEffect.flags.dsa5.args3;
+
+
+const injection = `
+  effects: [{
+    name: (typeof elData !== "undefined" ? elData.label : dict.itemName),
+    img: "icons/svg/aura.svg",
+    transfer: true,
+    changes: [
+      { key: "system.skillModifiers.FP", mode: 0, value: "Elementarer Diener 1, Dschinnenruf 1, Meister der Elemente 1" }
+    ]
+  }],
+`;
+
+code = code.replace(/const\s+itemData\s*=\s*\{/, `const itemData = { ${injection}`);
+
+macroEffect.flags.dsa5.args3 = code;
+source.effects.push(macroEffect);
