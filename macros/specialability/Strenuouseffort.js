@@ -23,12 +23,7 @@ function injectEffortModifier(targetDialog, value, tooltip, displayLabel) {
             </div>
         `;
         
-        const visionField = parentElement.querySelector('select[name="vision"]')?.closest('.form-group');
-        if (visionField) {
-            visionField.insertAdjacentHTML('beforebegin', fieldHtml);
-        } else {
-            parentElement.querySelector('.talent-test-modifier')?.insertAdjacentHTML('beforeend', fieldHtml);
-        }
+        parentElement.querySelector('.talent-test-modifier')?.insertAdjacentHTML('beforeend', fieldHtml);
         
         modifierContainer = parentElement.querySelector('.modifiers');
     } else {
