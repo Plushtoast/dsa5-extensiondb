@@ -41,7 +41,7 @@ async function runVisionOfTrueFaith(actor, dialog) {
     if (rollButton) {
         rollButton.click();
     } else {
-        ui.notifications.warn("Konnte die Regenerationsprobe nicht automatisch auslösen.");
+        ui.notifications.warn(game.i18n.localize("VISION_FAITH.autoRollFailed"));
     }
 
     const skillName = game.i18n.localize("VISION_FAITH.skillName");
