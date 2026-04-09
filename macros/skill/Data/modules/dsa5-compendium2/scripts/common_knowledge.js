@@ -59,10 +59,7 @@ Hooks.on('dsa5.getRollDialogContextOptions', (dialogState, menuItems) => {
             });
 
             if ((modBase + manualMod + visionMod + situationalMod) <= -3) {
-                const warnText = game.i18n.has('COMMON_KNOWLEDGE.tooDifficult') 
-                    ? game.i18n.localize('COMMON_KNOWLEDGE.tooDifficult') 
-                    : "Die Probe ist zu schwer.";
-                return ui.notifications.warn(warnText);
+			return ui.notifications.warn(game.i18n.localize('COMMON_KNOWLEDGE.tooDifficult'));
             }
 
             window.GK_ACTIVE_ROLL = true;
