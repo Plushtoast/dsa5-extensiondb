@@ -1,5 +1,5 @@
 // ==========================================
-// Vorheriger Code den ich nicht von hitzone.js - den sollte ich lieber nicht hochladen
+// Vorheriger Code von hitzone.js - den sollte ich lieber nicht hochladen
 // ==========================================
 
 if (res.result.successLevel < 0) {
@@ -254,5 +254,5 @@ if (res.result.successLevel < 0) {
                             }
 
 // ==========================================
-// Folgender Code den ich nicht von hitzone.js - den sollte ich lieber nicht hochladen
+// Folgender Code von hitzone.js - den sollte ich lieber nicht hochladen
 // ==========================================
