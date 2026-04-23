@@ -91,7 +91,6 @@ if (actor) {
                         changes: effectChanges,
                         statuses: effectStatuses,
                         duration: effectDuration,
-                        // DAS HIER IST DER MAGISCHE SPEICHER! (Jetzt mit der echten Modul-ID)
                         flags: {
                             "dsa5-compendium": {
                                 "injuryZone": hitZoneStr,
