@@ -19,13 +19,6 @@ if (actor) {
                     if (injuredCodes.length >= 6) {
                         await actor.addCondition("unconscious");
                         
-                        const unconsciousEffectData = {
-                            name: game.i18n.localize("INJURY.UnconsciousZoneTrauma"),
-                            icon: "icons/svg/unconscious.svg",
-                            duration: { rounds: 600, seconds: 3600 }
-                        };
-                        await actor.createEmbeddedDocuments("ActiveEffect", [unconsciousEffectData]);
-                        
                         const msg = game.i18n.format("INJURY.ZoneTraumaMessage", { name: actor.name });
                         await ChatMessage.create(game.dsa5.apps.DSA5_Utility.chatDataSetup(msg));
                         
