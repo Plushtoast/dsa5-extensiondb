@@ -3,241 +3,109 @@
 // ==========================================
 
 if (actor) {
-                // PLATZHALTER: Prüfung ob Haken im Menü ermöglicht use von Schlimme Verletzungen
+                // PLATZHALTER: Prüfung ob Haken im Menü -> ermöglicht use von Schlimme Verletzungen
                 const useDetailedWounds = true;
 
                 if (useDetailedWounds) {
-                    // Ablauf bei Nutzen der Fokusregel: Keine Selbstbeherrschungs-Probe, direkt Wunden anwenden
                     await Hitzones.hideResistButton($(ev.currentTarget).parents('.message').attr("data-message-id"));
                     
-                    let dmg = 0;
-                    let finalHitCode = hitType.toString();
+                    let hitZoneStr = hitType.toString();
                     
-                    const d6Roll = (await new Roll("1d6").evaluate()).total;
-                    finalHitCode = `${hitType}${d6Roll}`; // Kombiniert HitType und W6 (z.B. "01")
+                    // Sucht all Effekte auf dem Charakter, die der Zone zugehörig sind
+                    let zoneEffects = actor.effects.filter(e => e.getFlag("dsa5-compendium", "injuryZone") === hitZoneStr);
+                    let injuredCodes = zoneEffects.map(e => e.getFlag("dsa5-compendium", "injuryCode"));
+
+                    // Wenn schon 6 Effekte in dieser Zone existieren -> Bewusstlos
+                    if (injuredCodes.length >= 6) {
+                        await actor.addCondition("unconscious");
+                        
+                        const unconsciousEffectData = {
+                            name: game.i18n.localize("INJURY.UnconsciousZoneTrauma"),
+                            icon: "icons/svg/unconscious.svg",
+                            duration: { rounds: 600, seconds: 3600 }
+                        };
+                        await actor.createEmbeddedDocuments("ActiveEffect", [unconsciousEffectData]);
+                        
+                        const msg = game.i18n.format("INJURY.ZoneTraumaMessage", { name: actor.name });
+                        await ChatMessage.create(game.dsa5.apps.DSA5_Utility.chatDataSetup(msg));
+                        
+                        return;
+                    }
+
+                    // Wunde auswürfeln, bis eine Stelle getroffen wird, die noch nicht in injuredCodes steht
+                    let dmg = 0;
+                    let d6Roll;
+                    let finalHitCode;
+                    
+                    do {
+                        // Wenn true wird 1W6 zusätzlich geworfen
+                        d6Roll = (await new Roll("1d6").evaluate()).total;
+                        finalHitCode = `${hitZoneStr}${d6Roll}`; // Kombiniert HitType und W6 (z.B. "01")
+                    } while (injuredCodes.includes(finalHitCode));
+
+                    const injuryData = game.dsa5.config.severeInjuries[finalHitCode]; 
+                    
+                    let injuryLocation = game.i18n.localize(injuryData.locationKey);
+                    let effectDuration = injuryData.duration || {};
+                    let effectChanges = injuryData.changes ? [...injuryData.changes] : []; 
+                    let effectStatuses = injuryData.statuses || [];
+
+                    if (finalHitCode === "04") {
+                        // sprachunabhängigen Talente für den 24h-Hässlich-Effekt
+                        effectChanges.push(
+                            { key: "system.skillModifiers.FP", mode: 2, value: `${game.i18n.localize("LocalizedIDs.seduction")} -1` },
+                            { key: "system.skillModifiers.FP", mode: 2, value: `${game.i18n.localize("LocalizedIDs.fastTalk")} -1` },
+                            { key: "system.skillModifiers.FP", mode: 2, value: `${game.i18n.localize("LocalizedIDs.commerce")} -1` }
+                        );
+                        
+                        // Dynamischen Name "Schmerz (Wange)"
+                        const specificPainName = `${game.i18n.localize("CONDITION.inpain")} (${injuryLocation})`;
+                        
+                        // 5-Minuten-Schmerz direkt als eigenen Effekt definieren und vergeben
+                        const painEffectData = {
+                            name: specificPainName,
+                            icon: "icons/svg/blood.svg",
+                            statuses: ["inpain"],
+                            duration: DUR_5_MIN,
+                            changes: [{ key: "system.condition.inpain", mode: 2, value: 1 }]
+                        };
+                        await actor.createEmbeddedDocuments("ActiveEffect", [painEffectData]);
+                    }
+
+                    if (injuryData.damageRoll) {
+                        dmg = (await new Roll(injuryData.damageRoll).evaluate()).total;
+                        await actor.applyDamage(dmg);
+                    }
 
                     // Variablen für den custom effect
-                    let createCustomEffect = false;
-                    let injuryLocation = "";
-                    let effectDuration = {};
-                    let effectChanges = [];
-                    let effectStatuses = [];
-
-                    // Definition der Dauern (1 KR = 6 Sekunden)
-                    const DUR_1_KR = { rounds: 1, seconds: 6 };
-                    const DUR_5_MIN = { rounds: 50, seconds: 300 };
-                    const DUR_24_H = { rounds: 14400, seconds: 86400 };
-
-                    switch (finalHitCode) {
-                        // KOPF (0) + 1W6
-                        case "01": // Nase (-2 AT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Nose");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.meleeStats.attack", mode: 2, value: -2 },
-                                { key: "system.rangeStats.attack", mode: 2, value: -2 }
-                            ];
-                            break;
-                        case "02": // Ohr (Verwirrung, 5 Min)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Ear");
-                            effectDuration = DUR_5_MIN;
-                            effectStatuses = ["confused"];
-                            break;
-                       case "03": // Auge (2x Schmerz, 5 Min)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Eye");
-                            effectDuration = DUR_5_MIN;
-                            effectStatuses = ["inpain"];
-                            effectChanges = [
-                                { key: "system.condition.inpain", mode: 2, value: "2" }
-                            ];
-                            break;
-                        case "04": // Wange (Schmerz, 5 Min & Hässlich 24h)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Cheek");
-                            effectDuration = DUR_24_H; 
-                            
-                            // sprachunabhängigen Talente für den 24h-Hässlich-Effekt
-                            effectChanges.push(
-                                { key: "system.skillModifiers.FP", mode: 2, value: `${game.i18n.localize("LocalizedIDs.seduction")} -1` },
-                                { key: "system.skillModifiers.FP", mode: 2, value: `${game.i18n.localize("LocalizedIDs.fastTalk")} -1` },
-                                { key: "system.skillModifiers.FP", mode: 2, value: `${game.i18n.localize("LocalizedIDs.commerce")} -1` }
-                            );
-
-                            // Dynamischen Name "Schmerz (Wange)"
-                            const specificPainName = `${game.i18n.localize("CONDITION.inpain")} (${injuryLocation})`;
-
-                            // 5-Minuten-Schmerz direkt als eigenen Effekt definieren und vergeben
-                            const painEffectData = {
-                                name: specificPainName,
-                                icon: "icons/svg/blood.svg",
-                                statuses: ["inpain"],
-                                duration: DUR_5_MIN,
-                                changes: [
-                                    { key: "system.condition.inpain", mode: 2, value: 1 }
-                                ]
-                            };
-                            await actor.createEmbeddedDocuments("ActiveEffect", [painEffectData]);
-                            break;
-                        case "05": // Stirn (-1 VT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Forehead");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.combat.dodge", mode: 2, value: -1 },
-                                { key: "system.combat.parry", mode: 2, value: -1 }
-                            ];
-                            break;
-                        case "06": // Hinterkopf (Betäubung, 5 Min)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.BackOfHead");
-                            effectDuration = DUR_5_MIN;
-                            effectStatuses = ["stunned"];
-                            break;
-
-                        // TORSO (1) + 1W6
-                        case "11": // Rippe (1W3 SP)
-                            dmg = (await new Roll("1d3").evaluate()).total;
-                            await actor.applyDamage(dmg);
-                            break;
-                        case "12": // Bauch (1W6 SP)
-                            dmg = (await new Roll("1d6").evaluate()).total;
-                            await actor.applyDamage(dmg);
-                            break;
-                        case "13": // Brust (1W3 SP)
-                            dmg = (await new Roll("1d3").evaluate()).total;
-                            await actor.applyDamage(dmg);
-                            break;
-                        case "14": // Schulter (-1 VT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Shoulder");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.combat.dodge", mode: 2, value: -1 },
-                                { key: "system.combat.parry", mode: 2, value: -1 }
-                            ];
-                            break;
-                        case "15": // Rücken (1W3 SP)
-                            dmg = (await new Roll("1d3").evaluate()).total;
-                            await actor.applyDamage(dmg);
-                            break;
-                        case "16": // Genital (Schmerz, 5 Min)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Groin");
-                            effectDuration = DUR_5_MIN;
-                            effectStatuses = ["inpain"];
-                            break;
-
-                        // ARME (2) + 1W6 
-                        case "21": // Oberarm (-2 AT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.UpperArm");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.meleeStats.attack", mode: 2, value: -2 },
-                                { key: "system.rangeStats.attack", mode: 2, value: -2 }
-                            ];
-                            break;
-                        case "22": // Unterarm (-1 PA, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Forearm");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [{ key: "system.combat.parry", mode: 2, value: -1 }];
-                            break;
-                        case "23": // Ellbogen (-1 AT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Elbow");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.meleeStats.attack", mode: 2, value: -1 },
-                                { key: "system.rangeStats.attack", mode: 2, value: -1 }
-                            ];
-                            break;
-                        case "24": // Hand (Waffe fallen lassen) -- Könnte man mit den interaktiven Effekten automatisieren -- z. B. indem man die Waffenanzahl auf "0" setzt und sie dann bei einer gelungenen Probe auf Aufheben wieder zurücksetzt
-                            break;
-                        case "25": // Finger (-1 AT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Finger");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.meleeStats.attack", mode: 2, value: -1 },
-                                { key: "system.rangeStats.attack", mode: 2, value: -1 }
-                            ];
-                            break;
-                        case "26": // Handgelenk (Waffe fallen lassen) -- Könnte man mit den interaktiven Effekten automatisieren -- z. B. indem man die Waffenanzahl auf "0" setzt und sie dann bei einer gelungenen Probe auf Aufheben wieder zurücksetzt
-                            break;
-
-                        // BEINE (3) + 1W6
-                        case "31": // Oberschenkel (-2 AT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Thigh");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.meleeStats.attack", mode: 2, value: -2 },
-                                { key: "system.rangeStats.attack", mode: 2, value: -2 }
-                            ];
-                            break;
-                        case "32": // Unterschenkel (-1 PA, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Calf");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [{ key: "system.combat.parry", mode: 2, value: -1 }];
-                            break;
-                        case "33": // Knie (-1 AT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Knee");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.meleeStats.attack", mode: 2, value: -2 },
-                                { key: "system.rangeStats.attack", mode: 2, value: -2 }
-                            ];
-                            break;
-                        case "34": // Fuß (Liegend) 
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Foot");
-                            // "Liegend" hat für diesen Case keine automatische Ablaufzeit, man muss aktiv aufstehen, hierfür könnte man die V8 interaktiven Proben verwenden.
-                            effectStatuses = ["prone"]; 
-                            break;
-                        case "35": // Zeh (-1 AT, 1 KR)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Toe");
-                            effectDuration = DUR_1_KR;
-                            effectChanges = [
-                                { key: "system.meleeStats.attack", mode: 2, value: -2 },
-                                { key: "system.rangeStats.attack", mode: 2, value: -2 }
-                            ];
-                            break;
-                        case "36": // Fersensehne (Liegend, 24h)
-                            createCustomEffect = true;
-                            injuryLocation = game.i18n.localize("INJURY.Heel");
-                            effectDuration = DUR_24_H;
-                            effectStatuses = ["prone"];
-                            break;
-                    }
+                    // Jede wunde erzeugt einen einen Effekt (manche nur als visuellen Speicher ohne Werteänderung)
+                    const baseTitle = game.i18n.localize("INJURY.SevereTitle");
+                    const effectName = (finalHitCode === "04") 
+                            ? `${game.i18n.localize("CONDITION.inpain")} (${injuryLocation})`
+                            : `${baseTitle}: ${injuryLocation}`;
 
                     // Effekt generieren und zuweisen
-                    if (createCustomEffect) {
-                        const baseTitle = game.i18n.localize("INJURY.SevereTitle");
-                        
-                        const customEffectData = {
-                            name: `${baseTitle}: ${injuryLocation}`,
-                            icon: "icons/svg/blood.svg",
-                            changes: effectChanges,
-                            statuses: effectStatuses,
-                            duration: effectDuration
-                        };
-                        
-                        await actor.createEmbeddedDocuments("ActiveEffect", [customEffectData]);
-                    }
+                    const customEffectData = {
+                        name: effectName,
+                        icon: "icons/svg/blood.svg",
+                        changes: effectChanges,
+                        statuses: effectStatuses,
+                        duration: effectDuration,
+                        // DAS HIER IST DER MAGISCHE SPEICHER! (Jetzt mit der echten Modul-ID)
+                        flags: {
+                            "dsa5-compendium": {
+                                "injuryZone": hitZoneStr,
+                                "injuryCode": finalHitCode
+                            }
+                        }
+                    };
+                    await actor.createEmbeddedDocuments("ActiveEffect", [customEffectData]);
 
-                    //Nachricht im Chat ausgeben
+                    // Detalierte Nachricht im Chat ausgeben
                     const message = game.i18n.format(`HITBOX.wounded${finalHitCode}`, { name: actor.name, dmg });
                     await ChatMessage.create(game.dsa5.apps.DSA5_Utility.chatDataSetup(message));
 
                 } else {
-                    // Ohne zusätzliche Fokusregel: Normale Selbstbeherrschungs-Probe
                     const skill = actor.items.find(i => i.name == game.i18n.localize("LocalizedIDs.selfControl") && i.type == "skill");
                     if (skill) {
                         game.user._onUpdateTokenTargets([]);
@@ -249,19 +117,15 @@ if (actor) {
                                     let dmg = 0;
                                     let finalHitCode = hitType.toString();
                                     
+                                    // Basisfälle
                                     switch (finalHitCode) {
-                                        case "0":
-                                            await actor.addCondition("stunned");
-                                            break;
-                                        case "1":
+                                        case "0": await actor.addCondition("stunned"); break;
+                                        case "1": 
                                             dmg = (await new Roll("1d3+1").evaluate()).total;
                                             await actor.applyDamage(dmg);
                                             break;
-                                        case "2":
-                                            break;
-                                        case "3":
-                                            await actor.addCondition("prone");
-                                            break;
+                                        case "2": break;
+                                        case "3": await actor.addCondition("prone"); break;
                                     }
                                     
                                     const message = game.i18n.format(`HITBOX.wounded${finalHitCode}`, { name: actor.name, dmg });
