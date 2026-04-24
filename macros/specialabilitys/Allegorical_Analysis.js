@@ -1,321 +1,395 @@
 // This is a system macro used for automation. It is disfunctional without the proper context.
 
+const { getProperty: getProp, setProperty: setProp } = foundry.utils;
+const { DialogV2 } = foundry.applications.api;
+
 const lang = game.i18n.lang == "de" ? "de" : "en";
 const dict = {
   de: {
-    title: "Analyse von Gift/Elixier",
-    hint: "Lege hier Gift, Heilmittel oder Alchimie-Elixier ab (Drag&Drop aus deinem Inventar).",
-    analyze: "Analysieren",
-    cancel: "Abbrechen",
-    noAsp: "Nicht genügend Astralpunkte (mindestens 1 AsP erforderlich).",
-    aspSpent: "1 AsP ausgegeben für Analyse.",
-    invalidItem: "Nur Gifte, Heilmittel oder Alchimie-Elixiere können hier analysiert werden.",
-    noItemDrop: "Bitte zuerst ein zulässiges Item hineinziehen.",
-    rollLabel: "Analysewurf (1d6)",
-    reducedInfo: "Die Stufe/QL wurde um 1 reduziert.",
-    reducedCappedInfo: "Die Stufe/QL konnte nicht unter 1 reduziert werden und bleibt bei 1.",
-    chatHeaderSmall: "Analyse abgeschlossen",
+    noActor: "Dieses Makro benötigt einen Akteur.",
+    title: "Gift verstärken",
+    aspWarn: "Nicht genügend AsP (4 benötigt).",
+    selectGift: "Klicke oder ziehe ein Gift hierher",
+    giftCategoryLabel: "Gift",
+    currentStep: "Giftstufe",
+    currentAsp: "AsP",
+    strengthen: "Gift verstärken",
+    cancel: "Schließen",
+    dragDropZone: "Klicken oder Drag & Drop",
+    emptyList: "Keine passenden Gifte (max. Stufe 5) im Inventar.",
+    invalidItem: "Nur Items der Kategorie 'Gift' sind erlaubt.",
+    stepTooHigh: "Nur Gifte mit Stufe 5 oder niedriger sind erlaubt.",
+    noGift: "Kein Gift ausgewählt.",
+    stepReadError: "Giftstufe konnte nicht gelesen werden.",
+    removeHint: "(Rechtsklick zum Entfernen)",
     aspWithCost: (current, max, cost) => `${current}${typeof max === "number" ? `/${max}` : ""} AsP (Kosten: ${cost})`,
+    chatSuccess: (name, oldStep, newStep, aspBefore, aspAfter, aspMax) =>
+      `<b>${name}</b> verstärkt das Gift: Stufe ${oldStep} → ${newStep}. AsP: ${aspBefore}${typeof aspMax === "number" ? `/${aspMax}` : ""} → ${aspAfter}${typeof aspMax === "number" ? `/${aspMax}` : ""}.`,
     aspPath: "system.status.astralenergy.value",
     aspMaxPath: "system.status.astralenergy.max",
-    poisonStepPath: "system.step.value",
-    consumableQlPath: "system.QL",
+    stepPath: "system.step.value",
     qtyPath: "system.quantity.value",
-    subtypePath: "system.subType",
-    equipmentTypePath: "system.equipmentType.value",
-    acceptedEquipmentTypes: ["healing", "alchemy"],
-    costsLabel: "Kosten / AsP",
-    finalSpagyrikaText: (level) => `Das Stärkelevel des analysierten Spagyrika beträgt ${level}.`,
   },
   en: {
-    title: "Analyze Poison/Elixir",
-    hint: "Drop a poison, remedy, or alchemy elixir here (drag from your inventory).",
-    analyze: "Analyze",
-    cancel: "Cancel",
-    noAsp: "Not enough astral points (requires at least 1 AsP).",
-    aspSpent: "Spent 1 AsP for analysis.",
-    invalidItem: "Only poisons, remedies or alchemy elixirs can be analyzed.",
-    noItemDrop: "Please drop an allowed item first.",
-    rollLabel: "Analysis roll (1d6)",
-    reducedInfo: "The level/QL was reduced by 1.",
-    reducedCappedInfo: "The level/QL cannot go below 1 and remains at 1.",
-    chatHeaderSmall: "Analysis complete",
+    noActor: "This macro requires an actor.",
+    title: "Enhance Poison",
+    aspWarn: "Not enough AsP (requires 4).",
+    selectGift: "Click or drag a poison here",
+    giftCategoryLabel: "Poison",
+    currentStep: "Poison Level",
+    currentAsp: "AE",
+    strengthen: "Enhance Poison",
+    cancel: "Close",
+    dragDropZone: "Click or Drag & Drop",
+    emptyList: "No valid poisons (max. Level 5) in inventory.",
+    invalidItem: "Only items of category 'Poison' are allowed.",
+    stepTooHigh: "Only poisons of Level 5 or lower are allowed.",
+    noGift: "No poison selected.",
+    stepReadError: "Could not read poison step.",
+    removeHint: "(Right-click to remove)",
     aspWithCost: (current, max, cost) => `${current}${typeof max === "number" ? `/${max}` : ""} AE (Cost: ${cost})`,
+    chatSuccess: (name, oldStep, newStep, aspBefore, aspAfter, aspMax) =>
+      `<b>${name}</b> enhances the poison: Step ${oldStep} → ${newStep}. AE: ${aspBefore}${typeof aspMax === "number" ? `/${aspMax}` : ""} → ${aspAfter}${typeof aspMax === "number" ? `/${aspMax}` : ""}.`,
     aspPath: "system.status.astralenergy.value",
     aspMaxPath: "system.status.astralenergy.max",
-    poisonStepPath: "system.step.value",
-    consumableQlPath: "system.QL",
+    stepPath: "system.step.value",
     qtyPath: "system.quantity.value",
-    subtypePath: "system.subType",
-    equipmentTypePath: "system.equipmentType.value",
-    acceptedEquipmentTypes: ["healing", "alchemy"],
-    costsLabel: "Cost / AE",
-    finalSpagyrikaText: (level) => `The strength level of the analyzed spagyric is ${level}.`,
-  }
+  },
 }[lang];
 
-const { getProperty: getProp, setProperty: setProp, duplicate: dup, randomID } = foundry.utils;
-const targets = Array.from(game.user.targets);
-const ASP_COST = 1;
+const ASP_COST = 4;
+const MAX_SELECTABLE_STEP = 5;
+const MAX_RESULT_STEP = 6;
 
-// AsP-Helper
-function getAsp(actorDoc) {
-  return Number(getProp(actorDoc, dict.aspPath) ?? 0) || 0;
+const sendMessage = async (message) => {
+  await ChatMessage.create(game.dsa5.apps.DSA5_Utility.chatDataSetup(message));
+};
+
+if (!actor) {
+  await sendMessage(dict.noActor);
+  return;
 }
-function getAspMax(actorDoc) {
-  const max = getProp(actorDoc, dict.aspMaxPath);
+
+function getAsp(a) {
+  return Number(getProp(a, dict.aspPath) ?? 0) || 0;
+}
+function getAspMax(a) {
+  const max = getProp(a, dict.aspMaxPath);
   return typeof max === "number" ? max : null;
 }
-function hasEnoughAsp(actorDoc, cost = ASP_COST) {
-  return getAsp(actorDoc) >= cost;
+function hasEnoughAsp(a) {
+  return getAsp(a) >= ASP_COST;
 }
-async function spendAsp(actorDoc, amount = ASP_COST) {
-  const current = getAsp(actorDoc);
-  const newVal = Math.max(0, current - amount);
-
-  if (actorDoc.isOwner || game.user.isGM) {
-    await actorDoc.update({ [dict.aspPath]: newVal });
-    return true;
+async function spendAsp(a, amount = ASP_COST) {
+  const current = getAsp(a);
+  await a.update({ [dict.aspPath]: Math.max(0, current - amount) });
+}
+function readPoisonStep(doc) {
+  const step = getProp(doc, dict.stepPath);
+  return Number.isFinite(Number(step)) ? Number(step) : null;
+}
+function readQuantity(doc) {
+  const q = getProp(doc, dict.qtyPath);
+  return Number.isFinite(Number(q)) ? Number(q) : 1;
+}
+function resolveEmbeddedPoison(sourceItem, a) {
+  if (sourceItem?.id) {
+    const byId = a.items.get(sourceItem.id);
+    if (byId?.type?.toLowerCase() === "poison") return byId;
   }
-  if (game.dsa5?.apps?.socketedActorTransformation) {
-    await game.dsa5.apps.socketedActorTransformation(actorDoc, { [dict.aspPath]: newVal });
-    return true;
+  if (sourceItem?.name) {
+    const byName = a.items.find((i) => i.type === "poison" && i.name === sourceItem.name);
+    if (byName) return byName;
   }
-  return false;
+  return null;
 }
 
-// Typprüfung
-function isAllowedItem(item) {
-  if (!item) return false;
-  const type = String(item.type || "").toLowerCase();
-  const subType = String(getProp(item, dict.subtypePath) || "").toLowerCase();
-  const equipTypeRaw = getProp(item, dict.equipmentTypePath);
-  const equipType = String(equipTypeRaw || "").toLowerCase();
-
-  const isPoison = type === "poison" || subType === "poison";
-  const isElixir = type === "elixir" || subType === "elixir";
-  const isHealingOrAlchemyConsumable = type === "consumable" && dict.acceptedEquipmentTypes.includes(equipType);
-
-  return isPoison || isElixir || isHealingOrAlchemyConsumable;
+if (!hasEnoughAsp(actor)) {
+  await sendMessage(dict.aspWarn);
+  return;
 }
 
-// Level/QL lesen
-function readLevel(item) {
-  const type = String(item.type || "").toLowerCase();
-  const subType = String(getProp(item, dict.subtypePath) || "").toLowerCase();
-  const equipType = String(getProp(item, dict.equipmentTypePath) || "").toLowerCase();
+const validItems = actor.items.filter((i) => {
+  if (i.type?.toLowerCase() !== "poison") return false;
+  const step = readPoisonStep(i);
+  return step !== null && step <= MAX_SELECTABLE_STEP;
+});
 
-  if (type === "poison" || subType === "poison") {
-    const step = getProp(item, dict.poisonStepPath);
-    const n = Number(step);
-    return Number.isFinite(n) ? n : 0;
-  }
-
-  if (type === "elixir" || subType === "elixir" || (type === "consumable" && dict.acceptedEquipmentTypes.includes(equipType))) {
-    const ql = getProp(item, dict.consumableQlPath);
-    const n = Number(ql);
-    return Number.isFinite(n) ? n : 0;
-  }
-
-  return 0;
+let listItemsHtml = "";
+if (validItems.length === 0) {
+  listItemsHtml = `<li style="padding: 10px; color: #888; text-align: center; font-style: italic;">${dict.emptyList}</li>`;
+} else {
+  validItems.forEach((item) => {
+    const step = readPoisonStep(item) ?? 1;
+    const qty = readQuantity(item);
+    listItemsHtml += `
+              <li class="poison-option" data-id="${item.id}" style="padding: 6px 10px; cursor: pointer; border-bottom: 1px solid rgba(0,0,0,0.1); display: flex; align-items: center; gap: 10px; transition: background 0.2s;">
+                  <img src="${item.img}" style="width: 28px; height: 28px; border-radius: 3px; border: 1px solid #968678; object-fit: cover;">
+                  <div style="display: flex; flex-direction: column; line-height: 1.1;">
+                      <span style="font-family: 'Signika'; font-weight: bold;">${item.name} <span style="font-weight: normal; color: #555;">(${qty}x)</span></span>
+                      <span style="font-size: 0.85em; color: #444;">${dict.currentStep}: ${step}</span>
+                  </div>
+              </li>`;
+  });
 }
 
-// Menge lesen
-function readQty(item) {
-  const q = getProp(item, dict.qtyPath);
-  const n = Number(q);
-  return Number.isFinite(n) ? n : 1;
-}
+class PoisonDialog extends DialogV2 {
+  constructor() {
+    super({
+      window: { title: dict.title, resizable: true },
+      position: { width: 450, height: "auto" },
+      buttons: [
+        {
+          action: "strengthen",
+          label: dict.strengthen,
+          icon: "fas fa-skull-crossbones",
+          callback: async () => await this._onStrengthen(),
+        },
+        {
+          action: "cancel",
+          label: dict.cancel,
+          icon: "fas fa-times",
+        },
+      ],
+      content: `
+          <div class="dsa5" style="display:flex; flex-direction:column; gap:8px; margin-bottom: 15px;">
+            <div id="error-msg" style="color:#b51c1c; display:none; font-weight: bold; text-align: center; font-family: 'Signika';"></div>
 
-// Neues Item mit gesenkter Stufe/QL und Menge 1 anlegen
-function makeReducedCopyData(item, newLevel) {
-  const data = dup(item.toObject());
-  delete data._id;
-  setProp(data, dict.qtyPath, 1);
+            <div id="drop-zone-container" style="position: relative; margin-top: 5px;">
+              <div id="drop-zone" style="border:2px dashed #968678; border-radius:8px; padding:20px; text-align:center; color:#333; background: rgba(0,0,0,0.05); transition: all 0.2s ease; cursor: pointer; min-height: 80px; display: flex; flex-direction: column; justify-content: center;">
+                <div id="drop-zone-content">
+                  <div style="margin-bottom:0px; font-family: 'Signika'; font-weight: bold; font-size: 1.1em;">
+                    ${dict.selectGift} <span style="font-weight: normal; font-size: 0.9em; opacity: 0.8;">(${dict.giftCategoryLabel})</span>
+                  </div>
+                </div>
+              </div>
+              <ul id="potion-list" style="display: none; position: absolute; top: calc(100% - 2px); left: 0; width: 100%; background: #e2d8c9; border: 1px solid #968678; border-radius: 0 0 5px 5px; padding: 0; margin: 0; list-style: none; max-height: 200px; overflow-y: auto; z-index: 100; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+                  ${listItemsHtml}
+              </ul>
+            </div>
 
-  const type = String(item.type || "").toLowerCase();
-  const subType = String(getProp(item, dict.subtypePath) || "").toLowerCase();
-  const equipType = String(getProp(item, dict.equipmentTypePath) || "").toLowerCase();
-
-  if (type === "poison" || subType === "poison") {
-    setProp(data, dict.poisonStepPath, newLevel);
-  } else if (type === "elixir" || subType === "elixir" || (type === "consumable" && dict.acceptedEquipmentTypes.includes(equipType))) {
-    setProp(data, dict.consumableQlPath, newLevel);
-  }
-  return data;
-}
-
-// Dialog-Inhalt
-function buildDialogContent(dropId, droppedItem) {
-  const imgSrc = droppedItem?.img;
-  const itemImgHtml = `<div style="width:96px; height:96px; margin:auto; background-size:contain; background-repeat:no-repeat; background-position:center;"></div>`;
-  const previewImgHtml = droppedItem?.img ? `<img src="${imgSrc}" alt="item" style="width:96px; height:96px; object-fit:contain; margin:auto; display:block;">` : "";
-
-  return `
-  <div class="form-group" style="display:flex; flex-direction:column; gap:8px;">
-    <label>${dict.hint}</label>
-    <div id="${dropId}" class="dsa5-drop-area" 
-         style="
-           border: 2px dashed var(--color-border);
-           border-radius:8px;
-           padding: 16px; 
-           min-height: 140px; 
-           text-align:center; 
-           color: var(--color-text-dark);
-           background-size: 64px 64px;
-           background-repeat: no-repeat;
-           background-position: center;
-         ">
-      ${previewImgHtml || itemImgHtml}
-    </div>
-    <div class="cost-asp" style="display:flex; justify-content:center; font-size: .95em; opacity: .85;">
-      <span><strong>${dict.costsLabel}:</strong> ${dict.aspWithCost(getAsp(actor), getAspMax(actor), ASP_COST)}</span>
-    </div>
-  </div>
-  `;
-}
-
-(async () => {
-  if (!hasEnoughAsp(actor, ASP_COST)) {
-    ui.notifications.warn(dict.noAsp);
-    return;
+            <div class="info" style="display:flex; gap:20px; justify-content:center; font-size:15px; margin-top: 10px; font-family: 'Signika'; background: #e2d8c9; padding: 10px; border-radius: 5px; border: 1px solid #968678;">
+              <div><strong>${dict.currentStep}:</strong> <span id="gift-step">-</span></div>
+              <div><strong>${dict.currentAsp}:</strong> <span id="actor-asp"></span></div>
+            </div>
+          </div>
+        `,
+    });
+    this.embeddedPoison = null;
   }
 
-  let storedItem = null;
-  const dropId = `drop-${randomID()}`;
+  _onRender(context, options) {
+    super._onRender(context, options);
+    const html = this.element;
+    if (!html) return;
 
-  const dlg = new Dialog({
-    title: dict.title,
-    content: buildDialogContent(dropId, storedItem),
-    buttons: {
-      analyze: {
-        label: dict.analyze,
-        icon: '<i class="fas fa-flask"></i>',
-        callback: async html => {
-          if (!hasEnoughAsp(actor, ASP_COST)) {
-            ui.notifications.warn(dict.noAsp);
-            return false;
-          }
-          if (!storedItem) {
-            ui.notifications.warn(dict.noItemDrop);
-            return false;
-          }
+    this.dropZone = html.querySelector("#drop-zone");
+    this.dropZoneContent = html.querySelector("#drop-zone-content");
+    this.potionList = html.querySelector("#potion-list");
+    this.potionOptions = html.querySelectorAll(".poison-option");
+    this.stepEl = html.querySelector("#gift-step");
+    this.aspEl = html.querySelector("#actor-asp");
+    this.errorEl = html.querySelector("#error-msg");
 
-          const ok = await spendAsp(actor, ASP_COST);
-          if (!ok) return false; // still beenden ohne Fehlermeldung
-          ui.notifications.info(dict.aspSpent);
-
-          const roll = new Roll("1d6");
-          await roll.evaluate();
-          await roll.toMessage({
-            flavor: dict.rollLabel,
-            speaker: ChatMessage.getSpeaker({ actor })
-          });
-
-          const currentLevel = readLevel(storedItem);
-          let finalLevel = currentLevel;
-          let reduced = false;
-          let cappedAtOne = false;
-
-          if (roll.total === 1) {
-            const targetLevel = currentLevel - 1;
-            const newLevel = targetLevel < 1 ? 1 : targetLevel;
-            reduced = newLevel < currentLevel;
-            cappedAtOne = targetLevel < 1;
-            finalLevel = newLevel;
-
-            const qty = readQty(storedItem);
-            if (qty > 1) {
-              await actor.updateEmbeddedDocuments("Item", [{ _id: storedItem.id, [dict.qtyPath]: qty - 1 }]);
-            } else {
-              await actor.deleteEmbeddedDocuments("Item", [storedItem.id]);
-            }
-
-            const newItemData = makeReducedCopyData(storedItem, newLevel);
-            await actor.createEmbeddedDocuments("Item", [newItemData]);
-          }
-
-          let msg = `<div style="font-size:1.0em;"><strong>${dict.chatHeaderSmall}</strong></div>`;
-          msg += `<p style="font-size:0.95em;">${dict.finalSpagyrikaText(finalLevel)}</p>`;
-          if (reduced) {
-            msg += `<p style="font-size:0.9em; color: var(--color-text-dark)">${dict.reducedInfo}</p>`;
-            if (cappedAtOne) {
-              msg += `<p style="font-size:0.9em; color: var(--color-text-dark)">${dict.reducedCappedInfo}</p>`;
-            }
-          }
-          ChatMessage.create({
-            speaker: ChatMessage.getSpeaker({ actor }),
-            content: msg
-          });
-
-          return true;
-        }
-      },
-      cancel: {
-        label: dict.cancel,
-        icon: '<i class="fas fa-times"></i>',
-        callback: () => true
-      }
-    },
-    default: "analyze",
-    render: html => {
-      const dropEl = html[0].querySelector(`#${dropId}`);
-      if (!dropEl) return;
-
-      dropEl.addEventListener("dragover", ev => {
-        ev.preventDefault();
-        ev.stopPropagation();
-        dropEl.style.borderColor = "var(--color-success)";
-      });
-      dropEl.addEventListener("dragleave", ev => {
-        ev.preventDefault();
-        ev.stopPropagation();
-        dropEl.style.borderColor = "var(--color-border)";
-      });
-      dropEl.addEventListener("drop", async ev => {
-        ev.preventDefault();
-        ev.stopPropagation();
-        dropEl.style.borderColor = "var(--color-border)";
-
-        let data;
-        try {
-          data = JSON.parse(ev.dataTransfer.getData("text/plain"));
-        } catch (e) {
-          console.warn(e);
-          return ui.notifications.warn(dict.invalidItem);
-        }
-
-        let item = null;
-        try {
-          if (data?.type === "Item" && data?.uuid) {
-            item = await fromUuid(data.uuid);
-          } else if (data?.actorId && data?.itemId) {
-            const a = game.actors.get(data.actorId);
-            item = a?.items?.get(data.itemId) ?? null;
-          } else if (data?.data?._id) {
-            item = actor.items.get(data.data._id);
-          }
-        } catch (e) {
-          console.warn(e);
-          item = null;
-        }
-
-        if (!(item instanceof Item)) {
-          return ui.notifications.warn(dict.invalidItem);
-        }
-        if (!isAllowedItem(item)) {
-          return ui.notifications.warn(dict.invalidItem);
-        }
-
-        storedItem = item;
-
-        const parent = dropEl.parentElement?.parentElement;
-        if (parent) {
-          parent.innerHTML = buildDialogContent(dropId, storedItem);
-        }
-      });
+    this.strengthenBtn = html.querySelector('button[data-action="strengthen"]');
+    if (this.strengthenBtn) {
+      this.strengthenBtn.disabled = true;
     }
-  }, { width: 520 });
 
-  dlg.render(true);
-})();
+    if (this.aspEl) this.aspEl.textContent = dict.aspWithCost(getAsp(actor), getAspMax(actor), ASP_COST);
+
+    this.dropZone.addEventListener("click", (ev) => {
+      if (this.embeddedPoison) return;
+      this.potionList.style.display = this.potionList.style.display === "none" ? "block" : "none";
+      this.clearError();
+    });
+
+    this.dropZone.addEventListener("contextmenu", (ev) => {
+      ev.preventDefault();
+      this.embeddedPoison = null;
+      this.potionList.style.display = "none";
+      this.updateInfo();
+      this.clearError();
+    });
+
+    this.potionOptions.forEach((opt) => {
+      opt.addEventListener("mouseenter", () => (opt.style.background = "rgba(0,0,0,0.1)"));
+      opt.addEventListener("mouseleave", () => (opt.style.background = "transparent"));
+
+      opt.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const itemId = opt.dataset.id;
+        this.embeddedPoison = actor.items.get(itemId);
+        this.potionList.style.display = "none";
+        this.updateInfo();
+      });
+    });
+
+    html.addEventListener("click", (ev) => {
+      if (!ev.target.closest("#drop-zone-container")) {
+        this.potionList.style.display = "none";
+      }
+    });
+
+    this.dropZone.addEventListener("dragover", (ev) => {
+      ev.preventDefault();
+      this.dropZone.style.borderColor = "#6b944d";
+      this.dropZone.style.background = "rgba(107, 148, 77, 0.1)";
+    });
+
+    this.dropZone.addEventListener("dragleave", (ev) => {
+      ev.preventDefault();
+      this.dropZone.style.borderColor = "#968678";
+      this.dropZone.style.background = "rgba(0,0,0,0.05)";
+    });
+
+    this.dropZone.addEventListener("drop", async (ev) => {
+      ev.preventDefault();
+      this.dropZone.style.borderColor = "#968678";
+      this.dropZone.style.background = "rgba(0,0,0,0.05)";
+      this.potionList.style.display = "none";
+      this.clearError();
+
+      let raw = ev.dataTransfer?.getData?.("text/plain");
+      if (!raw) return this.showError(dict.invalidItem);
+
+      let data;
+      try {
+        data = JSON.parse(raw);
+      } catch {
+        return this.showError(dict.invalidItem);
+      }
+
+      let itemDoc = null;
+      try {
+        if (data?.type === "Item") {
+          if (typeof data.uuid === "string" && data.uuid.length) {
+            itemDoc = await fromUuid(data.uuid);
+          } else if (data.actorId && data.itemId) {
+            const a = game.actors.get(data.actorId);
+            itemDoc = a?.items?.get(data.itemId) ?? null;
+          }
+        }
+      } catch {
+        itemDoc = null;
+      }
+
+      if (!itemDoc) return this.showError(dict.invalidItem);
+
+      const isPoison = String(itemDoc?.type ?? "").toLowerCase() === "poison";
+      if (!isPoison) return this.showError(dict.invalidItem);
+
+      const stepValSrc = readPoisonStep(itemDoc);
+      if (stepValSrc === null) return this.showError(dict.stepReadError);
+      if (stepValSrc > 5) return this.showError(dict.stepTooHigh);
+
+      const embedded = resolveEmbeddedPoison(itemDoc, actor);
+      if (!embedded) return this.showError(dict.noGift);
+
+      this.embeddedPoison = embedded;
+      this.updateInfo();
+    });
+  }
+
+  showError(msg) {
+    if (this.errorEl) {
+      this.errorEl.style.display = "block";
+      this.errorEl.textContent = msg;
+    }
+    if (this.strengthenBtn) this.strengthenBtn.disabled = true;
+  }
+
+  clearError() {
+    if (this.errorEl) {
+      this.errorEl.style.display = "none";
+      this.errorEl.textContent = "";
+    }
+  }
+
+  updateInfo() {
+    if (!this.embeddedPoison) {
+      this.dropZoneContent.innerHTML = `
+          <div style="margin-bottom:0px; font-family: 'Signika'; font-weight: bold; font-size: 1.1em;">
+            ${dict.selectGift} <span style="font-weight: normal; font-size: 0.9em; opacity: 0.8;">(${dict.giftCategoryLabel})</span>
+          </div>
+        `;
+      this.dropZone.style.borderStyle = "dashed";
+      if (this.stepEl) this.stepEl.textContent = "-";
+      if (this.aspEl) this.aspEl.textContent = dict.aspWithCost(getAsp(actor), getAspMax(actor), ASP_COST);
+      if (this.strengthenBtn) this.strengthenBtn.disabled = true;
+      return;
+    }
+
+    const s = readPoisonStep(this.embeddedPoison);
+    this.dropZoneContent.innerHTML = `
+        <img src="${this.embeddedPoison.img}" style="width: 70px; height: 70px; object-fit: cover; border: 1px solid #968678; border-radius: 3px; display: block; margin: 0 auto 10px auto; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+        <b style="font-family: 'Signika'; font-size: 1.1em;">${this.embeddedPoison.name}</b><br>
+        <div style="font-size: 0.85em; opacity: 0.7; margin-top: 5px;">${dict.removeHint}</div>
+      `;
+    this.dropZone.style.borderStyle = "solid";
+
+    if (this.stepEl) this.stepEl.textContent = s !== null ? String(s) : "-";
+    if (this.aspEl) this.aspEl.textContent = dict.aspWithCost(getAsp(actor), getAspMax(actor), ASP_COST);
+
+    if (this.strengthenBtn) this.strengthenBtn.disabled = !(s !== null && s <= MAX_SELECTABLE_STEP && hasEnoughAsp(actor));
+  }
+
+  async _onStrengthen() {
+    if (!this.embeddedPoison) {
+      await sendMessage(dict.noGift);
+      return;
+    }
+
+    if (!hasEnoughAsp(actor)) {
+      await sendMessage(dict.aspWarn);
+      if (this.aspEl) this.aspEl.textContent = dict.aspWithCost(getAsp(actor), getAspMax(actor), ASP_COST);
+      this.updateInfo();
+      return;
+    }
+
+    const aspBefore = getAsp(actor);
+    const aspMax = getAspMax(actor);
+    const oldStep = readPoisonStep(this.embeddedPoison);
+    if (oldStep === null) {
+      await sendMessage(dict.stepReadError);
+      return;
+    }
+    if (oldStep > MAX_SELECTABLE_STEP) {
+      await sendMessage(dict.stepTooHigh);
+      this.updateInfo();
+      return;
+    }
+
+    const qty = readQuantity(this.embeddedPoison);
+
+    await spendAsp(actor, ASP_COST);
+    const aspAfter = getAsp(actor);
+
+    const newStep = Math.min(MAX_RESULT_STEP, oldStep + 1);
+
+    if (qty > 1) {
+      await actor.updateEmbeddedDocuments("Item", [{ _id: this.embeddedPoison.id, [dict.qtyPath]: qty - 1 }]);
+    } else {
+      await actor.deleteEmbeddedDocuments("Item", [this.embeddedPoison.id]);
+    }
+
+    const newItemData = this.embeddedPoison.toObject();
+    delete newItemData._id;
+    setProp(newItemData, dict.qtyPath, 1);
+    setProp(newItemData, dict.stepPath, newStep);
+
+    const createdDocs = await actor.createEmbeddedDocuments("Item", [newItemData]);
+    const created = createdDocs[0];
+
+    if (this.stepEl) this.stepEl.textContent = String(readPoisonStep(created) ?? newStep);
+    if (this.aspEl) this.aspEl.textContent = dict.aspWithCost(getAsp(actor), getAspMax(actor), ASP_COST);
+
+    const msgHtml = dict.chatSuccess(actor.name, oldStep, newStep, aspBefore, aspAfter, aspMax);
+    await sendMessage(msgHtml);
+
+    this.embeddedPoison = created;
+    this.updateInfo();
+  }
+}
+
+new PoisonDialog().render(true);
