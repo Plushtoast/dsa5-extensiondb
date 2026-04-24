@@ -125,7 +125,7 @@ class AlchemyTestDialog extends DialogV2 {
         {
           action: "roll",
           label: dict.runCheck,
-          icon: "fas fa-dice-d20",
+          icon: "fas fa-magnifying-glass",
           callback: async () => await this._onRoll()
         },
         {
