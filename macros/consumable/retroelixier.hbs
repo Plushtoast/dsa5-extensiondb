@@ -1,0 +1,96 @@
+<div class="retroelixier-app dsa5" id="dsa-retroelixier-container">
+    <fieldset>
+        <legend>{{dict.legend}}</legend>
+        
+        <div class="row-section">
+            <div class="col center">
+                <div id="drop-zone" class="drop-zone">
+                    <img class="profile" id="summon-img" src="{{imgSrc}}" data-tooltip="{{dict.imgTooltip}}">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row-section">
+            <div class="col fourty"><label>{{dict.nameLabel}}</label></div>
+            <div class="col sixty">
+                <a class="showEntity" data-action="showActor" data-uuid="{{actorUuid}}">{{actorName}}</a>
+            </div>
+        </div>
+        
+        <div class="row-section">
+            <div class="col fourty"><label>{{dict.typeLabel}}</label></div>
+            <div class="col sixty"><span>{{actorType}}</span></div>
+        </div>
+        
+        <div class="row-section">
+            <div class="col fourty"><label>{{dict.sizeLabel}}</label></div>
+            <div class="col sixty" style="display: flex; align-items: center; gap: 8px;">
+                <select name="Größenkategorie" id="size-select">
+                    {{#each sizeOptions}}
+                        <option value="{{this.value}}" {{#if this.selected}}selected{{/if}}>{{this.label}}</option>
+                    {{/each}}
+                </select>
+            </div>
+        </div>
+        <div class="row-section">
+            <div class="col hundred center" style="font-style: italic; font-size: 0.9em; margin-top: 5px;">
+                {{sizeText}}
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset style="margin-top:8px;">
+        <legend>{{#if showCreationGuide}}{{dict.creationLegend}}{{else}}{{dict.infoLegend}}{{/if}}</legend>
+        <div class="guide-content">
+            {{#if showCreationGuide}}
+                <p>{{dict.creationText}}</p>
+                <div style="text-align: center;">
+                    <button class="check-btn" data-action="checkTarget" type="button"><i class="fas fa-search"></i> {{dict.creationCheckBtn}}</button>
+                </div>
+            {{else}}
+                {{{dict.guideText}}}
+            {{/if}}
+        </div>
+    </fieldset>
+
+    {{#if showPacks}}
+        <fieldset style="margin-top:8px;">
+            <legend>{{dict.modpackLegendMain}}</legend>
+            <div class="improvements-grid">
+                {{#each mainPacks}}
+                    <div class="imp-btn {{#if this.selected}}selected{{/if}}" data-action="selectMainPack" data-key="{{this.key}}">
+                        {{this.name}}
+                        <a class="info-link" data-uuid="{{this.uuid}}" data-action="showItem"><i class="fas fa-info-circle"></i></a>
+                    </div>
+                {{/each}}
+            </div>
+        </fieldset>
+
+        {{#if selectedMainKey}}
+        <fieldset style="margin-top:8px;">
+            <legend>{{dict.modpackLegendExtra}}</legend>
+            <div class="improvements-grid">
+                {{#each extraPacks}}
+                    <div class="imp-btn {{#if this.selected}}selected{{/if}}" data-action="selectExtraPack" data-uuid="{{this.uuid}}">
+                        {{this.name}}
+                        <a class="info-link" data-uuid="{{this.uuid}}" data-action="showItem"><i class="fas fa-info-circle"></i></a>
+                    </div>
+                {{/each}}
+            </div>
+            
+            <div class="row-section" style="margin-top:10px; justify-content: center;">
+                <label class="incomplete-label {{#if incompleteChecked}}active{{/if}}">
+                    <input type="checkbox" data-action="toggleIncomplete" {{#if incompleteChecked}}checked{{/if}}>
+                    <span>{{packIncomplete.name}}</span>
+                    <a class="info-link-inline" data-uuid="{{packIncomplete.uuid}}" data-action="showItem" style="margin-left: 5px; color: #7a7971;"><i class="fas fa-info-circle"></i></a>
+                </label>
+            </div>
+        </fieldset>
+        {{/if}}
+    {{/if}}
+
+    <div class="dialog-buttons">
+        <button class="btn-confirm" data-action="reanimate"><i class="fas fa-skull"></i> {{dict.reanimate}}</button>
+        <button class="btn-cancel" data-action="cancel"><i class="fas fa-times"></i> {{dict.cancel}}</button>
+    </div>
+</div>
