@@ -6,6 +6,8 @@ const dict = {
         desc: "Mit einem Rüstungspflegeset kann ein Held die erste Stufe Beschädigung einer Rüstung aufheben. Er muss dazu eine Probe auf das Herstellungstalent ablegen (erschwert um die Belastung).",
         metalworking: "Metallbearbeitung",
         woodworking: "Holzbearbeitung",
+        leatherworking: "Lederbearbeitung",
+        clothworking: "Stoffbearbeitung",
         title: "Rüstungspflegeset",
         noArmors: "Keine reparierbaren Rüstungen gefunden.",
         selectArmor: "Bitte wähle zuerst eine Rüstung aus.",
@@ -18,6 +20,8 @@ const dict = {
         desc: "With an armor care kit, you can remove the first level of damage. You must make a crafting talent check (penalized by encumbrance).",
         metalworking: "Metalworking",
         woodworking: "Woodworking",
+        leatherworking: "Leatherworking",
+        clothworking: "Clothworking",
         title: "Armor Care Kit",
         noArmors: "No repairable armors found.",
         selectArmor: "Please select an armor first.",
@@ -95,6 +99,14 @@ class ArmorCareApp extends foundry.applications.api.ApplicationV2 {
                     </button>
                     <button class="col two dsa5 button" data-action="repair" data-skill="${dict.woodworking}" ${!this.selectedArmorId ? 'disabled' : ''}>
                         <i class="fas fa-tree"></i> ${dict.woodworking}
+                    </button>
+                </div>
+                <div class="row-section gap5px margin-top">
+                    <button class="col two dsa5 button" data-action="repair" data-skill="${dict.leatherworking}" ${!this.selectedArmorId ? 'disabled' : ''}>
+                        <i class="fas fa-boot"></i> ${dict.leatherworking}
+                    </button>
+                    <button class="col two dsa5 button" data-action="repair" data-skill="${dict.clothworking}" ${!this.selectedArmorId ? 'disabled' : ''}>
+                        <i class="fas fa-cut"></i> ${dict.clothworking}
                     </button>
                 </div>
             </div>
