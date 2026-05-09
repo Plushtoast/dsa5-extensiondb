@@ -18,7 +18,7 @@ const dict = {
       water: { name: "Wasser",label: "Wasseressenz",flavor: "Eine schwebende Kugel reinsten Quellwassers" },
       ore:   { name: "Erz",   label: "Erzessenz",   flavor: "Ein Stück rohes, ungewöhnlich schweres Erz" }
     },
-    chatInfo: "<i>{desc}</i> manifestiert sich im Besitz von <b>{name}</b> zu <b>{qs}x {item}</b>."
+    chatInfo: (desc, name, qs, item) => `<i>${desc}</i> manifestiert sich im Besitz von <b>${name}</b> zu <b>${qs}x ${item}</b>.`
   },
   en: {
     dialogTitle: "Elemental Manifestation",
@@ -35,7 +35,7 @@ const dict = {
       water: { name: "Water", label: "Water Essence", flavor: "A floating orb of purest spring water" },
       ore:   { name: "Ore",   label: "Ore Essence",   flavor: "A piece of raw, unusually heavy ore" }
     },
-    chatInfo: "<i>{desc}</i> manifests in <b>{name}'s</b> possession into <b>{qs}x {item}</b>."
+    chatInfo: (desc, name, qs, item) => `<i>${desc}</i> manifests in <b>${name}'s</b> possession into <b>${qs}x ${item}</b>.`
   }
 }[lang];
 
@@ -140,11 +140,7 @@ await actor.createEmbeddedDocuments("Item", [itemData]);
 
 const speakerSource = (typeof sourceActor !== "undefined") ? sourceActor : actor;
         
-const infoText = dict.chatInfo
-    .replace("{name}", actor.name)
-    .replace("{qs}", qs)
-    .replace("{item}", elData.label)
-    .replace("{desc}", elData.flavor);
+const infoText = dict.chatInfo(elData.flavor, actor.name, qs, elData.label);
 
 ChatMessage.create({
     speaker: ChatMessage.getSpeaker({ actor: speakerSource }),
