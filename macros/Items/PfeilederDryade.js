@@ -1,6 +1,6 @@
 "name": "Pfeile der Dryade",
             "complete": true,
-            "comment": "2 Runden",
+            "comment": "Dauer auf 2 Runden setzen",
             "changes": [
                 {"key": "system.rangeStats.attack", "mode": 2, "value": -2},
                 {"key": "system.meleeStats.attack", "mode": 2, "value": -2},
