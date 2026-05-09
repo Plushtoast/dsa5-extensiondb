@@ -1,0 +1,79 @@
+<div class="magical-alchemist-dialog scrollable" style="padding-right: 5px;">
+    
+    <div class="description">
+        <strong>{{localize "MAGICAL_ALCHEMIST.descTitle"}}</strong>
+        
+        <div class="magictradition-opt-row">
+            <i class="fas fa-dsa5 magictradition-opt-icon"></i>
+            <div>{{localize "MAGICAL_ALCHEMIST.descOpt1"}}</div>
+        </div>
+        
+        <div class="magictradition-opt-row">
+            <i class="fas fa-dsa5 magictradition-opt-icon"></i>
+            <div>{{localize "MAGICAL_ALCHEMIST.descOpt2"}}</div>
+        </div>
+        
+        <div class="magictradition-opt-row">
+            <i class="fas fa-dsa5 magictradition-opt-icon"></i>
+            <div>{{localize "MAGICAL_ALCHEMIST.descOpt3"}}</div>
+        </div>
+    </div>
+    <hr>
+    
+    <nav class="sheet-tabs tabs marginBottom">
+        <a class="item tabelement {{#if isRerollTab}}active{{/if}}" data-action="switchTab" data-tab="reroll">{{localize "MAGICAL_ALCHEMIST.reroll"}}</a>
+        <a class="item tabelement {{#if isAddFPTab}}active{{/if}}" data-action="switchTab" data-tab="addFP">{{localize "MAGICAL_ALCHEMIST.addFP"}}</a>
+        <a class="item tabelement {{#if isImproveTab}}active{{/if}}" data-action="switchTab" data-tab="improve">{{localize "MAGICAL_ALCHEMIST.improveRoll"}}</a>
+    </nav>
+    
+    <section class="content">
+        <div class="row-section flexgap" style="align-items: flex-start;">
+            
+            <div class="result-preview" style="flex: 0 0 auto;">
+                <div><strong>{{localize "MAGICAL_ALCHEMIST.skillValuePreview"}}:</strong> <span class="fw-preview">{{previewFW}}</span></div>
+                <div><strong>{{localize "MAGICAL_ALCHEMIST.qsPreview"}}:</strong> <span class="qs-preview">{{previewQS}}</span></div>
+                <div style="color: darkred;"><strong>{{localize "MAGICAL_ALCHEMIST.cost"}}:</strong> <span class="asp-cost">{{cost}}</span> {{localize "MAGICAL_ALCHEMIST.aspUnit"}}</div>
+                <div><strong>{{localize "MAGICAL_ALCHEMIST.currentAsP"}}:</strong> {{currentAsP}}</div>
+            </div>
+
+            <div class="columnFlex center" style="flex: 1 1 auto; align-items: center;">
+                
+                <div class="dice-display row-section gap10px center" style="justify-content: center;">
+                    {{#each dice as |die|}}
+                    <div class="die-group columnFlex center" data-index="{{die.index}}" style="align-items: center;">
+                        <a class="dieButton {{#if die.selected}}dieSelected{{/if}}" data-action="toggleDie" data-index="{{die.index}}">
+                            <span data-tooltip="{{die.tooltip}}" class="{{die.cssClass}} die-{{die.attr}} d20">{{die.currentValue}}</span>
+                        </a>
+                        
+                        {{#if ../isImproveTab}}
+                        <div class="improve-controls columnFlex center" style="margin-top: 5px;">
+                            <a class="improve-btn up" data-action="adjustDie" data-delta="1" data-index="{{die.index}}"><i class="fas fa-chevron-up"></i></a>
+                            <a class="improve-btn down" data-action="adjustDie" data-delta="-1" data-index="{{die.index}}"><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                        {{/if}}
+                    </div>
+                    {{/each}}
+                </div>
+                
+                {{#if isAddFPTab}}
+                <div class="add-fp-controls center" style="margin-top: 15px; width: 100%;">
+                    <div class="row-section center" style="align-items: center; justify-content: center;">
+                        <label style="margin-right: 10px;">{{localize "MODS.FW"}}: </label>
+                        <div class="columnFlex center" style="align-items: center;">
+                            <a data-action="adjustFP" data-delta="1"><i class="fas fa-chevron-up"></i></a>
+                            <input type="number" class="fp-input input-text" value="{{addedFP}}" readonly style="width: 50px; text-align: center;">
+                            <a data-action="adjustFP" data-delta="-1"><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {{/if}}
+
+            </div>
+        </div>
+    </section>
+    
+    <footer class="row-section gap5px" style="margin-top: 15px;">
+        <button type="button" data-action="confirm" class="col two dsa5 button"><i class="fas fa-check"></i> {{localize "MAGICAL_ALCHEMIST.confirm"}}</button>
+        <button type="button" data-action="cancel" class="col two dsa5 button"><i class="fas fa-times"></i> {{localize "MAGICAL_ALCHEMIST.cancel"}}</button>
+    </footer>
+</div>
