@@ -45,7 +45,7 @@
             {{#if showCreationGuide}}
                 <p>{{dict.creationText}}</p>
                 <div style="text-align: center;">
-                    <button class="check-btn" data-action="checkTarget" type="button"><i class="fas fa-search"></i> {{dict.creationCheckBtn}}</button>
+                    <button class="dsa5 button" data-action="checkTarget" type="button" style="width: max-content; margin: 10px auto 0 auto;"><i class="fas fa-search"></i> {{dict.creationCheckBtn}}</button>
                 </div>
             {{else}}
                 {{{dict.guideText}}}
@@ -82,15 +82,15 @@
                 <label class="incomplete-label {{#if incompleteChecked}}active{{/if}}">
                     <input type="checkbox" data-action="toggleIncomplete" {{#if incompleteChecked}}checked{{/if}}>
                     <span>{{packIncomplete.name}}</span>
-                    <a class="info-link-inline" data-uuid="{{packIncomplete.uuid}}" data-action="showItem" style="margin-left: 5px; color: #7a7971;"><i class="fas fa-info-circle"></i></a>
+                    <a class="info-link-inline" data-uuid="{{packIncomplete.uuid}}" data-action="showItem"><i class="fas fa-info-circle"></i></a>
                 </label>
             </div>
         </fieldset>
         {{/if}}
     {{/if}}
 
-    <div class="dialog-buttons">
-        <button class="btn-confirm" data-action="reanimate"><i class="fas fa-skull"></i> {{dict.reanimate}}</button>
-        <button class="btn-cancel" data-action="cancel"><i class="fas fa-times"></i> {{dict.cancel}}</button>
+    <div class="row-section gap10px" style="margin-top: auto; padding-top: 15px;">
+        <button class="col two dsa5 button" data-action="reanimate"><i class="fas fa-skull"></i> {{dict.reanimate}}</button>
+        <button class="col two dsa5 button" data-action="cancel"><i class="fas fa-times"></i> {{dict.cancel}}</button>
     </div>
 </div>
