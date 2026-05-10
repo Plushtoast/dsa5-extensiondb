@@ -90,22 +90,15 @@ Hooks.once("init", () => {
                 document.head.insertAdjacentHTML("beforeend", `
                     <style id="${styleId}">
                         #dsa-retroelixier-container { 
-                            --border-color: #736953a6; --bg-color: #e1d3c6; --bg-contrast-color: #333333; 
-                            --sheet-border: #968678; --boldFont: "Signika"; --normalFont: "Signika"; 
-                            --dsadesign1: #937b48; font-size: 14px; color: var(--bg-contrast-color); 
                             padding: 10px; height: 100%; box-sizing: border-box; overflow-y: auto; 
                             display: flex; flex-direction: column; 
                         }
                         #dsa-retroelixier-container fieldset { border: 1px solid var(--border-color); border-radius: 5px; padding: 10px; margin-bottom: 10px; }
                         #dsa-retroelixier-container legend { font-family: var(--boldFont); font-weight: bold; padding: 0 5px; }
-                        
+
                         #dsa-retroelixier-container .drop-zone { border: 2px dashed var(--sheet-border); border-radius: 5px; padding: 10px; text-align: center; cursor: pointer; display: flex; justify-content: center; align-items: center; }
                         #dsa-retroelixier-container .profile { width: 80px; height: 80px; object-fit: cover; border: 1px solid var(--sheet-border); display: block; margin: 0 auto; }
-                        
-                        #dsa-retroelixier-container .row-section { display: flex; align-items: center; padding: 5px 0; }
-                        #dsa-retroelixier-container .fourty { width: 40%; font-weight: bold; }
-                        #dsa-retroelixier-container .sixty { width: 60%; }
-                        
+
                         #dsa-retroelixier-container .improvements-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 5px; }
                         #dsa-retroelixier-container .imp-btn { 
                             position: relative; padding: 8px; cursor: pointer; text-align: center; 
@@ -114,24 +107,14 @@ Hooks.once("init", () => {
                             display: flex; justify-content: center; align-items: center;
                         }
                         #dsa-retroelixier-container .imp-btn:hover { background: rgba(0, 0, 0, 0.1); }
-                        #dsa-retroelixier-container .imp-btn.selected { background: #e2d6c6; border: 1px solid #736953; font-weight: bold; }
-                        #dsa-retroelixier-container .info-link { position: absolute; right: 5px; top: 50%; transform: translateY(-50%); color: #7a7971; z-index: 10; }
+                        #dsa-retroelixier-container .imp-btn.selected { background: var(--bg-color); border: 1px solid var(--dsadesign1); font-weight: bold; }
+
+                        #dsa-retroelixier-container .info-link, #dsa-retroelixier-container .info-link-inline { position: absolute; right: 5px; top: 50%; transform: translateY(-50%); color: #7a7971; z-index: 10; }
+                        #dsa-retroelixier-container .info-link-inline { position: relative; right: auto; top: auto; transform: none; margin-left: 5px; }
                         #dsa-retroelixier-container .info-link:hover, #dsa-retroelixier-container .info-link-inline:hover { color: var(--dsadesign1); }
-                        
+
                         #dsa-retroelixier-container .incomplete-label { display: flex; align-items: center; gap: 10px; padding: 8px; border: 1px solid var(--border-color); border-radius: 3px; cursor: pointer; }
-                        #dsa-retroelixier-container .incomplete-label.active { background: #e2d6c6; }
-
-                        #dsa-retroelixier-container .check-btn { 
-                            padding: 6px 15px; font-family: var(--boldFont); background: #e2d8c9; border: 1px solid #8e806b; 
-                            border-radius: 3px; cursor: pointer; transition: 0.2s; 
-                            display: flex; align-items: center; justify-content: center; gap: 5px; 
-                            margin: 10px auto 0 auto; width: max-content; 
-                        }
-                        #dsa-retroelixier-container .check-btn:hover { background: #d4c8b6; border-color: var(--dsadesign1); }
-
-                        #dsa-retroelixier-container .dialog-buttons { display: flex; justify-content: space-between; gap: 10px; margin-top: auto; padding-top: 15px; width: 100%; }
-                        #dsa-retroelixier-container .dialog-buttons button { flex: 1; display: flex; justify-content: center; align-items: center; gap: 5px; padding: 8px; font-family: var(--boldFont); background: #e2d8c9; border: 1px solid #8e806b; cursor: pointer; border-radius: 2px; }
-                        #dsa-retroelixier-container .dialog-buttons button:hover { background: #d4c8b6; }
+                        #dsa-retroelixier-container .incomplete-label.active { background: var(--bg-color); }
                     </style>
                 `);
             }
