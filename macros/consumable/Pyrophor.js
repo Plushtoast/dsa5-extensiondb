@@ -33,21 +33,22 @@ if (qualityStep < 1 || qualityStep > 6) {
 
 const fpBonus = [1, 1, 1, 2, 2, 0][qualityStep - 1];
 const qlBonus = [0, 0, 0, 0, 0, 1][qualityStep - 1];
-const lightSeconds = [0, 6, 12, 12, 18, 18][qualityStep - 1];
+const lightRounds = [0, 1, 2, 2, 3, 3][qualityStep - 1];
+const lightSeconds = lightRounds * (CONFIG.time.roundTime || 5);
 
 let changes = [];
 if (qlBonus > 0) {
-  changes = [{ key: "system.skillModifiers.QL", mode: 0, value: `${dict.talentName} ${qlBonus}` }];
+  changes = [{ key: "system.skillModifiers.QL", type: "custom", value: `${dict.talentName} ${qlBonus}` }];
 } else if (fpBonus > 0) {
-  changes = [{ key: "system.skillModifiers.FP", mode: 0, value: `${dict.talentName} ${fpBonus}` }];
+  changes = [{ key: "system.skillModifiers.FP", type: "custom", value: `${dict.talentName} ${fpBonus}` }];
 }
 
 if (changes.length) {
-  const condition = this.effectDummy(dict.bonusEffectName, changes, { seconds: 30 });
+  const condition = this.effectDummy(dict.bonusEffectName, changes, { value: 30, units: "seconds" });
   foundry.utils.mergeObject(condition, {
-    flags: {
-      dsa5: {
-        description: dict.effectDesc,
+    description: dict.effectDesc,
+    system: {
+      visibility: {
         hideOnToken: true,
       },
     },
@@ -59,7 +60,7 @@ if (lightSeconds > 0) {
   const tokens = actor.getActiveTokens?.() || [];
   if (tokens.length) {
     await game.dsa5.apps.LightDialog.applyVisionOrLight(true, "candle", tokens, dict.lightName, {
-      duration: { seconds: lightSeconds, startTime: game.time.worldTime },
+      duration: { value: lightSeconds, units: "seconds" },
     });
   }
 }
