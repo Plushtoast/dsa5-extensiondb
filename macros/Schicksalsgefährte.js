@@ -40,7 +40,6 @@ const dict = {
     }
 }[lang];
 
-
 if (!actor) {
     ui.notifications.warn(dict.noToken);
     return;
@@ -81,7 +80,6 @@ if (turtleCurrentFate > 0) {
     return;
 }
 
-
 const tinyBtnStyle = "display: inline-block; padding: 1px 6px; margin: 0 2px; border: 1px solid #968678; background: #e2d8c9; border-radius: 3px; cursor: pointer; font-weight: bold; color: inherit; text-decoration: none; line-height: 1.2;";
 
 const dialogHtml = `
@@ -95,6 +93,7 @@ const dialogHtml = `
 `;
 
 let isPaid = false;
+const paymentAmountInSilver = 100;
 
 class TurtleFeedDialog extends DialogV2 {
     _onRender(context, options) {
@@ -123,7 +122,7 @@ class TurtleFeedDialog extends DialogV2 {
                 return;
             }
 
-            let canPayRaw = await payment.canPay(owner, dict.payAmount);
+            let canPayRaw = await payment.canPay(owner, paymentAmountInSilver);
             const canPayObj = typeof canPayRaw === "boolean" ? { success: canPayRaw } : canPayRaw;
 
             if (!canPayObj.success) {
@@ -131,7 +130,7 @@ class TurtleFeedDialog extends DialogV2 {
                 return;
             }
 
-            await payment.payMoney(owner, dict.payAmount);
+            await payment.payMoney(owner, paymentAmountInSilver, true, true, "Schildkrötenfutter");
             isPaid = true;
             
             if (feedBtn) {
