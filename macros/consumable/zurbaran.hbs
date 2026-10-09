@@ -1,0 +1,97 @@
+<div class="zurbaran-app dsa5" id="dsa-zurbaran-container">
+    <h3>{{localize "ZURBARAN.introTitle"}}</h3>
+    <div class="intro-text">{{{localize "ZURBARAN.introText"}}}</div>
+
+    <div class="drag-area">
+        <div class="plant-slot" data-slot="1" data-tooltip="<b>Linksklick:</b> Verfügbare Pflanzen anzeigen/öffnen.<br><b>Rechtsklick:</b> Pflanze entfernen.<br><b>Drag &amp; Drop:</b> Pflanze hier ablegen." style="background-image: url('{{plant1.img}}');">
+            {{#if plant1}}
+                <div class="mini-icons">
+                    {{#if plant1Types.healing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}"/>{{/if}}
+                    {{#if plant1Types.poison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}"/>{{/if}}
+                    {{#if plant1Types.crop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}"/>{{/if}}
+                </div>
+            {{else}}
+                <i class="fas fa-seedling fa-2x" style="color:#aaa;"></i>
+            {{/if}}
+            
+            <ul class="plant-popover">
+                {{#each availablePlants}}
+                    <li class="select-plant" data-uuid="{{this.uuid}}" data-slot="1">
+                        <img src="{{this.img}}" class="plant-img"/> <span>{{this.name}}</span>
+                        <div class="list-mini-icons">
+                            {{#if this.isHealing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}"/>{{/if}}
+                            {{#if this.isPoison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}"/>{{/if}}
+                            {{#if this.isCrop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}"/>{{/if}}
+                        </div>
+                    </li>
+                {{else}}
+                    <li>{{localize "ZURBARAN.noPlants"}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="icon-center">
+            <img src="systems/dsa5/icons/categories/planthealing.webp" class="type-icon {{#if activeTypes.healing}}available{{/if}} {{#if isTypeHealing}}selected-healing{{/if}}" data-action="selectType" data-type="healing" data-tooltip="{{localize 'PLANT.healing'}}" />
+            <img src="systems/dsa5/icons/categories/plantpoison.webp" class="type-icon {{#if activeTypes.poison}}available{{/if}} {{#if isTypePoison}}selected-poison{{/if}}" data-action="selectType" data-type="poison" data-tooltip="{{localize 'PLANT.poison'}}" />
+            <img src="systems/dsa5/icons/categories/plantcrop.webp" class="type-icon {{#if activeTypes.crop}}available{{/if}} {{#if isTypeCrop}}selected-crop{{/if}}" data-action="selectType" data-type="crop" data-tooltip="{{localize 'PLANT.crop'}}" />
+        </div>
+
+        <div class="plant-slot" data-slot="2" data-tooltip="<b>Linksklick:</b> Verfügbare Pflanzen anzeigen/öffnen.<br><b>Rechtsklick:</b> Pflanze entfernen.<br><b>Drag &amp; Drop:</b> Pflanze hier ablegen." style="background-image: url('{{plant2.img}}');">
+            {{#if plant2}}
+                <div class="mini-icons">
+                    {{#if plant2Types.healing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}"/>{{/if}}
+                    {{#if plant2Types.poison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}"/>{{/if}}
+                    {{#if plant2Types.crop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}"/>{{/if}}
+                </div>
+            {{else}}
+                <i class="fas fa-seedling fa-2x" style="color:#aaa;"></i>
+            {{/if}}
+
+            <ul class="plant-popover">
+                {{#each availablePlants}}
+                    <li class="select-plant" data-uuid="{{this.uuid}}" data-slot="2">
+                        <img src="{{this.img}}" class="plant-img"/> <span>{{this.name}}</span>
+                        <div class="list-mini-icons">
+                            {{#if this.isHealing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}"/>{{/if}}
+                            {{#if this.isPoison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}"/>{{/if}}
+                            {{#if this.isCrop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}"/>{{/if}}
+                        </div>
+                    </li>
+                {{else}}
+                    <li>{{localize "ZURBARAN.noPlants"}}</li>
+                {{/each}}
+            </ul>
+         </div>
+    </div>
+
+    {{#if bothSelected}}
+        {{#if selectedType}}
+            <h3>{{localize "ZURBARAN.improvementsTitle"}}</h3>
+            <div class="intro-text">{{{localize "ZURBARAN.improvementsText"}}}</div>
+
+            <div class="cost-display">{{{costText}}}</div>
+
+            <div class="improvements-grid">
+                {{#each improvements}}
+                     <button class="imp-btn {{#if this.selected}}selected{{/if}}" data-action="toggleImp" data-id="{{this.id}}" data-tooltip="{{this.tooltip}}" {{#if this.disabled}}disabled{{/if}}>
+                        <div class="btn-mini-icons">
+                            {{#if this.reqHealing}}<img src="systems/dsa5/icons/categories/planthealing.webp" data-tooltip="{{localize 'PLANT.healing'}}" class="{{#if this.metHealing}}met-healing{{/if}}"/>{{/if}}
+                            {{#if this.reqPoison}}<img src="systems/dsa5/icons/categories/plantpoison.webp" data-tooltip="{{localize 'PLANT.poison'}}" class="{{#if this.metPoison}}met-poison{{/if}}"/>{{/if}}
+                            {{#if this.reqCrop}}<img src="systems/dsa5/icons/categories/plantcrop.webp" data-tooltip="{{localize 'PLANT.crop'}}" class="{{#if this.metCrop}}met-crop{{/if}}"/>{{/if}}
+                        </div>
+                        {{this.name}}
+                     </button>
+                {{/each}}
+            </div>
+        {{else}}
+            <div class="intro-text" style="text-align: center; font-weight: bold; color: var(--button-color); border-top: 1px solid var(--border-color); padding-top: 15px;">
+                {{localize "ZURBARAN.selectTypePrompt"}}
+            </div>
+        {{/if}}
+    {{/if}}
+
+    <div class="dialog-buttons">
+        <button class="btn-confirm" data-action="confirm"><i class="fas fa-check"></i> {{localize "ZURBARAN.btnConfirm"}}</button>
+        <button class="btn-cancel" data-action="cancel"><i class="fas fa-times"></i> {{localize "ZURBARAN.btnCancel"}}</button>
+    </div>
+</div>
