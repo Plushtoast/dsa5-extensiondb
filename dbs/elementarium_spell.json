@@ -7,7 +7,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Objekte, Lebewesen"
+          "value": "Objekte, Wesen"
         }
       ]
     },
@@ -440,7 +440,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -996,7 +996,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "10"
+          "value": "7"
         }
       ]
     },
@@ -1415,7 +1415,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "10"
+          "value": "7"
         }
       ]
     },
@@ -1442,7 +1442,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -1457,7 +1457,11 @@
       "name": "Wasser-Zerstörer",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.AsPCost.value",
+          "mode": 2,
+          "value": 4
+        }
       ]
     },
     {
@@ -1487,7 +1491,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -1640,7 +1644,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "10"
+          "value": "7"
         }
       ]
     },

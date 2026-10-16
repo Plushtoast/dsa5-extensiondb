@@ -233,7 +233,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -1760,7 +1760,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -3921,7 +3921,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "10"
+          "value": "7"
         }
       ]
     },
@@ -4163,7 +4163,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -4840,8 +4840,8 @@
         },
         {
           "key": "system.AsPCost.value",
-          "mode": 2,
-          "value": 1
+          "mode": 1,
+          "value": 2
         }
       ]
     },
@@ -5424,7 +5424,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "10"
+          "value": "7"
         }
       ]
     },
@@ -6251,7 +6251,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "4 Schritt"
+          "value": "2 Schritt"
         }
       ]
     },
@@ -6514,7 +6514,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "8"
+          "value": "QS*4"
         }
       ]
     },
