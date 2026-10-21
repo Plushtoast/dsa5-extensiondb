@@ -5,7 +5,9 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("ready", () => {
-    const playerMenuInstance = game.dsa5.apps.playerMenu;
+    const playerMenuInstance = game.dsa5?.apps?.playerMenu;
+    if (!playerMenuInstance) return;
+
     const demonType = game.dsa5.CONJURATION.TYPES.DEMON;
     const origPost = playerMenuInstance.conjurationData.postFunction[demonType];
 
@@ -24,23 +26,33 @@ Hooks.once("ready", () => {
         }
     };
 
+    // Ab hier nur einmal ausführen, selbst wenn mehrere Pakt-Module aktiv sind
     const PlayerMenuPrototype = playerMenuInstance.constructor.prototype;
+    if (PlayerMenuPrototype._pactSummonPatched) return;
+
+    const resetPactState = (instance) => {
+        if (!instance?.conjurationData) return;
+        instance.conjurationData.isPactSummon = 0;
+        instance.conjurationData.pactActorId = null;
+        instance.conjurationData.pactConjurationType = null;
+        instance.conjurationData.pactBindingDesc = null;
+    };
 
     const origApplyTarget = PlayerMenuPrototype.applyConjurationTarget;
     PlayerMenuPrototype.applyConjurationTarget = function (actor) {
-        this.conjurationData.isPactSummon = 0;
+        resetPactState(this);
         return origApplyTarget.call(this, actor);
     };
 
     const origClearTarget = PlayerMenuPrototype.clearConjurationTarget;
     PlayerMenuPrototype.clearConjurationTarget = function () {
-        this.conjurationData.isPactSummon = 0;
+        resetPactState(this);
         return origClearTarget.call(this);
     };
 
     const origCalcServices = PlayerMenuPrototype.calculateConjurationServices;
     PlayerMenuPrototype.calculateConjurationServices = function (qs = this.conjurationData.qs, consumedQS = this.conjurationData.consumedQS) {
-        if (this.conjurationData.isPactSummon) {
+        if (this.conjurationData?.isPactSummon) {
             return Number(qs);
         }
         return origCalcServices.call(this, qs, consumedQS);
@@ -48,14 +60,17 @@ Hooks.once("ready", () => {
 
     const origPrepareContext = PlayerMenuPrototype._prepareContext;
     PlayerMenuPrototype._prepareContext = async function (options) {
-        if (this.conjurationData.pactActorId && this.actor?.id !== this.conjurationData.pactActorId) {
-            this.conjurationData.isPactSummon = 0;
-            this.conjurationData.pactActorId = null;
+        if (
+            this.conjurationData?.isPactSummon &&
+            (this.actor?.id !== this.conjurationData.pactActorId ||
+             Number(this.conjurationData.conjurationType) !== Number(this.conjurationData.pactConjurationType))
+        ) {
+            resetPactState(this);
         }
 
         const data = await origPrepareContext.call(this, options);
 
-        if (this.conjurationData.isPactSummon && data.summary) {
+        if (this.conjurationData?.isPactSummon && data.summary) {
             data.summary.blockers = [];
             data.summary.canFinalize = true;
             data.summary.nextStep = "CONJURATION.nextStep.finalize";
@@ -66,35 +81,37 @@ Hooks.once("ready", () => {
 
     const origFinalize = PlayerMenuPrototype.finalizeConjuration;
     PlayerMenuPrototype.finalizeConjuration = function () {
-        if (this.conjurationData.isPactSummon && this.conjuration) {
+        if (this.conjurationData?.isPactSummon && this.conjuration) {
             const origToObject = this.conjuration.toObject.bind(this.conjuration);
             const levels = this.conjurationData.isPactSummon;
             const summonerUuid = this.actor.uuid;
 
             const pactBindingName = _loc("CONJURATION.PACT.binding");
-            const pactBindingDesc = _loc("CONJURATION.PACT.bindingDesc");
+            const pactBindingDesc = this.conjurationData.pactBindingDesc || _loc("CONJURATION.PACT.bindingDesc");
 
             this.conjuration.toObject = (source) => {
                 const obj = origToObject(source);
                 obj.effects = obj.effects || [];
 
-                obj.effects.push({
-                    name: pactBindingName,
-                    img: "icons/svg/blood.svg",
-                    type: "base",
-                    system: {
-                        description: pactBindingDesc
-                    },
-                    flags: {
-                        dsa5: {
-                            pactConsumption: {
-                                summonerUuid,
-                                levels
-                            },
-                            onRemove: `const summoner = await fromUuid("${summonerUuid}");\nif (summoner) {\n    await summoner.removeCondition("demonicConsumption", ${levels}, false);\n}`
+                if (!obj.effects.some(e => e.name === pactBindingName)) {
+                    obj.effects.push({
+                        name: pactBindingName,
+                        img: "icons/svg/blood.svg",
+                        type: "base",
+                        system: {
+                            description: pactBindingDesc
+                        },
+                        flags: {
+                            dsa5: {
+                                pactConsumption: {
+                                    summonerUuid,
+                                    levels
+                                },
+                                onRemove: `const summoner = await fromUuid("${summonerUuid}");\nif (summoner) {\n    await summoner.removeCondition("demonicConsumption", ${levels}, false);\n}`
+                            }
                         }
-                    }
-                });
+                    });
+                }
                 return obj;
             };
 
@@ -103,29 +120,30 @@ Hooks.once("ready", () => {
             } finally {
                 this.conjuration.toObject = origToObject;
                 if (!(Number(this.conjurationData.consumedQS) > Number(this.conjurationData.qs))) {
-                    this.conjurationData.isPactSummon = 0;
-                    this.conjurationData.pactActorId = null;
+                    resetPactState(this);
                 }
             }
         } else {
             origFinalize.call(this);
         }
     };
-});
 
-Hooks.on("deleteActor", async (actor) => {
-    if (!game.user.isGM) return;
+    Hooks.on("deleteActor", async (actor) => {
+        if (!game.user.isGM) return;
 
-    const pactBindingName = _loc("CONJURATION.PACT.binding");
-    const pactEffect = actor.effects.find(e => e.name === pactBindingName);
+        const pactBindingName = _loc("CONJURATION.PACT.binding");
+        const pactEffect = actor.effects?.find(e => e.name === pactBindingName);
 
-    if (pactEffect?.flags?.dsa5?.pactConsumption) {
-        const { summonerUuid, levels } = pactEffect.flags.dsa5.pactConsumption;
-        const summoner = await fromUuid(summonerUuid);
-        if (summoner) {
-            await summoner.removeCondition("demonicConsumption", levels, false);
+        if (pactEffect?.flags?.dsa5?.pactConsumption) {
+            const { summonerUuid, levels } = pactEffect.flags.dsa5.pactConsumption;
+            const summoner = await fromUuid(summonerUuid);
+            if (summoner) {
+                await summoner.removeCondition("demonicConsumption", levels, false);
+            }
         }
-    }
+    });
+
+    PlayerMenuPrototype._pactSummonPatched = true;
 });
 
 Hooks.on("renderPlayerMenu", async (app, html) => {
@@ -137,6 +155,8 @@ Hooks.on("renderPlayerMenu", async (app, html) => {
         btn.addEventListener('click', () => {
             app.conjurationData.isPactSummon = 0;
             app.conjurationData.pactActorId = null;
+            app.conjurationData.pactConjurationType = null;
+            app.conjurationData.pactBindingDesc = null;
         }, { capture: true });
     });
 
@@ -193,6 +213,8 @@ Hooks.on("renderPlayerMenu", async (app, html) => {
             app.conjurationData.rollAttempted = true;
             app.conjurationData.isPactSummon = rank * 2;
             app.conjurationData.pactActorId = app.actor.id;
+            app.conjurationData.pactConjurationType = app.conjurationData.conjurationType;
+            app.conjurationData.pactBindingDesc = _loc("CONJURATION.PACT.bindingDesc");
             app.summoningPhase = 'extensions';
             app.render(true);
         });
