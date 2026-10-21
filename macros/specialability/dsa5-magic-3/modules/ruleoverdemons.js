@@ -26,7 +26,6 @@ Hooks.once("ready", () => {
         }
     };
 
-    // Ab hier nur einmal ausführen, selbst wenn mehrere Pakt-Module aktiv sind
     const PlayerMenuPrototype = playerMenuInstance.constructor.prototype;
     if (PlayerMenuPrototype._pactSummonPatched) return;
 
