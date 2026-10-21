@@ -1,0 +1,26 @@
+<div class="groupbox paddingBox pact-summoning-box" style="margin-top: 15px;">
+    <div class="row-section skills table-title lineheight">
+        <div class="col two flexrow">
+            {{localize "CONJURATION.PACT.gift"}}
+            <button type="button" class="icon fas fa-question noBorder dsadesignbutton" data-tooltip="{{localize 'CONJURATION.PACT.tooltipElemental'}}"></button>
+        </div>
+        <div class="col third center">{{localize "CONJURATION.PACT.trigger"}}</div>
+        <div class="col ten center"></div>
+        <div class="col ten center">{{localize "CONJURATION.PACT.circle"}}</div>
+    </div>
+
+    <div class="row-section wrap skills item lineheight tableOdd">
+        <div class="col two" data-tooltip="{{pactLevelTooltip}}">
+            <a class="talentName pact-item-open">{{ruleOverCorruptedElementals}}</a>
+        </div>
+        <div class="col third flexrow flexAlignCenter">
+            <button type="button" class="noBorder dsadesignbutton pact-summon-btn" data-tooltip="{{localize 'CONJURATION.PACT.invoke'}}">
+                <img src="{{img}}" style="height: 24px; border: none; cursor: pointer;">
+            </button>
+        </div>
+        <div class="col ten center"></div>
+        <div class="col ten center" data-tooltip="{{localize 'CONJURATION.PACT.kdv'}}">
+            {{kdv}}
+        </div>
+    </div>
+</div>
