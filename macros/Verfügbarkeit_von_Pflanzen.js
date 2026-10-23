@@ -383,7 +383,6 @@ const pflanzenVerfuegbarkeit = [
     pflanze: "Wandermoos",
     monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
   },
-
   {
     pflanze: "Wasserrausch",
     monate: ["Praios", "Rondra", "Efferd", "Travia", "Ingerimm", "Rahja", "Tage des Namenlosen"]
