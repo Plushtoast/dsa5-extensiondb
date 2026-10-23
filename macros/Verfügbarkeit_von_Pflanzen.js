@@ -127,7 +127,6 @@ const pflanzenVerfuegbarkeit = [
     pflanze: "Grauer Mohn",
     monate: ["Praios", "Rondra", "Ingerimm", "Rahja"]
   },
-
   {
     pflanze: "Grüner Schleimpilz",
     monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
@@ -241,3 +240,180 @@ const pflanzenVerfuegbarkeit = [
     monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
   },
   {
+    pflanze: "Naftanstaude",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Neckerkraut",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Nothilf",
+    monate: ["Praios", "Rondra", "Phex", "Peraine"]
+  },
+  {
+    pflanze: "Olginwurz",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Orazal",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Phosphorpilz",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Purpurmohn",
+    monate: ["Ingerimm", "Rahja"]
+  },
+  {
+    pflanze: "Quinja",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Rahjalieb",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Rattenpilz",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Roter Drachenschlund",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Rote Pfeilblüte",
+    monate: ["Phex", "Peraine", "Ingerimm", "Rahja"]
+  },
+  {
+    pflanze: "Satuariensbusch",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Schlangenzünglein",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Schleichender Tod",
+    monate: ["Ingerimm", "Rahja"]
+  },
+  {
+    pflanze: "Schlinggras",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Schleimiger Sumpfknöterich",
+    monate: ["Praios", "Rondra", "Efferd", "Travia"]
+  },
+  {
+    pflanze: "Schwarzäugige Canyzeth",
+    monate: ["Praios", "Rondra", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Schwarmschwamm",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Schwarzer Mohn",
+    monate: ["Efferd", "Travia", "Boron", "Hesinde"]
+  },
+  {
+    pflanze: "Schwarzer Weinstock",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Seelenhauch",
+    monate: ["Praios", "Rondra", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Shurinstrauch",
+    monate: ["Praios", "Rondra", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Steinrinde",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Talaschin",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Tarnblatt",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Tarnele",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Thonnys",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Traschbart",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Trichterwurzel",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Tuur-Amash-Kelch",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Ulmenwürger",
+    monate: ["Efferd", "Travia"]
+  },
+  {
+    pflanze: "Vierblättrige Einbeere",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Vragieswurzel",
+    monate: ["Efferd", "Travia", "Boron", "Hesinde"]
+  },
+  {
+    pflanze: "Waldwebe",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Wandermoos",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+
+  {
+    pflanze: "Wasserrausch",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Winselgras",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Wirselkraut",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Wolchrauke",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Würgedattel",
+    monate: ["Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Yaganstrauch",
+    monate: ["Boron", "Hesinde"]
+  },
+  {
+    pflanze: "Zithabar",
+    monate: ["Praios", "Rondra", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  },
+  {
+    pflanze: "Zwölfblatt",
+    monate: ["Praios", "Rondra", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Tage des Namenlosen"]
+  }
+];
