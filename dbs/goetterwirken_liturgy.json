@@ -2436,9 +2436,9 @@
       "complete": false,
       "changes": [
         {
-          "key": "system.castingTime.value",
+          "key": "system.duration.value",
           "mode": 5,
-          "value": 2
+          "value": "QS x 6 Minuten"
         },
         {
           "key": "system.variableBaseCost",

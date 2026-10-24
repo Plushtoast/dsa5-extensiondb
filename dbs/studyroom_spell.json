@@ -173,7 +173,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -1481,7 +1481,7 @@
         {
           "key": "system.target.value",
           "mode": 5,
-          "value": "10"
+          "value": "7"
         }
       ]
     }
@@ -1652,7 +1652,7 @@
         {
           "key": "system.targetCategory.value",
           "mode": 5,
-          "value": "Lebewesen, Objekte"
+          "value": "Wesen, Objekte"
         }
       ]
     },
@@ -1975,8 +1975,8 @@
         },
         {
           "key": "system.AsPCost.value",
-          "mode": 2,
-          "value": 1
+          "mode": 1,
+          "value": 2
         }
       ]
     },

@@ -807,7 +807,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "8 Schritt"
+          "value": "4 Schritt"
         }
       ]
     },
@@ -856,7 +856,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "8 Schritt"
+          "value": "4 Schritt"
         }
       ]
     },
@@ -1957,6 +1957,11 @@
           "key": "system.duration.value",
           "mode": 5,
           "value": "QS x 30 Minuten"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
         }
       ]
     }
@@ -2319,7 +2324,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "8 Schritt"
+          "value": "4 Schritt"
         }
       ]
     },
@@ -2723,7 +2728,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "8 Schritt"
+          "value": "4 Schritt"
         }
       ]
     },
@@ -3214,7 +3219,7 @@
         {
           "key": "system.range.value",
           "mode": 5,
-          "value": "8 Schritt"
+          "value": "4 Schritt"
         }
       ]
     },
@@ -3390,6 +3395,11 @@
           "key": "system.duration.value",
           "mode": 5,
           "value": "QS x 30 Minuten"
+        },
+        {
+          "key": "system.AsPCost.value",
+          "mode": 1,
+          "value": 2
         }
       ]
     }
