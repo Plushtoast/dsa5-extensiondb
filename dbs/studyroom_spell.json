@@ -127,7 +127,11 @@
       "name": "Schnellverwandlung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
@@ -1671,7 +1675,11 @@
       "name": "Schmerzhafte Flammen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Incendio-SchmerzhafteFlammen"
+        }
       ]
     },
     {
@@ -2916,7 +2924,11 @@
       "name": "Schnellverwandlung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {

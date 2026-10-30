@@ -214,7 +214,11 @@
       "name": "Schnellverwandlung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {
@@ -1768,7 +1772,11 @@
       "name": "Fixiert",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Corpofrigo-Fixiert"
+        }
       ]
     },
     {
@@ -1797,7 +1805,11 @@
       "name": "Paralysierendes Eis",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Corpofrigo-ParalysierendesEis"
+        }
       ]
     }
   ],
@@ -3514,6 +3526,11 @@
           "key": "system.AsPCost.value",
           "mode": 2,
           "value": 4
+        },
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "HerzschlagRuhe-Herzschmerz"
         }
       ]
     },
@@ -4197,7 +4214,11 @@
       "name": "Schmerzhafte Flammen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Incendio-SchmerzhafteFlammen"
+        }
       ]
     },
     {
@@ -5548,7 +5569,11 @@
       "name": "Verankerter Spion",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Penetrizzel-VerankerterSpion"
+        }
       ]
     }
   ],
@@ -7335,7 +7360,11 @@
       "name": "Schnellverwandlung",
       "complete": false,
       "changes": [
-
+        {
+          "key": "system.castingTime.value",
+          "mode": 5,
+          "value": 2
+        }
       ]
     },
     {

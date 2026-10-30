@@ -1746,7 +1746,11 @@
       "name": "Schlimme Strafe",
       "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Zauberzwang-SchlimmeStrafe"
+        }
       ]
     },
     {
