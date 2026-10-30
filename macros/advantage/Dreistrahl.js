@@ -59,15 +59,7 @@ if ((kraftaktRes.result?.successLevel ?? 0) <= 0) return;
 
 const maxRays = 3;
 
-const ActorPickerDialog =
-  game.dsa5.apps?.ActorPickerDialog ||
-  game.dsa5.applications?.ActorPickerDialog ||
-  game.dsa5.dialogs?.ActorPickerDialog;
-
-if (!ActorPickerDialog) {
-  ui.notifications.error(dict.dialogError);
-  return;
-}
+const ActorPickerDialog = game.dsa5.apps?.ActorPickerDialog;
 
 const pickerActors = ActorPickerDialog.buildActorPickerData({ source: "scene" });
 
