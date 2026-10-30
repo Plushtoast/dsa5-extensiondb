@@ -7,28 +7,17 @@
 
 const dict = {
   de: {
-    noActor: "Kein Actor gefunden – bitte Makro ausführen, während ein Actor ausgewählt ist.",
     header: "Wähle bis zu 4 Ziele innerhalb von 16 Schritt für deine Flammensäulen aus (ein Ziel kann mehrfach gewählt werden):",
     noTargetSelected: "Es wurden keine Ziele ausgewählt.",
-    dialogError: "Fehler: ActorPickerDialog konnte nicht gefunden werden.",
   },
   en: {
-    noActor: "No actor found – please run the macro while an actor is selected.",
     header: "Select up to 4 targets within 16 paces for your flame pillars (a target can be chosen multiple times):",
     noTargetSelected: "No targets selected.",
-    dialogError: "Error: ActorPickerDialog could not be found.",
   },
 }[game.i18n.lang === "en" ? "en" : "de"];
 
-if (!actor) {
-  ui.notifications.error(dict.noActor);
-  return;
-}
-
 const maxPillars = 4;
-
-const ActorPickerDialog = game.dsa5.apps?.ActorPickerDialog;
-
+const { ActorPickerDialog } = game.dsa5.apps;
 const pickerActors = ActorPickerDialog.buildActorPickerData({ source: "scene" });
 
 await ActorPickerDialog.open({
@@ -36,54 +25,40 @@ await ActorPickerDialog.open({
   header: dict.header,
   actors: pickerActors,
   selectionMode: "multiple",
-  showSourceToggle: true,
+  showSourceToggle: false,
   onRender: (dlg) => {
     const el = dlg.element;
-    const list = el.querySelector(".query-actor-list");
 
-    const transformRows = () => {
-      el.querySelectorAll(".query-actor-row").forEach((row) => {
-        if (row.dataset.multiBound) return;
-        row.dataset.multiBound = "true";
+    el.querySelectorAll(".query-actor-row").forEach((row) => {
+      const cb = row.querySelector(".query-actor-selector");
+      const wrapper = document.createElement("div");
 
-        const cb = row.querySelector(".query-actor-selector");
-        if (!cb) return;
+      wrapper.style.cssText =
+        "display:flex; align-items:center; justify-content:center; gap:8px; margin-right:10px; flex-shrink:0; min-width:74px;";
+      wrapper.innerHTML = `
+        <i class="fas fa-minus-circle qty-minus" style="cursor:pointer; font-size:1.2em; flex-shrink:0;"></i>
+        <input type="text" name="multiActorQty" data-id="${cb.value}" value="0" style="width:24px; min-width:24px; padding:0; text-align:center; background:transparent; border:none; color:inherit; font-weight:bold; font-size:1.1em; flex-shrink:0;" readonly>
+        <i class="fas fa-plus-circle qty-plus" style="cursor:pointer; font-size:1.2em; flex-shrink:0;"></i>
+      `;
 
-        const actorId = cb.value;
-        const wrapper = document.createElement("div");
+      cb.replaceWith(wrapper);
+      row.classList.remove("selected");
+    });
 
-        wrapper.style.cssText =
-          "display:flex; align-items:center; justify-content:center; gap:8px; margin-right:10px; flex-shrink:0; min-width:74px;";
-        wrapper.innerHTML = `
-          <i class="fas fa-minus-circle qty-minus" style="cursor:pointer; font-size:1.2em; flex-shrink:0;"></i>
-          <input type="text" name="multiActorQty" data-id="${actorId}" value="0" style="width:24px; min-width:24px; padding:0; text-align:center; background:transparent; border:none; color:inherit; font-weight:bold; font-size:1.1em; flex-shrink:0;" readonly>
-          <i class="fas fa-plus-circle qty-plus" style="cursor:pointer; font-size:1.2em; flex-shrink:0;"></i>
-        `;
-
-        cb.replaceWith(wrapper);
-        row.classList.remove("selected");
-      });
-    };
+    const inputs = Array.from(el.querySelectorAll('input[name="multiActorQty"]'));
+    const getTotal = () => inputs.reduce((sum, inp) => sum + Number(inp.value), 0);
 
     const updateLimits = () => {
-      const inputs = Array.from(el.querySelectorAll('input[name="multiActorQty"]'));
-      const total = inputs.reduce((sum, input) => sum + parseInt(input.value || 0, 10), 0);
-
+      const total = getTotal();
       inputs.forEach((input) => {
-        const val = parseInt(input.value || 0, 10);
-        const parent = input.parentElement;
-        const plus = parent.querySelector(".qty-plus");
-        const minus = parent.querySelector(".qty-minus");
+        const val = Number(input.value);
         const row = input.closest(".query-actor-row");
-
-        if (plus) plus.style.opacity = total >= maxPillars ? "0.35" : "1";
-        if (minus) minus.style.opacity = val <= 0 ? "0.35" : "1";
-
-        row?.classList.toggle("selected", val > 0);
+        row.querySelector(".qty-plus").style.opacity = total >= maxPillars ? "0.35" : "1";
+        row.querySelector(".qty-minus").style.opacity = val <= 0 ? "0.35" : "1";
+        row.classList.toggle("selected", val > 0);
       });
     };
 
-    transformRows();
     updateLimits();
 
     el.addEventListener("click", (ev) => {
@@ -94,13 +69,10 @@ await ActorPickerDialog.open({
       ev.preventDefault();
       ev.stopPropagation();
 
-      const input = ev.target.parentElement.querySelector('input[name="multiActorQty"]');
-      const val = parseInt(input.value || 0, 10);
+      const input = ev.target.closest(".query-actor-row").querySelector('input[name="multiActorQty"]');
+      const val = Number(input.value);
 
-      const inputs = Array.from(el.querySelectorAll('input[name="multiActorQty"]'));
-      const total = inputs.reduce((sum, inp) => sum + parseInt(inp.value || 0, 10), 0);
-
-      if (plus && total < maxPillars) {
+      if (plus && getTotal() < maxPillars) {
         input.value = val + 1;
       } else if (minus && val > 0) {
         input.value = val - 1;
@@ -111,21 +83,12 @@ await ActorPickerDialog.open({
     el.querySelectorAll("[data-action='selectAll'], [data-action='selectNone']").forEach((b) => {
       b.style.display = "none";
     });
-
-    if (list) {
-      const observer = new MutationObserver(() => {
-        transformRows();
-        updateLimits();
-      });
-      observer.observe(list, { childList: true });
-    }
   },
   callback: async ({ form }) => {
-    const inputs = Array.from(form.querySelectorAll('input[name="multiActorQty"]'));
     const pillarTargets = [];
 
-    inputs.forEach((input) => {
-      const count = parseInt(input.value || 0, 10);
+    form.querySelectorAll('input[name="multiActorQty"]').forEach((input) => {
+      const count = Number(input.value);
       for (let i = 0; i < count; i++) {
         pillarTargets.push(input.dataset.id);
       }
@@ -139,7 +102,7 @@ await ActorPickerDialog.open({
     const weaponData = {
       name: item.name,
       type: "rangeweapon",
-      img: "systems/dsa5/icons/categories/Rangeweapon.webp",
+      img: item.img,
       system: {
         damage: { value: "2d6 + 15" },
         reloadTime: { value: 0, progress: 0 },
@@ -154,15 +117,18 @@ await ActorPickerDialog.open({
 
     const WeaponClass = game.dsa5.entities.Itemdsa5.getSubClass(weaponData.type);
     const weapon = new WeaponClass(weaponData);
-    const attackerTokenId = actor.getActiveTokens()?.[0]?.id;
+    const attackerTokenId = actor.getActiveTokens()[0]?.id;
+    const defenseMalusMod = {
+      name: _loc("MODS.defenseMalus"),
+      value: -2,
+      type: "defenseMalus",
+      selected: true,
+    };
 
     for (const targetId of pillarTargets) {
-      const targetToken = canvas.tokens?.placeables.find((t) => t.actor?.id === targetId);
-
+      const targetToken = canvas.tokens.placeables.find((t) => t.actor?.id === targetId);
       if (targetToken) {
         targetToken.setTarget(true, { releaseOthers: true });
-      } else {
-        game.user.targets.forEach((t) => t.setTarget(false, { releaseOthers: false }));
       }
 
       const setupData = await WeaponClass.setupDialog(
@@ -173,20 +139,11 @@ await ActorPickerDialog.open({
         attackerTokenId
       );
 
-      setupData.testData.situationalModifiers = [
-        {
-          name: _loc("MODS.defenseMalus"),
-          value: -2,
-          type: "defenseMalus",
-          selected: true,
-        },
-      ];
-
+      setupData.testData.situationalModifiers = [defenseMalusMod];
       await actor.basicTest(setupData);
     }
 
     game.user.targets.forEach((t) => t.setTarget(false, { releaseOthers: false }));
-
     await actor.addCondition("stunned", 1);
   },
 });
