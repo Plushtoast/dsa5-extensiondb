@@ -27,15 +27,7 @@ if (!actor) {
 
 const maxPillars = 4;
 
-const ActorPickerDialog =
-  game.dsa5.apps?.ActorPickerDialog ||
-  game.dsa5.applications?.ActorPickerDialog ||
-  game.dsa5.dialogs?.ActorPickerDialog;
-
-if (!ActorPickerDialog) {
-  ui.notifications.error(dict.dialogError);
-  return;
-}
+const ActorPickerDialog = game.dsa5.apps?.ActorPickerDialog;
 
 const pickerActors = ActorPickerDialog.buildActorPickerData({ source: "scene" });
 
