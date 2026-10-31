@@ -1673,7 +1673,7 @@
     },
     {
       "name": "Schmerzhafte Flammen",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "macro.transform",

@@ -1771,7 +1771,7 @@
     },
     {
       "name": "Furchteinflößende Schattenfessel",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "macro.transform",

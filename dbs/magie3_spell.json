@@ -1021,7 +1021,7 @@
     },
     {
       "name": "Paralysierende Ranken",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "macro.transform",
