@@ -1023,7 +1023,11 @@
       "name": "Paralysierende Ranken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Invinculo-ParalysierendeRanken"
+        }
       ]
     }
   ],

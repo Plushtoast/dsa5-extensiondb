@@ -441,7 +441,11 @@
       "name": "Paralysierender Bann",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "BannWiderUntote-ParalysierenderBann"
+        }
       ]
     },
     {
@@ -507,7 +511,11 @@
       "name": "Blendung der Gottlosen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Bannstrahl-BlendungDerGottlosen"
+        }
       ]
     },
     {
@@ -932,14 +940,22 @@
       "name": "Verwirrender Blitz",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Blitzschlag-VerwirrenderBlitz"
+        }
       ]
     },
     {
       "name": "Betäubender Blitz",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Blitzschlag-BetaeubenderBlitz"
+        }
       ]
     },
     {

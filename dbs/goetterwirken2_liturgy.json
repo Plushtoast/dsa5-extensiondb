@@ -1773,7 +1773,11 @@
       "name": "Furchteinflößende Schattenfessel",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Schattenfessel-FurchteinfloessendeSchattenfessel"
+        }
       ]
     },
     {

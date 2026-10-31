@@ -448,7 +448,11 @@
       "name": "Fixiert",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Corpofrigo-Fixiert"
+        }
       ]
     },
     {
@@ -477,7 +481,11 @@
       "name": "Paralysierendes Eis",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Corpofrigo-ParalysierendesEis"
+        }
       ]
     }
   ],
@@ -1450,7 +1458,11 @@
       "name": "Schmerzhafte Flammen",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Incendio-SchmerzhafteFlammen"
+        }
       ]
     },
     {
@@ -1528,7 +1540,11 @@
       "name": "Paralysierende Ranken",
       "complete": false,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Invinculo-ParalysierendeRanken"
+        }
       ]
     }
   ],

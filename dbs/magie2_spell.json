@@ -925,9 +925,13 @@
     },
     {
       "name": "Mindergeist",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Elementpfeil-Mindergeist"
+        }
       ]
     },
     {
@@ -975,9 +979,13 @@
     },
     {
       "name": "Mindergeist",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Elementpfeil-Mindergeist"
+        }
       ]
     },
     {
@@ -1166,9 +1174,13 @@
     },
     {
       "name": "Mindergeist",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Elementpfeil-Mindergeist"
+        }
       ]
     },
     {
@@ -1944,9 +1956,13 @@
     },
     {
       "name": "Mindergeist",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Elementpfeil-Mindergeist"
+        }
       ]
     },
     {
@@ -2294,9 +2310,13 @@
     },
     {
       "name": "Mindergeist",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Elementpfeil-Mindergeist"
+        }
       ]
     },
     {
@@ -3382,9 +3402,13 @@
     },
     {
       "name": "Mindergeist",
-      "complete": false,
+      "complete": true,
       "changes": [
-
+        {
+          "key": "macro.transform",
+          "mode": 2,
+          "value": "Elementpfeil-Mindergeist"
+        }
       ]
     },
     {
