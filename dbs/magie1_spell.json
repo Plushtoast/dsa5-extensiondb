@@ -1770,7 +1770,7 @@
     },
     {
       "name": "Fixiert",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "macro.transform",
@@ -1803,7 +1803,7 @@
     },
     {
       "name": "Paralysierendes Eis",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "macro.transform",
@@ -4212,7 +4212,7 @@
     },
     {
       "name": "Schmerzhafte Flammen",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "macro.transform",
@@ -5567,7 +5567,7 @@
     },
     {
       "name": "Verankerter Spion",
-      "complete": false,
+      "complete": true,
       "changes": [
         {
           "key": "macro.transform",
