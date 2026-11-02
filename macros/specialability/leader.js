@@ -28,7 +28,7 @@ const availableQs = res.result.qualityStep || 0;
 this.automatedAnimation(res.result.successLevel);
 
 if (availableQs > 0) {
-  const { default: ActorPickerDialog } = await import("/systems/dsa5/modules/dialog/actor-picker-dialog.js");
+  const { ActorPickerDialog } = game.dsa5.apps;
 
   const maxTargets = availableQs + 1;
   const changes = [
