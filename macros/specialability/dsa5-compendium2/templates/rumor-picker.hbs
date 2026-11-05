@@ -1,0 +1,67 @@
+<div class="standard-form flexcol gap10px dsap-3">
+  <div class="flexrow flexAlignCenter dsa-justify-between">
+    <span class="section-title dsam-0">{{localize "DSAQUESTLOG.availableQS"}}</span>
+    <span class="persona-detail-type questlog-badge">
+      <b>{{remainingQs}}</b> / {{initialQs}}
+    </span>
+  </div>
+
+  <div class="questlog-objective-list">
+    {{#each tables as |table|}}
+      <div class="questlog-objective-card flexrow flexAlignCenter">
+        <div class="questlog-objective-main">
+          <div class="questlog-objective-line">
+            <i class="fas fa-comment-dots"></i>
+            <div class="flexcol">
+              <b>{{table.name}}</b>
+              <span class="small">{{table.remainingLabel}}</span>
+            </div>
+          </div>
+        </div>
+        <div class="persona-detail-actions flex0 flexrow dsaflex-no-wrap flexAlignCenter gap5px">
+          <button
+            type="button"
+            class="detail-action-btn sheet-btn very-small"
+            data-action="decrementRumor"
+            data-table-uuid="{{table.uuid}}"
+            data-tooltip="{{localize 'DSAQUESTLOG.decreaseRumorCount'}}"
+            {{#unless table.canDecrement}}disabled{{/unless}}
+          >
+            <i class="fas fa-minus"></i>
+          </button>
+          <span class="dsa-value rumor-picker-count">{{table.selected}}</span>
+          <button
+            type="button"
+            class="detail-action-btn sheet-btn very-small"
+            data-action="incrementRumor"
+            data-table-uuid="{{table.uuid}}"
+            data-tooltip="{{localize 'DSAQUESTLOG.increaseRumorCount'}}"
+            {{#unless table.canIncrement}}disabled{{/unless}}
+          >
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+  <footer class="form-footer flexrow gap5px dsamt-2">
+    <button
+      type="button"
+      class="button"
+      data-action="acceptRumors"
+      {{#unless canAccept}}disabled{{/unless}}
+    >
+      <i class="fas fa-check"></i>
+      <span>{{localize "DSAQUESTLOG.acceptRumors"}}</span>
+    </button>
+    <button
+      type="button"
+      class="button"
+      data-action="declineRumors"
+    >
+      <i class="fas fa-times"></i>
+      <span>{{localize "DSAQUESTLOG.declineRumors"}}</span>
+    </button>
+  </footer>
+</div>
