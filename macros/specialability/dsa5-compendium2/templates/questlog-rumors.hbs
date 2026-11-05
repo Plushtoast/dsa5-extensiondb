@@ -1,0 +1,55 @@
+<div class="detail-section questlog-rumors-section">
+  <h3 class="section-title" data-no-toc>{{localize "DSAQUESTLOG.rumors"}}</h3>
+  <div class="flexcol gap10px">
+    {{#each tables as |table|}}
+      <div class="questlog-rumor-group{{ifThen table.visible '' ' invisible'}}">
+        <div class="flexrow flexAlignCenter gap5px dsamb-1">
+          <h4 class="section-title flex1 questlog-rumor-title dsamb-0" data-no-toc>
+            {{table.name}} {{#if @root.isGM}}<span class="small">{{table.progressText}}</span>{{/if}}
+          </h4>
+          {{#if @root.isGM}}
+            <div class="persona-detail-actions flex0 questlog-rumor-table-actions">
+              <button
+                type="button"
+                class="detail-action-btn sheet-btn"
+                data-tooltip="{{localize 'DSAQUESTLOG.openRumorTable'}}"
+                data-action="openRumorTable"
+                data-uuid="{{table.uuid}}"
+              >
+                <i class="fas fa-book-open"></i>
+              </button>
+            </div>
+          {{/if}}
+        </div>
+        <div class="questlog-objective-list">
+          {{#each table.rumors as |rumor|}}
+            <div class="questlog-objective-card{{ifThen rumor.drawn '' ' invisible'}} flexrow">
+              <div class="questlog-objective-main">
+                <div class="questlog-objective-line">
+                  <span class="questlog-objective-icon">
+                    <i class="fas {{ifThen rumor.drawn 'fa-comment-dots' 'fa-comment-slash'}}"></i>
+                  </span>
+                  <span>
+                    {{#if (and @root.isGM rumor.name)}}<b>{{rumor.name}}:</b> {{/if}}{{{rumor.description}}}
+                  </span>
+                </div>
+              </div>
+              {{#if @root.isGM}}
+                <div class="persona-detail-actions flex0 flexrow dsaflex-no-wrap">
+                  <button
+                    type="button"
+                    class="icon fas {{ifThen rumor.drawn 'fa-eye' 'fa-eye-slash'}} detail-action-btn sheet-btn"
+                    data-tooltip="{{localize 'DSAQUESTLOG.FIELDS.quests.objectives.visible.label'}}"
+                    data-action="toggleRumorVisibility"
+                    data-table-uuid="{{table.uuid}}"
+                    data-result-id="{{rumor.resultId}}"
+                  ></button>
+                </div>
+              {{/if}}
+            </div>
+          {{/each}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
