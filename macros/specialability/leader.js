@@ -21,9 +21,12 @@ const skill = actor.items.find((x) => x.type === "skill" && x.name === dict.skil
 if (!skill) return;
 
 const setupData = await actor.setupSkill(skill, { subtitle: ` (${item.name})` }, actor.sheet.getTokenId());
+if (!setupData) return;
 setupData.testData.opposable = false;
 
 const res = await actor.basicTest(setupData);
+if (!res?.result) return;
+
 const availableQs = res.result.qualityStep || 0;
 this.automatedAnimation(res.result.successLevel);
 
