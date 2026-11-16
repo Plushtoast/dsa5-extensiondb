@@ -177,7 +177,15 @@ export async function pickUpRumors(actor) {
     );
   }
 
-  const setupData = await targetActor.setupSkill(skill, {}, targetActor.token?.id);
+  const setupData = await targetActor.setupSkill(
+    skill,
+    {
+      situationalModifiers: [
+        { name: _loc("DSAQUESTLOG.pickUpRumorsTitle"), value: 1, selected: true },
+      ],
+    },
+    targetActor.token?.id
+  );
   if (!setupData) return;
 
   const rollResult = await targetActor.basicTest(setupData);
