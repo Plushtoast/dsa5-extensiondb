@@ -1,0 +1,31 @@
+.questlog-rumors-section .questlog-rumor-title {
+  font-size: 0.9rem;
+}
+
+.questlog-rumors-section .questlog-rumor-table-actions {
+  flex: 0 0 4rem;
+  width: 4rem;
+  margin-top: -8px;
+}
+
+.questlog-rumors-section .questlog-rumor-table-actions > .detail-action-btn {
+  width: 100%;
+}
+
+.dsa-rumor-picker .detail-action-btn.sheet-btn {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 0;
+  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dsa-rumor-picker .rumor-picker-count {
+  height: 24px;
+  line-height: 22px;
+  padding: 0 4px;
+}
