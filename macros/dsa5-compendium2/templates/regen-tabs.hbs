@@ -1,0 +1,32 @@
+{{#if tabs.rerollRegen}}
+<section class="tab {{tabs.rerollRegen.cssClass}}" data-tab="rerollRegen" data-group="sheet">
+    <div class="dialog-content standard-form">
+        <h4 class="center">{{localize 'CHATFATE.selectDieToRerollRegen'}}</h4>
+        <div class="card-content hide-option roll-result center flexrow flexAlignCenter">
+            {{#each regenDice}}
+                <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleRegenDie" data-index="{{this.index}}">
+                    <span data-tooltip="{{this.tooltip}}" class="{{this.cssClass}} die-{{this.attr}} {{this.die}}">{{this.currentValue}}</span>
+                </a>
+            {{/each}}
+        </div>
+    </div>
+</section>
+{{/if}}
+
+{{#if tabs.addRegen}}
+<section class="tab {{tabs.addRegen.cssClass}}" data-tab="addRegen" data-group="sheet">
+    <div class="dialog-content standard-form">
+        <h4 class="center">{{localize 'CHATFATE.tabAddRegen'}}</h4>
+        <div class="description flexcol gap5px center dsa-info-box">
+            <p>{{addRegenDesc}}</p>
+        </div>
+        <div class="card-content hide-option roll-result center flexrow flexAlignCenter">
+            {{#each heilkraftDice}}
+                <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleHeilkraft" data-index="{{this.index}}">
+                    <span data-tooltip="{{this.tooltip}}" class="display-toggle {{this.cssClass}} die-{{this.attr}} {{this.die}}" style="color: transparent; text-shadow: none;">&nbsp;</span>
+                </a>
+            {{/each}}
+        </div>
+    </div>
+</section>
+{{/if}}
