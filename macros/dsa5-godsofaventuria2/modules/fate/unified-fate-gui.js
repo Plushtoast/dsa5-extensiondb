@@ -1,7 +1,7 @@
 import { DSA5GodsMenuConfig } from './config.js';
 import { promptSchipSwap, promptManualConditions, promptAvesCheat, promptSpecialRollCheat } from './fate-dialogs.js';
 import { getDemonConditionRemovals, applyDemonConditionRemovals, applyDemonSchipRegen } from './fate-effects.js';
-import { executeReroll, executeDamageReroll, executeAddQS, executeFieserSchaden, executeGescheitert, executeImprove, consumeSchip, processReroll } from './fate-actions.js';
+import { executeReroll, executeDamageReroll, executeAddQS, executeFieserSchaden, executeGescheitert, executeImprove, executeMasterRegen, consumeSchip, processReroll } from './fate-actions.js';
 import { DSA5_Utility, DiceDSA5, FateRolls, UnifiedFateDSA5 } from './dsa5-api.js';
 import { buildUnifiedFateContext, STANDARD_FATE_TABS, STANDARD_ONLY_SPECIAL_KEYS } from './fate-context.js';
 import './fate-chat-menu.js';
@@ -9,6 +9,15 @@ import './fate-chat-menu.js';
 const { renderTemplate } = foundry.applications.handlebars;
 
 export default class GodsFateDSA5 extends UnifiedFateDSA5 {
+    static DEFAULT_OPTIONS = foundry.utils.mergeObject(
+        foundry.utils.deepClone(UnifiedFateDSA5.DEFAULT_OPTIONS),
+        {
+            actions: {
+                toggleMasterRegenDie: function (e, t) { this._onToggleMasterRegenDie(e, t); },
+            },
+        },
+    );
+
     static PARTS = {
         main: {
             template: 'modules/dsa5-godsofaventuria2/templates/fate/unified-fate-dialog.hbs',
@@ -44,6 +53,13 @@ export default class GodsFateDSA5 extends UnifiedFateDSA5 {
         this.render();
     }
 
+    _onToggleMasterRegenDie(event, target) {
+        const idx = parseInt(target?.closest('[data-index]')?.dataset?.index, 10);
+        if (Number.isNaN(idx)) return;
+        this.selectedForMasterRegen = this.selectedForMasterRegen === idx ? -1 : idx;
+        this.render();
+    }
+
     _validateDieSelection() {
         const tab = this.tabGroups.sheet || '';
         if (tab === 'noOption' || tab === 'masterPlaceholder') {
@@ -57,6 +73,10 @@ export default class GodsFateDSA5 extends UnifiedFateDSA5 {
         }
         if (tab === 'beistand') {
             if (this.selectedForDamageReroll.size === 0) return this._warnNoDieSelected();
+            return true;
+        }
+        if (tab === 'meisterRegen') {
+            if ((this.selectedForMasterRegen ?? -1) < 0) return this._warnNoDieSelected();
             return true;
         }
         return super._validateDieSelection();
@@ -195,6 +215,7 @@ export default class GodsFateDSA5 extends UnifiedFateDSA5 {
             improve: 'GodsMenu.FateTab.Improve',
             addQS: 'GodsMenu.FateTab.AddQS',
             meisterschicksal: 'GodsMenu.FateTab.MasterFate',
+            meisterRegen: 'GodsMenu.FateTab.MasterRegen',
             beistand: 'GodsMenu.FateTab.MasterDarkness',
             fieser: 'GodsMenu.FateTab.MasterNastyDamage',
             gescheitert: 'GodsMenu.FateTab.MasterFailedAttack',
@@ -214,8 +235,8 @@ export default class GodsFateDSA5 extends UnifiedFateDSA5 {
         ui.notifications.error(_loc(locKey, { name: this.dsaActor.name }));
         return true;
     }
-	
-	#syncStandardOnlySchipGlow() {
+
+    #syncStandardOnlySchipGlow() {
         const isStandard = STANDARD_FATE_TABS.has(this.tabGroups?.sheet);
         const rollName = this.message?.flags?.data?.preData?.source?.name || '';
 
@@ -237,6 +258,7 @@ export default class GodsFateDSA5 extends UnifiedFateDSA5 {
 
     _onClickTab(event) {
         super._onClickTab(event);
+        this.selectedForMasterRegen = -1;
         this.#syncStandardOnlySchipGlow();
     }
 
@@ -353,6 +375,15 @@ export default class GodsFateDSA5 extends UnifiedFateDSA5 {
                 chatActionLabel = result.chatActionLabel;
                 chatRollDetails = result.chatRollDetails;
                 schipToConsume = { pool: 'master', amount: result.cost };
+                break;
+            }
+            case 'meisterRegen': {
+                const result = await executeMasterRegen(this, data, isCheat, cardOptions);
+                if (!result) return null;
+                chatActionLabel = result.chatActionLabel;
+                chatRollDetails = result.chatRollDetails;
+                flagToUpdate.push(result.flagToUpdate);
+                schipToConsume = { pool: 'master' };
                 break;
             }
             case 'improve':
@@ -475,8 +506,7 @@ export default class GodsFateDSA5 extends UnifiedFateDSA5 {
             && this.selectedPool === 'special'
             && this.selectedSpecialKey === 'Aves'
             && STANDARD_FATE_TABS.has(this.tabGroups?.sheet)
-			) 
-		{
+        ) {
             if (isCheat) {
                 const cheatResult = await promptAvesCheat();
                 if (cheatResult === null) {
