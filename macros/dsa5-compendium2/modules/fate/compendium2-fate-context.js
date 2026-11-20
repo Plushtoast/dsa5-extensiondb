@@ -19,7 +19,6 @@ export function buildCompendium2FateContext(app, context) {
     const status = getRegenFateStatus(app.dsaActor, app.message.flags.data);
     if (!status.isRegen) return context;
 
-    // Bei Meisterschips: "Meisterschicksal" entfernen und keine Regenerations-Tabs einfügen
     if (app.selectedPool === 'master') {
         delete context.tabs.meisterschicksal;
         if (!Object.keys(context.tabs).length) {
@@ -27,16 +26,18 @@ export function buildCompendium2FateContext(app, context) {
                 id: 'masterPlaceholder',
                 group: 'sheet',
                 label: _loc('GodsMenu.FateTab.MasterNoOption'),
-                cssClass: 'active'
+                cssClass: 'active',
             };
-            app.tabGroups.sheet = 'masterPlaceholder';
         }
-        context.hasFateAction = false;
+        if (!context.tabs[app.tabGroups.sheet]) {
+            app.tabGroups.sheet = Object.keys(context.tabs)[0];
+            if (context.tabs[app.tabGroups.sheet]) context.tabs[app.tabGroups.sheet].cssClass = 'active';
+        }
+        context.hasFateAction = Object.keys(context.tabs).some((id) => id !== 'noOption' && id !== 'masterPlaceholder');
         return context;
     }
 
     delete context.tabs.reroll;
-    delete context.tabs.noOption;
 
     const sfNameLoc = _loc('LocalizedIDs.healingPower');
     const specialPoints = foundry.utils.getProperty(app.dsaActor, 'flags.dsa5.specialPoints') || {};
@@ -49,7 +50,7 @@ export function buildCompendium2FateContext(app, context) {
     const regenDice = [];
     if (status.hasRestfulRecovery) {
         $(`<div>${app.message.content}</div>`).find('.roll-result span.d6').each((index, el) => {
-            const $el =$(el);
+            const $el = $(el);
             const rawClass = $el.attr('class') || '';
             const attr = rawClass.match(/die-(LeP|AsP|KaP)/)?.[1] || 'd6';
 
@@ -71,6 +72,10 @@ export function buildCompendium2FateContext(app, context) {
 
     if (status.heilkraftAvailable > 0 && poolAvailableFate > 0) {
         context.tabs.addRegen = { id: 'addRegen', group: 'sheet', label: 'CHATFATE.tabAddRegen', cssClass: app.tabGroups.sheet === 'addRegen' ? 'active' : '' };
+    }
+
+    if (context.tabs.rerollRegen || context.tabs.addRegen) {
+        delete context.tabs.noOption;
     }
 
     if (!context.tabs[app.tabGroups.sheet]) {
