@@ -1,0 +1,272 @@
+<div class="unified-fate-dialog scrollable flexcol gap10px">
+    <div class="fate-header flexcol center dsa-fate-header dsamb-4">
+        {{#if isRollRequest}}
+        {{> modules/dsa5-godsofaventuria2/templates/fate/header.hbs}}
+        {{/if}}
+
+        {{#if hasMultiplePools}}
+        <p class="center dsa-fate-title dsamb-3">{{localize "GodsMenu.FateTab.SelectSchipType"}}</p>
+        {{/if}}
+
+        {{#if showFateBody}}
+        <div class="flexrow dsa-fate-pools">
+            {{#if hasPersonal}}
+            <div class="schip-pool-selector flexcol center dsa-fate-pool dsa-fate-pool-border {{#if isPersonalPool}}dsa-fate-pool-active{{/if}}" data-pool="personal">
+                <img src="{{actorImg}}" class="pool-icon dsa-fate-pool-img" data-pool="personal" data-tooltip="{{localize 'GodsMenu.FateTab.ActorTooltip'}}">
+                <div class="row-schips flexrow flexAlignCenter stackedSchips">
+                    {{#each personalSchips}}
+                        <button type="button" class="noBorder dsadesignbutton schip {{this.cssClass}} schip-btn" data-pool="personal" data-val="{{this.val}}" data-tooltip="{{this.tooltip}}"></button>
+                    {{/each}}
+                </div>
+            </div>
+            {{/if}}
+
+            {{#if hasSpecial}}
+            <div class="schip-pool-selector special-pool flexcol center dsa-fate-pool dsa-fate-pool-border {{#if isSpecialPool}}dsa-fate-pool-active{{/if}}" data-pool="special">
+                <img src="{{specialImg}}" class="pool-icon dsa-fate-pool-img" data-pool="special" data-tooltip="{{localize 'GodsMenu.FateTab.SpecialTooltip'}}">
+                <div class="row-schips flexrow flexAlignCenter stackedSchips">
+                    {{#each specialSchips}}
+                        <button type="button"
+                                class="noBorder dsadesignbutton schip {{this.cssClass}} schip-btn special-schip {{#unless this.isGod}}special-schip-demon{{/unless}} {{#if this.isRelevant}}special-schip-relevant{{/if}} {{#if this.isSelected}}schip-selected{{/if}}"
+                                data-pool="special"
+                                data-key="{{this.key}}"
+                                data-tooltip="{{this.tooltip}}">
+                            <span class="schip-icon" style="{{this.imgStyle}}"></span>
+                        </button>
+                    {{/each}}
+                </div>
+            </div>
+            {{/if}}
+
+            {{#if hasGroup}}
+            <div class="schip-pool-selector flexcol center dsa-fate-pool {{#if hasMaster}}dsa-fate-pool-border{{/if}} {{#if isGroupPool}}dsa-fate-pool-active{{/if}}" data-pool="group">
+                <img src="{{groupImg}}" class="pool-icon dsa-fate-pool-img" data-pool="group" data-tooltip="{{localize 'FORMULA.groupFatePoints'}}">
+                <div class="row-schips flexrow flexAlignCenter stackedSchips">
+                    {{#each groupSchips}}
+                        <button type="button" class="noBorder dsadesignbutton schip {{this.cssClass}} schip-btn" data-pool="group" data-val="{{this.val}}" data-tooltip="{{this.tooltip}}"></button>
+                    {{/each}}
+                </div>
+            </div>
+            {{/if}}
+
+            {{#if hasMaster}}
+            <div class="schip-pool-selector flexcol center dsa-fate-pool {{#if isMasterPool}}dsa-fate-pool-active{{/if}}" data-pool="master">
+                <img src="{{masterImg}}" class="pool-icon dsa-fate-pool-img" data-pool="master" data-tooltip="{{localize 'GodsMenu.masterFatePointsTooltip'}}" data-tooltip-class="gods-rules-tooltip">
+                <div class="row-schips flexrow flexAlignCenter stackedSchips">
+                    {{#each masterSchips}}
+                        <button type="button" class="noBorder dsadesignbutton schip {{this.cssClass}} schip-btn master-schip-bg" data-pool="master" data-val="{{this.value}}" data-tooltip="{{this.tooltip}}" data-tooltip-class="gods-rules-tooltip" style="background-image: url('{{this.img}}');"></button>
+                    {{/each}}
+                </div>
+            </div>
+            {{/if}}
+        </div>
+        {{/if}}
+
+        {{#if specialSchipDescription}}
+            <p id="special-schip-description" class="center dsa-fate-pool-hint dsamt-3">{{{specialSchipDescription}}}</p>
+        {{/if}}
+    </div>
+
+    {{#if showFateBody}}
+    {{> systems/dsa5/templates/system/dsatabs.hbs tabs=tabs}}
+
+    {{#if activeSpecialTab}}
+    <nav class="sheet-tabs tabs dsa-fate-special-nav" data-group="sheet">
+        <a class="item {{activeSpecialTab.cssClass}}" data-tab="{{activeSpecialTab.id}}">{{activeSpecialTab.label}}</a>
+    </nav>
+    {{/if}}
+
+    <section class="content">
+        {{#if tabs.reroll}}
+        <section class="tab {{tabs.reroll.cssClass}}" data-tab="reroll" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize "CHATFATE.selectDieToReroll"}}</h4>
+                <div class="card-content hide-option roll-result center flexrow flexAlignCenter">
+                    {{#each dice}}
+                        <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleDie" data-index="{{this.index}}">
+                            <span data-tooltip="{{this.tooltip}}" class="{{this.cssClass}} die-{{this.attr}} d20">{{this.currentValue}}</span>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.rerollDamage}}
+        <section class="tab {{tabs.rerollDamage.cssClass}}" data-tab="rerollDamage" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize "GodsMenu.FateTab.RerollDamage"}}</h4>
+                <div class="card-content hide-option roll-result center flexrow flexAlignCenter dsamt-4">
+                    {{#each damageDice}}
+                        <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleDamageDie" data-index="{{this.index}}">
+                            <span data-tooltip="{{this.tooltip}}" class="display-toggle fail die-damage d{{this.faces}}">{{this.currentValue}}</span>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.improve}}
+        <section class="tab {{tabs.improve.cssClass}}" data-tab="improve" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize "GodsMenu.FateTab.ImproveSubtitle"}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    <p>{{localize "GodsMenu.FateTab.ImproveDesc"}}</p>
+                </div>
+                <div class="card-content hide-option roll-result center flexrow flexAlignCenter">
+                    {{#each dice}}
+                        <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleImprove" data-index="{{this.index}}">
+                            <span data-tooltip="{{this.tooltip}}" class="{{this.cssClass}} die-{{this.attr}} d20">{{this.currentValue}}</span>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.addQS}}
+        <section class="tab {{tabs.addQS.cssClass}}" data-tab="addQS" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize "GodsMenu.FateTab.AddQS"}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box dsamt-4">
+                    <p>{{addQSDesc}}</p>
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#each regenBlessingTabs}}
+        <section class="tab {{this.cssClass}}" data-tab="{{this.id}}" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{this.label}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    <p class="dsa-info-text small">{{{this.description}}}</p>
+                </div>
+            </div>
+        </section>
+        {{/each}}
+
+        {{#if activeSpecialTab}}
+        <section class="tab {{activeSpecialTab.cssClass}}" data-tab="{{activeSpecialTab.id}}" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize "GodsMenu.FateTab.OptionalSelectDie"}}</h4>
+                <div class="card-content hide-option roll-result center flexrow flexAlignCenter">
+                    {{#each dice}}
+                        <a class="dieButton {{#if this.specialSelected}}dieSelected{{/if}}" data-action="toggleSpecialDie" data-index="{{this.index}}">
+                            <span data-tooltip="{{this.tooltip}}" class="{{this.cssClass}} die-{{this.attr}} d20">{{this.currentValue}}</span>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.beistand}}
+        <section class="tab {{tabs.beistand.cssClass}}" data-tab="beistand" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize tabs.beistand.label}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    <p class="dsa-info-text small">{{localize "GodsMenu.FateTab.MasterDarknessDesc"}}</p>
+                </div>
+                <div class="card-content hide-option roll-result center flexrow flexAlignCenter dsamt-4">
+                    {{#each damageDice}}
+                        <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleDamageDie" data-index="{{this.index}}">
+                            <span data-tooltip="{{this.tooltip}}" class="display-toggle fail die-damage d{{this.faces}}">{{this.currentValue}}</span>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.fieser}}
+        <section class="tab {{tabs.fieser.cssClass}}" data-tab="fieser" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize tabs.fieser.label}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    <p class="dsa-info-text small">{{localize "GodsMenu.FateTab.MasterNastyDamageDesc"}}</p>
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.gescheitert}}
+        <section class="tab {{tabs.gescheitert.cssClass}}" data-tab="gescheitert" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize tabs.gescheitert.label}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    {{#if masterDesc}}
+                        <p class="dsa-info-text small">{{masterDesc}}</p>
+                        <p class="hint">{{masterCost}}</p>
+                    {{/if}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.meisterschicksal}}
+        <section class="tab {{tabs.meisterschicksal.cssClass}}" data-tab="meisterschicksal" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize tabs.meisterschicksal.label}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    <p class="dsa-info-text small">{{localize "GodsMenu.FateTab.MasterFateDesc"}}</p>
+                </div>
+                <div class="card-content hide-option roll-result center flexrow flexAlignCenter">
+                    {{#each dice}}
+                        <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleDie" data-index="{{this.index}}">
+                            <span data-tooltip="{{this.tooltip}}" class="{{this.cssClass}} die-{{this.attr}} d20">{{this.currentValue}}</span>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.meisterRegen}}
+        <section class="tab {{tabs.meisterRegen.cssClass}}" data-tab="meisterRegen" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize tabs.meisterRegen.label}}</h4>
+                <div class="card-content hide-option roll-result center flexrow flexAlignCenter dsamt-4">
+                    {{#each masterRegenDice}}
+                        <a class="dieButton {{#if this.selected}}dieSelected{{/if}}" data-action="toggleMasterRegenDie" data-index="{{this.index}}">
+                            <span data-tooltip="{{this.tooltip}}" class="{{this.cssClass}} die-{{this.attr}} d6">{{this.currentValue}}</span>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.masterPlaceholder}}
+        <section class="tab {{tabs.masterPlaceholder.cssClass}}" data-tab="masterPlaceholder" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize tabs.masterPlaceholder.label}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    <p class="hint">{{localize "GodsMenu.FateTab.MasterPlaceholderDesc"}}</p>
+                </div>
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if tabs.noOption}}
+        <section class="tab {{tabs.noOption.cssClass}}" data-tab="noOption" data-group="sheet">
+            <div class="dialog-content standard-form">
+                <h4 class="center">{{localize tabs.noOption.label}}</h4>
+                <div class="description flexcol gap5px center dsa-info-box">
+                    <p class="hint">{{localize "GodsMenu.FateTab.NoOptionDesc"}}</p>
+                </div>
+            </div>
+        </section>
+        {{/if}}
+    </section>
+    {{/if}}
+
+    <footer class="row-section gap5px margin-top">
+        <button type="button" data-action="confirm" class="col dsa5 button" {{#unless hasFateAction}}disabled{{/unless}}>{{localize "GodsMenu.FateTab.Apply"}}</button>
+        <button type="button" data-action="close" class="col dsa5 button">{{localize "cancel"}}</button>
+        {{#if isGM}}
+        <button type="button" data-action="cheat" class="col dsa5 button" {{#unless hasFateAction}}disabled{{/unless}}>{{localize "DIALOG.cheat"}}</button>
+        {{/if}}
+    </footer>
+</div>
