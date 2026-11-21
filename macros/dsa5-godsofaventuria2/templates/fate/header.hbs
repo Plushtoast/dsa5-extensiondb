@@ -1,0 +1,66 @@
+<div class="gods-menu-header">
+  {{#if pickHint}}
+  <p class="dsa-info-text small dsamb-2">{{localize "GodsMenu.PickHint"}}</p>
+  {{/if}}
+  {{#if viewHint}}
+  <p class="dsa-info-text small dsamb-2">{{localize "GodsMenu.ShowHint"}}</p>
+  {{/if}}
+
+  {{#if actor}}
+  <div class="row-section">
+    <div class="col third center position-relative">
+      <img class="profile centerMargin gods-header-profile" src="{{actor.img}}" data-tooltip="{{actor.name}}">
+      {{#if showActorSwitcher}}
+      <a data-action="unselectActor" class="gods-header-close" data-tooltip="{{localize 'GodsMenu.ChangeHero'}}"><i class="fas fa-times"></i></a>
+      {{/if}}
+    </div>
+    <div class="col seventy">
+      <div class="row-section">
+        <div class="col ninety">
+          <h3><a data-action="openChar">{{actor.name}}</a></h3>
+        </div>
+        <div class="col ten center flexrow">
+          {{#if canReset}}
+          <a data-action="resetSchips" class="gods-header-reset" data-tooltip="{{localize 'GodsMenu.ResetSchipsTooltip'}}">
+            <i class="fa fa-recycle" aria-hidden="true"></i>
+          </a>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{#if hasHeaderSchips}}
+  <div class="row-schips stackedSchips gods-schip-container">
+    {{#each fatePoints}}
+    <button type="button" {{#if ../canEditSchips}}data-action="schipUpdate"{{/if}} class="ownSchips noBorder dsadesignbutton schip {{this.cssClass}}" data-val="{{this.val}}" data-tooltip="{{localize 'GodsMenu.FateTab.FatePoint'}}" {{#unless ../canEditSchips}}disabled{{/unless}}></button>
+    {{/each}}
+
+    {{#each specialPointsGroups}}
+      {{#each this.dots}}
+      <button type="button" {{#if ../../canEditSchips}}data-action="specialSchipUpdate"{{/if}} class="ownSchips noBorder dsadesignbutton schip {{this.cssClass}}" data-key="{{../key}}" data-val="{{this.val}}" data-tooltip="{{../name}}-Schip" style="{{this.imgStyle}}" {{#unless ../../canEditSchips}}disabled{{/unless}}></button>
+      {{/each}}
+    {{/each}}
+  </div>
+  {{/if}}
+
+  {{else}}
+  {{#if canSwitchActor}}
+  <div class="no-personae-list">
+    <div class="empty-state-small">
+      <i class="fas fa-hat-wizard"></i>
+      <h3>{{localize "PLAYER.selectActor"}}</h3>
+      <p>{{localize "PLAYER.noActorHint"}}</p>
+    </div>
+    {{#if availableActors.length}}
+    <div class="row-section bags gap2px wrap flexAlignCenter">
+      {{#each availableActors as |a|}}
+      <div class="slot" data-action="quickSelectActor" data-actor-id="{{a.id}}" style="background-image:url('{{a.img}}')" data-tooltip="{{a.name}}">
+      </div>
+      {{/each}}
+    </div>
+    {{/if}}
+  </div>
+  {{/if}}
+  {{/if}}
+</div>
