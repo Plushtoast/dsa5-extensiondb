@@ -1,6 +1,8 @@
 import { DSA5_Utility, DiceDSA5, FateRolls } from './dsa5-api.js';
 import { DSA5GodsMenuConfig } from './config.js';
-import { promptRerollCheat } from './fate-dialogs.js';
+import { promptRerollCheat, promptRegenDistribution } from './fate-dialogs.js';
+import { REGEN_BLESSING_CONFIG, getEligibleCompanions } from './fate-context.js';
+import { applyRegenBlessing } from './fate-effects.js';
 
 const REGEN_STAT_MAP = {
     LeP: { label: 'wounds', color: 'mu' },
@@ -18,18 +20,15 @@ export async function processReroll(diceIndices, testData, postData, rollContext
         const diceData = diceIndices.map((dieIndex, rollIndex) => {
             const charData = postData?.characteristics?.[dieIndex] || {};
             const term = testData.roll.terms[dieIndex * 2];
-            const faces = term?.faces || 20;
-            const original = charData.res || term?.results?.[0]?.result || 1;
             const attr = charData.char || 'd20';
-            const cssClass = charData.suc ? 'suc' : (charData.suc === false ? 'fail' : '');
-
-            let tooltip = '';
-            if (charData.tar) {
-                const locChar = _loc(`CHARAbbrev.${attr.toUpperCase()}`);
-                tooltip = `${locChar} vs ${charData.tar}`;
-            }
-
-            return { rollIndex, original, faces, attr, cssClass, tooltip };
+            return {
+                rollIndex,
+                original: charData.res ?? term.results[0].result,
+                faces: term.faces,
+                attr,
+                cssClass: charData.suc ? 'suc' : (charData.suc === false ? 'fail' : ''),
+                tooltip: charData.tar ? `${_loc(`CHARAbbrev.${attr.toUpperCase()}`)} vs ${charData.tar}` : '',
+            };
         });
 
         cheatResults = await promptRerollCheat(diceData);
@@ -49,151 +48,152 @@ export async function processReroll(diceIndices, testData, postData, rollContext
 
 export async function executeReroll(app, data, newTestData, isCheat, isMasterReroll) {
     if (app.selectedForReroll.size === 0) {
-        ui.notifications.warn(_loc("DSAError.noDieSelected"));
+        ui.notifications.warn(_loc('DSAError.noDieSelected'));
         return null;
     }
 
-    const isPhex = app.dsaActor.items.some(item => item.type === 'specialability' && item.name === _loc('LocalizedIDs.traditionPhex'));
-
+    const isPhex = DSA5GodsMenuConfig.hasPhexTradition(app.dsaActor);
     const rerollData = await processReroll(
         Array.from(app.selectedForReroll).sort((a, b) => a - b),
-        newTestData, data.postData, 'CHATCONTEXT.Reroll', false, app.dsaActor, isPhex, isCheat
+        newTestData, data.postData, 'CHATCONTEXT.Reroll', false, app.dsaActor, isPhex, isCheat,
     );
-
     if (!rerollData) return null;
 
-    if (data.postData && data.postData.characteristics) {
-        rerollData.changes.forEach(c => {
+    if (data.postData.characteristics) {
+        rerollData.changes.forEach((c) => {
             const charObj = data.postData.characteristics[c.index];
             if (charObj) {
                 charObj.res = c.val;
-                if (charObj.tar !== undefined) {
-                    charObj.suc = c.val <= charObj.tar;
-                }
+                if (charObj.tar !== undefined) charObj.suc = c.val <= charObj.tar;
             }
         });
     }
     newTestData.fateUsed = true;
 
-    const chatActionLabel = isMasterReroll ? _loc("GodsMenu.FateTab.MasterFate") : _loc("GodsMenu.FateTab.Reroll");
-    const chatRollDetails = FateRolls.formatDieChangesHtml(rerollData.changedRolls);
-
-    const flagToUpdate = isMasterReroll ? 'meisterSchicksalUsed' : FateRolls.FLAGS.FATE_REROLL;
-
-    return { chatActionLabel, chatRollDetails, flagToUpdate };
+    return {
+        chatActionLabel: _loc(isMasterReroll ? 'GodsMenu.FateTab.MasterFate' : 'GodsMenu.FateTab.Reroll'),
+        chatRollDetails: FateRolls.formatDieChangesHtml(rerollData.changedRolls),
+        flagToUpdate: isMasterReroll ? 'meisterSchicksalUsed' : FateRolls.FLAGS.FATE_REROLL,
+    };
 }
 
 // Schadenswurf wiederholen
 
-export async function executeDamageReroll(app, data, newTestData, isCheat, isMasterDamageReroll) {
-    if (app.selectedForDamageReroll.size === 0) {
-        ui.notifications.warn(_loc("DSAError.noDieSelected"));
-        return null;
-    }
-    if (app.tabGroups.sheet === 'rerollDamage' && app.selectedForDamageReroll.size > 1) {
-        ui.notifications.warn(_loc("DSAError.maxOneDie"));
-        return null;
-    }
-
-    const origDamageData = data.postData.damageRoll || data.preData.damageRoll;
+export async function processDamageReroll(selectedIndices, origDamageData, messageMode, isCheat = false) {
     const originalRoll = DiceDSA5.fromRollData(origDamageData);
     if (!originalRoll?.terms) return null;
 
-    const selectedIndices = Array.from(app.selectedForDamageReroll).sort((a, b) => a - b);
+    const sortedIndices = [...selectedIndices].sort((a, b) => a - b);
     const rerollFormulas = [];
     const diceMapping = [];
 
     let globalIndex = 0;
     for (let termIdx = 0; termIdx < originalRoll.terms.length; termIdx++) {
         const term = originalRoll.terms[termIdx];
-        if (term.results) {
-            for (let resIdx = 0; resIdx < term.results.length; resIdx++) {
-                if (selectedIndices.includes(globalIndex)) {
-                    rerollFormulas.push(`1d${term.faces}`);
-                    diceMapping.push({ termIdx, resIdx, originalResult: term.results[resIdx].result });
-                }
-                globalIndex++;
+        if (!term.results) continue;
+        for (let resIdx = 0; resIdx < term.results.length; resIdx++) {
+            if (sortedIndices.includes(globalIndex)) {
+                rerollFormulas.push(`1d${term.faces}`);
+                diceMapping.push({ termIdx, resIdx, originalResult: term.results[resIdx].result });
             }
+            globalIndex++;
         }
     }
+
+    if (!rerollFormulas.length) return null;
 
     let newRerollDie = await new Roll(rerollFormulas.join(' + ')).evaluate();
     newRerollDie = await DiceDSA5.manualRolls(newRerollDie, 'CHATCONTEXT.rerollDamage', { cheat: false });
 
     if (isCheat) {
         const diceData = diceMapping.map((mapping, idx) => ({
-            rollIndex: idx, original: mapping.originalResult, faces: originalRoll.terms[mapping.termIdx].faces, attr: 'damage', cssClass: 'fail', tooltip: _loc('Trefferpunkte')
+            rollIndex: idx,
+            original: mapping.originalResult,
+            faces: originalRoll.terms[mapping.termIdx].faces,
+            attr: 'damage',
+            cssClass: 'fail',
+            tooltip: _loc('Trefferpunkte'),
         }));
         const cheatResults = await promptRerollCheat(diceData);
         if (!cheatResults) {
-            ui.notifications.warn(_loc("GodsMenu.FateTab.ActionCancelled"));
+            ui.notifications.warn(_loc('GodsMenu.FateTab.ActionCancelled'));
             return null;
         }
         let cheatIdx = 0;
-        newRerollDie.terms.forEach(term => {
-            if (term.results) term.results.forEach(res => { res.result = cheatResults[cheatIdx++]; });
+        newRerollDie.terms.forEach((term) => {
+            term.results?.forEach((res) => { res.result = cheatResults[cheatIdx++]; });
         });
-        if (typeof newRerollDie._evaluateTotal === 'function') newRerollDie._total = newRerollDie._evaluateTotal();
+        newRerollDie._total = newRerollDie._evaluateTotal();
     }
 
-    newRerollDie.dice.forEach(die => die.options.colorset = FateRolls.DICE_COLOR_BLACK);
-    await DiceDSA5.showDiceSoNice(newRerollDie, data.messageMode);
+    newRerollDie.dice.forEach((die) => { die.options.colorset = FateRolls.DICE_COLOR_BLACK; });
+    await DiceDSA5.showDiceSoNice(newRerollDie, messageMode);
 
     let finalRoll = Roll.fromData(originalRoll.toJSON());
     let newResultFlatIndex = 0;
-    let damageChangesHtml = [];
+    const damageChangesHtml = [];
 
-    newRerollDie.terms.forEach(term => {
-        if (term.results) {
-            term.results.forEach(res => {
-                let map = diceMapping[newResultFlatIndex];
-                let oldVal = map.originalResult;
-                let newVal = res.result;
-                let faces = originalRoll.terms[map.termIdx].faces;
-
-                const formatted = FateRolls.formatDieChange(oldVal, newVal, { char: 'damage', faces: faces });
-                damageChangesHtml.push(formatted.html);
-
-                finalRoll.terms[map.termIdx].results[map.resIdx].result = newVal;
-                newResultFlatIndex++;
-            });
-        }
+    newRerollDie.terms.forEach((term) => {
+        term.results?.forEach((res) => {
+            const map = diceMapping[newResultFlatIndex++];
+            const faces = originalRoll.terms[map.termIdx].faces;
+            damageChangesHtml.push(FateRolls.formatDieChange(map.originalResult, res.result, { char: 'damage', faces }).html);
+            finalRoll.terms[map.termIdx].results[map.resIdx].result = res.result;
+        });
     });
 
-    if (typeof finalRoll._evaluateTotal === 'function') finalRoll._total = finalRoll._evaluateTotal();
+    finalRoll._total = finalRoll._evaluateTotal();
     finalRoll = await DiceDSA5.manualRolls(finalRoll, 'CHATCONTEXT.rerollDamage', { cheat: false });
 
-    foundry.utils.setProperty(finalRoll, "options.diceSoNice", false);
+    foundry.utils.setProperty(finalRoll, 'options.diceSoNice', false);
+    const damageRoll = finalRoll.toJSON();
+    damageRoll.options.diceSoNice = false;
 
-    newTestData.damageRoll = finalRoll.toJSON();
-    newTestData.damageRoll.options = newTestData.damageRoll.options || {};
-    newTestData.damageRoll.options.diceSoNice = false;
+    return {
+        damageRoll,
+        chatRollDetails: FateRolls.formatDieChangesHtml(damageChangesHtml),
+    };
+}
 
-    const chatActionLabel = isMasterDamageReroll ? _loc("GodsMenu.FateTab.MasterDarkness") : _loc("GodsMenu.FateTab.RerollDamage");
-    const chatRollDetails = FateRolls.formatDieChangesHtml(damageChangesHtml);
+export async function executeDamageReroll(app, data, newTestData, isCheat, isMasterDamageReroll) {
+    if (app.selectedForDamageReroll.size === 0) {
+        ui.notifications.warn(_loc('DSAError.noDieSelected'));
+        return null;
+    }
+    if (app.tabGroups.sheet === 'rerollDamage' && app.selectedForDamageReroll.size > 1) {
+        ui.notifications.warn(_loc('DSAError.maxOneDie'));
+        return null;
+    }
 
-    const flagToUpdate = isMasterDamageReroll ? null : FateRolls.FLAGS.FATE_DAMAGE_REROLL;
-    return { chatActionLabel, chatRollDetails, flagToUpdate };
+    const origDamageData = data.postData.damageRoll || data.preData.damageRoll;
+    const result = await processDamageReroll(app.selectedForDamageReroll, origDamageData, data.messageMode, isCheat);
+    if (!result) return null;
+
+    newTestData.damageRoll = result.damageRoll;
+
+    return {
+        chatActionLabel: _loc(isMasterDamageReroll ? 'GodsMenu.FateTab.MasterDarkness' : 'GodsMenu.FateTab.RerollDamage'),
+        chatRollDetails: result.chatRollDetails,
+        flagToUpdate: isMasterDamageReroll ? null : FateRolls.FLAGS.FATE_DAMAGE_REROLL,
+    };
 }
 
 // Qualitätsstufe erhöhen
 
 export async function executeAddQS(app, newTestData, cardOptions, avesDouble) {
-    let qsToAdd = 1;
-    if (avesDouble) {
-        qsToAdd = 2;
-    } else if (app.selectedPool === 'special' && DSA5GodsMenuConfig.isQsAndReroll(app.selectedSpecialKey, newTestData.source?.name || '')) {
-        qsToAdd = 2;
-    }
+    const qsToAdd = (avesDouble || (app.selectedPool === 'special' && DSA5GodsMenuConfig.isQsAndReroll(app.selectedSpecialKey, newTestData.source?.name || '')))
+        ? 2
+        : 1;
 
     DSA5_Utility.clearUserTargets();
     cardOptions.fatePointAddQSUsed = true;
     newTestData.qualityStep = qsToAdd;
 
-    const chatActionLabel = _loc("GodsMenu.FateTab.AddQS");
-    const chatRollDetails = _loc("GodsMenu.FateTab.AddQSChatDetail", { qs: qsToAdd });
-
-    return { chatActionLabel, chatRollDetails, flagToUpdate: FateRolls.FLAGS.FATE_ADD_QS };
+    return {
+        chatActionLabel: _loc('GodsMenu.FateTab.AddQS'),
+        chatRollDetails: _loc('GodsMenu.FateTab.AddQSChatDetail', { qs: qsToAdd }),
+        flagToUpdate: FateRolls.FLAGS.FATE_ADD_QS,
+    };
 }
 
 // Fieser Schaden
@@ -203,24 +203,22 @@ export async function executeFieserSchaden(app, data, newTestData, isCheat) {
     const originalRoll = DiceDSA5.fromRollData(origDamageData);
     if (!originalRoll?.terms) return null;
 
-    let extraDie = await new Roll("1d6").evaluate();
+    const extraDie = await new Roll('1d6').evaluate();
     let extraDamage = extraDie.total;
 
     if (isCheat) {
         const cheatResults = await promptRerollCheat([{
-            rollIndex: 0, original: 6, faces: 6, attr: 'damage', cssClass: 'fail', tooltip: '+1D6'
+            rollIndex: 0, original: 6, faces: 6, attr: 'damage', cssClass: 'fail', tooltip: '+1D6',
         }]);
         if (!cheatResults) {
-            ui.notifications.warn(_loc("GodsMenu.FateTab.ActionCancelled"));
+            ui.notifications.warn(_loc('GodsMenu.FateTab.ActionCancelled'));
             return null;
         }
         extraDamage = cheatResults[0];
     }
 
-    const newFormula = `${originalRoll.formula} + 1d6`;
-    const newTermsData = originalRoll.terms.map(t => t.toJSON());
-
-    const plusData = new foundry.dice.terms.OperatorTerm({ operator: "+" }).toJSON();
+    const newTermsData = originalRoll.terms.map((t) => t.toJSON());
+    const plusData = new foundry.dice.terms.OperatorTerm({ operator: '+' }).toJSON();
     plusData.evaluated = true;
     newTermsData.push(plusData);
 
@@ -228,75 +226,67 @@ export async function executeFieserSchaden(app, data, newTestData, isCheat) {
     if (isCheat) extraTermData.results[0].result = extraDamage;
     newTermsData.push(extraTermData);
 
-    let newRoll = Roll.fromData({
-        formula: newFormula,
+    const newRoll = Roll.fromData({
+        formula: `${originalRoll.formula} + 1d6`,
         terms: newTermsData,
         evaluated: true,
-        total: originalRoll.total + extraDamage
+        total: originalRoll.total + extraDamage,
     });
 
-    newRoll.dice.forEach(die => die.options.colorset = FateRolls.DICE_COLOR_BLACK);
+    newRoll.dice.forEach((die) => { die.options.colorset = FateRolls.DICE_COLOR_BLACK; });
     await DiceDSA5.showDiceSoNice(newRoll, data.messageMode);
 
     newTestData.damageRoll = newRoll.toJSON();
 
-    const chatActionLabel = _loc("GodsMenu.FateTab.MasterNastyDamage");
-    const chatRollDetails = _loc("GodsMenu.FateTab.ExtraDamage", { damage: extraDamage });
-
-    return { chatActionLabel, chatRollDetails, flagToUpdate: 'fieserSchadenUsed' };
+    return {
+        chatActionLabel: _loc('GodsMenu.FateTab.MasterNastyDamage'),
+        chatRollDetails: _loc('GodsMenu.FateTab.ExtraDamage', { damage: extraDamage }),
+        flagToUpdate: 'fieserSchadenUsed',
+    };
 }
 
 // Gescheiterter Angriff
 
 export async function executeGescheitert(app, data, cardOptions) {
-    const successLvl = data.postData?.successLevel ?? data.postData?.result?.successLevel ?? 0;
-    const isCrit = (successLvl > 2) || data.postData?.result?.critical;
+    const successLvl = data.postData.successLevel ?? data.postData.result?.successLevel ?? 0;
+    const isCrit = (successLvl > 2) || data.postData.result?.critical;
     const cost = isCrit ? 3 : 2;
-    const failureText = _loc("Failure");
+    const failureText = _loc('Failure');
 
-    data.postData.successLevel = -1;
-    data.postData.success = false;
-    data.postData.description = failureText;
-    data.postData.critical = false;
-    data.postData.halfDefense = false;
-    if (data.postData.result) {
-        data.postData.result.successLevel = -1;
-        data.postData.result.success = false;
-        data.postData.result.critical = false;
-        data.postData.result.description = failureText;
+    for (const target of [data.postData, data.postData.result].filter(Boolean)) {
+        target.successLevel = -1;
+        target.success = false;
+        target.critical = false;
+        target.description = failureText;
+        target.characteristics?.forEach((c) => { c.success = false; });
     }
-    if (data.postData.characteristics) data.postData.characteristics.forEach(c => c.success = false);
-    if (data.postData.result?.characteristics) data.postData.result.characteristics.forEach(c => c.success = false);
-
-    const chatActionLabel = _loc("GodsMenu.FateTab.MasterFailedAttack");
-    const chatRollDetails = _loc("GodsMenu.FateTab.MasterFailedDesc", { cost: cost });
+    data.postData.halfDefense = false;
 
     cardOptions.skipNativePostFunction = true;
 
-    return { chatActionLabel, chatRollDetails, cost };
+    return {
+        chatActionLabel: _loc('GodsMenu.FateTab.MasterFailedAttack'),
+        chatRollDetails: _loc('GodsMenu.FateTab.MasterFailedDesc', { cost }),
+        cost,
+    };
 }
 
 // Modifikationen (Verbessern / Spezial Reroll)
 
 export async function executeImprove(app, data, newTestData, isCheat, cardOptions) {
     let specialRollsText = [];
-    let flagsToUpdate = [];
+    const flagsToUpdate = [];
 
-    // Götter und Erzdämonen Reroll
     if (app.selectedForSpecialReroll >= 0) {
-        const isPhex = app.dsaActor.items.some(item => item.type === 'specialability' && item.name === _loc('LocalizedIDs.traditionPhex'));
-
+        const isPhex = DSA5GodsMenuConfig.hasPhexTradition(app.dsaActor);
         const rerollData = await processReroll(
             [app.selectedForSpecialReroll],
-            newTestData, data.postData, 'CHATCONTEXT.Reroll', true, app.dsaActor, isPhex, isCheat
+            newTestData, data.postData, 'CHATCONTEXT.Reroll', true, app.dsaActor, isPhex, isCheat,
         );
-
         if (!rerollData) return null;
         specialRollsText = rerollData.changedRolls;
         flagsToUpdate.push(FateRolls.FLAGS.FATE_REROLL);
-    }
-    // Basis "Ergebnis verbessern"
-    else if (app.tabGroups.sheet === 'improve' || app.selectedForImprove >= 0) {
+    } else if (app.tabGroups.sheet === 'improve' || app.selectedForImprove >= 0) {
         const multiDie = (data.postData.characteristics?.length ?? 0) > 1;
         const dieIndex = multiDie ? app.selectedForImprove : 0;
         if (multiDie && dieIndex < 0) {
@@ -326,20 +316,20 @@ export async function executeImprove(app, data, newTestData, isCheat, cardOption
 
 export async function executeMasterRegen(app, data, isCheat, cardOptions) {
     const idx = app.selectedForMasterRegen;
-    if (idx === undefined || idx < 0) {
+    if (idx < 0) {
         ui.notifications.warn(_loc('DSAError.noDieSelected'));
         return null;
     }
 
     const tpl = document.createElement('template');
-    tpl.innerHTML = app.message.content || '';
+    tpl.innerHTML = app.message.content;
     const span = tpl.content.querySelectorAll('.roll-result span.d6')[idx];
     if (!span) return null;
 
-    const oldVal = parseInt(span.textContent, 10) || 0;
-    const rawClass = span.getAttribute('class') || '';
-    const attr = rawClass.match(/die-(LeP|AsP|KaP)/)?.[1] || 'LeP';
+    const oldVal = parseInt(span.textContent, 10);
+    const attr = span.getAttribute('class')?.match(/die-(LeP|AsP|KaP)/)?.[1];
     const statCfg = REGEN_STAT_MAP[attr];
+    if (!statCfg) return null;
 
     let reroll = await new Roll('1d6').evaluate();
     if (!isCheat) {
@@ -371,14 +361,13 @@ export async function executeMasterRegen(app, data, isCheat, cardOptions) {
         game.dsa5.apps.DiceSoNiceCustomization.getAttributeConfiguration(statCfg.color),
     );
 
-    const finalValue = newVal;
-    const diff = finalValue - oldVal;
-    span.textContent = String(finalValue);
+    const diff = newVal - oldVal;
+    span.textContent = String(newVal);
 
     const updates = {};
     if (diff !== 0) {
         const catString = _loc(statCfg.label);
-        const newStatVal = Math.max(0, (Number(data.postData?.[attr]) || 0) + diff);
+        const newStatVal = Math.max(0, (Number(data.postData[attr]) || 0) + diff);
         updates[`flags.data.postData.${attr}`] = newStatVal;
 
         const input = tpl.content.querySelector(`input.roll-edit[data-tooltip="${catString}"]`);
@@ -397,11 +386,70 @@ export async function executeMasterRegen(app, data, isCheat, cardOptions) {
     await app.message.update(updates);
     cardOptions.skipNativePostFunction = true;
 
-    const changeHtml = FateRolls.formatDieChange(oldVal, finalValue, { char: attr, faces: 6 }).html;
+    const changeHtml = FateRolls.formatDieChange(oldVal, newVal, { char: attr, faces: 6 }).html;
     return {
         chatActionLabel: _loc('GodsMenu.FateTab.MasterRegen'),
         chatRollDetails: FateRolls.formatDieChangesHtml([changeHtml]),
         flagToUpdate: 'meisterRegenUsed',
+    };
+}
+
+// Regenerations-Segen auf Probenaufforderung (Mada / Travia): Vorbereitung vor dem 2W6-Wurf
+
+export async function prepareRegenBlessing(app, key) {
+    const cfg = REGEN_BLESSING_CONFIG[key];
+    if (!cfg) return null;
+
+    if (app.message.flags?.dsa5?.rollRequest?.finalized) {
+        ui.notifications.warn(_loc('GodsMenu.FateTab.GodsRegenDistributeFinalized'));
+        return null;
+    }
+    if ((app.message.flags?.data?.fateSpecialUsed || []).includes(key)) {
+        ui.notifications.warn(_loc('GodsMenu.FateTab.GodsRegenDistributeAlreadyUsed'));
+        return null;
+    }
+    if (!game.user.isGM && !game.users.activeGM) {
+        ui.notifications.error(_loc('GodsMenu.FateTab.GodsRegenDistributeNoGM'));
+        return null;
+    }
+
+    const companions = getEligibleCompanions(app.dsaActor, app.message, key);
+    if (!companions.length) {
+        ui.notifications.warn(_loc('GodsMenu.FateTab.GodsRegenDistributeNoCompanions'));
+        return null;
+    }
+
+    const allocations = await promptRegenDistribution({ key, cfg, companions });
+    if (!allocations?.length) {
+        ui.notifications.warn(_loc('GodsMenu.FateTab.ActionCancelled'));
+        return null;
+    }
+    return allocations;
+}
+
+// Regenerations-Segen auf Probenaufforderung (Mada / Travia): Anwendung nach dem 2W6-Wurf
+
+export async function executeRegenBlessing(app, key, allocations, cardOptions) {
+    const cfg = REGEN_BLESSING_CONFIG[key];
+    const result = await applyRegenBlessing({
+        key,
+        casterId: app.dsaActor.id,
+        messageId: app.message.id,
+        allocations,
+    });
+
+    if (!result?.ok) {
+        if (result?.reason === 'alreadyUsed') ui.notifications.warn(_loc('GodsMenu.FateTab.GodsRegenDistributeAlreadyUsed'));
+        else if (result?.reason === 'finalized') ui.notifications.warn(_loc('GodsMenu.FateTab.GodsRegenDistributeFinalized'));
+        else ui.notifications.error(_loc('GodsMenu.FateTab.GodsRegenDistributeNoGM'));
+        return null;
+    }
+
+    cardOptions.skipNativePostFunction = true;
+
+    return {
+        chatActionLabel: `${DSA5GodsMenuConfig.schipName(key)}-Schip`,
+        chatRollDetails: result.applied.map((a) => `<p><b>${a.name}</b>: +${a.amount} ${cfg.resource}</p>`).join(''),
     };
 }
 
@@ -423,16 +471,14 @@ export async function consumeSchip(actor, schipToConsume) {
             }
             break;
         case 'special': {
-            if (!schipToConsume.key) break;
             const path = `flags.dsa5.specialPoints.${schipToConsume.key}.current`;
             const currentVal = foundry.utils.getProperty(actor, path) || 0;
             await actor.update({ [path]: Math.max(0, currentVal - amount) });
             break;
         }
         case 'master': {
-            const raw = game.settings.get('dsa5', 'masterschips') || '0/0';
-            const [cur, max] = raw.split('/').map(Number);
-            await game.settings.set('dsa5', 'masterschips', `${Math.max(0, cur - amount)}/${max}`);
+            const { current, max } = DSA5GodsMenuConfig.getSchipSetting('masterschips');
+            await DSA5GodsMenuConfig.setSchipSetting('masterschips', current - amount, max);
             break;
         }
     }
