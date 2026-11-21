@@ -1,0 +1,34 @@
+<div class="flexcol gap10px dsap-2">
+    <div class="dsa-info-box dsam-0">
+        <p class="dsa-info-text">{{{description}}}</p>
+    </div>
+
+    <div class="flexrow flexAlignCenter dsa-justify-between">
+        <span><b>{{localize "GodsMenu.FateTab.GodsRegenDistributeRemaining" resource=resource}}</b></span>
+        <span class="dsa-value">{{remaining}} / {{maxTotal}} {{resource}}</span>
+    </div>
+
+    {{#each targets}}
+    <div class="flexrow flexAlignCenter dsa-justify-between">
+        <div class="flexrow flexAlignCenter gap5px">
+            <img src="{{this.img}}" alt="{{this.name}}" class="gods-regen-avatar" />
+            <span><b>{{this.name}}</b></span>
+        </div>
+        <div class="flex0 flexrow dsaflex-no-wrap flexAlignCenter gap5px">
+            <button type="button" class="dsadesignbutton" data-action="adjustAmount" data-actor-id="{{this.id}}" data-dir="left" {{#if this.atMin}}disabled{{/if}}>
+                <i class="fas fa-minus"></i>
+            </button>
+            <input type="number" class="fg-cost-input gods-regen-input" data-actor-id="{{this.id}}" value="{{this.amount}}" min="0" max="{{this.maxAllowed}}" />
+            <button type="button" class="dsadesignbutton" data-action="adjustAmount" data-actor-id="{{this.id}}" data-dir="right" {{#if this.atMax}}disabled{{/if}}>
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    {{/each}}
+
+    <footer class="form-footer flexrow gap5px dsamt-2">
+        <button type="button" class="sheetButton" data-action="confirm" {{#unless canConfirm}}disabled{{/unless}}>
+            {{localize "GodsMenu.FateTab.Apply"}}
+        </button>
+    </footer>
+</div>
